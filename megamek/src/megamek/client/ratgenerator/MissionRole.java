@@ -67,6 +67,7 @@ public enum MissionRole {
                 return unitType <= UnitType.TANK;
 
             case FIRE_SUPPORT:
+            case SR_FIRE_SUPPORT:
             case CAVALRY:
             case RAIDER:
             case APC:
@@ -146,7 +147,7 @@ public enum MissionRole {
                 return unitType == UnitType.INFANTRY;
 
             case MIXED_ARTILLERY:
-                /* TODO: allow inclusion of artillery without binary either/or */
+                return unitType <= UnitType.AEROSPACEFIGHTER && unitType != UnitType.PROTOMEK;
             default:
                 return false;
         }
