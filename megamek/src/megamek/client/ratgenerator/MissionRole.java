@@ -427,12 +427,12 @@ public enum MissionRole {
                         }
                         break;
                     case INCENDIARY:
-                        if (mRec.getRoles().contains(INCENDIARY)) {
+                        if (isSpecialized(desiredRoles, mRec)) {
+                            return null;
+                        } else if (mRec.getRoles().contains(INCENDIARY)) {
                             avRating += avAdj[2];
                         } else {
-                            if (isSpecialized(desiredRoles, mRec)) {
-                                avRating = 0;
-                            } else if (mRec.hasIncendiaryWeapon()) {
+                            if (mRec.hasIncendiaryWeapon()) {
                                 avRating += avAdj[2];
                             } else {
                                 avRating -= avAdj[2];
