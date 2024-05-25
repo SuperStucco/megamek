@@ -671,13 +671,35 @@ public enum MissionRole {
 
     private static boolean isSpecialized(Collection<MissionRole> desiredRoles,
             ModelRecord mRec) {
-        return (mRec.getRoles().contains(SUPPORT) && !desiredRoles.contains(SUPPORT)) ||
-                (mRec.getRoles().contains(CARGO) && !desiredRoles.contains(CARGO)) ||
-                (mRec.getRoles().contains(TUG) && !desiredRoles.contains(TUG)) ||
-                (mRec.getRoles().contains(CIVILIAN) && !desiredRoles.contains(CIVILIAN)) ||
-                (mRec.getRoles().contains(TRAINING) && !desiredRoles.contains(TRAINING)) ||
-                (mRec.getRoles().contains(ARTILLERY) && !desiredRoles.contains(ARTILLERY)
-                        && !desiredRoles.contains(MIXED_ARTILLERY));
+
+        // Only units with role tags can be specialized
+        if (mRec.getRoles().isEmpty()) {
+            return false;
+        }
+
+        // Non-combat SUPPORT role
+        if (mRec.getRoles().contains(SUPPORT) && !desiredRoles.contains(SUPPORT)) {
+            return true;
+        }
+
+        // Non-combat CIVILIAN role
+        if (mRec.getRoles().contains(CIVILIAN) && !desiredRoles.contains(CIVILIAN)) {
+            return true;
+        }
+
+        // The only thing this unit does is provide artillery support.  DropShips are excluded
+        // from this check as they naturally provide more than one function.
+        if (mRec.getUnitType() != UnitType.DROPSHIP &&
+                (mRec.getRoles().size() == 1) &&
+                (mRec.getRoles().contains(ARTILLERY) || mRec.getRoles().contains(MISSILE_ARTILLERY))) {
+
+            return !desiredRoles.contains(ARTILLERY) &&
+                    !desiredRoles.contains(MISSILE_ARTILLERY) &&
+                    !desiredRoles.contains(MIXED_ARTILLERY);
+
+        }
+
+        return false;
     }
 
     public static MissionRole parseRole(String role) {
