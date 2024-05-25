@@ -84,9 +84,13 @@ public enum MissionRole {
                 return unitType <= UnitType.PROTOMEK; // all ground units
 
             case ENGINEER:
+                return unitType == UnitType.TANK || unitType == UnitType.INFANTRY;
+
             case MINESWEEPER:
             case MINELAYER:
-                return unitType < UnitType.TANK || unitType == UnitType.INFANTRY;
+                return unitType == UnitType.TANK ||
+                        unitType == UnitType.INFANTRY ||
+                        unitType == UnitType.BATTLE_ARMOR;
 
             case CARGO:
                 return unitType < UnitType.BATTLE_ARMOR || unitType > UnitType.PROTOMEK;
