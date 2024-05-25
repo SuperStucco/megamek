@@ -386,29 +386,20 @@ public enum MissionRole {
                         }
                         break;
                     case URBAN:
-                        if (mRec.getRoles().contains(URBAN)) {
+                        if (isSpecialized(desiredRoles, mRec)) {
+                            return null;
+                        }else if (mRec.getRoles().contains(URBAN)) {
                             avRating += avAdj[2];
-                        } else if (mRec.getRoles().contains(ANTI_INFANTRY)) {
+                        } else if (mRec.getRoles().contains(ANTI_INFANTRY) ||
+                                mRec.getRoles().contains(SR_FIRE_SUPPORT)) {
                             avRating += avAdj[1];
                         } else if (mRec.getRoles().contains(INF_SUPPORT)) {
                             avRating += avAdj[0];
                         } else {
-                            if (isSpecialized(desiredRoles, mRec)) {
-                                return null;
-                            }
+
                             if (mRec.getRoles().contains(FIRE_SUPPORT) ||
-                                    mRec.getRoles().contains(SR_FIRE_SUPPORT) ||
                                     mRec.getRoles().contains(ANTI_AIRCRAFT)) {
                                 avRating -= avAdj[0];
-                            }
-                            if (mRec.getRoles().contains(MARINE) ||
-                                    mRec.getRoles().contains(XCT)) {
-                                avRating -= avAdj[2];
-                            }
-                            if (mRec.getRoles().contains(MOUNTAINEER) ||
-                                    mRec.getRoles().contains(PARATROOPER) ||
-                                    mRec.getRoles().contains(SPECOPS)) {
-                                avRating -= avAdj[3];
                             }
                         }
                         if (avRating > 0 && mRec.getUnitType() == UnitType.TANK) {
