@@ -176,8 +176,9 @@ public enum MissionRole {
             for (MissionRole role : desiredRoles) {
                 switch (role) {
                     case ARTILLERY:
-                        if (!mRec.getRoles().contains(ARTILLERY)
-                                && !mRec.getRoles().contains(MISSILE_ARTILLERY)) {
+                        if (!mRec.getRoles().contains(ARTILLERY) &&
+                                !mRec.getRoles().contains(MISSILE_ARTILLERY) &&
+                                !mRec.getRoles().contains(MIXED_ARTILLERY)) {
                             return null;
                         }
                         break;
