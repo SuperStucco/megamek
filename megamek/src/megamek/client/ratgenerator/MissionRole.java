@@ -277,7 +277,8 @@ public enum MissionRole {
                             avRating += avAdj[2];
                         } else if (mRec.getMovementMode() == EntityMovementMode.TRACKED ||
                                     mRec.getMovementMode() == EntityMovementMode.WHEELED ||
-                                    mRec.getMovementMode() == EntityMovementMode.HOVER) {
+                                    mRec.getMovementMode() == EntityMovementMode.HOVER ||
+                                    mRec.getMovementMode() == EntityMovementMode.VTOL) {
                                 return null;
                         } else {
                             avRating += avAdj[0];
