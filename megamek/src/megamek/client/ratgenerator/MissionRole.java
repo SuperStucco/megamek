@@ -271,7 +271,7 @@ public enum MissionRole {
      * @param desiredRoles Role constants that are desired or mandatory
      * @param mRec         ModelRecord of specific unit to check
      * @param year         Year to test in (unused)
-     * @param strictness   Zero or higher.  Larger values are more restrictive
+     * @param strictness   Zero or higher, larger values are more restrictive
      * @return             avRating, adjusted for roles provided and present on unit
      */
     public static Double adjustAvailabilityByRole(double avRating,
@@ -285,6 +285,12 @@ public enum MissionRole {
         for (int i = 0; i < avAdj.length; i++) {
             avAdj[i] = (i + 1) * strictness / 3.0;
         }
+
+        double min_adjust = avAdj[0];
+        double light_adjust = avAdj[1];
+        double medium_adjust = avAdj[2];
+        double strong_adjust = avAdj[3];
+        double max_adjust = avAdj[4];
 
         if (!desiredRoles.isEmpty()) {
             roleApplied = true;
@@ -325,30 +331,30 @@ public enum MissionRole {
                         if (isSpecialized(desiredRoles, mRec)) {
                             return null;
                         } else if (mRec.getRoles().contains(RECON)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(EW_SUPPORT) ||
                                 mRec.getRoles().contains(SPECOPS)) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else if (mRec.getRoles().contains(SPOTTER)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
                             if (mRec.getUnitType() != UnitType.INFANTRY
                                     && mRec.getUnitType() != UnitType.BATTLE_ARMOR
-                                        && mRec.getSpeed() < 4 + avAdj[2] - mRec.getWeightClass()) {
+                                        && mRec.getSpeed() < 4 + medium_adjust - mRec.getWeightClass()) {
                                 return null;
                             }
-                            avRating -= avAdj[3];
+                            avRating -= strong_adjust;
                         }
                         break;
                     // Technically any units can be fielded by specops formations, especially
                     // non-infantry types, but those with the role should take priority
                     case SPECOPS:
                         if (mRec.getRoles().contains(SPECOPS)) {
-                            avRating += avAdj[3];
+                            avRating += strong_adjust;
                         } else if (mRec.getUnitType() == UnitType.INFANTRY) {
-                            avRating -= avAdj[2];
+                            avRating -= medium_adjust;
                         } else {
-                            avRating -= avAdj[1];
+                            avRating -= light_adjust;
                         }
                         break;
                     // Calling for electronic warfare and support units should only return units
@@ -362,22 +368,22 @@ public enum MissionRole {
                     // conventional infantry and battle armor are best
                     case SPOTTER:
                         if (mRec.getRoles().contains(SPOTTER)) {
-                            avRating += avAdj[3];
+                            avRating += strong_adjust;
                         } else if (mRec.getUnitType() == UnitType.INFANTRY ||
                                 mRec.getUnitType() == UnitType.BATTLE_ARMOR) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else {
-                            avRating -= avAdj[2];
+                            avRating -= medium_adjust;
                         }
                         break;
                     case COMMAND:
                         if (mRec.getRoles().contains(COMMAND)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         }
                         if ((ModelRecord.NETWORK_COMPANY_COMMAND & mRec.getNetworkMask()) != 0) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else if ((ModelRecord.NETWORK_C3_MASTER & mRec.getNetworkMask()) != 0) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         }
                         break;
                     // Calling for armored personnel carriers should only return units which have
@@ -391,14 +397,14 @@ public enum MissionRole {
                     // non-mechanized types can also be used
                     case ANTI_MEK:
                         if (mRec.getRoles().contains(ANTI_MEK)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getMovementMode() == EntityMovementMode.TRACKED ||
                                     mRec.getMovementMode() == EntityMovementMode.WHEELED ||
                                     mRec.getMovementMode() == EntityMovementMode.HOVER ||
                                     mRec.getMovementMode() == EntityMovementMode.VTOL) {
                                 return null;
                         } else {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         }
                         break;
                     case FIELD_GUN:
@@ -424,12 +430,12 @@ public enum MissionRole {
                     // with the paratrooper role or jump infantry should be assigned.
                     case PARATROOPER:
                         if (mRec.getRoles().contains(PARATROOPER)){
-                            avRating += avAdj[3];
+                            avRating += strong_adjust;
                         } else {
                             if (mRec.getMovementMode() != EntityMovementMode.INF_JUMP) {
                                 return null;
                             } else {
-                                avRating -= avAdj[0];
+                                avRating -= min_adjust;
                             }
                         }
                         break;
@@ -438,9 +444,9 @@ public enum MissionRole {
                     // the marine role can also be used.  All other units should be rejected.
                     case XCT:
                         if (mRec.getRoles().contains(XCT)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(MARINE)) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else {
                             return null;
                         }
@@ -448,15 +454,15 @@ public enum MissionRole {
                     case FIRE_SUPPORT:
                         if (mRec.getRoles().contains(FIRE_SUPPORT)
                                 || mRec.getLongRange() > 0.75) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getLongRange() > 0.5) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else if (mRec.getLongRange() > 0.2) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else if (mRec.getRoles().contains(ANTI_AIRCRAFT)
                                 || mRec.getRoles().contains(MISSILE_ARTILLERY)
                                 || mRec.getRoles().contains(MIXED_ARTILLERY)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
                             return null;
                         }
@@ -465,10 +471,10 @@ public enum MissionRole {
                     // percentage of weapons BV dedicated to long range
                     case SR_FIRE_SUPPORT:
                         if (mRec.getRoles().contains(SR_FIRE_SUPPORT)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (!mRec.getRoles().contains(FIRE_SUPPORT) &&
                                 mRec.getLongRange() <= 0.2) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else if (mRec.getLongRange() >= 0.5) {
                             return null;
                         }
@@ -479,10 +485,10 @@ public enum MissionRole {
                         } else if (mRec.getRoles().contains(INF_SUPPORT)) {
                             avRating += strictness;
                         } else if (mRec.getRoles().contains(APC)) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else if (mRec.getRoles().contains(ANTI_INFANTRY)
                                 || mRec.getRoles().contains(URBAN)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         }
                         break;
                     case OMNI:
@@ -506,24 +512,24 @@ public enum MissionRole {
                         if (isSpecialized(desiredRoles, mRec)) {
                             return null;
                         }else if (mRec.getRoles().contains(URBAN)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(ANTI_INFANTRY) ||
                                 mRec.getRoles().contains(SR_FIRE_SUPPORT)) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else if (mRec.getRoles().contains(INF_SUPPORT)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
 
                             if (mRec.getRoles().contains(FIRE_SUPPORT) ||
                                     mRec.getRoles().contains(ANTI_AIRCRAFT)) {
-                                avRating -= avAdj[0];
+                                avRating -= min_adjust;
                             }
                         }
                         if (avRating > 0 && mRec.getUnitType() == UnitType.TANK) {
                             if (mRec.getMechSummary().getUnitSubType().equals("Wheeled")) {
-                                avRating += avAdj[2];
+                                avRating += medium_adjust;
                             } else if (mRec.getMechSummary().getUnitSubType().equals("Tracked")) {
-                                avRating -= avAdj[2];
+                                avRating -= medium_adjust;
                             }
                         }
                         break;
@@ -531,15 +537,15 @@ public enum MissionRole {
                         if (isSpecialized(desiredRoles, mRec)) {
                             return null;
                         } else if (mRec.getRoles().contains(RAIDER)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else {
                             if (mRec.getAmmoRequirement() < 0.2) {
-                                avRating += avAdj[1];
+                                avRating += light_adjust;
                             } else if (mRec.getAmmoRequirement() < 0.5) {
-                                avRating += avAdj[0];
+                                avRating += min_adjust;
                             }
-                            if (mRec.getSpeed() < 3 + avAdj[2] - mRec.getWeightClass()) {
-                                avRating -= 2 + avAdj[2] - mRec.getWeightClass() - mRec.getSpeed();
+                            if (mRec.getSpeed() < 3 + medium_adjust - mRec.getWeightClass()) {
+                                avRating -= 2 + medium_adjust - mRec.getWeightClass() - mRec.getSpeed();
                             }
                         }
                         break;
@@ -547,12 +553,12 @@ public enum MissionRole {
                         if (isSpecialized(desiredRoles, mRec)) {
                             return null;
                         } else if (mRec.getRoles().contains(INCENDIARY)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else {
                             if (mRec.hasIncendiaryWeapon()) {
-                                avRating += avAdj[2];
+                                avRating += medium_adjust;
                             } else {
-                                avRating -= avAdj[2];
+                                avRating -= medium_adjust;
                             }
                         }
                         break;
@@ -561,22 +567,22 @@ public enum MissionRole {
                             return null;
                         } else if (mRec.getRoles().contains(ANTI_AIRCRAFT) ||
                                 mRec.getFlak() > 0.75) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getFlak() > 0.5) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else if (mRec.getFlak() > 0.2) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
-                            avRating -= avAdj[1];
+                            avRating -= light_adjust;
                         }
                         break;
                     case ANTI_INFANTRY:
                         if (mRec.getRoles().contains(ANTI_INFANTRY)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (isSpecialized(desiredRoles, mRec)) {
                             return null;
                         } else if (!mRec.hasAPWeapons()) {
-                            avRating -= avAdj[2];
+                            avRating -= medium_adjust;
                         }
                         break;
                     // Most military units can be used in a training role, but prioritize those
@@ -586,45 +592,45 @@ public enum MissionRole {
                                 mRec.getRoles().contains(CIVILIAN)) {
                             return null;
                         } else if (mRec.getRoles().contains(TRAINING)) {
-                            avRating += avAdj[3];
+                            avRating += strong_adjust;
                         } else {
-                            avRating -= avAdj[1];
+                            avRating -= light_adjust;
                         }
                         break;
 
                     case GROUND_SUPPORT:
                         if (mRec.getRoles().contains(GROUND_SUPPORT)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else {
-                            avRating -= avAdj[2];
+                            avRating -= medium_adjust;
                         }
                         break;
                     case INTERCEPTOR:
                         if (mRec.getRoles().contains(INTERCEPTOR)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else {
-                            avRating -= avAdj[2];
+                            avRating -= medium_adjust;
                         }
                         break;
                     case BOMBER:
                         if (mRec.getRoles().contains(BOMBER)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else {
-                            avRating -= avAdj[2];
+                            avRating -= medium_adjust;
                         }
                         break;
                     case ESCORT:
                         if (mRec.getRoles().contains(ESCORT)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else {
-                            avRating -= avAdj[2];
+                            avRating -= medium_adjust;
                         }
                         break;
                     case CAVALRY:
                         if (isSpecialized(desiredRoles, mRec)) {
                             return null;
                         }
-                        avRating += avAdj[2] * (mRec.getSpeed() - (7 - mRec.getWeightClass()));
+                        avRating += medium_adjust * (mRec.getSpeed() - (7 - mRec.getWeightClass()));
                         break;
                     // Large craft roles
                     case CIVILIAN:
@@ -634,19 +640,19 @@ public enum MissionRole {
                         break;
                     case CARGO:
                         if (mRec.getRoles().contains(CARGO)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else {
-                            avRating -= avAdj[2];
+                            avRating -= medium_adjust;
                         }
                         break;
                     case SUPPORT:
                         if (mRec.getRoles().contains(SUPPORT)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(TUG)) {
-                            avRating += avAdj[1];
+                            avRating += light_adjust;
                         } else if (mRec.getRoles().contains(CARGO)
                                     || mRec.getRoles().contains(CIVILIAN)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
                             return null;
                         }
@@ -658,34 +664,34 @@ public enum MissionRole {
                         break;
                     case POCKET_WARSHIP:
                         if (mRec.getRoles().contains(POCKET_WARSHIP)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(ASSAULT)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
                             return null;
                         }
                         break;
                     case ASSAULT:
                         if (mRec.getRoles().contains(ASSAULT)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(POCKET_WARSHIP)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
                             return null;
                         }
                         break;
                     case MECH_CARRIER:
                         if (mRec.getRoles().contains(MECH_CARRIER)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(TROOP_CARRIER)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
                             return null;
                         }
                         break;
                     case ASF_CARRIER:
                         if (mRec.getRoles().contains(ASF_CARRIER)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else {
                             return null;
                         }
@@ -697,18 +703,18 @@ public enum MissionRole {
                         break;
                     case INFANTRY_CARRIER:
                         if (mRec.getRoles().contains(INFANTRY_CARRIER)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(TROOP_CARRIER)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
                             return null;
                         }
                         break;
                     case VEE_CARRIER:
                         if (mRec.getRoles().contains(VEE_CARRIER)) {
-                            avRating += avAdj[2];
+                            avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(TROOP_CARRIER)) {
-                            avRating += avAdj[0];
+                            avRating += min_adjust;
                         } else {
                             return null;
                         }
