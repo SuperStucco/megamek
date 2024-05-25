@@ -289,8 +289,8 @@ public enum MissionRole {
                             return null;
                         }
                         break;
-                    // Calling for infantry which can operate in a vacuum means only those with the
-                    // role should be assigned
+                    // Calling for infantry which can operate in low gravity means only those with
+                    // the role should be assigned
                     case MARINE:
                         if (!mRec.getRoles().contains(MARINE)) {
                             return null;
