@@ -440,7 +440,9 @@ public enum MissionRole {
                         }
                         break;
                     case ANTI_AIRCRAFT:
-                        if (mRec.getRoles().contains(ANTI_AIRCRAFT) ||
+                        if (isSpecialized(desiredRoles, mRec)) {
+                            return null;
+                        } else if (mRec.getRoles().contains(ANTI_AIRCRAFT) ||
                                 mRec.getFlak() > 0.75) {
                             avRating += avAdj[2];
                         } else if (mRec.getFlak() > 0.5) {
@@ -448,11 +450,7 @@ public enum MissionRole {
                         } else if (mRec.getFlak() > 0.2) {
                             avRating += avAdj[0];
                         } else {
-                            if (isSpecialized(desiredRoles, mRec)) {
-                                return null;
-                            } else {
-                                avRating -= avAdj[1];
-                            }
+                            avRating -= avAdj[1];
                         }
                         break;
                     case ANTI_INFANTRY:
