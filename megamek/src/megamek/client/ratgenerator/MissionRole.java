@@ -518,8 +518,6 @@ public enum MissionRole {
                     case CARGO:
                         if (mRec.getRoles().contains(CARGO)) {
                             avRating += avAdj[2];
-                        } else if (mRec.getRoles().contains(CIVILIAN)) {
-                            avRating += avAdj[1];
                         } else {
                             avRating -= avAdj[2];
                         }
