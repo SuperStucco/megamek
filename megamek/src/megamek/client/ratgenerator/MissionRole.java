@@ -352,6 +352,8 @@ public enum MissionRole {
                         } else if (!mRec.getRoles().contains(FIRE_SUPPORT) &&
                                 mRec.getLongRange() <= 0.2) {
                             avRating += avAdj[1];
+                        } else if (mRec.getLongRange() >= 0.5) {
+                            return null;
                         }
                         break;
                     case INF_SUPPORT:
