@@ -264,6 +264,16 @@ public enum MissionRole {
         }
     }
 
+    /**
+     * Adjusts the provided availability rating based on desired roles, the roles the provided
+     * unit has, and other factors such as unit types, movement speed, and weapon types.
+     * @param avRating     Availability rating as positive number, may be zero (0)
+     * @param desiredRoles Role constants that are desired or mandatory
+     * @param mRec         ModelRecord of specific unit to check
+     * @param year         Year to test in (unused)
+     * @param strictness   Zero or higher.  Larger values are more restrictive
+     * @return             avRating, adjusted for roles provided and present on unit
+     */
     public static Double adjustAvailabilityByRole(double avRating,
                                                   Collection<MissionRole> desiredRoles,
                                                   ModelRecord mRec, int year, int strictness) {
