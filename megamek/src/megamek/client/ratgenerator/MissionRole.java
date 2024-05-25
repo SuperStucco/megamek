@@ -336,9 +336,9 @@ public enum MissionRole {
                             avRating += avAdj[1];
                         } else if (mRec.getLongRange() > 0.2) {
                             avRating += avAdj[0];
-                        } else if (mRec.getRoles().contains(SR_FIRE_SUPPORT)
-                                || mRec.getRoles().contains(ANTI_AIRCRAFT)
-                                || mRec.getRoles().contains(MISSILE_ARTILLERY)) {
+                        } else if (mRec.getRoles().contains(ANTI_AIRCRAFT)
+                                || mRec.getRoles().contains(MISSILE_ARTILLERY)
+                                || mRec.getRoles().contains(MIXED_ARTILLERY)) {
                             avRating += avAdj[0];
                         } else {
                             return null;
