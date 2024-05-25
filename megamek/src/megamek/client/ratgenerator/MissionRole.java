@@ -187,6 +187,8 @@ public enum MissionRole {
                             return null;
                         }
                         break;
+                    case MIXED_ARTILLERY:
+                        break;
                     case ENGINEER:
                         if (!mRec.getRoles().contains(ENGINEER)) {
                             return null;
@@ -636,16 +638,15 @@ public enum MissionRole {
                 }
             }
         }
-        /* Reduce rating of units with certain specialized functions if the roles does not
-         * require them.
-         */
+
+        // If no roles are required, or a role was requested that was not handled, then revert to
+        // generic checking
         if (!roleApplied) {
             if ((mRec.getRoles().contains(SUPPORT) && !desiredRoles.contains(SUPPORT)) ||
                     (mRec.getRoles().contains(CARGO) && !(desiredRoles.contains(CARGO) || desiredRoles.size() > 1 || mRec.getUnitType() == UnitType.WARSHIP)) ||
                     (mRec.getRoles().contains(TUG) && !desiredRoles.contains(TUG)) ||
                     (mRec.getRoles().contains(CIVILIAN) && !desiredRoles.contains(CIVILIAN)) ||
                     (mRec.getRoles().contains(TRAINING) && !desiredRoles.contains(TRAINING)) ||
-                    (mRec.getRoles().contains(FIELD_GUN) && !desiredRoles.contains(FIELD_GUN)) ||
                     (mRec.getRoles().contains(ARTILLERY) && !desiredRoles.contains(MIXED_ARTILLERY))) {
                 return null;
             }
