@@ -411,19 +411,17 @@ public enum MissionRole {
                         }
                         break;
                     case RAIDER:
-                        if (mRec.getRoles().contains(RAIDER)) {
+                        if (isSpecialized(desiredRoles, mRec)) {
+                            return null;
+                        } else if (mRec.getRoles().contains(RAIDER)) {
                             avRating += avAdj[2];
                         } else {
-                            if (isSpecialized(desiredRoles, mRec)) {
-                                return null;
-                            } else if (mRec.getAmmoRequirement() < 0.2) {
-                                avRating += avAdj[0];
-                            } else if (mRec.getAmmoRequirement() < 0.5) {
+                            if (mRec.getAmmoRequirement() < 0.2) {
                                 avRating += avAdj[1];
+                            } else if (mRec.getAmmoRequirement() < 0.5) {
+                                avRating += avAdj[0];
                             }
-                            if (mRec.getUnitType() != UnitType.INFANTRY
-                                    && mRec.getUnitType() != UnitType.BATTLE_ARMOR
-                                        && mRec.getSpeed() < 3 + avAdj[2] - mRec.getWeightClass()) {
+                            if (mRec.getSpeed() < 3 + avAdj[2] - mRec.getWeightClass()) {
                                 avRating -= 2 + avAdj[2] - mRec.getWeightClass() - mRec.getSpeed();
                             }
                         }
