@@ -569,8 +569,6 @@ public enum MissionRole {
                     case ASF_CARRIER:
                         if (mRec.getRoles().contains(ASF_CARRIER)) {
                             avRating += avAdj[2];
-                        } else if (mRec.getRoles().contains(ASSAULT)) {
-                            avRating += avAdj[0];
                         } else {
                             return null;
                         }
