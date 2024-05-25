@@ -640,42 +640,30 @@ public enum MissionRole {
         }
 
         // If no roles are required, or a role was requested that was not handled, then revert to
-        // generic checking
+        // generic checking.  This is much simpler, only checking for a few exclusions otherwise
+        // using the unmodified availability values.
         if (!roleApplied) {
-            if ((mRec.getRoles().contains(SUPPORT) && !desiredRoles.contains(SUPPORT)) ||
-                    (mRec.getRoles().contains(CARGO) && !(desiredRoles.contains(CARGO) || desiredRoles.size() > 1 || mRec.getUnitType() == UnitType.WARSHIP)) ||
-                    (mRec.getRoles().contains(TUG) && !desiredRoles.contains(TUG)) ||
-                    (mRec.getRoles().contains(CIVILIAN) && !desiredRoles.contains(CIVILIAN)) ||
-                    (mRec.getRoles().contains(TRAINING) && !desiredRoles.contains(TRAINING)) ||
-                    (mRec.getRoles().contains(ARTILLERY) && !desiredRoles.contains(MIXED_ARTILLERY))) {
-                return null;
-            }
-            if (mRec.getRoles().contains(MISSILE_ARTILLERY) &&
-                    !desiredRoles.contains(ARTILLERY)
-                    && !desiredRoles.contains(MISSILE_ARTILLERY)
-                    && !desiredRoles.contains(FIRE_SUPPORT)
-                    && !desiredRoles.contains(MIXED_ARTILLERY)) {
-                return null;
-            }
-            if (mRec.getRoles().contains(RECON) ||
-                    mRec.getRoles().contains(EW_SUPPORT)) {
-                avRating -= avAdj[0];
-            }
-            if (mRec.getRoles().contains(URBAN) ||
-                    mRec.getRoles().contains(INF_SUPPORT) ||
-                    mRec.getRoles().contains(ANTI_INFANTRY) ||
-                    mRec.getRoles().contains(APC) ||
-                    mRec.getRoles().contains(MOUNTAINEER) ||
-                    mRec.getRoles().contains(PARATROOPER)) {
-                avRating -= avAdj[1];
-            }
-            if (mRec.getRoles().contains(INCENDIARY) ||
-                    mRec.getRoles().contains(MARINE) ||
-                    mRec.getRoles().contains(XCT)) {
-                avRating -= avAdj[2];
-            }
-            if (mRec.getRoles().contains(SPECOPS)) {
-                avRating -= avAdj[3];
+
+            // DropShips, JumpShips, and WarShips are excluded from non-combat and civilian role
+            // checks
+            if (mRec.getUnitType() != UnitType.DROPSHIP &&
+                    mRec.getUnitType() != UnitType.JUMPSHIP &&
+                    mRec.getUnitType() != UnitType.WARSHIP){
+
+                // Units with the non-combat SUPPORT or CIVILIAN roles should not be used in
+                // a general context
+                if (mRec.getRoles().contains(SUPPORT) || mRec.getRoles().contains(CIVILIAN)) {
+                    return null;
+                }
+
+                // Units with only the artillery or missile artillery role should not be used in
+                // a general context
+                if ((mRec.getRoles().contains(ARTILLERY) ||
+                        mRec.getRoles().contains(MISSILE_ARTILLERY)) &&
+                        mRec.getRoles().size() == 1) {
+                    return null;
+                }
+
             }
         }
         return avRating;
