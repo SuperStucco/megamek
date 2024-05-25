@@ -306,9 +306,13 @@ public enum MissionRole {
                     // Calling for conventional infantry which can be air dropped means only those
                     // with the paratrooper role or jump infantry should be assigned.
                     case PARATROOPER:
-                        if (!mRec.getRoles().contains(PARATROOPER)) {
+                        if (mRec.getRoles().contains(PARATROOPER)){
+                            avRating += avAdj[3];
+                        } else {
                             if (mRec.getMovementMode() != EntityMovementMode.INF_JUMP) {
                                 return null;
+                            } else {
+                                avRating -= avAdj[0];
                             }
                         }
                         break;
