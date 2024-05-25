@@ -267,12 +267,12 @@ public enum MissionRole {
     /**
      * Adjusts the provided availability rating based on desired roles, the roles the provided
      * unit has, and other factors such as unit types, movement speed, and weapon types.
-     * @param avRating     Availability rating as positive number, may be zero (0)
-     * @param desiredRoles Role constants that are desired or mandatory
+     * @param avRating     Availability rating as positive number, typically 0-10
+     * @param desiredRoles Roles that are desired or mandatory
      * @param mRec         ModelRecord of specific unit to check
      * @param year         Year to test in (unused)
      * @param strictness   Zero or higher, larger values are more restrictive
-     * @return             avRating, adjusted for roles provided and present on unit
+     * @return             Modified avRating, or null if unit is not compatible
      */
     public static Double adjustAvailabilityByRole(double avRating,
                                                   Collection<MissionRole> desiredRoles,
@@ -292,10 +292,15 @@ public enum MissionRole {
         double strong_adjust = avAdj[3];
         double max_adjust = avAdj[4];
 
+        // If specific roles are desired, iterate through them.  Certain cases where role
+        // requirements are highly restrictive may result in early exit.
         if (!desiredRoles.isEmpty()) {
             roleApplied = true;
+
             for (MissionRole role : desiredRoles) {
+
                 switch (role) {
+                    // Calling for tube or missile artillery.  Units without this role are excluded.
                     case ARTILLERY:
                         if (!mRec.getRoles().contains(ARTILLERY) &&
                                 !mRec.getRoles().contains(MISSILE_ARTILLERY) &&
@@ -757,6 +762,7 @@ public enum MissionRole {
                     default:
                         roleApplied = false;
                 }
+
             }
         }
 
@@ -810,17 +816,9 @@ public enum MissionRole {
 
         // The only thing this unit does is provide artillery support.  DropShips are excluded
         // from this check as they naturally provide more than one function.
-        if (mRec.getUnitType() != UnitType.DROPSHIP &&
+        return mRec.getUnitType() != UnitType.DROPSHIP &&
                 (mRec.getRoles().size() == 1) &&
-                (mRec.getRoles().contains(ARTILLERY) || mRec.getRoles().contains(MISSILE_ARTILLERY))) {
-
-            return !desiredRoles.contains(ARTILLERY) &&
-                    !desiredRoles.contains(MISSILE_ARTILLERY) &&
-                    !desiredRoles.contains(MIXED_ARTILLERY);
-
-        }
-
-        return false;
+                (mRec.getRoles().contains(ARTILLERY) || mRec.getRoles().contains(MISSILE_ARTILLERY));
     }
 
     public static MissionRole parseRole(String role) {
