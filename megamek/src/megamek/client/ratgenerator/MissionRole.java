@@ -248,7 +248,7 @@ public enum MissionRole {
                             avRating += avAdj[3];
                         } else if (mRec.getUnitType() == UnitType.INFANTRY ||
                                 mRec.getUnitType() == UnitType.BATTLE_ARMOR) {
-                            avRating -= avAdj[1];
+                            avRating += avAdj[1];
                         } else {
                             avRating -= avAdj[2];
                         }
