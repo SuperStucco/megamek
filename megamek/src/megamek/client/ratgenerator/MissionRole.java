@@ -531,7 +531,7 @@ public enum MissionRole {
                                     || mRec.getRoles().contains(CIVILIAN)) {
                             avRating += avAdj[0];
                         } else {
-                            avRating -= avAdj[2];
+                            return null;
                         }
                         break;
                     case TUG:
