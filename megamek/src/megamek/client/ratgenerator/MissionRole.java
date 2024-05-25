@@ -456,13 +456,13 @@ public enum MissionRole {
                     case ANTI_INFANTRY:
                         if (mRec.getRoles().contains(ANTI_INFANTRY)) {
                             avRating += avAdj[2];
-                        } else     if (isSpecialized(desiredRoles, mRec)) {
+                        } else if (isSpecialized(desiredRoles, mRec)) {
                             return null;
                         } else if (!mRec.hasAPWeapons()) {
                             avRating -= avAdj[2];
                         }
                         break;
-                    // Most military units can be used in a training role, but prioritized those
+                    // Most military units can be used in a training role, but prioritize those
                     // with the specific role
                     case TRAINING:
                         if (mRec.getRoles().contains(SUPPORT) ||
@@ -474,6 +474,7 @@ public enum MissionRole {
                             avRating -= avAdj[1];
                         }
                         break;
+
                     case GROUND_SUPPORT:
                         if (mRec.getRoles().contains(GROUND_SUPPORT)) {
                             avRating += avAdj[2];
@@ -503,12 +504,10 @@ public enum MissionRole {
                         }
                         break;
                     case CAVALRY:
-                        if (mRec.getUnitType() == UnitType.INFANTRY
-                                || mRec.getUnitType() == UnitType.BATTLE_ARMOR) {
-                            avRating += avAdj[2] * (mRec.getSpeed() - 3);
-                        } else {
-                            avRating += avAdj[2] * (mRec.getSpeed() - (7 - mRec.getWeightClass()));
+                        if (isSpecialized(desiredRoles, mRec)) {
+                            return null;
                         }
+                        avRating += avAdj[2] * (mRec.getSpeed() - (7 - mRec.getWeightClass()));
                         break;
                     // Large craft roles
                     case CIVILIAN:
