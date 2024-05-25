@@ -205,36 +205,22 @@ public enum MissionRole {
                         }
                         break;
                     case RECON:
-                        if (mRec.getRoles().contains(RECON)) {
+                        if (isSpecialized(desiredRoles, mRec)) {
+                            return null;
+                        } else if (mRec.getRoles().contains(RECON)) {
                             avRating += avAdj[2];
-                        } else if (mRec.getRoles().contains(EW_SUPPORT)) {
+                        } else if (mRec.getRoles().contains(EW_SUPPORT) ||
+                                mRec.getRoles().contains(SPECOPS)) {
                             avRating += avAdj[1];
                         } else if (mRec.getRoles().contains(SPOTTER)) {
                             avRating += avAdj[0];
                         } else {
-                            if (isSpecialized(desiredRoles, mRec)) {
-                                return null;
-                            } else if (mRec.getUnitType() != UnitType.INFANTRY
+                            if (mRec.getUnitType() != UnitType.INFANTRY
                                     && mRec.getUnitType() != UnitType.BATTLE_ARMOR
                                         && mRec.getSpeed() < 4 + avAdj[2] - mRec.getWeightClass()) {
                                 return null;
-                            } else {
-                                avRating += mRec.getSpeed() - (4 + avAdj[2] - mRec.getWeightClass());
-                                if (mRec.getRoles().contains(URBAN) ||
-                                        mRec.getRoles().contains(INF_SUPPORT) ||
-                                        mRec.getRoles().contains(ANTI_INFANTRY) ||
-                                        mRec.getRoles().contains(APC) ||
-                                        mRec.getRoles().contains(MOUNTAINEER) ||
-                                        mRec.getRoles().contains(PARATROOPER) ||
-                                        mRec.getRoles().contains(MARINE) ||
-                                        mRec.getRoles().contains(XCT)) {
-                                    avRating -= avAdj[3];
-                                } else if (mRec.getRoles().contains(SPECOPS)) {
-                                    avRating -= avAdj[4];
-                                } else {
-                                    avRating -= avAdj[0];
-                                }
                             }
+                            avRating -= avAdj[3];
                         }
                         break;
                     // Technically any units can be fielded by specops formations, especially
