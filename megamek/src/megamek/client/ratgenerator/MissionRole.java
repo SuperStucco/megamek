@@ -357,30 +357,15 @@ public enum MissionRole {
                         }
                         break;
                     case INF_SUPPORT:
-                        if (mRec.getRoles().contains(INF_SUPPORT)) {
+                        if (isSpecialized(desiredRoles, mRec)) {
+                            return null;
+                        } else if (mRec.getRoles().contains(INF_SUPPORT)) {
                             avRating += strictness;
                         } else if (mRec.getRoles().contains(APC)) {
                             avRating += avAdj[1];
                         } else if (mRec.getRoles().contains(ANTI_INFANTRY)
                                 || mRec.getRoles().contains(URBAN)) {
                             avRating += avAdj[0];
-                        } else {
-                            if (isSpecialized(desiredRoles, mRec)) {
-                                return null;
-                            } else {
-                                if (mRec.getRoles().contains(MOUNTAINEER) ||
-                                        mRec.getRoles().contains(PARATROOPER)) {
-                                    avRating -= avAdj[2];
-                                } else if (mRec.getRoles().contains(INCENDIARY) ||
-                                        mRec.getRoles().contains(MARINE) ||
-                                        mRec.getRoles().contains(XCT)) {
-                                    avRating -= avAdj[3];
-                                } else if (mRec.getRoles().contains(SPECOPS)) {
-                                    avRating -= avAdj[4];
-                                } else {
-                                    avRating -= avAdj[1];
-                                }
-                            }
                         }
                         break;
                     case OMNI:
