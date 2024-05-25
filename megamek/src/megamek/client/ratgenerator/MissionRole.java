@@ -785,9 +785,9 @@ public enum MissionRole {
 
                 // Units with only the artillery or missile artillery role should not be used in
                 // a general context
-                if ((mRec.getRoles().contains(ARTILLERY) ||
-                        mRec.getRoles().contains(MISSILE_ARTILLERY)) &&
-                        mRec.getRoles().size() == 1) {
+                if (mRec.getRoles().size() == 1 &&
+                        (mRec.getRoles().contains(ARTILLERY) ||
+                        mRec.getRoles().contains(MISSILE_ARTILLERY))) {
                     return null;
                 }
 
@@ -816,7 +816,7 @@ public enum MissionRole {
 
         // The only thing this unit does is provide artillery support.  DropShips are excluded
         // from this check as they naturally provide more than one function.
-        return mRec.getUnitType() != UnitType.DROPSHIP &&
+        return (mRec.getUnitType() != UnitType.DROPSHIP) &&
                 (mRec.getRoles().size() == 1) &&
                 (mRec.getRoles().contains(ARTILLERY) || mRec.getRoles().contains(MISSILE_ARTILLERY));
     }
