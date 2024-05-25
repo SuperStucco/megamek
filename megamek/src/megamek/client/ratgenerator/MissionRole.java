@@ -16,6 +16,8 @@ package megamek.client.ratgenerator;
 import java.util.Collection;
 import java.util.HashSet;
 
+import megamek.common.EntityMovementMode;
+import megamek.common.EntityWeightClass;
 import megamek.common.UnitType;
 
 /**
@@ -185,6 +187,18 @@ public enum MissionRole {
                             return null;
                         }
                         break;
+                    // Calling for a minelayer should only return those units with that role
+                    case MINELAYER:
+                        if (!mRec.getRoles().contains(MINELAYER)) {
+                            return null;
+                        }
+                        break;
+                    // Calling for a minesweeper should ony return those units with that role
+                    case MINESWEEPER:
+                        if (!mRec.getRoles().contains(MINESWEEPER)) {
+                            return null;
+                        }
+                        break;
                     case RECON:
                         if (mRec.getRoles().contains(RECON)) {
                             avRating += avAdj[2];
@@ -218,6 +232,36 @@ public enum MissionRole {
                             }
                         }
                         break;
+                    // Technically any units can be fielded by specops formations, especially
+                    // non-infantry types, but those with the role should take priority
+                    case SPECOPS:
+                        if (mRec.getRoles().contains(SPECOPS)) {
+                            avRating += avAdj[3];
+                        } else if (mRec.getUnitType() == UnitType.INFANTRY) {
+                            avRating -= avAdj[2];
+                        } else {
+                            avRating -= avAdj[1];
+                        }
+                        break;
+                    // Calling for electronic warfare and support units should only return units
+                    // which fit the role
+                    case EW_SUPPORT:
+                        if (!mRec.getRoles().contains(EW_SUPPORT)) {
+                            return null;
+                        }
+                        break;
+                    // Technically any unit can spot, but beyond those with the specific role
+                    // conventional infantry and battle armor are best
+                    case SPOTTER:
+                        if (mRec.getRoles().contains(SPOTTER)) {
+                            avRating += avAdj[3];
+                        } else if (mRec.getUnitType() == UnitType.INFANTRY ||
+                                mRec.getUnitType() == UnitType.BATTLE_ARMOR) {
+                            avRating -= avAdj[1];
+                        } else {
+                            avRating -= avAdj[2];
+                        }
+                        break;
                     case COMMAND:
                         if (mRec.getRoles().contains(COMMAND)) {
                             avRating += avAdj[2];
@@ -228,8 +272,63 @@ public enum MissionRole {
                             avRating += avAdj[0];
                         }
                         break;
+                    // Calling for armored personnel carriers should only return units which have
+                    // that role
+                    case APC:
+                        if (!mRec.getRoles().contains(APC)) {
+                            return null;
+                        }
+                        break;
+                    // Infantry with anti-mech equipment should be prioritized for the role, but
+                    // non-mechanized types can also be used
+                    case ANTI_MEK:
+                        if (mRec.getRoles().contains(ANTI_MEK)) {
+                            avRating += avAdj[2];
+                        } else if (mRec.getMovementMode() == EntityMovementMode.TRACKED ||
+                                    mRec.getMovementMode() == EntityMovementMode.WHEELED ||
+                                    mRec.getMovementMode() == EntityMovementMode.HOVER) {
+                                return null;
+                        } else {
+                            avRating += avAdj[0];
+                        }
+                        break;
                     case FIELD_GUN:
                         if (!mRec.getRoles().contains(FIELD_GUN)) {
+                            return null;
+                        }
+                        break;
+                    // Calling for infantry which can operate in a vacuum means only those with the
+                    // role should be assigned
+                    case MARINE:
+                        if (!mRec.getRoles().contains(MARINE)) {
+                            return null;
+                        }
+                        break;
+                    // Calling for mountaineer-trained infantry requires only those with the
+                    // appropriate role
+                    case MOUNTAINEER:
+                        if (!mRec.getRoles().contains(MOUNTAINEER)) {
+                            return null;
+                        }
+                        break;
+                    // Calling for conventional infantry which can be air dropped means only those
+                    // with the paratrooper role or jump infantry should be assigned.
+                    case PARATROOPER:
+                        if (!mRec.getRoles().contains(PARATROOPER)) {
+                            if (mRec.getMovementMode() != EntityMovementMode.INF_JUMP) {
+                                return null;
+                            }
+                        }
+                        break;
+                    // Calling for infantry which can operate in various temperature and atmosphere
+                    // conditions means only those with the role should be assigned.  Infantry with
+                    // the marine role can also be used.  All other units should be rejected.
+                    case XCT:
+                        if (mRec.getRoles().contains(XCT)) {
+                            avRating += avAdj[2];
+                        } else if (mRec.getRoles().contains(MARINE)) {
+                            avRating += avAdj[1];
+                        } else {
                             return null;
                         }
                         break;
@@ -247,6 +346,16 @@ public enum MissionRole {
                             avRating += avAdj[0];
                         } else {
                             return null;
+                        }
+                        break;
+                    // Short range fire support requires either the designated role or low
+                    // percentage of weapons BV dedicated to long range
+                    case SR_FIRE_SUPPORT:
+                        if (mRec.getRoles().contains(SR_FIRE_SUPPORT)) {
+                            avRating += avAdj[2];
+                        } else if (!mRec.getRoles().contains(FIRE_SUPPORT) &&
+                                mRec.getLongRange() <= 0.2) {
+                            avRating += avAdj[1];
                         }
                         break;
                     case INF_SUPPORT:
@@ -383,7 +492,18 @@ public enum MissionRole {
                             avRating -= avAdj[2];
                         }
                         break;
-
+                    // Most military units can be used in a training role, but prioritized those
+                    // with the specific role
+                    case TRAINING:
+                        if (mRec.getRoles().contains(SUPPORT) ||
+                                mRec.getRoles().contains(CIVILIAN)) {
+                            return null;
+                        } else if (mRec.getRoles().contains(TRAINING)) {
+                            avRating += avAdj[3];
+                        } else {
+                            avRating -= avAdj[1];
+                        }
+                        break;
                     case GROUND_SUPPORT:
                         if (mRec.getRoles().contains(GROUND_SUPPORT)) {
                             avRating += avAdj[2];
