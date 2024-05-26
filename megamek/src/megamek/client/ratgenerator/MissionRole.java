@@ -451,7 +451,8 @@ public enum MissionRole {
                         }
                         if (mRec.getMovementMode() == EntityMovementMode.WHEELED) {
                             avRating += medium_adjust;
-                        } else if (mRec.getMovementMode() == EntityMovementMode.TRACKED) {
+                        } else if (mRec.getMovementMode() == EntityMovementMode.TRACKED ||
+                                mRec.getMovementMode() == EntityMovementMode.HOVER) {
                             avRating -= medium_adjust;
                         }
                         break;
