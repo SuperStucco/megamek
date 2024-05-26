@@ -606,6 +606,20 @@ public enum MissionRole {
                         }
                         if (mRec.getRoles().contains(CAVALRY)) {
                             avRating += medium_adjust;
+                        } else if ((mRec.getUnitType() == UnitType.MEK ||
+                                mRec.getUnitType() == UnitType.PROTOMEK)) {
+                            if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_MEDIUM &&
+                                    mRec.getSpeed() >= 6) {
+                                avRating -= strong_adjust;
+                            } else if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_HEAVY &&
+                                    mRec.getSpeed() >= 5) {
+                                avRating -= strong_adjust;
+                            } else if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_LIGHT &&
+                                    mRec.getSpeed() >=5 && mRec.getSpeed() <= 7) {
+                                avRating -= strong_adjust;
+                            } else {
+                                return null;
+                            }
                         } else if (mRec.getMovementMode() == EntityMovementMode.HOVER &&
                                 mRec.getWeightClass() == EntityWeightClass.WEIGHT_MEDIUM) {
                             avRating -= strong_adjust;
@@ -615,17 +629,6 @@ public enum MissionRole {
                                     mRec.getSpeed() <= 6) {
                                 avRating -= strong_adjust;
                             } else if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_MEDIUM) {
-                                avRating -= strong_adjust;
-                            } else {
-                                return null;
-                            }
-                        } else if ((mRec.getUnitType() == UnitType.MEK ||
-                                mRec.getUnitType() == UnitType.PROTOMEK)) {
-                            if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_MEDIUM &&
-                                    mRec.getSpeed() >= 6) {
-                                avRating -= strong_adjust;
-                            } else if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_HEAVY &&
-                                    mRec.getSpeed() >= 5) {
                                 avRating -= strong_adjust;
                             } else {
                                 return null;
