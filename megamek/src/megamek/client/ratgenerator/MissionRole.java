@@ -713,13 +713,17 @@ public enum MissionRole {
                         break;
 
                     // Technically any units can be fielded by specops formations, especially
-                    // non-infantry types, but those with the role should take priority
+                    // non-infantry types, but those with the role should take priority.  Units
+                    // with the RECON or RAIDER role will also be considered.
                     case SPECOPS:
                         if (isSpecialized(desiredRoles, mRec)) {
                             return null;
                         }
                         if (mRec.getRoles().contains(SPECOPS)) {
                             avRating += strong_adjust;
+                        } else if (mRec.getRoles().contains(RECON) ||
+                                mRec.getRoles().contains(RAIDER)){
+                            avRating -= light_adjust;
                         } else if (mRec.getUnitType() != UnitType.INFANTRY) {
                             avRating -= medium_adjust;
                         } else {
