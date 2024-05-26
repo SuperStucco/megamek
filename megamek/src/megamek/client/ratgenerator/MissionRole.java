@@ -16,7 +16,6 @@ package megamek.client.ratgenerator;
 import java.util.Collection;
 import java.util.HashSet;
 
-import megamek.codeUtilities.MathUtility;
 import megamek.common.EntityMovementMode;
 import megamek.common.EntityWeightClass;
 import megamek.common.UnitType;
@@ -104,8 +103,8 @@ public enum MissionRole {
                         unitType == UnitType.SMALL_CRAFT ||
                         unitType == UnitType.DROPSHIP;
 
-            // URBAN role applies to all ground units. Although infantry are inherently urban-
-            // oriented this role should be reserved for mechanized (wheeled) and others which
+            // URBAN role applies to all ground units. Although infantry are inherently
+            // urban-oriented this role should be reserved for mechanized (wheeled) and others which
             // are not optimized for non-urban terrain.
             case URBAN:
                 return unitType <= UnitType.PROTOMEK;
