@@ -326,10 +326,10 @@ public enum MissionRole {
                                 (mRec.getWeightClass() == EntityWeightClass.WEIGHT_LIGHT ||
                                         mRec.getWeightClass() == EntityWeightClass.WEIGHT_MEDIUM) &&
                                 (mRec.getSpeed() >= 6)) {
-                            avRating -= strong_adjust;
+                            avRating = Math.max(avRating-strong_adjust, 1.0);
                         } else if (mRec.getUnitType() == UnitType.VTOL ||
                                 mRec.getMovementMode() == EntityMovementMode.HOVER) {
-                            avRating -= strong_adjust;
+                            avRating = Math.max(avRating-strong_adjust, 1.0);
                         } else {
                             return null;
                         }
@@ -456,7 +456,7 @@ public enum MissionRole {
                         }
                         break;
 
-                    // Calling for ANTI_INFANTRY includes without the role which have
+                    // Calling for ANTI_INFANTRY includes units without the role which have
                     // anti-personnel weapons.  Other units have reduced priority.
                     case ANTI_INFANTRY:
                         if (isSpecialized(desiredRoles, mRec)) {
@@ -549,7 +549,7 @@ public enum MissionRole {
                             avRating += strong_adjust;
                         } else {
                             if (mRec.getMovementMode() == EntityMovementMode.INF_JUMP) {
-                                avRating -= medium_adjust;
+                                avRating = Math.max(avRating - medium_adjust, 1.0);
                             } else {
                                 return null;
                             }
@@ -590,7 +590,7 @@ public enum MissionRole {
                         if (mRec.getRoles().contains(XCT)) {
                             avRating += medium_adjust;
                         } else if (mRec.getRoles().contains(MARINE)) {
-                            avRating += light_adjust;
+                            avRating = Math.max(avRating - light_adjust, 1.0);
                         } else {
                             return null;
                         }
@@ -613,23 +613,23 @@ public enum MissionRole {
                                 avRating -= strong_adjust;
                             } else if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_HEAVY &&
                                     mRec.getSpeed() >= 5) {
-                                avRating -= strong_adjust;
+                                avRating = Math.max(avRating - strong_adjust, 1.0);
                             } else if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_LIGHT &&
                                     mRec.getSpeed() >=5 && mRec.getSpeed() <= 7) {
-                                avRating -= strong_adjust;
+                                avRating = Math.max(avRating - strong_adjust, 1.0);
                             } else {
                                 return null;
                             }
                         } else if (mRec.getMovementMode() == EntityMovementMode.HOVER &&
                                 mRec.getWeightClass() == EntityWeightClass.WEIGHT_MEDIUM) {
-                            avRating -= strong_adjust;
+                            avRating = Math.max(avRating - strong_adjust, 1.0);
                         } else if (mRec.getMovementMode() == EntityMovementMode.TRACKED &&
                                 mRec.getSpeed() >= 5) {
                             if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_LIGHT &&
                                     mRec.getSpeed() <= 6) {
-                                avRating -= strong_adjust;
+                                avRating = Math.max(avRating - strong_adjust, 1.0);
                             } else if (mRec.getWeightClass() == EntityWeightClass.WEIGHT_MEDIUM) {
-                                avRating -= strong_adjust;
+                                avRating = Math.max(avRating - strong_adjust, 1.0);
                             } else {
                                 return null;
                             }
@@ -658,9 +658,9 @@ public enum MissionRole {
                                         (mRec.getWeightClass() == EntityWeightClass.WEIGHT_HEAVY &&
                                                 mRec.getSpeed() >= 4)) {
                                     if (mRec.getAmmoRequirement() < 0.2) {
-                                        avRating -= medium_adjust;
+                                        avRating = Math.max(avRating - medium_adjust, 1.0);
                                     } else if (mRec.getAmmoRequirement() < 0.5) {
-                                        avRating -= strong_adjust;
+                                        avRating = Math.max(avRating - strong_adjust, 1.0);
                                     }
                                 } else {
                                     return null;
@@ -686,10 +686,10 @@ public enum MissionRole {
                             avRating += min_adjust;
                         } else if (mRec.getRoles().contains(ARTILLERY) ||
                                 mRec.getRoles().contains(MISSILE_ARTILLERY)) {
-                            avRating -= medium_adjust;
+                            avRating = Math.max(avRating - medium_adjust, 1.0);
                         } else if (mRec.getUnitType() != UnitType.INFANTRY &&
                                 mRec.getRoles().contains(FIRE_SUPPORT)) {
-                            avRating -= strong_adjust;
+                            avRating = Math.max(avRating - strong_adjust, 1.0);
                         } else {
                             return null;
                         }
