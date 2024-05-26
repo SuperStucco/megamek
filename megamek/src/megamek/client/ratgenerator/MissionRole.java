@@ -321,14 +321,14 @@ public enum MissionRole {
                             avRating += light_adjust;
                         } else if (mRec.getRoles().contains(SPOTTER)) {
                             avRating += min_adjust;
-                        } else if (mRec.getUnitType() == UnitType.VTOL ||
-                                mRec.getMovementMode() == EntityMovementMode.HOVER) {
-                            avRating -= strong_adjust;
                         } else if ((mRec.getUnitType() == UnitType.MEK ||
                                 mRec.getUnitType() == UnitType.PROTOMEK) &&
                                 (mRec.getWeightClass() == EntityWeightClass.WEIGHT_LIGHT ||
                                         mRec.getWeightClass() == EntityWeightClass.WEIGHT_MEDIUM) &&
                                 (mRec.getSpeed() >= 6)) {
+                            avRating -= strong_adjust;
+                        } else if (mRec.getUnitType() == UnitType.VTOL ||
+                                mRec.getMovementMode() == EntityMovementMode.HOVER) {
                             avRating -= strong_adjust;
                         } else {
                             return null;
