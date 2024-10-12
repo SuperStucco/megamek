@@ -8229,12 +8229,6 @@
 				<availability>LA:4,DC:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Habitat - Large' unitType='Space Station'>
-			<availability>CLAN:7,IS:7,Periphery:4</availability>
-		</chassis>
-		<chassis name='Habitat - Small' unitType='Space Station'>
-			<availability>CLAN:8,IS:4,Periphery:4</availability>
-		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>
 			<availability>CLAN:8,IS:7,Periphery:6</availability>
 			<model name='Large (2500)'>

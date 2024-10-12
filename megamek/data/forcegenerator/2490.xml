@@ -717,12 +717,6 @@
 				<availability>TH:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Habitat - Large' unitType='Space Station'>
-			<availability>TH:4,IS:1</availability>
-		</chassis>
-		<chassis name='Habitat - Small' unitType='Space Station'>
-			<availability>TH:4,IS:3,Periphery:2</availability>
-		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>
 			<availability>TH:8,IS:4,Periphery:3</availability>
 			<model name='Large (2500)'>

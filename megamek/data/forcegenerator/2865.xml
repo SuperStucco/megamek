@@ -2156,12 +2156,6 @@
 				<availability>Periphery.MW:4,Periphery.ME:4,FWL:4,NIOPS:0,MERC:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Habitat - Large' unitType='Space Station'>
-			<availability>CS:6,CLAN:8,IS:2,Periphery:2</availability>
-		</chassis>
-		<chassis name='Habitat - Small' unitType='Space Station'>
-			<availability>CS:5,CLAN:8,IS:4,Periphery:4</availability>
-		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>
 			<availability>CS:6,CLAN:8,IS:4,Periphery:4</availability>
 			<model name='Large (2500)'>

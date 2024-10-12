@@ -414,9 +414,6 @@
 				<availability>General:5</availability>
 			</model>
 		</chassis>
-		<chassis name='Habitat - Small' unitType='Space Station'>
-			<availability>IS:2,Periphery:1</availability>
-		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>
 			<availability>TH:4,IS:2,Periphery:1</availability>
 			<model name='Small (2400)'>

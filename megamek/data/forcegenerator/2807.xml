@@ -1634,12 +1634,6 @@
 				<availability>PP:8,CS:8,IS:8+,NIOPS:8,DC:8+</availability>
 			</model>
 		</chassis>
-		<chassis name='Habitat - Large' unitType='Space Station'>
-			<availability>CS:3,CLAN:2,IS:5,Periphery:4</availability>
-		</chassis>
-		<chassis name='Habitat - Small' unitType='Space Station'>
-			<availability>CS:3,IS:5,Periphery:4</availability>
-		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>
 			<availability>CS:6,IS:8,Periphery:8</availability>
 			<model name='Large (2500)'>
