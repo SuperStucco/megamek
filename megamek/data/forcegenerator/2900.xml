@@ -2879,17 +2879,17 @@
 		<chassis name='J-27 Ordnance Transport' unitType='Tank'>
 			<availability>MOC:4,OA:4,CLAN:6,IS:6,NIOPS:6,CIR:4,TC:4,Periphery:2</availability>
 			<model name=''>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<deployedWith>req:J-27 Ordnance Transport (Trailer)</deployedWith>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Armor)'>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<deployedWith>req:J-27 Ordnance Transport (Trailer)</deployedWith>
 				<availability>CC:4,MOC:3,CS:4,OA:3,LA:4,General:2,FWL:4,FS:4,MERC:3,CIR:2,DC:4,TC:3</availability>
 			</model>
 			<model name='(Fusion)'>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<deployedWith>req:J-27 Ordnance Transport (Trailer)</deployedWith>
 				<availability>CLAN:2,IS:1+</availability>
 			</model>
@@ -2902,7 +2902,7 @@
 		<chassis name='J-37 Ordnance Transport' unitType='Tank'>
 			<availability>General:1</availability>
 			<model name='(Original)'>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

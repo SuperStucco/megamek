@@ -1470,12 +1470,12 @@
 		<chassis name='J-27 Ordnance Transport' unitType='Tank'>
 			<availability>MOC:4,OA:4,SL:6,IS:6,RWR:4,Periphery:2,TC:4</availability>
 			<model name=''>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<deployedWith>req:J-27 Ordnance Transport (Trailer)</deployedWith>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Fusion)'>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<deployedWith>req:J-27 Ordnance Transport (Trailer)</deployedWith>
 				<availability>SL:6,IS:4</availability>
 			</model>
