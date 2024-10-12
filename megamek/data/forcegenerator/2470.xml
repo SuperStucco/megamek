@@ -824,16 +824,19 @@
 			</model>
 		</chassis>
 		<chassis name='Marsden MBT' unitType='Tank'>
-			<availability>LA:5</availability>
+		<availability>Periphery.R:4,LA:6,Periphery.MW:4</availability>
+		<model name='I'>
+			<availability>Periphery:8,LA:6-</availability>
+		</model>
 			<model name='II (Primitive)'>
-				<availability>General:3</availability>
+			<availability>Periphery:3,LA:8-</availability>
+		</model>
+		<model name='II'>
+			<availability>LA:6</availability>
 			</model>
 			<model name='II-A'>
-				<availability>General:2</availability>
+			<availability>LA:2</availability>
 			</model>
-		</chassis>
-		<chassis name='Marsden' unitType='Tank'>
-			<availability>Periphery.R:4,LA:1,Periphery.MW:4</availability>
 		</chassis>
 		<chassis name='Mechanized Hover Platoon' unitType='Infantry'>
 			<availability>IS:5,Periphery.Deep:5,Periphery:5</availability>

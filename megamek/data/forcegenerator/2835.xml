@@ -3157,6 +3157,9 @@
 		</chassis>
 		<chassis name='Marsden MBT' unitType='Tank'>
 			<availability>IS:2-,Periphery:2</availability>
+            <model name='II'>
+                <availability>General:8</availability>
+            </model>
 			<model name='II-A'>
 				<availability>General:4</availability>
 			</model>

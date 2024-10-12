@@ -605,8 +605,11 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Marsden' unitType='Tank'>
+	    <chassis name='Marsden MBT' unitType='Tank'>
 			<availability>Periphery.R:2,LA:4,Periphery.MW:2</availability>
+            <model name='I'>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Mechanized Hover Platoon' unitType='Infantry'>
 			<availability>IS:5,Periphery.Deep:5,Periphery:5</availability>

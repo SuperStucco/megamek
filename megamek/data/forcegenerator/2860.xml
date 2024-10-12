@@ -3113,7 +3113,10 @@
 			</model>
 		</chassis>
 		<chassis name='Marsden MBT' unitType='Tank'>
-			<availability>Periphery.R:2,LA:2-,Periphery.MW:2,IS:2-,Periphery:1</availability>
+            <availability>Periphery.R:2,Periphery.MW:2,IS:2-,Periphery:1</availability>
+            <model name='II'>
+                <availability>General:8</availability>
+            </model>
 			<model name='II-A'>
 				<availability>General:4</availability>
 			</model>

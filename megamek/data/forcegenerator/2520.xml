@@ -1193,16 +1193,19 @@
 			</model>
 		</chassis>
 		<chassis name='Marsden MBT' unitType='Tank'>
-			<availability>LA:5</availability>
-			<model name='II (Primitive)'>
-				<availability>General:1</availability>
-			</model>
+		<availability>LA:6-,Periphery.R:4,Periphery.MW:4</availability>
+            <model name='I'>
+                <availability>Periphery:8,LA:6-</availability>
+            </model>
+            <model name='II (Primitive)'>
+                <availability>General:1</availability>
+            </model>
+            <model name='II'>
+                <availability>General:8</availability>
+            </model>
 			<model name='II-A'>
 				<availability>General:4</availability>
 			</model>
-		</chassis>
-		<chassis name='Marsden' unitType='Tank'>
-			<availability>Periphery.R:4,Periphery.MW:4</availability>
 		</chassis>
 		<chassis name='Mauna Kea Command Vessel' unitType='Naval'>
 			<availability>IS:8,Periphery:6</availability>

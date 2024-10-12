@@ -2353,12 +2353,15 @@
 		</chassis>
 		<chassis name='Marsden MBT' unitType='Tank'>
 			<availability>Periphery.R:3,Periphery.MW:3,IS:3-,Periphery:2</availability>
+            <model name='I'>
+                <availability>Periphery:4-</availability>
+            </model>
+            <model name='II'>
+                <availability>General:8</availability>
+            </model>
 			<model name='II-A'>
 				<availability>General:4</availability>
 			</model>
-		</chassis>
-		<chassis name='Marsden' unitType='Tank'>
-			<availability>Periphery.R:2,Periphery.MW:2</availability>
 		</chassis>
 		<chassis name='Maultier Hover APC' unitType='Tank'>
 			<availability>CC:6+,MOC:4+,OA:4+,LA:6+,SL:6,FWL:6+,FS:6+,MERC:6+,DC:6+,TC:4+</availability>
