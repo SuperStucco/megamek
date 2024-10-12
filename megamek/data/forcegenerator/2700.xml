@@ -552,6 +552,7 @@
 		<chassis name='Black Lion I Battlecruiser' unitType='Warship'>
 			<availability>CC:1</availability>
 			<model name=''>
+                <roles>cruiser</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
