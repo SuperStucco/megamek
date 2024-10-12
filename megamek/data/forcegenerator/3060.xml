@@ -12107,15 +12107,6 @@
 				<availability>CS:6,LA:4,IS:4,WOB:6,FS:6</availability>
 			</model>
 		</chassis>
-		<chassis name='Unpressurized Yard - Huge' unitType='Space Station'>
-			<availability>IS:3,Periphery:3</availability>
-		</chassis>
-		<chassis name='Unpressurized Yard - Medium' unitType='Space Station'>
-			<availability>IS:5,Periphery:5</availability>
-		</chassis>
-		<chassis name='Unpressurized Yard - Small' unitType='Space Station'>
-			<availability>IS:6,Periphery:6</availability>
-		</chassis>
 		<chassis name='Unpressurized Yard' unitType='Space Station'>
 			<availability>CLAN:9,IS:9,WOB:9,Periphery:8</availability>
 			<model name='Huge (2350)'>
