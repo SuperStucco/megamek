@@ -1730,11 +1730,20 @@
 				<availability>CJF:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Factory - Medium/Large' unitType='Space Station'>
-			<availability>IS:3,Periphery:3</availability>
-		</chassis>
-		<chassis name='Factory - Small' unitType='Space Station'>
+	    <chassis name='Factory' unitType='Space Station'>
 			<availability>IS:4,Periphery:4</availability>
+            <model name='Medium/Large (2400)'>
+                <roles>civilian</roles>
+                <availability>General:4</availability>
+            </model>
+            <model name='Medium/Large (2750)'>
+                <roles>civilian</roles>
+                <availability>General:1</availability>
+            </model>
+            <model name='Small (2300)'>
+                <roles>civilian</roles>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Falcon' unitType='Mek'>
 			<availability>CC:1,MOC:1,OA:1,CIH:5,LA:2,CLAN:3,FWL:1,FS:1,MERC:1,CGS:5,TC:1</availability>

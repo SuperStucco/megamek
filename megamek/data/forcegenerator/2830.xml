@@ -1717,11 +1717,20 @@
 				<availability>CJF:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Factory - Medium/Large' unitType='Space Station'>
-			<availability>IS:3,Periphery:3</availability>
-		</chassis>
-		<chassis name='Factory - Small' unitType='Space Station'>
+	    <chassis name='Factory' unitType='Space Station'>
 			<availability>IS:4,Periphery:4</availability>
+            <model name='Medium/Large (2400)'>
+                <roles>civilian</roles>
+                <availability>General:4</availability>
+            </model>
+            <model name='Medium/Large (2750)'>
+                <roles>civilian</roles>
+                <availability>General:1</availability>
+            </model>
+            <model name='Small (2300)'>
+                <roles>civilian</roles>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Falcon' unitType='Mek'>
 			<availability>CC:3,MOC:2,OA:2,CIH:6,LA:4,CLAN:4,FWL:3,FS:3,MERC:3,CGS:5,TC:2</availability>

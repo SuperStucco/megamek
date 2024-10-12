@@ -422,11 +422,16 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Factory - Medium/Large' unitType='Space Station'>
-			<availability>IS:3,Periphery:3</availability>
-		</chassis>
-		<chassis name='Factory - Small' unitType='Space Station'>
+	<chassis name='Factory' unitType='Space Station'>
 			<availability>IS:4,Periphery:4</availability>
+		<model name='Medium/Large (2400)'>
+            <roles>civilian</roles>
+			<availability>General:6</availability>
+		</model>
+		<model name='Small (2300)'>
+            <roles>civilian</roles>
+			<availability>General:8</availability>
+		</model>
 		</chassis>
 		<chassis name='Farragut Battleship' unitType='Warship'>
 			<availability>TH:5</availability>
