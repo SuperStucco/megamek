@@ -331,6 +331,7 @@
 		<chassis name='Defender Battlecruiser' unitType='Warship'>
 			<availability>FS:4</availability>
 			<model name=''>
+                <roles>cruiser</roles>
 				<availability>FS:8</availability>
 			</model>
 		</chassis>
