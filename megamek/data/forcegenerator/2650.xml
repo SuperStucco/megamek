@@ -782,6 +782,7 @@
 		<chassis name='Cruiser' unitType='Warship'>
 			<availability>CC:1,LA:1,FWL:1,FS:1,DC:2</availability>
 			<model name=''>
+                <roles>cruiser</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
