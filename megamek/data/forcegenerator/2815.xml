@@ -3399,18 +3399,6 @@
 		<chassis name='Powerman SC XI LoaderMech' unitType='Mek'>
 			<availability>PP:4</availability>
 		</chassis>
-		<chassis name='Pressurized Yard - Huge' unitType='Space Station'>
-			<availability>IS:2,Periphery:2</availability>
-		</chassis>
-		<chassis name='Pressurized Yard - Large' unitType='Space Station'>
-			<availability>IS:3,Periphery:3</availability>
-		</chassis>
-		<chassis name='Pressurized Yard - Medium' unitType='Space Station'>
-			<availability>IS:4,Periphery:4</availability>
-		</chassis>
-		<chassis name='Pressurized Yard - Small' unitType='Space Station'>
-			<availability>CS:7,CLAN:3,IS:8,Periphery:9</availability>
-		</chassis>
 		<chassis name='Pressurized Yard' unitType='Space Station'>
 			<availability>CS:6,CLAN:4,IS:6,Periphery:6</availability>
 			<model name='Huge (2450)'>

@@ -14453,18 +14453,6 @@
 				<availability>General:5</availability>
 			</model>
 		</chassis>
-		<chassis name='Pressurized Yard - Huge' unitType='Space Station'>
-			<availability>IS:2,Periphery:2</availability>
-		</chassis>
-		<chassis name='Pressurized Yard - Large' unitType='Space Station'>
-			<availability>IS:3,Periphery:3</availability>
-		</chassis>
-		<chassis name='Pressurized Yard - Medium' unitType='Space Station'>
-			<availability>IS:4,Periphery:4</availability>
-		</chassis>
-		<chassis name='Pressurized Yard - Small' unitType='Space Station'>
-			<availability>SE:6,CLAN:7,IS:8,Periphery:8</availability>
-		</chassis>
 		<chassis name='Pressurized Yard' unitType='Space Station'>
 			<availability>SE:8,CLAN:8,IS:7,Periphery:7</availability>
 			<model name='Huge (2450)'>
