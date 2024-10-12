@@ -1093,6 +1093,7 @@
 		<chassis name='Stoat Scout Car' unitType='Tank'>
 			<availability>IS:3,Periphery.Deep:4,Periphery:4</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

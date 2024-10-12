@@ -2620,6 +2620,7 @@
 		<chassis name='Stoat Scout Car' unitType='Tank'>
 			<availability>Periphery:3</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

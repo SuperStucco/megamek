@@ -3219,6 +3219,7 @@
 		<chassis name='Stoat Scout Car' unitType='Tank'>
 			<availability>Periphery:2</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
