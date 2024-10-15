@@ -240,6 +240,7 @@
 		<chassis name='Black Eagle' unitType='Dropship'>
 			<availability>TH:5</availability>
 			<model name=''>
+                <roles>mek_carrier</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
