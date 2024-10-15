@@ -992,7 +992,10 @@
 			</model>
 		</chassis>
 		<chassis name='Phoenix' unitType='Mek'>
-			<availability>RWR:5</availability>
+            <availability>RWR:5:2476</availability>
+            <model name='PX-1R'>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Pressurized Yard' unitType='Space Station'>
 			<availability>TH:6,IS:3,Periphery:2</availability>

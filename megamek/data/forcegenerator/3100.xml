@@ -13370,6 +13370,18 @@
 		</chassis>
 		<chassis name='Phoenix' unitType='Mek'>
 			<availability>MERC:1-,TC:1-,Periphery:1-</availability>
+            <model name='PX-1KC'>
+                <availability>MERC:6,TC:6,Periphery:8</availability>
+            </model>
+            <model name='PX-1KL'>
+                <availability>MERC:6,TC:6</availability>
+            </model>
+            <model name='PX-1KR'>
+                <availability>TC:2-,Periphery:5-</availability>
+            </model>
+            <model name='PX-4R'>
+                <availability>MERC:8,TC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Picaroon' unitType='AeroSpaceFighter'>
 			<availability>DTA:3,RF:5,LA:4,MERC:4,DA:3</availability>

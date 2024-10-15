@@ -9217,7 +9217,13 @@
 			<model name='Prime'>
 				<roles>recon,spotter</roles>
 				<availability>CSA:7,CIH:7,General:8,CCO:9,CGB:9</availability>
-			</model>
+		    </model>
+	    </chassis>
+	    <chassis name='Phoenix' unitType='Mek'>
+		    <availability>LA:2-:3065,MERC:3-:3065</availability>
+		    <model name='PX-1KC'>
+			    <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Phoenix Hawk IIC' unitType='Mek'>
 			<availability>CSA:3,CCC:5,CIH:5,CSR:5,CDS:5,CBS:3,CSV:5,CLAN:3,CFM:5,CCO:5</availability>

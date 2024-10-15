@@ -11681,7 +11681,16 @@
 			</model>
 		</chassis>
 		<chassis name='Phoenix' unitType='Mek'>
-			<availability>LA:2-,MERC:3-,TC:3-</availability>
+            <availability>LA:2-:3070,MERC:3-:3070,TC:3-:3070</availability>
+            <model name='PX-1KC'>
+                <availability>General:8</availability>
+            </model>
+            <model name='PX-1KL'>
+                <availability>General:8</availability>
+            </model>
+            <model name='PX-1KT'>
+                <availability>LA:3</availability>
+            </model>
 		</chassis>
 		<chassis name='Pike Support Vehicle' unitType='Tank'>
 			<availability>MOC:6,CC:3-,CHH:5,HL:2-,FRR:3-,CLAN:5,IS:4-,WOB:4-,FS:3-,MERC:4-,CWIE:6,Periphery:3-,TC:4-,CS:4-,OA:4-,MERC.WD:5,CDS:6,LA:3-,CNC:6,FWL:2-,MH:5-</availability>

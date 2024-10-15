@@ -1445,6 +1445,9 @@
 		</chassis>
 		<chassis name='Phoenix' unitType='Mek'>
 			<availability>RWR:8</availability>
+            <model name='PX-1R'>
+                <availability>General:8</availability>
+            </model>
 			<model name='PX-3R'>
 				<availability>General:4</availability>
 			</model>

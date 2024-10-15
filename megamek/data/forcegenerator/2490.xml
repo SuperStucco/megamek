@@ -1232,7 +1232,10 @@
 			</model>
 		</chassis>
 		<chassis name='Phoenix' unitType='Mek'>
-			<availability>RWR:6</availability>
+            <availability>RWR:6</availability>
+            <model name='PX-1R'>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Pinto Corvette' unitType='Warship'>
 			<availability>OA:1,RWR:4,TC:2</availability>
