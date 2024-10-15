@@ -3123,6 +3123,7 @@
 		<chassis name='SRM Carrier' unitType='Tank'>
 			<availability>General:8,SL.R:7</availability>
 			<model name=''>
+                <roles>sr_fire_support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

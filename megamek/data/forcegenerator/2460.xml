@@ -865,6 +865,7 @@
 		<chassis name='SRM Carrier' unitType='Tank'>
 			<availability>General:3</availability>
 			<model name=''>
+			    <roles>sr_fire_support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Primitive)'>

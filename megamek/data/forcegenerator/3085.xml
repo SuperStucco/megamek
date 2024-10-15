@@ -13937,6 +13937,7 @@
 		<chassis name='SRM Carrier' unitType='Tank'>
 			<availability>General:7,CLAN:3</availability>
 			<model name=''>
+                <roles>sr_fire_support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(3054 Upgrade)'>
