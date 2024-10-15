@@ -2208,6 +2208,7 @@
 		<chassis name='Life Boat' unitType='Small Craft'>
 			<availability>General:1</availability>
 			<model name=''>
+                <roles>civilian</roles>
 				<availability>General:1-</availability>
 			</model>
 		</chassis>
