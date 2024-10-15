@@ -2165,6 +2165,7 @@
 		<chassis name='Prometheus Combat Support Bridgelayer' unitType='Tank'>
 			<availability>FS:5</availability>
 			<model name=''>
+                <roles>support,engineer</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
