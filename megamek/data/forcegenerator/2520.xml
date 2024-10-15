@@ -603,9 +603,6 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='DroST Light Bulk Transport' unitType='Dropship'>
-			<availability>TH:2</availability>
-		</chassis>
 		<chassis name='Dromedary Water Transport' unitType='Tank'>
 			<availability>TC:3,Periphery:2</availability>
 			<model name=''>

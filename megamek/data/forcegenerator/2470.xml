@@ -427,9 +427,6 @@
 				<availability>General:6</availability>
 			</model>
 		</chassis>
-		<chassis name='DroST Light Bulk Transport' unitType='Dropship'>
-			<availability>TH:4</availability>
-		</chassis>
 		<chassis name='Du Shi Wang Battleship' unitType='Warship'>
 			<availability>CC:6</availability>
 			<model name=''>
