@@ -18859,6 +18859,15 @@
 		</chassis>
 		<chassis name='Ymir' unitType='Mek'>
 			<availability>TC:1-</availability>
+            <model name='BWP-X1 &apos;Bipedal Weapons Platform&apos;'>
+                <availability>TC:3</availability>
+            </model>
+            <model name='BWP-2B'>
+                <availability>TC:8</availability>
+            </model>
+            <model name='BWP-2E'>
+                <availability>TC:1</availability>
+            </model>
 		</chassis>
 		<chassis name='York Destroyer-Carrier' unitType='Warship'>
 			<availability>CNC:1,RA:1</availability>

@@ -1248,9 +1248,12 @@
 		<chassis name='Ymir' unitType='Mek'>
 			<availability>LA:5</availability>
 			<model name='BWP-2B'>
-				<availability>General:8</availability>
+			    <availability>General:8:2475</availability>
 			</model>
 			<model name='BWP-2E'>
+			    <availability>General:2:2478</availability>
+            </model>
+            <model name='BWP-X1 &apos;Bipedal Weapons Platform&apos;'>
 				<availability>General:2</availability>
 			</model>
 		</chassis>

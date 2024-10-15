@@ -17548,7 +17548,19 @@
 			</model>
 		</chassis>
 		<chassis name='Ymir' unitType='Mek'>
-			<availability>LA:3-,MERC:2-,DC:2-,TC:3-</availability>
+            <availability>LA:3-,MERC:2-,TC:3-</availability>
+            <model name='BWP-2B'>
+                <availability>General:4</availability>
+            </model>
+            <model name='BWP-2E'>
+                <availability>LA:3+</availability>
+            </model>
+            <model name='BWP-3A'>
+                <availability>LA:3</availability>
+            </model>
+            <model name='BWP-X1 &apos;Bipedal Weapons Platform&apos;'>
+                <availability>IS:8,TC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='York Destroyer-Carrier' unitType='Warship'>
 			<availability>CSA:4,CCC:3,CSR:1,CBS:1,CNC:1,CCO:1</availability>
