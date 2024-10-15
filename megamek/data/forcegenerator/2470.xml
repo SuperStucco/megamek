@@ -600,6 +600,12 @@
 				<availability>TH:4,IS:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Hawk Hover Tank' unitType='Tank'>
+            <availability>TH:6</availability>
+            <model name='(LTV-4)'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Heavy Hover APC' unitType='Tank'>
 			<availability>IS:6,Periphery.Deep:5,TC:6,Periphery:5</availability>
 			<model name=''>
@@ -749,9 +755,6 @@
 				<roles>fire_support</roles>
 				<availability>IS:3,Periphery.Deep:8,Periphery:8</availability>
 			</model>
-		</chassis>
-		<chassis name='LTV-4 Hover Tank' unitType='Tank'>
-			<availability>TH:6</availability>
 		</chassis>
 		<chassis name='League Destroyer' unitType='Warship'>
 			<availability>FWL:4</availability>

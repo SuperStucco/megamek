@@ -8528,6 +8528,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Hawk Hover Tank' unitType='Tank'>
+            <availability>IS:1-,Periphery:2-</availability>
+            <model name='(LTV-4)'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Hawk Moth Gunship' unitType='VTOL'>
 			<availability>ROS:4-,FWL:2-,IS:3-</availability>
 			<model name=''>
@@ -10715,9 +10721,6 @@
 				<roles>fire_support</roles>
 				<availability>MOC:8,IS:8,CP:8,TC:8,Periphery:6</availability>
 			</model>
-		</chassis>
-		<chassis name='LTV-4 Hover Tank' unitType='Tank'>
-			<availability>IS:1-,Periphery:2-</availability>
 		</chassis>
 		<chassis name='Lament' unitType='Mek'>
 			<availability>ROS:6</availability>

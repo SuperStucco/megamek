@@ -1626,6 +1626,12 @@
 				<availability>General:6,NIOPS:8,SL.R:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Hawk Hover Tank' unitType='Tank'>
+            <availability>SL:5,IS:6,NIOPS:1-,Periphery.Deep:6,Periphery:6</availability>
+            <model name='(LTV-4)'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Heavy BattleMech Recovery Vehicle' unitType='Tank'>
 			<availability>General:4</availability>
 			<model name=''>
@@ -2074,9 +2080,6 @@
 				<roles>fire_support</roles>
 				<availability>General:6</availability>
 			</model>
-		</chassis>
-		<chassis name='LTV-4 Hover Tank' unitType='Tank'>
-			<availability>SL:5,IS:6,NIOPS:1-,Periphery.Deep:6,Periphery:6</availability>
 		</chassis>
 		<chassis name='Lancelot' unitType='Mek'>
 			<availability>MOC:4,OA:4,IS:6,NIOPS:6,SL.R:6,MERC:6,CIR:4,TC:4</availability>
