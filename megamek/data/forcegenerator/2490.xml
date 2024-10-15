@@ -375,10 +375,11 @@
 		<chassis name='Cobra VTOL Transport' unitType='VTOL'>
 			<availability>TH:4</availability>
 			<model name=''>
+                <roles>apc</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Fusion)'>
-				<roles>cargo</roles>
+                <roles>apc</roles>
 				<availability>General:6</availability>
 			</model>
 		</chassis>
