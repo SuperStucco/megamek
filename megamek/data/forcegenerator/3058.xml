@@ -1064,49 +1064,51 @@
 		<chassis name='Archer' unitType='Mek'>
 			<availability>CC:6,HL:4,FRR:6,CLAN:1,IS:8,Periphery.Deep:5,WOB:3-,SIC:7,FS:7,Periphery:5,CS:4-,NIOPS:4-,DC:7</availability>
 			<model name='(Wolf)'>
+				<roles>command,fire_support</roles>
 				<availability>MERC.KH:2,MERC.WD:2,CWIE:3</availability>
 			</model>
 			<model name='ARC-2K'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>FRR:4,DC:6</availability>
 			</model>
 			<model name='ARC-2R'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>HL:3,LA:5,FRR:5,IS:5,Periphery.Deep:8,BAN:2,DC:5,Periphery:5</availability>
 			</model>
 			<model name='ARC-2Rb'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CLAN:5,BAN:2</availability>
 			</model>
 			<model name='ARC-2S'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:6</availability>
 			</model>
 			<model name='ARC-2W'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>MERC.WD:5</availability>
 			</model>
 			<model name='ARC-4M'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CS:6+,CC:3+,LA:3+,PIR:2+,FWL:7+,WOB:6,SIC:3+,MERC:3+,FS:3+,DC:3+</availability>
 			</model>
 			<model name='ARC-5CS'>
+				<roles>command,fire_support</roles>
 				<availability>CS:4,FRR:2</availability>
 			</model>
 			<model name='ARC-5R'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>FRR:6+,MERC:3+,DC:3+</availability>
 			</model>
 			<model name='ARC-5S'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:6+,FS:4+</availability>
 			</model>
 			<model name='ARC-5W'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>MERC.WD:6+,LA:3+,MERC:3+</availability>
 			</model>
 			<model name='C'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CSA:4,CCC:4,CW:3,LA:2+,CSV:4,CFM:4,FS:2+,CGS:4,CWIE:3,DC:2+</availability>
 			</model>
 		</chassis>

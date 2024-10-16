@@ -678,23 +678,23 @@
 		<chassis name='Archer' unitType='Mek'>
 			<availability>CC:7,HL:3,FRR:6,IS:8,Periphery.Deep:5,SIC:7,Periphery:5,CS:5-,LA:9,FWL:9,NIOPS:5-</availability>
 			<model name='ARC-2K'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>FRR:4,DC:8</availability>
 			</model>
 			<model name='ARC-2R'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>HL:6,LA:6,FRR:6,IS:8,Periphery.Deep:7,BAN:2,DC:6,Periphery:8</availability>
 			</model>
 			<model name='ARC-2Rb'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CLAN:8,BAN:2</availability>
 			</model>
 			<model name='ARC-2S'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:8</availability>
 			</model>
 			<model name='ARC-2W'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 		</chassis>

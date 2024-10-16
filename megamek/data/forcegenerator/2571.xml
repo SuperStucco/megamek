@@ -305,11 +305,11 @@
 			<availability>CC:5,TH:7,LA:6,SL:6,IS:3,FWL:6,RWR:3,FS:5,Periphery:3,DC:5</availability>
 			<model name='ARC-1A'>
 				<roles>fire_support</roles>
-				<availability>TH:2-</availability>
+				<availability>TH:2-,Periphery:5-</availability>
 			</model>
 			<model name='ARC-2R'>
-				<roles>fire_support</roles>
-				<availability>LA:8,SL:8,IS:8,Periphery.Deep:8,SL.R:8,DC:8,Periphery:8</availability>
+				<roles>command,fire_support</roles>
+				<availability>SL:8,IS:8,SL.R:8,Periphery:6+</availability>
 			</model>
 		</chassis>
 		<chassis name='Ares Assault Craft' unitType='Small Craft'>

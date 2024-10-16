@@ -1499,6 +1499,7 @@
 		<chassis name='Archer' unitType='Mek'>
 			<availability>CC:4,HL:3,LA:6,CGB.FRR:4,IS:2-,Periphery.Deep:5,FWL:6,NIOPS:4-,FS:2-,Periphery:4,DC:5,CGB:2</availability>
 			<model name='(Wolf)'>
+			    <roles>command,fire_support</roles>
 				<availability>MERC.KH:6,MERC.WD:6</availability>
 			</model>
 			<model name='ARC-1A'>
@@ -1506,74 +1507,75 @@
 				<availability>LA:3-,FWL:3-,MERC:4-,DC:3-</availability>
 			</model>
 			<model name='ARC-2K'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CGB.FRR:1-,DC:3-</availability>
 			</model>
 			<model name='ARC-2R'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:2-,CGB.FRR:2-,IS:2-,Periphery.Deep:8,BAN:2,DC:2-,Periphery:3-</availability>
 			</model>
 			<model name='ARC-2Rb'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CLAN:4,FWL:4,MERC:3,BAN:2</availability>
 			</model>
 			<model name='ARC-4M'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CC:4,FVC:4,PIR:5,FWL:5,MERC:4,DC:4,Periphery:2</availability>
 			</model>
 			<model name='ARC-5CS'>
+			    <roles>command,fire_support</roles>
 				<availability>CGB.FRR:1</availability>
 			</model>
 			<model name='ARC-5R'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CGB.FRR:8,MERC:4,CGB:3</availability>
 			</model>
 			<model name='ARC-5S'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:5,MERC:3</availability>
 			</model>
 			<model name='ARC-5W'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>MERC.WD:8,LA:3,MERC:3</availability>
 			</model>
 			<model name='ARC-6S'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:3,CGB.FRR:3,ROS:4,MERC:3,CGB:2</availability>
 			</model>
 			<model name='ARC-6W'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>FVC:4,HL:1,TC:5,Periphery:4</availability>
 			</model>
 			<model name='ARC-7L'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CC:7,MOC:3</availability>
 			</model>
 			<model name='ARC-7S'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:5</availability>
 			</model>
 			<model name='ARC-8M'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>MOC:3,DoO:5,DO:5,DGM:5,MERC:4,DTA:5,SC:5,MCM:5,CGB.FRR:3,ROS:4,PIR:3,MH:3,MSC:5,TP:5</availability>
 			</model>
 			<model name='ARC-9K'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>DC:5</availability>
 			</model>
 			<model name='ARC-9KC'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='ARC-9M'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:5,ROS:4,FWL:4,MERC:4,DC:4</availability>
 			</model>
 			<model name='ARC-9W'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support,specops</roles>
 				<availability>ROS:5</availability>
 			</model>
 			<model name='C'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>CSA:6,CCC:6</availability>
 			</model>
 		</chassis>

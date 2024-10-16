@@ -362,11 +362,11 @@
 		<chassis name='Archer' unitType='Mek'>
 			<availability>CC:7,LA:9,SL:2,IS:6,FWL:9,NIOPS:5-,Periphery.Deep:6,FS:8,Periphery:6,DC:8</availability>
 			<model name='ARC-2R'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:8,SL:8,IS:8,Periphery.Deep:8,SL.R:4,DC:8,Periphery:8</availability>
 			</model>
 			<model name='ARC-2Rb'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>SL.R:8</availability>
 			</model>
 		</chassis>

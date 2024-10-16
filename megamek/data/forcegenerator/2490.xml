@@ -190,7 +190,7 @@
 			</model>
 			<model name='ARC-2R'>
 				<roles>fire_support</roles>
-				<availability>IS:8,Periphery.Deep:8,Periphery:8</availability>
+			<availability>TH:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Ares Assault Craft' unitType='Small Craft'>
