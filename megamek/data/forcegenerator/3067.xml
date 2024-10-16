@@ -11292,11 +11292,12 @@
 		<chassis name='Paramour Mobile Repair Vehicle' unitType='Tank'>
 			<availability>FWL:2</availability>
 			<model name=''>
+                <roles>support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(MFB)'>
 				<roles>support</roles>
-				<availability>General:5</availability>
+				<availability>General:5:3074</availability>
 			</model>
 		</chassis>
 		<chassis name='Pariah (Septicemia)' unitType='Mek' omni='Clan'>
