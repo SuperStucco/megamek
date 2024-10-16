@@ -544,6 +544,7 @@
 		<chassis name='Davion Destroyer' unitType='Warship'>
 			<availability>FS:4</availability>
 			<model name='(Block I)'>
+                <roles>destroyer</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='(Block II)'>
