@@ -504,6 +504,7 @@
 		<chassis name='Baleena Passenger Submarine' unitType='Naval'>
 			<availability>TH:5-,LA:6-,FWL:6-</availability>
 			<model name=''>
+                <roles>cargo,civilian</roles>
 				<availability>TH:5-,LA:5,FWL:5</availability>
 			</model>
 		</chassis>

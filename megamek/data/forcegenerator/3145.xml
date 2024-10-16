@@ -2387,6 +2387,7 @@
 		<chassis name='Baleena Passenger Submarine' unitType='Naval'>
 			<availability>RF:4-,LA:4-,FWL:4-,DA:4-</availability>
 			<model name=''>
+                <roles>cargo,civilian</roles>
 				<availability>RF:4,LA:4,FWL:4,DA:4</availability>
 			</model>
 		</chassis>

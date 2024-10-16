@@ -1920,6 +1920,7 @@
 		<chassis name='Baleena Passenger Submarine' unitType='Naval'>
 			<availability>LA:4-,FWL:4-,WOB:6-</availability>
 			<model name=''>
+                <roles>cargo,civilian</roles>
 				<availability>LA:4,FWL:4,WOB:6</availability>
 			</model>
 		</chassis>
