@@ -702,12 +702,12 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>
-			<availability>CC:2,TH:8,LA:2,IS:2,DC:2</availability>
+			<availability>TH:8,IS:2</availability>
 			<model name='GRF-1A'>
-				<availability>LA:6,IS:6,Periphery.Deep:8,MERC:6,Periphery:8,TC:8</availability>
+				<availability>IS:6,MERC:6</availability>
 			</model>
 			<model name='GRF-1N'>
-				<availability>General:6,Periphery.Deep:6,Periphery:6</availability>
+				<availability>General:6:2492</availability>
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>

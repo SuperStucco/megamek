@@ -1200,12 +1200,12 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>
-			<availability>CC:5,MOC:3,OA:3,TH:8,LA:5,SL:7,IS:5,RWR:2,MERC:3,TC:3,DC:4</availability>
+			<availability>MOC:3,OA:3,TH:8,SL:7,IS:5,RWR:2,MERC:3,TC:3,DC:4</availability>
 			<model name='GRF-1A'>
-				<availability>LA:2,IS:2,Periphery.Deep:6,MERC:2,Periphery:6,TC:6</availability>
+				<availability>IS:2,Periphery.Deep:6,MERC:2,Periphery:6</availability>
 			</model>
 			<model name='GRF-1N'>
-				<availability>General:8,SL:8,Periphery.Deep:8,SL.R:8,Periphery:8</availability>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>

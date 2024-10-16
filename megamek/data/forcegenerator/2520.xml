@@ -855,12 +855,12 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>
-			<availability>CC:4,TH:8,LA:4,IS:4,DC:3</availability>
+			<availability>TH:8,IS:4,DC:3</availability>
 			<model name='GRF-1A'>
-				<availability>IS:4,Periphery.Deep:8,MERC:4,Periphery:8</availability>
+				<availability>IS:4,MERC:4</availability>
 			</model>
 			<model name='GRF-1N'>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>

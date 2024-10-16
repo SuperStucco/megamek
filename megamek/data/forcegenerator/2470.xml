@@ -567,9 +567,9 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>
-			<availability>CC:1,TH:6,LA:1,IS:1,DC:1</availability>
+			<availability>TH:6,IS:1</availability>
 			<model name='GRF-1A'>
-				<availability>LA:8,IS:8,Periphery.Deep:8,MERC:8,Periphery:8,TC:8</availability>
+				<availability>IS:8,MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>
