@@ -4590,26 +4590,28 @@
 		<chassis name='Firestarter' unitType='Mek'>
 			<availability>CS:3,HL:6,LA:7,IS:6,NIOPS:3,Periphery.Deep:6,WOB:3,Periphery:7</availability>
 			<model name='FS9-C'>
+                <roles>anti_infantry</roles>
 				<availability>MOC:4,PIR:5,MH:5,CIR:7,Periphery:3,TC:3</availability>
 			</model>
 			<model name='FS9-H'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<deployedWith>Vulcan</deployedWith>
 				<availability>HL:3,General:5,Periphery.Deep:8,Periphery:5</availability>
 			</model>
 			<model name='FS9-M &apos;Mirage&apos;'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<availability>LA:1,LA.SR:2</availability>
 			</model>
 			<model name='FS9-P'>
+                <roles>anti_infantry</roles>
 				<availability>Periphery:2</availability>
 			</model>
 			<model name='FS9-S'>
-				<roles>recon</roles>
+                <roles>anti_infantry,ew_support,recon</roles>
 				<availability>CC:4,CS:4,MOC:5,LA:7,FRR:5,General:4,FS:5,TC:4</availability>
 			</model>
 			<model name='FS9-S1'>
-				<roles>recon</roles>
+                <roles>anti_infantry,ew_support,recon</roles>
 				<availability>LA:6,General:4,FS:5</availability>
 			</model>
 		</chassis>

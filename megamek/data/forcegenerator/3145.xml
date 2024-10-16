@@ -6826,39 +6826,44 @@
 		<chassis name='Firestarter' unitType='Mek'>
 			<availability>LA:6,IS:5,Periphery.Deep:5,Periphery:7</availability>
 			<model name='FS9-C'>
+                <roles>anti_infantry</roles>
 				<availability>MOC:4,FVC:5,PIR:5,MH:5,Periphery:3,TC:4</availability>
 			</model>
 			<model name='FS9-H'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<deployedWith>Vulcan</deployedWith>
 				<availability>General:1-,Periphery:2-</availability>
 			</model>
 			<model name='FS9-M2'>
-				<roles>incendiary</roles>
+				<roles>anti_infantry,incendiary</roles>
 				<availability>LA:4,IS:3,MH:3,TC:3,Periphery:3</availability>
 			</model>
 			<model name='FS9-M3'>
-				<roles>spotter</roles>
+				<roles>anti_infantry,spotter</roles>
 				<availability>LA:3,IS:2,TC:2,Periphery:2</availability>
 			</model>
 			<model name='FS9-M4'>
+                <roles>anti_infantry</roles>
 				<availability>FVC:3,RF:4,LA:4,ROS:4,IS:4,MH:3,FS:4,DA:4,TC:3</availability>
 			</model>
 			<model name='FS9-P'>
+                <roles>anti_infantry</roles>
 				<availability>FVC:4,Periphery:4</availability>
 			</model>
 			<model name='FS9-S'>
-				<roles>recon</roles>
+                <roles>anti_infantry,ew_support,recon</roles>
 				<availability>CC:1,MOC:2,LA:2,General:2,FS:2,TC:1</availability>
 			</model>
 			<model name='FS9-S1'>
-				<roles>recon</roles>
+                <roles>anti_infantry,ew_support,recon</roles>
 				<availability>LA:2,General:1,FS:1</availability>
 			</model>
 			<model name='FS9-S2'>
+                <roles>anti_infantry,ew_support,recon</roles>
 				<availability>LA:7,ROS:5,FWL:3,FS:3,MERC:4,CP:3</availability>
 			</model>
 			<model name='FS9-S3'>
+                <roles>anti_infantry,ew_support,recon</roles>
 				<availability>LA:6,ROS:5,FWL:3,FS:3,MERC:3,CP:3</availability>
 			</model>
 		</chassis>

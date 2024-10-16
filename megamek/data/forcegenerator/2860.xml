@@ -1843,17 +1843,17 @@
 		<chassis name='Firestarter' unitType='Mek'>
 			<availability>CS:3,LA:8,IS:7,NIOPS:3,Periphery.Deep:7,Periphery:7</availability>
 			<model name='FS9-H'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<deployedWith>Vulcan</deployedWith>
 				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
 			</model>
 			<model name='FS9-K'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<deployedWith>Vulcan</deployedWith>
 				<availability>CC:1</availability>
 			</model>
 			<model name='FS9-M &apos;Mirage&apos;'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<availability>LA:1</availability>
 			</model>
 		</chassis>

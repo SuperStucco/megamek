@@ -1255,12 +1255,12 @@
 		<chassis name='Firestarter' unitType='Mek'>
 			<availability>LA:8,SL:4,IS:7,Periphery.Deep:7,Periphery:7</availability>
 			<model name='FS9-A'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<deployedWith>Vulcan</deployedWith>
 				<availability>LA:1,SL:2,RWR:1</availability>
 			</model>
 			<model name='FS9-H'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<deployedWith>Vulcan</deployedWith>
 				<availability>General:7,Periphery.Deep:7,Periphery:7</availability>
 			</model>

@@ -3793,20 +3793,20 @@
 		<chassis name='Firestarter' unitType='Mek'>
 			<availability>CS:3,HL:6,LA:8,IS:7,NIOPS:3,Periphery.Deep:6,WOB:3,Periphery:7</availability>
 			<model name='FS9-H'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<deployedWith>Vulcan</deployedWith>
 				<availability>HL:4,General:6,Periphery.Deep:6,Periphery:6</availability>
 			</model>
 			<model name='FS9-M &apos;Mirage&apos;'>
-				<roles>recon</roles>
+                <roles>anti_infantry,recon</roles>
 				<availability>LA:1,LA.SR:2</availability>
 			</model>
 			<model name='FS9-S'>
-				<roles>recon</roles>
+                <roles>anti_infantry,ew_support,recon</roles>
 				<availability>CC:3+,CS:3+,MOC:4+,LA:5+,FRR:4+,General:3+,FS:4+,TC:3+</availability>
 			</model>
 			<model name='FS9-S1'>
-				<roles>recon</roles>
+                <roles>anti_infantry,ew_support,recon</roles>
 				<availability>LA:5+,General:2+,FS:4+</availability>
 			</model>
 		</chassis>
