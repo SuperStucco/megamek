@@ -648,9 +648,11 @@
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>TH:6</availability>
 			<model name='EMP-1A'>
+                <roles>command</roles>
 				<availability>TH:4,General:8</availability>
 			</model>
 			<model name='EMP-5A'>
+                <roles>command</roles>
 				<availability>General:6</availability>
 			</model>
 		</chassis>

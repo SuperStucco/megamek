@@ -1683,9 +1683,11 @@
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>MOC:4,CC:5,CS:7,OA:5,CLAN:3,FWL:6,NIOPS:7,FS:5,MERC:5,TC:5</availability>
 			<model name='EMP-5A'>
+                <roles>command</roles>
 				<availability>General:8,BAN:2</availability>
 			</model>
 			<model name='EMP-6A'>
+                <roles>command</roles>
 				<availability>CC:2+,CS:8,LA:2+,CLAN:8,NIOPS:8,FWL:2+,FS:2+,BAN:6</availability>
 			</model>
 			<model name='EMP-6A-EC'>

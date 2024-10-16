@@ -1085,12 +1085,15 @@
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>CC:5,MOC:4,OA:4,TH:5,SL:7,FWL:5,RWR:4,FS:5,MERC:5,TC:4</availability>
 			<model name='EMP-1A'>
+                <roles>command</roles>
 				<availability>TH:2</availability>
 			</model>
 			<model name='EMP-5A'>
+                <roles>command</roles>
 				<availability>General:8,SL:5,SL.R:4</availability>
 			</model>
 			<model name='EMP-6A'>
+                <roles>command</roles>
 				<availability>SL:8+,SL.R:8</availability>
 			</model>
 		</chassis>

@@ -3207,6 +3207,7 @@
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>MOC:2,CLAN:1,IS:2,WOB:7,MERC:2,TC:2,CS:7,NIOPS:7</availability>
 			<model name='EMP-6A'>
+                <roles>command</roles>
 				<availability>CS:8,HL:6,CLAN:8,IS:8,NIOPS:8,Periphery.Deep:6,BAN:4,Periphery:8</availability>
 			</model>
 		</chassis>

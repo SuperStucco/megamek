@@ -5437,24 +5437,30 @@
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>CC:5,MOC:4,CLAN:2,IS:4,WOB:7,FS:5,MERC:4,TC:4,CS:7,CNC:5,NIOPS:7</availability>
 			<model name='EMP-6A'>
+                <roles>command</roles>
 				<availability>CC:5,CS:8,HL:6,LA:5,CLAN:8,IS:8,NIOPS:8,Periphery.Deep:6,FWL:5,FS:5,BAN:4,Periphery:8</availability>
 			</model>
 			<model name='EMP-6D'>
+                <roles>command</roles>
 				<availability>FS:8</availability>
 			</model>
 			<model name='EMP-6L'>
+                <roles>command</roles>
 				<availability>CC:4</availability>
 			</model>
 			<model name='EMP-6M'>
+                <roles>command</roles>
 				<availability>FWL:4,WOB:4</availability>
 			</model>
 			<model name='EMP-6ME &apos;Mercury Elite&apos;'>
 				<availability>FWL:2</availability>
 			</model>
 			<model name='EMP-6S'>
+                <roles>command</roles>
 				<availability>LA:7</availability>
 			</model>
 			<model name='EMP-7L'>
+                <roles>command</roles>
 				<availability>CC:5</availability>
 			</model>
 		</chassis>

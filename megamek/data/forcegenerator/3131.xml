@@ -6265,21 +6265,27 @@
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>CC:5,MOC:4,CLAN:2,IS:4,FS:5,MERC:4,CP:4,CDP:3,TC:4,CNC:5,MH:3</availability>
 			<model name='EMP-6A'>
+                <roles>command</roles>
 				<availability>CC:4,LA:4,ROS:4,CLAN:8,IS:8,Periphery.Deep:6,FWL:4,FS:4,BAN:4,Periphery:8</availability>
 			</model>
 			<model name='EMP-6D'>
+                <roles>command</roles>
 				<availability>ROS:8,FS:8</availability>
 			</model>
 			<model name='EMP-6L'>
+                <roles>command</roles>
 				<availability>CC:3</availability>
 			</model>
 			<model name='EMP-6S'>
+                <roles>command</roles>
 				<availability>LA:8</availability>
 			</model>
 			<model name='EMP-7L'>
+                <roles>command</roles>
 				<availability>CC:6</availability>
 			</model>
 			<model name='EMP-8L'>
+                <roles>command</roles>
 				<availability>CC:5</availability>
 			</model>
 		</chassis>

@@ -1981,9 +1981,11 @@
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>CS:7,CLAN:2,CNC:2,FWL:1,NIOPS:7</availability>
 			<model name='EMP-5A'>
+                <roles>command</roles>
 				<availability>General:8,BAN:3</availability>
 			</model>
 			<model name='EMP-6A'>
+                <roles>command</roles>
 				<availability>CS:8,CLAN:8,NIOPS:8,BAN:5</availability>
 			</model>
 		</chassis>

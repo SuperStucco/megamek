@@ -896,12 +896,15 @@
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>TH:6,SL:6</availability>
 			<model name='EMP-1A'>
+                <roles>command</roles>
 				<availability>TH:3,General:6,SL:2</availability>
 			</model>
 			<model name='EMP-5A'>
+                <roles>command</roles>
 				<availability>General:8,SL:8,SL.R:8</availability>
 			</model>
 			<model name='EMP-6A'>
+                <roles>command</roles>
 				<availability>SL:4+,SL.R:5</availability>
 			</model>
 		</chassis>
