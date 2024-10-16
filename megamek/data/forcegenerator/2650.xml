@@ -2243,19 +2243,19 @@
 		<chassis name='Phoenix Hawk' unitType='Mek'>
 			<availability>TH:5,SL:6,FWL:5,IS:5,Periphery.Deep:4,Periphery:4</availability>
 			<model name='PXH-1'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>General:8,SL:4,Periphery:8</availability>
 			</model>
 			<model name='PXH-1D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='PXH-1K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='PXH-2'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>SL:8,SL.R:8</availability>
 			</model>
 		</chassis>

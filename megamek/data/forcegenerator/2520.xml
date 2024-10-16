@@ -1440,14 +1440,10 @@
 			</model>
 		</chassis>
 		<chassis name='Phoenix Hawk' unitType='Mek'>
-			<availability>TH:4</availability>
+			<availability>TH:4:2568</availability>
 			<model name='PXH-1'>
-				<roles>recon</roles>
-				<availability>General:8,Periphery:8</availability>
-			</model>
-			<model name='PXH-1D'>
-				<roles>recon</roles>
-				<availability>FS:6</availability>
+				<roles>command,recon</roles>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Phoenix' unitType='Mek'>

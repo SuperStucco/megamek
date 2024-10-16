@@ -3337,39 +3337,35 @@
 		<chassis name='Phoenix Hawk' unitType='Mek'>
 			<availability>PP:5,CS:7,IS:7,FWL:7,NIOPS:7,Periphery.Deep:5,Periphery:5</availability>
 			<model name='PXH-1'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>PP:6,General:8,Periphery:8</availability>
 			</model>
 			<model name='PXH-1-EC'>
+                <roles>command,recon</roles>
 				<availability>CGS:4</availability>
 			</model>
 			<model name='PXH-1D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='PXH-1K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='PXH-1Kk'>
+                <roles>command</roles>
 				<availability>DC:2+</availability>
 			</model>
 			<model name='PXH-1b &apos;Special&apos;'>
-				<availability>PP:2,CLAN:7</availability>
-			</model>
-			<model name='PXH-1b &apos;Special&apos;'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>PP:2,CLAN:7</availability>
 			</model>
 			<model name='PXH-1c &apos;Special&apos;'>
-				<availability>CLAN:4,CGS:5</availability>
-			</model>
-			<model name='PXH-1c &apos;Special&apos;'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:4,CGS:5</availability>
 			</model>
 			<model name='PXH-2'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>PP:4,CC:4+,MOC:4+,OA:4+,FWL:4+</availability>
 			</model>
 		</chassis>

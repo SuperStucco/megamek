@@ -2734,29 +2734,27 @@
 		<chassis name='Phoenix Hawk' unitType='Mek'>
 			<availability>TH:6,SL:6,FWL:6,IS:6,Periphery.Deep:5,Periphery:5</availability>
 			<model name='PXH-1'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>General:8,SL:4-,Periphery:8</availability>
 			</model>
 			<model name='PXH-1D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='PXH-1K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='PXH-1Kk'>
+                <roles>command</roles>
 				<availability>DC:2+</availability>
 			</model>
 			<model name='PXH-1b &apos;Special&apos;'>
-				<availability>SL.R:5</availability>
-			</model>
-			<model name='PXH-1b &apos;Special&apos;'>
-				<roles>recon</roles>
+                <roles>command,recon</roles>
 				<availability>SL.R:5</availability>
 			</model>
 			<model name='PXH-2'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:2+,MOC:2+,OA:2+,SL:8,FWL:2+,SL.R:7</availability>
 			</model>
 		</chassis>

@@ -13823,61 +13823,63 @@
 		<chassis name='Phoenix Hawk' unitType='Mek'>
 			<availability>RD:4,IS:7,FWL:8,CP:8,Periphery:6</availability>
 			<model name='PXH-1'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>BAN:6,Periphery:1-</availability>
 			</model>
 			<model name='PXH-1b &apos;Special&apos;'>
-				<availability>CLAN:5,FWL:5,CP:5,BAN:1</availability>
-			</model>
-			<model name='PXH-1b &apos;Special&apos;'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:5,FWL:5,CP:5,BAN:1</availability>
 			</model>
 			<model name='PXH-1c &apos;Special&apos;'>
-				<availability>CC:4,CLAN:3,FWL:4,MERC:4,DA:4,CP:4</availability>
-			</model>
-			<model name='PXH-1c &apos;Special&apos;'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:4,CLAN:3,FWL:4,MERC:4,DA:4,CP:4</availability>
 			</model>
 			<model name='PXH-3D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FVC:8,FS:8,MERC:6</availability>
 			</model>
 			<model name='PXH-3K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>RD:6,DC:8</availability>
 			</model>
 			<model name='PXH-3M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>RF:8,FWL:8,IS:4,DA:8,CP:8</availability>
 			</model>
 			<model name='PXH-3PL'>
+                <roles>command</roles>
 				<availability>FS:6,MERC:4</availability>
 			</model>
 			<model name='PXH-3S'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>LA:2,MERC:4</availability>
 			</model>
 			<model name='PXH-4L'>
+                <roles>command</roles>
 				<availability>CC:8,MOC:4,MH:4,DA:4,TC:4</availability>
 			</model>
 			<model name='PXH-4W'>
+                <roles>command</roles>
 				<availability>MOC:6,TC:6</availability>
 			</model>
 			<model name='PXH-5L'>
+                <roles>command</roles>
 				<availability>CC:6,MOC:4</availability>
 			</model>
 			<model name='PXH-6D'>
+                <roles>command</roles>
 				<availability>FS:8</availability>
 			</model>
 			<model name='PXH-7K'>
+                <roles>command</roles>
 				<availability>DC:4</availability>
 			</model>
 			<model name='PXH-7S'>
+                <roles>command</roles>
 				<availability>RF:4,LA:8,MERC:6</availability>
 			</model>
 			<model name='PXH-8CS'>
+                <roles>command</roles>
 				<availability>RD:4,DC:2</availability>
 			</model>
 		</chassis>

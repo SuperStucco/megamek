@@ -12494,69 +12494,71 @@
 		<chassis name='Phoenix Hawk' unitType='Mek'>
 			<availability>CS:5,HL:5,CLAN:1,IS:8,FWL:9,NIOPS:5,Periphery.Deep:4,WOB:3,Periphery:6</availability>
 			<model name='PXH-1'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>General:3-,BAN:6,Periphery:3-</availability>
 			</model>
 			<model name='PXH-1D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FVC:2-,PIR:3-,FS:2-,MERC:2-</availability>
 			</model>
 			<model name='PXH-1K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FRR:1-,DC:2-</availability>
 			</model>
 			<model name='PXH-1b &apos;Special&apos;'>
-				<availability>CLAN:5,FWL:4,WOB:4,BAN:1</availability>
-			</model>
-			<model name='PXH-1b &apos;Special&apos;'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:5,FWL:4,WOB:4,BAN:1</availability>
 			</model>
 			<model name='PXH-1bC'>
+                <roles>command,recon</roles>
 				<availability>CS:1,WOB:1</availability>
 			</model>
 			<model name='PXH-1c &apos;Special&apos;'>
-				<availability>CLAN:3,FWL:3,WOB:4,RCM:3,CGS:5</availability>
-			</model>
-			<model name='PXH-1c &apos;Special&apos;'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:3,FWL:3,WOB:4,RCM:3,CGS:5</availability>
 			</model>
 			<model name='PXH-3D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FVC:8,FS:8,MERC:6</availability>
 			</model>
 			<model name='PXH-3K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FRR:8,DC:8</availability>
 			</model>
 			<model name='PXH-3M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DTA:8,FWL:8,IS:4,RCM:8</availability>
 			</model>
 			<model name='PXH-3PL'>
+                <roles>command</roles>
 				<availability>WOB:4,FS:5,MERC:4</availability>
 			</model>
 			<model name='PXH-3S'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>LA:6,MERC:5</availability>
 			</model>
 			<model name='PXH-4L'>
+                <roles>command</roles>
 				<availability>CC:6,MOC:4,MH:4,WOB:4,CIR:3,TC:4</availability>
 			</model>
 			<model name='PXH-5L'>
+                <roles>command</roles>
 				<availability>CC:3,MOC:3</availability>
 			</model>
 			<model name='PXH-6D'>
+                <roles>command</roles>
 				<availability>FS:5</availability>
 			</model>
 			<model name='PXH-7CS'>
+                <roles>command</roles>
 				<availability>CS:4</availability>
 			</model>
 			<model name='PXH-7K'>
+                <roles>command</roles>
 				<availability>DC:3</availability>
 			</model>
 			<model name='PXH-7S'>
+                <roles>command</roles>
 				<availability>LA:5,MERC:4</availability>
 			</model>
 		</chassis>
