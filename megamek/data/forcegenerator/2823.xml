@@ -1310,6 +1310,7 @@
 		<chassis name='Congress D Frigate' unitType='Warship'>
 			<availability>FS:2</availability>
 			<model name=''>
+                <roles>frigate</roles>
 				<availability>FS:8</availability>
 			</model>
 		</chassis>
