@@ -9344,6 +9344,7 @@
 		<chassis name='Lyonesse Escort' unitType='Small Craft'>
 			<availability>DTA:3,FWL:3,WOB:3</availability>
 			<model name=''>
+                <roles>escort</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='M1'>

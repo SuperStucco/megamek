@@ -3432,6 +3432,7 @@
 		<chassis name='Lyonesse Escort' unitType='Small Craft'>
 			<availability>FWL:4</availability>
 			<model name=''>
+                <roles>escort</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
