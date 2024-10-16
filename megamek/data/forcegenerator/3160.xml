@@ -9385,24 +9385,24 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Jabberwocky' unitType='Mek'>
-			<availability>FVC:6,MERC.KH:3,MERC.WD:3,FS:8-,MERC:5,CDP:6</availability>
-			<model name='JAW-66B EngineerMech'>
-				<roles>engineer</roles>
-				<availability>MERC.KH:5,MERC.WD:5,FVC:6,FS:8,MERC:5,CDP:6</availability>
-			</model>
-			<model name='JAW-66C DemolitionMech'>
-				<roles>engineer</roles>
-				<availability>FVC:6,MERC.KH:3,MERC.WD:3,FS:6-,MERC:5,CDP:5</availability>
-			</model>
-			<model name='JAW-66D ConstructionMech'>
-				<roles>engineer</roles>
-				<availability>FVC:6,MERC.KH:4,MERC.WD:5,FS:8,MERC:5,CDP:6</availability>
-			</model>
-			<model name='JAW-67 MilitiaMech'>
-				<availability>FVC:6,FS:8-,CDP:6</availability>
-			</model>
-		</chassis>
+        <chassis name='Jabberwocky' unitType='Mek'>
+            <availability>FVC:6,MERC:5-,FS:8-,CDP:6</availability>
+            <model name='JAW-66B EngineerMech'>
+                <roles>engineer,support</roles>
+                <availability>General:6</availability>
+            </model>
+            <model name='JAW-66C DemolitionMech'>
+                <roles>engineer,support</roles>
+                <availability>General:4</availability>
+            </model>
+            <model name='JAW-66D ConstructionMech'>
+                <roles>engineer,support</roles>
+                <availability>General:4</availability>
+            </model>
+            <model name='JAW-67 MilitiaMech'>
+                <availability>FS:6-,MERC:6-,FVC:5,CDP:6-</availability>
+            </model>
+        </chassis>
 		<chassis name='Jackal' unitType='Mek'>
 			<availability>MOC:5,Periphery.MW:4,Periphery.ME:4,FWL:6,MH:5,MERC:6,CP:6</availability>
 			<model name='JA-KL-1532'>

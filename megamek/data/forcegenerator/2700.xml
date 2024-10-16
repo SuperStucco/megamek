@@ -1793,7 +1793,7 @@
 		<chassis name='Jabberwocky' unitType='Mek'>
 			<availability>FS:6-</availability>
 			<model name='JAW-65A EngineerMech'>
-				<roles>engineer</roles>
+				<roles>engineer,support</roles>
 				<availability>General:7</availability>
 			</model>
 		</chassis>

@@ -9029,21 +9029,21 @@
 			</model>
 		</chassis>
 		<chassis name='Jabberwocky' unitType='Mek'>
-			<availability>MERC.KH:3-,MERC.WD:3-,FS:4-,MERC:4-,CDP:2</availability>
+			<availability>FS:4,MERC:4,CDP:2</availability>
 			<model name='JAW-66B EngineerMech'>
-				<roles>engineer</roles>
-				<availability>MERC.KH:6-,MERC.WD:6-,FS:7,MERC:6-</availability>
+				<roles>engineer,support</roles>
+				<availability>General:6</availability>
 			</model>
 			<model name='JAW-66C DemolitionMech'>
-				<roles>engineer</roles>
-				<availability>MERC.KH:3-,MERC.WD:3-,FS:4-,MERC:4-</availability>
+				<roles>engineer,support</roles>
+				<availability>General:4</availability>
 			</model>
 			<model name='JAW-66D ConstructionMech'>
-				<roles>engineer</roles>
-				<availability>MERC.KH:3-,MERC.WD:3-,FS:4,MERC:4-</availability>
+				<roles>engineer,support</roles>
+				<availability>General:4</availability>
 			</model>
 			<model name='JAW-67 MilitiaMech'>
-				<availability>FS:4-</availability>
+				<availability>FS:4-,MERC:3-,CDP:3-</availability>
 			</model>
 		</chassis>
 		<chassis name='Jackal' unitType='Mek'>

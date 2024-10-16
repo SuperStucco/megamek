@@ -2434,7 +2434,7 @@
 		<chassis name='Jabberwocky' unitType='Mek'>
 			<availability>FS:2</availability>
 			<model name='JAW-65A EngineerMech'>
-				<roles>engineer</roles>
+				<roles>engineer,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
