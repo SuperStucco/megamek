@@ -14661,7 +14661,7 @@
 				<availability>FVC:6,FS:5</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>General:2-,Periphery.Deep:8,BAN:1,Periphery:3-</availability>
+				<availability>IS:2-,Periphery.Deep:8,BAN:1,Periphery:3-</availability>
 			</model>
 			<model name='SHD-2Hb'>
 				<availability>CC:4,MOC:4,ROS:4,CLAN:4,MSC:4,MERC:4,DA:4,BAN:2</availability>
@@ -14685,14 +14685,14 @@
 				<availability>IS:2,MERC:2,Periphery:2</availability>
 			</model>
 			<model name='SHD-5S'>
-				<roles>spotter</roles>
+				<roles>ew_support,spotter</roles>
 				<availability>MERC:4</availability>
 			</model>
 			<model name='SHD-7M'>
-				<availability>
-					CC:4,MOC:3,OP:6,DoO:6,DO:6,MERC:4,CDP:3,TC:3,DTA:6,FVC:3,ROS:4,MSC:6,TP:6,RCM:6</availability>
+				<availability>CC:4,MOC:3,OP:6,DoO:6,DO:6,MERC:4,CDP:3,TC:3,DTA:6,FVC:3,ROS:4,MSC:6,TP:6,RCM:6</availability>
 			</model>
 			<model name='SHD-8L'>
+                <roles>ew_support</roles>
 				<availability>CC:6</availability>
 			</model>
 			<model name='SHD-9D'>

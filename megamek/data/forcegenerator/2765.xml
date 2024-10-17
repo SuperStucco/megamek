@@ -3237,10 +3237,10 @@
 		<chassis name='Shadow Hawk' unitType='Mek'>
 			<availability>TH:7,LA:6,SL:6-,IS:7,Periphery.Deep:4,Periphery:4</availability>
 			<model name='SHD-1R'>
-				<availability>MOC:3,Periphery:3</availability>
+				<availability>Periphery:3</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>General:8,Periphery.Deep:8,SL.R:6,Periphery:8</availability>
+				<availability>General:8</availability>
 			</model>
 			<model name='SHD-2Hb'>
 				<availability>SL.R:5</availability>

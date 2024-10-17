@@ -1075,7 +1075,7 @@
 		<chassis name='Shadow Hawk' unitType='Mek'>
 			<availability>TH:4</availability>
 			<model name='SHD-1R'>
-				<availability>CC:8,IS:8,FWL:8,Periphery.Deep:8,MERC:8,Periphery:8</availability>
+				<availability>TH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Silverfin Coastal Cutter' unitType='Naval'>

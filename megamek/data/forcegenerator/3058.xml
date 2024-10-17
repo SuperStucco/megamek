@@ -8511,7 +8511,7 @@
 				<availability>LA:4+,FS:6+</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>HL:4,General:6,Periphery.Deep:6,BAN:2,Periphery:6</availability>
+				<availability>HL:4,IS:6,Periphery.Deep:6,BAN:2,Periphery:6</availability>
 			</model>
 			<model name='SHD-2Hb'>
 				<availability>CLAN:4,BAN:2</availability>
@@ -8523,10 +8523,10 @@
 				<availability>FRR:5,MERC:3,DC:6</availability>
 			</model>
 			<model name='SHD-5M'>
-				<availability>CC:4+,FRR:4+,FWL:7+,IS:4+,WOB:6,MERC:4+,DC:4+</availability>
+				<availability>FWL:7+,IS:4+,WOB:6,MERC:4+</availability>
 			</model>
 			<model name='SHD-5S'>
-				<roles>spotter</roles>
+				<roles>ew_support,spotter</roles>
 				<availability>MERC:6</availability>
 			</model>
 		</chassis>

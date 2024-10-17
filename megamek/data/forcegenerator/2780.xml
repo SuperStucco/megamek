@@ -3227,19 +3227,19 @@
 		<chassis name='Shadow Hawk' unitType='Mek'>
 			<availability>LA:6,SL:4-,IS:7,NIOPS:6-,Periphery.Deep:4,Periphery:4</availability>
 			<model name='SHD-1R'>
-				<availability>MOC:2,Periphery:2</availability>
+				<availability>Periphery:2</availability>
 			</model>
 			<model name='SHD-2D'>
-				<availability>FS:8</availability>
+				<availability>FS:8:2796</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>General:8,Periphery.Deep:8,SL.R:4,Periphery:8</availability>
+				<availability>General:8,SL.R:4</availability>
 			</model>
 			<model name='SHD-2Hb'>
 				<availability>SL.R:6,FS:2+</availability>
 			</model>
 			<model name='SHD-2K'>
-				<availability>DC:7</availability>
+				<availability>DC:7:2803</availability>
 			</model>
 		</chassis>
 		<chassis name='Shogun' unitType='Mek'>

@@ -1593,10 +1593,10 @@
 		<chassis name='Shadow Hawk' unitType='Mek'>
 			<availability>TH:7,LA:2,IS:3</availability>
 			<model name='SHD-1R'>
-				<availability>IS:6,Periphery.Deep:8,MERC:6,Periphery:8</availability>
+				<availability>IS:6,MERC:6</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>General:8:2550</availability>
 			</model>
 		</chassis>
 		<chassis name='Shuttle' unitType='Small Craft'>

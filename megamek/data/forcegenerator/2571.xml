@@ -2321,10 +2321,10 @@
 		<chassis name='Shadow Hawk' unitType='Mek'>
 			<availability>TH:7,LA:4,SL:7,IS:5,Periphery:2</availability>
 			<model name='SHD-1R'>
-				<availability>MOC:6,IS:4,Periphery.Deep:6,MERC:4,Periphery:6</availability>
+				<availability>IS:4,Periphery.Deep:8,MERC:4,Periphery:8</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>General:8,Periphery.Deep:8,SL.R:8,Periphery:8</availability>
+				<availability>General:8,Periphery.Deep:6,Periphery:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Shootist' unitType='Mek'>

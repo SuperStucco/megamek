@@ -3723,7 +3723,7 @@
 				<availability>FS:8</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>PP:8,General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>General:8</availability>
 			</model>
 			<model name='SHD-2Hb'>
 				<availability>PP:2,CLAN:8,FS:3+</availability>

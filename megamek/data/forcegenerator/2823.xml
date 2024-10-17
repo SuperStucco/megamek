@@ -3879,11 +3879,14 @@
 		</chassis>
 		<chassis name='Shadow Hawk' unitType='Mek'>
 			<availability>CS:6-,LA:6,CLAN:4,IS:7,NIOPS:6-,Periphery.Deep:5,Periphery:5,CGB:4</availability>
+            <model name='C'>
+                <availability>CSA:6,CCC:6,CSV:6,CFM:6,CGS:6</availability>
+            </model>
 			<model name='SHD-2D'>
 				<availability>FS:10</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>General:8,CLAN:6-,Periphery.Deep:8,Periphery:8</availability>
+				<availability>General:8,CLAN:6-</availability>
 			</model>
 			<model name='SHD-2Hb'>
 				<availability>CLAN:8,FS:3+</availability>

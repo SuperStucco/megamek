@@ -13380,7 +13380,7 @@
 				<availability>CSA:8,CCC:8,LA:4,CSV:8,CFM:8,FS:4,CGS:8,CB:8,DC:4</availability>
 			</model>
 			<model name='SHD-11CS'>
-				<availability>CS:6,WOB:5</availability>
+				<availability>CS:6:3068,WOB:5:3068</availability>
 			</model>
 			<model name='SHD-1R'>
 				<availability>CC:2-,MOC:2-,FWL:2-,MERC:2-</availability>
@@ -13392,7 +13392,7 @@
 				<availability>FVC:6,LA:6,FS:8</availability>
 			</model>
 			<model name='SHD-2H'>
-				<availability>HL:3-,General:5-,Periphery.Deep:8,BAN:1,Periphery:5-</availability>
+				<availability>HL:3-,IS:5-,Periphery.Deep:8,BAN:1,Periphery:5-</availability>
 			</model>
 			<model name='SHD-2Hb'>
 				<availability>CC:3,MOC:3,CLAN:4,FWL:3,MERC:3,BAN:2</availability>
@@ -13410,7 +13410,7 @@
 				<availability>CC:6,FRR:6,Periphery.MW:4,Periphery.ME:3,FWL:8,IS:3,WOB:6,MERC:6,DC:6</availability>
 			</model>
 			<model name='SHD-5S'>
-				<roles>spotter</roles>
+				<roles>ew_support,spotter</roles>
 				<availability>MERC:6</availability>
 			</model>
 			<model name='SHD-7CS'>
@@ -13420,7 +13420,7 @@
 				<availability>CC:3,MOC:3,FWL:4,TC:3</availability>
 			</model>
 			<model name='SHD-9D'>
-				<availability>WOB:2,FS:3</availability>
+				<availability>WOB:2:3070,FS:3:3070</availability>
 			</model>
 		</chassis>
 		<chassis name='Shamash Reconnaissance Vehicle' unitType='Tank'>
