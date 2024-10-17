@@ -286,7 +286,7 @@
 			</model>
 		</chassis>
 		<chassis name='Alfar' unitType='Mek'>
-			<availability>LA:1+</availability>
+			<availability>LA:1+:2573</availability>
 			<model name='AL-A1'>
 				<availability>LA:2+</availability>
 			</model>
