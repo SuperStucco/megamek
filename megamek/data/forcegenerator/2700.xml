@@ -3610,18 +3610,19 @@
 			</model>
 		</chassis>
 		<chassis name='Warhammer' unitType='Mek'>
-			<availability>TH:6,LA:9,SL:7,FWL:9,IS:8,RWR:3,TC:2,Periphery:2</availability>
+			<availability>TH:6,LA:9,SL:7,FWL:9,IS:8,RWR:3,Periphery:2</availability>
 			<model name='WHM-6R'>
-				<availability>General:8,SL:8,Periphery.Deep:8,SL.R:5,Periphery:8</availability>
+				<availability>General:8,SL.R:5</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CC:3+,LA:3+,FWL:3+,SL.R:8,FS:3+</availability>
 			</model>
 			<model name='WHM-6Rk'>
-				<availability>DC:3+</availability>
+                <roles>cavalry</roles>
+				<availability>DC:3+:2745</availability>
 			</model>
 			<model name='WHM-7A'>
-				<availability>SL.R:4</availability>
+				<availability>SL.R:4:2761</availability>
 			</model>
 		</chassis>
 		<chassis name='Wasp LAM Mk I' unitType='Mek'>

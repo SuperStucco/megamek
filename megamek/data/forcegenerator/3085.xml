@@ -17609,6 +17609,7 @@
 				<availability>CC:3,OP:3,LA:3,DoO:3,ROS:3,DO:3,TP:3</availability>
 			</model>
 			<model name='WHM-10T'>
+                <roles>cavalry</roles>
 				<availability>FS:3,TC:7</availability>
 			</model>
 			<model name='WHM-11T'>
@@ -17630,7 +17631,7 @@
 				<availability>CC:1-</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>General:2-,Periphery.Deep:8,BAN:8,Periphery:3-</availability>
+				<availability>General:2-,CLAN:0,Periphery.Deep:8,BAN:8,Periphery:3-</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>FVC:3,CLAN:4,MERC:3,BAN:2,TC:5,Periphery:3</availability>
@@ -17656,7 +17657,7 @@
 				<availability>MOC:4,FVC:3,PIR:4,IS:2,MH:3,FS:3,MERC:3,CDP:3,TC:4</availability>
 			</model>
 			<model name='WHM-8D2'>
-				<availability>FS:4</availability>
+				<availability>FS:4:3087</availability>
 			</model>
 			<model name='WHM-8K'>
 				<availability>DC:6</availability>
@@ -17665,9 +17666,10 @@
 				<availability>PR:6,RF:6,PG:6,FWL:4,RFS:6</availability>
 			</model>
 			<model name='WHM-8R'>
-				<availability>DTA:4,OP:4,RF:4,ROS:5,FWL:4,MSC:4,DA:4,RCM:4</availability>
+				<availability>DTA:4:3090,OP:4:3090,RF:4:3090,ROS:5:3090,FWL:4:3090,MSC:4:3090,DA:4:3090,RCM:4:3090</availability>
 			</model>
 			<model name='WHM-9D'>
+                <roles>cavalry</roles>
 				<availability>ROS:4,FS:6,MERC:3</availability>
 			</model>
 			<model name='WHM-9S'>

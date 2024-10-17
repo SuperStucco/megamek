@@ -8227,10 +8227,10 @@
 		<chassis name='Warhammer' unitType='Mek'>
 			<availability>CS:6-,HL:4,LA:9,CLAN:2,IS:8,FWL:9,NIOPS:6-,Periphery.Deep:5,WOB:5-,Periphery:6</availability>
 			<model name='C'>
-				<availability>LA:2+,FS:2+,DC:2+</availability>
+				<availability>LA:2+:3051,FS:2+:3051,DC:2+:3051</availability>
 			</model>
 			<model name='C 2'>
-				<availability>MERC.WD:3,MERC.KH:2+,LA:2+,CLAN.IS:3,FS:2+,FC:2+,MERC:2+,DC:2+</availability>
+				<availability>MERC.WD:3,MERC.KH:2+:3052,LA:2+:3052,CLAN.IS:3,FS:2+:3052,FC:2+:3052,MERC:2+:3052,DC:2+:3051</availability>
 			</model>
 			<model name='C 3'>
 				<availability>MERC.WD:4</availability>
@@ -8245,27 +8245,27 @@
 				<availability>CC:4,SIC:3</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>HL:4,General:6,Periphery.Deep:6,BAN:8,Periphery:6</availability>
+				<availability>HL:4,General:6,CLAN:0,Periphery.Deep:6,BAN:8</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CLAN:4,BAN:2</availability>
 			</model>
 			<model name='WHM-7CS'>
-				<availability>CS:5,WOB:5</availability>
+				<availability>CS:5:3052,WOB:5:3052</availability>
 			</model>
 			<model name='WHM-7K'>
 				<roles>spotter</roles>
-				<availability>DC:4+</availability>
+				<availability>DC:4+:3054</availability>
 			</model>
 			<model name='WHM-7M'>
 				<availability>CS:3+,CC:2+,FRR:2+,FWL:6+,WOB:3+,DC:2+,Periphery:2+</availability>
 			</model>
 			<model name='WHM-7M-DC'>
 				<roles>command</roles>
-				<availability>CC:2,FWL:3,DC:2</availability>
+				<availability>CC:2:3052,FWL:3:3052,DC:2,3052</availability>
 			</model>
 			<model name='WHM-7S'>
-				<availability>LA:4+,FS:3+,MERC:2+</availability>
+				<availability>LA:4+:3050,FS:3+:3050,MERC:2+:3050</availability>
 			</model>
 		</chassis>
 		<chassis name='Warrior Attack Helicopter' unitType='VTOL'>

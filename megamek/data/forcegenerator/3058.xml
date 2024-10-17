@@ -10023,7 +10023,7 @@
 				<availability>CC:3,SIC:3</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>HL:3,General:5,Periphery.Deep:8,BAN:8,Periphery:5</availability>
+				<availability>HL:3,General:5,CLAN:0,Periphery.Deep:8,BAN:8</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CLAN:4,BAN:2</availability>

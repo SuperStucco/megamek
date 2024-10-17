@@ -3884,7 +3884,7 @@
 			</model>
 		</chassis>
 		<chassis name='Koshi (Mist Lynx)' unitType='Mek' omni='Clan'>
-			<availability>CIH:8,CLAN:7,CCO:5,BAN:7,CSA:5,CW:6CSJ:9,CJF:5,CB:8</availability>
+			<availability>CIH:8,CLAN:7,CCO:5,BAN:7,CSA:5,CW:6,CSJ:9,CJF:5,CB:8</availability>
 			<model name='A'>
 				<roles>recon,spotter</roles>
 				<availability>CIH:6,CDS:7,CW:6,CSV:6,General:5,CGB:7</availability>
@@ -6820,7 +6820,7 @@
 				<availability>CC:4,SIC:4</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>HL:6,General:8,Periphery.Deep:7,BAN:8,Periphery:8</availability>
+				<availability>HL:6,General:8,CLAN:0,Periphery.Deep:7,BAN:8</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CLAN:4,BAN:2</availability>

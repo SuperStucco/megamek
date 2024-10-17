@@ -12582,7 +12582,7 @@
 				<availability>CC:2,SIC:2</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>HL:2,General:4,Periphery.Deep:8,BAN:8,Periphery:4</availability>
+				<availability>HL:2,General:4,CLAN:0,Periphery.Deep:8,BAN:8</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CLAN:4,BAN:2</availability>
@@ -12605,7 +12605,7 @@
 				<availability>LA:8,FS:6,MERC:4</availability>
 			</model>
 			<model name='WHM-8D'>
-				<availability>MOC:2,IS:3,FS:4,MERC:3,TC:2</availability>
+				<availability>MOC:2:3066,IS:3:3066,FS:4:3066,MERC:3:3066,TC:2:3066</availability>
 			</model>
 		</chassis>
 		<chassis name='Warrior Attack Helicopter' unitType='VTOL'>

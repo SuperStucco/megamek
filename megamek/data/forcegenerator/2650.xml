@@ -2930,9 +2930,9 @@
 			</model>
 		</chassis>
 		<chassis name='Warhammer' unitType='Mek'>
-			<availability>TH:6,LA:8,SL:8,FWL:8,IS:8,RWR:2,TC:2,Periphery:2</availability>
+			<availability>TH:6,SL:8,IS:8,Periphery:2</availability>
 			<model name='WHM-6R'>
-				<availability>General:8,SL:8,Periphery.Deep:8,SL.R:6,Periphery:8</availability>
+				<availability>General:8,SL.R:6</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CC:2+,LA:2+,FWL:2+,SL.R:8,FS:2+</availability>

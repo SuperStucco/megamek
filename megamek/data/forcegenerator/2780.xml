@@ -3816,16 +3816,14 @@
 		</chassis>
 		<chassis name='Warhammer' unitType='Mek'>
 			<availability>LA:9,SL:5,FWL:9,IS:8,NIOPS:6-,Periphery.Deep:4,Periphery:4</availability>
-			<model name='WHM-6L'>
-				<availability>CC:3</availability>
-			</model>
 			<model name='WHM-6R'>
-				<availability>General:8,SL:6-,Periphery.Deep:8,SL.R:2,Periphery:8</availability>
+				<availability>General:8,SL:6-,SL.R:2</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CC:4+,LA:4+,FWL:4+,SL.R:6,FS:4+</availability>
 			</model>
 			<model name='WHM-6Rk'>
+                <roles>cavalry</roles>
 				<availability>DC:3+</availability>
 			</model>
 			<model name='WHM-7A'>

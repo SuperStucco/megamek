@@ -1817,7 +1817,7 @@
 		<chassis name='Warhammer' unitType='Mek'>
 			<availability>TH:6</availability>
 			<model name='WHM-6R'>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>TH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Wasp' unitType='Mek'>

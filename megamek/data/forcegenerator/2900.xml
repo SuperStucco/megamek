@@ -5636,7 +5636,7 @@
 				<availability>CC:4</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>HL:6,General:8,CLAN:1,Periphery.Deep:7,BAN:8,Periphery:8</availability>
+				<availability>HL:6,General:8,CLAN:1,Periphery.Deep:7,BAN:8</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CLAN:4,BAN:4</availability>

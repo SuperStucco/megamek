@@ -15980,7 +15980,8 @@
 				<availability>MERC.WD:3</availability>
 			</model>
 			<model name='WHM-10T'>
-				<availability>TC:5</availability>
+			    <roles>cavalry</roles>
+			    <availability>TC:5</availability>
 			</model>
 			<model name='WHM-4L'>
 				<availability>CC:5</availability>
@@ -15995,7 +15996,7 @@
 				<availability>CC:2-</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>HL:2-,General:4-,Periphery.Deep:8,BAN:8,Periphery:4-</availability>
+				<availability>HL:2-,General:4-,CLAN:0,Periphery.Deep:8,BAN:8</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CLAN:4,BAN:2,TC:3</availability>
@@ -16021,12 +16022,13 @@
 				<availability>MOC:3,FVC:4,PIR:2,IS:3,FS:4,MERC:3,TC:3</availability>
 			</model>
 			<model name='WHM-8K'>
-				<availability>DC:4</availability>
+				<availability>DC:4:3073</availability>
 			</model>
 			<model name='WHM-8M'>
-				<availability>FWL:2,WOB:4</availability>
+				<availability>FWL:2:3069,WOB:4:3069</availability>
 			</model>
 			<model name='WHM-9D'>
+                <roles>cavalry</roles>
 				<availability>FS:4</availability>
 			</model>
 			<model name='WHM-9S'>

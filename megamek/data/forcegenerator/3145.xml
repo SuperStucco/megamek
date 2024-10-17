@@ -19570,9 +19570,10 @@
 				<availability>CC:4,LA:4,ROS:4</availability>
 			</model>
 			<model name='WHM-10K'>
-				<availability>MERC:3,DC:4</availability>
+				<availability>MERC:3:3147,DC:4:3147</availability>
 			</model>
 			<model name='WHM-10T'>
+                <roles>cavalry</roles>
 				<availability>FVC:4,FS:4,CP:8,TC:8</availability>
 			</model>
 			<model name='WHM-11T'>
@@ -19623,6 +19624,7 @@
 				<availability>RF:5,ROS:6,IS:5,FWL:5,DA:5</availability>
 			</model>
 			<model name='WHM-9D'>
+                <roles>cavalry</roles>
 				<availability>ROS:4,FS:8,MERC:4</availability>
 			</model>
 			<model name='WHM-9K'>

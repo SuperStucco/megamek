@@ -16726,14 +16726,12 @@
 			<model name='C 2'>
 				<availability>MERC.WD:5,MERC.KH:4,LA:3,CLAN.IS:4,FS:3,MERC:3,DC:3</availability>
 			</model>
-			<model name='WHD-10CT'>
-				<availability>CC:3,LA:2,DoO:3,ROS:3,DO:3,TP:3</availability>
-			</model>
 			<model name='WHM-10T'>
+			    <roles>cavalry</roles>
 				<availability>FS:3,TC:7</availability>
 			</model>
 			<model name='WHM-11T'>
-				<availability>MOC:3,TC:2</availability>
+				<availability>MOC:3:3084,TC:2:3084</availability>
 			</model>
 			<model name='WHM-4L'>
 				<availability>CC:6,MOC:3</availability>
@@ -16751,7 +16749,7 @@
 				<availability>CC:1-</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>General:2-,Periphery.Deep:8,BAN:8,Periphery:3-</availability>
+				<availability>General:2-,CLAN:0,Periphery.Deep:8,BAN:8,Periphery:3-</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>FVC:3,CLAN:4,MERC:3,BAN:2,TC:5,Periphery:2</availability>
@@ -16789,6 +16787,7 @@
 				<availability>DTA:3,ROS:4,FWL:3,MSC:3,DA:3,RCM:3</availability>
 			</model>
 			<model name='WHM-9D'>
+                <roles>cavalry</roles>
 				<availability>ROS:4,FS:6,MERC:3</availability>
 			</model>
 			<model name='WHM-9S'>

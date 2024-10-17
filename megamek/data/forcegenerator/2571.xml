@@ -2657,12 +2657,12 @@
 			</model>
 		</chassis>
 		<chassis name='Warhammer' unitType='Mek'>
-			<availability>TH:6,LA:6,SL:8,IS:6,FWL:6,RWR:1,TC:1,Periphery:1</availability>
+			<availability>TH:6,SL:8,IS:6,Periphery:1</availability>
 			<model name='WHM-6R'>
-				<availability>General:8,SL:8,Periphery.Deep:8,SL.R:8,Periphery:8</availability>
+				<availability>General:8</availability>
 			</model>
 			<model name='WHM-6Rb'>
-				<availability>SL.R:6</availability>
+				<availability>SL.R:6:2599</availability>
 			</model>
 		</chassis>
 		<chassis name='Wasp' unitType='Mek'>

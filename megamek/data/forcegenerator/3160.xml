@@ -18921,6 +18921,7 @@
 				<availability>MERC:4,DC:6</availability>
 			</model>
 			<model name='WHM-10T'>
+                <roles>cavalry</roles>
 				<availability>FVC:4,FS:4,CP:8,TC:8</availability>
 			</model>
 			<model name='WHM-11T'>
@@ -18968,6 +18969,7 @@
 				<availability>RF:5,IS:5,FWL:5,DA:5</availability>
 			</model>
 			<model name='WHM-9D'>
+                <roles>cavalry</roles>
 				<availability>FS:8,MERC:4</availability>
 			</model>
 			<model name='WHM-9K'>

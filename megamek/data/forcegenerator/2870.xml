@@ -5417,6 +5417,9 @@
 		</chassis>
 		<chassis name='Warhammer' unitType='Mek'>
 			<availability>CS:6-,LA:9,CLAN:5,IS:8,FWL:9,NIOPS:6-,Periphery.Deep:6,Periphery:6</availability>
+            <model name='C'>
+                <availability>CLAN:1</availability>
+            </model>
 			<model name='C 3'>
 				<availability>CLAN:3</availability>
 			</model>
@@ -5430,12 +5433,13 @@
 				<availability>CC:4</availability>
 			</model>
 			<model name='WHM-6R'>
-				<availability>General:8,CLAN:1,Periphery.Deep:8,BAN:8,Periphery:8</availability>
+				<availability>General:8,CLAN:1,BAN:8</availability>
 			</model>
 			<model name='WHM-6Rb'>
 				<availability>CC:1+,LA:1+,CLAN:4,FWL:1+,FS:1+,BAN:4</availability>
 			</model>
 			<model name='WHM-6Rk'>
+                <roles>cavalry</roles>
 				<availability>DC:1+</availability>
 			</model>
 			<model name='WHM-7A'>
