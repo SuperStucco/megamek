@@ -3667,10 +3667,14 @@
 			</model>
 		</chassis>
 		<chassis name='Rifleman' unitType='Mek'>
-			<availability>CLAN:3,IS:7,Periphery.Deep:5,CIR:4,Periphery:5,CS:6-,Clan.IS:3,NIOPS:6-</availability>
+			<availability>CLAN:3,IS:7,Periphery.Deep:5,CIR:4,Periphery:5,CS:6-,NIOPS:6-</availability>
+            <model name='C'>
+                <roles>fire_support,anti_aircraft</roles>
+                <availability>CLAN:8:2826,BAN:4:2826</availability>
+            </model>
 			<model name='RFL-3N'>
 				<roles>fire_support,anti_aircraft</roles>
-				<availability>CLAN:8-,General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>CLAN:8-,General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>

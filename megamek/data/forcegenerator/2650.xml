@@ -2386,7 +2386,7 @@
 			<availability>SL:7,IS:6,Periphery.Deep:4,SL.R:6,Periphery:4</availability>
 			<model name='RFL-1N'>
 				<roles>fire_support</roles>
-				<availability>MOC:5,IS:2,Periphery.Deep:5,MERC:2,Periphery:5</availability>
+				<availability>IS:2,MERC:2,Periphery:5</availability>
 			</model>
 			<model name='RFL-2N'>
 				<roles>fire_support</roles>

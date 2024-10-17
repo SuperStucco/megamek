@@ -14225,18 +14225,17 @@
 			</model>
 		</chassis>
 		<chassis name='Rifleman' unitType='Mek'>
-			<availability>CC:4,Clan.IS:4:3132,ROS:6,IS:4,FWL:7,FS:8,CJF:6,Periphery:3</availability>
+			<availability>CLAN.IS:4,ROS:6,IS:4,FWL:7,FS:8,CJF:6,Periphery:3</availability>
 			<model name='C 2'>
+                <roles>anti_aircraft,raider</roles>
 				<availability>CJF:4</availability>
 			</model>
-			<model name='C 3'>
-				<availability>General:4</availability>
-			</model>
 			<model name='RFL-1N'>
-				<roles>fire_support</roles>
+				<roles>anti_aircraft</roles>
 				<availability>CC:1-,MOC:2-,OP:1-,PIR:2-,MH:2-,FS:1-,DA:1-,RCM:1-</availability>
 			</model>
 			<model name='RFL-3Cr'>
+                <roles>anti_aircraft</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='RFL-3N'>
@@ -14244,37 +14243,47 @@
 				<availability>Periphery:2-</availability>
 			</model>
 			<model name='RFL-5D'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>FVC:4,LA:2,FS:3,MERC:3</availability>
 			</model>
 			<model name='RFL-5M'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CC:2,MOC:2,Periphery.MW:3,Periphery.ME:3,FWL:3,MH:3,MERC:2,DC:2</availability>
 			</model>
 			<model name='RFL-6X'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>FVC:1,FS:1,MERC:1</availability>
 			</model>
 			<model name='RFL-7G'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>ROS:8</availability>
 			</model>
 			<model name='RFL-7M'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>DTA:8,MOC:4,OP:8,RF:8,FWL:8,IS:4,MSC:8,DA:8,RCM:8,CDP:4,DC:5,TC:4</availability>
 			</model>
 			<model name='RFL-7N'>
-				<availability>IS:3</availability>
+                <roles>fire_support,anti_aircraft</roles>
+				<availability>IS:3:3133</availability>
 			</model>
 			<model name='RFL-7N2'>
-				<availability>IS:4</availability>
+                <roles>fire_support,anti_aircraft</roles>
+				<availability>IS:4:3133</availability>
 			</model>
 			<model name='RFL-7X'>
-				<roles>fire_support</roles>
+                <roles>anti_aircraft,raider</roles>
 				<availability>ROS:5,MERC:5</availability>
 			</model>
 			<model name='RFL-8D'>
+                <roles>anti_aircraft</roles>
 				<availability>FS:3</availability>
 			</model>
 			<model name='RFL-8X'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>ROS:4,MERC:4</availability>
 			</model>
 			<model name='RFL-9T'>
+                <roles>anti_aircraft</roles>
 				<availability>TC:6</availability>
 			</model>
 		</chassis>

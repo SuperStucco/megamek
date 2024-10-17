@@ -7451,29 +7451,33 @@
 			</model>
 		</chassis>
 		<chassis name='Rifleman' unitType='Mek'>
-			<availability>CC:7-,CCC:4,HL:4,CSV:4,IS:8-,Periphery.Deep:5,WOB:6-,CFM:4,SIC:7-,FS:9-,CGS:4,Periphery:5,CS:6-,CSA:4,NIOPS:6-,CB:4</availability>
+			<availability>CC:7-,CLAN.IS:3-,BAN:4,CCC:4,HL:4,CSV:4,IS:8-,Periphery.Deep:5,WOB:6-,CFM:4,SIC:7-,FS:9-,CGS:4,Periphery:5,CS:6-,CSA:4,NIOPS:6-,CB:4</availability>
 			<model name='C'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>LA:2,CLAN:8,FS:2,BAN:4,DC:2</availability>
 			</model>
 			<model name='RFL-3C'>
-				<roles>fire_support,anti_aircraft</roles>
+				<roles>anti_aircraft</roles>
 				<availability>FS:3</availability>
 			</model>
 			<model name='RFL-3N'>
 				<roles>fire_support,anti_aircraft</roles>
-				<availability>HL:4,General:6,Periphery.Deep:6,BAN:1,Periphery:6</availability>
+				<availability>HL:4,IS:6,Periphery.Deep:6,BAN:1,Periphery:6</availability>
 			</model>
 			<model name='RFL-4D'>
 				<roles>fire_support,anti_aircraft</roles>
 				<availability>FS:2,MERC:2</availability>
 			</model>
 			<model name='RFL-5CS'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CS:2,WOB:2</availability>
 			</model>
 			<model name='RFL-5D'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>LA:6+,FS:6+,MERC:4+</availability>
 			</model>
 			<model name='RFL-5M'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CC:4+,MOC:4+,FWL:5+,IS:4+,MERC:4+,DC:4+</availability>
 			</model>
 		</chassis>

@@ -4653,10 +4653,14 @@
 			</model>
 		</chassis>
 		<chassis name='Rifleman' unitType='Mek'>
-			<availability>CC:9-,HL:3,CLAN:2,IS:8-,Periphery.Deep:5,FS:9-,CIR:1,Periphery:5,CS:6-,Clan.IS:2,NIOPS:6-</availability>
+			<availability>CC:9-,HL:3,CLAN:2,IS:8-,Periphery.Deep:5,FS:9-,CIR:1,Periphery:5,CS:6-,NIOPS:6-</availability>
+            <model name='C'>
+                <roles>fire_support,anti_aircraft</roles>
+                <availability>CLAN:8,BAN:4</availability>
+            </model>
 			<model name='RFL-3N'>
 				<roles>fire_support,anti_aircraft</roles>
-				<availability>HL:6,CLAN:2-,General:8,Periphery.Deep:7,BAN:3,Periphery:8</availability>
+				<availability>HL:6,CLAN:2-,General:8,Periphery.Deep:7,BAN:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Ripper Infantry Transport' unitType='VTOL'>

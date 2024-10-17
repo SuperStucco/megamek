@@ -2212,10 +2212,10 @@
 			</model>
 		</chassis>
 		<chassis name='Rifleman' unitType='Mek'>
-			<availability>CC:5,TH:6,SL:7,IS:5,FWL:5,SL.R:7,FS:5,Periphery:3</availability>
+			<availability>TH:6,SL:7,IS:5,SL.R:7,Periphery:3</availability>
 			<model name='RFL-1N'>
 				<roles>fire_support</roles>
-				<availability>IS:4,Periphery.Deep:6,MERC:4,Periphery:6</availability>
+				<availability>IS:4,MERC:4,Periphery:6</availability>
 			</model>
 			<model name='RFL-2N'>
 				<roles>fire_support</roles>

@@ -1297,10 +1297,10 @@
 			</model>
 		</chassis>
 		<chassis name='Rifleman' unitType='Mek'>
-			<availability>TH:4</availability>
+			<availability>TH:4:2504</availability>
 			<model name='RFL-1N'>
 				<roles>fire_support</roles>
-				<availability>CC:8,IS:8,FWL:8,Periphery.Deep:8,FS:8,MERC:8,Periphery:8</availability>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Riga Frigate' unitType='Warship'>

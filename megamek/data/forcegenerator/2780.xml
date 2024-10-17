@@ -3058,7 +3058,7 @@
 			<availability>SL:4-,IS:6,NIOPS:6-,Periphery.Deep:5,CIR:4,Periphery:5</availability>
 			<model name='RFL-1N'>
 				<roles>fire_support</roles>
-				<availability>MOC:2,Periphery:2</availability>
+				<availability>Periphery:2</availability>
 			</model>
 			<model name='RFL-2N'>
 				<roles>fire_support</roles>
@@ -3066,7 +3066,7 @@
 			</model>
 			<model name='RFL-3N'>
 				<roles>fire_support,anti_aircraft</roles>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>

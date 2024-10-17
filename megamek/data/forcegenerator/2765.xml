@@ -3057,7 +3057,7 @@
 			<availability>TH:6,SL:5-,IS:6,Periphery.Deep:5,SL.R:2,Periphery:5</availability>
 			<model name='RFL-1N'>
 				<roles>fire_support</roles>
-				<availability>MOC:3,Periphery:3</availability>
+				<availability>Periphery:3</availability>
 			</model>
 			<model name='RFL-2N'>
 				<roles>fire_support</roles>
@@ -3065,7 +3065,7 @@
 			</model>
 			<model name='RFL-3N'>
 				<roles>fire_support,anti_aircraft</roles>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>General:8:2770</availability>
 			</model>
 		</chassis>
 		<chassis name='Riga Frigate' unitType='Warship'>
