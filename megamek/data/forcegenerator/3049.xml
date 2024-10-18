@@ -1860,7 +1860,7 @@
 				<availability>CLAN:6</availability>
 			</model>
 			<model name='CPLT-C3'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<deployedWith>Raven</deployedWith>
 				<availability>CC:4+,CS:2,WOB:2</availability>
 			</model>

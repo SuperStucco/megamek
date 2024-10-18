@@ -2055,7 +2055,7 @@
 				<availability>CLAN:6</availability>
 			</model>
 			<model name='CPLT-C3'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<deployedWith>Raven</deployedWith>
 				<availability>CC:4+,CS:2,WOB:2,FS:3+,DC:3+</availability>
 			</model>
@@ -2076,7 +2076,7 @@
 				<availability>DC:5+</availability>
 			</model>
 			<model name='CPLT-K5'>
-				<roles>fire_support</roles>
+				<roles>sr_fire_support</roles>
 				<availability>DC:4</availability>
 			</model>
 		</chassis>

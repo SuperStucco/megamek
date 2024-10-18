@@ -1516,7 +1516,7 @@
 			</model>
 			<model name='CPLT-K3'>
 				<roles>fire_support</roles>
-				<availability>DC:6+</availability>
+				<availability>DC:6+:3047</availability>
 			</model>
 		</chassis>
 		<chassis name='Centurion' unitType='AeroSpaceFighter'>

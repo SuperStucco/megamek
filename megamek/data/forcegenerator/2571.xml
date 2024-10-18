@@ -544,22 +544,22 @@
 			</model>
 		</chassis>
 		<chassis name='Catapult' unitType='Mek'>
-			<availability>TH:5,SL:7</availability>
+			<availability>IS:5,SL:7</availability>
 			<model name='CPLT-A1'>
 				<roles>fire_support</roles>
-				<availability>CC:4,SL:4,FWL:4,SL.R:4</availability>
+				<availability>CC:4,SL:4,FWL:4</availability>
 			</model>
 			<model name='CPLT-C1'>
 				<roles>fire_support</roles>
-				<availability>IS:8,Periphery.Deep:8,MERC:8,Periphery:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='CPLT-C4'>
 				<roles>fire_support</roles>
-				<availability>CC:4,MOC:4,OA:4</availability>
+				<availability>CC:4</availability>
 			</model>
 			<model name='CPLT-K2'>
 				<roles>fire_support</roles>
-				<availability>DC:6</availability>
+				<availability>DC:6:2603</availability>
 			</model>
 		</chassis>
 		<chassis name='Centurion' unitType='AeroSpaceFighter'>

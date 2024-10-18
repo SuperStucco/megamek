@@ -3346,7 +3346,7 @@
 				<availability>CC:4,MOC:4,DoO:3,DO:3,TP:3,MERC:3,DA:3,RCM:3</availability>
 			</model>
 			<model name='CPLT-C3'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<deployedWith>Raven</deployedWith>
 				<availability>CC:3,MOC:3,FWL:3,MERC:3,CDP:3,TC:3,DC:4</availability>
 			</model>
@@ -3355,7 +3355,7 @@
 				<availability>CC:3,MOC:3,MERC:3,CDP:3,TC:3</availability>
 			</model>
 			<model name='CPLT-C5'>
-				<roles>missile_artillery,fire_support</roles>
+				<roles>mixed_artillery</roles>
 				<availability>CC:4,MOC:4,MERC:3,TC:4</availability>
 			</model>
 			<model name='CPLT-C5A'>
@@ -3363,11 +3363,9 @@
 				<availability>CC:4,MOC:4,MERC:3,TC:4</availability>
 			</model>
 			<model name='CPLT-C6'>
-				<roles>fire_support</roles>
 				<availability>CC:4,MOC:3,MERC:3,TC:3</availability>
 			</model>
 			<model name='CPLT-H2'>
-				<roles>fire_support</roles>
 				<availability>FVC:4,HL:2,PIR:4,MH:8,Periphery:4</availability>
 			</model>
 			<model name='CPLT-K2K'>
@@ -3379,7 +3377,7 @@
 				<availability>DC:4</availability>
 			</model>
 			<model name='CPLT-K5'>
-				<roles>fire_support</roles>
+				<roles>sr_fire_support</roles>
 				<availability>CGB.FRR:6,DC:8</availability>
 			</model>
 		</chassis>
