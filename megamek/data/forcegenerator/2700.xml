@@ -554,10 +554,12 @@
 		<chassis name='Black Knight' unitType='Mek'>
 			<availability>SL:8,FWL:4,FWL.OH:4,RWR:3,FS:4</availability>
 			<model name='BL-6-KNT'>
+                <roles>command</roles>
 				<availability>SL:8,FWL:8+,RWR:4+,FS:8+</availability>
 			</model>
 			<model name='BL-6b-KNT'>
-				<availability>SL.R:4</availability>
+                <roles>command</roles>
+				<availability>SL.R:4:2751</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Lion I Battlecruiser' unitType='Warship'>

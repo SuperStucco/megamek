@@ -1577,19 +1577,24 @@
 		<chassis name='Black Knight' unitType='Mek'>
 			<availability>CHH:7,FRR:2,CLAN:8,CFM:7,FS:1,DC.GHO:3,CDS:7,CBS:9,FWL:1,NIOPS:7,CGB:9,CSR:7,CSV:7,WOB:7,FWL.OH:1,MERC:2,CGS:9,Periphery:1,CS:7,CW:9,LA:1,CNC:9,CJF:7,DC:2</availability>
 			<model name='BL-6-KNT'>
+                <roles>command</roles>
 				<availability>DC.GHO:4,CS:6,FRR:3+,CLAN:6,NIOPS:6,WOB:6,MERC.SI:6,BAN:6,DC:3+</availability>
 			</model>
 			<model name='BL-6b-KNT'>
+                <roles>command</roles>
 				<availability>CS:5,CLAN:5,FWL:4+,NIOPS:5,WOB:5,CGS:6,BAN:2</availability>
 			</model>
 			<model name='BL-7-KNT'>
+                <roles>command</roles>
 				<availability>LA:8,FRR:8,FWL:4,MERC:8,FS:8,DC:8</availability>
 			</model>
 			<model name='BL-7-KNT-L'>
+                <roles>command</roles>
 				<availability>FWL:8</availability>
 			</model>
 			<model name='BL-9-KNT'>
-				<availability>CS:5+,WOB:5+</availability>
+                <roles>command</roles>
+				<availability>CS:5+:3052,WOB:5+:3052</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Lanner' unitType='Mek' omni='Clan'>

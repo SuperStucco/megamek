@@ -589,9 +589,11 @@
 		<chassis name='Black Knight' unitType='Mek'>
 			<availability>SL:9,FWL:5,FWL.OH:5,RWR:4,FS:4</availability>
 			<model name='BL-6-KNT'>
+                <roles>command</roles>
 				<availability>SL:8,FWL:7+,RWR:6+,FS:7+</availability>
 			</model>
 			<model name='BL-6b-KNT'>
+                <roles>command</roles>
 				<availability>FWL:2+,SL.R:5,RWR:4+</availability>
 			</model>
 		</chassis>

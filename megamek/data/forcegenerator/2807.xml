@@ -579,16 +579,20 @@
 		<chassis name='Black Knight' unitType='Mek'>
 			<availability>PP:10,CS:7,LA:4,FWL:6,NIOPS:7,FWL.OH:6,MERC:4,FS:6,DC:4</availability>
 			<model name='BL-6-KNT'>
+                <roles>command</roles>
 				<availability>PP:8,CS:8,FWL:6+,NIOPS:8,FS:6+</availability>
 			</model>
 			<model name='BL-6b-KNT'>
+                <roles>command</roles>
 				<availability>PP:4,CS:4,NIOPS:4,FWL:2+</availability>
 			</model>
 			<model name='BL-7-KNT'>
-				<availability>LA:6-,FWL:3-,MERC:6-,FS:6-,DC:6-</availability>
+                <roles>command</roles>
+				<availability>LA:6-:2809,FWL:3-:2809,MERC:6-:2809,FS:6-:2809,DC:6-:2809</availability>
 			</model>
 			<model name='BL-7-KNT-L'>
-				<availability>FWL:6-</availability>
+                <roles>command</roles>
+				<availability>FWL:6-:2809</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Lion I Battlecruiser' unitType='Warship'>

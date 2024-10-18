@@ -3062,21 +3062,27 @@
 		<chassis name='Black Knight' unitType='Mek'>
 			<availability>CHH:4,PR:5,DoO:5,FRR:4,CLAN:5,DO:5,FS:5,CDP:3,CWIE:6,DC.GHO:3,SC:5,OA:3,CDS:4,CBS:6,CGB.FRR:4,FWL:4,NIOPS:7,RFS:5,CGB:6,CSR:4,WOB:7,DGM:5,FWL.OH:3,MERC:4,CGS:6,Periphery:3,TC:4,CS:7,DTA:5,FVC:3,CW:6,LA:4,MCM:5,ROS:6,PG:5,CNC:6,TP:5,RCM:5,DA:5,CJF:4,DC:4</availability>
 			<model name='BL-12-KNT'>
+                <roles>command</roles>
 				<availability>ROS:6,FS:6</availability>
 			</model>
 			<model name='BL-6-KNT'>
+                <roles>command</roles>
 				<availability>FRR:6,CLAN:6,WOB:4,BAN:6,TC:5,Periphery:5,DC.GHO:4,CS:4,OA:5,CGB.FRR:6,PG:6,FWL:6,MERC.SI:3,DC:6</availability>
 			</model>
 			<model name='BL-6b-KNT'>
+                <roles>command</roles>
 				<availability>DoO:6,CLAN:5,DO:6,MERC:4,FS:4,CGS:6,BAN:2,DTA:6,CS:6,LA:4,ROS:6,FWL:6,TP:6,DA:6,DC:4</availability>
 			</model>
 			<model name='BL-7-KNT'>
+                <roles>command</roles>
 				<availability>LA:2-,FRR:2-,FWL:1-,MERC:2-,FS:2-,CIR:6,DC:2-</availability>
 			</model>
 			<model name='BL-7-KNT-L'>
+                <roles>command</roles>
 				<availability>FWL:1-,TC:1-</availability>
 			</model>
 			<model name='BL-9-KNT'>
+                <roles>command</roles>
 				<availability>CS:8,ROS:8,WOB:8</availability>
 			</model>
 		</chassis>

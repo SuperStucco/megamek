@@ -3056,33 +3056,43 @@
 		<chassis name='Black Knight' unitType='Mek'>
 			<availability>CHH:3,CLAN:4,FS:6,CDP:4,CWIE:6,DC.GHO:3,RA.OA:3,CWE:5,CDS:3,FWL:6,IS:4,FWL.OH:6,MERC:4,CP:5,RA:3,Periphery:4,RD:5,FVC:4,RF:6,LA:6,ROS:6,DA:6,CJF:3</availability>
 			<model name='BL-12-KNT'>
+                <roles>command</roles>
 				<availability>ROS:3,FS:8</availability>
 			</model>
 			<model name='BL-18-KNT'>
+                <roles>command</roles>
 				<availability>CC:2,ROS:4,FWL:4,MERC:2</availability>
 			</model>
 			<model name='BL-6-KNT'>
+                <roles>command</roles>
 				<availability>CLAN:6,IS:6,CP:6,MERC:6,BAN:6,Periphery:6,DC.GHO:4,RA.OA:6,MERC.SI:3</availability>
 			</model>
 			<model name='BL-6b-KNT'>
+                <roles>command</roles>
 				<availability>LA:6,ROS:6,CLAN:5,FWL:6,DA:6,MERC:6,FS:6,CP:6,BAN:2,DC:6</availability>
 			</model>
 			<model name='BL-9-KNT'>
+                <roles>command</roles>
 				<availability>ROS:8</availability>
 			</model>
 			<model name='BLK-NT-2Y'>
+                <roles>command</roles>
 				<availability>FVC:4,ROS:6,IS:6,FS:6,CDP:4</availability>
 			</model>
 			<model name='BLK-NT-3A'>
+                <roles>command</roles>
 				<availability>LA:5,ROS:5,FWL:5,IS:4,FS:6,MERC:5</availability>
 			</model>
 			<model name='BLK-NT-3B'>
+                <roles>command</roles>
 				<availability>LA:5,ROS:5,FWL:5,IS:4,FS:6,MERC:5</availability>
 			</model>
 			<model name='BLK-NT-4D'>
+                <roles>command</roles>
 				<availability>CWE:6,CDS:6,ROS:6,FS:5,MERC:4,CP:5,CWIE:6</availability>
 			</model>
 			<model name='BLK-NT-5H'>
+                <roles>command</roles>
 				<availability>FWL:4,FS:5,MERC:4,CP:4,DC:4</availability>
 			</model>
 		</chassis>

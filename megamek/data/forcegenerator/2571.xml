@@ -475,9 +475,10 @@
 			</model>
 		</chassis>
 		<chassis name='Black Knight' unitType='Mek'>
-			<availability>SL:7</availability>
+			<availability>SL:7:2578</availability>
 			<model name='BL-6-KNT'>
-				<availability>SL:6,FWL:4+,FS:4+</availability>
+                <roles>command</roles>
+				<availability>SL:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Lion I Battlecruiser' unitType='Warship'>

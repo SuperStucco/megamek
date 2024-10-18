@@ -1835,18 +1835,23 @@
 		<chassis name='Black Knight' unitType='Mek'>
 			<availability>CHH:6,FRR:3,CLAN:7,CFM:6,FS:1,CWIE:8,DC.GHO:3,OA:1,CDS:6,CBS:8,FWL:1,NIOPS:7,CGB:8,CSR:6,CSV:6,WOB:7,FWL.OH:1,MERC:2,CGS:8,Periphery:1,TC:1,CS:7,CW:8,LA:1,CNC:8,CJF:6,DC:2</availability>
 			<model name='BL-6-KNT'>
+                <roles>command</roles>
 				<availability>DC.GHO:4,CS:4,OA:2+,FRR:4,CLAN:6,FWL:3,NIOPS:4,WOB:4,MERC.SI:5,BAN:6,TC:2,DC:4</availability>
 			</model>
 			<model name='BL-6b-KNT'>
+                <roles>command</roles>
 				<availability>CS:6,CLAN:5,FWL:5+,NIOPS:6,WOB:6,CGS:6,BAN:2</availability>
 			</model>
 			<model name='BL-7-KNT'>
+                <roles>command</roles>
 				<availability>LA:7,FRR:7,FWL:3,MERC:7,FS:7,DC:7</availability>
 			</model>
 			<model name='BL-7-KNT-L'>
+                <roles>command</roles>
 				<availability>FWL:8</availability>
 			</model>
 			<model name='BL-9-KNT'>
+                <roles>command</roles>
 				<availability>CS:6+,WOB:6+</availability>
 			</model>
 		</chassis>
