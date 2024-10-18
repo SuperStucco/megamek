@@ -1224,15 +1224,15 @@
 		<chassis name='Excalibur' unitType='Mek'>
 			<availability>SL:5+,RWR:3+,FS:3+,DC:3+</availability>
 			<model name='EXC-B1'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>SL:2</availability>
 			</model>
 			<model name='EXC-B2'>
-				<roles>fire_support</roles>
-				<availability>LA:0,General:8</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>General:8</availability>
 			</model>
 			<model name='EXC-B2b'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>SL.R:5</availability>
 			</model>
 		</chassis>

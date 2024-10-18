@@ -5796,11 +5796,11 @@
 		<chassis name='Excalibur' unitType='Mek'>
 			<availability>ROS:5,DC:4</availability>
 			<model name='EXC-B2b'>
-				<roles>fire_support</roles>
-				<availability>ROS:6,CLAN:4,BAN:2</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>ROS:6</availability>
 			</model>
 			<model name='EXC-CS'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>ROS:6,DC:8</availability>
 			</model>
 		</chassis>

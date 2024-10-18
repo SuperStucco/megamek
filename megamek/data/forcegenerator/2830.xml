@@ -1695,18 +1695,19 @@
 		<chassis name='Excalibur' unitType='Mek'>
 			<availability>CS:5,LA:2+,CLAN:5,NIOPS:5,FS:2+,DC:2+</availability>
 			<model name='EXC-B1'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>LA:8</availability>
 			</model>
 			<model name='EXC-B2'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>CS:8,LA:0,General:8,CLAN:6,NIOPS:8</availability>
 			</model>
 			<model name='EXC-B2b'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>CLAN:8,CGS:8,BAN:4</availability>
 			</model>
 			<model name='EXC-B2b-EC'>
+                <roles>cavalry,fire_support</roles>
 				<availability>CW:8</availability>
 			</model>
 		</chassis>

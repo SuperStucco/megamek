@@ -1590,19 +1590,16 @@
 		<chassis name='Excalibur' unitType='Mek'>
 			<availability>PP:5,CS:5,LA:3+,CLAN:5,NIOPS:5,FS:3+,DC:3+</availability>
 			<model name='EXC-B1'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>LA:8</availability>
 			</model>
 			<model name='EXC-B2'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>CS:8,LA:0,General:8,CLAN:6,NIOPS:8</availability>
 			</model>
 			<model name='EXC-B2b'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>PP:2,CLAN:8,CGS:8</availability>
-			</model>
-			<model name='EXC-B2b-EC'>
-				<availability>CW:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Explorer JumpShip' unitType='Jumpship'>

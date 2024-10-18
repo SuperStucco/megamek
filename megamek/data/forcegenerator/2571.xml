@@ -946,14 +946,14 @@
 			</model>
 		</chassis>
 		<chassis name='Excalibur' unitType='Mek'>
-			<availability>SL:4+</availability>
+			<availability>SL:4+:2619</availability>
 			<model name='EXC-B1'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>SL:4</availability>
 			</model>
 			<model name='EXC-B2'>
-				<roles>fire_support</roles>
-				<availability>LA:0,General:8</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>General:8:2620</availability>
 			</model>
 		</chassis>
 		<chassis name='Exterminator' unitType='Mek'>

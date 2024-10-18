@@ -4225,15 +4225,15 @@
 		<chassis name='Excalibur' unitType='Mek'>
 			<availability>CS:5,CLAN:1,NIOPS:5,WOB:5,CIR:2+</availability>
 			<model name='EXC-B2'>
-				<roles>fire_support</roles>
-				<availability>CS:8,LA:0,CLAN:1,NIOPS:8,WOB:8</availability>
+                <roles>cavalry,fire_support</roles>
+				<availability>CS:8,CLAN:1,NIOPS:8,WOB:8</availability>
 			</model>
 			<model name='EXC-B2b'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>CLAN:4,CGS:6,BAN:2</availability>
 			</model>
 			<model name='EXC-C1'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>CS:8,WOB:8,CIR:8</availability>
 			</model>
 		</chassis>

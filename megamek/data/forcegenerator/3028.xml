@@ -2364,11 +2364,11 @@
 		<chassis name='Excalibur' unitType='Mek'>
 			<availability>CS:5,CLAN:3,NIOPS:5</availability>
 			<model name='EXC-B2'>
-				<roles>fire_support</roles>
-				<availability>CS:8,LA:0,CLAN:3,NIOPS:8</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>CS:8,CLAN:3,NIOPS:8</availability>
 			</model>
 			<model name='EXC-B2b'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>CLAN:5,CGS:7,BAN:2</availability>
 			</model>
 		</chassis>

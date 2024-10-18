@@ -1148,16 +1148,16 @@
 		<chassis name='Excalibur' unitType='Mek'>
 			<availability>SL:5+,FS:2+,DC:2+</availability>
 			<model name='EXC-B1'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>SL:3</availability>
 			</model>
 			<model name='EXC-B2'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>LA:0,General:8</availability>
 			</model>
 			<model name='EXC-B2b'>
-				<roles>fire_support</roles>
-				<availability>SL.R:4</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>SL.R:4:2735</availability>
 			</model>
 		</chassis>
 		<chassis name='Explorer JumpShip' unitType='Jumpship'>
