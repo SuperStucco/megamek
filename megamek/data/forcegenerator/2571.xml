@@ -715,7 +715,7 @@
 		<chassis name='Confederate' unitType='Dropship'>
 			<availability>MOC:1,OA:1,SL:6,IS:3,RWR:1,TC:1</availability>
 			<model name='(2602)'>
-				<roles>mech_carrier</roles>
+				<roles>mek_carrier</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
