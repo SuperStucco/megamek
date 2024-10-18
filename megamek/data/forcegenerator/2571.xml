@@ -526,6 +526,7 @@
 		<chassis name='Caravan Heavy Transport' unitType='Conventional Fighter'>
 			<availability>General:1</availability>
 			<model name=''>
+                <roles>cargo,civilian</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
