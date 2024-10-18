@@ -450,10 +450,15 @@
 			</model>
 		</chassis>
 		<chassis name='BattleMaster' unitType='Mek'>
-			<availability>SL:5</availability>
+			<availability>SL:5:2633</availability>
 			<model name='BLR-1G'>
-				<availability>SL:8,IS:8,Periphery.Deep:8,SL.R:8,FS:8,Periphery:8</availability>
+                <roles>command</roles>
+				<availability>SL:8,SL.R:8</availability>
 			</model>
+            <model name='BLR-1G-DC'>
+                <roles>command</roles>
+                <availability>SL.R:2+</availability>
+            </model>
 		</chassis>
 		<chassis name='BattleMech Recovery Vehicle' unitType='Tank'>
 			<availability>General:6</availability>

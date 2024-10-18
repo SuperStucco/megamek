@@ -825,22 +825,27 @@
 		</chassis>
 		<chassis name='BattleMaster' unitType='Mek'>
 			<availability>CC:6,MOC:6,CLAN:3,IS:5,TC:6,CS:8-,LA:7,PIR:6,FWL:8,NIOPS:8-,DC:6</availability>
-			<model name='BLR-1D'>
-				<availability>FS:8</availability>
-			</model>
 			<model name='BLR-1G'>
 				<availability>IS:8,Periphery.Deep:8,FS:6,BAN:8,Periphery:8</availability>
 			</model>
+            <model name='BLR-1G-DC'>
+                <roles>command</roles>
+                <availability>IS:2+</availability>
+            </model>
 			<model name='BLR-1Gb'>
+                <roles>command</roles>
 				<availability>CC:2+,CLAN:8,BAN:4</availability>
 			</model>
 			<model name='BLR-1Gbc'>
+                <roles>command</roles>
 				<availability>CLAN:2</availability>
 			</model>
 			<model name='BLR-1Gc'>
+                <roles>command</roles>
 				<availability>CC:2+,LA:2+,CLAN:4,FWL:2+,FS:2+,DC:2+</availability>
 			</model>
 			<model name='BLR-1Gd'>
+                <roles>command</roles>
 				<availability>FS:2+</availability>
 			</model>
 		</chassis>

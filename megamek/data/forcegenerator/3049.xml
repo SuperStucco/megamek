@@ -1437,9 +1437,11 @@
 		<chassis name='BattleMaster' unitType='Mek'>
 			<availability>HL:3,FRR:4,CLAN:2,IS:5,WOB:7-,Periphery:5,CS:8-,DC.GHO:6,LA:7,PIR:5,FWL:8,NIOPS:8-</availability>
 			<model name='BLR-1D'>
+                <roles>command</roles>
 				<availability>FS:8</availability>
 			</model>
 			<model name='BLR-1G'>
+                <roles>command</roles>
 				<availability>HL:6,IS:8,Periphery.Deep:7,FS:4,BAN:8,Periphery:8</availability>
 			</model>
 			<model name='BLR-1G-DC'>
@@ -1447,29 +1449,36 @@
 				<availability>IS:2,MERC:0</availability>
 			</model>
 			<model name='BLR-1Gb'>
+                <roles>command</roles>
 				<availability>CLAN:8,BAN:2</availability>
 			</model>
 			<model name='BLR-1Gbc'>
+                <roles>command</roles>
 				<availability>CLAN:1</availability>
 			</model>
 			<model name='BLR-1Gc'>
+                <roles>command</roles>
 				<availability>CLAN:2</availability>
 			</model>
 			<model name='BLR-1S'>
+                <roles>command</roles>
 				<availability>LA:5</availability>
 			</model>
 			<model name='BLR-2C'>
+                <roles>command</roles>
 				<availability>DC.GHO:1,CS:1,WOB:1</availability>
 			</model>
 			<model name='BLR-3M'>
+                <roles>command</roles>
 				<availability>CS:4+,CC:3+,FWL:5+,WOB:4+,SIC:3+,MERC:3+</availability>
 			</model>
 			<model name='BLR-3M-DC'>
 				<roles>command</roles>
-				<availability>IS:1,FWL:2,MERC:1+</availability>
+				<availability>IS:1:3053,FWL:2:3053,MERC:1+:3053</availability>
 			</model>
 			<model name='BLR-3S'>
-				<availability>LA:4+,FS:3+</availability>
+                <roles>command</roles>
+				<availability>LA:4+:3050,FS:3+:3050</availability>
 			</model>
 		</chassis>
 		<chassis name='BattleMech Recovery Vehicle' unitType='Tank'>

@@ -2619,27 +2619,35 @@
 		<chassis name='BattleMaster' unitType='Mek'>
 			<availability>IS:5,Periphery:5,DC.GHO:4,RD:2,LA:7,ROS:6,PIR:5,FWL:8,CJF:2</availability>
 			<model name='BLR-10S'>
+                <roles>command</roles>
 				<availability>LA:6,ROS:4,FS:4</availability>
 			</model>
 			<model name='BLR-10S2'>
+                <roles>command</roles>
 				<availability>LA:6,ROS:4,FS:4</availability>
 			</model>
 			<model name='BLR-1D'>
+                <roles>command</roles>
 				<availability>FVC:2-</availability>
 			</model>
 			<model name='BLR-1G'>
+                <roles>command</roles>
 				<availability>BAN:8,Periphery:2-</availability>
 			</model>
 			<model name='BLR-1Gb'>
+                <roles>command</roles>
 				<availability>CC:4,OP:4,CLAN:8,MSC:4,FS:4,MERC:4,BAN:2,DC:4</availability>
 			</model>
 			<model name='BLR-1Gbc'>
+                <roles>command</roles>
 				<availability>MSC:2</availability>
 			</model>
 			<model name='BLR-1Gc'>
+                <roles>command</roles>
 				<availability>CC:3,LA:3,FWL:3,FS:3,Periphery:3,DC:3</availability>
 			</model>
 			<model name='BLR-3M'>
+                <roles>command</roles>
 				<availability>CC:4,FVC:4,Periphery.MW:4,Periphery.CM:4,Periphery.HR:4,ROS:4,PIR:5,Periphery.ME:4,FWL:3,MH:5,MERC:4,Periphery:2</availability>
 			</model>
 			<model name='BLR-3M-DC'>
@@ -2647,42 +2655,51 @@
 				<availability>FWL:2</availability>
 			</model>
 			<model name='BLR-3S'>
+                <roles>command</roles>
 				<availability>LA:2</availability>
 			</model>
 			<model name='BLR-4L'>
+                <roles>command</roles>
 				<availability>CC:6</availability>
 			</model>
 			<model name='BLR-4S'>
+                <roles>command</roles>
 				<availability>LA:3,ROS:4,MERC:4</availability>
 			</model>
 			<model name='BLR-5M'>
+                <roles>command</roles>
 				<availability>DTA:8,OP:8,MSC:8</availability>
 			</model>
 			<model name='BLR-6C'>
+                <roles>command</roles>
 				<availability>RF:2</availability>
 			</model>
 			<model name='BLR-6G'>
+                <roles>command</roles>
 				<availability>ROS:5,FS:5,MERC:4</availability>
 			</model>
 			<model name='BLR-6X'>
+                <roles>command</roles>
 				<availability>LA:2</availability>
 			</model>
 			<model name='BLR-CM'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>DC:4</availability>
 			</model>
 			<model name='BLR-K3'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='BLR-K4'>
+                <roles>command</roles>
 				<availability>RD:4,ROS:4,CGB.FRR:5,DC:6</availability>
 			</model>
 			<model name='BLR-M3'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>DTA:5,OP:5,ROS:4,DA:5,MERC:4</availability>
 			</model>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
