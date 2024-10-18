@@ -637,21 +637,22 @@
 			</model>
 		</chassis>
 		<chassis name='Cobra Transport VTOL' unitType='VTOL'>
-			<availability>SL:2+,RWR:2:2765</availability>
+			<availability>SL:2+:2582</availability>
 			<model name=''>
 				<roles>cargo</roles>
-				<availability>SL:5+,RWR:2:2765</availability>
+				<availability>SL:5+</availability>
 			</model>
 			<model name='(Command)'>
-				<roles>support</roles>
-				<availability>SL:2+,RWR:2:2765</availability>
+				<roles>command,support</roles>
+				<availability>SL:2+</availability>
 			</model>
 			<model name='(MASH)'>
 				<roles>support</roles>
-				<availability>SL:2+,RWR:2:2765</availability>
+				<availability>SL:2+</availability>
 			</model>
 			<model name='(Original)'>
-				<availability>SL:2+,RWR:6:2765</availability>
+                <roles>cargo</roles>
+				<availability>SL:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Cobra VTOL Transport' unitType='VTOL'>

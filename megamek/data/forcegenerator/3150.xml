@@ -4647,7 +4647,7 @@
 				<availability>MOC:6,SL3.CJF:6,SL3:6,SL3.CSJ:6,FR:6</availability>
 			</model>
 			<model name='(Command)'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>SL3.CJF:2,TamPact:2,ROS:2,SL3:2,SL3.CSJ:2,FS:2,VesMar:2,DC:2</availability>
 			</model>
 			<model name='(MASH)'>

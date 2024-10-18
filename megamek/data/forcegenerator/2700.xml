@@ -773,7 +773,7 @@
 				<availability>SL:8,RWR:6</availability>
 			</model>
 			<model name='(Command)'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>SL:4,RWR:3</availability>
 			</model>
 			<model name='(MASH)'>
@@ -781,6 +781,7 @@
 				<availability>SL:6,RWR:4</availability>
 			</model>
 			<model name='(Original)'>
+                <roles>cargo</roles>
 				<availability>SL:5,RWR:6</availability>
 			</model>
 		</chassis>

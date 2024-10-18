@@ -2344,7 +2344,7 @@
 				<availability>CS:8,WOB:3</availability>
 			</model>
 			<model name='(Command)'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>CS:4,WOB:3</availability>
 			</model>
 			<model name='(MASH)'>

@@ -1254,7 +1254,7 @@
 				<availability>CS:8,CLAN:7,IS:6</availability>
 			</model>
 			<model name='(Command)'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>CS:4,IS:4</availability>
 			</model>
 			<model name='(MASH)'>
@@ -1262,6 +1262,7 @@
 				<availability>CS:4,IS:4</availability>
 			</model>
 			<model name='(Original)'>
+                <roles>cargo</roles>
 				<availability>CLAN:5,IS:4</availability>
 			</model>
 		</chassis>

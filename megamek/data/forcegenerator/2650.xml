@@ -677,11 +677,10 @@
 		<chassis name='Cobra Transport VTOL' unitType='VTOL'>
 			<availability>SL:3+,RWR:3</availability>
 			<model name=''>
-				<roles>cargo</roles>
 				<availability>SL:6+,RWR:4</availability>
 			</model>
 			<model name='(Command)'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>SL:3+,RWR:3</availability>
 			</model>
 			<model name='(MASH)'>
@@ -689,6 +688,7 @@
 				<availability>SL:3+,RWR:4</availability>
 			</model>
 			<model name='(Original)'>
+                <roles>cargo</roles>
 				<availability>SL:3+,RWR:6</availability>
 			</model>
 		</chassis>

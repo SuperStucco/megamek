@@ -4734,7 +4734,7 @@
 				<availability>MOC:6,FR:6</availability>
 			</model>
 			<model name='(Command)'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>ROS:2,FS:2,DC:2</availability>
 			</model>
 			<model name='(MASH)'>

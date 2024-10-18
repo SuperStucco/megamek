@@ -823,7 +823,7 @@
 				<availability>CS:8,SLIE:4,SL:8,IS:6</availability>
 			</model>
 			<model name='(Command)'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>CS:4,SLIE:2,SL:4,IS:4</availability>
 			</model>
 			<model name='(MASH)'>
@@ -831,6 +831,7 @@
 				<availability>CS:4,SLIE:2,SL:6,IS:4</availability>
 			</model>
 			<model name='(Original)'>
+                <roles>cargo</roles>
 				<availability>SLIE:8,SL:8-,IS:4</availability>
 			</model>
 		</chassis>
