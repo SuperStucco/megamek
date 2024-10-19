@@ -4631,18 +4631,22 @@
 		<chassis name='Hoplite' unitType='Mek'>
 			<availability>CHH:2,MERC.WD:2,CLAN:2,CGS:3</availability>
 			<model name='C'>
+                <roles>fire_support</roles>
 				<availability>MERC.WD:4</availability>
 			</model>
 			<model name='HOP-4B'>
+                <roles>inf_support,fire_support</roles>
 				<availability>MERC.WD:3</availability>
 			</model>
 			<model name='HOP-4Bb'>
+                <roles>fire_support</roles>
 				<availability>CLAN:1</availability>
 			</model>
 			<model name='HOP-4Cb'>
 				<availability>CHH:6,CLAN:1</availability>
 			</model>
 			<model name='HOP-4D'>
+                <roles>inf_support</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 		</chassis>

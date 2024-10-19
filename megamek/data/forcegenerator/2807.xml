@@ -1874,12 +1874,15 @@
 		<chassis name='Hoplite' unitType='Mek'>
 			<availability>PP:3,CC:6,MOC:4,OA:4,LA:6,FWL:6,FS:6,DC:4,TC:6</availability>
 			<model name='HOP-4B'>
+                <roles>inf_support,fire_support</roles>
 				<availability>CC:2</availability>
 			</model>
 			<model name='HOP-4Bb'>
+                <roles>fire_support</roles>
 				<availability>PP:6</availability>
 			</model>
 			<model name='HOP-4C'>
+                <roles>inf_support</roles>
 				<availability>MOC:8,OA:8,FS:8</availability>
 			</model>
 		</chassis>

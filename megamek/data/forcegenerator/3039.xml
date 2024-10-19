@@ -3362,12 +3362,15 @@
 		<chassis name='Hoplite' unitType='Mek'>
 			<availability>CHH:3,MERC.WD:1,CLAN:2,CGS:3</availability>
 			<model name='HOP-4B'>
+                <roles>inf_support,fire_support</roles>
 				<availability>MERC.WD:4</availability>
 			</model>
 			<model name='HOP-4Bb'>
+                <roles>fire_support</roles>
 				<availability>CLAN:2,BAN:1</availability>
 			</model>
 			<model name='HOP-4C'>
+                <roles>inf_support</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 			<model name='HOP-4Cb'>

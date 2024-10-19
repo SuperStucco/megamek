@@ -1773,9 +1773,11 @@
 		<chassis name='Hoplite' unitType='Mek'>
 			<availability>CC:5,MOC:4,OA:4,LA:5,SL:4-,FWL:5,RWR:4,FS:5,DC:4,TC:6</availability>
 			<model name='HOP-4B'>
+                <roles>inf_support,fire_support</roles>
 				<availability>CC:2,SL:2</availability>
 			</model>
 			<model name='HOP-4C'>
+                <roles>inf_support</roles>
 				<availability>MOC:8,OA:8,SL:8,FS:8</availability>
 			</model>
 		</chassis>

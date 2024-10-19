@@ -1366,10 +1366,19 @@
 			</model>
 		</chassis>
 		<chassis name='Hoplite' unitType='Mek'>
-			<availability>SL:6</availability>
-			<model name='HOP-4C'>
-				<availability>MOC:8,OA:8,SL:8,FS:8</availability>
+			<availability>SL:6:2578</availability>
+			<model name='HOP-4A'>
+                <roles>inf_support</roles>
+				<availability>SL:8</availability>
 			</model>
+            <model name='HOP-4B'>
+                <roles>inf_support,fire_support</roles>
+                <availability>SL:2:2581</availability>
+            </model>
+            <model name='HOP-4C'>
+                <roles>inf_support</roles>
+                <availability>SL:8:2584</availability>
+            </model>
 		</chassis>
 		<chassis name='Hunchback' unitType='Mek'>
 			<availability>IS:4,Periphery:2,Periphery.MW:4,SL:5,Periphery.ME:4</availability>
