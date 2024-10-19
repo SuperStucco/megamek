@@ -2046,7 +2046,7 @@
 			</model>
 		</chassis>
 		<chassis name='Fortress' unitType='Dropship'>
-			<availability>CS:4,CHH:4,LA:3,CBS:4,CLAN:3,IS:3,NIOPS:4,FS:3,Periphery:3</availability>
+			<availability>CS:4,CHH:4,CBS:4,CLAN:3,IS:3,NIOPS:4,Periphery:3</availability>
 			<model name='(2613)'>
 				<roles>artillery,assault,mek_carrier,vee_carrier</roles>
 				<availability>General:8</availability>

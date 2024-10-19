@@ -1142,9 +1142,9 @@
 			</model>
 		</chassis>
 		<chassis name='Fortress' unitType='Dropship'>
-			<availability>LA:3,SL:5,IS:3,RWR:2,FS:3</availability>
+			<availability>SL:5:2613,IS:3:2613,RWR:2:2613</availability>
 			<model name='(2613)'>
-				<roles>artillery,assault,mech_carrier,vee_carrier</roles>
+				<roles>artillery,assault,mek_carrier,vee_carrier</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
