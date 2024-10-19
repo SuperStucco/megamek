@@ -5666,15 +5666,18 @@
 		<chassis name='Exterminator' unitType='Mek'>
 			<availability>CS:4,CLAN:1,NIOPS:4,WOB:4,DC:1</availability>
 			<model name='EXT-4C'>
+			    <roles>specops</roles>
 				<availability>BAN:1</availability>
 			</model>
 			<model name='EXT-4D'>
+			    <roles>cavalry</roles>
 				<availability>CS:5,CLAN:6,NIOPS:5,WOB:5,BAN:2,DC:8</availability>
 			</model>
-			<model name='EXT-5E'>
+            <model name='EXT-5E'>
 				<availability>CS:8,WOB:8</availability>
 			</model>
 			<model name='EXT-5F'>
+			    <roles>cavalry</roles>
 				<availability>CS:6</availability>
 			</model>
 		</chassis>

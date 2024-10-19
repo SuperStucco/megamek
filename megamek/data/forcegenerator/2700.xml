@@ -1174,13 +1174,16 @@
 		<chassis name='Exterminator' unitType='Mek'>
 			<availability>SL:8</availability>
 			<model name='EXT-4C'>
+                <roles>specops</roles>
 				<availability>SL:1+,SL.R:2</availability>
 			</model>
 			<model name='EXT-4D'>
-				<availability>General:8+,SL.R:6</availability>
+                <roles>cavalry</roles>
+				<availability>SL.R:6</availability>
 			</model>
 			<model name='EXT-4Db'>
-				<availability>SL.R:6</availability>
+                <roles>cavalry</roles>
+				<availability>SL.R:6:2718</availability>
 			</model>
 		</chassis>
 	    <chassis name='Factory' unitType='Space Station'>

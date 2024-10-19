@@ -1288,9 +1288,11 @@
 		<chassis name='Exterminator' unitType='Mek'>
 			<availability>PP:7,CC:2,CS:4,LA:2,FWL:2,NIOPS:4,FS:2,DC:2</availability>
 			<model name='EXT-4D'>
+                <roles>cavalry</roles>
 				<availability>CS:8,General:8+,NIOPS:8</availability>
 			</model>
 			<model name='EXT-4Db'>
+                <roles>cavalry</roles>
 				<availability>PP:4</availability>
 			</model>
 		</chassis>

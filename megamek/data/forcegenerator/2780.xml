@@ -1258,12 +1258,15 @@
 		<chassis name='Exterminator' unitType='Mek'>
 			<availability>CC:3,LA:3,SL:8,FWL:3,NIOPS:4,FS:3,DC:3</availability>
 			<model name='EXT-4C'>
+                <roles>specops</roles>
 				<availability>SL:1+,SL.R:2</availability>
 			</model>
 			<model name='EXT-4D'>
+                <roles>cavalry</roles>
 				<availability>General:8+,NIOPS:8,SL.R:4</availability>
 			</model>
 			<model name='EXT-4Db'>
+                <roles>cavalry</roles>
 				<availability>SL.R:8</availability>
 			</model>
 		</chassis>

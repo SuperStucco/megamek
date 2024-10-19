@@ -1710,15 +1710,19 @@
 		<chassis name='Exterminator' unitType='Mek'>
 			<availability>CS:4,CLAN:6,NIOPS:4</availability>
 			<model name='EXT-4C'>
+			    <roles>specops</roles>
 				<availability>CLAN:1</availability>
 			</model>
 			<model name='EXT-4D'>
-				<availability>CS:8,General:8+,CLAN:6,NIOPS:8</availability>
+			    <roles>cavalry</roles>
+				<availability>CS:8,CLAN:6,NIOPS:8</availability>
 			</model>
 			<model name='EXT-4Db'>
+			    <roles>cavalry</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='EXT-4Db-EC'>
+			    <roles>cavalry</roles>
 				<availability>CJF:8</availability>
 			</model>
 		</chassis>

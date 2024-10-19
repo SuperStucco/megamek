@@ -1250,12 +1250,15 @@
 		<chassis name='Exterminator' unitType='Mek'>
 			<availability>CC:2,LA:2,SL:8,FWL:2,RWR:4,FS:2,DC:2</availability>
 			<model name='EXT-4C'>
+			    <roles>specops</roles>
 				<availability>SL:1+,SL.R:2</availability>
 			</model>
 			<model name='EXT-4D'>
+			    <roles>cavalry</roles>
 				<availability>General:8+,SL.R:5</availability>
 			</model>
 			<model name='EXT-4Db'>
+			    <roles>cavalry</roles>
 				<availability>SL.R:8</availability>
 			</model>
 		</chassis>

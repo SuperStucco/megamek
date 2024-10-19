@@ -957,12 +957,14 @@
 			</model>
 		</chassis>
 		<chassis name='Exterminator' unitType='Mek'>
-			<availability>SL:6</availability>
+			<availability>SL.R:6:2630</availability>
 			<model name='EXT-4C'>
+                <roles>specops</roles>
 				<availability>SL.R:2</availability>
 			</model>
 			<model name='EXT-4D'>
-				<availability>General:8+,SL.R:8</availability>
+                <roles>cavalry</roles>
+				<availability>SL.R:8</availability>
 			</model>
 		</chassis>
 	    <chassis name='Factory' unitType='Space Station'>

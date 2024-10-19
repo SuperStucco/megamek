@@ -1990,12 +1990,15 @@
 		<chassis name='Exterminator' unitType='Mek'>
 			<availability>CS:4,CLAN:4,NIOPS:4</availability>
 			<model name='EXT-4C'>
+			    <roles>specops</roles>
 				<availability>BAN:1</availability>
 			</model>
 			<model name='EXT-4D'>
-				<availability>CS:8,General:8+,CLAN:6,NIOPS:8,BAN:4</availability>
+			    <roles>cavalry</roles>
+				<availability>CS:8,CLAN:6,NIOPS:8,BAN:4</availability>
 			</model>
 			<model name='EXT-4Db'>
+			    <roles>cavalry</roles>
 				<availability>CLAN:3,BAN:2</availability>
 			</model>
 		</chassis>

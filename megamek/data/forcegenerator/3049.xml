@@ -3045,9 +3045,11 @@
 				<availability>FWL:8</availability>
 			</model>
 			<model name='EXT-4C'>
+		        <roles>specops</roles>
 				<availability>BAN:1</availability>
 			</model>
 			<model name='EXT-4D'>
+		        <roles>cavalry</roles>
 				<availability>CS:8,CLAN:6,NIOPS:8,WOB:8,BAN:2,DC:8</availability>
 			</model>
 		</chassis>

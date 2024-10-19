@@ -2250,16 +2250,19 @@
 		</chassis>
 		<chassis name='Exterminator' unitType='Mek'>
 			<availability>CS:4,CLAN:3,NIOPS:4,FWL:2</availability>
-			<model name='EXT-4A'>
+            <model name='EXT-4A'>
 				<availability>FWL:8</availability>
 			</model>
 			<model name='EXT-4C'>
+			    <roles>specops</roles>
 				<availability>BAN:1</availability>
 			</model>
 			<model name='EXT-4D'>
+			    <roles>cavalry</roles>
 				<availability>CS:8,CLAN:6,NIOPS:8,BAN:2</availability>
 			</model>
 			<model name='EXT-4Db'>
+			    <roles>cavalry</roles>
 				<availability>CLAN:1</availability>
 			</model>
 		</chassis>
