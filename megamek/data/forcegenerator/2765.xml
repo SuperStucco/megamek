@@ -1283,7 +1283,7 @@
 				<availability>SL:8,IS:8,Periphery.Deep:8,Periphery:8</availability>
 			</model>
 			<model name='FLC-4Nb'>
-				<availability>SL.R:8</availability>
+				<availability>SL.R:8:2776</availability>
 			</model>
 		</chassis>
 		<chassis name='Field Artillery' unitType='Infantry'>

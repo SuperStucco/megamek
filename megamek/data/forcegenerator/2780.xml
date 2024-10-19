@@ -1286,13 +1286,19 @@
             </model>
 		</chassis>
 		<chassis name='Falcon' unitType='Mek'>
-			<availability>CC:5,MOC:4,OA:4,LA:7,SL:4,FWL:5,FS:5,MERC:5,TC:4</availability>
+			<availability>PP:4:2792,CC:5,MOC:4,OA:4,LA:7,SL:4,FWL:5,FS:5,MERC:5,TC:4</availability>
 			<model name='FLC-4N'>
 				<availability>SL:8,IS:8,Periphery.Deep:8,Periphery:8</availability>
 			</model>
 			<model name='FLC-4Nb'>
 				<availability>SL.R:8</availability>
 			</model>
+            <model name='FLC-4Nb'>
+                <availability>PP:2:2792</availability>
+            </model>
+            <model name='FLC-4Nb-PP'>
+                <availability>PP:2:2795</availability>
+            </model>
 		</chassis>
 		<chassis name='Field Artillery' unitType='Infantry'>
 			<availability>SL:3,IS:3,Periphery:3</availability>

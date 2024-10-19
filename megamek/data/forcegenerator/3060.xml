@@ -4342,10 +4342,10 @@
 				<availability>MERC.WD:4</availability>
 			</model>
 			<model name='FLC-5P'>
-				<availability>MERC:6</availability>
+				<availability>MERC:6:3065</availability>
 			</model>
 			<model name='FLC-6C'>
-				<availability>MERC.WD:4+</availability>
+				<availability>MERC.WD:4+:3065</availability>
 			</model>
 		</chassis>
 		<chassis name='Falconer' unitType='Mek'>
