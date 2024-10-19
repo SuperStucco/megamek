@@ -1573,10 +1573,10 @@
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>
-			<availability>CC:6,TH:6,SL:9,IS:6,FWL:8,RWR:5,FS:6,MERC:6,DC:6</availability>
+			<availability>TH:6,SL:9,IS:6,FWL:8,RWR:5,MERC:6</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
-				<availability>TH:8,SL:8,IS:8+,RWR:8+,DC:8+</availability>
+				<availability>TH:8,SL:8,IS:8,RWR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>

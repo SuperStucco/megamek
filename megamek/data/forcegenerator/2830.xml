@@ -2119,7 +2119,7 @@
 			<availability>CS:7,CLAN:9,IS:7,NIOPS:7,FS:6,MERC:7</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
-				<availability>CS:8,CLAN:8,IS:6+,NIOPS:8,BAN:8,DC:6+</availability>
+				<availability>CS:8,CLAN:8,IS:6+,NIOPS:8,BAN:8</availability>
 			</model>
 			<model name='GLT-4L'>
 				<roles>raider</roles>
@@ -2127,7 +2127,7 @@
 			</model>
 			<model name='GLT-4P'>
 				<roles>raider</roles>
-				<availability>Periphery.MW:2,Periphery.ME:2,FWL:2,NIOPS:0,MERC:2</availability>
+				<availability>Periphery.MW:2:2833,Periphery.ME:2:2833,FWL:2:2833,NIOPS:0,MERC:2:2833</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>

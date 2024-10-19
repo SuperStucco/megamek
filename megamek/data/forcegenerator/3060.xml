@@ -5361,7 +5361,7 @@
 			</model>
 			<model name='GLT-4L'>
 				<roles>raider</roles>
-				<availability>HL:3,IS:5,FWL:5,Periphery.Deep:8,NIOPS:0,MERC:5,Periphery:5</availability>
+				<availability>HL:3,IS:5,Periphery.Deep:8,NIOPS:0,MERC:5,Periphery:5</availability>
 			</model>
 			<model name='GLT-5M'>
 				<roles>raider</roles>
@@ -5369,7 +5369,7 @@
 			</model>
 			<model name='GLT-8D'>
 				<roles>raider</roles>
-				<availability>FS:5</availability>
+				<availability>FS:5:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Gunslinger' unitType='Mek'>

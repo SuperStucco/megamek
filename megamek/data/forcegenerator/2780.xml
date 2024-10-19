@@ -1596,10 +1596,10 @@
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>
-			<availability>CC:8,SL:9,IS:8,FWL:8,NIOPS:7,FS:7,MERC:8,DC:8</availability>
+			<availability>SL:9,IS:8,NIOPS:7,FS:7,MERC:8</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
-				<availability>SL:8,IS:8+,NIOPS:8,DC:8+</availability>
+				<availability>SL:8,IS:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>

@@ -1219,10 +1219,10 @@
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>
-			<availability>CC:5,TH:7,SL:10,FWL:5,IS:5,FS:5,MERC:5,DC:5</availability>
+			<availability>TH:7,SL:10,IS:5,MERC:5</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
-				<availability>TH:8,SL:8,IS:8+,DC:8+</availability>
+				<availability>TH:8,SL:8,IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>

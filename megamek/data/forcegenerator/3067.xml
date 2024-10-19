@@ -6588,7 +6588,7 @@
 			</model>
 			<model name='GLT-6WB2'>
 				<roles>raider</roles>
-				<availability>WOB:4</availability>
+				<availability>WOB:4:3070</availability>
 			</model>
 			<model name='GLT-8D'>
 				<roles>raider</roles>

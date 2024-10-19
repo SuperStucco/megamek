@@ -2073,18 +2073,14 @@
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>
-			<availability>CC:7,CS:7,CHH:9,CSR:9,CLAN:9,IS:7,FWL:7,NIOPS:7,FS:6,MERC:7,DC:7</availability>
+			<availability>CS:7,CLAN:9,IS:7,NIOPS:7,FS:6,MERC:7</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
-				<availability>CS:8,CLAN:8,IS:6+,NIOPS:8,DC:6+</availability>
+				<availability>CS:8,CLAN:8,IS:6+,NIOPS:8</availability>
 			</model>
 			<model name='GLT-4L'>
 				<roles>raider</roles>
 				<availability>FWL:5-,NIOPS:0,MERC:5-</availability>
-			</model>
-			<model name='GLT-4P'>
-				<roles>raider</roles>
-				<availability>Periphery.MW:2-,Periphery.ME:2-,FWL:2-,NIOPS:0,MERC:2-</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>

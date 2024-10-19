@@ -712,7 +712,7 @@
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>
-			<availability>TH:6</availability>
+			<availability>TH:6:2499</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
 				<availability>TH:8</availability>

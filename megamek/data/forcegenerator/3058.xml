@@ -4416,7 +4416,7 @@
 			</model>
 			<model name='GLT-4L'>
 				<roles>raider</roles>
-				<availability>HL:4,IS:6,FWL:6,Periphery.Deep:6,NIOPS:0,MERC:6,Periphery:6</availability>
+				<availability>HL:4,IS:6,Periphery.Deep:6,NIOPS:0,MERC:6,Periphery:6</availability>
 			</model>
 			<model name='GLT-4P'>
 				<roles>raider</roles>

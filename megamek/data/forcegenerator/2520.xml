@@ -873,10 +873,10 @@
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>
-			<availability>CC:2,TH:8,FWL:2,IS:2,FS:2,MERC:2,DC:2</availability>
+			<availability>TH:8,IS:2,MERC:2</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
-				<availability>TH:8,IS:8+,DC:8+</availability>
+				<availability>TH:8,IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>

@@ -1988,7 +1988,7 @@
 			<availability>PP:9,CS:7,CLAN:9,IS:8,NIOPS:7,FS:7,MERC:8</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
-				<availability>PP:8,CS:8,CLAN:8,IS:8+,NIOPS:8,DC:8+</availability>
+				<availability>PP:8,CS:8,CLAN:8,IS:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>

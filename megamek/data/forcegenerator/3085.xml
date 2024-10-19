@@ -7332,7 +7332,7 @@
 				<availability>ROS:3,MSC:6,MERC:3</availability>
 			</model>
 			<model name='GLT-7M'>
-				<availability>DTA:2,OP:3,RF:3,ROS:6,FWL:4,MSC:4,DA:3,RCM:2</availability>
+				<availability>DTA:2:3099,OP:3:3099,RF:3:3099,ROS:6:3099,FWL:4:3099,MSC:4:3099,DA:3:3099,RCM:2:3099</availability>
 			</model>
 			<model name='GLT-8D'>
 				<roles>raider</roles>

@@ -2218,10 +2218,10 @@
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>
-			<availability>CC:6,CS:7,CHH:8,CSR:8,CLAN:7,IS:6,FWL:6,NIOPS:7,FS:5,MERC:6,DC:6</availability>
+			<availability>CS:7,CHH:8,CSR:8,CLAN:7,IS:6,NIOPS:7,FS:5,MERC:6</availability>
 			<model name='GLT-3N'>
 				<roles>raider</roles>
-				<availability>CS:8,CLAN:8,IS:3+,NIOPS:8,BAN:8,DC:3+</availability>
+				<availability>CS:8,CLAN:8,IS:3+,NIOPS:8,BAN:8</availability>
 			</model>
 			<model name='GLT-4L'>
 				<roles>raider</roles>

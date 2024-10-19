@@ -7553,7 +7553,7 @@
 			</model>
 			<model name='GLT-6WB3'>
 				<roles>raider</roles>
-				<availability>SC:6,MCM:6,ROS:3,DGM:6,MERC:3</availability>
+				<availability>SC:6:3080,MCM:6:3080,ROS:3:3080,DGM:6:3080,MERC:3:3080</availability>
 			</model>
 			<model name='GLT-8D'>
 				<roles>raider</roles>
