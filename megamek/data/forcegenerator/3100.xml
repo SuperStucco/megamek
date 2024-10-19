@@ -8526,19 +8526,24 @@
 		<chassis name='Highlander' unitType='Mek'>
 			<availability>CC:5,MOC:4,LA:6,CLAN:4,IS:4,MH:4,MERC:4,CJF:5</availability>
 			<model name='HGN-732'>
+                <roles>command</roles>
 				<availability>MOC:6,CC:6,CLAN:6,IS:6,MERC:6,BAN:8,DC.GHO:8,MERC.SI:8,MH:6</availability>
 			</model>
 			<model name='HGN-732b'>
-				<availability>LA:4,CLAN:4,IS:4,FWL:4,MH:4,FS:4,BAN:2</availability>
+                <roles>command</roles>
+				<availability>CLAN:4,IS:4,MH:4,BAN:2</availability>
 			</model>
 			<model name='HGN-734'>
+                <roles>command</roles>
 				<availability>LA:6,ROS:6,MERC:6</availability>
 			</model>
 			<model name='HGN-738'>
+                <roles>command</roles>
 				<availability>LA:8,ROS:8</availability>
 			</model>
 			<model name='HGN-740'>
-				<availability>CC:4,LA:4,MERC:2,Periphery:2</availability>
+                <roles>command</roles>
+				<availability>CC:4:3115,LA:4:3115,MERC:2:3115,Periphery:2:3115</availability>
 			</model>
 		</chassis>
 		<chassis name='Hippogriff' unitType='ProtoMek'>

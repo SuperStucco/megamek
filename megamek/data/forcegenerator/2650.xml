@@ -1404,11 +1404,13 @@
 			</model>
 		</chassis>
 		<chassis name='Highlander' unitType='Mek'>
-			<availability>CC:4,LA:4,SL:8,FWL:4,IS:4,RWR:3+,FS:4,MERC:4,DC:4</availability>
+			<availability>SL:8,IS:4,RWR:3+,MERC:4</availability>
 			<model name='HGN-732'>
-				<availability>CC:8+,MOC:4+,LA:8+,SL:8,FWL:8+,IS:4+,SL.R:6,RWR:8,FS:8+,MERC:4+,DC:8+</availability>
+                <roles>command</roles>
+				<availability>IS:8,SL.R:6,RWR:8</availability>
 			</model>
 			<model name='HGN-732b'>
+                <roles>command</roles>
 				<availability>SL.R:8</availability>
 			</model>
 		</chassis>

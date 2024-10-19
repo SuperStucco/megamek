@@ -2646,21 +2646,26 @@
 			</model>
 		</chassis>
 		<chassis name='Highlander' unitType='Mek'>
-			<availability>CC:2,CS:9,LA:2,CLAN:9,FWL:1,NIOPS:9,IS:1,CFM:10,FS:1,CJF:10,DC:2</availability>
+			<availability>CC:2,CS:9,LA:2,CLAN:9,NIOPS:9,IS:1,CFM:10,CJF:10,DC:2</availability>
 			<model name='HGN-732'>
-				<availability>CS:8,CLAN:6,NIOPS:8,FWL:1+,FS:1+,BAN:8</availability>
+                <roles>command</roles>
+				<availability>CS:8,CLAN:6,NIOPS:8,FWL:1+,FS:8,BAN:8</availability>
 			</model>
 			<model name='HGN-732b'>
+                <roles>command</roles>
 				<availability>CLAN:7,FWL:1+,BAN:4</availability>
 			</model>
 			<model name='HGN-733'>
-				<availability>CC:8,:0,LA:8</availability>
+                <roles>command</roles>
+				<availability>CC:8,LA:8</availability>
 			</model>
 			<model name='HGN-733C'>
-				<availability>CC:4,:0,LA:4</availability>
+                <roles>command</roles>
+				<availability>CC:4,LA:4</availability>
 			</model>
 			<model name='HGN-733P'>
-				<availability>CC:4,:0,LA:4</availability>
+                <roles>command</roles>
+				<availability>CC:4,LA:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Hoplite' unitType='Mek'>

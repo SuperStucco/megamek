@@ -1355,12 +1355,14 @@
 			</model>
 		</chassis>
 		<chassis name='Highlander' unitType='Mek'>
-			<availability>SL:6</availability>
+			<availability>SL:6:2592</availability>
 			<model name='HGN-732'>
-				<availability>CC:8+,LA:8+,SL:8,FWL:8+,SL.R:6,FS:8+,DC:8+</availability>
+                <roles>command</roles>
+				<availability>SL:8,SL.R:6</availability>
 			</model>
 			<model name='HGN-732b'>
-				<availability>SL.R:6</availability>
+                <roles>command</roles>
+				<availability>SL.R:6:2598</availability>
 			</model>
 		</chassis>
 		<chassis name='Hoplite' unitType='Mek'>

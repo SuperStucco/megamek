@@ -4091,19 +4091,24 @@
 		<chassis name='Highlander' unitType='Mek'>
 			<availability>CC:1,CS:9,LA:3,CLAN:7,NIOPS:9,CFM:8,WOB:9,SIC:1,CJF:8,DC:2</availability>
 			<model name='HGN-732'>
+                <roles>command</roles>
 				<availability>DC.GHO:8,CS:6,CLAN:6,NIOPS:6,WOB:6,MERC.SI:8,BAN:8</availability>
 			</model>
 			<model name='HGN-732b'>
+                <roles>command</roles>
 				<availability>CLAN:5,BAN:2</availability>
 			</model>
 			<model name='HGN-733'>
-				<availability>CC:6,:0,LA:6,SIC:6,DC:6</availability>
+                <roles>command</roles>
+				<availability>CC:6,LA:6,SIC:6,DC:6</availability>
 			</model>
 			<model name='HGN-733C'>
-				<availability>CC:1,:0,LA:1,SIC:1</availability>
+                <roles>command</roles>
+				<availability>CC:1,LA:1,SIC:1</availability>
 			</model>
 			<model name='HGN-733P'>
-				<availability>CC:1,:0,LA:1,SIC:1</availability>
+                <roles>command</roles>
+				<availability>CC:1,LA:1,SIC:1</availability>
 			</model>
 		</chassis>
 		<chassis name='Hollander' unitType='Mek'>

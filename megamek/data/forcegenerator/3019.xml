@@ -2991,19 +2991,24 @@
 		<chassis name='Highlander' unitType='Mek'>
 			<availability>CC:1,CS:9,LA:1,CLAN:7,NIOPS:9,CFM:8,CJF:8,DC:1</availability>
 			<model name='HGN-732'>
+                <roles>command</roles>
 				<availability>CS:8,CLAN:6,NIOPS:8,BAN:8</availability>
 			</model>
 			<model name='HGN-732b'>
+                <roles>command</roles>
 				<availability>CLAN:5,BAN:2</availability>
 			</model>
 			<model name='HGN-733'>
-				<availability>CC:8,:0,LA:8,DC:8</availability>
+                <roles>command</roles>
+				<availability>CC:8,LA:8,DC:8</availability>
 			</model>
 			<model name='HGN-733C'>
-				<availability>CC:2,:0,LA:2</availability>
+                <roles>command</roles>
+				<availability>CC:2,LA:2</availability>
 			</model>
 			<model name='HGN-733P'>
-				<availability>CC:2,:0,LA:2</availability>
+                <roles>command</roles>
+				<availability>CC:2,LA:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Hong Lung Interdiction Station' unitType='Space Station'>

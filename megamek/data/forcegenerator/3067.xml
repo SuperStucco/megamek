@@ -7331,34 +7331,43 @@
 		<chassis name='Highlander' unitType='Mek'>
 			<availability>CC:1,CS:9,LA:6,CLAN:6,NIOPS:9,CFM:7,WOB:9,MERC:4,FS:5,CJF:7,DC:1</availability>
 			<model name='HGN-641-X-2'>
-				<availability>CS:1</availability>
+				<availability>CS:1:3070</availability>
 			</model>
 			<model name='HGN-694'>
+                <roles>command</roles>
 				<availability>LA:3</availability>
 			</model>
 			<model name='HGN-732'>
-				<availability>MOC:6,DC.GHO:8,CS:3,CLAN:6,IS:6,NIOPS:3,WOB:3,MERC.SI:8,MERC:6,BAN:8</availability>
+                <roles>command</roles>
+				<availability>DC.GHO:8,CS:3,CLAN:6,IS:6,NIOPS:3,WOB:3,MERC.SI:8,MERC:6,BAN:8</availability>
 			</model>
 			<model name='HGN-732b'>
+                <roles>command</roles>
 				<availability>CS:4,LA:2,CLAN:4,WOB:4,FS:2,BAN:2</availability>
 			</model>
 			<model name='HGN-733'>
-				<availability>CC:2-,:0,LA:2-,DC:2-</availability>
+                <roles>command</roles>
+				<availability>CC:2-,LA:2-,DC:2-</availability>
 			</model>
 			<model name='HGN-733C'>
-				<availability>CC:1,:0,LA:1</availability>
+                <roles>command</roles>
+				<availability>CC:1,LA:1</availability>
 			</model>
 			<model name='HGN-733P'>
-				<availability>CC:1,:0,LA:1</availability>
+                <roles>command</roles>
+				<availability>CC:1,LA:1</availability>
 			</model>
 			<model name='HGN-734'>
+                <roles>command</roles>
 				<availability>LA:6,MERC:6</availability>
 			</model>
 			<model name='HGN-736'>
+                <roles>command</roles>
 				<availability>CS:8,WOB:6</availability>
 			</model>
 			<model name='HGN-738'>
-				<availability>LA:4</availability>
+                <roles>command</roles>
+				<availability>LA:4:3069</availability>
 			</model>
 		</chassis>
 		<chassis name='Hiryo Armored Infantry Transport' unitType='Tank'>

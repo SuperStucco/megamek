@@ -5968,27 +5968,35 @@
 		<chassis name='Highlander' unitType='Mek'>
 			<availability>CC:1,CS:9,LA:6,CLAN:6,NIOPS:9,CFM:7,WOB:9,SIC:1,MERC:4,FS:5,CJF:7,DC:1</availability>
 			<model name='HGN-694'>
-				<availability>LA:3</availability>
+                <roles>command</roles>
+				<availability>LA:3:3062</availability>
 			</model>
 			<model name='HGN-732'>
-				<availability>MOC:6,DC.GHO:8,CS:4,CLAN:6,IS:6,NIOPS:4,WOB:4,MERC.SI:8,MERC:6,BAN:8</availability>
+                <roles>command</roles>
+				<availability>DC.GHO:8,CS:4,CLAN:6,IS:6,NIOPS:4,WOB:4,MERC.SI:8,MERC:6,BAN:8</availability>
 			</model>
 			<model name='HGN-732b'>
+                <roles>command</roles>
 				<availability>CLAN:4,BAN:2</availability>
 			</model>
 			<model name='HGN-733'>
-				<availability>CC:3,:0,LA:3,SIC:3,DC:3</availability>
+                <roles>command</roles>
+				<availability>CC:3,LA:3,SIC:3,DC:3</availability>
 			</model>
 			<model name='HGN-733C'>
-				<availability>CC:1,:0,LA:1,SIC:1</availability>
+                <roles>command</roles>
+				<availability>CC:1,LA:1,SIC:1</availability>
 			</model>
 			<model name='HGN-733P'>
-				<availability>CC:1,:0,LA:1,SIC:1</availability>
+                <roles>command</roles>
+				<availability>CC:1,LA:1,SIC:1</availability>
 			</model>
 			<model name='HGN-734'>
-				<availability>LA:4,MERC:4</availability>
+                <roles>command</roles>
+				<availability>LA:4:3062,MERC:4:3062</availability>
 			</model>
 			<model name='HGN-736'>
+                <roles>command</roles>
 				<availability>CS:6,WOB:4</availability>
 			</model>
 		</chassis>

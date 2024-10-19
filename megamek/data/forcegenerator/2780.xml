@@ -1786,11 +1786,13 @@
 			</model>
 		</chassis>
 		<chassis name='Highlander' unitType='Mek'>
-			<availability>CC:5,LA:5,SL:9,FWL:5,NIOPS:9,IS:5,FS:5,MERC:5,DC:5</availability>
+			<availability>SL:9,NIOPS:9,IS:5,MERC:5</availability>
 			<model name='HGN-732'>
-				<availability>CC:8+,MOC:6+,LA:8+,SL:8,FWL:8+,IS:6+,NIOPS:8,SL.R:4,FS:8+,MERC:6+,DC:8+</availability>
+                <roles>command</roles>
+				<availability>SL:8,FWL:8+,IS:8,NIOPS:8,SL.R:4</availability>
 			</model>
 			<model name='HGN-732b'>
+                <roles>command</roles>
 				<availability>FWL:4+,SL.R:8</availability>
 			</model>
 		</chassis>

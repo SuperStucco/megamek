@@ -1863,9 +1863,11 @@
 		<chassis name='Highlander' unitType='Mek'>
 			<availability>PP:9,CS:9,NIOPS:9,IS:5,MERC:5</availability>
 			<model name='HGN-732'>
-				<availability>PP:8,CC:8+,MOC:6+,CS:8,LA:8+,FWL:8+,IS:6+,NIOPS:8,FS:8+,MERC:6+,DC:8+</availability>
+                <roles>command</roles>
+				<availability>PP:8,CS:8,FWL:8+,IS:8,NIOPS:8</availability>
 			</model>
 			<model name='HGN-732b'>
+                <roles>command</roles>
 				<availability>PP:4,FWL:4+</availability>
 			</model>
 		</chassis>
