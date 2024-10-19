@@ -677,9 +677,9 @@
 				<roles>artillery</roles>
 				<availability>General:8</availability>
 			</model>
-			<model name='HEP-2H'>
-				<roles>artillery</roles>
-				<availability>General:4</availability>
+			<model name='HEP-2X'>
+				<roles>mixed_artillery</roles>
+				<availability>General:4:2488</availability>
 			</model>
 		</chassis>
 		<chassis name='Hurricane Conventional Fighter' unitType='Conventional Fighter'>

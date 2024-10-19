@@ -834,8 +834,8 @@
 				<roles>artillery</roles>
 				<availability>General:6</availability>
 			</model>
-			<model name='HEP-2H'>
-				<roles>artillery</roles>
+			<model name='HEP-2X'>
+				<roles>mixed_artillery</roles>
 				<availability>General:6</availability>
 			</model>
 		</chassis>

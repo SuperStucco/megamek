@@ -1339,9 +1339,13 @@
 				<availability>General:3</availability>
 			</model>
 			<model name='HEP-2H'>
-				<roles>artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>General:6</availability>
 			</model>
+            <model name='HEP-3H'>
+                <roles>mixed_artillery</roles>
+                <availability>General:6+:2625</availability>
+            </model>
 		</chassis>
 		<chassis name='Hermes' unitType='Mek'>
 			<availability>CC:2,SL:4,FWL:3,SL.R:4,DC:2</availability>

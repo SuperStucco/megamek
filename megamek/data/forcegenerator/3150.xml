@@ -8753,9 +8753,9 @@
 			</model>
 		</chassis>
 		<chassis name='Helepolis' unitType='Mek'>
-			<availability>CC:4,MOC:4,IS:4,MERC:4</availability>
+			<availability>MOC:4,IS:4,MERC:4</availability>
 			<model name='HEP-4H'>
-				<roles>artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>General:8,MERC:8</availability>
 			</model>
 		</chassis>

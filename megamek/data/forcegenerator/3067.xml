@@ -7052,6 +7052,13 @@
 				<availability>General:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Helepolis' unitType='Mek'>
+            <availability>MERC:2:3074</availability>
+            <model name='HEP-4H'>
+                <roles>mixed_artillery</roles>
+                <availability>MERC:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Helios' unitType='Mek'>
 			<availability>CC:5,CS:4,MOC:5,WOB:3,FS:3,MERC:3,DC:3,TC:5</availability>
 			<model name='HEL-3D'>

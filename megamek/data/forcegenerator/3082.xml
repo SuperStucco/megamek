@@ -7534,7 +7534,7 @@
 				<availability>CC:2-,MOC:2-,MERC:2-</availability>
 			</model>
 			<model name='HEP-4H'>
-				<roles>artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>General:8,MERC:8</availability>
 			</model>
 		</chassis>

@@ -1387,11 +1387,11 @@
 		<chassis name='Helepolis' unitType='Mek'>
 			<availability>TH:4,SL:6,SL.R:5</availability>
 			<model name='HEP-2H'>
-				<roles>artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='HEP-3H'>
-				<roles>artillery</roles>
+				<roles>mixed_artillery</roles>
 				<deployedWith>Helepolis</deployedWith>
 				<availability>General:6</availability>
 			</model>
