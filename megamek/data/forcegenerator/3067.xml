@@ -8781,31 +8781,36 @@
 		<chassis name='Lancelot' unitType='Mek'>
 			<availability>CS:6,CIH:5,FRR:3,CLAN:4,NIOPS:6,CFM:5,WOB:6,CGS:5,BAN:7,DC:6</availability>
 			<model name='C'>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>CSA:3-,SOC:4,CB:4</availability>
 			</model>
 			<model name='LNC25-01'>
-				<roles>anti_aircraft</roles>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>CS:4,FRR:6,CLAN:8,NIOPS:4,WOB:4,MERC.SI:4,BAN:6,DC:6</availability>
 			</model>
 			<model name='LNC25-02'>
-				<roles>fire_support</roles>
+				<roles>anti_aircraft,fire_support</roles>
 				<availability>FRR:4-,DC:4-</availability>
 			</model>
 			<model name='LNC25-03'>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>DC:4-</availability>
 			</model>
 			<model name='LNC25-04'>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>CS:8,WOB:8</availability>
 			</model>
 			<model name='LNC25-05'>
-				<roles>anti_infantry</roles>
+				<roles>cavalry,anti_infantry</roles>
 				<availability>CS:2,NIOPS:2,WOB:2</availability>
 			</model>
 			<model name='LNC25-06'>
-				<availability>WOB:8</availability>
+                <roles>cavalry,anti_aircraft</roles>
+				<availability>WOB:8:3071</availability>
 			</model>
 			<model name='LNC25-08'>
-				<availability>WOB:4</availability>
+                <roles>cavalry,anti_aircraft</roles>
+				<availability>WOB:4:3071</availability>
 			</model>
 		</chassis>
 		<chassis name='Lancer' unitType='AeroSpaceFighter'>

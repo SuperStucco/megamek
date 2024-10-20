@@ -1969,13 +1969,17 @@
 			</model>
 		</chassis>
 		<chassis name='Lancelot' unitType='Mek'>
-			<availability>CC:5,MOC:3,OA:3,LA:5,SL:7,IS:5,SL.R:7,RWR:3,MERC:5,DC:5,TC:3</availability>
+			<availability>MOC:3,OA:3,SL:7,IS:5,SL.R:7,RWR:3,MERC:5,TC:3</availability>
 			<model name='LNC25-01'>
-				<roles>anti_aircraft</roles>
-				<availability>SL:8,IS:8,DC:8</availability>
+				<roles>cavalry,anti_aircraft</roles>
+				<availability>SL:8,IS:8</availability>
 			</model>
+            <model name='LNC25-01sl'>
+                <roles>cavalry,anti_aircraft</roles>
+                <availability>SL:2:2750,SL.R:4:2750</availability>
+            </model>
 			<model name='LNC25-05'>
-				<roles>anti_infantry</roles>
+				<roles>cavalry,anti_infantry</roles>
 				<availability>IS:4</availability>
 			</model>
 		</chassis>

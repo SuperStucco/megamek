@@ -2196,13 +2196,13 @@
 			</model>
 		</chassis>
 		<chassis name='Lancelot' unitType='Mek'>
-			<availability>PP:6,CC:6,MOC:4,CS:6,OA:4,LA:6,IS:6,NIOPS:6,MERC:6,CIR:4,TC:4,DC:6</availability>
+			<availability>PP:6,MOC:4,CS:6,OA:4,IS:6,NIOPS:6,MERC:6,CIR:4,TC:4</availability>
 			<model name='LNC25-01'>
-				<roles>anti_aircraft</roles>
-				<availability>PP:6,CS:8,IS:8,NIOPS:8,DC:8</availability>
+				<roles>cavalry,anti_aircraft</roles>
+				<availability>PP:6,CS:8,IS:8,NIOPS:8</availability>
 			</model>
 			<model name='LNC25-05'>
-				<roles>anti_infantry</roles>
+				<roles>cavalry,anti_infantry</roles>
 				<availability>CS:4,IS:4,NIOPS:4</availability>
 			</model>
 		</chassis>

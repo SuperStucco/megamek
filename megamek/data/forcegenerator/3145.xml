@@ -10717,11 +10717,12 @@
 		<chassis name='Lancelot' unitType='Mek'>
 			<availability>ROS:3,CLAN:4,BAN:7,DC:2</availability>
 			<model name='LNC25-01'>
-				<roles>anti_aircraft</roles>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>ROS:3,CLAN:8,MERC.SI:4,BAN:6,DC:2</availability>
 			</model>
 			<model name='LNC25-09'>
-				<availability>DC:4</availability>
+                <roles>cavalry,anti_aircraft</roles>
+				<availability>DC:4:3147</availability>
 			</model>
 		</chassis>
 		<chassis name='Lancer' unitType='AeroSpaceFighter'>

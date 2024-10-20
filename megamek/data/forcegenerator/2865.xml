@@ -2875,21 +2875,23 @@
 		<chassis name='Lancelot' unitType='Mek'>
 			<availability>MOC:3,CIH:6,CLAN:5,IS:3,CFM:6,MERC:3,CIR:3,CGS:6,BAN:6,TC:3,CS:6,OA:3,NIOPS:6,DC:4</availability>
 			<model name='C'>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>CIH:2,CFM:2,CFM.SmJ:6,CB:4,CGB:2</availability>
 			</model>
 			<model name='C 2'>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>CIH:2,CFM:1,CFM.SmJ:3,CB:2</availability>
 			</model>
 			<model name='LNC25-01'>
-				<roles>anti_aircraft</roles>
+				<roles>cavalry,anti_aircraft</roles>
 				<availability>CS:8,CLAN:8,IS:4+,NIOPS:8,BAN:6,DC:4+</availability>
 			</model>
 			<model name='LNC25-02'>
-				<roles>fire_support</roles>
+				<roles>anti_aircraft,fire_support</roles>
 				<availability>DC:8-</availability>
 			</model>
 			<model name='LNC25-05'>
-				<roles>anti_infantry</roles>
+				<roles>cavalry,anti_infantry</roles>
 				<availability>CS:4,IS:1,NIOPS:4</availability>
 			</model>
 		</chassis>

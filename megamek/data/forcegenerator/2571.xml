@@ -1557,14 +1557,14 @@
 			</model>
 		</chassis>
 		<chassis name='Lancelot' unitType='Mek'>
-			<availability>CC:2,LA:2,SL:5,IS:2,SL.R:5,MERC:2,DC:2</availability>
+			<availability>SL:5:2581,IS:2:2581,MERC:2:2581</availability>
 			<model name='LNC25-01'>
-				<roles>anti_aircraft</roles>
-				<availability>SL:8,IS:8,DC:8</availability>
+				<roles>cavalry,anti_aircraft</roles>
+				<availability>SL:8,IS:8</availability>
 			</model>
 			<model name='LNC25-05'>
-				<roles>anti_infantry</roles>
-				<availability>IS:4</availability>
+				<roles>cavalry,anti_infantry</roles>
+				<availability>IS:4:2594</availability>
 			</model>
 		</chassis>
 		<chassis name='League Destroyer' unitType='Warship'>

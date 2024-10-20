@@ -9274,14 +9274,15 @@
 		<chassis name='Lancelot' unitType='Mek'>
 			<availability>ROS:4,CGB.FRR:3,CLAN:4,NIOPS:6,BAN:7,DC:4</availability>
 			<model name='C'>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>CSA:2-</availability>
 			</model>
 			<model name='LNC25-01'>
-				<roles>anti_aircraft</roles>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>ROS:4,CGB.FRR:6,CLAN:8,NIOPS:4,MERC.SI:4,BAN:6,DC:5</availability>
 			</model>
 			<model name='LNC25-02'>
-				<roles>fire_support</roles>
+				<roles>anti_aircraft,fire_support</roles>
 				<availability>CGB.FRR:2-,DC:2-</availability>
 			</model>
 		</chassis>

@@ -2115,17 +2115,19 @@
 		<chassis name='Lancelot' unitType='Mek'>
 			<availability>MOC:4,OA:4,IS:6,NIOPS:6,SL.R:6,MERC:6,CIR:4,TC:4</availability>
 			<model name='LNC25-01'>
-				<roles>anti_aircraft</roles>
-				<availability>SL:8,IS:8,NIOPS:8,DC:8</availability>
+				<roles>cavalry,anti_aircraft</roles>
+				<availability>SL:8,IS:8,NIOPS:8</availability>
 			</model>
 			<model name='LNC25-01X'>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>SL.R:1</availability>
 			</model>
 			<model name='LNC25-01sl'>
+                <roles>cavalry,anti_aircraft</roles>
 				<availability>SL:2,SL.R:4</availability>
 			</model>
 			<model name='LNC25-05'>
-				<roles>anti_infantry</roles>
+				<roles>cavalry,anti_infantry</roles>
 				<availability>IS:4,NIOPS:4</availability>
 			</model>
 		</chassis>
