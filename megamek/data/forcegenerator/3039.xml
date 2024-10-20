@@ -4303,26 +4303,37 @@
 		</chassis>
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:4,FRR:5,CLAN:3,IS:3,SIC:4,FS:5,TC:3,Periphery:1,CS:8,LA:5,NIOPS:8,DC:5</availability>
+            <model name='C'>
+                <roles>command</roles>
+                <availability>CLAN:2</availability>
+            </model>
 			<model name='MAD-1R'>
-				<availability>CS:8,CLAN:1,NIOPS:8,MERC:0,BAN:2</availability>
+                <roles>command</roles>
+				<availability>CS:8,CLAN:1,NIOPS:8,BAN:2</availability>
 			</model>
 			<model name='MAD-2R'>
+                <roles>command</roles>
 				<availability>CLAN:3,CGS:4,BAN:3</availability>
 			</model>
 			<model name='MAD-3D'>
+                <roles>command</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='MAD-3L'>
+                <roles>command</roles>
 				<availability>CC:3,SIC:3</availability>
 			</model>
 			<model name='MAD-3M'>
+                <roles>command</roles>
 				<availability>FWL:5</availability>
 			</model>
 			<model name='MAD-3R'>
-				<availability>CS:4-,HL:6,IS:8,Periphery.Deep:7,Periphery:8,TC:8</availability>
+                <roles>command</roles>
+				<availability>CS:4-,HL:6,IS:8,Periphery.Deep:7,Periphery:8</availability>
 			</model>
 			<model name='MAD-5D'>
-				<availability>LA:3+,FRR:3+,FS:3+,DC:4+</availability>
+                <roles>command</roles>
+				<availability>LA:3+:3047,FRR:3+:3047,FS:3+:3047,DC:4+:3047</availability>
 			</model>
 		</chassis>
 		<chassis name='Mars Assault Vehicle' unitType='Tank'>

@@ -2239,10 +2239,12 @@
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:3,LA:4,SL:8,FWL:4,IS:2,RWR:2+,FS:4,DC:4</availability>
 			<model name='MAD-1R'>
+                <roles>command</roles>
 				<availability>SL:8,IS:8+,SL.R:8,RWR:8,MERC:0</availability>
 			</model>
 			<model name='MAD-2R'>
-				<availability>SL.R:6</availability>
+                <roles>command</roles>
+				<availability>SL.R:6:2760</availability>
 			</model>
 		</chassis>
 		<chassis name='Marksman Artillery Vehicle' unitType='Tank'>

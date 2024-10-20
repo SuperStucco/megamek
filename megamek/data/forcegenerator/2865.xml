@@ -3145,24 +3145,26 @@
 			</model>
 		</chassis>
 		<chassis name='Marauder' unitType='Mek'>
-			<availability>CC:4,MOC:2+,CS:8,LA:5,CLAN:6,IS:4,FWL:4,NIOPS:8,FS:5,TC:3+,DC:5</availability>
+			<availability>MOC:2+,CS:8,LA:5,CLAN:6,IS:4,NIOPS:8,FS:5,TC:3+,DC:5</availability>
+            <model name='C'>
+                <roles>command</roles>
+                <availability>CLAN:2+</availability>
+            </model>
 			<model name='MAD-1R'>
+                <roles>command</roles>
 				<availability>CS:8,MOC:2,CLAN:4,IS:1+,NIOPS:8,MERC:0,BAN:4,TC:2+</availability>
 			</model>
 			<model name='MAD-2R'>
+                <roles>command</roles>
 				<availability>CLAN:6,FS:1+,CGS:7,BAN:6</availability>
 			</model>
 			<model name='MAD-3D'>
+                <roles>command</roles>
 				<availability>FS:6</availability>
 			</model>
-			<model name='MAD-3L'>
-				<availability>CC:3</availability>
-			</model>
-			<model name='MAD-3M'>
-				<availability>FWL:5</availability>
-			</model>
 			<model name='MAD-3R'>
-				<availability>CS:4-,IS:8,Periphery.Deep:8,TC:8</availability>
+                <roles>command</roles>
+				<availability>CS:4-,IS:8,TC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Marksman Artillery Vehicle' unitType='Tank'>

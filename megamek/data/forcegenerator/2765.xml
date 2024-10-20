@@ -2337,9 +2337,11 @@
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:5,MOC:2+,LA:5,SL:8,FWL:5,IS:3,RWR:4+,FS:5,DC:5,TC:2+</availability>
 			<model name='MAD-1R'>
+                <roles>command</roles>
 				<availability>MOC:8,SL:8,IS:8+,SL.R:6,RWR:8,MERC:0,TC:8+</availability>
 			</model>
 			<model name='MAD-2R'>
+                <roles>command</roles>
 				<availability>SL.R:8,FS:3+</availability>
 			</model>
 		</chassis>

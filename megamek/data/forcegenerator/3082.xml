@@ -10180,21 +10180,27 @@
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:4,IS:2-,FS:6,TC:3,Periphery:2,RA.OA:2,LA:5,CGB.FRR:4,ROS:2,FWL:3,NIOPS:6,DC:3,CGB:3</availability>
 			<model name='MAD-2R'>
+                <roles>command</roles>
 				<availability>MOC:3,RA.OA:3,MH:3,MERC:3,BAN:1,TC:4</availability>
 			</model>
 			<model name='MAD-3D'>
+                <roles>command</roles>
 				<availability>FVC:2-,MH:2-,FS:2-</availability>
 			</model>
 			<model name='MAD-3M'>
+                <roles>command</roles>
 				<availability>MOC:2-,Periphery.MW:2-,PIR:2-,Periphery.ME:2-,FWL:1-,MH:2-,MERC:2-</availability>
 			</model>
 			<model name='MAD-3R'>
-				<availability>IS:2-,Periphery.Deep:8,Periphery:3-,TC:3-</availability>
+                <roles>command</roles>
+				<availability>IS:2-,Periphery.Deep:8,Periphery:3-</availability>
 			</model>
 			<model name='MAD-5CS'>
+                <roles>command</roles>
 				<availability>ROS:2</availability>
 			</model>
 			<model name='MAD-5D'>
+                <roles>command</roles>
 				<availability>FVC:4,CGB.FRR:6,FS:3,MERC:3,DC:7</availability>
 			</model>
 			<model name='MAD-5D-DC'>
@@ -10202,38 +10208,47 @@
 				<availability>FVC:2,FS:2</availability>
 			</model>
 			<model name='MAD-5L'>
+                <roles>command</roles>
 				<availability>CC:6,MOC:5</availability>
 			</model>
 			<model name='MAD-5M'>
+                <roles>command</roles>
 				<availability>MOC:3,ROS:4,FWL:7,MERC:4</availability>
 			</model>
 			<model name='MAD-5R'>
+                <roles>command</roles>
 				<availability>FS:4,MERC:3</availability>
 			</model>
 			<model name='MAD-5S'>
+                <roles>command</roles>
 				<availability>FVC:3,LA:5,CGB.FRR:3,FS:3,MERC:4</availability>
 			</model>
 			<model name='MAD-5T'>
+                <roles>command</roles>
 				<availability>FS:4</availability>
 			</model>
 			<model name='MAD-6L'>
+                <roles>command</roles>
 				<availability>CC:5,MOC:4</availability>
 			</model>
 			<model name='MAD-7D'>
+                <roles>command</roles>
 				<availability>FS:5</availability>
 			</model>
 			<model name='MAD-9M'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>DTA:6,SC:6,DoO:6,MCM:6,DO:6,DGM:6,MSC:6,TP:6,MERC:3,DA:6</availability>
 			</model>
 			<model name='MAD-9M2'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>PR:5,DoO:5,ROS:4,PG:5,DO:5,TP:5,MERC:4,DA:5,RFS:5,DC:2</availability>
 			</model>
 			<model name='MAD-9S'>
+                <roles>command</roles>
 				<availability>LA:6,CGB.FRR:4,ROS:4,MH:3,MERC:4,CGB:3</availability>
 			</model>
 			<model name='MAD-9W2'>
+                <roles>command</roles>
 				<availability>LA:5,ROS:4,FS:5,MERC:4,DC:5</availability>
 			</model>
 		</chassis>

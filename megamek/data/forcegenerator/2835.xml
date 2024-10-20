@@ -3157,23 +3157,25 @@
 			</model>
 		</chassis>
 		<chassis name='Marauder' unitType='Mek'>
-			<availability>MOC:2+,CLAN:7,IS:4,FS:5,TC:3+,Periphery:2,CS:8,LA:5,NIOPS:8,DC:5,CGB:7</availability>
+			<availability>MOC:2+,CLAN:7,IS:4,FS:5,TC:3+,Periphery:2,CS:8,LA:5,NIOPS:8,DC:5</availability>
+            <model name='C'>
+                <roles>command</roles>
+                <availability>CLAN:2+</availability>
+            </model>
 			<model name='MAD-1R'>
+                <roles>command</roles>
 				<availability>CS:8,MOC:4,CLAN:4,IS:4+,NIOPS:8,MERC:0,BAN:4,TC:4+</availability>
 			</model>
 			<model name='MAD-2R'>
+                <roles>command</roles>
 				<availability>CLAN:7,FS:3+,CGS:8,BAN:7</availability>
 			</model>
 			<model name='MAD-3D'>
+                <roles>command</roles>
 				<availability>FS:6</availability>
 			</model>
-			<model name='MAD-3L'>
-				<availability>CC:3</availability>
-			</model>
-			<model name='MAD-3M'>
-				<availability>FWL:5</availability>
-			</model>
 			<model name='MAD-3R'>
+                <roles>command</roles>
 				<availability>CS:4-,IS:8,Periphery.Deep:8,TC:7</availability>
 			</model>
 		</chassis>

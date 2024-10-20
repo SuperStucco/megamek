@@ -1837,7 +1837,8 @@
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>SL:7</availability>
 			<model name='MAD-1R'>
-				<availability>SL:8,IS:8+,SL.R:8,MERC:0</availability>
+                <roles>command</roles>
+				<availability>SL:8,SL.R:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Marsden MBT' unitType='Tank'>

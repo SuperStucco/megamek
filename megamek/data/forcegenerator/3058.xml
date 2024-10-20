@@ -6340,30 +6340,39 @@
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:4,FRR:5,CLAN:2,IS:3,WOB:7,SIC:4,FS:5,TC:3,Periphery:1,CS:7,LA:5,NIOPS:7,SL.2:5,DC:5</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>CW:2,LA:2+,CNC:2,FS:2+,CJF:1,DC:2+,CGB:2,CWIE:2</availability>
 			</model>
 			<model name='MAD-1R'>
-				<availability>CS:5,CLAN:1,NIOPS:5,WOB:5,MERC:0,BAN:2</availability>
+                <roles>command</roles>
+				<availability>CS:5,CLAN:1,NIOPS:5,WOB:5,BAN:2</availability>
 			</model>
 			<model name='MAD-2R'>
+                <roles>command</roles>
 				<availability>CLAN:2,CGS:3,BAN:2</availability>
 			</model>
 			<model name='MAD-3D'>
+                <roles>command</roles>
 				<availability>FS:5</availability>
 			</model>
 			<model name='MAD-3L'>
+                <roles>command</roles>
 				<availability>CC:2,SIC:2</availability>
 			</model>
 			<model name='MAD-3M'>
+                <roles>command</roles>
 				<availability>MOC:4,Periphery.MW:2,PIR:2,Periphery.ME:4,FWL:4,MH:4,MERC:4</availability>
 			</model>
 			<model name='MAD-3R'>
-				<availability>CS:3-,HL:6,IS:5,Periphery.Deep:7,WOB:3-,Periphery:8,TC:8</availability>
+                <roles>command</roles>
+				<availability>CS:3-,HL:6,IS:5,Periphery.Deep:7,WOB:3-,Periphery:8</availability>
 			</model>
 			<model name='MAD-5CS'>
+                <roles>command</roles>
 				<availability>CS:4,WOB:4,SL.2:2</availability>
 			</model>
 			<model name='MAD-5D'>
+                <roles>command</roles>
 				<availability>LA:5+,FRR:5+,WOB:3+,FS:5+,MERC:3+,DC:7+</availability>
 			</model>
 			<model name='MAD-5D-DC'>
@@ -6371,9 +6380,11 @@
 				<availability>FS:2</availability>
 			</model>
 			<model name='MAD-5M'>
+                <roles>command</roles>
 				<availability>CS:4+,FWL:5+,IS:3+,WOB:5+,MERC:3+</availability>
 			</model>
 			<model name='MAD-5S'>
+                <roles>command</roles>
 				<availability>LA:4+,FRR:2+,FS:4+,MERC:2+</availability>
 			</model>
 		</chassis>

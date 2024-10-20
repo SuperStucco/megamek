@@ -10985,30 +10985,39 @@
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:4,FRR:4,CLAN:1,IS:3-,WOB:7,FS:6,TC:3,Periphery:2,CS:6,LA:5,CGB.FRR:4,FWL:3,NIOPS:6,DC:3,CGB:3</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>CW:1,LA:1+,CNC:1,FS:1+,CJF:1,DC:1+,CGB:1,CWIE:1</availability>
 			</model>
 			<model name='MAD-1R'>
-				<availability>CS:4-,NIOPS:2-,WOB:4-,MERC:0,BAN:1</availability>
+                <roles>command</roles>
+				<availability>CS:4-,NIOPS:2-,WOB:4-,BAN:1</availability>
 			</model>
 			<model name='MAD-2R'>
-				<availability>CLAN:1,CGS:1,BAN:1,TC:3</availability>
+                <roles>command</roles>
+				<availability>CLAN:1,BAN:1,TC:3</availability>
 			</model>
 			<model name='MAD-3D'>
+                <roles>command</roles>
 				<availability>FVC:3-,MH:3-,FS:3-</availability>
 			</model>
 			<model name='MAD-3L'>
+                <roles>command</roles>
 				<availability>CC:1-</availability>
 			</model>
 			<model name='MAD-3M'>
+                <roles>command</roles>
 				<availability>MOC:3-,Periphery.MW:3-,PIR:3-,Periphery.ME:3-,FWL:2-,MH:3-,MERC:3-</availability>
 			</model>
 			<model name='MAD-3R'>
-				<availability>CS:2-,HL:1-,IS:3-,Periphery.Deep:8,WOB:2-,Periphery:4-,TC:4-</availability>
+                <roles>command</roles>
+				<availability>CS:2-,HL:1-,IS:3-,Periphery.Deep:8,WOB:2-,Periphery:4-</availability>
 			</model>
 			<model name='MAD-5CS'>
+                <roles>command</roles>
 				<availability>CS:2,WOB:2</availability>
 			</model>
 			<model name='MAD-5D'>
+                <roles>command</roles>
 				<availability>FVC:5,FRR:6,CGB.FRR:6,WOB:4,FS:4,MERC:4,DC:7</availability>
 			</model>
 			<model name='MAD-5D-DC'>
@@ -11016,42 +11025,52 @@
 				<availability>FVC:2,FS:2</availability>
 			</model>
 			<model name='MAD-5L'>
+                <roles>command</roles>
 				<availability>CC:5,MOC:4,WOB:3,CIR:3,TC:1</availability>
 			</model>
 			<model name='MAD-5M'>
+                <roles>command</roles>
 				<availability>CS:6,MOC:3,ROS:4,FWL:8,IS:1,WOB:7,MERC:4</availability>
 			</model>
 			<model name='MAD-5R'>
+                <roles>command</roles>
 				<availability>FS:4,MERC:3</availability>
 			</model>
 			<model name='MAD-5S'>
+                <roles>command</roles>
 				<availability>FVC:4,LA:5,FRR:3,CGB.FRR:3,FS:4,MERC:4</availability>
 			</model>
 			<model name='MAD-5T'>
+                <roles>command</roles>
 				<availability>FS:4</availability>
 			</model>
 			<model name='MAD-6L'>
+                <roles>command</roles>
 				<availability>CC:4,MOC:4</availability>
 			</model>
 			<model name='MAD-7D'>
+                <roles>command</roles>
 				<availability>FS:5</availability>
 			</model>
 			<model name='MAD-9M'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>DTA:5,SC:5,DoO:5,MCM:5,FWL:2,DO:5,DGM:5,WOB:4,TP:5,MERC:3,DA:5</availability>
 			</model>
 			<model name='MAD-9M2'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>PR:4,DoO:4,ROS:4,PG:4,FWL:2,WOB:4,DO:4,TP:4,MERC:4,DA:4,RFS:4</availability>
 			</model>
 			<model name='MAD-9S'>
+                <roles>command</roles>
 				<availability>LA:5,FRR:4,CGB.FRR:4,ROS:4,MERC:3</availability>
 			</model>
 			<model name='MAD-9W'>
+                <roles>command</roles>
 				<availability>WOB:4</availability>
 			</model>
 			<model name='MAD-9W2'>
-				<availability>LA:4,ROS:3,FS:4,MERC:3,DC:4</availability>
+                <roles>command</roles>
+				<availability>LA:4:3080,ROS:3:3080,FS:4:3080,MERC:3:3080,DC:4:3080</availability>
 			</model>
 		</chassis>
 		<chassis name='Marksman Artillery Vehicle' unitType='Tank'>

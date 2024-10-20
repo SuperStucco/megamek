@@ -2790,13 +2790,16 @@
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>PP:8,CC:5,MOC:2+,CLAN:8,IS:3,FS:6,TC:2+,CS:8,LA:6,FWL:6,NIOPS:8,DC:6</availability>
 			<model name='MAD-1R'>
+                <roles>command</roles>
 				<availability>PP:8,CS:8,MOC:8,IS:6+,NIOPS:8,MERC:0,TC:8+</availability>
 			</model>
 			<model name='MAD-2R'>
-				<availability>PP:2,CLAN:8,FS:4+,CGS:8</availability>
+                <roles>command</roles>
+				<availability>PP:2,CLAN:8,FS:4+</availability>
 			</model>
 			<model name='MAD-3R'>
-				<availability>CS:4-,IS:6,Periphery.Deep:8,TC:4</availability>
+                <roles>command</roles>
+				<availability>CS:4-:2819,IS:6:2819,TC:4:2819</availability>
 			</model>
 		</chassis>
 		<chassis name='Marco' unitType='Mek'>

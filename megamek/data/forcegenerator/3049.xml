@@ -5269,37 +5269,48 @@
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:4,FRR:5,CLAN:2,IS:3,WOB:7,SIC:4,FS:5,TC:3,Periphery:1,CS:8,LA:5,NIOPS:8,DC:5</availability>
 			<model name='C'>
-				<availability>LA:1+,FS:1+,DC:1+</availability>
+                <roles>command</roles>
+				<availability>CLAN.IS:2-,LA:1+:3051,FS:1+:3051,DC:1+:3051</availability>
 			</model>
 			<model name='MAD-1R'>
-				<availability>CS:6,CLAN:1,NIOPS:6,WOB:6,MERC:0,BAN:2</availability>
+                <roles>command</roles>
+				<availability>CS:6,CLAN:1,NIOPS:6,WOB:6,BAN:2</availability>
 			</model>
 			<model name='MAD-2R'>
+                <roles>command</roles>
 				<availability>CLAN:2,CGS:3,BAN:2</availability>
 			</model>
 			<model name='MAD-3D'>
+                <roles>command</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='MAD-3L'>
+                <roles>command</roles>
 				<availability>CC:2,SIC:2</availability>
 			</model>
 			<model name='MAD-3M'>
+                <roles>command</roles>
 				<availability>MOC:4,Periphery.ME:4,FWL:5,MH:4,MERC:4</availability>
 			</model>
 			<model name='MAD-3R'>
-				<availability>CS:4-,HL:6,IS:6,Periphery.Deep:7,WOB:4-,Periphery:8,TC:8</availability>
+                <roles>command</roles>
+				<availability>CS:4-,HL:6,IS:6,Periphery.Deep:7,WOB:4-,Periphery:8</availability>
 			</model>
 			<model name='MAD-5CS'>
-				<availability>CS:6,WOB:2</availability>
+                <roles>command</roles>
+				<availability>CS:6:3052,WOB:2:3052</availability>
 			</model>
 			<model name='MAD-5D'>
+                <roles>command</roles>
 				<availability>LA:4+,FRR:4+,WOB:2+,FS:4+,MERC:2+,DC:5+</availability>
 			</model>
 			<model name='MAD-5M'>
-				<availability>CS:2+,FWL:3+,IS:2+,WOB:2+</availability>
+                <roles>command</roles>
+				<availability>CS:2+:3051,FWL:3+:3051,IS:2+:3051,WOB:2+:3051</availability>
 			</model>
 			<model name='MAD-5S'>
-				<availability>LA:3+,FS:3+</availability>
+                <roles>command</roles>
+				<availability>LA:3+:3051,FS:3+:3051</availability>
 			</model>
 		</chassis>
 		<chassis name='Mars Assault Vehicle' unitType='Tank'>
