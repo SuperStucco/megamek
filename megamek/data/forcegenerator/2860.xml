@@ -3340,28 +3340,29 @@
 			</model>
 		</chassis>
 		<chassis name='Mobile Headquarters' unitType='Tank'>
-			<availability>IS:2+,MERC:1+,DC:2+</availability>
+			<availability>IS:2+,MERC:1+</availability>
 			<model name=''>
+                <roles>command,support</roles>
 				<availability>CC:6,General:8,MERC:4,DC:6</availability>
 			</model>
 			<model name='(ICE - LL)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>CC:2,MERC:6,DC:2</availability>
 			</model>
 			<model name='(ICE - LRM)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>CC:2,MERC:6,DC:2</availability>
 			</model>
 			<model name='(ICE)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>CC:1,General:2,MERC:8,DC:1</availability>
 			</model>
 			<model name='(LL)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>CC:8,General:4,MERC:2,DC:8</availability>
 			</model>
 			<model name='(LRM)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>CC:8,General:4,MERC:2,DC:8</availability>
 			</model>
 		</chassis>

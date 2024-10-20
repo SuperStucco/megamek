@@ -12141,28 +12141,29 @@
 			</model>
 		</chassis>
 		<chassis name='Mobile Headquarters' unitType='Tank'>
-			<availability>MERC.WD:3,IS:5+,MERC:2+,CP:5+,DC:5+</availability>
+			<availability>MERC.WD:3,IS:5+,MERC:2+,CP:5+</availability>
 			<model name=''>
+                <roles>command,support</roles>
 				<availability>CC:6,General:8,MERC:4,DC:6</availability>
 			</model>
 			<model name='(ICE - LL)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>MERC:6</availability>
 			</model>
 			<model name='(ICE - LRM)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>MERC:6</availability>
 			</model>
 			<model name='(ICE)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>MERC:6</availability>
 			</model>
 			<model name='(LL)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>CC:8,General:4,MERC:2,DC:8</availability>
 			</model>
 			<model name='(LRM)'>
-				<roles>support</roles>
+                <roles>command,support</roles>
 				<availability>CC:8,General:4,MERC:2,DC:8</availability>
 			</model>
 		</chassis>
