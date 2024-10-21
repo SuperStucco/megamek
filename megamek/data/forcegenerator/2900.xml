@@ -4923,6 +4923,7 @@
 		<chassis name='Spector' unitType='Mek'>
 			<availability>CLAN:2</availability>
 			<model name='SPR-4F'>
+			    <roles>specops,raider</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>

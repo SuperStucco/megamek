@@ -3390,6 +3390,7 @@
 		<chassis name='Spector' unitType='Mek'>
 			<availability>SL.R:4</availability>
 			<model name='SPR-4F'>
+                <roles>specops,raider</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

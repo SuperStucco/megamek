@@ -10904,7 +10904,7 @@
 		<chassis name='Spector' unitType='Mek'>
 			<availability>CS:3,CC:3,LA:5,FS:3,MERC:3,CIR:3</availability>
 			<model name='SPR-5F'>
-				<roles>recon</roles>
+				<roles>recon,raider</roles>
 				<availability>IS:8,CIR:8</availability>
 			</model>
 		</chassis>

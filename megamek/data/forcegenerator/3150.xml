@@ -16922,13 +16922,15 @@
 		<chassis name='Spector' unitType='Mek'>
 			<availability>CC:3,RF:3,LA:5,ROS:3,FS:5,MERC:2</availability>
 			<model name='SPR-5F'>
-				<roles>recon</roles>
+				<roles>recon,raider</roles>
 				<availability>IS:8</availability>
 			</model>
 			<model name='SPR-5S'>
+                <roles>specops,raider</roles>
 				<availability>CC:4,LA:4,ROS:4,CC.MAC:8,FS:4</availability>
 			</model>
 			<model name='SPR-ST'>
+                <roles>specops,raider</roles>
 				<availability>CC:4,LA:4,ROS:4,FS:4</availability>
 			</model>
 		</chassis>

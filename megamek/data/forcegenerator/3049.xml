@@ -7250,10 +7250,10 @@
 			</model>
 		</chassis>
 		<chassis name='Spector' unitType='Mek'>
-			<availability>LA:4+,FS:2+</availability>
+			<availability>LA:4+:3053,FS:2+:3053</availability>
 			<model name='SPR-5F'>
-				<roles>recon</roles>
-				<availability>IS:8,CIR:8</availability>
+				<roles>recon,raider</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Spider' unitType='Mek'>

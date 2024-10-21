@@ -3471,6 +3471,7 @@
 		<chassis name='Spector' unitType='Mek'>
 			<availability>PP:2</availability>
 			<model name='SPR-4F'>
+			    <roles>specops,raider</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
