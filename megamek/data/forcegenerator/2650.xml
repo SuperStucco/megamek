@@ -2674,7 +2674,7 @@
 			<availability>CC:4</availability>
 			<model name=''>
 				<roles>cargo,support</roles>
-				<availability>General:2</availability>
+				<availability>General:2:2677</availability>
 			</model>
 			<model name='(Original)'>
 				<roles>cargo,support</roles>
