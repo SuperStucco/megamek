@@ -10682,13 +10682,16 @@
 		<chassis name='Shootist' unitType='Mek'>
 			<availability>CS:4,CLAN:1,NIOPS:4,WOB:4</availability>
 			<model name='ST-8A'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='ST-8C'>
-				<availability>CS:6,WOB:6</availability>
+                <roles>command</roles>
+				<availability>CS:6:3062,WOB:6:3062</availability>
 			</model>
 			<model name='ST-9C'>
-				<availability>CS:4,WOB:4</availability>
+                <roles>command</roles>
+				<availability>CS:4:3066,WOB:4:3066</availability>
 			</model>
 		</chassis>
 		<chassis name='Shugenja' unitType='Mek'>

@@ -3120,6 +3120,7 @@
 		<chassis name='Shootist' unitType='Mek'>
 			<availability>LA:3+,SL:4,SL.R:6</availability>
 			<model name='ST-8A'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

@@ -4269,6 +4269,7 @@
 		<chassis name='Shootist' unitType='Mek'>
 			<availability>CS:5,LA:1+,CLAN:5,NIOPS:5</availability>
 			<model name='ST-8A'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
