@@ -12191,8 +12191,11 @@
 				<availability>FS:2</availability>
 			</model>
 		</chassis>
-		<chassis name='Newgrange Yardship' unitType='Warship'>
+		<chassis name='Newgrange III Yardship' unitType='Warship'>
 			<availability>ROS:1</availability>
+            <model name='(2700)'>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Nexus' unitType='Mek'>
 			<availability>CEI:2,ROS:2:3131,MERC:2:3131</availability>

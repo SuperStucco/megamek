@@ -10679,8 +10679,11 @@
 				<availability>FS:2</availability>
 			</model>
 		</chassis>
-		<chassis name='Newgrange Yardship' unitType='Warship'>
+		<chassis name='Newgrange III Yardship' unitType='Warship'>
 			<availability>WOB:2</availability>
+            <model name='(2700)'>
+                <availability>General:8</availability>
+		    </model>
 		</chassis>
 		<chassis name='Nexus II' unitType='Mek'>
 			<availability>WOB:6</availability>

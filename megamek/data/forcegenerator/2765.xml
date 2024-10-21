@@ -2727,8 +2727,11 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Newgrange Yardship' unitType='Warship'>
+		<chassis name='Newgrange III Yardship' unitType='Warship'>
 			<availability>SL:4</availability>
+            <model name='(2700)'>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Night Hawk' unitType='Mek'>
 			<availability>LA:4+,SL:6,FWL:4+,SL.R:8,RWR:5+,FS:4+</availability>
