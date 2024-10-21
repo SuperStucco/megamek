@@ -2062,7 +2062,22 @@
 		</chassis>
 		<chassis name='Monsoon Battleship' unitType='Warship'>
 			<availability>SL:2</availability>
+            <model name='(2368)'>
+                <roles>battleship</roles>
+                <availability>General:8</availability>
+            </model>
+            <model name='(2574)'>
+                <roles>battleship</roles>
+                <availability>General:4</availability>
+            </model>
 		</chassis>
+        <chassis name='Monsoon Battleship (LF)' unitType='Warship'>
+            <availability>SL:1</availability>
+            <model name='(2574)'>
+                <roles>battleship</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Moray Heavy Attack Submarine' unitType='Naval'>
 			<availability>SL:4,IS:3,RWR:2</availability>
 			<model name='(Original)'>
