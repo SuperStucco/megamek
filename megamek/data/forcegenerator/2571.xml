@@ -2197,14 +2197,14 @@
 			</model>
 		</chassis>
 		<chassis name='Prowler Multi-Terrain Vehicle' unitType='Tank'>
-			<availability>General:4-</availability>
+			<availability>General:4-:2611</availability>
 			<model name=''>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(ECM)'>
-				<roles>support</roles>
-				<availability>General:4</availability>
+				<roles>cargo,ew_support,support</roles>
+				<availability>General:4:2614</availability>
 			</model>
 		</chassis>
 		<chassis name='Quasit MilitiaMech' unitType='Mek'>

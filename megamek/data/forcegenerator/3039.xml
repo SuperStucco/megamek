@@ -5280,19 +5280,19 @@
 		<chassis name='Prowler Multi-Terrain Vehicle' unitType='Tank'>
 			<availability>General:4-</availability>
 			<model name=''>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<availability>CS:8,CLAN:8</availability>
 			</model>
 			<model name='(Sealed)'>
-				<roles>support</roles>
+				<roles>cargo,recon</roles>
 				<availability>IS:4,Periphery:4</availability>
 			</model>
 			<model name='(Succession Wars)'>
-				<roles>support</roles>
+				<roles>cargo</roles>
 				<availability>IS:8,Periphery:8</availability>
 			</model>
 			<model name='(Support)'>
-				<roles>apc</roles>
+				<roles>apc,fire_support</roles>
 				<availability>IS:4,Periphery:4</availability>
 			</model>
 		</chassis>

@@ -12911,28 +12911,28 @@
 		<chassis name='Prowler Multi-Terrain Vehicle' unitType='Tank'>
 			<availability>General:4-</availability>
 			<model name=''>
-				<roles>support</roles>
+				<roles>cargo,recon</roles>
 				<availability>CS:8,CLAN:8,General:8</availability>
 			</model>
 			<model name='(ECM)'>
-				<roles>support</roles>
+				<roles>cargo,ew_support</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='(Sealed)'>
-				<roles>support</roles>
+				<roles>cargo,recon</roles>
 				<availability>IS:4,Periphery:4</availability>
 			</model>
 			<model name='(Succession Wars)'>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<availability>IS:4,Periphery:7</availability>
 			</model>
 			<model name='(Support)'>
-				<roles>apc</roles>
+				<roles>apc,fire_support</roles>
 				<availability>IS:3,Periphery:3</availability>
 			</model>
 			<model name='(WoB)'>
 				<roles>apc</roles>
-				<availability>WOB:5</availability>
+				<availability>WOB:5:3077</availability>
 			</model>
 		</chassis>
 		<chassis name='Puma (Adder)' unitType='Mek' omni='Clan'>

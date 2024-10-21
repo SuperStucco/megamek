@@ -13754,27 +13754,27 @@
 		<chassis name='Prowler Multi-Terrain Vehicle' unitType='Tank'>
 			<availability>General:4-</availability>
 			<model name=''>
-				<roles>support</roles>
+				<roles>cargo,recon</roles>
 				<availability>General:8,CLAN:8</availability>
 			</model>
 			<model name='(ECM)'>
-				<roles>support</roles>
+				<roles>cargo,ew_support</roles>
 				<availability>General:4,Periphery:4</availability>
 			</model>
 			<model name='(RAF)'>
-				<roles>apc</roles>
+				<roles>apc,recon</roles>
 				<availability>ROS:8</availability>
 			</model>
 			<model name='(Sealed)'>
-				<roles>support</roles>
+				<roles>cargo,recon</roles>
 				<availability>RD:4,IS:4,Periphery:4,CGB:4,RA:4</availability>
 			</model>
 			<model name='(Security)'>
-				<roles>apc</roles>
-				<availability>ROS:4</availability>
+				<roles>apc,ew_support</roles>
+				<availability>ROS:4:3123</availability>
 			</model>
 			<model name='(Succession Wars)'>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<availability>Periphery:4</availability>
 			</model>
 		</chassis>

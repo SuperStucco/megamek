@@ -3569,11 +3569,11 @@
 		<chassis name='Prowler Multi-Terrain Vehicle' unitType='Tank'>
 			<availability>General:4-</availability>
 			<model name=''>
-				<roles>support</roles>
+				<roles>cargo,support</roles>
 				<availability>CS:8,General:8,CLAN:8</availability>
 			</model>
 			<model name='(ECM)'>
-				<roles>support</roles>
+				<roles>cargo,ew_support,support</roles>
 				<availability>General:4</availability>
 			</model>
 		</chassis>
