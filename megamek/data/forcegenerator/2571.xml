@@ -827,14 +827,14 @@
 			</model>
 		</chassis>
 		<chassis name='Dictator' unitType='Dropship'>
-			<availability>SL:6</availability>
+			<availability>SL:6:2600</availability>
 			<model name=''>
-				<roles>mech_carrier</roles>
+				<roles>mek_carrier</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Command)'>
 				<roles>troop_carrier</roles>
-				<availability>General:2</availability>
+				<availability>General:2:2620</availability>
 			</model>
 		</chassis>
 		<chassis name='Dragonstar Passenger Transport' unitType='Small Craft'>
