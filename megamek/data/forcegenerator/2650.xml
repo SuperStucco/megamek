@@ -2064,9 +2064,9 @@
 			</model>
 		</chassis>
 		<chassis name='Mongoose' unitType='Mek'>
-			<availability>SL:5,FWL:2+,FS:2+,DC:2+</availability>
+			<availability>SL:5:2660,FWL:2+:2660,FS:2+:2660,DC:2+:2660</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>SL:8,IS:8,SL.R:8,Periphery:8</availability>
 			</model>
 		</chassis>

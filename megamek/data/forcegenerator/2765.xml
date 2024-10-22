@@ -2618,11 +2618,11 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>SL:6,FWL:6+,RWR:4+,FS:6+,DC:6+</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>SL:8,IS:8,SL.R:8,RWR:8,Periphery:8</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>SL.R:7</availability>
 			</model>
 		</chassis>

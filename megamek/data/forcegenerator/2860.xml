@@ -3418,25 +3418,27 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>MOC:2+,CHH:5,CLAN:6,MERC:4+,FS:3+,TC:2+,CS:6,OA:2+,CDS:5,CBS:7,FWL:2+,NIOPS:6,CMG:10,CJF:7,CGB:5,DC:2+</availability>
 			<model name='C'>
+                <roles>recon</roles>
 				<availability>CIH:4,CMG:8,CJF:4,CGB:4</availability>
 			</model>
 			<model name='C 2'>
+                <roles>recon</roles>
 				<availability>CMG:3</availability>
 			</model>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:8,CLAN:6,NIOPS:8,IS:2+,BAN:8,Periphery:2+</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:8,CGS:8,BAN:4</availability>
 			</model>
 			<model name='MON-67'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>MOC:5,OA:5,FWL:5,NIOPS:0,MERC:8,FS:5,DC:5,TC:5</availability>
 			</model>
 			<model name='MON-69'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:1+</availability>
 			</model>
 		</chassis>

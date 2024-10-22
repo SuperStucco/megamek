@@ -11233,16 +11233,16 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>FRR:3,CLAN:1,WOB:3,MERC:2,DC.GHO:2,CS:4,NIOPS:1,DC:2</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:8,CLAN:6,NIOPS:8,WOB:8,BAN:8</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:4,CGS:6,BAN:2</availability>
 			</model>
 			<model name='MON-76'>
-				<roles>recon</roles>
-				<availability>CS:4,FRR:4,MERC:4,FS:4,DC:4</availability>
+				<roles>command,recon</roles>
+				<availability>CS:4:3077,FRR:4:3077,MERC:4:3077,FS:4:3077,DC:4:3077</availability>
 			</model>
 		</chassis>
 		<chassis name='Monitor Naval Vessel' unitType='Naval'>

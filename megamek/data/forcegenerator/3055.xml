@@ -6418,21 +6418,21 @@
 			</model>
 		</chassis>
 		<chassis name='Mongoose' unitType='Mek'>
-			<availability>CHH:3,CLAN:4,WOB:3,MERC:1,Periphery:1,CS:4,DC.GHO:4,CDS:3,NIOPS:4,CJF:4,CGB:3,DC:1</availability>
+			<availability>CHH:3,CLAN:4,WOB:3,MERC:1,Periphery:1,CS:4,DC.GHO:4,CDS:3,NIOPS:4,CGB:3,DC:1</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:8,CLAN:6,NIOPS:8,WOB:8,BAN:8</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:4,CGS:6,BAN:2</availability>
 			</model>
 			<model name='MON-67'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>NIOPS:0,MERC:2,Periphery:2</availability>
 			</model>
 			<model name='MON-68'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:4</availability>
 			</model>
 		</chassis>

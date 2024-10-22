@@ -2732,11 +2732,11 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>PP:6,CS:6,MOC:4+,OA:4+,FWL:6+,NIOPS:6,FS:6+,MERC:4+,DC:6+,TC:4+</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>PP:8,CS:8,NIOPS:8,IS:8,Periphery:8</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>PP:4</availability>
 			</model>
 		</chassis>

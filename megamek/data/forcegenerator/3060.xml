@@ -8384,17 +8384,17 @@
 			</model>
 		</chassis>
 		<chassis name='Mongoose' unitType='Mek'>
-			<availability>CS:3,CHH:2,CDS:2,CBS:3,CLAN:3,NIOPS:3,WOB:3,CJF:3,CGB:2</availability>
+			<availability>CS:3,CHH:2,CDS:2,CLAN:3,NIOPS:3,WOB:3,CGB:2</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:8,CLAN:6,NIOPS:8,WOB:8,BAN:8</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:4,CGS:6,BAN:2</availability>
 			</model>
 			<model name='MON-68'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:2</availability>
 			</model>
 		</chassis>

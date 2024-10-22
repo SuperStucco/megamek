@@ -11776,21 +11776,21 @@
 			</model>
 		</chassis>
 		<chassis name='Mongoose' unitType='Mek'>
-			<availability>CHH:1,FRR:3,CLAN:1,WOB:3,MERC:2,FS:2,DC.GHO:2,CS:5,CGB.FRR:3,NIOPS:1,DC:2</availability>
+			<availability>FRR:3,CLAN:1,WOB:3,MERC:2,FS:2,DC.GHO:2,CS:5,CGB.FRR:3,NIOPS:1,DC:2</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:8,CLAN:3,NIOPS:5,WOB:8,BAN:5</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:2,CGS:3,BAN:1</availability>
 			</model>
 			<model name='MON-76'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:4,FRR:5,CGB.FRR:5,ROS:5,MERC:5,FS:5,DC:5</availability>
 			</model>
 			<model name='MON-86'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:3,FRR:3,CGB.FRR:3,ROS:3,MERC:3,DC:3</availability>
 			</model>
 		</chassis>

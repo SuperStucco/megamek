@@ -2502,12 +2502,12 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>SL:6,FWL:5+,RWR:2+,FS:5+,DC:5+</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>SL:8,IS:8,SL.R:8,RWR:8,Periphery:8</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
-				<availability>SL.R:5</availability>
+				<roles>command,recon</roles>
+				<availability>SL.R:5:2740</availability>
 			</model>
 		</chassis>
 		<chassis name='Monsoon Battleship' unitType='Warship'>

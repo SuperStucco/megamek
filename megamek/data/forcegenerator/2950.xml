@@ -4004,18 +4004,19 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>CS:6,CHH:5,CDS:5,CBS:6,CLAN:6,NIOPS:6,MERC:3,CJF:6,CGB:5</availability>
 			<model name='C'>
+                <roles>recon</roles>
 				<availability>CIH:3,CJF:3,CGB:3</availability>
 			</model>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:8,CLAN:6,NIOPS:8,BAN:8</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CLAN:6,CGS:8,BAN:3</availability>
 			</model>
 			<model name='MON-67'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>NIOPS:0,MERC:8,Periphery:8</availability>
 			</model>
 		</chassis>

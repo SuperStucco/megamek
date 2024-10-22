@@ -12563,15 +12563,15 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>DC.GHO:3,RD:4,ROS:5,MERC:3,FS:5,DC:4</availability>
 			<model name='MON-67'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>NIOPS:0,Periphery:8</availability>
 			</model>
 			<model name='MON-76'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>RD:6,ROS:6,MERC:6,FS:6,DC:6</availability>
 			</model>
 			<model name='MON-86'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>RD:6,ROS:6,MERC:6,DC:6</availability>
 			</model>
 			<model name='MON-96'>

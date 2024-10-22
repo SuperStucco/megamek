@@ -10938,11 +10938,11 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>DC.GHO:3,CGB.FRR:4,ROS:3,MERC:3,FS:3,DC:3</availability>
 			<model name='MON-76'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CGB.FRR:6,ROS:6,MERC:5,FS:5,DC:5</availability>
 			</model>
 			<model name='MON-86'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CGB.FRR:4,ROS:4,MERC:4,DC:4</availability>
 			</model>
 		</chassis>

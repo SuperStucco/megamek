@@ -3058,20 +3058,20 @@
 		<chassis name='Mongoose' unitType='Mek'>
 			<availability>PP:6,MOC:4+,CHH:5,CLAN:6,MERC:4+,FS:6+,TC:4+,CS:6,OA:4+,CDS:5,CBS:7,FWL:6+,NIOPS:6,CJF:7,CGB:5,DC:6+</availability>
 			<model name='MON-66'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>PP:8,CS:8,NIOPS:8,IS:6+,Periphery:6+</availability>
 			</model>
 			<model name='MON-66b'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>PP:2,CLAN:9,CGS:9</availability>
 			</model>
 			<model name='MON-69'>
-				<roles>recon</roles>
-				<availability>DC:6</availability>
+				<roles>command,recon</roles>
+				<availability>DC:6:2819</availability>
 			</model>
 			<model name='MON-70'>
-				<roles>recon</roles>
-				<availability>IS:5</availability>
+				<roles>command,recon</roles>
+				<availability>IS:5:2819</availability>
 			</model>
 		</chassis>
 		<chassis name='Monolith Jumpship' unitType='Jumpship'>
