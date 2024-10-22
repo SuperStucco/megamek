@@ -412,12 +412,12 @@
 			</model>
 		</chassis>
 		<chassis name='Awesome' unitType='Mek'>
-			<availability>MOC:2,OA:2,SL:8,IS:2,RWR:2,Periphery:1,TC:2</availability>
+			<availability>MOC:2:2665,OA:2:2665,SL:8:2665,IS:2:2665,RWR:2:2665,Periphery:1:2665,TC:2:2665</availability>
 			<model name='AWS-8Q'>
 				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
 			</model>
 			<model name='AWS-8R'>
-				<availability>FWL:3</availability>
+				<availability>FWL:3:2683</availability>
 			</model>
 		</chassis>
 		<chassis name='Baleena Passenger Submarine' unitType='Naval'>

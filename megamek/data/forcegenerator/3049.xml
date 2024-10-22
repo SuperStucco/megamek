@@ -1203,7 +1203,8 @@
 				<availability>FWL:5+,IS:4+</availability>
 			</model>
 			<model name='AWS-9Ma'>
-				<availability>LA:3,FWL:3,FS:3</availability>
+			    <roles>command</roles>
+				<availability>LA:3:3051,FWL:3:3051,FS:3:3051</availability>
 			</model>
 		</chassis>
 		<chassis name='Axel Heavy Tank' unitType='Tank'>

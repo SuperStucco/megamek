@@ -2213,6 +2213,9 @@
 		</chassis>
 		<chassis name='Awesome' unitType='Mek'>
 			<availability>MOC:6,CC:5,RA.OA:6,ROS:5,IS:4,FWL:8,CP:8,Periphery:8,TC:5,DC:6</availability>
+            <model name="C">
+                <availability>SE:6+</availability>
+            </model>
 			<model name='AWS-10KM'>
 				<availability>ROS:4,FWL:4,CP:4,DC:6</availability>
 			</model>
@@ -2222,6 +2225,9 @@
 			<model name='AWS-11R'>
 				<availability>RF:5,FWL:4,CP:4</availability>
 			</model>
+            <model name='AWS-11V'>
+                <availability>FWL:4,MSC:4</availability>
+            </model>
 			<model name='AWS-8Q'>
 				<availability>Periphery:2-</availability>
 			</model>
@@ -2229,6 +2235,7 @@
 				<availability>MOC:2,PIR:2,FWL:4,IS:2,MH:2,CP:4,TC:2,Periphery:4</availability>
 			</model>
 			<model name='AWS-9Ma'>
+			    <roles>command</roles>
 				<availability>LA:2,ROS:2,FWL:2,FS:2,MERC:2</availability>
 			</model>
 			<model name='AWS-9Q'>

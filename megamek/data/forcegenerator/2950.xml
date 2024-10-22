@@ -837,7 +837,7 @@
 				<availability>IS:2,CIR:3</availability>
 			</model>
 			<model name='AWS-8V'>
-				<availability>IS:1</availability>
+				<availability>IS:1:2980</availability>
 			</model>
 		</chassis>
 		<chassis name='Baboon (Howler)' unitType='Mek'>

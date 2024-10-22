@@ -2164,6 +2164,7 @@
 				<availability>MOC:2,PIR:4,FWL:4,IS:2,MH:2,TC:2,Periphery:4</availability>
 			</model>
 			<model name='AWS-9Ma'>
+			    <roles>command</roles>
 				<availability>DTA:2,OP:2,LA:2,ROS:2,FWL:2,MSC:2,FS:2,MERC:2</availability>
 			</model>
 			<model name='AWS-9Q'>

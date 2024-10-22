@@ -2035,10 +2035,11 @@
 				<availability>MOC:3,PIR:4,FWL:5,IS:4,MH:3,TC:3,Periphery:3</availability>
 			</model>
 			<model name='AWS-9Ma'>
+			    <roles>command</roles>
 				<availability>DoO:3,DO:3,DGM:3,FS:3,MERC:3,DTA:3,SC:3,LA:3,MCM:3,ROS:3,FWL:3,MSC:3,TP:3</availability>
 			</model>
 			<model name='AWS-9Q'>
-				<availability>MOC:5,HL:2,FWL:5,IS:5,MH:5,TC:5,Periphery:4</availability>
+				<availability>MOC:5,HL:2,IS:5,MH:5,TC:5,Periphery:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Axel Heavy Tank IIC' unitType='Tank'>
