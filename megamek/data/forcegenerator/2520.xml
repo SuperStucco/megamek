@@ -1044,6 +1044,7 @@
 		<chassis name='Jumbo' unitType='Dropship'>
 			<availability>IS:8,Periphery:8</availability>
 			<model name=''>
+                <roles>cargo,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
