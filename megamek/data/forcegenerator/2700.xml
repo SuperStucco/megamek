@@ -789,11 +789,11 @@
 		<chassis name='Colossus' unitType='Dropship'>
 			<availability>SL:2</availability>
 			<model name=''>
-				<roles>artillery,missile_artillery</roles>
-				<availability>General:6</availability>
+				<roles>missile_artillery,troop_carrier</roles>
+				<availability>General:6:2718</availability>
 			</model>
 			<model name='Mk I'>
-				<roles>artillery,missile_artillery</roles>
+				<roles>missile_artillery,troop_carrier</roles>
 				<availability>General:6</availability>
 			</model>
 		</chassis>

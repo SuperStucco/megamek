@@ -839,7 +839,7 @@
 		<chassis name='Colossus' unitType='Dropship'>
 			<availability>SL:3</availability>
 			<model name=''>
-				<roles>artillery,missile_artillery</roles>
+                <roles>missile_artillery,troop_carrier</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
