@@ -1447,7 +1447,7 @@
 			</model>
 		</chassis>
 		<chassis name='Pentagon' unitType='Dropship'>
-			<availability>TH:4</availability>
+			<availability>TH:4:2540</availability>
 			<model name='Mk I'>
 				<roles>assault</roles>
 				<availability>General:8</availability>

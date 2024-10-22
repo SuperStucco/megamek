@@ -2754,11 +2754,12 @@
 		<chassis name='Pentagon' unitType='Dropship'>
 			<availability>TH:6,SL:5</availability>
 			<model name=''>
+                <roles>assault</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(2751)'>
 				<roles>assault</roles>
-				<availability>General:4</availability>
+				<availability>General:4:2751</availability>
 			</model>
 		</chassis>
 		<chassis name='Phoenix Hawk LAM Mk I' unitType='Mek'>

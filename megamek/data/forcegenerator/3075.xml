@@ -12411,6 +12411,7 @@
 		<chassis name='Pentagon' unitType='Dropship'>
 			<availability>WOB:3</availability>
 			<model name='&apos;Pocket Warship&apos;'>
+                <roles>pocket_warship</roles>
 				<availability>WOB:8</availability>
 			</model>
 		</chassis>

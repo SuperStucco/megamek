@@ -2262,6 +2262,7 @@
 		<chassis name='Pentagon' unitType='Dropship'>
 			<availability>TH:6,SL:6</availability>
 			<model name=''>
+			    <roles>assault</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='Mk I'>
