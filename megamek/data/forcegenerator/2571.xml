@@ -2738,12 +2738,12 @@
 				<availability>FS:3</availability>
 			</model>
 			<model name='WVR-6K'>
-				<roles>recon</roles>
-				<availability>DC:6</availability>
+				<roles>command,recon</roles>
+				<availability>DC:6:2598</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
-				<availability>General:3,Periphery:3</availability>
+				<roles>command,recon</roles>
+				<availability>General:3:2575,Periphery:3:2575</availability>
 			</model>
 		</chassis>
 		<chassis name='XCT Marine' unitType='Infantry'>

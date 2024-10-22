@@ -18411,54 +18411,63 @@
 				<availability>CC:2-,FWL:2-,FS:2-,MERC:2,RCM:2,DC:2-</availability>
 			</model>
 			<model name='WVR-6D'>
+			    <roles>command</roles>
 				<availability>FS:1-</availability>
 			</model>
 			<model name='WVR-6M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>Periphery.MW:5,PIR:4,Periphery.ME:5,FWL:3-,MH:4</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>HL:1-,General:2-,Periphery:3-</availability>
 			</model>
 			<model name='WVR-7D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FVC:6,LA:6,ROS:4,WOB:4,FS:6</availability>
 			</model>
 			<model name='WVR-7K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FRR:8,CGB.FRR:8,MERC:6,DC:6</availability>
 			</model>
 			<model name='WVR-7M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:4,FWL:6,WOB:5,MERC:6,DC:4</availability>
 			</model>
 			<model name='WVR-7M2'>
+			    <roles>command</roles>
 				<availability>CC:6,MOC:2:3081,MERC.KH:5,WOB:6,DO:6,MERC:6,DTA:5,MERC.WD:4,FWL:6,MH:2:3081,DA:6,RCM:2,DC:4</availability>
 			</model>
 			<model name='WVR-8C'>
+			    <roles>command</roles>
 				<availability>ROS:4,DC:5</availability>
 			</model>
 			<model name='WVR-8D'>
+			    <roles>command</roles>
 				<availability>FS:5</availability>
 			</model>
 			<model name='WVR-8K'>
+			    <roles>command</roles>
 				<availability>FRR:5,CGB.FRR:5,ROS:4,CNC:6,MERC:3,DC:3</availability>
 			</model>
 			<model name='WVR-9D'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:5,MERC:4</availability>
 			</model>
 			<model name='WVR-9K'>
+			    <roles>command</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='WVR-9M'>
+			    <roles>command</roles>
 				<availability>FWL:4</availability>
 			</model>
 			<model name='WVR-9W'>
+			    <roles>command</roles>
 				<availability>CS:3,WOB:5</availability>
 			</model>
 			<model name='WVR-9W2'>
+			    <roles>command</roles>
 				<availability>IS:4,DC:5</availability>
 			</model>
 		</chassis>

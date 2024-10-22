@@ -17495,50 +17495,59 @@
 				<availability>FS:1-</availability>
 			</model>
 			<model name='WVR-6M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>Periphery.MW:5,PIR:4,Periphery.ME:5,FWL:3-,MH:4</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>HL:2-,General:3-,Periphery:3-</availability>
 			</model>
 			<model name='WVR-7D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FVC:6,LA:6,WOB:4,FS:6</availability>
 			</model>
 			<model name='WVR-7K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FRR:8,MERC:6,DC:6</availability>
 			</model>
 			<model name='WVR-7M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:4,FWL:6,WOB:5,MERC:6,DC:4</availability>
 			</model>
 			<model name='WVR-7M2'>
 				<availability>CC:5,DTA:4,MERC.KH:5,MERC.WD:3,FWL:5,WOB:5,MERC:5,RCM:2,DC:3</availability>
 			</model>
 			<model name='WVR-8C'>
+			    <roles>command</roles>
 				<availability>DC:5</availability>
 			</model>
 			<model name='WVR-8D'>
+			    <roles>command</roles>
 				<availability>FS:5</availability>
 			</model>
 			<model name='WVR-8K'>
+			    <roles>command</roles>
 				<availability>FRR:5,CNC:6,MERC:3,DC:4</availability>
 			</model>
 			<model name='WVR-9D'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:5,MERC:4</availability>
 			</model>
 			<model name='WVR-9K'>
+                <roles>command</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='WVR-9M'>
+                <roles>command</roles>
 				<availability>FWL:4</availability>
 			</model>
 			<model name='WVR-9W'>
+                <roles>command</roles>
 				<availability>CS:3,WOB:5</availability>
 			</model>
+            <model name='WVR-9W2'>
+                <availability>IS:4:3077,DC:5:3077</availability>
+            </model>
 		</chassis>
 		<chassis name='Wraith' unitType='Mek'>
 			<availability>CC:5,MOC:4,FWL:4,WOB:4,MERC:5,DC:4</availability>

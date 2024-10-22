@@ -9544,27 +9544,27 @@
 				<availability>FS:1</availability>
 			</model>
 			<model name='WVR-6K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FRR:2,DC:2</availability>
 			</model>
 			<model name='WVR-6M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>Periphery.MW:4,Periphery.ME:4,FWL:8</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>HL:3,General:5,Periphery:6</availability>
 			</model>
 			<model name='WVR-7D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>LA:4+,FS:6+</availability>
 			</model>
 			<model name='WVR-7K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FRR:6+,MERC:4+</availability>
 			</model>
 			<model name='WVR-7M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:2+,FWL:6+,WOB:5,MERC:4+,DC:2+</availability>
 			</model>
 		</chassis>

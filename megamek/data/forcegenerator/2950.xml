@@ -6015,15 +6015,15 @@
 				<availability>FS:2</availability>
 			</model>
 			<model name='WVR-6K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='WVR-6M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>Periphery.MW:4,Periphery.ME:4,FWL:10,MH:6</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>HL:3,General:8,Periphery:8</availability>
 			</model>
 		</chassis>

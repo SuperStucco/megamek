@@ -1249,6 +1249,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Wolverine' unitType='Mek'>
+            <availability>FS:4+</availability>
+            <model name='WVR-1R'>
+                <availability>FS:2</availability>
+            </model>
+        </chassis>
 		<chassis name='Ymir' unitType='Mek'>
 			<availability>LA:5</availability>
 			<model name='BWP-2B'>

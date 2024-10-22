@@ -3027,7 +3027,7 @@
 			</model>
 		</chassis>
 		<chassis name='Wolverine' unitType='Mek'>
-			<availability>,SL:7,IS:5,Periphery.Deep:4,RWR:4</availability>
+			<availability>SL:7,IS:5,Periphery.Deep:4,RWR:4</availability>
 			<model name='WVR-1R'>
 				<availability>FS:2</availability>
 			</model>
@@ -3035,11 +3035,11 @@
 				<availability>FS:4</availability>
 			</model>
 			<model name='WVR-6K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>General:4,Periphery:4</availability>
 			</model>
 		</chassis>

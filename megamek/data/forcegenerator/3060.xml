@@ -12810,31 +12810,37 @@
 				<availability>FS:1</availability>
 			</model>
 			<model name='WVR-6M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>Periphery.MW:4,PIR:4,Periphery.ME:4,FWL:6,MH:4</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>HL:3,General:4,Periphery:5</availability>
 			</model>
 			<model name='WVR-7D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>LA:5,FS:8</availability>
 			</model>
 			<model name='WVR-7K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FRR:8,MERC:5,DC:4</availability>
 			</model>
 			<model name='WVR-7M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:4,FWL:8,WOB:6,MERC:6,DC:4</availability>
 			</model>
 			<model name='WVR-8D'>
-				<availability>FS:4</availability>
+			    <roles>command</roles>
+				<availability>FS:4:3066</availability>
 			</model>
 			<model name='WVR-8K'>
-				<availability>FRR:4,CNC:8,MERC:2,DC:4</availability>
+			    <roles>command</roles>
+				<availability>FRR:4:3064,CNC:8:3064,MERC:2:3064,DC:4:3064</availability>
 			</model>
+            <model name='WVR-9D'>
+                <roles>command,spotter</roles>
+                <availability>FS:4:3066,MERC:3:3066</availability>
+            </model>
 		</chassis>
 		<chassis name='Wraith' unitType='Mek'>
 			<availability>CC:5,MOC:4,FWL:4,WOB:4,MERC:5,DC:4</availability>

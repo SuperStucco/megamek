@@ -3961,11 +3961,11 @@
 				<availability>FS:1</availability>
 			</model>
 			<model name='WVR-6K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>General:6,Periphery:6</availability>
 			</model>
 		</chassis>

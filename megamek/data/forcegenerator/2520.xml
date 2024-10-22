@@ -1865,6 +1865,15 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Wolverine' unitType='Mek'>
+            <availability>FS:4</availability>
+            <model name='WVR-1R'>
+                <availability>FS:2</availability>
+            </model>
+            <model name='WVR-3R'>
+                <availability>FS:6</availability>
+            </model>
+        </chassis>
 		<chassis name='XCT Marine' unitType='Infantry'>
 			<availability>TC:2</availability>
 			<model name='Special Asteroid Support Forces'>

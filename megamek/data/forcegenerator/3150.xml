@@ -20094,65 +20094,76 @@
 			</model>
 		</chassis>
 		<chassis name='Wolverine' unitType='Mek'>
-			<availability>RD:2,IS:5,FWL:8,MH:4,FS:6,CP:6,Periphery:4,TC:4</availability>
+			<availability>RD:2,IS:5,FWL:8,FS:6,CP:6,Periphery:4</availability>
 			<model name='WVR-10D'>
+                <roles>command</roles>
 				<availability>FS:5,MERC:4</availability>
 			</model>
 			<model name='WVR-10R'>
+                <roles>command</roles>
 				<availability>CC:4+,MOC:2,ROS:2,FS:2</availability>
 			</model>
 			<model name='WVR-10V2'>
+                <roles>command</roles>
 				<availability>FS:5,MERC:4</availability>
 			</model>
 			<model name='WVR-11M'>
+                <roles>command</roles>
 				<availability>RF:3,LA:3,ROS:3,FWL:2,MH:1,DA:3,MERC:4</availability>
 			</model>
 			<model name='WVR-6M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>Periphery.MW:2-,PIR:2-,Periphery.ME:2-,MH:2-</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>General:1-,Periphery:2-</availability>
 			</model>
 			<model name='WVR-7D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FVC:4,LA:2,ROS:4,FS:4,MERC:4</availability>
 			</model>
 			<model name='WVR-7K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>RD:8,MERC:6,DC:6</availability>
 			</model>
 			<model name='WVR-7M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:4,MOC:6,FWL:4,MH:6,MERC:6,CP:4,DC:4</availability>
 			</model>
 			<model name='WVR-7M2'>
 				<availability>RF:4,FWL:6,MERC:6,DA:6</availability>
 			</model>
 			<model name='WVR-8C'>
+                <roles>command</roles>
 				<availability>ROS:4,MERC:4,DC:8</availability>
 			</model>
 			<model name='WVR-8D'>
+                <roles>command</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='WVR-8K'>
+                <roles>command</roles>
 				<availability>RD:5,ROS:4,MERC:3,CP:4</availability>
 			</model>
 			<model name='WVR-9D'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:6,MERC:4</availability>
 			</model>
 			<model name='WVR-9K'>
+                <roles>command</roles>
 				<availability>ROS:3,DC:6</availability>
 			</model>
 			<model name='WVR-9M'>
+                <roles>command</roles>
 				<availability>LA:4,ROS:4,FWL:6,MH:4,MERC:4,CP:6</availability>
 			</model>
 			<model name='WVR-9R'>
+                <roles>command</roles>
 				<availability>IS:7,MERC:7,Periphery:6</availability>
 			</model>
 			<model name='WVR-9W2'>
+                <roles>command</roles>
 				<availability>IS:4,DC:8</availability>
 			</model>
 		</chassis>

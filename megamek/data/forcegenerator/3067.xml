@@ -16340,41 +16340,56 @@
 		<chassis name='Wolverine' unitType='Mek'>
 			<availability>HL:4,IS:5,Periphery.Deep:5,WOB:3-,FS:6,Periphery:5,CS:3-,CNC:2,FWL:8,NIOPS:3-,MH:4</availability>
 			<model name='WVR-6M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>Periphery.MW:4,PIR:4,Periphery.ME:4,FWL:4-,MH:4</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>HL:3-,General:5-,Periphery.Deep:8,Periphery:5-</availability>
 			</model>
 			<model name='WVR-7D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FVC:6,LA:6,WOB:4,FS:8</availability>
 			</model>
 			<model name='WVR-7K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FRR:8,MERC:6,DC:5</availability>
 			</model>
 			<model name='WVR-7M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:4,FWL:8,WOB:6,MERC:6,DC:4</availability>
 			</model>
+            <model name='WVR-7M2'>
+                <roles>command</roles>
+                <availability>CC:5:3072,DTA:4:3072,MERC.KH:5:3072,MERC.WD:3:3072,FWL:5:3072,WOB:5:3072,MERC:5:3072,RCM:2:3072,DC:3:3072</availability>
+            </model>
 			<model name='WVR-8C'>
+			    <roles>command</roles>
 				<availability>DC:4</availability>
 			</model>
 			<model name='WVR-8D'>
+			    <roles>command</roles>
 				<availability>FS:4</availability>
 			</model>
 			<model name='WVR-8K'>
+			    <roles>command</roles>
 				<availability>FRR:5,CNC:8,MERC:3,DC:5</availability>
 			</model>
 			<model name='WVR-9D'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:4,MERC:3</availability>
 			</model>
+            <model name='WVR-9K'>
+                <roles>command</roles>
+                <availability>DC:2:3074</availability>
+            </model>
 			<model name='WVR-9M'>
-				<availability>FWL:3</availability>
+			    <roles>command</roles>
+				<availability>FWL:3:3073</availability>
 			</model>
+            <model name='WVR-9W'>
+                <availability>CS:3:3073,WOB:5:3073</availability>
+            </model>
 		</chassis>
 		<chassis name='Wraith' unitType='Mek'>
 			<availability>CC:5,MOC:4,FWL:4,WOB:4,MERC:5,DC:4</availability>

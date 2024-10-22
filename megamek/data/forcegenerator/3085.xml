@@ -17982,51 +17982,59 @@
 				<availability>CC:1-,RF:2,FWL:1-,FS:1-,MERC:1,RCM:2,DC:1-</availability>
 			</model>
 			<model name='WVR-6M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>Periphery.MW:4-,PIR:4-,Periphery.ME:4-,FWL:2-,MH:4-</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>General:1-,Periphery:2-</availability>
 			</model>
 			<model name='WVR-7D'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>FVC:6,LA:5,ROS:4,FS:5,MERC:3</availability>
 			</model>
 			<model name='WVR-7K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CGB.FRR:8,MERC:6,CGB:8,DC:6</availability>
 			</model>
 			<model name='WVR-7M'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CC:4,MOC:4,FWL:5,MH:4,MERC:6,DC:4</availability>
 			</model>
 			<model name='WVR-7M2'>
+                <roles>command</roles>
 				<availability>CC:6,MOC:2,OP:2,DO:6,MERC:6,DTA:5,RF:4,FWL:6,MH:2,MSC:4,DA:6,RCM:2,DC:3</availability>
 			</model>
 			<model name='WVR-8C'>
+			    <roles>command</roles>
 				<availability>ROS:4,MERC:3,DC:6</availability>
 			</model>
 			<model name='WVR-8D'>
+			    <roles>command</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='WVR-8K'>
+			    <roles>command</roles>
 				<availability>CGB.FRR:5,ROS:4,CNC:5,MERC:3,DC:2,CGB:5</availability>
 			</model>
 			<model name='WVR-9D'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:6,MERC:4</availability>
 			</model>
 			<model name='WVR-9K'>
+			    <roles>command</roles>
 				<availability>ROS:3,DC:3</availability>
 			</model>
 			<model name='WVR-9M'>
+			    <roles>command</roles>
 				<availability>LA:3,ROS:4,FWL:5,MH:3,MERC:3</availability>
 			</model>
 			<model name='WVR-9R'>
-				<availability>IS:3,MERC:3,Periphery:2</availability>
+			    <roles>command</roles>
+				<availability>IS:3:3089,MERC:3:3089,Periphery:2:3089</availability>
 			</model>
 			<model name='WVR-9W2'>
+			    <roles>command</roles>
 				<availability>IS:4,DC:6</availability>
 			</model>
 		</chassis>

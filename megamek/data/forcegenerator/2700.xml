@@ -3739,11 +3739,11 @@
 				<availability>FS:3</availability>
 			</model>
 			<model name='WVR-6K'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='WVR-6R'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>General:5,Periphery:5</availability>
 			</model>
 		</chassis>
