@@ -1151,6 +1151,7 @@
 		<chassis name='Beagle Hover Scout' unitType='Tank'>
 			<availability>CS:2,NIOPS:2</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

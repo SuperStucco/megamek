@@ -2825,9 +2825,11 @@
 		<chassis name='Beagle Hover Scout' unitType='Tank'>
 			<availability>ROS:6</availability>
 			<model name=''>
+			    <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Sealed)'>
+                <roles>recon</roles>
 				<availability>ROS:8</availability>
 			</model>
 		</chassis>

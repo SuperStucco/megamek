@@ -2045,6 +2045,7 @@
 		<chassis name='Beagle Hover Scout' unitType='Tank'>
 			<availability>WOB:4</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

@@ -2329,15 +2329,16 @@
 		<chassis name='Beagle Hover Scout' unitType='Tank'>
 			<availability>CS:4,NIOPS:4,WOB:6</availability>
 			<model name=''>
+			    <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(C3i)'>
-				<roles>spotter</roles>
-				<availability>WOB:7</availability>
+				<roles>recon,spotter</roles>
+				<availability>WOB:7:3069</availability>
 			</model>
 			<model name='(TAG)'>
-				<roles>spotter</roles>
-				<availability>WOB:4</availability>
+				<roles>ew_support,recon,spotter</roles>
+				<availability>WOB:4:3069</availability>
 			</model>
 		</chassis>
 		<chassis name='Bear Cub' unitType='Mek'>

@@ -480,8 +480,9 @@
 			</model>
 		</chassis>
 		<chassis name='Beagle Hover Scout' unitType='Tank'>
-			<availability>SL:7</availability>
+			<availability>SL:7:2666</availability>
 			<model name=''>
+			    <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
