@@ -2183,8 +2183,16 @@
 				<availability>General:2</availability>
 			</model>
 		</chassis>
-		<chassis name='M.A.S.H. Truck' unitType='Tank'>
-			<availability>CC:10,LA:10,SL:10,FWL:10,IS:9,FS:10,DC:10,Periphery:8</availability>
+		<chassis name='MASH Truck' unitType='Tank'>
+            <availability>IS:10,MERC:9,Periphery:8,PIR:3</availability>
+            <model name=''>
+                <roles>support</roles>
+                <availability>General:8,MERC:6,Periphery:6</availability>
+            </model>
+            <model name='(Small)'>
+                <roles>support</roles>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='M9 SDS Battle Station' unitType='Space Station'>
 			<availability>TH:2</availability>

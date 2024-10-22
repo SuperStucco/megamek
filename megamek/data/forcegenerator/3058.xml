@@ -6213,8 +6213,20 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='M.A.S.H. Truck' unitType='Tank'>
-			<availability>CC:10,CS:10,LA:10,CLAN:10,FWL:10,IS:9,NIOPS:10,WOB:10,FS:10,DC:10,Periphery:8</availability>
+		<chassis name='MASH Truck' unitType='Tank'>
+            <availability>CLAN:10,IS:8,MERC:5,Periphery:6,NIOPS:10,PIR:3</availability>
+            <model name=''>
+                <roles>support</roles>
+                <availability>General:7,CLAN:8,CS:8,WOB:8,MERC:3,Periphery:4,NIOPS:8</availability>
+            </model>
+            <model name='(ICE)'>
+                <roles>support</roles>
+                <availability>General:7,CLAN:0,CS:0,WOB:0,NIOPS:0</availability>
+            </model>
+            <model name='(Small)'>
+                <roles>support</roles>
+                <availability>General:5,CLAN:8,CS:8,WOB:8,NIOPS:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Mad Cat (Timber Wolf)' unitType='Mek' omni='Clan'>
 			<availability>CHH:4,CIH:4,CLAN:5,CCO:6,BAN:3,CWIE:9,CSA:6,MERC.WD:8,CDS:6,CW:9,CBS:4,CSJ:6,CJF:6,CB:4</availability>
