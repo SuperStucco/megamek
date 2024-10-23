@@ -3611,32 +3611,35 @@
 		<chassis name='Cyclops' unitType='Mek'>
 			<availability>CC:5,MOC:3,FRR:5,IS:3,WOB:3,SIC:5,FS:5,Periphery:2,CS:3,LA:5,FWL:4,NIOPS:3,SL.2:5,DC:5</availability>
 			<model name='CP-10-HQ'>
+                <roles>command</roles>
 				<availability>IS:2</availability>
 			</model>
 			<model name='CP-10-Q'>
 				<availability>IS:2</availability>
 			</model>
 			<model name='CP-10-Z'>
-				<availability>OA:5,General:5,IS:5,FS:5,MERC:5,DC:5,TC:5</availability>
+				<availability>General:5</availability>
 			</model>
 			<model name='CP-11-A'>
-				<availability>CC:4,CS:4,MOC:4,LA:4,FWL:5,IS:4,WOB:5,FS:6,DC:4,TC:4</availability>
+				<availability>CS:4,MOC:4,FWL:5,IS:4,WOB:5,FS:6,TC:4</availability>
 			</model>
 			<model name='CP-11-A-DC'>
 				<roles>command</roles>
 				<availability>CC:4,IS:2</availability>
 			</model>
 			<model name='CP-11-C'>
-				<roles>spotter</roles>
-				<availability>CC:1,LA:2,FWL:3,IS:2,FS:4,DC:5</availability>
+				<roles>command,spotter</roles>
+				<availability>CC:1,FWL:3,IS:2,FS:4,DC:5</availability>
 			</model>
 			<model name='CP-11-G'>
+                <roles>command</roles>
 				<availability>CS:5,FRR:5,SL.2:5,MERC:4</availability>
 			</model>
 			<model name='CP-11-H'>
-				<availability>PIR:5,MH:5,CIR:5,TC:5</availability>
+				<availability>PIR:5:3064,MH:5:3064,CIR:5:3064,TC:5:3064</availability>
 			</model>
 			<model name='CP-12-K'>
+                <roles>command</roles>
 				<availability>MERC:4,DC:4</availability>
 			</model>
 		</chassis>

@@ -938,11 +938,13 @@
 			</model>
 		</chassis>
 		<chassis name='Cyclops' unitType='Mek'>
-			<availability>CC:3,LA:3,SL:4,FWL:3,IS:3,SL.R:5,RWR:3,FS:3,DC:3</availability>
+			<availability>SL:4:2710,IS:3:2710,SL.R:5:2710,RWR:3:2710</availability>
 			<model name='CP-10-HQ'>
-				<availability>IS:1</availability>
+                <roles>command</roles>
+				<availability>IS:1:2753</availability>
 			</model>
 			<model name='CP-10-Z'>
+                <roles>command</roles>
 				<availability>FS:8,DC:8,TC:8</availability>
 			</model>
 		</chassis>

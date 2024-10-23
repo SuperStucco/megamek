@@ -4595,13 +4595,14 @@
 		<chassis name='Cyclops' unitType='Mek'>
 			<availability>CC:4,MOC:4,IS:3,FS:4,Periphery:2,RA.OA:2,LA:4,CGB.FRR:5,ROS:3,NIOPS:3,DC:5</availability>
 			<model name='CP-10-HQ'>
+                <roles>command</roles>
 				<availability>IS:1</availability>
 			</model>
 			<model name='CP-10-Z'>
 				<availability>General:3-</availability>
 			</model>
 			<model name='CP-11-A'>
-				<availability>MOC:4,CC:5,LA:5,FWL:6,IS:5,MH:3,FS:6,CDP:4,DC:2,TC:4,Periphery:1</availability>
+				<availability>MOC:4,FWL:6,IS:5,MH:3,FS:6,CDP:4,DC:2,TC:4,Periphery:1</availability>
 			</model>
 			<model name='CP-11-A-DC'>
 				<roles>command</roles>
@@ -4611,24 +4612,26 @@
 				<availability>CC:5,MOC:4,IS:3+,MERC:5,DC:5</availability>
 			</model>
 			<model name='CP-11-C'>
-				<roles>spotter</roles>
-				<availability>CC:1,LA:2,FWL:3,IS:2,FS:4,DC:5</availability>
+				<roles>command,spotter</roles>
+				<availability>CC:1,FWL:3,IS:2,FS:4,DC:5</availability>
 			</model>
 			<model name='CP-11-C2'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>IS:3</availability>
 			</model>
 			<model name='CP-11-C3'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:2,DC:2</availability>
 			</model>
 			<model name='CP-11-G'>
+                <roles>command</roles>
 				<availability>MOC:3,CGB.FRR:8,IS:3,MERC:4,CDP:3,TC:3</availability>
 			</model>
 			<model name='CP-11-H'>
 				<availability>FVC:5,HL:3,PIR:6,Periphery.Deep:4,MH:6,CDP:6,TC:6,Periphery:5</availability>
 			</model>
 			<model name='CP-12-K'>
+                <roles>command</roles>
 				<availability>MERC:7,DC:7</availability>
 			</model>
 		</chassis>

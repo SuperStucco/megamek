@@ -1918,13 +1918,14 @@
 		<chassis name='Cyclops' unitType='Mek'>
 			<availability>CC:5,IS:3,FS:5,Periphery:2,CS:3,LA:5,FWL:4,NIOPS:3,DC:5</availability>
 			<model name='CP-10-HQ'>
+                <roles>command</roles>
 				<availability>IS:2</availability>
 			</model>
 			<model name='CP-10-Q'>
 				<availability>IS:3</availability>
 			</model>
 			<model name='CP-10-Z'>
-				<availability>OA:8,General:8,IS:8,FS:8,MERC:8,DC:8,TC:8</availability>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Cyrano Gunship' unitType='VTOL'>

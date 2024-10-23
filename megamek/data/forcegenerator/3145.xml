@@ -5225,9 +5225,11 @@
 		<chassis name='Cyclops' unitType='Mek'>
 			<availability>MOC:4,IS:3,CP:2,MERC:2,Periphery:2,RA.OA:2,RD:4,MERC.WD:2,ROS:3,FWL:2,DC:5</availability>
 			<model name='C'>
-				<availability>MERC.WD:1,RD:3-,IS:1,MERC:1</availability>
+                <roles>command</roles>
+				<availability>RD:3-:3147,IS:1:3147,MERC:1:3147</availability>
 			</model>
 			<model name='CP-10-HQ'>
+                <roles>command</roles>
 				<availability>IS:1</availability>
 			</model>
 			<model name='CP-10-Z'>
@@ -5244,24 +5246,26 @@
 				<availability>CC:8,MOC:6,IS:4,MERC:8,DC:8</availability>
 			</model>
 			<model name='CP-11-C'>
-				<roles>spotter</roles>
-				<availability>CC:1,LA:2,FWL:3,IS:2,FS:4,CP:3,DC:5</availability>
+				<roles>command,spotter</roles>
+				<availability>CC:1,FWL:3,IS:2,FS:4,CP:3,DC:5</availability>
 			</model>
 			<model name='CP-11-C2'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>RD:5,IS:5</availability>
 			</model>
 			<model name='CP-11-C3'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:4,DC:4</availability>
 			</model>
 			<model name='CP-11-G'>
+                <roles>command</roles>
 				<availability>MOC:4,IS:4,MERC:4,CDP:4,TC:4</availability>
 			</model>
 			<model name='CP-11-H'>
 				<availability>FVC:6,PIR:6,Periphery.Deep:4,MH:6,CDP:6,TC:6,Periphery:6</availability>
 			</model>
 			<model name='CP-12-K'>
+                <roles>command</roles>
 				<availability>MERC:8,DC:8</availability>
 			</model>
 		</chassis>

@@ -4742,6 +4742,7 @@
 		<chassis name='Cyclops' unitType='Mek'>
 			<availability>CC:4,MOC:4,IS:3,FS:4,Periphery:2,RA.OA:2,LA:4,CGB.FRR:5,ROS:3,NIOPS:3,DC:5</availability>
 			<model name='CP-10-HQ'>
+                <roles>command</roles>
 				<availability>IS:1</availability>
 			</model>
 			<model name='CP-10-Z'>
@@ -4758,24 +4759,26 @@
 				<availability>CC:6,MOC:5,IS:3+,MERC:6,DC:6</availability>
 			</model>
 			<model name='CP-11-C'>
-				<roles>spotter</roles>
-				<availability>CC:1,LA:2,FWL:3,IS:2,FS:4,DC:5</availability>
+				<roles>command,spotter</roles>
+				<availability>CC:1,FWL:3,IS:2,FS:4,DC:5</availability>
 			</model>
 			<model name='CP-11-C2'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>IS:3</availability>
 			</model>
 			<model name='CP-11-C3'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:2,DC:2</availability>
 			</model>
 			<model name='CP-11-G'>
+                <roles>command</roles>
 				<availability>MOC:4,CGB.FRR:8,IS:4,MERC:4,CDP:4,TC:4</availability>
 			</model>
 			<model name='CP-11-H'>
 				<availability>FVC:6,HL:4,PIR:6,Periphery.Deep:4,MH:6,CDP:6,TC:6,Periphery:6</availability>
 			</model>
 			<model name='CP-12-K'>
+                <roles>command</roles>
 				<availability>MERC:8,DC:8</availability>
 			</model>
 		</chassis>

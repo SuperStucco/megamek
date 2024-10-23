@@ -2857,23 +2857,24 @@
 		<chassis name='Cyclops' unitType='Mek'>
 			<availability>CC:5,FRR:5,IS:3,WOB:3,SIC:5,FS:5,Periphery:2,CS:3,LA:5,FWL:4,NIOPS:3,DC:5</availability>
 			<model name='CP-10-HQ'>
+                <roles>command</roles>
 				<availability>IS:2</availability>
 			</model>
 			<model name='CP-10-Q'>
 				<availability>IS:2</availability>
 			</model>
 			<model name='CP-10-Z'>
-				<availability>OA:6,General:6,IS:6,FS:6,MERC:6,DC:6,TC:6</availability>
+				<availability>General:6</availability>
 			</model>
 			<model name='CP-11-A'>
-				<availability>CC:2+,CS:3,MOC:3+,LA:2+,FWL:3+,IS:2+,WOB:3,FS:4+,DC:4+,TC:3+</availability>
+				<availability>CS:3,MOC:3+,FWL:3+,IS:2+,WOB:3,FS:4+,DC:4+,TC:3+</availability>
 			</model>
 			<model name='CP-11-A-DC'>
 				<roles>command</roles>
 				<availability>CC:4,IS:2</availability>
 			</model>
 			<model name='CP-11-C'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>DC:3+</availability>
 			</model>
 			<model name='CP-11-G'>

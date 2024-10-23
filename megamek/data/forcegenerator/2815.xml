@@ -1336,12 +1336,15 @@
 		<chassis name='Cyclops' unitType='Mek'>
 			<availability>PP:4,CC:5,CS:3,OA:3,LA:5,IS:3,FWL:4,NIOPS:3,FS:5,TC:3,DC:5</availability>
 			<model name='CP-10-HQ'>
+                <roles>command</roles>
 				<availability>IS:2</availability>
 			</model>
 			<model name='CP-10-Q'>
+                <roles>command</roles>
 				<availability>IS:3</availability>
 			</model>
 			<model name='CP-10-Z'>
+                <roles>command</roles>
 				<availability>OA:8,IS:8,FS:8,MERC:8,DC:8,TC:8</availability>
 			</model>
 		</chassis>
