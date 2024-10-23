@@ -14090,11 +14090,11 @@
 		<chassis name='Stinger LAM' unitType='Mek'>
 			<availability>WOB:2</availability>
 			<model name='STG-A10'>
-				<roles>raider</roles>
-				<availability>WOB:1,DC:1</availability>
+				<roles>recon,specops</roles>
+				<availability>WOB:1</availability>
 			</model>
 			<model name='STG-A5'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>General:1+</availability>
 			</model>
 		</chassis>

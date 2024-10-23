@@ -2655,9 +2655,9 @@
 			</model>
 		</chassis>
 		<chassis name='Stinger LAM Mk I' unitType='Mek'>
-			<availability>SL.R:2</availability>
+			<availability>SL.R:2:2688</availability>
 			<model name='STG-A1'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>SL.R:2</availability>
 			</model>
 		</chassis>

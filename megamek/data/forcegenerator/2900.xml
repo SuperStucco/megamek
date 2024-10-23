@@ -4994,11 +4994,11 @@
 		<chassis name='Stinger LAM' unitType='Mek'>
 			<availability>CS:2,IS:2,DC:2</availability>
 			<model name='STG-A10'>
-				<roles>raider</roles>
-				<availability>CS:1,DC:4</availability>
+				<roles>recon,specops</roles>
+				<availability>CS:1:2927,DC:4:2927</availability>
 			</model>
 			<model name='STG-A5'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>General:3</availability>
 			</model>
 		</chassis>

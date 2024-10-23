@@ -3921,14 +3921,14 @@
 		<chassis name='Stinger LAM Mk I' unitType='Mek'>
 			<availability>PP:1+,IS:2</availability>
 			<model name='STG-A1'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>PP:1+,IS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Stinger LAM' unitType='Mek'>
 			<availability>CS:2,IS:2</availability>
 			<model name='STG-A5'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>General:3</availability>
 			</model>
 		</chassis>

@@ -4103,18 +4103,14 @@
 		<chassis name='Stinger LAM Mk I' unitType='Mek'>
 			<availability>IS:2</availability>
 			<model name='STG-A1'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>IS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Stinger LAM' unitType='Mek'>
 			<availability>CS:2,IS:2</availability>
-			<model name='STG-A10'>
-				<roles>raider</roles>
-				<availability>DC:1</availability>
-			</model>
 			<model name='STG-A5'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>General:3</availability>
 			</model>
 		</chassis>
