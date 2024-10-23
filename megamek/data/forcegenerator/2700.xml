@@ -1050,9 +1050,13 @@
 			</model>
 		</chassis>
 		<chassis name='Dragon' unitType='Mek'>
-			<availability>DC:8</availability>
+			<availability>DC:8:2752</availability>
+            <model name='DRG-1C'>
+                <availability>DC:2</availability>
+            </model>
 			<model name='DRG-1N'>
-				<availability>DC:8,Periphery:8</availability>
+                <roles>cavalry</roles>
+				<availability>DC:8:2754</availability>
 			</model>
 		</chassis>
 		<chassis name='Dragonstar Passenger Transport' unitType='Small Craft'>

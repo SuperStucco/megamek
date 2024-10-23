@@ -3270,9 +3270,11 @@
 				<availability>FRR:1,DC:1</availability>
 			</model>
 			<model name='DRG-1N'>
+                <roles>cavalry</roles>
 				<availability>FRR:5,MERC:4,DC:4,Periphery:5</availability>
 			</model>
 			<model name='DRG-5N'>
+                <roles>cavalry</roles>
 				<availability>FRR:5+,MERC:5+,DC:6+</availability>
 			</model>
 		</chassis>

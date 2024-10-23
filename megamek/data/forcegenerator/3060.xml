@@ -3933,13 +3933,16 @@
 		<chassis name='Dragon' unitType='Mek'>
 			<availability>Periphery.DD:3,LA:2,FRR:8,MERC:3,DC:7</availability>
 			<model name='DRG-1N'>
+                <roles>cavalry</roles>
 				<availability>FRR:3,MERC:2,DC:3,Periphery:4</availability>
 			</model>
 			<model name='DRG-5N'>
+                <roles>cavalry</roles>
 				<availability>FRR:6,MERC:6,DC:6</availability>
 			</model>
 			<model name='DRG-7N'>
-				<availability>LA:4,MERC:3,DC:3</availability>
+                <roles>cavalry</roles>
+				<availability>LA:4:3063,MERC:3:3063,DC:3:3063</availability>
 			</model>
 		</chassis>
 		<chassis name='Dragonfly (Viper)' unitType='Mek' omni='Clan'>

@@ -5143,15 +5143,19 @@
 		<chassis name='Dragon' unitType='Mek'>
 			<availability>Periphery.DD:3,CGB.FRR:6,MERC:3,DC:4</availability>
 			<model name='DRG-1N'>
+                <roles>cavalry</roles>
 				<availability>Periphery:2</availability>
 			</model>
 			<model name='DRG-5N'>
+                <roles>cavalry</roles>
 				<availability>HL:2,CGB.FRR:4,MERC:4,DC:4,Periphery:4</availability>
 			</model>
 			<model name='DRG-5Nr'>
+                <roles>cavalry</roles>
 				<availability>CGB.FRR:2,MERC:2,DC:2</availability>
 			</model>
 			<model name='DRG-7N'>
+                <roles>cavalry</roles>
 				<availability>MERC:6,DC:6</availability>
 			</model>
 		</chassis>

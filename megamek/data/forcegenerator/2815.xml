@@ -1483,6 +1483,7 @@
 				<availability>DC:2</availability>
 			</model>
 			<model name='DRG-1N'>
+                <roles>cavalry</roles>
 				<availability>MERC:8,DC:8,Periphery:8</availability>
 			</model>
 		</chassis>
