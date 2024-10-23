@@ -3077,6 +3077,7 @@
 		<chassis name='Rhino Fire Support Tank' unitType='Tank'>
 			<availability>Periphery.Deep:8,IS:7,MERC:8,Periphery:8,LA:8,SL:9,NIOPS:9</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(MG)'>
@@ -3087,6 +3088,10 @@
 				<roles>fire_support</roles>
 				<availability>SL.R:7</availability>
 			</model>
+            <model name='(SL)'>
+                <roles>fire_support</roles>
+                <availability>IS:3,Periphery:3</availability>
+            </model>
 		</chassis>
 		<chassis name='Rifleman II' unitType='Mek'>
 			<availability>SL.R:5</availability>

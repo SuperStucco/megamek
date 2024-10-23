@@ -14682,6 +14682,7 @@
 		<chassis name='Rhino Fire Support Tank' unitType='Tank'>
 			<availability>MOC:7,RA.OA:7,LA:7,CLAN:4,Periphery.Deep:8,IS:5,FS:6,MERC:7,CP:5,Periphery:10,TC:7,DC:6</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>CWE:1,CHH:1,General:8,CP:1</availability>
 			</model>
 			<model name='(Flamer)'>
