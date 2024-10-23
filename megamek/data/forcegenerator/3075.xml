@@ -12554,15 +12554,15 @@
 		<chassis name='Phoenix Hawk LAM' unitType='Mek'>
 			<availability>WOB:3+</availability>
 			<model name='PHX-HK1RB'>
-				<roles>raider</roles>
-				<availability>WOB:2</availability>
+				<roles>raider,recon,specops</roles>
+				<availability>WOB:2:3077</availability>
 			</model>
 			<model name='PHX-HK2'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>WOB:3+</availability>
 			</model>
 			<model name='PHX-HK2M'>
-				<roles>raider</roles>
+				<roles>recon,specops</roles>
 				<availability>WOB:2+</availability>
 			</model>
 		</chassis>

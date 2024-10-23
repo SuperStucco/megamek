@@ -2905,18 +2905,18 @@
 		<chassis name='Phoenix Hawk LAM Mk I' unitType='Mek'>
 			<availability>SL:4,SL.R:4,RWR:2+</availability>
 			<model name='PHX-HK1'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>SL:6,SL.R:4,RWR:2+</availability>
 			</model>
 			<model name='PHX-HK1R'>
-				<roles>recon,raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>SL:3,SL.R:4-,RWR:1</availability>
 			</model>
 		</chassis>
 		<chassis name='Phoenix Hawk LAM' unitType='Mek'>
 			<availability>SL:5,SL.R:6+,RWR:1+</availability>
 			<model name='PHX-HK2'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>SL:2,IS:4,SL.R:4+,RWR:1</availability>
 			</model>
 		</chassis>

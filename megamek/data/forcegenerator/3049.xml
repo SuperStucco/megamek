@@ -6229,11 +6229,11 @@
 		<chassis name='Phoenix Hawk LAM' unitType='Mek'>
 			<availability>CS:2+,MERC.WD:1,IS:2+</availability>
 			<model name='PHX-HK2'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>CS:2+,MERC.WD:1,IS:2+</availability>
 			</model>
 			<model name='PHX-HK2M'>
-				<roles>raider</roles>
+				<roles>recon,specops</roles>
 				<availability>CS:1+,IS:1+</availability>
 			</model>
 		</chassis>

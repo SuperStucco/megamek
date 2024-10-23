@@ -4433,12 +4433,12 @@
 		<chassis name='Phoenix Hawk LAM' unitType='Mek'>
 			<availability>CS:2+,MERC.WD:1,IS:2+</availability>
 			<model name='PHX-HK2'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>CS:2+,MERC.WD:1,IS:3+</availability>
 			</model>
 			<model name='PHX-HK2M'>
-				<roles>raider</roles>
-				<availability>CS:1+,IS:1+</availability>
+				<roles>recon,specops</roles>
+				<availability>CS:1+:2953,IS:1+:2953</availability>
 			</model>
 		</chassis>
 		<chassis name='Phoenix Hawk' unitType='Mek'>

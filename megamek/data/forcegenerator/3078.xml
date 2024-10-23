@@ -13223,15 +13223,15 @@
 		<chassis name='Phoenix Hawk LAM' unitType='Mek'>
 			<availability>WOB:2+</availability>
 			<model name='PHX-HK1RB'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>WOB:2</availability>
 			</model>
 			<model name='PHX-HK2'>
-				<roles>raider</roles>
+				<roles>raider,recon,specops</roles>
 				<availability>WOB:2+</availability>
 			</model>
 			<model name='PHX-HK2M'>
-				<roles>raider</roles>
+				<roles>recon,specops</roles>
 				<availability>WOB:2+</availability>
 			</model>
 		</chassis>
