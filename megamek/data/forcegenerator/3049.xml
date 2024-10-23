@@ -8336,13 +8336,12 @@
 		<chassis name='Wasp LAM' unitType='Mek'>
 			<availability>CS:3,MERC.WD:2,IS:3,WOB:4</availability>
 			<model name='WSP-105'>
+                <roles>recon,specops</roles>
 				<availability>CS:3,MERC.WD:2,IS:3,WOB:4</availability>
 			</model>
 			<model name='WSP-105M'>
+                <roles>recon,specops</roles>
 				<availability>FWL:1,WOB:1</availability>
-			</model>
-			<model name='WSP-110'>
-				<availability>WOB:1</availability>
 			</model>
 		</chassis>
 		<chassis name='Wasp' unitType='Mek'>

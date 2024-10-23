@@ -6897,9 +6897,11 @@
 		<chassis name='Wasp LAM' unitType='Mek'>
 			<availability>CS:3,MERC.WD:2,IS:3</availability>
 			<model name='WSP-105'>
+                <roles>recon,specops</roles>
 				<availability>CS:3,MERC.WD:2,IS:3</availability>
 			</model>
 			<model name='WSP-105M'>
+                <roles>recon,specops</roles>
 				<availability>FWL:1</availability>
 			</model>
 		</chassis>

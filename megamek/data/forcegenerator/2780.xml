@@ -3882,19 +3882,22 @@
 		<chassis name='Wasp LAM Mk I' unitType='Mek'>
 			<availability>PP:1+,SLIE:1+,SL:3,IS:2,SL.R:3</availability>
 			<model name='WSP-100'>
+                <roles>recon,specops</roles>
 				<availability>PP:1+,SLIE:1+,SL:5,IS:4,SL.R:3</availability>
 			</model>
 			<model name='WSP-100A'>
+                <roles>recon,specops</roles>
 				<availability>PP:1+,SLIE:1+,SL:3,IS:2,SL.R:3</availability>
 			</model>
 			<model name='WSP-100b'>
-				<roles>ew_support</roles>
+                <roles>recon,specops</roles>
 				<availability>PP:1+,SLIE:1+,SL.R:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Wasp LAM' unitType='Mek'>
 			<availability>CS:3,PP:1+,SLIE:1+,SL:4+,IS:3,SL.R:4</availability>
 			<model name='WSP-105'>
+                <roles>recon,specops</roles>
 				<availability>CS:3,SLIE:1+,SL:4+,IS:3,SL.R:4</availability>
 			</model>
 		</chassis>

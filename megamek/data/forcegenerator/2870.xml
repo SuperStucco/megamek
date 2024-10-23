@@ -5469,15 +5469,18 @@
 		<chassis name='Wasp LAM Mk I' unitType='Mek'>
 			<availability>IS:2</availability>
 			<model name='WSP-100'>
+                <roles>recon,specops</roles>
 				<availability>IS:4</availability>
 			</model>
 			<model name='WSP-100A'>
+                <roles>recon,specops</roles>
 				<availability>IS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Wasp LAM' unitType='Mek'>
 			<availability>CS:3,IS:3</availability>
 			<model name='WSP-105'>
+                <roles>recon,specops</roles>
 				<availability>CS:3,IS:3</availability>
 			</model>
 		</chassis>

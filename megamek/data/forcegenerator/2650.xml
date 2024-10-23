@@ -2980,16 +2980,14 @@
 			</model>
 		</chassis>
 		<chassis name='Wasp LAM Mk I' unitType='Mek'>
-			<availability>SL:2,SL.R:2</availability>
+			<availability>SL:2:2690,SL.R:2:2690</availability>
 			<model name='WSP-100'>
+                <roles>recon,specops</roles>
 				<availability>SL:5,SL.R:2</availability>
 			</model>
 			<model name='WSP-100A'>
-				<availability>SL:2,SL.R:2</availability>
-			</model>
-			<model name='WSP-100b'>
-				<roles>ew_support</roles>
-				<availability>SL.R:2</availability>
+                <roles>recon,specops</roles>
+				<availability>SL:2:2697,SL.R:2:2697</availability>
 			</model>
 		</chassis>
 		<chassis name='Wasp' unitType='Mek'>

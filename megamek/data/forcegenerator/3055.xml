@@ -9437,12 +9437,11 @@
 		<chassis name='Wasp LAM' unitType='Mek'>
 			<availability>WOB:4</availability>
 			<model name='WSP-105'>
+                <roles>recon,specops</roles>
 				<availability>WOB:4</availability>
 			</model>
 			<model name='WSP-105M'>
-				<availability>WOB:1</availability>
-			</model>
-			<model name='WSP-110'>
+                <roles>recon,specops</roles>
 				<availability>WOB:1</availability>
 			</model>
 		</chassis>
