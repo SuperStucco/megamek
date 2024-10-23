@@ -1626,6 +1626,7 @@
 				<availability>CLAN:7,CGS:8,BAN:4</availability>
 			</model>
 			<model name='CRB-27sl'>
+                <roles>raider</roles>
 				<availability>CLAN:2</availability>
 			</model>
 		</chassis>

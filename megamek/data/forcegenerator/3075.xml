@@ -4474,12 +4474,15 @@
 				<availability>CS:7,FRR:5,CLAN:4,WOB:7,CGS:6,BAN:2,DC:5</availability>
 			</model>
 			<model name='CRB-30'>
+                <roles>raider</roles>
 				<availability>CS:8,FRR:3,WOB:6</availability>
 			</model>
 			<model name='CRB-45'>
+                <roles>raider</roles>
 				<availability>WOB:5</availability>
 			</model>
 			<model name='CRB-C'>
+                <roles>raider</roles>
 				<availability>DC:6</availability>
 			</model>
 		</chassis>

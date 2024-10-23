@@ -1465,6 +1465,7 @@
 				<availability>CC:2+,CLAN:7,FWL:2+,CGS:8,BAN:4</availability>
 			</model>
 			<model name='CRB-27sl'>
+                <roles>raider</roles>
 				<availability>LA:3+,CLAN:4,DC:3+</availability>
 			</model>
 		</chassis>

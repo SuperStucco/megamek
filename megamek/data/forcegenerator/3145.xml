@@ -4976,6 +4976,7 @@
 				<availability>ROS:5</availability>
 			</model>
 			<model name='CRB-C'>
+                <roles>raider</roles>
 				<availability>DC:6</availability>
 			</model>
 		</chassis>

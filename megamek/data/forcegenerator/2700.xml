@@ -882,7 +882,7 @@
 			</model>
 		</chassis>
 		<chassis name='Crab' unitType='Mek'>
-			<availability>SL:5,IS:2,FWL:2,MERC:2,DC:2,Periphery:2</availability>
+			<availability>SL:5:2719,IS:2:2719,MERC:2:2719,RWR:2:2719</availability>
 			<model name='CRB-27'>
 				<roles>raider</roles>
 				<availability>CC:8+,LA:8+,FWL:8+,SL.R:4,DC:8+</availability>
@@ -892,6 +892,7 @@
 				<availability>SL.R:8</availability>
 			</model>
 			<model name='CRB-27sl'>
+                <roles>raider</roles>
 				<availability>SL:4,RWR:3</availability>
 			</model>
 		</chassis>

@@ -4072,12 +4072,15 @@
 				<availability>CS:5,FRR:4,CLAN:4,WOB:5,CGS:6,BAN:2,DC:4</availability>
 			</model>
 			<model name='CRB-30'>
+                <roles>raider</roles>
 				<availability>CS:8,FRR:5,WOB:6</availability>
 			</model>
 			<model name='CRB-45'>
-				<availability>WOB:5</availability>
+                <roles>raider</roles>
+				<availability>WOB:5:3070</availability>
 			</model>
 			<model name='CRB-C'>
+                <roles>raider</roles>
 				<availability>DC:6</availability>
 			</model>
 		</chassis>

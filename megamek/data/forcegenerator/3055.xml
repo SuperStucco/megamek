@@ -2777,6 +2777,7 @@
 				<availability>CLAN:4,CGS:6,BAN:2</availability>
 			</model>
 			<model name='CRB-C'>
+                <roles>raider</roles>
 				<availability>DC:5+</availability>
 			</model>
 		</chassis>

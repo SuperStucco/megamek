@@ -4415,6 +4415,7 @@
 				<availability>CGB.FRR:6,ROS:8,CLAN:4,FWL:5,MERC:5,BAN:2,DC:6</availability>
 			</model>
 			<model name='CRB-C'>
+                <roles>raider</roles>
 				<availability>DC:6</availability>
 			</model>
 		</chassis>

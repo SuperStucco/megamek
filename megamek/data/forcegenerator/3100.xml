@@ -4727,6 +4727,7 @@
 				<availability>ROS:8,CLAN:4,FWL:8,MERC:8,BAN:2,DC:6</availability>
 			</model>
 			<model name='CRB-C'>
+                <roles>raider</roles>
 				<availability>DC:6</availability>
 			</model>
 		</chassis>
