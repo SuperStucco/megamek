@@ -1961,9 +1961,10 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>CHH:5,CSV:7,CLAN:6,CFM:7,CGS:5,CS:5,Periphery.R:3,CDS:5,LA:6,CBS:5,FWL:3,NIOPS:5,CJF:7,CGB:5</availability>
 			<model name='FLS-7K'>
-				<availability>LA:7</availability>
+				<availability>LA:7,FWL:8,Periphery.R:8</availability>
 			</model>
 			<model name='FLS-8K'>
+                <roles>cavalry</roles>
 				<availability>CS:8,LA:2+,CLAN:8,NIOPS:8,BAN:8</availability>
 			</model>
 		</chassis>

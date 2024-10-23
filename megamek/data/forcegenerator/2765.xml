@@ -1365,7 +1365,8 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>Periphery.R:2,LA:4,SL:8,FWL:3,RWR:4</availability>
 			<model name='FLS-8K'>
-				<availability>LA:8+,FWL:8+</availability>
+                <roles>cavalry</roles>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Flatbed Truck' unitType='Tank'>

@@ -1296,7 +1296,8 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>SL:7</availability>
 			<model name='FLS-8K'>
-				<availability>LA:8+,FWL:8+</availability>
+			    <roles>cavalry</roles>
+				<availability>SL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Flatbed Truck' unitType='Tank'>

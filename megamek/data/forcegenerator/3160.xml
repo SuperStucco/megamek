@@ -6787,9 +6787,11 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>DC.GHO:5,RD:2,LA:4,CLAN:1,FWL:4,CP:2,MERC:2,CJF:2,DC:4</availability>
 			<model name='FLS-10E'>
+                <roles>cavalry</roles>
 				<availability>CDS:4-,LA:4,MERC:4</availability>
 			</model>
 			<model name='FLS-8K'>
+                <roles>cavalry</roles>
 				<availability>DC.GHO:5,LA:8,CLAN:8,FWL:4,MERC.SI:5,CP:4,BAN:8</availability>
 			</model>
 			<model name='FLS-9M'>

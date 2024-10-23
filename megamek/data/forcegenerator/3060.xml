@@ -4680,16 +4680,19 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>CHH:3,CSV:5,FRR:4,CLAN:4,CFM:5,WOB:5,CGS:3,CS:5,DC.GHO:5,Periphery.R:2,CDS:3,LA:6,CBS:3,NIOPS:5,CJF:5,CGB:3,DC:4</availability>
 			<model name='FLS-7K'>
-				<availability>MERC.KH:4,LA:4</availability>
+				<availability>MERC.KH:4,LA:4,Periphery.R:8</availability>
 			</model>
 			<model name='FLS-8K'>
-				<availability>DC.GHO:6,CS:5,LA:4,CLAN:8,NIOPS:5,WOB:5,MERC.SI:6,BAN:8</availability>
+                <roles>cavalry</roles>
+				<availability>DC.GHO:6,CS:5,FRR:8,LA:4,CLAN:8,NIOPS:5,WOB:5,MERC.SI:6,BAN:8</availability>
 			</model>
 			<model name='FLS-9C'>
+                <roles>cavalry</roles>
 				<availability>CS:4</availability>
 			</model>
 			<model name='FLS-C'>
-				<availability>DC:6</availability>
+                <roles>cavalry</roles>
+				<availability>DC:6:3063</availability>
 			</model>
 		</chassis>
 		<chassis name='Flatbed Truck' unitType='Tank'>

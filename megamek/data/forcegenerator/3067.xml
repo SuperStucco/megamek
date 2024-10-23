@@ -5679,21 +5679,25 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>CHH:3,CSV:5,FRR:4,CLAN:4,CFM:5,WOB:5,CGS:3,CS:5,DC.GHO:5,Periphery.R:2,CDS:3,LA:5,CBS:3,FWL:2,NIOPS:5,CJF:5,CGB:3,DC:4</availability>
 			<model name='FLS-7K'>
-				<availability>MERC.KH:4-,LA:4-</availability>
+				<availability>MERC.KH:4-,LA:4-,Periphery.R:8</availability>
 			</model>
 			<model name='FLS-8K'>
-				<availability>DC.GHO:5,CS:4,LA:6,CLAN:8,NIOPS:4,WOB:4,MERC.SI:5,BAN:8</availability>
+                <roles>cavalry</roles>
+				<availability>DC.GHO:5,CS:4,FRR:8,LA:6,CLAN:8,NIOPS:4,WOB:4,MERC.SI:5,BAN:8</availability>
 			</model>
 			<model name='FLS-9B'>
-				<availability>WOB:6</availability>
+                <roles>cavalry</roles>
+				<availability>WOB:6:3070</availability>
 			</model>
 			<model name='FLS-9C'>
+                <roles>cavalry</roles>
 				<availability>CS:6</availability>
 			</model>
 			<model name='FLS-9M'>
-				<availability>FWL:6</availability>
+				<availability>FWL:6:3070</availability>
 			</model>
 			<model name='FLS-C'>
+                <roles>cavalry</roles>
 				<availability>DC:4</availability>
 			</model>
 		</chassis>

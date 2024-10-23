@@ -1418,10 +1418,11 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>PP:8,CS:5,Periphery.R:4,LA:6,FWL:5,NIOPS:5</availability>
 			<model name='FLS-7K'>
-				<availability>LA:4-</availability>
+				<availability>LA:4-,Periphery.R:8</availability>
 			</model>
 			<model name='FLS-8K'>
-				<availability>CS:8,LA:8+,FWL:8+,NIOPS:8</availability>
+                <roles>cavalry</roles>
+				<availability>PP:8,CS:8,LA:8+,FWL:8+,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Flatbed Truck' unitType='Tank'>

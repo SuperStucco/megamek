@@ -1870,9 +1870,10 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>CHH:5,CSV:7,CLAN:6,CFM:7,CGS:5,CS:5,Periphery.R:4,CDS:5,LA:6,CBS:5,FWL:4,NIOPS:5,CJF:7,CGB:5</availability>
 			<model name='FLS-7K'>
-				<availability>LA:6-</availability>
+				<availability>LA:6-,FWL:6-,Periphery.R:8</availability>
 			</model>
 			<model name='FLS-8K'>
+                <roles>cavalry</roles>
 				<availability>CS:8,LA:6+,CLAN:8,FWL:5+,NIOPS:8,BAN:8</availability>
 			</model>
 		</chassis>
