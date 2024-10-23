@@ -4150,6 +4150,7 @@
 				<availability>DC:8</availability>
 			</model>
 			<model name='(Block II)'>
+                <roles>asf_carrier</roles>
 				<availability>DC:3</availability>
 			</model>
 		</chassis>
