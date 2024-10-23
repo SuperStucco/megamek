@@ -9135,31 +9135,35 @@
 		<chassis name='King Crab' unitType='Mek'>
 			<availability>FRR:4,CLAN:3,IS:3,WOB:6,FS:6,MERC:4,CIR:2,CGS:4,DC.GHO:6,CS:6,FVC:5,NIOPS:6,CGB:4</availability>
 			<model name='KGC-000'>
+                <roles>command</roles>
 				<availability>CS:4,FRR:8,CLAN:6,NIOPS:4,WOB:4,BAN:8,DC:8</availability>
 			</model>
 			<model name='KGC-0000'>
+                <roles>command</roles>
 				<availability>IS:4-,CIR:5</availability>
 			</model>
 			<model name='KGC-000b'>
+                <roles>command</roles>
 				<availability>CS:5,FRR:4,CLAN:4,WOB:4,CGS:6,BAN:2,DC:4</availability>
 			</model>
 			<model name='KGC-001'>
+                <roles>command</roles>
 				<availability>CS:8,FVC:8,LA:6,IS:6,WOB:5,MH:6,CIR:6,MERC:6</availability>
 			</model>
 			<model name='KGC-005'>
+                <roles>command</roles>
 				<availability>CS:5,WOB:4</availability>
 			</model>
 			<model name='KGC-005r'>
 				<availability>CS:2,WOB:2</availability>
 			</model>
 			<model name='KGC-007'>
+                <roles>command</roles>
 				<availability>LA:6,FS:6,MERC:6</availability>
 			</model>
 			<model name='KGC-008'>
+                <roles>command</roles>
 				<availability>WOB:8</availability>
-			</model>
-			<model name='KGC-008B'>
-				<availability>WOB.PM:8</availability>
 			</model>
 		</chassis>
 		<chassis name='King Karnov Transport' unitType='Conventional Fighter'>

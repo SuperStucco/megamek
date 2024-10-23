@@ -2654,15 +2654,19 @@
 		<chassis name='King Crab' unitType='Mek'>
 			<availability>CS:6,CLAN:6,IS:2+,NIOPS:6,MERC:2+,CGS:7,CGB:7</availability>
 			<model name='KGC-000'>
+                <roles>command</roles>
 				<availability>CS:8,CIH:5,General:4,CLAN:6,NIOPS:8,BAN:8,CB:5</availability>
 			</model>
 			<model name='KGC-0000'>
+                <roles>command</roles>
 				<availability>IS:6</availability>
 			</model>
 			<model name='KGC-000b'>
+                <roles>command</roles>
 				<availability>CLAN:8,CGS:8,BAN:4</availability>
 			</model>
 			<model name='KGC-010'>
+                <roles>command</roles>
 				<availability>CLAN:4</availability>
 			</model>
 		</chassis>

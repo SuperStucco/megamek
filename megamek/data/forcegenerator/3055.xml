@@ -5234,15 +5234,19 @@
 		<chassis name='King Crab' unitType='Mek'>
 			<availability>FRR:2,CLAN:4,IS:1,WOB:6,FS:4,MERC:2,CGS:5,DC.GHO:6,CS:6,NIOPS:6,CGB:5</availability>
 			<model name='KGC-000'>
+                <roles>command</roles>
 				<availability>CS:6,CIH:5,FRR:6+,CLAN:6,NIOPS:6,WOB:6,BAN:8,CB:5,DC:6+</availability>
 			</model>
 			<model name='KGC-0000'>
+                <roles>command</roles>
 				<availability>IS:6</availability>
 			</model>
 			<model name='KGC-000b'>
+                <roles>command</roles>
 				<availability>CLAN:5,CGS:6,BAN:2</availability>
 			</model>
 			<model name='KGC-001'>
+                <roles>command</roles>
 				<availability>CS:6,LA:4+,IS:4+,WOB:5</availability>
 			</model>
 		</chassis>

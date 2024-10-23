@@ -1902,14 +1902,17 @@
 			</model>
 		</chassis>
 		<chassis name='King Crab' unitType='Mek'>
-			<availability>SL:5</availability>
+			<availability>SL:5:2743</availability>
 			<model name='KGC-000'>
-				<availability>General:8,SL:8,SL.R:4</availability>
+                <roles>command</roles>
+				<availability>SL:8,SL.R:4</availability>
 			</model>
 			<model name='KGC-000b'>
+                <roles>command</roles>
 				<availability>SL.R:4</availability>
 			</model>
 			<model name='KGC-010'>
+                <roles>command</roles>
 				<availability>SL.R:2</availability>
 			</model>
 		</chassis>

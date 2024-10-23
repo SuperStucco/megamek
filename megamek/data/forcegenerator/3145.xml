@@ -10253,27 +10253,35 @@
 		<chassis name='King Crab' unitType='Mek'>
 			<availability>CLAN:2,IS:4,FS:6,MERC:5,CP:4,DC.GHO:6,RD:2,LA:7,ROS:6,MH:4</availability>
 			<model name='KGC-000'>
+                <roles>command</roles>
 				<availability>ROS:6,CLAN:6,BAN:8,DC:8</availability>
 			</model>
 			<model name='KGC-000b'>
+                <roles>command</roles>
 				<availability>ROS:6,CLAN:4,BAN:2,DC:6</availability>
 			</model>
 			<model name='KGC-001'>
+                <roles>command</roles>
 				<availability>LA:1,IS:3,MH:6</availability>
 			</model>
 			<model name='KGC-005r'>
+                <roles>command</roles>
 				<availability>ROS:4,MERC:4</availability>
 			</model>
 			<model name='KGC-007'>
+                <roles>command</roles>
 				<availability>LA:2,ROS:8,FS:8,MERC:8</availability>
 			</model>
 			<model name='KGC-008B'>
+                <roles>command</roles>
 				<availability>ROS:4</availability>
 			</model>
 			<model name='KGC-009'>
+                <roles>command</roles>
 				<availability>LA:8</availability>
 			</model>
 			<model name='KGC-011'>
+                <roles>command</roles>
 				<availability>ROS:5</availability>
 			</model>
 		</chassis>

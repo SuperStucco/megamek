@@ -4675,16 +4675,20 @@
 		<chassis name='King Crab' unitType='Mek'>
 			<availability>CLAN:4,IS:1,WOB:6,FS:3,MERC:1,CGS:5,DC.GHO:5,CS:6,NIOPS:6,CGB:5</availability>
 			<model name='KGC-000'>
+                <roles>command</roles>
 				<availability>CS:8,CIH:5,FRR:4+,CLAN:6,NIOPS:8,WOB:8,BAN:8,CB:5,DC:4+</availability>
 			</model>
 			<model name='KGC-0000'>
+                <roles>command</roles>
 				<availability>IS:8</availability>
 			</model>
 			<model name='KGC-000b'>
+                <roles>command</roles>
 				<availability>CLAN:5,CGS:6,BAN:2</availability>
 			</model>
 			<model name='KGC-001'>
-				<availability>CS:4+,LA:3+,IS:3+,WOB:4</availability>
+                <roles>command</roles>
+				<availability>CS:4+:3052,IS:3+:3052,WOB:4:3052</availability>
 			</model>
 		</chassis>
 		<chassis name='King Karnov Transport' unitType='Conventional Fighter'>
