@@ -9269,6 +9269,10 @@
 				<roles>support</roles>
 				<availability>General:1</availability>
 			</model>
+            <model name='K-3N-KRHQ CommandMech'>
+                <roles>support</roles>
+                <availability>General:1</availability>
+            </model>
 		</chassis>
 		<chassis name='Kobold Battle Armor' unitType='BattleArmor'>
 			<availability>CS:5,FRR:5</availability>

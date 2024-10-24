@@ -2620,6 +2620,10 @@
 				<roles>support</roles>
 				<availability>General:1</availability>
 			</model>
+            <model name='K-3N-KRHQ CommandMech'>
+                <roles>support</roles>
+                <availability>General:1</availability>
+            </model>
 		</chassis>
 		<chassis name='Korvin Tank' unitType='Tank'>
 			<availability>CC:2,MOC:3,Periphery.CM:3,Periphery.HR:2,Periphery.ME:3,TC:2</availability>

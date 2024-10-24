@@ -1926,7 +1926,7 @@
 			</model>
 		</chassis>
 		<chassis name='Kiso' unitType='Mek'>
-			<availability>DC:3</availability>
+			<availability>DC:3:2703</availability>
 			<model name='K-3N-KR4 ConstructionMech'>
 				<roles>support</roles>
 				<availability>General:8</availability>
@@ -1934,7 +1934,7 @@
 			<model name='K-3N-KR5 ConstructionMech'>
 				<roles>support</roles>
 				<availability>General:2</availability>
-			</model>
+		    </model>
 		</chassis>
 		<chassis name='Korvin Tank' unitType='Tank'>
 			<availability>CC:5,MOC:3,Periphery.CM:3,Periphery.HR:2,Periphery.ME:3,TC:2</availability>

@@ -3093,9 +3093,6 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Kiso Command Mech' unitType='Mek'>
-			<availability>DC:1</availability>
-		</chassis>
 		<chassis name='Kiso' unitType='Mek'>
 			<availability>DC:2</availability>
 			<model name='K-3N-KR4 ConstructionMech'>

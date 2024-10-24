@@ -10168,6 +10168,10 @@
 				<roles>support</roles>
 				<availability>General:1</availability>
 			</model>
+            <model name='K-3N-KRHQ CommandMech'>
+                <roles>support</roles>
+                <availability>General:1</availability>
+            </model>
 		</chassis>
 		<chassis name='Kite Reconnaissance Vehicle' unitType='Tank'>
 			<availability>CC:6,RD:6,CDS:6,LA:6,CP:5,CJF:4,DC:6,RA:4</availability>

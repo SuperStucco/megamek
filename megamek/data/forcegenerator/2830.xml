@@ -2682,9 +2682,6 @@
 				<availability>CLAN:8,CGS:8,BAN:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Kiso Command Mech' unitType='Mek'>
-			<availability>DC:1</availability>
-		</chassis>
 		<chassis name='Kiso' unitType='Mek'>
 			<availability>DC:3</availability>
 			<model name='K-3N-KR4 ConstructionMech'>

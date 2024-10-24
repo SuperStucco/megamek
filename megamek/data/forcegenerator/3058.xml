@@ -5692,6 +5692,10 @@
 				<roles>support</roles>
 				<availability>General:1</availability>
 			</model>
+			<model name='K-3N-KRHQ CommandMech'>
+				<roles>support</roles>
+				<availability>General:1</availability>
+			</model>
 		</chassis>
 		<chassis name='Kodiak' unitType='Mek'>
 			<availability>CHH:5,CCC:3,CIH:5,CSR:6,CNC:2,CLAN:3,CGS:4,CCO:3,CGB:8</availability>
