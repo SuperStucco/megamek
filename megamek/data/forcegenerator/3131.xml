@@ -11393,15 +11393,19 @@
 		<chassis name='Lynx' unitType='Mek'>
 			<availability>LA:6,ROS:4,MERC:4,CJF:4,DC:5</availability>
 			<model name='C'>
+                <roles>raider</roles>
 				<availability>CNC:6,CJF:6</availability>
 			</model>
 			<model name='LNX-9C'>
+                <roles>raider</roles>
 				<availability>ROS:8,MERC:6,DC:8</availability>
 			</model>
 			<model name='LNX-9Q'>
+                <roles>raider</roles>
 				<availability>CLAN:8,IS:6</availability>
 			</model>
 			<model name='LNX-9R'>
+                <roles>raider</roles>
 				<availability>LA:8,MERC:6</availability>
 			</model>
 		</chassis>

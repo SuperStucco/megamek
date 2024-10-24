@@ -2273,7 +2273,8 @@
 		<chassis name='Lynx' unitType='Mek'>
 			<availability>LA:2+,SL:4,FWL:2+,DC:2+</availability>
 			<model name='LNX-9Q'>
-				<availability>SL:8,IS:8+,RWR:8</availability>
+                <roles>raider</roles>
+				<availability>SL:8,IS:8+</availability>
 			</model>
 		</chassis>
 		<chassis name='Lyonesse Escort' unitType='Small Craft'>

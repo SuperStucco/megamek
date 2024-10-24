@@ -2391,6 +2391,7 @@
 		<chassis name='Lynx' unitType='Mek'>
 			<availability>PP:4,LA:3+,FWL:3+,DC:3+</availability>
 			<model name='LNX-9Q'>
+                <roles>raider</roles>
 				<availability>PP:8,IS:8+</availability>
 			</model>
 		</chassis>

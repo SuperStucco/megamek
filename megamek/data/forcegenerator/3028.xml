@@ -3994,9 +3994,11 @@
 		<chassis name='Lynx' unitType='Mek'>
 			<availability>CIH:3,CLAN:2,CSJ:3,CJF:2</availability>
 			<model name='C'>
+                <roles>raider</roles>
 				<availability>CCC:6,CNC:6,CSJ:8</availability>
 			</model>
 			<model name='LNX-9Q'>
+                <roles>raider</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>

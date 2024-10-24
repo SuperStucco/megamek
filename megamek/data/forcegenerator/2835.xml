@@ -3098,12 +3098,15 @@
 		<chassis name='Lynx' unitType='Mek'>
 			<availability>CIH:5,LA:3,CLAN:4,FWL:3,CSJ:5,CJF:4,DC:3</availability>
 			<model name='C'>
-				<availability>CCC:3,CW:3,CNC:3,CSJ:5,CJF:3,CGS:3</availability>
+                <roles>raider</roles>
+				<availability>CCC:3:2848,CW:3:2848,CNC:3:2848,CSJ:5:2848,CJF:3:2848,CGS:3:2848</availability>
 			</model>
 			<model name='LNX-8Q'>
-				<availability>LA:5</availability>
+                <roles>raider</roles>
+				<availability>LA:5:2853</availability>
 			</model>
 			<model name='LNX-9Q'>
+                <roles>raider</roles>
 				<availability>CLAN:8,IS:5+</availability>
 			</model>
 		</chassis>
