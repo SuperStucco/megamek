@@ -10609,14 +10609,20 @@
 		<chassis name='Mule' unitType='Dropship'>
 			<availability>HL:7,CLAN:5,IS:7,Periphery.Deep:7,BAN:4,Periphery:8</availability>
 			<model name='&apos;Pocket Warship&apos;'>
-				<availability>WOB:4</availability>
+                <roles>pocket_warship</roles>
+				<availability>WOB:4:3068</availability>
 			</model>
+            <model name='&apos;Q-Ship&apos;'>
+                <roles>cargo,civilian</roles>
+                <availability>WOB:4:3068</availability>
+            </model>
 			<model name='(2737)'>
 				<roles>cargo,civilian</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Armored Pocket Warship)'>
-				<availability>WOB:4</availability>
+                <roles>pocket_warship</roles>
+				<availability>WOB:4:3068</availability>
 			</model>
 		</chassis>
 		<chassis name='Musketeer Hover Tank' unitType='Tank'>

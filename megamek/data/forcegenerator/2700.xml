@@ -2593,13 +2593,14 @@
 			</model>
 		</chassis>
 		<chassis name='Mule' unitType='Dropship'>
-			<availability>SL:5,IS:5,Periphery.Deep:4,Periphery:4</availability>
+			<availability>SL:5:2737,IS:5:2737,Periphery.Deep:4:2737,Periphery:4:2737</availability>
 			<model name='(2737)'>
 				<roles>cargo,civilian</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Star League Pocket Warship)'>
-				<availability>SL:3</availability>
+                <roles>pocket_warship</roles>
+				<availability>SL:3:2756</availability>
 			</model>
 		</chassis>
 		<chassis name='Mustang Fighter' unitType='Conventional Fighter'>

@@ -2735,6 +2735,7 @@
 				<availability>General:8</availability>
 			</model>
 			<model name='(Star League Pocket Warship)'>
+                <roles>pocket_warship</roles>
 				<availability>SL:4</availability>
 			</model>
 		</chassis>
