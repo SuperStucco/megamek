@@ -4243,11 +4243,27 @@
 			</model>
 		</chassis>
 		<chassis name='Union' unitType='Dropship'>
-			<availability>CLAN:7,IS:7,Periphery:5</availability>
+			<availability>PP:7,CLAN:7,IS:7,Periphery:5</availability>
 			<model name='(2708)'>
 				<roles>mek_carrier</roles>
-				<availability>General:8,CLAN:8</availability>
+				<availability>General:8</availability>
 			</model>
+            <model name='(2708) (Cargo)'>
+                <roles>cargo</roles>
+                <availability>General:5</availability>
+            </model>
+            <model name='(2708b)'>
+                <roles>mek_carrier</roles>
+                <availability>CLAN:8+,IS:3+</availability>
+            </model>
+            <model name='(2709) (Combined Arms)'>
+                <roles>mek_carrier,infantry_carrier</roles>
+                <availability>General:3</availability>
+            </model>
+            <model name='(2710) (CV)'>
+                <roles>asf_carrier</roles>
+                <availability>General:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Unpressurized Yard' unitType='Space Station'>
 			<availability>CS:7,CLAN:4,IS:6,Periphery:7</availability>

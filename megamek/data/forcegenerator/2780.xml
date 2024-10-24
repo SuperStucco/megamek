@@ -3749,6 +3749,22 @@
 				<roles>mek_carrier</roles>
 				<availability>General:8</availability>
 			</model>
+            <model name='(2708) (Cargo)'>
+                <roles>cargo</roles>
+                <availability>General:5</availability>
+            </model>
+            <model name='(2708b)'>
+                <roles>mek_carrier</roles>
+                <availability>SL.R:4</availability>
+            </model>
+            <model name='(2709) (Combined Arms)'>
+                <roles>mek_carrier,infantry_carrier</roles>
+                <availability>General:3</availability>
+            </model>
+            <model name='(2710) (CV)'>
+                <roles>asf_carrier</roles>
+                <availability>General:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Unpressurized Yard' unitType='Space Station'>
 			<availability>CS:3,SLIE:5,IS:10,Periphery:10</availability>

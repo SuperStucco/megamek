@@ -17744,11 +17744,19 @@
 			</model>
 		</chassis>
 		<chassis name='Union C' unitType='Dropship'>
-			<availability>CLAN:8</availability>
+			<availability>CLAN:8,BAN:4</availability>
 			<model name='(2829)'>
 				<roles>mek_carrier</roles>
-				<availability>CLAN:8</availability>
+				<availability>CLAN:8,BAN:3</availability>
 			</model>
+            <model name='(2829) (Tank)'>
+                <roles>vee_carrier,infantry_carrier</roles>
+                <availability>CLAN:5-,CHH:6,BAN:6</availability>
+            </model>
+            <model name='(2840) (Cargo)'>
+                <roles>cargo</roles>
+                <availability>CLAN:4-,BAN:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Union-X' unitType='Dropship'>
 			<availability>LA:4</availability>
@@ -17762,11 +17770,27 @@
 			</model>
 		</chassis>
 		<chassis name='Union' unitType='Dropship'>
-			<availability>IS:8,Periphery:6</availability>
+			<availability>IS:8,Periphery:6,BAN:4</availability>
 			<model name='(2708)'>
 				<roles>mek_carrier</roles>
 				<availability>General:2,BAN:4</availability>
 			</model>
+            <model name='(2708b)'>
+                <roles>mek_carrier</roles>
+                <availability>IS:3+</availability>
+            </model>
+            <model name='(2708) (Cargo)'>
+                <roles>cargo</roles>
+                <availability>General:5,BAN:8</availability>
+            </model>
+            <model name='(2709) (Combined Arms)'>
+                <roles>mek_carrier,infantry_carrier</roles>
+                <availability>IS:3,Periphery:3,BAN:3</availability>
+            </model>
+            <model name='(2710) (CV)'>
+                <roles>asf_carrier</roles>
+                <availability>General:4,BAN:2</availability>
+            </model>
 			<model name='(3055)'>
 				<roles>mek_carrier</roles>
 				<availability>LA:8,IS:7,FS:8</availability>
