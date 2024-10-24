@@ -12260,21 +12260,6 @@
 				<availability>MERC:4,Periphery:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Medium Strike Fighter Crane' unitType='Conventional Fighter'>
-			<availability>MOC:2,CC:5,Periphery.CM:2,Periphery.ME:2</availability>
-		</chassis>
-		<chassis name='Medium Strike Fighter Defender II' unitType='Conventional Fighter'>
-			<availability>FWL:5,IS:2,CP:4,Periphery:1</availability>
-		</chassis>
-		<chassis name='Medium Strike Fighter Defender' unitType='Conventional Fighter'>
-			<availability>MOC:6,CC:4,CLAN:4,IS:5,Periphery.Deep:4,MERC:6,FS:5,CP:5,BAN:4,Periphery:6,TC:6,RA.OA:5,LA:6,FWL:5,DC:5</availability>
-		</chassis>
-		<chassis name='Medium Strike Fighter Kaiseradler' unitType='Conventional Fighter'>
-			<availability>Periphery.R:2,LA:5,MERC:1</availability>
-		</chassis>
-		<chassis name='Medium Strike Fighter Steinadler' unitType='Conventional Fighter'>
-			<availability>Periphery.R:2,LA:5,MERC:1</availability>
-		</chassis>
 		<chassis name='Medium Strike Fighter' unitType='Conventional Fighter'>
 			<availability>CC:6,CWE:3-,MOC:5,SE:3,LA:5-,IS:5,FR:4,DA:6,MERC:4,Periphery:4</availability>
 			<model name='Crane'>

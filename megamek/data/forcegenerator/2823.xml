@@ -3079,12 +3079,6 @@
 				<availability>General:5</availability>
 			</model>
 		</chassis>
-		<chassis name='Medium Strike Fighter Defender' unitType='Conventional Fighter'>
-			<availability>CC:4,CLAN:4,IS:5,Periphery.Deep:6,MERC:6,CIR:5,Periphery:6,OA:5,LA:6</availability>
-		</chassis>
-		<chassis name='Medium Strike Fighter Steinadler' unitType='Conventional Fighter'>
-			<availability>Periphery.R:2,LA:5,MERC:1</availability>
-		</chassis>
 		<chassis name='Medium Strike Fighter' unitType='Conventional Fighter'>
 			<availability>CC:6,CS:6,LA:5-,IS:5,MERC:4,Periphery:4</availability>
 			<model name='Defender'>
