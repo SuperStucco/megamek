@@ -4016,6 +4016,7 @@
 		<chassis name='Soyal Heavy Cruiser' unitType='Warship'>
 			<availability>CC:2,FWL:1</availability>
 			<model name=''>
+                <roles>cruiser</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
