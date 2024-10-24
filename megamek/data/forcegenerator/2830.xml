@@ -3807,6 +3807,10 @@
 		</chassis>
 		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>
 			<availability>CLAN:1</availability>
+            <model name='(2747)'>
+                <roles>destroyer</roles>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Ripper Infantry Transport' unitType='VTOL'>
 			<availability>CC:2+,CS:5,CHH:5,LA:2+,CLAN:4,FWL:2+,NIOPS:5,FS:3+,DC:2+</availability>

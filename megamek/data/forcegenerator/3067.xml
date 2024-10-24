@@ -12594,6 +12594,10 @@
 		</chassis>
 		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>
 			<availability>CB:1</availability>
+            <model name='(2747)'>
+                <roles>destroyer</roles>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Riot Police' unitType='Infantry'>
 			<availability>WOB.PM:4</availability>

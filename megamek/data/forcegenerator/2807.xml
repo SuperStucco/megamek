@@ -3178,6 +3178,10 @@
 		</chassis>
 		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>
 			<availability>PP:2</availability>
+            <model name='(2747)'>
+                <roles>destroyer</roles>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Ripper Infantry Transport' unitType='VTOL'>
 			<availability>PP:5,CC:4+,CS:5,LA:4+,FWL:4+,NIOPS:5,FS:4+,DC:4+</availability>

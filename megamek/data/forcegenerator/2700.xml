@@ -2983,8 +2983,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>
-			<availability>SL:2</availability>
+		<chassis name='Riga II Destroyer-Carrier' unitType='Warship'>
+			<availability>SL:2:2747</availability>
+		    <model name='(2747)'>
+			    <roles>destroyer</roles>
+			    <availability>General:8</availability>
+		    </model>
 		</chassis>
 		<chassis name='Ripper Infantry Transport' unitType='VTOL'>
 			<availability>CC:4+,LA:4+,SL:5,FWL:4+,RWR:2+,FS:5+,DC:4+</availability>
