@@ -2856,6 +2856,7 @@
 		<chassis name='Nightstar' unitType='Mek'>
 			<availability>PP:5,CS:4,NIOPS:4</availability>
 			<model name='NSR-9J'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

@@ -11854,9 +11854,11 @@
 		<chassis name='Nightstar' unitType='Mek'>
 			<availability>CSA:6,LA:6,ROS:5,NIOPS:3,FS:6,MERC:3</availability>
 			<model name='NSR-9FC'>
+                <roles>command</roles>
 				<availability>LA:5,FS:5,MERC:3</availability>
 			</model>
 			<model name='NSR-9J'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='NSR-9SS'>
