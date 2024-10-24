@@ -4225,7 +4225,7 @@
 				<availability>General:8</availability>
 			</model>
 			<model name='(2602) (Mech)'>
-				<roles>mek_carrier,asf_carrier</roles>
+				<roles>mek_carrier</roles>
 				<availability>General:6</availability>
 			</model>
 		</chassis>

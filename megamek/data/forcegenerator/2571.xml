@@ -713,11 +713,15 @@
 			</model>
 		</chassis>
 		<chassis name='Confederate' unitType='Dropship'>
-			<availability>MOC:1,OA:1,SL:6,IS:3,RWR:1,TC:1</availability>
+			<availability>MOC:1:2602,OA:1:2602,SL:6:2602,IS:3:2602,RWR:1:2602,TC:1:2602</availability>
 			<model name='(2602)'>
 				<roles>mek_carrier</roles>
 				<availability>General:8</availability>
 			</model>
+            <model name='(2602) (Mech)'>
+                <roles>mek_carrier</roles>
+                <availability>General:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Congress D Frigate' unitType='Warship'>
 			<availability>FS:3</availability>
