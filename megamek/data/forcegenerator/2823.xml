@@ -707,16 +707,19 @@
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>CLAN:5</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-H2'>
+                <roles>command</roles>
 				<availability>CLAN:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Atlas' unitType='Mek'>
 			<availability>CC:3,MOC:1,CS:4-,OA:1,LA:4,IS:3,FWL:3,NIOPS:4-,FS:5,TC:1,DC:5</availability>
 			<model name='AS7-D'>
-				<availability>General:8,CLAN:8,Periphery.Deep:8,Periphery:8</availability>
+                <roles>command</roles>
+				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-DC'>
 				<roles>command</roles>

@@ -440,6 +440,13 @@
 				<availability>MOC:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Atlas' unitType='Mek'>
+            <availability>SL:3+:2755</availability>
+            <model name='AS7-D'>
+                <roles>command</roles>
+                <availability>SL:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Atreus Battleship' unitType='Warship'>
 			<availability>FWL:8</availability>
 			<model name='(2552)'>

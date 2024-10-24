@@ -736,24 +736,36 @@
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>CLAN:4</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-H2'>
+                <roles>command</roles>
 				<availability>CLAN:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Atlas' unitType='Mek'>
 			<availability>MOC:1,CSV:2,IS:3,FS:5,TC:1,CS:4-,OA:1,CW:2,LA:4,NIOPS:4-,CSJ:2,DC:5,CB:2</availability>
 			<model name='AS7-D'>
-				<availability>General:8,CLAN:8,Periphery.Deep:8,Periphery:8</availability>
+                <roles>command</roles>
+				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-DC'>
 				<roles>command</roles>
 				<availability>IS:1,MERC:0,DC:2</availability>
 			</model>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>CW:2+,CSV:2+,CSJ:2+,CB:2+</availability>
 			</model>
+            <model name='C 2'>
+                <roles>command</roles>
+                <availability>CLAN:1+:2840</availability>
+            </model>
+            <model name='C 3'>
+                <roles>command,mixed_artillery</roles>
+                <availability>CLAN:1+:2843</availability>
+            </model>
 		</chassis>
 		<chassis name='Atreus Battleship' unitType='Warship'>
 			<availability>FWL:2</availability>

@@ -2053,9 +2053,11 @@
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>LA:3,CLAN:1,WOB:3</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-H2'>
+                <roles>command</roles>
 				<availability>CLAN:1</availability>
 			</model>
 		</chassis>

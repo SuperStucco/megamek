@@ -462,20 +462,19 @@
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>SL:2,SL.R:4</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>General:8</availability>
-			</model>
-			<model name='AS7-D-HT'>
-				<availability>SL.R:1+</availability>
 			</model>
 		</chassis>
 		<chassis name='Atlas' unitType='Mek'>
 			<availability>CC:2,LA:2,SL:4,FWL:2,IS:2,RWR:2,FS:2,DC:2</availability>
 			<model name='AS7-D'>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+                <roles>command</roles>
+				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-DC'>
 				<roles>command</roles>
-				<availability>IS:1,MERC:0,DC:2</availability>
+				<availability>IS:1:2776,MERC:0,DC:2:2776</availability>
 			</model>
 		</chassis>
 		<chassis name='Atreus Battleship' unitType='Warship'>

@@ -635,16 +635,19 @@
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>PP:3,CLAN:5</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>PP:6,General:8</availability>
 			</model>
 			<model name='AS7-D-H2'>
+                <roles>command</roles>
 				<availability>PP:2,CLAN:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Atlas' unitType='Mek'>
 			<availability>PP:5,MOC:1,CS:4-,OA:1,LA:3,IS:2,NIOPS:4-,FS:4,TC:1,DC:4</availability>
 			<model name='AS7-D'>
-				<availability>General:8,CLAN:8,Periphery.Deep:8,Periphery:8</availability>
+                <roles>command</roles>
+				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-DC'>
 				<roles>command</roles>

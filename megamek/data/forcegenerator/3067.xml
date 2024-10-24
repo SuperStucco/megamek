@@ -1585,25 +1585,30 @@
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>LA:2,CLAN:1,WOB:3</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-H2'>
+                <roles>command</roles>
 				<availability>CLAN:1</availability>
 			</model>
 		</chassis>
 		<chassis name='Atlas' unitType='Mek'>
 			<availability>CC:2,FRR:6,IS:2+,WOB:4-,CFM:2,CLAN.IS:2,FS:4,MERC:2,CGS:2,CLAN.HW:2-,Periphery:1,CS:4-,LA:3,FWL:3,NIOPS:4-,DC:9,CB:2</availability>
 			<model name='AS7-A'>
+                <roles>command</roles>
 				<availability>CC:1,FWL:1,MERC:1</availability>
 			</model>
 			<model name='AS7-C'>
+                <roles>command</roles>
 				<availability>FRR:2,MERC:2,DC:2</availability>
 			</model>
 			<model name='AS7-CM'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FRR:5,MERC:5,DC:6</availability>
 			</model>
 			<model name='AS7-D'>
+                <roles>command</roles>
 				<availability>HL:3-,General:5-,Periphery.Deep:8,Periphery:5-</availability>
 			</model>
 			<model name='AS7-D-DC'>
@@ -1611,9 +1616,11 @@
 				<availability>IS:1-,MERC:0,DC:2-</availability>
 			</model>
 			<model name='AS7-Dr'>
-				<availability>LA:2,MERC:2</availability>
+                <roles>command</roles>
+				<availability>LA:2:3070,MERC:2:3070</availability>
 			</model>
 			<model name='AS7-K'>
+                <roles>command</roles>
 				<availability>CC:3,MOC:3,CS:3,OA:3,FRR:5,CNC:4,FWL:3,WOB:3,MERC:4,CDP:3,TC:3,DC:8</availability>
 			</model>
 			<model name='AS7-K-DC'>
@@ -1621,30 +1628,39 @@
 				<availability>FRR:4,IS:4,DC:4</availability>
 			</model>
 			<model name='AS7-RS'>
+                <roles>command</roles>
 				<availability>IS:2-,Periphery:2-</availability>
 			</model>
 			<model name='AS7-S'>
+                <roles>command</roles>
 				<availability>MOC:2,FVC:2,OA:2,LA:4,PIR:2,FS:2,MERC:3,CDP:2,TC:2</availability>
 			</model>
 			<model name='AS7-S2'>
+                <roles>command</roles>
 				<availability>LA:4</availability>
 			</model>
 			<model name='AS7-S3'>
+                <roles>command</roles>
 				<availability>LA:4,MERC:2</availability>
 			</model>
 			<model name='AS7-S3-DC'>
 				<roles>command</roles>
 				<availability>LA:4,FS:4,MERC:2</availability>
 			</model>
+            <model name='AS8-D'>
+                <roles>command</roles>
+                <availability>FS:3:3074</availability>
+            </model>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>CSA:1,LA:2,CLAN.IS:2,CFM:2-,FS:2,CGS:2-,DC:2,CB:2+</availability>
 			</model>
 			<model name='C 2'>
-				<availability>CLAN:2-,CLAN.IS:2-,CLAN.HW:2-</availability>
+				<availability>CLAN:2-</availability>
 			</model>
 			<model name='C 3'>
-				<roles>missile_artillery</roles>
-				<availability>CLAN:2-,CLAN.IS:2-,CLAN.HW:2-</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CLAN:2-</availability>
 			</model>
 		</chassis>
 		<chassis name='Aurora' unitType='Dropship'>

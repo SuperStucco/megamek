@@ -461,9 +461,11 @@
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>SL:3,SL.R:5</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-H2'>
+                <roles>command</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='AS7-D-HT'>
@@ -473,7 +475,8 @@
 		<chassis name='Atlas' unitType='Mek'>
 			<availability>MOC:1,OA:1,LA:3,SL:5,IS:2,NIOPS:4-,FS:4,TC:1,DC:4</availability>
 			<model name='AS7-D'>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+                <roles>command</roles>
+				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-DC'>
 				<roles>command</roles>

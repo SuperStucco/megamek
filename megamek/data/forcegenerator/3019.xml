@@ -770,35 +770,42 @@
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>CLAN:2</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D-H2'>
+                <roles>command</roles>
 				<availability>CLAN:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Atlas' unitType='Mek'>
 			<availability>CSV:2-,IS:3,FS:5,MERC:2,Periphery:1,CS:4-,CW:2-,LA:4,FWL:3,NIOPS:4-,CSJ:2-,DC:5,CB:2-</availability>
 			<model name='AS7-A'>
+                <roles>command</roles>
 				<availability>CC:2,FWL:2,MERC:2</availability>
 			</model>
 			<model name='AS7-D'>
-				<availability>HL:6,General:8,Periphery.Deep:7,Periphery:8</availability>
+                <roles>command</roles>
+				<availability>HL:6,General:8,Periphery.Deep:7</availability>
 			</model>
 			<model name='AS7-D-DC'>
 				<roles>command</roles>
 				<availability>IS:1,MERC:0,DC:2</availability>
 			</model>
 			<model name='AS7-RS'>
+                <roles>command</roles>
 				<availability>IS:2,Periphery:2</availability>
 			</model>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>CW:1-,CSV:1-,CFM:2-,CSJ:1-,CGS:2-,CB:1-</availability>
 			</model>
 			<model name='C 2'>
+                <roles>command</roles>
 				<availability>CLAN:2-</availability>
 			</model>
 			<model name='C 3'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>CLAN:2-</availability>
 			</model>
 		</chassis>

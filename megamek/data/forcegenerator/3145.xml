@@ -1982,12 +1982,14 @@
 				<availability>General:8</availability>
 			</model>
 			<model name='AS7-D3'>
+                <roles>command</roles>
 				<availability>General:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Atlas II' unitType='Mek'>
 			<availability>MERC.KH:2,LA:4,ROS:4,CLAN:1,IS:2,MERC:2</availability>
 			<model name='AS7-D-H'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='AS7-DK-H'>
@@ -1997,19 +1999,23 @@
 		<chassis name='Atlas' unitType='Mek'>
 			<availability>CC:3,IS:2,CLAN.IS:2,FS:5,CP:3,MERC:2,Periphery:3,RA.OA:3,SE:2,LA:6,FWL:3,DC:8</availability>
 			<model name='AS7-C'>
+                <roles>command</roles>
 				<availability>MERC:2,DC:2</availability>
 			</model>
 			<model name='AS7-CM'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>MERC:6,DC:6</availability>
 			</model>
 			<model name='AS7-D'>
+                <roles>command</roles>
 				<availability>Periphery:2-</availability>
 			</model>
 			<model name='AS7-Dr'>
+                <roles>command</roles>
 				<availability>LA:4,ROS:4,MERC:4</availability>
 			</model>
 			<model name='AS7-K'>
+                <roles>command</roles>
 				<availability>MOC:3,RA.OA:4,FVC:4,MERC:4,CP:5,CDP:3,DC:4,Periphery:4,TC:3</availability>
 			</model>
 			<model name='AS7-K-DC'>
@@ -2017,21 +2023,27 @@
 				<availability>IS:4,DC:4</availability>
 			</model>
 			<model name='AS7-K2'>
+                <roles>command</roles>
 				<availability>LA:8,IS:6,CLAN.IS:4,CP:6,Periphery:6,CWIE:6</availability>
 			</model>
 			<model name='AS7-K3'>
+                <roles>command</roles>
 				<availability>LA:2,ROS:2,MERC:2</availability>
 			</model>
 			<model name='AS7-K4'>
+                <roles>command</roles>
 				<availability>RF:4,LA:4,DC:4</availability>
 			</model>
 			<model name='AS7-S'>
+                <roles>command</roles>
 				<availability>MOC:2,FVC:2,LA:4,PIR:2,FS:2,MERC:3,CDP:2,TC:2,Periphery:2</availability>
 			</model>
 			<model name='AS7-S2'>
+                <roles>command</roles>
 				<availability>LA:1,ROS:3,MERC:3</availability>
 			</model>
 			<model name='AS7-S3'>
+                <roles>command</roles>
 				<availability>LA:6,ROS:4,MERC:3</availability>
 			</model>
 			<model name='AS7-S3-DC'>
@@ -2039,18 +2051,23 @@
 				<availability>MERC.KH:2,LA:4,ROS:3,FS:4,MERC:2,Periphery:1</availability>
 			</model>
 			<model name='AS7-S4'>
+                <roles>command</roles>
 				<availability>MERC.WD:2,MERC.KH:2,LA:2,TC:1</availability>
 			</model>
 			<model name='AS8-D'>
+                <roles>command</roles>
 				<availability>ROS:3,FS:6</availability>
 			</model>
 			<model name='AS8-K'>
+                <roles>command</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='AS8-KE'>
+                <roles>command</roles>
 				<availability>IS:2,MERC:2</availability>
 			</model>
 			<model name='AS8-S'>
+                <roles>command</roles>
 				<availability>MERC.KH:2,LA:2</availability>
 			</model>
 			<model name='C'>
@@ -2060,7 +2077,7 @@
 				<availability>MERC.WD:2,IS:2,CLAN.IS:2-,MERC:2</availability>
 			</model>
 			<model name='C 3'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>MERC.WD:2,IS:2,CLAN.IS:2-,MERC:2</availability>
 			</model>
 		</chassis>
