@@ -3246,6 +3246,7 @@
 		<chassis name='J. Edgar Light Hover Tank' unitType='Tank'>
 			<availability>CC:3,HL:3,IS:4,Periphery.Deep:5,FS:3,CIR:4,Periphery:5,TC:7,CS:4-,LA:5,FWL:3,NIOPS:4-,DC:6</availability>
 			<model name=''>
+                <roles>recon,raider</roles>
 				<availability>HL:3,General:8,Periphery.Deep:6,Periphery:5</availability>
 			</model>
 			<model name='(Cell)'>

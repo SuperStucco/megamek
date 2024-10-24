@@ -1820,9 +1820,10 @@
 			</model>
 		</chassis>
 		<chassis name='J. Edgar Light Hover Tank' unitType='Tank'>
-			<availability>CC:4,IS:5,Periphery.Deep:5,FS:4,Periphery:5,TC:7,FWL:4,SL.R:0,DC:7</availability>
+			<availability>CC:4:2722,IS:5:2722,Periphery.Deep:5:2722,FS:4:2722,Periphery:5:2722,TC:7:2722,FWL:4:2722,SL.R:0,DC:7:2722</availability>
 			<model name=''>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+                <roles>recon,raider</roles>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Jabberwocky' unitType='Mek'>

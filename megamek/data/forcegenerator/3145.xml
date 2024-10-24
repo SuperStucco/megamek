@@ -9615,6 +9615,46 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='J. Edgar Light Hover Tank' unitType='Tank'>
+            <availability>IS:2,Periphery:2,Periphery.Deep:2</availability>
+            <model name=''>
+                <roles>recon,raider</roles>
+                <availability>General:7,Periphery:4</availability>
+            </model>
+            <model name='(Chemical)'>
+                <availability>DC:3,ROS:3</availability>
+            </model>
+            <model name='(Flamer)'>
+                <roles>recon,raider</roles>
+                <availability>FVC:3,IS:4,TC:2</availability>
+            </model>
+            <model name='(ICE)'>
+                <roles>recon,raider</roles>
+                <availability>General:4,Periphery:5</availability>
+            </model>
+            <model name='(Kurita)'>
+                <roles>recon,raider</roles>
+                <availability>DC:8,TC:4</availability>
+            </model>
+            <model name='(LAC)'>
+                <availability>MERC:5-,MH:7,Periphery:6,Periphery.Deep:6</availability>
+            </model>
+            <model name='(Light PPC)'>
+                <availability>IS:5+,Periphery:5+</availability>
+            </model>
+            <model name='(MG)'>
+                <roles>recon,raider</roles>
+                <availability>IS:4</availability>
+            </model>
+            <model name='(TAG)'>
+                <roles>recon,raider,spotter</roles>
+                <availability>IS:8</availability>
+            </model>
+            <model name='(X-Pulse)'>
+                <roles>recon,raider</roles>
+                <availability>IS:4+,MERC:4+,Periphery:2+</availability>
+            </model>
+        </chassis>
 		<chassis name='JES I Tactical Missile Carrier' unitType='Tank'>
 			<availability>RD:3,IS:4,TC:4,Periphery:4</availability>
 			<model name=''>

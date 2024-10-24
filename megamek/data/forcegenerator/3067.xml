@@ -7957,6 +7957,7 @@
 		<chassis name='J. Edgar Light Hover Tank' unitType='Tank'>
 			<availability>FS.DLC:4-,CC:2-,DC.LV:5-,HL:3-,DC.GR:5-,FS.AH:4-,IS:4-,Periphery.Deep:5,WOB:3-,FS:3-,Periphery:4-,TC:5-,CS:2-,FWL:2-,NIOPS:2-</availability>
 			<model name=''>
+                <roles>recon,raider</roles>
 				<availability>HL:2,General:7,Periphery.Deep:6,Periphery:4</availability>
 			</model>
 			<model name='(Flamer)'>
@@ -7971,12 +7972,15 @@
 				<roles>recon,raider</roles>
 				<availability>DC:8,TC:4</availability>
 			</model>
+            <model name='(LAC)'>
+                <availability>MERC:5-:3070,MH:7:3070,Periphery:6:3070,Periphery.Deep:6:3070</availability>
+            </model>
 			<model name='(MG)'>
 				<roles>recon,raider</roles>
 				<availability>IS:4</availability>
 			</model>
 			<model name='(TAG)'>
-				<roles>recon,spotter</roles>
+				<roles>recon,raider,spotter</roles>
 				<availability>IS:8</availability>
 			</model>
 		</chassis>
