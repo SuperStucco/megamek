@@ -5496,12 +5496,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Dig Lord' unitType='Mek'>
-			<availability>CDP:2-</availability>
-			<model name='RCL-Z1 Armed MiningMech'>
-				<availability>General:8</availability>
-			</model>
-		</chassis>
+        <chassis name='Dig Lord' unitType='Mek'>
+            <availability>MERC:4-,Periphery:2-,PIR:5,BAN:4-</availability>
+            <model name='RCL-4M MiningMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Djinn Battle Armor' unitType='BattleArmor'>
 			<availability>WOB.SD:5,PIR:1,WOB:1</availability>
 			<model name='(Reflective) &apos;Terrorizer&apos; [Flamer] (Sqd6)' mechanized='true'>

@@ -5690,12 +5690,19 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Dig Lord' unitType='Mek'>
-			<availability>CDP:4-</availability>
-			<model name='RCL-Z1 Armed MiningMech'>
-				<availability>General:8</availability>
-			</model>
-		</chassis>
+        <chassis name='Dig Lord' unitType='Mek'>
+            <availability>MERC:2-,Periphery:2-,CDP:4-,PIR:4,BAN:4-</availability>
+            <model name='RCL-4M MiningMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='RCL-4M-B MiningMech MOD'>
+                <availability>General:6</availability>
+            </model>
+            <model name='RCL-Z1 Armed MiningMech'>
+                <roles>inf_support</roles>
+                <availability>CDP:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Diomede' unitType='Mek'>
 			<availability>CC:7,MOC:7,LA:7,FWL:7,IS:5,MH:7,MERC:7,CP:7,Periphery:5</availability>
 			<model name='D-M3D-3 ConstructionMech'>

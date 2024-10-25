@@ -1637,6 +1637,12 @@
 				<availability>MERC:8,DC:8,Periphery:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Dig Lord' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='RCL-4M MiningMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Dragonstar Passenger Transport' unitType='Small Craft'>
 			<availability>DC:7</availability>
 			<model name=''>

@@ -4794,6 +4794,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Dig Lord' unitType='Mek'>
+            <availability>MERC:3-:3072,Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='RCL-4M MiningMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Djinn Battle Armor' unitType='BattleArmor'>
 			<availability>WOB.SD:4</availability>
 			<model name='(Sqd6)' mechanized='false'>

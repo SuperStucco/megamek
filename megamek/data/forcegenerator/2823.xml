@@ -1601,6 +1601,12 @@
 				<availability>General:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Dig Lord' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4</availability>
+            <model name='RCL-4M MiningMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Dragon' unitType='Mek'>
 			<availability>Periphery.DD:3,MERC:4,DC:10</availability>
 			<model name='DRG-1C'>

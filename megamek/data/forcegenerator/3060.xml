@@ -3955,6 +3955,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Dig Lord' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='RCL-4M MiningMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Donar Assault Helicopter' unitType='VTOL'>
 			<availability>CLAN:7</availability>
 			<model name=''>
