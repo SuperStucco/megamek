@@ -3363,6 +3363,21 @@
 				<availability>General:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Carbine' unitType='Mek'>
+            <availability>ROS.pm:2-,MERC:3-,Periphery:2-,PIR:5,BAN:4-</availability>
+            <model name='CON-7M ConstructionMech MOD'>
+                <availability>General:6</availability>
+            </model>
+            <model name='CON-9M ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='CON-9M-B ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='CON-9M-J ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Carnivore Assault Tank' unitType='Tank'>
 			<availability>CC:4,CHH:4,CW:5,LA:4,FS:4,MERC:4,CJF:4,CWIE:4,DC:4</availability>
 			<model name=''>

@@ -990,6 +990,18 @@
 				<availability>CLAN:7</availability>
 			</model>
 		</chassis>
+        <chassis name='Carbine' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='CON-1 ConstructionMech (RL)'>
+                <availability>General:5</availability>
+            </model>
+            <model name='CON-9M ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='CON-9M-J ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Catapult' unitType='Mek'>
 			<availability>CC:5,CLAN:2,IS:3,MERC:2,Periphery:1,CS:2,NIOPS:2,DC:5</availability>
 			<model name='CPLT-A1'>

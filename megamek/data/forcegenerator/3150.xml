@@ -3736,6 +3736,21 @@
 				<availability>General:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Carbine' unitType='Mek'>
+            <availability>ROS.pm:2-,Periphery:2-,PIR:5,BAN:4-</availability>
+            <model name='CON-7M ConstructionMech MOD'>
+                <availability>General:6</availability>
+            </model>
+            <model name='CON-9M ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='CON-9M-B ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='CON-9M-J ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Cardinal Transport' unitType='VTOL'>
 			<availability>MERC.KH:7,MERC.WD:5,CDS:7,LA:6,TamPact:6,ROS:8,CP:4,MERC:7,CJF:6,DC:6,VesMar:6</availability>
 			<model name=''>

@@ -3559,6 +3559,21 @@
 				<availability>General:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Carbine' unitType='Mek'>
+            <availability>WOB.PM:2-,MERC:3-,Periphery:2-,PIR:5,BAN:4-</availability>
+            <model name='CON-7M ConstructionMech MOD'>
+                <availability>General:6</availability>
+            </model>
+            <model name='CON-9M ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='CON-9M-B ConstructionMech MOD'>
+                <availability>WOB.PM:8</availability>
+            </model>
+            <model name='CON-9M-J ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Carrack Transport' unitType='Warship'>
 			<availability>CSA:1,CCC:1,CHH:1,CSR:2,CDS:3,CW:1,CNC:5,CCO:1,CGS:1,CJF:1,CGB:2</availability>
 			<model name='(Clan)'>

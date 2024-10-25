@@ -1226,6 +1226,18 @@
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Carbine' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='CON-1 ConstructionMech (RL)'>
+                <availability>General:5</availability>
+            </model>
+            <model name='CON-9M ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='CON-9M-J ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Carrack Transport' unitType='Warship'>
 			<availability>CHH:1,CCC:1,CIH:1,CSR:1,CDS:5,CW:1,CSV:1,CNC:6,CFM:1,CGS:1,CCO:1,CGB:1</availability>
 			<model name='(Clan)'>

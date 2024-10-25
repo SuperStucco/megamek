@@ -2015,6 +2015,18 @@
 				<availability>General:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Carbine' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='CON-1 ConstructionMech (RL)'>
+                <availability>General:5</availability>
+            </model>
+            <model name='CON-9M ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='CON-9M-J ConstructionMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Carrack Transport' unitType='Warship'>
 			<availability>CCC:1,CHH:1,CSR:2,CIH:1,CSV:1,CFM:1,CCO:1,CGS:1,CSA:1,CDS:3,CW:1,CNC:5,CJF:1,CGB:2</availability>
 			<model name='(Clan)'>
