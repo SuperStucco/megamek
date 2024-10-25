@@ -3500,6 +3500,24 @@
 				<availability>LA:4,FS:6,MERC:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Buster' unitType='Mek'>
+            <availability>MERC:2-,Periphery:2-,PIR:5,BAN:4-</availability>
+            <model name='BC XV-M-B HaulerMech MOD'>
+                <availability>General:4</availability>
+            </model>
+            <model name='BC XV-M-C HaulerMech MOD'>
+                <availability>General:2</availability>
+            </model>
+            <model name='BC XV-M-W HaulerMech MOD'>
+                <availability>General:6</availability>
+            </model>
+            <model name='BC XV-M HaulerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='BC XXI-M HaulerMech MOD'>
+                <availability>General:6</availability>
+            </model>
+        </chassis>
 		<chassis name='Butcherbird (Ion Sparrow)' unitType='Mek' omni='Clan'>
 			<availability>CJF:8</availability>
 			<model name='A'>

@@ -1081,6 +1081,15 @@
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Buster' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='BC XV-M-B HaulerMech MOD'>
+                <availability>General:4</availability>
+            </model>
+            <model name='BC XV-M HaulerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Büffel Engineering Support Vehicle VII' unitType='Tank'>
 			<availability>CC:2,LA:3,FWL:2,FS:2,MERC:2,CIR:2,DC:2</availability>
 			<model name=''>

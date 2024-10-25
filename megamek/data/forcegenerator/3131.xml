@@ -3769,6 +3769,24 @@
 				<availability>LA:4,FS:5,MERC:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Buster' unitType='Mek'>
+            <availability>ROS.pm:2-,MERC:3-,Periphery:2-,PIR:5,BAN:4-</availability>
+            <model name='BC XV-M-B HaulerMech MOD'>
+                <availability>General:4,ROS.pm:6</availability>
+            </model>
+            <model name='BC XV-M-C HaulerMech MOD'>
+                <availability>ROS.pm:8</availability>
+            </model>
+            <model name='BC XV-M-W HaulerMech MOD'>
+                <availability>ROS.pm:8,MOC:6,TC:6</availability>
+            </model>
+            <model name='BC XV-M HaulerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='BC XXI-M HaulerMech MOD'>
+                <availability>General:6</availability>
+            </model>
+        </chassis>
 		<chassis name='Büffel Engineering Support Vehicle VIII' unitType='Tank'>
 			<availability>LA:2</availability>
 			<model name=''>
