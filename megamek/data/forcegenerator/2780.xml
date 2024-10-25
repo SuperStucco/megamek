@@ -1079,6 +1079,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+	    <chassis name='Daedalus' unitType='Mek'>
+		    <availability>PIR:2:2801</availability>
+		    <model name='GTX2 (Militarized)'>
+			    <availability>PIR:8</availability>
+		    </model>
+	    </chassis>
 		<chassis name='Daimyo HQ' unitType='Tank'>
 			<availability>DC:2</availability>
 			<model name='67-K'>
