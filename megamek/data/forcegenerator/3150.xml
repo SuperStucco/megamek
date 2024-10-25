@@ -5803,18 +5803,22 @@
 				<availability>CC:5,MOC:4,LA:4,ROS:4,IS:2,FWL:4,FS:4,CP:4,CDP:4,Periphery:4,DC:4</availability>
 			</model>
 			<model name='(Clan)'>
+                <roles>urban</roles>
 				<availability>MERC.WD:8,ROS:4,CLAN:8</availability>
 			</model>
 			<model name='(Gauss)'>
+                <roles>fier_support</roles>
 				<availability>CC:8,MOC:8,LA:8,ROS:8,FWL:8,IS:8,FS:8,CP:8,DC:8,TC:8,CWIE:4</availability>
 			</model>
 			<model name='(MRM)'>
 				<availability>FVC:4,DC:8,Periphery:4</availability>
 			</model>
 			<model name='(Mk. I)'>
+                <roles>urban</roles>
 				<availability>IS:1,Periphery:1</availability>
 			</model>
 			<model name='(Mk. II)'>
+                <roles>urban</roles>
 				<availability>Periphery:2</availability>
 			</model>
 		</chassis>

@@ -2173,12 +2173,15 @@
 		<chassis name='Demolisher Heavy Tank' unitType='Tank'>
 			<availability>MOC:10,HL:7,FRR:7,IS:7,Periphery.Deep:8,SIC:7,Periphery:9,TC:10,CS:6-,OA:10,LA:9,FWL:8,NIOPS:6-</availability>
 			<model name='(Defensive)'>
+                <roles>urban</roles>
 				<availability>IS:2,Periphery:2</availability>
 			</model>
 			<model name='(Mk. I)'>
+                <roles>urban</roles>
 				<availability>IS:3,Periphery:3</availability>
 			</model>
 			<model name='(Mk. II)'>
+                <roles>urban</roles>
 				<availability>HL:4,IS:6,Periphery.Deep:5,Periphery:6</availability>
 			</model>
 		</chassis>

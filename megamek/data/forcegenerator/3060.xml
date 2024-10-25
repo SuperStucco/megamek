@@ -3875,21 +3875,26 @@
 				<availability>CC:5,MOC:4,CS:4,LA:4,FRR:4,IS:2,FWL:4,WOB:4,SIC:4,FS:4,TC:4,DC:4</availability>
 			</model>
 			<model name='(Clan)'>
+                <roles>urban</roles>
 				<availability>MERC.WD:8,CLAN:8</availability>
 			</model>
 			<model name='(Defensive)'>
+                <roles>urban</roles>
 				<availability>IS:2,Periphery:2</availability>
 			</model>
 			<model name='(Gauss)'>
+                <roles>fire_support</roles>
 				<availability>CC:8,CS:8,LA:8,FRR:6,FWL:8,IS:4,WOB:8,SIC:7,FS:8,DC:8,CWIE:4</availability>
 			</model>
 			<model name='(MRM)'>
 				<availability>DC:4</availability>
 			</model>
 			<model name='(Mk. I)'>
+                <roles>urban</roles>
 				<availability>IS:2,Periphery:2</availability>
 			</model>
 			<model name='(Mk. II)'>
+                <roles>urban</roles>
 				<availability>HL:4,IS:6,Periphery.Deep:5,Periphery:6</availability>
 			</model>
 		</chassis>

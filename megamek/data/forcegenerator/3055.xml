@@ -3078,19 +3078,20 @@
 		</chassis>
 		<chassis name='Demolisher Heavy Tank' unitType='Tank'>
 			<availability>CHH:5,HL:9,CLAN:4,IS:7,Periphery.Deep:9,WOB:6,SIC:9,FS:9,CIR:9,CWIE:6,Periphery:10,TC:9,CS:6,OA:9,LA:9,FWL:8,NIOPS:6</availability>
-			<model name='(Clan)'>
-				<availability>MERC.WD:6,CLAN:6</availability>
-			</model>
 			<model name='(Defensive)'>
+                <roles>urban</roles>
 				<availability>IS:2,Periphery:2</availability>
 			</model>
 			<model name='(Gauss)'>
+                <roles>fire_support</roles>
 				<availability>CC:5+,CS:5,LA:5+,FRR:4+,FWL:5+,IS:4+,WOB:5,SIC:4+,FS:5+,DC:5+,CWIE:4</availability>
 			</model>
 			<model name='(Mk. I)'>
+                <roles>urban</roles>
 				<availability>IS:3,Periphery:3</availability>
 			</model>
 			<model name='(Mk. II)'>
+                <roles>urban</roles>
 				<availability>HL:4,IS:6,Periphery.Deep:5,Periphery:6</availability>
 			</model>
 		</chassis>
