@@ -4974,6 +4974,30 @@
 				<availability>CWE:4,LA:2,CJF:4,RA:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Crosscut' unitType='Mek'>
+            <availability>MERC:2-,Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='ED-X4M-A LoggerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='ED-X4M-E LoggerMech MOD'>
+                <availability>ROS.pm:8,General:2</availability>
+            </model>
+            <model name='ED-X2M LoggerMech MOD'>
+                <availability>PIR:8</availability>
+            </model>
+            <model name='ED-X4M LoggerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='ED-X4M-L LoggerMech MOD'>
+                <availability>General:3</availability>
+            </model>
+            <model name='ED-X5M LoggerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='ED-X5M-B LoggerMech MOD'>
+                <availability>ROS.pm:3,MH:7+</availability>
+            </model>
+        </chassis>
 		<chassis name='Crow Scout Helicopter' unitType='VTOL'>
 			<availability>CC:3,MOC:3,MERC.KH:3,MERC.WD:3,RF:3,IS:2,FWL:3,FR:2,MERC:3,CP:2,DA:3,DC:5</availability>
 			<model name=''>

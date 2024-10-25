@@ -1527,6 +1527,21 @@
 				<availability>CLAN:7,CGS:8,BAN:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Crosscut' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='ED-X4M-A LoggerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='ED-X2M LoggerMech MOD'>
+                <availability>PIR:8</availability>
+            </model>
+            <model name='ED-X2 LoggerMech (RL)'>
+                <availability>General:8</availability>
+            </model>
+            <model name='ED-X5M LoggerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Cruiser' unitType='Warship'>
 			<availability>DC:1</availability>
 			<model name=''>

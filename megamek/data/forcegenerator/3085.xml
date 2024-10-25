@@ -4682,6 +4682,27 @@
 				<availability>CLAN:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Crosscut' unitType='Mek'>
+            <availability>ROS.pm:2-,MERC:4-,Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='ED-X4M-A LoggerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='ED-X4M-E LoggerMech MOD'>
+                <availability>ROS.pm:8,General:2</availability>
+            </model>
+            <model name='ED-X2M LoggerMech MOD'>
+                <availability>PIR:8</availability>
+            </model>
+            <model name='ED-X4M LoggerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='ED-X5M LoggerMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='ED-X5M-B LoggerMech MOD'>
+                <availability>ROS.pm:3,MH:7+</availability>
+            </model>
+        </chassis>
 		<chassis name='Crow Scout Helicopter' unitType='VTOL'>
 			<availability>CC:3,MOC:3,OP:3,MERC.KH:3,IS:2,FR:2,MERC:3,DTA:3,MERC.WD:3,RF:3,ROS:4,CNC:3,FWL:3,MSC:3,DA:3,RCM:3,DC:5</availability>
 			<model name=''>
