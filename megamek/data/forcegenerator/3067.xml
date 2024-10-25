@@ -12080,6 +12080,15 @@
 				<availability>CDS:6,CBS:6,CSV:6,General:8,CJF:7,CGB:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Powerman' unitType='Mek'>
+            <availability>MERC:3-:3072,Periphery:2-,PIR:5,BAN:4-</availability>
+            <model name='SC XI-M LoaderMech MOD'>
+                <availability>General:5</availability>
+            </model>
+            <model name='SC XI-M-B LoaderMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Predator Tank Destroyer' unitType='Tank'>
 			<availability>CC:2-</availability>
 			<model name='(Original)'>

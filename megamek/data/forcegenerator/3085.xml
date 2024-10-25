@@ -13318,6 +13318,15 @@
 				<availability>CDS:6,General:8,CJF:7,CGB:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Powerman' unitType='Mek'>
+            <availability>ROS.pm:2-,MERC:4-,Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='SC XI-M LoaderMech MOD'>
+                <availability>ROS.pm:8,General:5</availability>
+            </model>
+            <model name='SC XI-M-B LoaderMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Predator' unitType='Mek'>
 			<availability>CSA:3,CDS:5</availability>
 			<model name=''>

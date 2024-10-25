@@ -14339,6 +14339,15 @@
 				<availability>RD:8,CDS:6,General:8,CP:6,CJF:7</availability>
 			</model>
 		</chassis>
+        <chassis name='Powerman' unitType='Mek'>
+            <availability>MERC:2-,Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='SC XI-M LoaderMech MOD'>
+                <availability>General:5</availability>
+            </model>
+            <model name='SC XI-M-B LoaderMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Predator Tank Destroyer' unitType='Tank'>
 			<availability>CC:6,MOC:5,RF:4,FWL:4,DA:5,MERC:4</availability>
 			<model name=''>

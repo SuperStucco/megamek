@@ -3631,6 +3631,15 @@
 				<availability>General:8,CLAN:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Powerman' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4</availability>
+            <model name='SC XI-M LoaderMech MOD'>
+                <availability>General:5</availability>
+            </model>
+            <model name='SC XI-M-B LoaderMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Pressurized Yard' unitType='Space Station'>
 			<availability>CS:7,CLAN:4,IS:5,Periphery:6</availability>
 			<model name='Huge (2450)'>

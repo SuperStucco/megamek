@@ -4409,6 +4409,15 @@
 				<availability>CLAN:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Powerman' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='SC XI-M LoaderMech MOD'>
+                <availability>General:5</availability>
+            </model>
+            <model name='SC XI-M-B LoaderMech MOD'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Predator Tank Destroyer' unitType='Tank'>
 			<availability>CC:4</availability>
 			<model name='(Original)'>
