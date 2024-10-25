@@ -4739,18 +4739,30 @@
 			</model>
 		</chassis>
 		<chassis name='Overlord C' unitType='Dropship'>
-			<availability>CHH:7,CBS:7,CLAN:8</availability>
+			<availability>CHH:7,CBS:7,CLAN:8,BAN:3+</availability>
 			<model name='(2818)'>
 				<roles>mek_carrier</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Overlord' unitType='Dropship'>
-			<availability>MOC:5,CC:6,CHH:7,HL:2,FRR:6,CLAN:8,IS:5,Periphery.Deep:4,SIC:6,FS:6,CIR:5,BAN:4,Periphery:4,TC:5,CS:7,OA:5,LA:6,CBS:7,FWL:6,NIOPS:7,MH:4,DC:6</availability>
-			<model name='(2762)'>
-				<roles>mek_carrier</roles>
-				<availability>General:8,BAN:1</availability>
-			</model>
+			<availability>MOC:5,CC:6,CHH:7,HL:2,FRR:6,CLAN:4-,IS:5,Periphery.Deep:4,SIC:6,FS:6,CIR:5,BAN:0,Periphery:4,TC:5,CS:7,OA:5,LA:6,CBS:7,FWL:6,NIOPS:7,MH:4,DC:6</availability>
+            <model name='(2762)'>
+                <roles>mek_carrier</roles>
+                <availability>IS:8,CS:5,Periphery:8</availability>
+            </model>
+            <model name='(2775) (Combined Arms)'>
+                <roles>mek_carrier,vee_carrier</roles>
+                <availability>General:4,CHH:6,CS:6</availability>
+            </model>
+            <model name='(2809) (Klondike)'>
+                <roles>mek_carrier</roles>
+                <availability>CLAN:8,CHH:4</availability>
+            </model>
+            <model name='(2817) (Command)'>
+                <roles>mek_carrier</roles>
+                <availability>IS:3+,FS:4+</availability>
+            </model>
 		</chassis>
 		<chassis name='Packrat LRPV' unitType='Tank'>
 			<availability>CC:2,FRR:5,IS:3,Periphery.Deep:4,FS:4,CIR:3,FS.CrMM:6,Periphery:2,CS:6,LA:4,FS.CMM:6,FS.DMM:6,NIOPS:6</availability>

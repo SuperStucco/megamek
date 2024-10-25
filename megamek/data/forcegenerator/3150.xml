@@ -13805,27 +13805,40 @@
 			</model>
 		</chassis>
 		<chassis name='Overlord C' unitType='Dropship'>
-			<availability>CHH:7,CLAN:8</availability>
+			<availability>CHH:7,CLAN:8,BAN:3+</availability>
 			<model name='(2818)'>
 				<roles>mek_carrier</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Overlord' unitType='Dropship'>
-			<availability>MOC:5,CC:6,CHH:7,CLAN:8,IS:5,FS:6,CP:6,BAN:5,Periphery:4,TC:5,RA.OA:5,LA:6,FWL:6,MH:5,DC:6</availability>
-			<model name='(2762)'>
-				<roles>mek_carrier</roles>
-				<availability>General:2,BAN:1</availability>
-			</model>
+			<availability>MOC:5,CC:6,CHH:7,CLAN:4-,IS:5,FS:6,CP:6,BAN:1,Periphery:4,TC:5,RA.OA:5,LA:6,FWL:6,MH:5,DC:6</availability>
+            <model name='(2762)'>
+                <roles>mek_carrier</roles>
+                <availability>IS:2,Periphery:8</availability>
+            </model>
+            <model name='(2775) (Combined Arms)'>
+                <roles>mek_carrier,vee_carrier</roles>
+                <availability>General:4,CHH:6</availability>
+            </model>
+            <model name='(2809) (Klondike)'>
+                <roles>mek_carrier</roles>
+                <availability>CLAN:8,CHH:4</availability>
+            </model>
+            <model name='(2817) (Command)'>
+                <roles>mek_carrier</roles>
+                <availability>IS:3+,FS:4+</availability>
+            </model>
 			<model name='(3056)'>
 				<roles>mek_carrier</roles>
 				<availability>LA:8,IS:6,FS:8</availability>
 			</model>
 			<model name='A3'>
-				<roles>assault</roles>
+				<roles>pocket_warship</roles>
 				<availability>FS:3</availability>
 			</model>
 			<model name='A3A'>
+                <roles>pocket_warship</roles>
 				<availability>LA:2,ROS:2,FS:2</availability>
 			</model>
 		</chassis>

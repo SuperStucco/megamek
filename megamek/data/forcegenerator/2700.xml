@@ -2730,6 +2730,17 @@
 				<availability>SL.R:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Overlord' unitType='Dropship'>
+            <availability>IS:4:2762,SL:6:2762,MERC:3:2762,Periphery:3:2762</availability>
+            <model name='(2762)'>
+                <roles>mek_carrier</roles>
+                <availability>General:8,SL.R:4-</availability>
+            </model>
+            <model name='(2762b)'>
+                <roles>mek_carrier</roles>
+                <availability>SL.R:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Packrat LRPV' unitType='Tank'>
 			<availability>MOC:2,CC:2,IS:3,RWR:2,FS:4,Periphery:3,TC:2,OA:2,LA:4,TH.HM:4</availability>
 			<model name='PKR-T5'>

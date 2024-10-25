@@ -2847,8 +2847,16 @@
 			<availability>CC:4,LA:4,SL:6,IS:3,FWL:4,FS:4,Periphery:3,DC:4</availability>
 			<model name='(2762)'>
 				<roles>mek_carrier</roles>
-				<availability>General:8</availability>
+				<availability>General:8,SL.R:4-</availability>
 			</model>
+            <model name='(2762b)'>
+                <roles>mek_carrier</roles>
+                <availability>SL.R:8</availability>
+            </model>
+            <model name='(2775) (Combined Arms)'>
+                <roles>mek_carrier,vee_carrier</roles>
+                <availability>General:4:2775</availability>
+            </model>
 		</chassis>
 		<chassis name='Packrat LRPV' unitType='Tank'>
 			<availability>MOC:2,CC:2,IS:3,RWR:2,FS:4,FS.CrMM:6,Periphery:3,TC:2,OA:2,LA:4,FS.CMM:6,FS.DMM:6,FWL:3,TH.HM:4</availability>

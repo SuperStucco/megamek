@@ -2868,10 +2868,18 @@
 		</chassis>
 		<chassis name='Overlord' unitType='Dropship'>
 			<availability>CC:5,MOC:4,IS:4,FS:5,CIR:4,Periphery:3,TC:4,OA:4,LA:5,SL:7,FWL:5,NIOPS:7,DC:5</availability>
-			<model name='(2762)'>
-				<roles>mek_carrier</roles>
-				<availability>General:8</availability>
-			</model>
+            <model name='(2762)'>
+                <roles>mek_carrier</roles>
+                <availability>General:8,SL.R:6-</availability>
+            </model>
+            <model name='(2762b)'>
+                <roles>mek_carrier</roles>
+                <availability>SL.R:4</availability>
+            </model>
+            <model name='(2775) (Combined Arms)'>
+                <roles>mek_carrier,vee_carrier</roles>
+                <availability>General:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Packrat LRPV' unitType='Tank'>
 			<availability>MOC:5,IS:6,Periphery.Deep:6,FS.CrMM:7,Periphery:6,TC:5,OA:5,LA:8,FS.CMM:7,FS.DMM:7,NIOPS:6,DC:7</availability>
