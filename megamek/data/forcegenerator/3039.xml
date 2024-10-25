@@ -3160,6 +3160,15 @@
 				<availability>FWL:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Harvester' unitType='Mek'>
+            <availability>Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='HVR-199M AgroMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='HVR-199M-M AgroMech MOD'>
+                <availability>Periphery:8,PIR:6,BAN:4</availability>
+            </model>
+        </chassis>
 		<chassis name='Hatamoto-Chi' unitType='Mek'>
 			<availability>DC:6</availability>
 			<model name='HTM-26T'>

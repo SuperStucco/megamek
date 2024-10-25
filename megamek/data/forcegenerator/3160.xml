@@ -8262,6 +8262,21 @@
 				<availability>CHH:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Harvester' unitType='Mek'>
+            <availability>MERC:2-,Periphery:2-,PIR:4,BAN:4-</availability>
+            <model name='HVR-199M AgroMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='HVR-199M-A AgroMech MOD'>
+                <availability>General:3</availability>
+            </model>
+            <model name='HVR-199M-B AgroMech MOD'>
+                <availability>General:3</availability>
+            </model>
+            <model name='HVR-199M-M AgroMech MOD'>
+                <availability>Periphery:8,PIR:6,BAN:4</availability>
+            </model>
+        </chassis>
 		<chassis name='Hasek Mechanized Combat Vehicle' unitType='Tank'>
 			<availability>FS.CMM:6,FS.NSF:6,FS:5,MERC:4,CJF:3</availability>
 			<model name=''>

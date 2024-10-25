@@ -7501,6 +7501,21 @@
 				<availability>CHH:5,CSL:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Harvester' unitType='Mek'>
+            <availability>WOB.PM:2-,MERC:4-,Periphery:2-,PIR:5,BAN:4-</availability>
+            <model name='HVR-199M AgroMech MOD'>
+                <availability>General:8</availability>
+		    </model>
+		    <model name='HVR-199M-A AgroMech MOD'>
+                <availability>WOB.PM:8</availability>
+		    </model>
+		    <model name='HVR-199M-B AgroMech MOD'>
+                <availability>WOB.PM:8</availability>
+            </model>
+            <model name='HVR-199M-M AgroMech MOD'>
+                <availability>WOB.PM:8,Periphery:8,PIR:6,BAN:4</availability>
+            </model>
+        </chassis>
 		<chassis name='Hatamoto-Chi' unitType='Mek'>
 			<availability>FRR:4,WOB:5,MERC:3,DC:7</availability>
 			<model name='HTM-26T'>

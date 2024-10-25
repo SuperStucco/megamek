@@ -1758,6 +1758,15 @@
 				<availability>FWL:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Harvester' unitType='Mek'>
+            <availability>PP:5,Periphery:2-,PIR:4</availability>
+            <model name='HVR-199M AgroMech MOD'>
+                <availability>General:8</availability>
+            </model>
+            <model name='HVR-199M-M AgroMech MOD'>
+                <availability>PP:8,Periphery:8,PIR:6</availability>
+            </model>
+        </chassis>
 		<chassis name='Harvester Ant' unitType='Mek'>
 			<availability>PP:5</availability>
 		</chassis>
