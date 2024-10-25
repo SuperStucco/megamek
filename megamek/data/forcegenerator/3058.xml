@@ -9325,13 +9325,15 @@
 		<chassis name='Thunder Hawk' unitType='Mek'>
 			<availability>CS:2,LA:5,CLAN:2,NIOPS:2,MERC:3</availability>
 			<model name='TDK-7KMA'>
-				<roles>missile_artillery</roles>
+				<roles>command,mixed_artillery</roles>
 				<availability>LA:4</availability>
 			</model>
 			<model name='TDK-7X'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='TDK-7Y'>
+                <roles>command</roles>
 				<availability>LA:4</availability>
 			</model>
 		</chassis>

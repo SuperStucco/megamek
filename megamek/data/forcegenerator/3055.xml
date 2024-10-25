@@ -8686,9 +8686,11 @@
 		<chassis name='Thunder Hawk' unitType='Mek'>
 			<availability>CS:2,LA:5,CLAN:2,NIOPS:2,MERC:2</availability>
 			<model name='TDK-7X'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='TDK-7Y'>
+                <roles>command</roles>
 				<availability>LA:4</availability>
 			</model>
 		</chassis>

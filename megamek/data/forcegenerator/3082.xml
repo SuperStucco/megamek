@@ -15501,16 +15501,19 @@
 		<chassis name='Thunder Hawk' unitType='Mek'>
 			<availability>LA:8,ROS:4,MERC:4</availability>
 			<model name='TDK-7KMA'>
-				<roles>missile_artillery</roles>
+				<roles>command,mixed_artillery</roles>
 				<availability>LA:6,ROS:6,MERC:2</availability>
 			</model>
 			<model name='TDK-7S'>
+                <roles>command</roles>
 				<availability>LA:6,ROS:6,MERC:2</availability>
 			</model>
 			<model name='TDK-7X'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='TDK-7Y'>
+                <roles>command</roles>
 				<availability>LA:4,ROS:4</availability>
 			</model>
 		</chassis>

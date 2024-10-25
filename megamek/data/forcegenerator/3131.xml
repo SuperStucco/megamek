@@ -17998,18 +17998,25 @@
 		<chassis name='Thunder Hawk' unitType='Mek'>
 			<availability>LA:8,ROS:6,MERC:4</availability>
 			<model name='TDK-7KMA'>
-				<roles>missile_artillery</roles>
+				<roles>command,mixed_artillery</roles>
 				<availability>LA:6,ROS:6,MERC:4</availability>
 			</model>
 			<model name='TDK-7S'>
+                <roles>command</roles>
 				<availability>LA:8,ROS:6,MERC:6</availability>
 			</model>
 			<model name='TDK-7X'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='TDK-7Y'>
+                <roles>command</roles>
 				<availability>LA:4,ROS:4</availability>
 			</model>
+            <model name='TDK-7Z'>
+                <roles>command,fire_support</roles>
+                <availability>LA:3:3138,MERC:2:3138</availability>
+            </model>
 		</chassis>
 		<chassis name='Thunder Stallion' unitType='Mek'>
 			<availability>CHH:5</availability>

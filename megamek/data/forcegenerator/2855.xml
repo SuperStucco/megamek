@@ -4756,6 +4756,7 @@
 		<chassis name='Thunder Hawk' unitType='Mek'>
 			<availability>CS:2,LA:2+,CLAN:4,NIOPS:2,DC:2+</availability>
 			<model name='TDK-7X'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

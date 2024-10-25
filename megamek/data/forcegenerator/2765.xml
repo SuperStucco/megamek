@@ -3614,8 +3614,9 @@
 			</model>
 		</chassis>
 		<chassis name='Thunder Hawk' unitType='Mek'>
-			<availability>SL.R:3</availability>
+			<availability>SL.R:3:2771</availability>
 			<model name='TDK-7X'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

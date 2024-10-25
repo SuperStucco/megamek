@@ -6353,6 +6353,7 @@
 		<chassis name='Thunder Hawk' unitType='Mek'>
 			<availability>CS:2,CLAN:2,NIOPS:2</availability>
 			<model name='TDK-7X'>
+                <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
