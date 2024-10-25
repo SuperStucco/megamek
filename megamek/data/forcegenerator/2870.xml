@@ -2393,6 +2393,7 @@
 		<chassis name='Grasshopper' unitType='Mek'>
 			<availability>CS:4-,MOC:6,OA:6,IS:6,NIOPS:4-,Periphery.Deep:6,MERC:7,DC:6,TC:6</availability>
 			<model name='GHR-5H'>
+                <roles>raider</roles>
 				<availability>IS:8,Periphery.Deep:8,Periphery:8</availability>
 			</model>
 		</chassis>

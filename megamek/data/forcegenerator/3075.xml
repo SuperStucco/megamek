@@ -6976,21 +6976,27 @@
 		<chassis name='Grasshopper' unitType='Mek'>
 			<availability>CS:4-,HL:5,IS:5,NIOPS:4-,Periphery.Deep:5,WOB:4-,MERC:7,Periphery:6,DC:6</availability>
 			<model name='GHR-5H'>
+                <roles>raider</roles>
 				<availability>HL:2-,IS:4-,Periphery.Deep:8,Periphery:4-</availability>
 			</model>
 			<model name='GHR-5J'>
+                <roles>raider</roles>
 				<availability>CS:2-,IS:5,WOB:2-,Periphery:3</availability>
 			</model>
 			<model name='GHR-5N'>
+                <roles>raider</roles>
 				<availability>General:2-</availability>
 			</model>
 			<model name='GHR-6K'>
+                <roles>raider</roles>
 				<availability>FRR:5,MERC:3,FS:3,DC:5</availability>
 			</model>
 			<model name='GHR-7K'>
+                <roles>raider</roles>
 				<availability>DC:5</availability>
 			</model>
 			<model name='GHR-C'>
+                <roles>raider</roles>
 				<availability>IS:3,DC:3</availability>
 			</model>
 		</chassis>

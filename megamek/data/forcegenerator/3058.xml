@@ -4351,15 +4351,19 @@
 		<chassis name='Grasshopper' unitType='Mek'>
 			<availability>CS:4-,HL:5,IS:6,NIOPS:4-,Periphery.Deep:5,WOB:4-,MERC:7,Periphery:6</availability>
 			<model name='GHR-5H'>
+                <roles>raider</roles>
 				<availability>HL:4,IS:6,Periphery.Deep:6,Periphery:6</availability>
 			</model>
 			<model name='GHR-5J'>
+                <roles>raider</roles>
 				<availability>CS:2,IS:2+,WOB:2,Periphery:2+</availability>
 			</model>
 			<model name='GHR-5N'>
+                <roles>raider</roles>
 				<availability>General:2</availability>
 			</model>
 			<model name='GHR-C'>
+                <roles>raider</roles>
 				<availability>IS:2+,DC:3+</availability>
 			</model>
 		</chassis>
