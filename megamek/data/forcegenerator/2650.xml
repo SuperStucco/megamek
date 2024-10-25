@@ -523,7 +523,8 @@
 		<chassis name='Burke Defense Tank' unitType='Tank'>
 			<availability>SL:8</availability>
 			<model name=''>
-				<availability>General:8,SL.R:8</availability>
+                <roles>fire_support</roles>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bus' unitType='Small Craft'>

@@ -3239,9 +3239,11 @@
 		<chassis name='Burke Defense Tank' unitType='Tank'>
 			<availability>CHH:4,CDS:4,ROS:6,CNC:4,NIOPS:7,CJF:4</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:8,CLAN:6</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>fire_support</roles>
 				<availability>ROS:4</availability>
 			</model>
 		</chassis>

@@ -2472,6 +2472,7 @@
 		<chassis name='Burke Defense Tank' unitType='Tank'>
 			<availability>CS:7,CHH:4,NIOPS:7,WOB:7</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:8,CLAN:6</availability>
 			</model>
 		</chassis>
