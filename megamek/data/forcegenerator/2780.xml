@@ -1088,7 +1088,7 @@
 		<chassis name='Daimyo HQ' unitType='Tank'>
 			<availability>DC:2</availability>
 			<model name='67-K'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

@@ -5502,13 +5502,21 @@
 		<chassis name='Daimyo HQ' unitType='Tank'>
 			<availability>RD:2,DC:3+</availability>
 			<model name='67-K'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='67-K2'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>DC:4</availability>
 			</model>
+            <model name='67-NC'>
+                <roles>support</roles>
+                <availability>General:7-,RD:0</availability>
+            </model>
+            <model name='67-R'>
+                <roles>command,support</roles>
+                <availability>RD:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Daimyo' unitType='Mek'>
 			<availability>RD:5,ROS:5,DC:7</availability>

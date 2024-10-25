@@ -3730,9 +3730,13 @@
 		<chassis name='Daimyo HQ' unitType='Tank'>
 			<availability>FRR:2+,DC:2+</availability>
 			<model name='67-K'>
-				<roles>support</roles>
+				<roles>command,support</roles>
 				<availability>General:8</availability>
 			</model>
+            <model name='67-NC'>
+                <roles>support</roles>
+                <availability>General:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Daimyo' unitType='Mek'>
 			<availability>FRR:6,DC:7</availability>
