@@ -3999,6 +3999,7 @@
 		<chassis name='Wolverine II' unitType='Mek'>
 			<availability>SL.R:5</availability>
 			<model name='WVR-7H'>
+                <roles>command,recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

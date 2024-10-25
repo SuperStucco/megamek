@@ -4097,6 +4097,13 @@
 				<availability>DC:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Wolverine II' unitType='Mek'>
+            <availability>CWOV:8,CLAN:4</availability>
+            <model name='WVR-7H'>
+                <roles>command,recon</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Wolverine' unitType='Mek'>
 			<availability>PP:5,CS:5-,IS:7,Periphery.Deep:6,FWL:9,NIOPS:5-,TC:5,DC:6</availability>
 			<model name='WVR-1R'>

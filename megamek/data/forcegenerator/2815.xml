@@ -4512,6 +4512,7 @@
 		<chassis name='Wolverine II' unitType='Mek'>
 			<availability>CWOV:8,CLAN:4</availability>
 			<model name='WVR-7H'>
+                <roles>command,recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
