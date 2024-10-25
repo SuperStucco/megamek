@@ -16943,6 +16943,17 @@
 				<availability>RA.OA:4-,FVC:4-,MERC:4-,Periphery:3-</availability>
 			</model>
 		</chassis>
+        <chassis name='Spartan' unitType='Mek'>
+            <availability>CC:3+,SE:4</availability>
+            <model name='C'>
+                <roles>cavalry</roles>
+                <availability>SE:8</availability>
+            </model>
+            <model name='SPT-N4'>
+                <roles>cavalry,spotter</roles>
+                <availability>CC:8</availability>
+            </model>
+        </chassis>
 		<chassis name='SpecOps Paratrooper' unitType='Infantry'>
 			<availability>FS:3+</availability>
 			<model name='MI6 Extraction Team'>

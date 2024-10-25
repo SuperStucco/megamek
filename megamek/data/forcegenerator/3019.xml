@@ -5441,10 +5441,11 @@
 		<chassis name='Spartan' unitType='Mek'>
 			<availability>CS:5,CHH:2,CFM:4,CCO:2</availability>
 			<model name='C'>
+                <roles>cavalry</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='SPT-N2'>
-				<roles>spotter</roles>
+				<roles>cavalry,spotter</roles>
 				<availability>IS:8</availability>
 			</model>
 		</chassis>

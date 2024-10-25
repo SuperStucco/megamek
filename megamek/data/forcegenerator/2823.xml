@@ -4060,7 +4060,7 @@
 		<chassis name='Spartan' unitType='Mek'>
 			<availability>CS:5</availability>
 			<model name='SPT-N2'>
-				<roles>spotter</roles>
+				<roles>cavalry,spotter</roles>
 				<availability>IS:8</availability>
 			</model>
 		</chassis>

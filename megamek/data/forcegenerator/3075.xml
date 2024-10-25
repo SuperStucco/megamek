@@ -14847,11 +14847,11 @@
 		<chassis name='Spartan' unitType='Mek'>
 			<availability>CS:4,WOB:4,MERC:2</availability>
 			<model name='SPT-N2'>
-				<roles>spotter</roles>
+				<roles>cavalry,spotter</roles>
 				<availability>IS:8</availability>
 			</model>
 			<model name='SPT-N3'>
-				<roles>spotter</roles>
+				<roles>cavalry,spotter</roles>
 				<availability>CS:4,WOB:4</availability>
 			</model>
 		</chassis>
