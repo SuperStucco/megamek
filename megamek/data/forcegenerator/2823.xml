@@ -1627,6 +1627,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Drift Shag' unitType='Mek'>
+            <availability>CIH:2:2827</availability>
+            <model name=''>
+                <availability>CLAN:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Dromedary Water Transport' unitType='Tank'>
 			<availability>TC:3,Periphery:2</availability>
 			<model name=''>

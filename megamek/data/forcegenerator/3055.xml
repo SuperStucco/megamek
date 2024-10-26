@@ -3206,6 +3206,9 @@
 		</chassis>
 		<chassis name='Drift Shag' unitType='Mek'>
 			<availability>CIH:4</availability>
+            <model name=''>
+                <availability>CLAN:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Drillson Heavy Hover Tank' unitType='Tank'>
 			<availability>HL:2,FRR:4,IS:3,WOB:3,SIC:2,FS:6,MERC:3,CC.CHG:4,Periphery:3,CS:3,LA:7</availability>
