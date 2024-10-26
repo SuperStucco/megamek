@@ -8379,7 +8379,7 @@
 			</model>
 			<model name='STY-3D'>
 				<roles>raider</roles>
-				<availability>MOC:4,LA:4,MERC:4</availability>
+				<availability>MOC:4:3057,LA:4:3057,MERC:4:3057</availability>
 			</model>
 		</chassis>
 		<chassis name='Stealth' unitType='Mek'>

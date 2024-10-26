@@ -4938,6 +4938,7 @@
 				<availability>IS:8</availability>
 			</model>
 			<model name='STY-2C-EC'>
+                <roles>raider</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>

@@ -3467,7 +3467,7 @@
 			</model>
 		</chassis>
 		<chassis name='Starslayer' unitType='Mek'>
-			<availability>LA:3+</availability>
+			<availability>LA:3+:2772</availability>
 			<model name='STY-2C'>
 				<roles>raider</roles>
 				<availability>SL:8,IS:8</availability>

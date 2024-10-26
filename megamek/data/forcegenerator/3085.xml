@@ -15577,6 +15577,7 @@
 				<availability>MOC:5,CC:3,OP:3,LA:5,DoO:3,ROS:3,DO:3,TP:3,FS:3,MERC:5</availability>
 			</model>
 			<model name='STY-3Dr'>
+                <roles>raider</roles>
 				<availability>CC:6,MOC:6,PR:6,RF:6,LA:5,ROS:6,PG:6,MERC:6,RFS:6</availability>
 			</model>
 		</chassis>

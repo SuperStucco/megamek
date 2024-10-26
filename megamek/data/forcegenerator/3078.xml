@@ -16012,6 +16012,7 @@
 				<availability>MOC:6,LA:6,MERC:6</availability>
 			</model>
 			<model name='STY-3Dr'>
+                <roles>raider</roles>
 				<availability>LA:4,MERC:3</availability>
 			</model>
 		</chassis>
