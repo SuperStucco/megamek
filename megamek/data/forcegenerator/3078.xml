@@ -12308,6 +12308,7 @@
 		<chassis name='Nightshade ECM VTOL' unitType='VTOL'>
 			<availability>CHH:2,CW:2,ROS:5,CLAN:1,NIOPS:3,WOB:7,CWIE:2,CGB:2</availability>
 			<model name=''>
+                <roles>ew_support</roles>
 				<availability>General:8,WOB:2</availability>
 			</model>
 			<model name='(Armor)'>
@@ -12319,9 +12320,11 @@
 				<availability>ROS:4,WOB:4</availability>
 			</model>
 			<model name='(Light PPC)'>
+                <roles>ew_support</roles>
 				<availability>WOB:6</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>ew_support</roles>
 				<availability>CLAN:8,BAN:4</availability>
 			</model>
 		</chassis>

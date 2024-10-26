@@ -2182,6 +2182,7 @@
 		<chassis name='Nightshade ECM VTOL' unitType='VTOL'>
 			<availability>SL:5,IS:3+</availability>
 			<model name=''>
+                <roles>ew_support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

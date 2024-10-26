@@ -4226,6 +4226,7 @@
 		<chassis name='Nightshade ECM VTOL' unitType='VTOL'>
 			<availability>CS:3,CHH:3,CW:3,CLAN:2,NIOPS:3,CGB:3</availability>
 			<model name=''>
+                <roles>ew_support</roles>
 				<availability>General:8,CLAN:1</availability>
 			</model>
 			<model name='(Armor)'>
@@ -4233,6 +4234,7 @@
 				<availability>IS:4</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>ew_support</roles>
 				<availability>CLAN:8,BAN:4</availability>
 			</model>
 		</chassis>

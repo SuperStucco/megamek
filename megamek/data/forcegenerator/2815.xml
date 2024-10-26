@@ -3237,13 +3237,15 @@
 		<chassis name='Nightshade ECM VTOL' unitType='VTOL'>
 			<availability>PP:4,CS:3,CHH:4,CW:4,CLAN:4,IS:1+,NIOPS:3,CGB:4</availability>
 			<model name=''>
+                <roles>ew_support</roles>
 				<availability>General:8,CLAN:6</availability>
 			</model>
 			<model name='(Armor)'>
 				<roles>apc</roles>
-				<availability>IS:4</availability>
+				<availability>IS:4:2820</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>ew_support</roles>
 				<availability>PP:4,CLAN:8</availability>
 			</model>
 		</chassis>

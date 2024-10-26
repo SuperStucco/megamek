@@ -2023,8 +2023,9 @@
 			</model>
 		</chassis>
 		<chassis name='Nightshade ECM VTOL' unitType='VTOL'>
-			<availability>SL:5</availability>
+			<availability>SL:5:2597</availability>
 			<model name=''>
+                <roles>ew_support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

@@ -2860,9 +2860,11 @@
 		<chassis name='Nightshade ECM VTOL' unitType='VTOL'>
 			<availability>SL:4,IS:4+,NIOPS:3</availability>
 			<model name=''>
+                <roles>ew_support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>ew_support</roles>
 				<availability>SL.R:6</availability>
 			</model>
 		</chassis>

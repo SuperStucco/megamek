@@ -2665,10 +2665,12 @@
 		<chassis name='Nightshade ECM VTOL' unitType='VTOL'>
 			<availability>SL:4,IS:3+</availability>
 			<model name=''>
+                <roles>ew_support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Royal)'>
-				<availability>SL.R:4</availability>
+                <roles>ew_support</roles>
+				<availability>SL.R:4:2717</availability>
 			</model>
 		</chassis>
 		<chassis name='Nightwing Surveillance' unitType='Warship'>
