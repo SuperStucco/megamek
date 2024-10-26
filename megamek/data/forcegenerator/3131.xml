@@ -8583,6 +8583,17 @@
                 <availability>ROS.pm:8,Periphery:8,PIR:6,BAN:4</availability>
             </model>
         </chassis>
+        <chassis name='Harvester Ant' unitType='Mek'>
+            <availability>Peripery:2-,PIR:3</availability>
+            <model name='KIC-3M AgroMech MOD'>
+                <roles>anti_infantry</roles>
+                <availability>General:8</availability>
+            </model>
+            <model name='KIC-3M-B AgroMech MOD'>
+                <roles>fire_support</roles>
+                <availability>General:8,Periphery:5</availability>
+            </model>
+        </chassis>
 		<chassis name='Hasek Mechanized Combat Vehicle' unitType='Tank'>
 			<availability>ROS:4,FS.CMM:7,FS.NSF:7,FS:6,MERC:4,CJF:3</availability>
 			<model name=''>
