@@ -2239,6 +2239,21 @@
 				<availability>Periphery.MW:4,Periphery.ME:4,FWL:4,NIOPS:0,MERC:4</availability>
 			</model>
 		</chassis>
+        <chassis name='HMRV (Hazardous Materials Recovery Vehicle)' unitType='Tank'>
+            <availability>IS:1</availability>
+            <model name='&apos;Oppie&apos; O-65'>
+                <roles>support</roles>
+                <availability>General:8</availability>
+            </model>
+            <model name='Salvage Bed'>
+                <roles>cargo,support</roles>
+                <availability>General:3</availability>
+            </model>
+            <model name='DeConAid Trailer'>
+                <roles>support</roles>
+                <availability>General:1</availability>
+            </model>
+        </chassis>
 		<chassis name='Habitat' unitType='Space Station'>
 			<availability>CS:6,CLAN:8,IS:4,Periphery:4</availability>
 			<model name='Large (2500)'>
@@ -3670,9 +3685,6 @@
                 <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
-		</chassis>
-		<chassis name='O-65 &apos;Oppie&apos; Hazardous Materials Recovery Vehicle' unitType='Tank'>
-			<availability>IS:1</availability>
 		</chassis>
 		<chassis name='Odin Scout Tank' unitType='Tank'>
 			<availability>CLAN:5,CJF:5</availability>

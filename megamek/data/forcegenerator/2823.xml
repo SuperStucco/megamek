@@ -2142,6 +2142,21 @@
 				<availability>FWL:5-,NIOPS:0,MERC:5-</availability>
 			</model>
 		</chassis>
+        <chassis name='HMRV (Hazardous Materials Recovery Vehicle)' unitType='Tank'>
+            <availability>IS:2</availability>
+            <model name='&apos;Oppie&apos; O-65'>
+                <roles>support</roles>
+                <availability>General:8</availability>
+            </model>
+            <model name='Salvage Bed'>
+                <roles>cargo,support</roles>
+                <availability>General:4</availability>
+            </model>
+            <model name='DeConAid Trailer'>
+                <roles>support</roles>
+                <availability>General:3</availability>
+            </model>
+        </chassis>
 		<chassis name='Habitat' unitType='Space Station'>
 			<availability>CS:6,CLAN:4,IS:7,Periphery:7</availability>
 			<model name='Large (2500)'>
@@ -3409,9 +3424,6 @@
                 <roles>command</roles>
 				<availability>General:8</availability>
 			</model>
-		</chassis>
-		<chassis name='O-65 &apos;Oppie&apos; Hazardous Materials Recovery Vehicle' unitType='Tank'>
-			<availability>IS:2</availability>
 		</chassis>
 		<chassis name='Olympus Recharge Station' unitType='Space Station'>
 			<availability>CS:8,MOC:4,OA:4,IS:3,Periphery:2,TC:4</availability>

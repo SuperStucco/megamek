@@ -7467,6 +7467,21 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
+        <chassis name='HMRV (Hazardous Materials Recovery Vehicle)' unitType='Tank'>
+            <availability>IS:3+</availability>
+            <model name='&apos;Oppie&apos; O-66'>
+                <roles>support</roles>
+                <availability>General:8</availability>
+            </model>
+            <model name='Salvage Bed'>
+                <roles>cargo,support</roles>
+                <availability>General:3</availability>
+            </model>
+            <model name='DeConAid Trailer'>
+                <roles>support</roles>
+                <availability>General:1</availability>
+            </model>
+        </chassis>
 		<chassis name='Ha Otoko' unitType='Mek'>
 			<availability>CHH:3,CDS:5,LA:4,CNC:5,IS:4,DC:4,CWIE:4</availability>
 			<model name=''>
