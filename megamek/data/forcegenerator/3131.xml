@@ -1611,6 +1611,7 @@
 		<chassis name='Anhur Transport' unitType='VTOL'>
 			<availability>CHH:6,RD:6,SE:6,CDS:6,CJF:6,CWIE:6,RA:6</availability>
 			<model name=''>
+                <roles>apc,cargo</roles>
 				<availability>CHH:6,RD:6,SE:6,CDS:6,CJF:6,CWIE:6,RA:6</availability>
 			</model>
 			<model name='(BA)'>
@@ -1621,7 +1622,7 @@
 		<chassis name='Anhur' unitType='VTOL'>
 			<availability>BAN:6</availability>
 			<model name='(P-Stealth)'>
-				<roles>raider</roles>
+				<roles>cargo</roles>
 				<availability>BAN:8</availability>
 			</model>
 		</chassis>

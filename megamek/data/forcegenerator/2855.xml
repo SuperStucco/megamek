@@ -582,6 +582,7 @@
 		<chassis name='Anhur Transport' unitType='VTOL'>
 			<availability>CLAN:4</availability>
 			<model name=''>
+                <roles>apc,cargo</roles>
 				<availability>CLAN:4</availability>
 			</model>
 		</chassis>

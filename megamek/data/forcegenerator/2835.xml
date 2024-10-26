@@ -580,8 +580,9 @@
 			</model>
 		</chassis>
 		<chassis name='Anhur Transport' unitType='VTOL'>
-			<availability>CLAN:3</availability>
+			<availability>CLAN:3:2840</availability>
 			<model name=''>
+			    <roles>apc,cargo</roles>
 				<availability>CLAN:3</availability>
 			</model>
 		</chassis>

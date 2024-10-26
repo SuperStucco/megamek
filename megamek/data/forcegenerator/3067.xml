@@ -1121,6 +1121,7 @@
 		<chassis name='Anhur Transport' unitType='VTOL'>
 			<availability>SOC:3,CLAN:6</availability>
 			<model name=''>
+                <roles>apc,cargo</roles>
 				<availability>SOC:3,CLAN:6</availability>
 			</model>
 			<model name='(BA)'>
@@ -1129,9 +1130,9 @@
 			</model>
 		</chassis>
 		<chassis name='Anhur' unitType='VTOL'>
-			<availability>BAN:3</availability>
+			<availability>BAN:3:3074</availability>
 			<model name='(P-Stealth)'>
-				<roles>raider</roles>
+				<roles>cargo</roles>
 				<availability>BAN:8</availability>
 			</model>
 		</chassis>
