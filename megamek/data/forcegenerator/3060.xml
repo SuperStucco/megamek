@@ -4651,6 +4651,7 @@
 		<chassis name='Fire Scorpion' unitType='Mek'>
 			<availability>CGS:8</availability>
 			<model name=''>
+                <roles>urban</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>

@@ -623,7 +623,7 @@
 				<availability>CLAN:8,BAN:4</availability>
 			</model>
 			<model name='ARC-2S'>
-				<roles>fire_support</roles>
+				<roles>command,fire_support</roles>
 				<availability>LA:6</availability>
 			</model>
 		</chassis>
@@ -1947,8 +1947,9 @@
 			</model>
 		</chassis>
 		<chassis name='Fire Scorpion' unitType='Mek'>
-			<availability>CGS:7</availability>
+			<availability>CGS:7:2852</availability>
 			<model name=''>
+			    <roles>urban</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
