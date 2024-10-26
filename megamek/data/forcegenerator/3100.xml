@@ -5280,6 +5280,7 @@
 		<chassis name='Darter Scout Car' unitType='Tank'>
 			<availability>FVC:7,LA:3,ROS:3,FS:7,CDP:4</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='(BAP)'>
@@ -5299,6 +5300,7 @@
 				<availability>FVC:2,FS:2,CDP:2</availability>
 			</model>
 			<model name='(SRM-2)'>
+                <roles>recon</roles>
 				<availability>FVC:2,FS:1,CDP:2</availability>
 			</model>
 		</chassis>

@@ -1422,8 +1422,9 @@
 			</model>
 		</chassis>
 		<chassis name='Darter Scout Car' unitType='Tank'>
-			<availability>FS:4</availability>
+			<availability>FS:4:2822</availability>
 			<model name=''>
+			    <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

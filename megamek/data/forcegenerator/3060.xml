@@ -3807,6 +3807,7 @@
 		<chassis name='Darter Scout Car' unitType='Tank'>
 			<availability>LA:5,FS:7</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='(BAP)'>
@@ -3826,6 +3827,7 @@
 				<availability>FS:3</availability>
 			</model>
 			<model name='(SRM-2)'>
+                <roles>recon</roles>
 				<availability>FS:2</availability>
 			</model>
 		</chassis>
