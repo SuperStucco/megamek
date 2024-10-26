@@ -2636,12 +2636,15 @@
 		<chassis name='Imp' unitType='Mek'>
 			<availability>CSA:2,CW:2,CLAN:2</availability>
 			<model name='IMP-1A'>
+                <roles>command</roles>
 				<availability>CLAN:5</availability>
 			</model>
 			<model name='IMP-1B'>
+                <roles>command</roles>
 				<availability>CLAN:2</availability>
 			</model>
 			<model name='IMP-1C'>
+                <roles>command</roles>
 				<availability>CHH:5,CLAN:2</availability>
 			</model>
 		</chassis>

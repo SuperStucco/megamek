@@ -2000,6 +2000,7 @@
 		<chassis name='Imp' unitType='Mek'>
 			<availability>PP:2</availability>
 			<model name='IMP-1A'>
+                <roles>command</roles>
 				<availability>PP:8</availability>
 			</model>
 		</chassis>

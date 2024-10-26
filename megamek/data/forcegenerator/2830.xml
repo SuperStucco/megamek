@@ -2518,12 +2518,15 @@
 		<chassis name='Imp' unitType='Mek'>
 			<availability>CSA:2,CW:2,CLAN:2</availability>
 			<model name='IMP-1A'>
+                <roles>command</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='IMP-1B'>
+                <roles>command</roles>
 				<availability>CLAN:4</availability>
 			</model>
 			<model name='IMP-1C'>
+                <roles>command</roles>
 				<availability>CHH:8,CLAN:4</availability>
 			</model>
 		</chassis>

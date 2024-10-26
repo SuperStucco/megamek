@@ -7868,15 +7868,19 @@
 		<chassis name='Imp' unitType='Mek'>
 			<availability>CSA:2,MERC.WD:2,CW:2,CLAN:1,CWIE:2</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>MERC.WD:3,CLAN:8</availability>
 			</model>
 			<model name='IMP-2E'>
+                <roles>command</roles>
 				<availability>MERC.WD:1</availability>
 			</model>
 			<model name='IMP-3E'>
+                <roles>command</roles>
 				<availability>MERC.WD:6</availability>
 			</model>
 			<model name='IMP-4E'>
+                <roles>command</roles>
 				<availability>MERC.WD:6</availability>
 			</model>
 		</chassis>

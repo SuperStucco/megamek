@@ -9504,12 +9504,15 @@
 		<chassis name='Imp' unitType='Mek'>
 			<availability>CWE:2,MERC.WD:2,MERC.KH:2,CWIE:2</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>MERC.WD:3,CLAN:8</availability>
 			</model>
 			<model name='IMP-3E'>
+                <roles>command</roles>
 				<availability>MERC.WD:6</availability>
 			</model>
 			<model name='IMP-4E'>
+                <roles>command</roles>
 				<availability>MERC.WD:6,MERC.KH:8</availability>
 			</model>
 		</chassis>

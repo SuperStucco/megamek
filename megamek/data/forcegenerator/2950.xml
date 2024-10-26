@@ -3029,17 +3029,25 @@
 		<chassis name='Imp' unitType='Mek'>
 			<availability>CSA:4,CW:4,CLAN:3</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='IMP-1A'>
+                <roles>command</roles>
 				<availability>CLAN:1</availability>
 			</model>
 			<model name='IMP-1B'>
+                <roles>command</roles>
 				<availability>CLAN:1</availability>
 			</model>
 			<model name='IMP-1C'>
+                <roles>command</roles>
 				<availability>CHH:3,CLAN:1</availability>
 			</model>
+            <model name='IMP-2E'>
+                <roles>command</roles>
+                <availability>MERC.WD:8:3005</availability>
+            </model>
 		</chassis>
 		<chassis name='Indra Infantry Transport' unitType='Tank'>
 			<availability>CHH:7,CLAN:5,CNC:5</availability>

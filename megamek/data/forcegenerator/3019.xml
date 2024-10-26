@@ -3219,9 +3219,11 @@
 		<chassis name='Imp' unitType='Mek'>
 			<availability>CSA:3,MERC.WD:2,CW:3,CLAN:2</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='IMP-2E'>
+                <roles>command</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 		</chassis>

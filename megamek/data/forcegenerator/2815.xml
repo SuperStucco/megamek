@@ -2336,10 +2336,12 @@
 		<chassis name='Imp' unitType='Mek'>
 			<availability>PP:2,CSA:2,CW:2,CLAN:2</availability>
 			<model name='IMP-1A'>
+                <roles>command</roles>
 				<availability>PP:8,CLAN:8</availability>
 			</model>
 			<model name='IMP-1B'>
-				<availability>CLAN:2</availability>
+                <roles>command</roles>
+				<availability>CLAN:2:2821</availability>
 			</model>
 		</chassis>
 		<chassis name='Intruder' unitType='Dropship'>

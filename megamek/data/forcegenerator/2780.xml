@@ -1930,6 +1930,13 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Imp' unitType='Mek'>
+            <availability>SLIE:2+:2793</availability>
+            <model name='IMP-1A'>
+                <roles>command</roles>
+                <availability>SLIE:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Intrepid Assault Craft' unitType='Small Craft'>
 			<availability>FS:1-</availability>
 			<model name='(2478)'>
