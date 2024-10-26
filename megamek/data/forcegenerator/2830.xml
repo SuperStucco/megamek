@@ -3874,6 +3874,10 @@
 		</chassis>
 		<chassis name='Redback' unitType='Mek'>
 			<availability>CWI:4</availability>
+		    <model name=''>
+                <roles>cavalry</roles>
+			    <availability>CWI:8</availability>
+		    </model>
 		</chassis>
 		<chassis name='Rhino Fire Support Tank' unitType='Tank'>
 			<availability>MOC:8,CLAN:9,Periphery.Deep:9,IS:7,CIR:8,MERC:8,Periphery:9,TC:8,CS:9,OA:8,LA:8,NIOPS:9</availability>
