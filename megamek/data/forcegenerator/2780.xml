@@ -2388,10 +2388,6 @@
 				<roles>support</roles>
 				<availability>LA:8</availability>
 			</model>
-			<model name='LM4/P'>
-				<roles>support</roles>
-				<availability>LA:1</availability>
-			</model>
 		</chassis>
 		<chassis name='Lynx' unitType='Mek'>
 			<availability>LA:3+,SL:4,FWL:3+,DC:3+</availability>

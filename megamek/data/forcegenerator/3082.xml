@@ -9949,18 +9949,17 @@
 			<availability>Periphery.R:3,HL:1,LA:2,General:1</availability>
 			<model name='LM1/A'>
 				<roles>support</roles>
-				<availability>General:8</availability>
+				<availability>General:8,PIR:3-</availability>
 			</model>
 			<model name='LM4/C'>
 				<roles>support</roles>
-				<availability>LA:8</availability>
+				<availability>LA:8,PIR:3-</availability>
 			</model>
 			<model name='LM4/P'>
-				<roles>support</roles>
-				<availability>LA:2</availability>
+                <availability>LA.pm:2,PIR:8</availability>
 			</model>
 			<model name='LM5/M MilitiaMech'>
-				<availability>LA:2-</availability>
+				<availability>LA:2-,PIR:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Lung Wang' unitType='Dropship'>

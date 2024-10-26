@@ -3508,15 +3508,14 @@
 			<availability>Periphery.R:2,LA:3,General:2</availability>
 			<model name='LM1/A'>
 				<roles>support</roles>
-				<availability>General:8</availability>
+				<availability>General:8,PIR:3-</availability>
 			</model>
 			<model name='LM4/C'>
 				<roles>support</roles>
-				<availability>LA:8</availability>
+				<availability>LA:8,PIR:3-</availability>
 			</model>
 			<model name='LM4/P'>
-				<roles>support</roles>
-				<availability>LA:1</availability>
+                <availability>LA.pm:1,PIR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Lupus' unitType='Mek' omni='Clan'>
