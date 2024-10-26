@@ -2513,6 +2513,7 @@
 		<chassis name='Hover Scout' unitType='Tank'>
 			<availability>IS:1,Periphery:1</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:5</availability>
 			</model>
 		</chassis>
