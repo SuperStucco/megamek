@@ -4455,8 +4455,17 @@
 		<chassis name='Partisan Heavy Tank' unitType='Tank'>
 			<availability>CC:6,HL:7,IS:8,Periphery.Deep:8,FS:7,CIR:6,Periphery:9,OA:5,FWL:7,DC:6</availability>
 			<model name=''>
+                <roles>anti_aircraft</roles>
 				<availability>General:8</availability>
 			</model>
+            <model name='(AC2)'>
+                <roles>anti_aircraft</roles>
+                <availability>IS:3:3002,Periphery:3:3002</availability>
+            </model>
+            <model name='(LRM)'>
+                <roles>fire_support</roles>
+                <availability>IS:3:3017,Periphery:3:3017</availability>
+            </model>
 		</chassis>
 		<chassis name='Patron LoaderMech' unitType='Mek'>
 			<availability>FWL:6</availability>

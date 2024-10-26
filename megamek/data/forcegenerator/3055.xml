@@ -6994,6 +6994,7 @@
 		<chassis name='Partisan Heavy Tank' unitType='Tank'>
 			<availability>CC:6,HL:8,FRR:6,IS:8,Periphery.Deep:8,WOB:8-,CIR:6,Periphery:9,CS:8-,OA:5,FWL:7,DC:6</availability>
 			<model name=''>
+                <roles>anti_aircraft</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(AC2)'>
@@ -7001,6 +7002,7 @@
 				<availability>IS:3,Periphery:3</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>IS:3,Periphery:3</availability>
 			</model>
 		</chassis>

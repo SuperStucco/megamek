@@ -14240,9 +14240,26 @@
 				<roles>anti_aircraft</roles>
 				<availability>FS:4</availability>
 			</model>
+            <model name='(Cell)'>
+                <roles>fire_support</roles>
+                <availability>IS:2,TC:2,FR:2</availability>
+            </model>
+            <model name='(ELRM)'>
+                <roles>fire_support</roles>
+                <availability>FS:2,ROS:2</availability>
+            </model>
+            <model name='(Light Gauss)'>
+                <roles>fire_support</roles>
+                <availability>FS:2,FWL:2,MERC:2,ROS:2</availability>
+            </model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>Periphery:2-</availability>
 			</model>
+            <model name='(Refit)'>
+                <roles>anti_aircraft</roles>
+                <availability>IS:3</availability>
+            </model>
 		</chassis>
 		<chassis name='Pathfinder' unitType='Mek'>
 			<availability>MERC.pm:4,LA.pm:6</availability>

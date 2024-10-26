@@ -11613,6 +11613,7 @@
 		<chassis name='Partisan Heavy Tank' unitType='Tank'>
 			<availability>CC:4-,HL:6-,FRR:4-,IS:5-,Periphery.Deep:7-,WOB:6-,FS:6-,CIR:4-,Periphery:7-,CS:6-,OA:3-,CDS:4,DC:4-</availability>
 			<model name=''>
+                <roles>anti_aircraft</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(AC2)'>
@@ -11624,8 +11625,13 @@
 				<availability>FS:4</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>IS:3,Periphery:3</availability>
 			</model>
+            <model name='(Refit)'>
+                <roles>anti_aircraft</roles>
+                <availability>IS:3</availability>
+            </model>
 		</chassis>
 		<chassis name='Patriot' unitType='Mek'>
 			<availability>FWL:3</availability>

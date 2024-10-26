@@ -13266,19 +13266,33 @@
 		<chassis name='Partisan Heavy Tank' unitType='Tank'>
 			<availability>MOC:2,CC:1,RA.OA:2,IS:2,FS:3,Periphery:2-,DC:1,TC:3</availability>
 			<model name=''>
+                <roles>anti_aircraft</roles>
 				<availability>General:2-</availability>
 			</model>
 			<model name='(AC2)'>
-				<roles>anti_aircraft</roles>
+                <roles>anti_aircraft</roles>
 				<availability>IS:1-,Periphery:2-</availability>
 			</model>
 			<model name='(C3)'>
 				<roles>anti_aircraft</roles>
 				<availability>FS:4</availability>
 			</model>
+            <model name='(Cell)'>
+                <roles>fire_support</roles>
+                <availability>FS:2,FVC:2,LA:2,MERC:2</availability>
+            </model>
+            <model name='(ELRM)'>
+                <roles>fire_support</roles>
+                <availability>FS:2:3106</availability>
+            </model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>Periphery:2-</availability>
 			</model>
+            <model name='(Refit)'>
+                <roles>anti_aircraft</roles>
+                <availability>IS:3</availability>
+            </model>
 		</chassis>
 		<chassis name='Pathfinder' unitType='Mek'>
 			<availability>MERC.pm:4,LA.pm:6</availability>

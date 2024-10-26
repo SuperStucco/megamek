@@ -4298,6 +4298,7 @@
 		<chassis name='Partisan Heavy Tank' unitType='Tank'>
 			<availability>CC:6,HL:7,IS:8,Periphery.Deep:8,FS:7,CIR:6,Periphery:9,OA:5,LA:8,FWL:7,DC:6</availability>
 			<model name=''>
+                <roles>anti_aircraft</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

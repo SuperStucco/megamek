@@ -2988,6 +2988,13 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Partisan Heavy Tank' unitType='Tank'>
+            <availability>IS:5:2791,FWL:7:2791</availability>
+            <model name=''>
+                <roles>anti_aircraft</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Patron LoaderMech' unitType='Mek'>
 			<availability>FWL:8</availability>
 			<model name=''>

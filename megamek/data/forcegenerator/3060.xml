@@ -9238,6 +9238,7 @@
 		<chassis name='Partisan Heavy Tank' unitType='Tank'>
 			<availability>CC:5,HL:7,FRR:5,IS:6,Periphery.Deep:8,WOB:7,SIC:7,FS:7,CIR:5,Periphery:8,CS:7-,OA:4,CDS:3,DC:5</availability>
 			<model name=''>
+                <roles>anti_aircraft</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(AC2)'>
@@ -9246,11 +9247,16 @@
 			</model>
 			<model name='(C3)'>
 				<roles>anti_aircraft</roles>
-				<availability>FS:2</availability>
+				<availability>FS:2:3062</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>IS:3,Periphery:3</availability>
 			</model>
+            <model name='(Refit)'>
+                <roles>anti_aircraft</roles>
+                <availability>IS:3</availability>
+            </model>
 		</chassis>
 		<chassis name='Patron LoaderMech' unitType='Mek'>
 			<availability>FWL:5</availability>
