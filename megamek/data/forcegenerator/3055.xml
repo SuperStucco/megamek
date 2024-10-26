@@ -6621,6 +6621,9 @@
 		</chassis>
 		<chassis name='Naja' unitType='Mek'>
 			<availability>CCC:2</availability>
+            <model name=''>
+                <availability>CCC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Neptune Submarine' unitType='Naval'>
 			<availability>LA:6,FC:8,FS:8,DC:6</availability>

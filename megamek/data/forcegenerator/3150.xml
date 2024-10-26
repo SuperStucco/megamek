@@ -13107,6 +13107,12 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Naja' unitType='Mek'>
+            <availability>SE:4</availability>
+            <model name=''>
+                <availability>SE:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Naga' unitType='Mek' omni='Clan'>
 			<availability>CWE:4,CHH:4,CJF:3,RA:4,CWIE:4</availability>
 			<model name='A'>

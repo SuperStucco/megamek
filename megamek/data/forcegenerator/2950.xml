@@ -4194,6 +4194,9 @@
 		</chassis>
 		<chassis name='Naja' unitType='Mek'>
 			<availability>CCC:5,CBS:3,CSV:3</availability>
+            <model name=''>
+                <availability>CCC:8,CBS:6,CSV:6</availability>
+            </model>
 			<model name='KTO-19b-EC'>
 				<availability>CCC:2,CBS:2</availability>
 			</model>

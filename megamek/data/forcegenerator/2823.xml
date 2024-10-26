@@ -3376,7 +3376,10 @@
 			</model>
 		</chassis>
 		<chassis name='Naja' unitType='Mek'>
-			<availability>CCC:5,CBS:3,CSV:3,CLAN:3,CMG:3</availability>
+			<availability>CCC:5:2824,CLAN:3:2824</availability>
+            <model name=''>
+                <availability>CCC:8:2826,CLAN:6:2826</availability>
+            </model>
 			<model name='KTO-19b-EC'>
 				<availability>CCC:8,CBS:8,CSV:8,CMG:8</availability>
 			</model>
