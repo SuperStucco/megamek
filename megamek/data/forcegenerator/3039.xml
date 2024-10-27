@@ -2882,9 +2882,11 @@
 		<chassis name='Galahad (Glass Spider)' unitType='Mek'>
 			<availability>CSR:6,CW:6,CLAN:5</availability>
 			<model name=''>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CW:6,CCO:6</availability>
 			</model>
 		</chassis>
