@@ -15151,7 +15151,7 @@
 				<availability>LA:8</availability>
 			</model>
 			<model name='(ELRM)'>
-				<availability>LA:8,ROS:8</availability>
+				<availability>LA:8:3081,ROS:8:3081</availability>
 			</model>
 			<model name='(SRM2)'>
 				<availability>LA:8</availability>

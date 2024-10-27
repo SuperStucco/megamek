@@ -5281,9 +5281,6 @@
 			<model name=''>
 				<availability>LA:8</availability>
 			</model>
-			<model name='(ELRM)'>
-				<availability>LA:8</availability>
-			</model>
 			<model name='(SRM2)'>
 				<availability>LA:8</availability>
 			</model>
