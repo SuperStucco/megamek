@@ -3605,6 +3605,9 @@
 		</chassis>
 		<chassis name='Masauwu' unitType='Mek'>
 			<availability>CSA:4,CCO:6</availability>
+            <model name=''>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Matador' unitType='Mek'>
 			<availability>CSV:6</availability>

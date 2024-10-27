@@ -6140,6 +6140,9 @@
 		</chassis>
 		<chassis name='Masauwu' unitType='Mek'>
 			<availability>CCO:3</availability>
+            <model name=''>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Matador' unitType='Mek'>
 			<availability>CSR:3,CSV:5,CJF:3</availability>

@@ -3149,6 +3149,12 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Masauwu' unitType='Mek'>
+            <availability>CCO:3:2832</availability>
+            <model name=''>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Maultier Hover APC' unitType='Tank'>
 			<availability>CC:4+,MOC:2+,CHH:6,OA:2+,LA:4+,CLAN:4,FWL:4+,FS:4+,MERC:4+,TC:2+,DC:4+</availability>
 			<model name=''>
