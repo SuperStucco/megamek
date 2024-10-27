@@ -7939,9 +7939,11 @@
 		<chassis name='Indra Infantry Transport' unitType='Tank'>
 			<availability>CHH:7,CLAN:5,CNC:3,CWIE:3</availability>
 			<model name=''>
+                <roles>apc</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(BA)'>
+                <roles>apc</roles>
 				<availability>CW:6,CJF:6</availability>
 			</model>
 		</chassis>
