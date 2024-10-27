@@ -11678,6 +11678,7 @@
 		<chassis name='Odin Scout Tank' unitType='Tank'>
 			<availability>ROS:3,CLAN:5,CJF:3</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>MERC.WD:8,ROS:8,CLAN:8</availability>
 			</model>
 			<model name='(Spotter)'>

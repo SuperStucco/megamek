@@ -8895,6 +8895,7 @@
 		<chassis name='Odin Scout Tank' unitType='Tank'>
 			<availability>CLAN:5,CJF:2</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>MERC.WD:8,CLAN:8</availability>
 			</model>
 		</chassis>
