@@ -9195,18 +9195,28 @@
 		<chassis name='Hetzer Wheeled Assault Gun' unitType='Tank'>
 			<availability>CC:6,RD:2-,CDS:2,Periphery.CM:6,CNC:2,IS:2-,Periphery.Deep:4,MERC:4,Periphery:6,CWIE:2</availability>
 			<model name=''>
+                <roles>urban</roles>
 				<availability>General:3-</availability>
 			</model>
+            <model name='C'>
+                <availability>RD:8,CLAN:8</availability>
+            </model>
+            <model name='(Cell)'>
+                <roles>urban</roles>
+                <availability>IS:6+,MERC:6+,Periphery:3+</availability>
+            </model>
 			<model name='(LB-X)'>
 				<availability>CC:8,MOC:6,RF:6,DA:6,CDP:6,TC:6</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>IS:1,Periphery:1</availability>
 			</model>
 			<model name='(Laser)'>
 				<availability>CC:1,IS:1,Periphery:1</availability>
 			</model>
 			<model name='(SRM)'>
+                <roles>sr_fire_support,urban</roles>
 				<availability>IS:1,Periphery:1</availability>
 			</model>
 		</chassis>

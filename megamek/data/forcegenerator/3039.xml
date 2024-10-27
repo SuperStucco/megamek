@@ -3385,21 +3385,25 @@
 		<chassis name='Hetzer Wheeled Assault Gun' unitType='Tank'>
 			<availability>CC:8,Periphery.CM:7,IS:4-,Periphery.Deep:6,SIC:8,MERC:5,Periphery:5</availability>
 			<model name=''>
+                <roles>urban</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(AC10)'>
 				<availability>IS:2,Periphery:2</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>IS:3,Periphery:3</availability>
 			</model>
 			<model name='(Laser)'>
 				<availability>CC:3,IS:3,Periphery:3</availability>
 			</model>
 			<model name='(SRM)'>
+                <roles>sr_fire_support,urban</roles>
 				<availability>IS:3,Periphery:3</availability>
 			</model>
 			<model name='(Scout)'>
+                <roles>recon,urban</roles>
 				<availability>MOC:1,Periphery.CM:1,Periphery.HR:1,IS:1,TC:1</availability>
 			</model>
 		</chassis>

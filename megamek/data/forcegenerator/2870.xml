@@ -2724,15 +2724,16 @@
 			</model>
 		</chassis>
 		<chassis name='Hetzer Wheeled Assault Gun' unitType='Tank'>
-			<availability>CC:6,Periphery.CM:5,IS:3-,Periphery.Deep:5,MERC:4,Periphery:4</availability>
+			<availability>CC:6:2887,Periphery.CM:5:2887,IS:3-:2887,Periphery.Deep:5:2887,MERC:4:2887,Periphery:4:2887</availability>
 			<model name=''>
+			    <roles>urban</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(AC10)'>
-				<availability>IS:2,Periphery:2</availability>
+				<availability>IS:2:2893,Periphery:2:2893</availability>
 			</model>
 			<model name='(Laser)'>
-				<availability>CC:3,IS:2,Periphery:1</availability>
+				<availability>CC:3:2889,IS:2:2889,Periphery:1:2889</availability>
 			</model>
 		</chassis>
 		<chassis name='Highlander IIC' unitType='Mek'>

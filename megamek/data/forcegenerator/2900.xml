@@ -2768,6 +2768,7 @@
 		<chassis name='Hetzer Wheeled Assault Gun' unitType='Tank'>
 			<availability>CC:8,Periphery.CM:7,IS:4-,Periphery.Deep:6,MERC:6,Periphery:6</availability>
 			<model name=''>
+                <roles>urban</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(AC10)'>
