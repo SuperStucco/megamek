@@ -1983,6 +1983,7 @@
 		<chassis name='Boomerang Spotter Plane' unitType='Conventional Fighter'>
 			<availability>CC:4,MERC.KH:3,MERC.WD:5,LA:6,FRR:4,FWL:4,SIC:5,FS:6,MERC:5,DC:4,Periphery:3</availability>
 			<model name=''>
+                <roles>recon,support</roles>
 				<availability>General:8-</availability>
 			</model>
 		</chassis>
