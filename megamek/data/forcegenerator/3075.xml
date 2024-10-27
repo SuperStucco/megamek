@@ -14308,6 +14308,7 @@
 				<availability>CC:4,MOC:3,LA:4,FWL:4,IS:3,MH:3,WOB:4,FS:4,MERC:4,DC:4,TC:3</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>General:3-</availability>
 			</model>
 			<model name='(ML)'>

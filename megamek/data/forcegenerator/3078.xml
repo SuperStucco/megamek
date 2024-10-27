@@ -15033,6 +15033,7 @@
 				<availability>CC:4,MOC:3,LA:4,ROS:4,IS:3,FWL:4,WOB:4,MH:3,FS:4,MERC:4,TC:3,DC:4</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>General:3-</availability>
 			</model>
 			<model name='(ML)'>

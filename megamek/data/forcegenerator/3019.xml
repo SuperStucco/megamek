@@ -5230,6 +5230,7 @@
 				<availability>General:8</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>fire_support</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='(ML)'>
