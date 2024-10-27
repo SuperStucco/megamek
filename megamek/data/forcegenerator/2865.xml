@@ -3483,6 +3483,10 @@
 		</chassis>
 		<chassis name='Minsk' unitType='Mek'>
 			<availability>CW:3,CJF:3,CGB:5</availability>
+            <model name=''>
+                <roles>command</roles>
+                <availability>CLAN:8</availability>
+            </model>
 			<model name='MNK-101'>
 				<roles>command</roles>
 				<availability>CGB:4</availability>

@@ -3876,6 +3876,10 @@
 		</chassis>
 		<chassis name='Minsk' unitType='Mek'>
 			<availability>CGB:4-</availability>
+            <model name=''>
+                <roles>command</roles>
+                <availability>CLAN:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Mithras Light Tank' unitType='Tank'>
 			<availability>CSA:6,CCC:6,CIH:6,CBS:6,CSV:6,CLAN:6,CFM:6,CGS:6,CCO:6,CB:6</availability>

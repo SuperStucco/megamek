@@ -3540,10 +3540,10 @@
 			</model>
 		</chassis>
 		<chassis name='Minsk' unitType='Mek'>
-			<availability>CW:4,CJF:4,CGB:5</availability>
+			<availability>CGB:5</availability>
 			<model name='MNK-101'>
 				<roles>command</roles>
-				<availability>CGB:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Mithras Light Tank' unitType='Tank'>

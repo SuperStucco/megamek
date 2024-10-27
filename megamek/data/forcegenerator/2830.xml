@@ -3301,10 +3301,10 @@
 			</model>
 		</chassis>
 		<chassis name='Minsk' unitType='Mek'>
-			<availability>CW:3,CJF:3,CGB:4</availability>
+			<availability>CGB:4</availability>
 			<model name='MNK-101'>
 				<roles>command</roles>
-				<availability>CGB:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Missile Artillery Infantry' unitType='Infantry'>

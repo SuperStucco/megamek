@@ -12616,7 +12616,7 @@
 			</model>
 		</chassis>
 		<chassis name='Minsk' unitType='Mek'>
-			<availability>RD:4</availability>
+			<availability>RD:4:3148</availability>
 			<model name='2'>
 				<roles>urban</roles>
 				<availability>General:8</availability>
