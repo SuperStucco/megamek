@@ -3602,15 +3602,16 @@
 			</model>
 		</chassis>
 		<chassis name='Goshawk (Vapor Eagle)' unitType='Mek'>
-			<availability>CSV:6,CLAN:2,CJF:2</availability>
+			<availability>CSV:6,CLAN:2</availability>
 			<model name=''>
-				<availability>CSV:8,General:8</availability>
+                <roles>raider</roles>
+				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CSV:6,General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='5'>
-				<availability>CSR:4,CLAN:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='6'>
 				<availability>CLAN:4</availability>

@@ -2214,6 +2214,12 @@
 				<availability>CC:8,LA:8,FWL:8,Periphery.Deep:8,IS:8,MERC:8,Periphery:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Goshawk (Vapor Eagle)' unitType='Mek'>
+            <availability>CSV:7:2850</availability>
+            <model name='6'>
+                <availability>CSV:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Gotha' unitType='AeroSpaceFighter'>
 			<availability>MOC:3,CLAN:8,IS:2,CIR:2,MERC:2,TC:2,CS:9,OA:2,Periphery.MW:2,Periphery.ME:2,FWL:5,NIOPS:9</availability>
 			<model name='GTHA-100'>

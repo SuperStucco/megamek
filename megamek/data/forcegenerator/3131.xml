@@ -7873,15 +7873,18 @@
 		<chassis name='Goshawk (Vapor Eagle)' unitType='Mek'>
 			<availability>ROS:4,CJF:4,RA:6</availability>
 			<model name=''>
+                <roles>raider</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='2'>
 				<availability>General:2</availability>
 			</model>
 			<model name='3'>
+                <roles>raider</roles>
 				<availability>CJF:6</availability>
 			</model>
 			<model name='4'>
+                <roles>cavalry</roles>
 				<availability>CJF:6</availability>
 			</model>
 			<model name='5'>
@@ -7891,7 +7894,7 @@
 				<availability>RA:4</availability>
 			</model>
 			<model name='7'>
-				<availability>ROS:8</availability>
+				<availability>ROS:8:3136</availability>
 			</model>
 		</chassis>
 		<chassis name='Goshawk II' unitType='Mek'>

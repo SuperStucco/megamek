@@ -553,6 +553,10 @@
 				<roles>cruiser</roles>
 				<availability>CS:8,General:5,CLAN:6</availability>
 			</model>
+            <model name='(2843)'>
+                <roles>cruiser</roles>
+                <availability>CLAN:7</availability>
+            </model>
 		</chassis>
 		<chassis name='Ahab' unitType='AeroSpaceFighter'>
 			<availability>CC:4+,CS:7,LA:4+,CLAN:7,FWL:6+,IS:3+,NIOPS:7,FS:4+,DC:4+</availability>

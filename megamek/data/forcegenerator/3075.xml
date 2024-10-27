@@ -6893,15 +6893,18 @@
 		<chassis name='Goshawk (Vapor Eagle)' unitType='Mek'>
 			<availability>CSV:4,CLAN:1,CJF:2</availability>
 			<model name=''>
+			    <roles>raider</roles>
 				<availability>CSV:2,General:8</availability>
 			</model>
 			<model name='2'>
 				<availability>CSV:2,General:6</availability>
 			</model>
 			<model name='3'>
+                <roles>raider</roles>
 				<availability>CSV:8</availability>
 			</model>
 			<model name='4'>
+                <roles>cavalry</roles>
 				<availability>CSV:6</availability>
 			</model>
 			<model name='5'>
