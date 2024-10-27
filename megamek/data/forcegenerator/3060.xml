@@ -6075,7 +6075,8 @@
 		<chassis name='Highlander IIC' unitType='Mek'>
 			<availability>MERC.WD:3,CHH:3,CDS:4,CW:5,CLAN:3,CNC:5,CJF:5,CGB:5</availability>
 			<model name=''>
-				<availability>CDS:8,CW:8,CLAN:8,CNC:8,IS:8</availability>
+                <roles>command</roles>
+				<availability>CLAN:8,IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Highlander' unitType='Mek'>

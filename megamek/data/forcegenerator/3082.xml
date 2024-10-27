@@ -7939,12 +7939,15 @@
 		<chassis name='Highlander IIC' unitType='Mek'>
 			<availability>CHH:5,CDS:4,CW:6,LA:2,ROS:3,CNC:6,CJF:6,CGB:6</availability>
 			<model name=''>
+                <roles>command</roles>
 				<availability>CDS:4,CW:4,CLAN:3,CNC:4,IS:8</availability>
 			</model>
 			<model name='2'>
+                <roles>command</roles>
 				<availability>CW:4</availability>
 			</model>
 			<model name='3'>
+                <roles>command</roles>
 				<availability>CHH:5,CW:3,ROS:4,CJF:5,CGB:5</availability>
 			</model>
 		</chassis>
