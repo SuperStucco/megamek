@@ -13543,19 +13543,23 @@
 		<chassis name='Phoenix Hawk IIC' unitType='Mek'>
 			<availability>CC:3,DTA:3,CDS:5,RF:3,LA:3,ROS:4,CLAN:3,MSC:3,MERC:3,FS:3,RA:5,DC:3</availability>
 			<model name=''>
-				<availability>CDS:2,CNC:2,IS:3,DC:3</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:2,CNC:2,IS:3</availability>
 			</model>
 			<model name='2'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>CDS:1,CNC:1,RA:4</availability>
 			</model>
 			<model name='3'>
+                <roles>cavalry,raider</roles>
 				<availability>DTA:4,CDS:8,RF:4,LA:4,ROS:4,MSC:4,FS:4,MERC:4,DC:4</availability>
 			</model>
 			<model name='4'>
+                <roles>cavalry</roles>
 				<availability>CDS:6,LA:4,ROS:4,FS:4,MERC:4,DC:4</availability>
 			</model>
 			<model name='5'>
+                <roles>cavalry</roles>
 				<availability>CLAN:4</availability>
 			</model>
 			<model name='6'>
@@ -13565,9 +13569,11 @@
 				<availability>RD:8,CDS:6,General:5,CGB:8,DC:6</availability>
 			</model>
 			<model name='8'>
+                <roles>cavalry,raider</roles>
 				<availability>CDS:6</availability>
 			</model>
 			<model name='9'>
+                <roles>cavalry</roles>
 				<availability>CHH:3,CLAN:2,CJF:3</availability>
 			</model>
 		</chassis>

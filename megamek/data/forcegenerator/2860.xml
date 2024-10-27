@@ -3884,15 +3884,17 @@
 			</model>
 		</chassis>
 		<chassis name='Phoenix Hawk IIC' unitType='Mek'>
-			<availability>CCC:3,CIH:3,CSR:3,CDS:3,CSV:4,CLAN:3,CFM:3,CGS:3,CCO:3,CB:2</availability>
+			<availability>CSV:4,CLAN:3,CB:2</availability>
 			<model name=''>
-				<availability>CCC:8,CIH:8,CSR:8,CDS:8,CSV:8,CLAN:8,CNC:8,CFM:8,CCO:8</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>CCC:6,CSR:6,CDS:6,CSV:6,CNC:6,CFM:6,CCO:6</availability>
 			</model>
 			<model name='9'>
+                <roles>cavalry</roles>
 				<availability>CLAN:2</availability>
 			</model>
 		</chassis>

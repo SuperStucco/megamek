@@ -14379,31 +14379,37 @@
 		<chassis name='Phoenix Hawk IIC' unitType='Mek'>
 			<availability>CC:3,CLAN:3,CP:5,MERC:3,FS:3,RA:5,DTA:3,CDS:5,RF:3,LA:3,ROS:4,MSC:3,DC:3</availability>
 			<model name=''>
+                <roles>cavalry</roles>
 				<availability>CDS:1,CNC:1,IS:3,CP:1,DC:3</availability>
 			</model>
 			<model name='2'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>RA:3</availability>
 			</model>
 			<model name='3'>
+                <roles>cavalry,raider</roles>
 				<availability>DTA:4,CDS:8,RF:4,LA:4,ROS:4,MSC:4,FS:4,MERC:4,CP:8,DC:4</availability>
 			</model>
 			<model name='4'>
+                <roles>cavalry</roles>
 				<availability>CDS:6,LA:4,ROS:4,FS:4,MERC:4,CP:6,DC:4</availability>
 			</model>
 			<model name='5'>
+                <roles>cavalry</roles>
 				<availability>CLAN:4</availability>
 			</model>
 			<model name='6'>
 				<availability>RD:6,CDS:8,CP:8</availability>
 			</model>
 			<model name='7'>
-				<availability>RD:8,CDS:6,General:6,DC:6</availability>
+				<availability>RD:8,General:6</availability>
 			</model>
 			<model name='8'>
+                <roles>cavalry,raider</roles>
 				<availability>CDS:8,CP:8</availability>
 			</model>
 			<model name='9'>
+                <roles>cavalry</roles>
 				<availability>CHH:5,CLAN:2,CJF:5</availability>
 			</model>
 		</chassis>

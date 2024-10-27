@@ -3947,6 +3947,21 @@
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Phoenix Hawk IIC' unitType='Mek'>
+            <availability>CSV:4:2851,CLAN:3:2851,CB:2:2851</availability>
+            <model name=''>
+                <roles>cavalry</roles>
+                <availability>CLAN:8</availability>
+            </model>
+            <model name='2'>
+                <roles>cavalry,fire_support</roles>
+                <availability>CCC:6:2852,CSR:6:2852,CDS:6:2852,CSV:6:2852,CNC:6:2852,CFM:6:2852,CCO:6:2852</availability>
+            </model>
+            <model name='9'>
+                <roles>cavalry,fire_support</roles>
+                <availability>CLAN:2:2853</availability>
+            </model>
+        </chassis>
 		<chassis name='Phoenix Hawk LAM Mk I' unitType='Mek'>
 			<availability>IS:2+</availability>
 			<model name='PHX-HK1'>
