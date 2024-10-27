@@ -2440,8 +2440,9 @@
 			</model>
 		</chassis>
 		<chassis name='Guillotine IIC' unitType='Mek'>
-			<availability>CLAN:2-</availability>
+			<availability>CLAN:2-:2889</availability>
 			<model name=''>
+			    <roles>raider</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>

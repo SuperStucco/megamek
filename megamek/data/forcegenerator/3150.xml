@@ -8263,9 +8263,11 @@
 		<chassis name='Guillotine IIC' unitType='Mek'>
 			<availability>CWE:4,MERC.KH:4,MERC.WD:4,CHH:2-,LA:4,ROS:4,CP:2-,CWIE:4</availability>
 			<model name=''>
+                <roles>raider</roles>
 				<availability>ROS:4,CLAN:8</availability>
 			</model>
 			<model name='2'>
+                <roles>raider</roles>
 				<availability>CWE:4,IS:8,CWIE:4</availability>
 			</model>
 		</chassis>

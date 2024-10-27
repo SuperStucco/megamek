@@ -7275,7 +7275,7 @@
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CW:4,CCO:6,CWIE:4</availability>
+				<availability>CW:4:3070,CCO:6:3070,CWIE:4:3070</availability>
 			</model>
 		</chassis>
 		<chassis name='Guillotine' unitType='Mek'>
