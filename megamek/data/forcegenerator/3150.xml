@@ -13052,6 +13052,7 @@
 		<chassis name='Mowang Courier' unitType='Small Craft'>
 			<availability>CC:2</availability>
 			<model name=''>
+                <roles>civilian</roles>
 				<availability>CC:8</availability>
 			</model>
 		</chassis>
