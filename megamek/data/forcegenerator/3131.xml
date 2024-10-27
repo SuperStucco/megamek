@@ -3196,6 +3196,7 @@
 				<availability>CHH:2,RD:2,CW:2,CEI:2,ROS:2,MERC:2,CJF:2,CWIE:2</availability>
 			</model>
 			<model name='Prime'>
+                <roles>raider</roles>
 				<availability>CWE:5,RD:7,CW:5,General:6,CJF:8</availability>
 			</model>
 			<model name='R'>

@@ -1579,6 +1579,7 @@
 				<availability>CCO:5</availability>
 			</model>
 			<model name='Prime'>
+                <roles>raider</roles>
 				<availability>CW:7,CSV:7,General:6,CJF:8,CGB:7</availability>
 			</model>
 			<model name='S'>

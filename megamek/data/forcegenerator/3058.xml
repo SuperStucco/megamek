@@ -1814,6 +1814,7 @@
 				<availability>CSA:4,CCC:3,CBS:3,CSV:3,CLAN:2,General:1</availability>
 			</model>
 			<model name='Prime'>
+                <roles>raider</roles>
 				<availability>CW:5,CSV:7,General:6,CJF:8,CGB:7</availability>
 			</model>
 			<model name='S'>

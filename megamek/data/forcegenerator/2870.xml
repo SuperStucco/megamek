@@ -711,7 +711,7 @@
 			</model>
 		</chassis>
 		<chassis name='Asshur Artillery Spotter' unitType='Tank'>
-			<availability>CBS:4,CLAN:3</availability>
+			<availability>CBS:4:2893,CLAN:3:2893</availability>
 			<model name=''>
 				<roles>spotter</roles>
 				<availability>CLAN:8</availability>
@@ -985,6 +985,7 @@
 				<availability>CHH:6,CW:3,CNC:5,General:4,CJF:6</availability>
 			</model>
 			<model name='Prime'>
+			    <roles>raider</roles>
 				<availability>CW:7,CSV:7,General:6,CJF:8,CGB:7</availability>
 			</model>
 		</chassis>

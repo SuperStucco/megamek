@@ -2918,6 +2918,7 @@
 				<availability>CLAN:4,General:2</availability>
 			</model>
 			<model name='Prime'>
+                <roles>raider</roles>
 				<availability>RD:7,CW:5,General:6,CJF:8,CGB:7</availability>
 			</model>
 			<model name='S'>
