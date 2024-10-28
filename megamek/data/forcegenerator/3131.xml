@@ -6136,6 +6136,7 @@
 				<availability>CWE:6,RD:6,CDS:6,CW:6,CNC:5,General:4,CP:5,CJF:6,CWIE:6</availability>
 			</model>
 			<model name='C'>
+                <roles>recon,anti_infantry</roles>
 				<availability>CWE:7,RD:7,CDS:6,CW:7,General:5,CP:6,CJF:6</availability>
 			</model>
 			<model name='D'>

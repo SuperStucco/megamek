@@ -5461,6 +5461,7 @@
 				<availability>CDS:6,CW:6,CNC:5,General:4,CJF:6,CWIE:6,CGB:6</availability>
 			</model>
 			<model name='C'>
+                <roles>recon,anti_infantry</roles>
 				<availability>CDS:6,CW:7,General:5,CJF:6,CGB:7</availability>
 			</model>
 			<model name='D'>

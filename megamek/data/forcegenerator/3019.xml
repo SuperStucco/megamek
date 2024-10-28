@@ -2147,11 +2147,11 @@
 				<availability>CDS:6,CW:5,CSV:5,CNC:5,General:4,CSJ:3,CJF:6,CGB:3</availability>
 			</model>
 			<model name='C'>
+                <roles>recon,anti_infantry</roles>
 				<availability>CDS:6,CW:5,General:5,CFM:6,CJF:6,CGB:6,CB:6</availability>
 			</model>
 			<model name='D'>
-				<availability>
-					CHH:7,CCC:7,CIH:7,CSR:7,CFM:7,CGS:7,CSA:7,CDS:8,CBS:7,General:6,CJF:8,CGB:7,CB:7</availability>
+				<availability>CHH:7,CCC:7,CIH:7,CSR:7,CFM:7,CGS:7,CSA:7,CDS:8,CBS:7,General:6,CJF:8,CGB:7,CB:7</availability>
 			</model>
 			<model name='Prime'>
 				<availability>CDS:9,General:8,CJF:9,CGB:9</availability>

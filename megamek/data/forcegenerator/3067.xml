@@ -4877,6 +4877,7 @@
 				<availability>CDS:6,CW:6,CSV:5,CNC:5,General:4,CJF:6,CWIE:6,CGB:6</availability>
 			</model>
 			<model name='C'>
+                <roles>recon,anti_infantry</roles>
 				<availability>CDS:6,CW:7,General:5,CFM:6,CJF:6,CGB:7</availability>
 			</model>
 			<model name='D'>
@@ -4887,11 +4888,11 @@
 			</model>
 			<model name='F'>
 				<roles>anti_infantry</roles>
-				<availability>CIH:5,General:2</availability>
+				<availability>CIH:5:3070,General:2:3070</availability>
 			</model>
 			<model name='G'>
 				<roles>anti_infantry</roles>
-				<availability>General:2,CGB:5</availability>
+				<availability>General:2:3071,CGB:5:3071</availability>
 			</model>
 			<model name='H'>
 				<availability>CSA:4,CNC:5,CLAN:3,General:1</availability>
@@ -4902,12 +4903,9 @@
 			<model name='Prime'>
 				<availability>CDS:9,General:8,CJF:9,CGB:6</availability>
 			</model>
-			<model name='U'>
-				<availability>General:2</availability>
-			</model>
 			<model name='Z'>
 				<roles>spotter</roles>
-				<availability>SOC:10,CCO:4</availability>
+				<availability>SOC:10:3072,CCO:4:3072</availability>
 			</model>
 		</chassis>
 		<chassis name='Dragonstar Assault Transport' unitType='Small Craft'>

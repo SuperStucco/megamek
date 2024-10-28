@@ -5325,6 +5325,7 @@
 				<availability>CDS:6,CW:6,CSV:5,CNC:5,General:4,CJF:6,CWIE:6,CGB:6</availability>
 			</model>
 			<model name='C'>
+                <roles>recon,anti_infantry</roles>
 				<availability>CDS:6,CW:7,General:5,CJF:6,CGB:7</availability>
 			</model>
 			<model name='D'>
@@ -5351,7 +5352,7 @@
 				<availability>CDS:9,General:8,CJF:9,CGB:6</availability>
 			</model>
 			<model name='U'>
-				<availability>General:2</availability>
+				<availability>General:2:3077</availability>
 			</model>
 			<model name='Z'>
 				<roles>spotter</roles>

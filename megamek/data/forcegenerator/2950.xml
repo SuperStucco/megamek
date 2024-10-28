@@ -1982,6 +1982,7 @@
 				<availability>CDS:6,CW:5,CSV:5,CNC:5,General:4,CSJ:3,CJF:6,CGB:3</availability>
 			</model>
 			<model name='C'>
+                <roles>recon,anti_infantry</roles>
 				<availability>CDS:6,CW:5,General:5,CFM:6,CJF:6,CGB:6,CB:6</availability>
 			</model>
 			<model name='D'>

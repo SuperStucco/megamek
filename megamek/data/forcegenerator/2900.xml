@@ -1611,7 +1611,10 @@
 			</model>
 		</chassis>
 		<chassis name='Corone' unitType='Warship'>
-			<availability>CSR:2</availability>
+			<availability>CSR:2:2915</availability>
+		    <model name='(2915)'>
+			    <availability>General:8</availability>
+		    </model>
 		</chassis>
 		<chassis name='Corsair' unitType='AeroSpaceFighter'>
 			<availability>CC:2,OA:3,LA:2,CLAN:5,FWL:2,FS:8,MERC:3,Periphery:2,DC:2</availability>
@@ -1883,6 +1886,7 @@
 				<availability>CDS:6,CW:5,CSV:5,CNC:5,General:4,CSJ:3,CJF:6,CGB:3</availability>
 			</model>
 			<model name='C'>
+                <roles>recon,anti_infantry</roles>
 				<availability>CDS:6,CW:5,General:5,CFM:6,CJF:6,CGB:6,CB:6</availability>
 			</model>
 			<model name='D'>
