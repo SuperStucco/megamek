@@ -13994,6 +13994,7 @@
 		<chassis name='Schrek AC Carrier' unitType='Tank'>
 			<availability>MOC:1,CC:1,OA:1,LA:1,IS:1,FWL:1,FS:1,TC:1,Periphery:1,DC:1</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

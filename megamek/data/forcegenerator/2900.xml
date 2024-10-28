@@ -4768,8 +4768,9 @@
 			</model>
 		</chassis>
 		<chassis name='Schrek AC Carrier' unitType='Tank'>
-			<availability>CC:1,HL:1,LA:2,IS:3,FWL:1,FS:1,Periphery:3,DC:1</availability>
+			<availability>CC:1:2916,HL:1:2916,LA:2:2916,IS:3:2916,FWL:1:2916,FS:1:2916,Periphery:3:2916,DC:1:2916</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
