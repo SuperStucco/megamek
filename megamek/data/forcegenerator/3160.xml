@@ -3332,7 +3332,7 @@
 		<chassis name='Bowman' unitType='Mek'>
 			<availability>CHH:4</availability>
 			<model name=''>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>General:2</availability>
 			</model>
 			<model name='2'>

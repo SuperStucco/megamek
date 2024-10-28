@@ -1990,7 +1990,7 @@
 		<chassis name='Bowman' unitType='Mek'>
 			<availability>CHH:4,CDS:2,CGS:2</availability>
 			<model name=''>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='2'>

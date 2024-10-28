@@ -1063,10 +1063,10 @@
 			</model>
 		</chassis>
 		<chassis name='Bowman' unitType='Mek'>
-			<availability>CHH:5</availability>
+			<availability>CHH:5:2923</availability>
 			<model name='4'>
 				<roles>missile_artillery</roles>
-				<availability>CHH:8,CLAN:8</availability>
+				<availability>CHH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Buccaneer' unitType='Dropship'>
