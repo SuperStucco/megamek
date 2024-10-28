@@ -10091,16 +10091,20 @@
 		<chassis name='Rifleman IIC' unitType='Mek'>
 			<availability>CSA:5,CHH:5,CDS:5,CSR:5,CLAN:3,CNC:5,CGB:5</availability>
 			<model name=''>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CDS:5,CLAN:4,CNC:5</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CLAN:5,CNC:5</availability>
 			</model>
 			<model name='3'>
-				<availability>CSA:4,CCC:5,CDS:4,CIH:3</availability>
+                <roles>anti_aircraft</roles>
+				<availability>CSA:4:3062,CCC:5:3062,CDS:4:3062,CIH:3:3062</availability>
 			</model>
 			<model name='4'>
-				<availability>CSA:5,CCC:4,CDS:4,CBS:4</availability>
+                <roles>fire_support,anti_aircraft</roles>
+				<availability>CSA:5:3065,CCC:4:3065,CDS:4:3065,CBS:4:3065</availability>
 			</model>
 		</chassis>
 		<chassis name='Rifleman II' unitType='Mek'>

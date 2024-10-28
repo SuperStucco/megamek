@@ -5286,12 +5286,14 @@
 			</model>
 		</chassis>
 		<chassis name='Rifleman IIC' unitType='Mek'>
-			<availability>CSA:5,CHH:5,CDS:5,CSR:5,CLAN:5,CNC:5,CGB:5</availability>
+			<availability>CLAN:5</availability>
 			<model name=''>
-				<availability>CDS:6,CLAN:6,CNC:6</availability>
+                <roles>fire_support,anti_aircraft</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='2'>
-				<availability>CLAN:6,CNC:6</availability>
+                <roles>fire_support,anti_aircraft</roles>
+				<availability>CLAN:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Rifleman II' unitType='Mek'>

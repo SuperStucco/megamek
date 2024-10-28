@@ -12697,22 +12697,28 @@
 		<chassis name='Rifleman IIC' unitType='Mek'>
 			<availability>CSA:5,CHH:5,MERC.KH:1,CDS:5,CSR:5,SOC:1,CLAN:2,CNC:5,IS:1,MERC:1,CGB:5</availability>
 			<model name=''>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CDS:4,SOC:1,CLAN:3,CNC:4</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CLAN:4,CNC:5,IS:2</availability>
 			</model>
 			<model name='3'>
+                <roles>anti_aircraft</roles>
 				<availability>CSA:5,CCC:6,CDS:4,CIH:4,CBS:3,CCO:3,CB:5</availability>
 			</model>
 			<model name='4'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CSA:6,CCC:5,CIH:3,CDS:4,CBS:5,CCO:3,CB:6</availability>
 			</model>
 			<model name='5'>
-				<availability>CSA:4,CDS:2,SOC:3,IS:2,CLAN.HW:3,CB:4</availability>
+                <roles>fire_support,anti_aircraft</roles>
+				<availability>CSA:4:3069,CDS:2:3069,SOC:3:3069,IS:2:3069,CLAN.HW:3:3069,CB:4:3069</availability>
 			</model>
 			<model name='6'>
-				<availability>CSA:4,CHH:2,CDS:2</availability>
+                <roles>fire_support,anti_aircraft</roles>
+				<availability>CSA:4:3071,CHH:2:3071,CDS:2:3071</availability>
 			</model>
 		</chassis>
 		<chassis name='Rifleman II' unitType='Mek'>

@@ -15572,33 +15572,43 @@
 		<chassis name='Rifleman IIC' unitType='Mek'>
 			<availability>CC:1,CHH:5,RD:5,SE:2,CDS:5,IS:3,FWL:1,MH:1,CP:5,FS:1,RA:5</availability>
 			<model name=''>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CC:2,SE:2,CDS:1,FWL:2,MH:2,CP:1,FS:2,RA:2</availability>
 			</model>
 			<model name='10'>
+                <roles>anti_aircraft</roles>
 				<availability>RA:2</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CLAN:1,CP:5</availability>
 			</model>
 			<model name='3'>
+                <roles>anti_aircraft</roles>
 				<availability>CDS:4,ROS:4,MERC:4,FS:4,CP:4</availability>
 			</model>
 			<model name='4'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>ROS:5,FS:5</availability>
 			</model>
 			<model name='5'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CDS:4,IS:4,CP:4</availability>
 			</model>
 			<model name='6'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CHH:4,CDS:6,CP:6</availability>
 			</model>
 			<model name='7'>
+                <roles>anti_aircraft</roles>
 				<availability>ROS:4,CP:8,DC:6</availability>
 			</model>
 			<model name='8'>
+                <roles>anti_aircraft,cavalry</roles>
 				<availability>CC:4,RD:6,CDS:4,LA:4,IS:4,FS:4,MERC:4,CP:4,DC:4</availability>
 			</model>
 			<model name='9'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>RA:2</availability>
 			</model>
 		</chassis>

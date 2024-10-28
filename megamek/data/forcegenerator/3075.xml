@@ -13626,21 +13626,27 @@
 		<chassis name='Rifleman IIC' unitType='Mek'>
 			<availability>CSA:5,CHH:5,MERC.KH:1,CDS:5,CSR:5,SOC:1,CLAN:2,CNC:5,IS:2,MERC:1,CGB:5</availability>
 			<model name=''>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CDS:3,SOC:1,CLAN:2,CNC:3</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CLAN:2,CNC:5,IS:2</availability>
 			</model>
 			<model name='3'>
+                <roles>anti_aircraft</roles>
 				<availability>CSA:5,CCC:6,CDS:4,CBS:4,CCO:4</availability>
 			</model>
 			<model name='4'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CSA:6,CCC:5,CDS:4,CBS:5,CCO:4</availability>
 			</model>
 			<model name='5'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CSA:5,CDS:3,SOC:4,IS:2,CLAN.HW:4</availability>
 			</model>
 			<model name='6'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CSA:5,CHH:3,CDS:3</availability>
 			</model>
 		</chassis>

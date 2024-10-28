@@ -4117,9 +4117,10 @@
 			</model>
 		</chassis>
 		<chassis name='Rifleman IIC' unitType='Mek'>
-			<availability>CSA:4,CHH:4,CDS:4,CSR:4,CLAN:4,CNC:4,CGB:4</availability>
+			<availability>CLAN:4</availability>
 			<model name=''>
-				<availability>CDS:8,CLAN:8,CNC:8</availability>
+                <roles>fire_support,anti_aircraft</roles>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Rifleman II' unitType='Mek'>

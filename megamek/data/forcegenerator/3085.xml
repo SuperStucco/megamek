@@ -13973,27 +13973,35 @@
 		<chassis name='Rifleman IIC' unitType='Mek'>
 			<availability>CSA:5,CHH:5,CDS:5,CEI:3,CNC:5,CLAN:1,IS:3,RA:5,CGB:5</availability>
 			<model name=''>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CDS:2,CEI:2,CNC:2,CLAN:1,RA:2</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CNC:5,CLAN:1</availability>
 			</model>
 			<model name='3'>
+                <roles>anti_aircraft</roles>
 				<availability>CSA:5,CCC:6,CDS:4,ROS:4,MERC:4,FS:4</availability>
 			</model>
 			<model name='4'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CSA:6,CCC:5,ROS:4,FS:4</availability>
 			</model>
 			<model name='5'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CSA:6,CDS:4,IS:4,CLAN.HW:4</availability>
 			</model>
 			<model name='6'>
+                <roles>fire_support,anti_aircraft</roles>
 				<availability>CSA:6,CHH:4,CDS:4</availability>
 			</model>
 			<model name='7'>
+                <roles>anti_aircraft</roles>
 				<availability>ROS:4,CNC:6,DC:5</availability>
 			</model>
 			<model name='8'>
+                <roles>anti_aircraft,cavalry</roles>
 				<availability>CC:3,OP:3,DoO:3,IS:3,DO:3,FS:3,MERC:3,CDS:4,LA:3,MSC:3,TP:3,DC:3,CGB:6</availability>
 			</model>
 		</chassis>
