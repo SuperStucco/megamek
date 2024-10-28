@@ -4715,9 +4715,9 @@
 			</model>
 		</chassis>
 		<chassis name='Odyssey Jumpship' unitType='Jumpship'>
-			<availability>CLAN:4,BAN:1</availability>
+			<availability>CLAN:4,CW:0,CJF:0,BAN:1</availability>
 			<model name='(2887)'>
-				<availability>CW:0,CLAN:8,CJF:0,BAN:4</availability>
+				<availability>CLAN:8,BAN:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Ogotai' unitType='AeroSpaceFighter'>
