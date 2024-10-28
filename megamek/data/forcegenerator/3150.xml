@@ -18302,6 +18302,7 @@
 				<availability>CWE:6,RD:6,General:5,CJF:6</availability>
 			</model>
 			<model name='D'>
+                <roles>raider</roles>
 				<availability>CWE:8,RD:8,General:5,CP:6,CWIE:6</availability>
 			</model>
 			<model name='E'>
@@ -18314,6 +18315,7 @@
 				<availability>CWE:6,CHH:4,RD:4,CDS:4,General:2,CP:4,CJF:5,CWIE:5</availability>
 			</model>
 			<model name='H'>
+                <roles>raider</roles>
 				<availability>CLAN:4,General:3</availability>
 			</model>
 			<model name='HH'>

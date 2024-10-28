@@ -6060,21 +6060,22 @@
 		<chassis name='Thor (Summoner)' unitType='Mek' omni='Clan'>
 			<availability>CHH:7,CIH:4,CLAN:6,CCO:7,BAN:6,CDS:7,CW:7,CSJ:7,CJF:10,CGB:7,CB:5</availability>
 			<model name='A'>
-				<availability>CHH:8,CDS:8,CW:7,CNC:6,General:7,CSJ:6,CJF:8,CGB:6</availability>
+				<availability>CHH:8,CDS:8,CNC:6,CLAN:7,CSJ:6,CJF:8,CGB:6</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>CCC:6,CDS:4,CW:6,CNC:5,General:6,CJF:7,CGB:4</availability>
+				<availability>CDS:4,CNC:5,CLAN:6,CJF:7,CGB:4</availability>
 			</model>
 			<model name='C'>
-				<availability>CW:5,General:5,CJF:6,CGB:4</availability>
+				<availability>CLAN:5,CJF:6,CGB:4</availability>
 			</model>
 			<model name='D'>
-				<availability>CW:5,CNC:6,General:5,CSJ:3,CGS:4,CGB:4</availability>
+                <roles>raider</roles>
+				<availability>CNC:6,CLAN:5,CSJ:3,CGS:4,CGB:4</availability>
 			</model>
 			<model name='Prime'>
 				<roles>raider</roles>
-				<availability>CDS:9,CW:8,General:8,CJF:9,CGB:8</availability>
+				<availability>CDS:9,CLAN:8,CJF:9</availability>
 			</model>
 		</chassis>
 		<chassis name='Thor Artillery Vehicle' unitType='Tank'>

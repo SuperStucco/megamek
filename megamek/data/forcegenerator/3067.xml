@@ -14901,6 +14901,7 @@
 				<availability>CW:6,General:5,CJF:6,CGB:6</availability>
 			</model>
 			<model name='D'>
+                <roles>raider</roles>
 				<availability>CW:8,CNC:6,General:5,CGS:4,CWIE:6,CGB:8</availability>
 			</model>
 			<model name='E'>
@@ -14913,10 +14914,11 @@
 				<availability>CHH:4,CIH:4,CDS:4,CW:6,CNC:4,General:2,CCO:3,CJF:5,CWIE:5,CGB:4</availability>
 			</model>
 			<model name='H'>
+                <roles>raider</roles>
 				<availability>CSA:6,CCC:5,CBS:5,CSV:5,CLAN:4,General:2</availability>
 			</model>
 			<model name='HH'>
-				<availability>CHH:6,CDS:4,CW:5,CLAN:2,General:1,CJF:5</availability>
+				<availability>CHH:6:3070,CDS:4:3070,CW:5:3070,CLAN:2:3070,General:1:3070,CJF:5:3070</availability>
 			</model>
 			<model name='M'>
 				<availability>General:2,CJF:3</availability>
@@ -14926,10 +14928,10 @@
 				<availability>CDS:9,CW:6,General:8,CJF:9,CGB:6</availability>
 			</model>
 			<model name='Q'>
-				<availability>General:4</availability>
+				<availability>General:4:3069</availability>
 			</model>
 			<model name='Z'>
-				<availability>SOC:10,CCO:4</availability>
+				<availability>SOC:10,CCO:4:3072</availability>
 			</model>
 		</chassis>
 		<chassis name='Thor Artillery Vehicle' unitType='Tank'>

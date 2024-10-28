@@ -8706,6 +8706,7 @@
 				<availability>CW:6,General:5,CJF:6,CGB:6</availability>
 			</model>
 			<model name='D'>
+                <roles>raider</roles>
 				<availability>CW:8,CNC:6,General:5,CSJ:3,CGS:4,CWIE:6,CGB:8</availability>
 			</model>
 			<model name='E'>
@@ -8715,6 +8716,7 @@
 				<availability>General:4</availability>
 			</model>
 			<model name='H'>
+                <roles>raider</roles>
 				<availability>CSA:4</availability>
 			</model>
 			<model name='M'>
