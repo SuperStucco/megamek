@@ -11794,8 +11794,12 @@
 				<availability>IS:4,DC:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Peregrine' unitType='Warship'>
+		<chassis name='Peregrine Corvette' unitType='Warship'>
 			<availability>CJF:1</availability>
+            <model name='(2969)'>
+                <roles>corvette</roles>
+                <availability>General:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Perseus' unitType='Mek' omni='IS'>
 			<availability>FWL:6+,WOB:5+</availability>

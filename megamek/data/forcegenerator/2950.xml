@@ -4560,8 +4560,12 @@
 				<availability>CLAN:5</availability>
 			</model>
 		</chassis>
-		<chassis name='Peregrine' unitType='Warship'>
-			<availability>CJF:2</availability>
+		<chassis name='Peregrine Corvette' unitType='Warship'>
+			<availability>CJF:2:2969</availability>
+		    <model name='(2969)'>
+                <roles>corvette</roles>
+			    <availability>General:8</availability>
+		    </model>
 		</chassis>
 		<chassis name='Phoenix Hawk IIC' unitType='Mek'>
 			<availability>CCC:4,CIH:4,CSR:4,CDS:4,CSV:5,CLAN:3,CFM:4,CGS:1,CCO:4,CB:2</availability>
