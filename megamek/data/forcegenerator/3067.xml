@@ -9755,31 +9755,39 @@
 		<chassis name='Man O&apos; War (Gargoyle)' unitType='Mek' omni='Clan'>
 			<availability>CHH:6,CIH:9,CSV:8,CLAN:4,IS:3+,BAN:6,CWIE:9,MERC.WD:9,CDS:9,CW:9,CBS:6,CNC:5,CJF:9</availability>
 			<model name='A'>
+                <roles>cavalry</roles>
 				<availability>CDS:4,CW:8,CSV:5,CNC:8,General:7,CJF:9,CGB:9</availability>
 			</model>
 			<model name='B'>
+                <roles>cavalry</roles>
 				<availability>CDS:4,CSV:7,CNC:6,General:5,CJF:2,CGB:4</availability>
 			</model>
 			<model name='C'>
+                <roles>cavalry</roles>
 				<availability>CDS:7,CW:7,CNC:7,General:6,CJF:5,CWIE:7,CGB:7</availability>
 			</model>
 			<model name='D'>
+                <roles>cavalry</roles>
 				<availability>CDS:3,CW:5,CNC:5,General:4,CGB:5</availability>
 			</model>
 			<model name='E'>
+                <roles>cavalry</roles>
 				<availability>CLAN:6,General:2,CCO:5</availability>
 			</model>
 			<model name='G'>
-				<availability>CIH:4,General:2</availability>
+                <roles>cavalry</roles>
+				<availability>CIH:4:3069,General:2:3069</availability>
 			</model>
 			<model name='H'>
+                <roles>cavalry</roles>
 				<availability>CSA:6,CCC:5,CDS:5,CSV:5,CLAN:4,General:2</availability>
 			</model>
 			<model name='M'>
-				<roles>anti_infantry</roles>
+				<roles>anti_infantry,cavalry</roles>
 				<availability>CHH:3,General:1,CFM:3</availability>
 			</model>
 			<model name='Prime'>
+                <roles>cavalry</roles>
 				<availability>CDS:7,General:8,CJF:9,CGB:6</availability>
 			</model>
 		</chassis>

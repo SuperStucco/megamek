@@ -3613,21 +3613,26 @@
 			</model>
 		</chassis>
 		<chassis name='Man O&apos; War (Gargoyle)' unitType='Mek' omni='Clan'>
-			<availability>CW:7</availability>
+			<availability>CW:7:2945</availability>
 			<model name='A'>
-				<availability>CDS:4,CW:7,CSV:5,CNC:8,General:7,CJF:9,CGB:9</availability>
+			    <roles>cavalry</roles>
+				<availability>CW:7</availability>
 			</model>
 			<model name='B'>
-				<availability>CDS:4,CSV:7,CNC:6,General:5,CSJ:4,CJF:2,CGB:2</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='C'>
-				<availability>CDS:7,CW:5,CNC:7,General:6,CJF:5,CGB:8</availability>
+                <roles>cavalry</roles>
+				<availability>CW:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CDS:3,CW:4,CNC:5,General:4,CGB:4</availability>
+                <roles>cavalry</roles>
+				<availability>CW:4</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:7,General:8,CJF:9,CGB:4</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Mandrill' unitType='Mek'>

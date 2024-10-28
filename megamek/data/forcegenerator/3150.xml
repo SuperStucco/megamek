@@ -11939,33 +11939,69 @@
 		<chassis name='Man O&apos; War (Gargoyle)' unitType='Mek' omni='Clan'>
 			<availability>CWE:4,CHH:2,MERC.WD:4,CDS:4,CP:4,CJF:4,BAN:4,CWIE:4</availability>
 			<model name='A'>
+                <roles>cavalry</roles>
 				<availability>CWE:8,RD:9,CDS:4,General:7,CP:6,CJF:9</availability>
 			</model>
 			<model name='B'>
+                <roles>cavalry</roles>
 				<availability>RD:4,CDS:4,General:5,CP:5,CJF:2</availability>
 			</model>
 			<model name='C'>
+                <roles>cavalry</roles>
 				<availability>CWE:7,RD:7,CDS:7,General:6,CP:7,CJF:5,CWIE:7</availability>
 			</model>
 			<model name='D'>
+                <roles>cavalry</roles>
 				<availability>CWE:5,RD:5,CDS:3,General:4,CP:4</availability>
 			</model>
 			<model name='E'>
+                <roles>cavalry</roles>
 				<availability>CLAN:6,General:3</availability>
 			</model>
+            <model name='F'>
+                <roles>cavalry</roles>
+                <availability>CDS:6,General:3</availability>
+            </model>
 			<model name='G'>
+                <roles>cavalry</roles>
 				<availability>General:2</availability>
 			</model>
 			<model name='H'>
+                <roles>cavalry</roles>
 				<availability>CDS:5,CLAN:4,General:3,CP:5</availability>
 			</model>
+            <model name='I'>
+                <roles>cavalry</roles>
+                <availability>CDS:5,CLAN:4,General:3</availability>
+            </model>
+            <model name='J'>
+                <roles>raider</roles>
+                <availability>CDS:5,CLAN:4,General:3</availability>
+            </model>
+            <model name='K'>
+                <roles>cavalry,recon</roles>
+                <availability>CLAN:3,General:5</availability>
+            </model>
 			<model name='M'>
-				<roles>anti_infantry</roles>
+				<roles>anti_infantry,cavalry</roles>
 				<availability>CHH:3,General:1</availability>
 			</model>
+            <model name='P'>
+                <roles>cavalry</roles>
+                <availability>CDS:7,General:8,CJF:0,SL3:5</availability>
+            </model>
 			<model name='Prime'>
+                <roles>cavalry</roles>
 				<availability>RD:6,CDS:7,General:8,CP:7,CJF:9</availability>
 			</model>
+            <model name='T'>
+                <roles>cavalry</roles>
+                <availability>CDS:7,General:8,CJF:0,SL3:5</availability>
+            </model>
+            <model name='X'>
+                <roles>cavalry</roles>
+                <availability>CDS:7,General:8,CJF:0,SL3:5</availability>
+            </model>
 		</chassis>
 		<chassis name='Mangonel' unitType='Mek'>
 			<availability>MERC.KH:4,RF:4,LA:4,ROS:4,MERC:4,CWIE:6</availability>

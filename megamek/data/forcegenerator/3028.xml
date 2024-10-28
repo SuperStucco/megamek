@@ -4153,19 +4153,24 @@
 		<chassis name='Man O&apos; War (Gargoyle)' unitType='Mek' omni='Clan'>
 			<availability>CIH:9,CDS:9,CW:9,CSV:8,CNC:9,CLAN:6,CSJ:7,CJF:9,BAN:6</availability>
 			<model name='A'>
-				<availability>CDS:4,CW:7,CSV:5,CNC:8,General:7,CJF:9,CGB:9</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:4,CSV:5,CNC:8,CLAN:7,CJF:9,CGB:9</availability>
 			</model>
 			<model name='B'>
-				<availability>CDS:4,CSV:7,CNC:6,General:5,CSJ:4,CJF:2,CGB:2</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:4,CSV:7,CNC:6,CLAN:5,CSJ:4,CJF:2,CGB:2</availability>
 			</model>
 			<model name='C'>
-				<availability>CDS:7,CW:5,CNC:7,General:6,CJF:5,CGB:8</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:7,CW:5,CNC:7,CLAN:6,CJF:5,CGB:8</availability>
 			</model>
 			<model name='D'>
-				<availability>CDS:3,CW:4,CNC:5,General:4,CGB:4</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:3,CNC:5,CLAN:4</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:7,General:8,CJF:9,CGB:4</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:7,CLAN:8,CJF:9,CGB:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Mandrill' unitType='Mek'>
