@@ -1929,7 +1929,6 @@
 		<chassis name='Comitatus JumpShip' unitType='Jumpship'>
 			<availability>CLAN:4</availability>
 			<model name='(2995)'>
-				<roles>asf_carrier</roles>
 				<availability>General:3</availability>
 			</model>
 		</chassis>

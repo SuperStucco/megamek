@@ -3833,9 +3833,8 @@
 			</model>
 		</chassis>
 		<chassis name='Comitatus JumpShip' unitType='Jumpship'>
-			<availability>SOC:2,CLAN:4</availability>
+			<availability>SOC:2:3072,CLAN:4</availability>
 			<model name='(2995)'>
-				<roles>asf_carrier</roles>
 				<availability>General:3</availability>
 			</model>
 		</chassis>
