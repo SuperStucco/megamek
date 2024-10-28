@@ -3168,6 +3168,7 @@
 		<chassis name='Broadsword' unitType='Dropship'>
 			<availability>CSA:6,CHH:6,CCC:6,CLAN:7,RA:6</availability>
 			<model name='(2979)'>
+                <roles>mek_carrier</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
