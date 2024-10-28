@@ -1881,6 +1881,7 @@
 		<chassis name='Coyotl' unitType='Mek' omni='Clan'>
 			<availability>CSA:1-,CFM:1-,CCO:2-,BAN:2</availability>
 			<model name='A'>
+                <roles>raider</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='B'>

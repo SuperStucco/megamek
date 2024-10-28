@@ -5001,6 +5001,7 @@
 		<chassis name='Coyotl' unitType='Mek' omni='Clan'>
 			<availability>CC:3,CHH:4,RD:4,CDS:4,LA:3,ROS:3,FS:3,BAN:1,RA:4</availability>
 			<model name='A'>
+                <roles>raider</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='B'>
@@ -5011,7 +5012,7 @@
 			</model>
 			<model name='D'>
 				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<availability>General:6:3149</availability>
 			</model>
 			<model name='Prime'>
 				<availability>General:8</availability>

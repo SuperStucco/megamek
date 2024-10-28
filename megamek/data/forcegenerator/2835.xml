@@ -1486,6 +1486,19 @@
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Coyotl' unitType='Mek' omni='Clan'>
+            <availability>CCO:6:2854</availability>
+            <model name='A'>
+                <roles>raider</roles>
+                <availability>General:6</availability>
+            </model>
+            <model name='B'>
+                <availability>General:6</availability>
+            </model>
+            <model name='Prime'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Crab' unitType='Mek'>
 			<availability>CHH:4,CSR:4,CLAN:5,IS:3,CFM:4,MERC:3,CGS:6,Periphery:3,CS:5,CDS:6,CW:6,CBS:6,NIOPS:5,CJF:4,CGB:4</availability>
 			<model name='CRB-20'>
