@@ -10255,12 +10255,15 @@
 		<chassis name='Ryoken (Stormcrow)' unitType='Mek' omni='Clan'>
 			<availability>CSR:9,CSV:7,CLAN:8,MERC:1+,BAN:8,MERC.WD:8,CDS:9,CBS:9,CNC:8,CSJ:9,CJF:9,DC:2+</availability>
 			<model name='A'>
+                <roles>cavalry</roles>
 				<availability>CDS:9,CW:6,CSV:8,General:6,CSJ:7,CJF:5,CGB:3</availability>
 			</model>
 			<model name='B'>
+                <roles>cavalry</roles>
 				<availability>CCC:6,CDS:8,CW:5,General:6,CJF:4,CWIE:5,CGB:3</availability>
 			</model>
 			<model name='C'>
+                <roles>cavalry</roles>
 				<availability>CSR:6,CBS:6,General:5,CWIE:5,CGB:6</availability>
 			</model>
 			<model name='D'>
@@ -10268,19 +10271,27 @@
 				<availability>CDS:8,CW:3,CSV:6,CNC:6,General:5,CSJ:6,CJF:4,CGB:3</availability>
 			</model>
 			<model name='E'>
+                <roles>cavalry</roles>
 				<availability>CHH:4,CSR:6,CDS:6,CNC:4,General:5,CFM:4,CSJ:4,CCO:7,CJF:4,CWIE:6</availability>
 			</model>
 			<model name='H'>
+                <roles>cavalry</roles>
 				<availability>CSA:5,CCC:5,CBS:4,CSV:5,CLAN:3,General:1</availability>
 			</model>
 			<model name='I'>
-				<roles>recon</roles>
+				<roles>cavalry,recon</roles>
 				<availability>General:1</availability>
 			</model>
+            <model name='P'>
+                <roles>cavalry</roles>
+                <availability>CLAN:4,DC:6,MERC:6</availability>
+            </model>
 			<model name='Prime'>
+                <roles>cavalry</roles>
 				<availability>CDS:5,CW:8,CSV:5,CNC:8,General:7,CSJ:8,CJF:9,CGB:8</availability>
 			</model>
 			<model name='TC'>
+                <roles>cavalry</roles>
 				<availability>CLAN.IS:2</availability>
 			</model>
 		</chassis>

@@ -14748,12 +14748,15 @@
 		<chassis name='Ryoken (Stormcrow)' unitType='Mek' omni='Clan'>
 			<availability>MERC.WD:5,CHH:4,CDS:4,CW:4,MERC:3+,FS:3,CJF:4,RA:6,BAN:5,CWIE:5,DC:4</availability>
 			<model name='A'>
+                <roles>cavalry</roles>
 				<availability>RD:3,CDS:9,CW:6,General:6,CJF:5,CGB:3</availability>
 			</model>
 			<model name='B'>
+                <roles>cavalry</roles>
 				<availability>RD:3,CDS:8,CW:5,General:6,CJF:4,CWIE:5,CGB:3</availability>
 			</model>
 			<model name='C'>
+                <roles>cavalry</roles>
 				<availability>RD:6,General:5,RA:6,CWIE:5,CGB:6</availability>
 			</model>
 			<model name='D'>
@@ -14761,6 +14764,7 @@
 				<availability>RD:3,CDS:8,CW:3,CNC:6,General:5,CJF:4,CGB:3</availability>
 			</model>
 			<model name='E'>
+                <roles>cavalry</roles>
 				<availability>CHH:4,CDS:6,CNC:4,General:5,CJF:4,RA:6,CWIE:6</availability>
 			</model>
 			<model name='F'>
@@ -14768,25 +14772,35 @@
 				<availability>General:3,CJF:5</availability>
 			</model>
 			<model name='G'>
+                <roles>cavalry</roles>
 				<availability>CHH:5,General:3</availability>
 			</model>
 			<model name='H'>
+                <roles>cavalry</roles>
 				<availability>CLAN:3,General:2</availability>
 			</model>
 			<model name='I'>
-				<roles>recon</roles>
+				<roles>cavalry,recon</roles>
 				<availability>General:2</availability>
 			</model>
 			<model name='J'>
+                <roles>cavalry</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='K'>
-				<availability>General:4</availability>
+                <roles>cavalry</roles>
+				<availability>General:4:3120</availability>
 			</model>
+            <model name='P'>
+                <roles>cavalry</roles>
+                <availability>CLAN.IS:4,DC:6,MERC:6,CEI:6</availability>
+            </model>
 			<model name='Prime'>
+                <roles>cavalry</roles>
 				<availability>RD:8,CDS:5,CW:8,CNC:8,General:7,CJF:9,CGB:8</availability>
 			</model>
 			<model name='TC'>
+                <roles>cavalry</roles>
 				<availability>CHH:2,RD:2:3103,CDS:2,CW:2,CEI:2,MERC:2,CJF:2,DC:2,CWIE:2,RA:2</availability>
 			</model>
 		</chassis>

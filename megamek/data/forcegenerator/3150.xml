@@ -15834,12 +15834,15 @@
 		<chassis name='Ryoken (Stormcrow)' unitType='Mek' omni='Clan'>
 			<availability>CHH:4,MERC.WD:5,CDS:4,CLAN:5,MERC:3+,CP:4,FS:4,CJF:4,RA:6,BAN:5,CWIE:5,DC:5</availability>
 			<model name='A'>
+                <roles>cavalry</roles>
 				<availability>CWE:6,RD:3,CDS:9,General:6,CP:9,CJF:5</availability>
 			</model>
 			<model name='B'>
+                <roles>cavalry</roles>
 				<availability>CWE:5,RD:3,CDS:8,General:6,CP:8,CJF:4,CWIE:5</availability>
 			</model>
 			<model name='C'>
+                <roles>cavalry</roles>
 				<availability>RD:6,General:5,RA:6,CWIE:5</availability>
 			</model>
 			<model name='D'>
@@ -15847,6 +15850,7 @@
 				<availability>CWE:3,RD:3,CDS:8,General:5,CP:7,CJF:4</availability>
 			</model>
 			<model name='E'>
+                <roles>cavalry</roles>
 				<availability>CHH:4,CDS:6,General:5,CP:5,CJF:4,RA:6,CWIE:6</availability>
 			</model>
 			<model name='F'>
@@ -15854,31 +15858,39 @@
 				<availability>General:3,CJF:5</availability>
 			</model>
 			<model name='G'>
+                <roles>cavalry</roles>
 				<availability>CHH:5,General:3</availability>
 			</model>
 			<model name='H'>
+                <roles>cavalry</roles>
 				<availability>CLAN:3,General:2</availability>
 			</model>
 			<model name='I'>
-				<roles>recon</roles>
+				<roles>cavalry,recon</roles>
 				<availability>General:2</availability>
 			</model>
 			<model name='J'>
+                <roles>cavalry</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='K'>
+                <roles>cavalry</roles>
 				<availability>General:4</availability>
 			</model>
-			<model name='P'>
-				<availability>General:4</availability>
-			</model>
+            <model name='P'>
+                <roles>cavalry</roles>
+                <availability>CLAN.IS:4,DC:6,FS:6,MERC:6,SE:6</availability>
+            </model>
 			<model name='Prime'>
+                <roles>cavalry</roles>
 				<availability>CWE:8,RD:8,CDS:5,General:7,CP:6,CJF:9</availability>
 			</model>
 			<model name='T'>
+                <roles>cavalry</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='TC'>
+                <roles>cavalry</roles>
 				<availability>SE:2,CLAN.IS:2,MERC:2,FS:2,DC:2</availability>
 			</model>
 		</chassis>

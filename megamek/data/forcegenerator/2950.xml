@@ -4881,20 +4881,24 @@
 		<chassis name='Ryoken (Stormcrow)' unitType='Mek' omni='Clan'>
 			<availability>CSR:9,CBS:9,CSV:7,CLAN:8,CSJ:9,CJF:9,BAN:6</availability>
 			<model name='A'>
-				<availability>CDS:9,CW:5,CSV:8,General:6,CSJ:7,CJF:5,CGB:5</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:9,CW:5,CSV:8,CLAN:6,CSJ:7,CJF:5,CGB:5</availability>
 			</model>
 			<model name='B'>
-				<availability>CCC:6,CDS:8,CW:3,General:6,CJF:4,CGB:4</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:8,CW:3,CLAN:6,CJF:4,CGB:4</availability>
 			</model>
 			<model name='C'>
-				<availability>CSR:6,CBS:6,General:5,CGB:7</availability>
+                <roles>cavalry</roles>
+				<availability>CSR:6,CBS:6,CLAN:5,CGB:7</availability>
 			</model>
 			<model name='D'>
 				<roles>fire_support</roles>
-				<availability>CDS:8,CW:3,CSV:6,CNC:6,General:5,CSJ:6,CJF:4,CGB:4</availability>
+				<availability>CDS:8,CW:3,CSV:6,CNC:6,CLAN:5,CSJ:6,CJF:4,CGB:4</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:5,CW:8,CSV:5,CNC:8,General:7,CSJ:8,CJF:9,CGB:9</availability>
+                <roles>cavalry</roles>
+				<availability>CDS:5,CW:8,CSV:5,CNC:8,CLAN:7,CSJ:8,CJF:9,CGB:9</availability>
 			</model>
 		</chassis>
 		<chassis name='S 2772 Airplane' unitType='Conventional Fighter'>
