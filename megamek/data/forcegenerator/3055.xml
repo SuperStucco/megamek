@@ -4659,6 +4659,17 @@
 				<availability>MOC:1,Periphery.CM:1,Periphery.HR:1,IS:1,TC:1</availability>
 			</model>
 		</chassis>
+        <chassis name='Hi-Scout Drone' unitType='Tank'>
+            <availability>IS:4+</availability>
+            <model name='(NapFind)'>
+                <roles>recon,support</roles>
+                <availability>IS:5+</availability>
+            </model>
+            <model name='(PathTrak)'>
+                <roles>recon,support</roles>
+                <availability>IS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Hi-Scout Drone Carrier' unitType='Tank'>
 			<availability>LA:2,IS:2</availability>
 			<model name=''>
