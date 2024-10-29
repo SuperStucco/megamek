@@ -3539,8 +3539,9 @@
 			</model>
 		</chassis>
 		<chassis name='Gladiator (Executioner)' unitType='Mek' omni='Clan'>
-			<availability>CSA:5,MERC.WD:2,CDS:5,CSR:4,CW:2,CNC:5,CLAN:5,CSJ:7,CJF:6,BAN:3,CGB:8,CB:6</availability>
+			<availability>MERC.WD:2,CSR:4,CW:2,CLAN:5,CSJ:7,CJF:6,BAN:3,CGB:8,CB:6</availability>
 			<model name='A'>
+                <roles>raider</roles>
 				<availability>CDS:5,CW:7,CSV:4,CNC:5,General:6,CSJ:4,CJF:5,CGB:6</availability>
 			</model>
 			<model name='B'>
@@ -3550,13 +3551,15 @@
 				<availability>CNC:7,General:5,CJF:7</availability>
 			</model>
 			<model name='D'>
+                <roles>raider</roles>
 				<availability>CDS:5,CW:7,CNC:7,General:4,CSJ:4,CJF:5,CGB:6</availability>
 			</model>
 			<model name='Prime'>
 				<availability>CW:8,CSV:7,General:8,CSJ:7,CJF:9,CGB:9</availability>
 			</model>
 			<model name='TC'>
-				<availability>CW:4,CGB:6</availability>
+                <roles>raider</roles>
+				<availability>CW:4:3052,CGB:6:3052</availability>
 			</model>
 		</chassis>
 		<chassis name='Gladius Medium Hover Tank' unitType='Tank'>

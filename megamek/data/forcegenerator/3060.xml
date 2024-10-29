@@ -5044,6 +5044,7 @@
 			<availability>
 				CSR:3,CLAN:5,IS:1+,BAN:4,CWIE:4,CSA:6,MERC.WD:3,CDS:5,CW:2,CNC:5,CSJ:7,CJF:5,CGB:9</availability>
 			<model name='A'>
+                <roles>raider</roles>
 				<availability>CDS:5,CW:8,CSV:4,CNC:5,General:6,CSJ:4,CJF:5,CWIE:8,CGB:7</availability>
 			</model>
 			<model name='B'>
@@ -5053,6 +5054,7 @@
 				<availability>CNC:7,General:5,CJF:7</availability>
 			</model>
 			<model name='D'>
+                <roles>raider</roles>
 				<availability>CDS:3,CW:5,CNC:5,General:3,CSJ:3,CJF:3,CWIE:5,CGB:4</availability>
 			</model>
 			<model name='E'>
@@ -5065,6 +5067,7 @@
 				<availability>CW:7,CSV:7,General:8,CSJ:7,CJF:9,CWIE:7,CGB:8</availability>
 			</model>
 			<model name='TC'>
+                <roles>raider</roles>
 				<availability>MERC.KH:1,MERC.WD:1,CW:3,CLAN:2,IS:1,MERC:1,CGB:6</availability>
 			</model>
 		</chassis>

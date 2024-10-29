@@ -7153,6 +7153,7 @@
 		<chassis name='Gladiator (Executioner)' unitType='Mek' omni='Clan'>
 			<availability>RD:8,CDS:4,CW:2,CEI:1,ROS:4+,CNC:5+,CLAN:4,CJF:3,BAN:4,CGB:8</availability>
 			<model name='A'>
+                <roles>raider</roles>
 				<availability>RD:7,CDS:5,CW:8,CNC:5,General:6,CJF:5,CWIE:8,CGB:7</availability>
 			</model>
 			<model name='B'>
@@ -7162,15 +7163,18 @@
 				<availability>CNC:7,General:5,CJF:7</availability>
 			</model>
 			<model name='D'>
+                <roles>raider</roles>
 				<availability>RD:4,CDS:2,CW:3,CNC:3,General:2,CJF:2,CWIE:3,CGB:4</availability>
 			</model>
 			<model name='E'>
 				<availability>RD:5,CDS:5,CW:5,CLAN:4,General:3,CGB:5</availability>
 			</model>
 			<model name='F'>
+                <roles>raider</roles>
 				<availability>CLAN:5</availability>
 			</model>
 			<model name='G'>
+                <roles>raider</roles>
 				<availability>CLAN:4</availability>
 			</model>
 			<model name='H'>
@@ -7180,9 +7184,10 @@
 				<availability>CLAN:4</availability>
 			</model>
 			<model name='J'>
-				<availability>CLAN:4</availability>
+				<availability>CLAN:4:3104</availability>
 			</model>
 			<model name='K'>
+                <roles>raider</roles>
 				<availability>CHH:6,RD:6,CDS:5,CW:5,General:3,CLAN:4,CJF:5,CWIE:5,CGB:6</availability>
 			</model>
 			<model name='L'>
@@ -7196,6 +7201,7 @@
 				<availability>RD:8,CW:7,General:8,CJF:9,CWIE:7,CGB:8</availability>
 			</model>
 			<model name='TC'>
+                <roles>raider</roles>
 				<availability>RD:2,CHH:2,CEI:2,ROS:2,CJF:2</availability>
 			</model>
 		</chassis>

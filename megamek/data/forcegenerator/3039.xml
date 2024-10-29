@@ -2916,21 +2916,23 @@
 			</model>
 		</chassis>
 		<chassis name='Gladiator (Executioner)' unitType='Mek' omni='Clan'>
-			<availability>CSA:5,CDS:5,CSR:4,CNC:4,CLAN:5,CSJ:6,CJF:5,BAN:3,CGB:8,CB:5</availability>
+			<availability>CSR:4,CNC:4,CLAN:5,CSJ:6,BAN:3,CGB:8</availability>
 			<model name='A'>
-				<availability>CDS:5,CW:7,CSV:4,CNC:5,General:6,CSJ:4,CJF:5,CGB:6</availability>
+                <roles>raider</roles>
+				<availability>CDS:5,CW:7,CSV:4,CNC:5,CLAN:6,CSJ:4,CJF:5</availability>
 			</model>
 			<model name='B'>
-				<availability>CSV:5,General:7,CSJ:5,CGB:7</availability>
+				<availability>CSV:5,CLAN:7,CSJ:5</availability>
 			</model>
 			<model name='C'>
-				<availability>CNC:7,General:5,CJF:7</availability>
+				<availability>CNC:7,CLAN:5,CJF:7</availability>
 			</model>
 			<model name='D'>
-				<availability>CDS:5,CW:7,CNC:7,General:4,CSJ:4,CJF:5,CGB:6</availability>
+                <roles>raider</roles>
+				<availability>CDS:5,CW:7,CNC:7,CLAN:4,CJF:5,CGB:6</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CW:8,CSV:7,General:8,CSJ:7,CJF:9,CGB:9</availability>
+				<availability>CSV:7,CLAN:8,CSJ:7,CJF:9,CGB:9</availability>
 			</model>
 		</chassis>
 		<chassis name='Gladius Medium Hover Tank' unitType='Tank'>

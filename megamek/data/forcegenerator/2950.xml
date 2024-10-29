@@ -2517,6 +2517,26 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Gladiator (Executioner)' unitType='Mek' omni='Clan'>
+            <availability>CGB:8:3001</availability>
+            <model name='A'>
+                <roles>raider</roles>
+                <availability>CGB:6</availability>
+            </model>
+            <model name='B'>
+                <availability>CGB:7</availability>
+            </model>
+            <model name='C'>
+                <availability>CGB:5</availability>
+            </model>
+            <model name='D'>
+                <roles>raider</roles>
+                <availability>CGB:6</availability>
+            </model>
+            <model name='Prime'>
+                <availability>CGB:9</availability>
+            </model>
+        </chassis>
 		<chassis name='Goblin Medium Tank' unitType='Tank'>
 			<availability>CC:1,HL:1,LA:2,FS.CH:7,FS:6,MERC:2,CIR:4,Periphery:3,DC:2</availability>
 			<model name=''>

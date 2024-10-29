@@ -3946,6 +3946,7 @@
 		<chassis name='Gladiator (Executioner)' unitType='Mek' omni='Clan'>
 			<availability>CSR:3,CLAN:5,BAN:3,CWIE:4,MERC.WD:3,CW:2,CSJ:7,CJF:6,CGB:9,CB:6</availability>
 			<model name='A'>
+                <roles>raider</roles>
 				<availability>CDS:5,CW:8,CSV:4,CNC:5,General:6,CSJ:4,CJF:5,CWIE:8,CGB:7</availability>
 			</model>
 			<model name='B'>
@@ -3955,15 +3956,14 @@
 				<availability>CNC:7,General:5,CJF:7</availability>
 			</model>
 			<model name='D'>
+                <roles>raider</roles>
 				<availability>CDS:4,CW:6,CNC:6,General:3,CSJ:3,CJF:4,CWIE:6,CGB:5</availability>
-			</model>
-			<model name='H'>
-				<availability>CSA:4</availability>
 			</model>
 			<model name='Prime'>
 				<availability>CW:7,CSV:7,General:8,CSJ:7,CJF:9,CWIE:7,CGB:8</availability>
 			</model>
 			<model name='TC'>
+                <roles>raider</roles>
 				<availability>CW:4,CGB:6</availability>
 			</model>
 		</chassis>
