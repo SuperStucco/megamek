@@ -1962,6 +1962,18 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
+        <chassis name='Daishi (Dire Wolf)' unitType='Mek' omni='Clan'>
+            <availability>CSJ:8:3010</availability>
+            <model name='A'>
+                <availability>CSJ:7</availability>
+            </model>
+            <model name='B'>
+                <availability>CSJ:5</availability>
+            </model>
+            <model name='Prime'>
+                <availability>CSJ:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Donar Assault Helicopter' unitType='VTOL'>
 			<availability>CLAN:3</availability>
 			<model name=''>

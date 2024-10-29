@@ -5216,6 +5216,9 @@
 			<model name='D'>
 				<availability>CHH:6,CW:5,CLAN:4,General:3,CJF:5</availability>
 			</model>
+            <model name='E'>
+                <availability>CLAN:4:3103</availability>
+            </model>
 			<model name='H'>
 				<availability>CDS:5,CLAN:4,General:3</availability>
 			</model>

@@ -4929,10 +4929,10 @@
 			</model>
 			<model name='S'>
 				<roles>urban</roles>
-				<availability>CHH:2,CW:2,CSV:1,CNC:2,CLAN:1,General:2,CJF:2,CGB:2</availability>
+				<availability>CHH:2,CW:2,CNC:2,CLAN:1,General:2,CJF:2,CGB:2</availability>
 			</model>
 			<model name='U'>
-				<availability>General:2</availability>
+				<availability>General:2:3077</availability>
 			</model>
 			<model name='W'>
 				<availability>MERC.WD:6,General:1,CWIE:3</availability>

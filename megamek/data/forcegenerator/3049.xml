@@ -2715,7 +2715,7 @@
 			</model>
 		</chassis>
 		<chassis name='Daishi (Dire Wolf)' unitType='Mek' omni='Clan'>
-			<availability>MERC.WD:2,CDS:5,CW:6,CBS:3,CNC:4,CLAN:4,CSJ:8,CJF:5,BAN:2,CGB:4,CB:4</availability>
+			<availability>MERC.WD:2:3050,CDS:5,CW:6,CBS:3,CLAN:4,CSJ:8,CJF:5,BAN:2</availability>
 			<model name='A'>
 				<availability>CW:8,CSV:5,General:7,CJF:8</availability>
 			</model>
@@ -2723,14 +2723,14 @@
 				<availability>CW:5,CSV:4,CNC:4,General:5,CJF:6,CGB:5</availability>
 			</model>
 			<model name='C'>
-				<availability>CCO:4</availability>
+				<availability>CCO:4:3054</availability>
 			</model>
 			<model name='Prime'>
 				<availability>CDS:7,CW:9,General:8,CJF:9</availability>
 			</model>
 			<model name='S'>
 				<roles>urban</roles>
-				<availability>CHH:1,CW:2,CSV:3,CNC:2,CLAN:1,General:2,CSJ:3,CJF:2,CGB:2</availability>
+				<availability>CW:2:3050,CSV:3:3050,CNC:2:3050,CLAN:1:3050,General:2:3050,CSJ:3:3050,CJF:2:3050,CGB:2:3050</availability>
 			</model>
 			<model name='W'>
 				<availability>MERC.WD:5</availability>

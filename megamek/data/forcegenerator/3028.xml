@@ -2109,15 +2109,15 @@
             </model>
 		</chassis>
 		<chassis name='Daishi (Dire Wolf)' unitType='Mek' omni='Clan'>
-			<availability>CDS:3,CW:6,CBS:2,CNC:3,CLAN:3,CSJ:8,CJF:4,BAN:2,CGB:3,CB:3</availability>
+			<availability>CW:6,CBS:2,CLAN:3,CSJ:8,CJF:4,BAN:2</availability>
 			<model name='A'>
-				<availability>CW:8,CSV:5,General:7,CJF:8</availability>
+				<availability>CW:8,CSV:5,CLAN:7,CJF:8</availability>
 			</model>
 			<model name='B'>
-				<availability>CW:5,CSV:4,CNC:4,General:5,CJF:6,CGB:5</availability>
+				<availability>CSV:4,CNC:4,CLAN:5,CJF:6</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:7,CW:9,General:8,CJF:9</availability>
+				<availability>CDS:7,CW:9,CLAN:8,CJF:9</availability>
 			</model>
 		</chassis>
 		<chassis name='Danais' unitType='Dropship'>

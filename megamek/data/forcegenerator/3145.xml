@@ -5521,7 +5521,7 @@
 				<availability>CWE:2,CHH:2,RD:2,CLAN:1,General:2,CP:2,CJF:2</availability>
 			</model>
 			<model name='T'>
-				<availability>CWE:4,CHH:4,SE:2,CDS:2,ROS:2,CWIE:2</availability>
+				<availability>CWE:4:3142,CHH:4:3142,SE:2:3142,CDS:2:3142,ROS:2:3142,CWIE:2:3142</availability>
 			</model>
 			<model name='U'>
 				<availability>General:2</availability>

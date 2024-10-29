@@ -2985,15 +2985,12 @@
 			<model name='C'>
 				<availability>CDS:5,CW:4,General:4,CGS:5,CCO:6</availability>
 			</model>
-			<model name='H'>
-				<availability>CSA:4</availability>
-			</model>
 			<model name='Prime'>
 				<availability>CDS:7,CW:5,General:8,CJF:9</availability>
 			</model>
 			<model name='S'>
 				<roles>urban</roles>
-				<availability>CHH:1,CW:2,CSV:3,CNC:2,CLAN:1,General:2,CSJ:3,CJF:2,CGB:2</availability>
+				<availability>CW:2,CSV:3,CNC:2,CLAN:1,General:2,CSJ:3,CJF:2,CGB:2</availability>
 			</model>
 			<model name='W'>
 				<availability>MERC.WD:6,General:1,CWIE:3</availability>
