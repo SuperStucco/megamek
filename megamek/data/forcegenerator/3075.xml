@@ -15603,6 +15603,7 @@
 		<chassis name='SturmFeur Heavy Tank' unitType='Tank'>
 			<availability>Periphery.R:3,CDS:3,HL:2,LA:6,CNC:4,WOB:3,MERC:2,FS:4,CWIE:4</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:5,WOB:0</availability>
 			</model>
 			<model name='(Heavy Gauss)'>
@@ -15612,7 +15613,7 @@
 				<availability>LA:3,FS:3,MERC:3</availability>
 			</model>
 			<model name='(WoB)'>
-				<roles>spotter</roles>
+				<roles>fire_support,spotter</roles>
 				<availability>WOB:8</availability>
 			</model>
 		</chassis>

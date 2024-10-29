@@ -5734,8 +5734,12 @@
 		<chassis name='SturmFeur Heavy Tank' unitType='Tank'>
 			<availability>LA:4,FS:3</availability>
 			<model name=''>
+			    <roles>fire_support</roles>
 				<availability>General:8</availability>
 			</model>
+            <model name='(SRM)'>
+                <availability>LA:3:3023,FS:3:3023</availability>
+            </model>
 		</chassis>
 		<chassis name='Sulla' unitType='AeroSpaceFighter' omni='Clan'>
 			<availability>CSA:8,CLAN:6,BAN:5,CGB:8</availability>

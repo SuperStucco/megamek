@@ -7633,6 +7633,7 @@
 		<chassis name='SturmFeur Heavy Tank' unitType='Tank'>
 			<availability>Periphery.R:4,HL:2,LA:8,FRR:2,SIC:3,MERC:3,FS:6</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:8,WOB:0</availability>
 			</model>
 			<model name='(SRM)'>

@@ -15947,6 +15947,7 @@
 		<chassis name='SturmFeur Heavy Tank' unitType='Tank'>
 			<availability>PR:4,HL:2,MERC:1,FS:3,CWIE:3,Periphery.R:3,CDS:2,RF:4,LA:5,ROS:4,PG:4,CNC:3,RFS:4</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='(Heavy Gauss)'>
@@ -15955,6 +15956,10 @@
 			<model name='(SRM)'>
 				<availability>LA:3,FS:3,MERC:3</availability>
 			</model>
+            <model name='(Steiner)'>
+                <roles>fire_support</roles>
+                <availability>LA:3+</availability>
+            </model>
 		</chassis>
 		<chassis name='Sturmvogel Gunship' unitType='Tank'>
 			<availability>LA:3</availability>

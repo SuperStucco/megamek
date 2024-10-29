@@ -17918,14 +17918,27 @@
 		<chassis name='SturmFeur Heavy Tank' unitType='Tank'>
 			<availability>Periphery.R:2,CDS:2,RF:3,LA:2,ROS:3,FS:2,CP:2,CWIE:2</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:8</availability>
 			</model>
+            <model name='(Assault)'>
+                <roles>fire_support</roles>
+                <availability>LA:2+</availability>
+            </model>
+            <model name='(Cell)'>
+                <roles>fire_support</roles>
+                <availability>LA:3+,FS:3+,MERC:2+</availability>
+            </model>
 			<model name='(Heavy Gauss)'>
 				<availability>RF:6,LA:6,CP:6,CWIE:6</availability>
 			</model>
 			<model name='(SRM)'>
 				<availability>LA:3,FS:3,MERC:3</availability>
 			</model>
+            <model name='(Steiner)'>
+                <roles>fire_support</roles>
+                <availability>LA:3+</availability>
+            </model>
 		</chassis>
 		<chassis name='Sturmvogel Gunship' unitType='Tank'>
 			<availability>LA:2-,TamPact:3,VesMar:3</availability>
