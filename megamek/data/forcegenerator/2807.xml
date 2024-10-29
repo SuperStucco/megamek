@@ -2666,9 +2666,11 @@
 		<chassis name='Medium Strike Fighter' unitType='Conventional Fighter'>
 			<availability>CC:3,CS:4,LA:5-,IS:5,MERC:4,Periphery:4</availability>
 			<model name='Defender'>
+                <roles>interceptor</roles>
 				<availability>CS:4,IS:5,MERC:4,Periphery:5</availability>
 			</model>
 			<model name='Steinadler (Golden Eagle)'>
+                <roles>interceptor</roles>
 				<availability>LA:5-</availability>
 			</model>
 		</chassis>

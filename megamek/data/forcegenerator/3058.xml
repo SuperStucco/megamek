@@ -6791,18 +6791,23 @@
 		<chassis name='Medium Strike Fighter' unitType='Conventional Fighter'>
 			<availability>CC:6,MERC.KH:3,MERC.WD:3,LA:5-,IS:5,SIC:6,MERC:4,FS:4,Periphery:4</availability>
 			<model name='Crane'>
+                <roles>interceptor</roles>
 				<availability>CC:8-,SIC:8-</availability>
 			</model>
 			<model name='Defender'>
+                <roles>interceptor</roles>
 				<availability>MERC.KH:3,MERC.WD:3,IS:4-,MERC:3,Periphery:4-</availability>
 			</model>
 			<model name='Defender II'>
+                <roles>interceptor</roles>
 				<availability>MERC.WD:5-,IS:7,MERC:5,Periphery:5</availability>
 			</model>
 			<model name='Kaiseradler (Imperial Eagle)'>
+                <roles>ground_support,interceptor</roles>
 				<availability>LA:5-,FS:5-</availability>
 			</model>
 			<model name='Steinadler (Golden Eagle)'>
+                <roles>interceptor</roles>
 				<availability>LA:5-,FS:4-</availability>
 			</model>
 		</chassis>
