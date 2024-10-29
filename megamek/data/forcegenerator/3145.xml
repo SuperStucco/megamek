@@ -16797,12 +16797,15 @@
 		<chassis name='Shamash Reconnaissance Vehicle' unitType='Tank'>
 			<availability>CWE:5,RD:5,CDS:5,ROS:4,CLAN:3,CP:5</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(Flamer)'>
+                <roles>incendiary,recon</roles>
 				<availability>CDS:4,CP:4</availability>
 			</model>
 			<model name='(Interdictor)'>
+                <roles>ew_support,recon</roles>
 				<availability>CWE:4,CHH:4,RD:6,CDS:4,ROS:8,CP:4,CJF:4,RA:4,CWIE:4</availability>
 			</model>
 		</chassis>

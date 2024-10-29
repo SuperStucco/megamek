@@ -15520,12 +15520,15 @@
 		<chassis name='Shamash Reconnaissance Vehicle' unitType='Tank'>
 			<availability>CSA:5,CDS:5,CW:5,CBS:7,CLAN:3,CGS:5,CGB:5</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(Flamer)'>
+                <roles>incendiary,recon</roles>
 				<availability>CDS:4</availability>
 			</model>
 			<model name='(Interdictor)'>
+                <roles>ew_support,recon</roles>
 				<availability>CHH:3,CSR:2,CDS:3,CW:3,CNC:3,CJF:3,CGB:5,CWIE:3</availability>
 			</model>
 		</chassis>

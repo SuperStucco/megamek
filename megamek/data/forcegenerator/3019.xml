@@ -5411,6 +5411,7 @@
 		<chassis name='Shamash Reconnaissance Vehicle' unitType='Tank'>
 			<availability>CSA:5,CIH:5,CDS:5,CW:5,CBS:7,CLAN:3,CGS:5,CGB:5</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
