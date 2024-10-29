@@ -11619,9 +11619,11 @@
 		<chassis name='Mechbuster' unitType='Conventional Fighter'>
 			<availability>CC:3,FRR:6,CGB.FRR:6,MERC:3,DC:4,Periphery:3</availability>
 			<model name=''>
+                <roles>ground_support,interceptor</roles>
 				<availability>CC:4-,FRR:6-,MERC:4-,DC:6-,Periphery:4-</availability>
 			</model>
 			<model name='(LB-X)'>
+                <roles>ground_support,interceptor</roles>
 				<availability>CC:6,FRR:5:3080,DC:6,Periphery:6</availability>
 			</model>
 			<model name='(Laser)'>
@@ -11629,10 +11631,11 @@
 				<availability>FRR:5-,MERC:3,DC:4-,Periphery:3</availability>
 			</model>
 			<model name='(Mary)'>
+                <roles>interceptor</roles>
 				<availability>MERC:2</availability>
 			</model>
 			<model name='(SRM)'>
-				<roles>interceptor</roles>
+                <roles>ground_support,interceptor</roles>
 				<availability>FRR:3,MERC:4,DC:4-,Periphery:4</availability>
 			</model>
 		</chassis>

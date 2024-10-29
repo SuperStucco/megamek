@@ -4220,20 +4220,18 @@
 			</model>
 		</chassis>
 		<chassis name='Mechbuster' unitType='Conventional Fighter'>
-			<availability>CC:3,MERC.WD:2,MERC:3,DC:4,Periphery:3</availability>
+			<availability>CC:3:3023,MERC.WD:2:3023,MERC:3:3023,DC:4:3023,Periphery:3:3023</availability>
 			<model name=''>
+                <roles>ground_support,interceptor</roles>
 				<availability>CC:6,MERC.WD:4,MERC:6,DC:7,Periphery:6</availability>
-			</model>
-			<model name='(LB-X)'>
-				<availability>Periphery:3</availability>
 			</model>
 			<model name='(Laser)'>
 				<roles>interceptor</roles>
-				<availability>MERC.WD:2,MERC:3,DC:4,Periphery:3</availability>
+				<availability>MERC.WD:2:3024,MERC:3:3024,DC:4:3024,Periphery:3:3024</availability>
 			</model>
 			<model name='(SRM)'>
-				<roles>interceptor</roles>
-				<availability>MERC.WD:2,MERC:4,DC:4,Periphery:4</availability>
+                <roles>ground_support,interceptor</roles>
+				<availability>MERC.WD:2:3024,MERC:4:3024,DC:4:3024,Periphery:4:3024</availability>
 			</model>
 		</chassis>
 		<chassis name='Medium Strike Fighter' unitType='Conventional Fighter'>
