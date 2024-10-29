@@ -8008,7 +8008,7 @@
 				<availability>CHH:5,RD:5,CDS:6,ROS:5,CNC:4,CJF:5,DC:3</availability>
 			</model>
 			<model name='F'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>CHH:2,CDS:4,ROS:2,CNC:4,CJF:2,DC:4</availability>
 			</model>
 			<model name='H'>
@@ -8018,7 +8018,7 @@
 				<availability>CHH:2,CDS:4,ROS:2,CNC:4,CJF:2,DC:4</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>CNC:9,General:8</availability>
 			</model>
 		</chassis>

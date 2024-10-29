@@ -8532,7 +8532,7 @@
 				<availability>CHH:5,RD:5,CDS:6,ROS:5,CP:2,CJF:5,DC:4</availability>
 			</model>
 			<model name='F'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>CHH:2,CDS:4,ROS:2,CP:4,CJF:2,DC:4</availability>
 			</model>
 			<model name='H'>
@@ -8545,7 +8545,7 @@
 				<availability>CHH:2,RD:3,CDS:2,CP:4,CJF:2,DC:4</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>General:8,CP:9</availability>
 			</model>
 			<model name='T'>

@@ -7471,7 +7471,7 @@
 			</model>
 		</chassis>
 		<chassis name='Hankyu (Arctic Cheetah)' unitType='Mek' omni='Clan'>
-			<availability>CHH:3,MERC.KH:2,CDS:4,CSV:5,CNC:5,CLAN:2,IS:3+,CLAN.IS:2,MERC:2,CJF:4,CCO:3,CGB:3</availability>
+			<availability>CHH:3,MERC.KH:2,CDS:4,CSV:5,CNC:5,CLAN:2,IS:3+,MERC:2,CJF:4,CCO:3,CGB:3</availability>
 			<model name='A'>
 				<availability>CSA:8,CSV:8,General:7</availability>
 			</model>
@@ -7494,7 +7494,7 @@
 				<availability>CSA:8,CLAN:6,IS:3</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>CNC:9,General:8</availability>
 			</model>
 		</chassis>

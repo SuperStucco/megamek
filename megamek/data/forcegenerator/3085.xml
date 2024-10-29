@@ -7633,14 +7633,14 @@
 				<availability>CHH:5,CDS:6,ROS:5,CNC:4,CJF:5,DC:3</availability>
 			</model>
 			<model name='F'>
-				<roles>spotter</roles>
-				<availability>CHH:2,CDS:4,ROS:2,CNC:4,CJF:2,DC:4</availability>
+				<roles>ew_support,recon,spotter</roles>
+				<availability>CHH:2:3093,CDS:4:3093,ROS:2:3093,CNC:4:3093,CJF:2:3093,DC:4:3093</availability>
 			</model>
 			<model name='H'>
 				<availability>CSA:8,CLAN:6,IS:3</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>CNC:9,General:8</availability>
 			</model>
 		</chassis>

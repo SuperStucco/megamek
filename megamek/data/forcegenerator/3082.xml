@@ -7335,7 +7335,7 @@
 				<availability>CSA:8,CLAN:6,IS:3</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>CNC:9,General:8</availability>
 			</model>
 		</chassis>

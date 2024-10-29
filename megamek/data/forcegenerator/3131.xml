@@ -8551,7 +8551,7 @@
 				<availability>CHH:5,RD:5,CDS:6,ROS:5,CNC:4,CP:2,CJF:5,DC:3</availability>
 			</model>
 			<model name='F'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>CHH:2,CDS:4,ROS:2,CNC:4,CP:4,CJF:2,DC:4</availability>
 			</model>
 			<model name='H'>
@@ -8561,15 +8561,15 @@
 				<availability>CHH:2,CDS:4,ROS:2,CNC:4,CP:4,CJF:2,DC:4</availability>
 			</model>
 			<model name='J'>
-				<availability>CHH:2,RD:3,CDS:2,CNC:4,CP:4,CJF:2,DC:4</availability>
+				<availability>CHH:2:3141,RD:3:3141,CDS:2:3141,CNC:4:3141,CP:4:3141,CJF:2:3141,DC:4:3141</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
+				<roles>ew_support,recon,spotter</roles>
 				<availability>CNC:9,General:8,CP:9</availability>
 			</model>
 			<model name='T'>
 				<roles>spotter</roles>
-				<availability>CHH:2,RD:3,CDS:2,CNC:4,CP:4,CJF:2,DC:4</availability>
+				<availability>CHH:2:3142,RD:3:3142,CDS:2:3142,CNC:4:3142,CP:4:3142,CJF:2:3142,DC:4:3142</availability>
 			</model>
 		</chassis>
 		<chassis name='Hannibal' unitType='Dropship'>

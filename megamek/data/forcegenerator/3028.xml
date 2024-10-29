@@ -3001,24 +3001,24 @@
 			</model>
 		</chassis>
 		<chassis name='Hankyu (Arctic Cheetah)' unitType='Mek' omni='Clan'>
-			<availability>CSJ:6</availability>
+			<availability>CSJ:6:3037</availability>
 			<model name='A'>
-				<availability>CSA:8,CSV:8,General:7</availability>
+				<availability>CSJ:7</availability>
 			</model>
 			<model name='B'>
-				<availability>CNC:7,General:6</availability>
+				<availability>CSJ:6</availability>
 			</model>
 			<model name='C'>
 				<roles>urban</roles>
-				<availability>General:5</availability>
+				<availability>CSJ:5</availability>
 			</model>
 			<model name='D'>
 				<roles>fire_support</roles>
-				<availability>General:5</availability>
+				<availability>CSJ:5</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
-				<availability>CNC:9,General:8</availability>
+				<roles>ew_support,recon,spotter</roles>
+				<availability>CSJ:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Harasser Laser Platform' unitType='Tank'>
