@@ -5945,20 +5945,20 @@
 		<chassis name='Naga' unitType='Mek' omni='Clan'>
 			<availability>CSA:3,CHH:2,CCC:2,CSR:2,CW:4,CJF:2,CB:2</availability>
 			<model name='A'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:3,CDS:4,CW:4,General:2,CGB:3</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CHH:3,CDS:4,CW:4,CLAN:2,CGB:3</availability>
 			</model>
 			<model name='B'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:6,CDS:6,CW:6,General:5</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CHH:6,CDS:6,CW:6,CLAN:5</availability>
 			</model>
 			<model name='C'>
 				<roles>missile_artillery</roles>
-				<availability>CHH:3,MERC.WD:4,CDS:4,CW:4,General:2,CGB:3</availability>
+				<availability>CHH:3,CDS:4,CW:4,CLAN:2,CGB:3</availability>
 			</model>
 			<model name='D'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:4,MERC.WD:4,CDS:4,CW:4,General:2,CGB:3</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CHH:4,CDS:4,CW:4,CLAN:2,CGB:3</availability>
 			</model>
 			<model name='Prime'>
 				<roles>missile_artillery</roles>

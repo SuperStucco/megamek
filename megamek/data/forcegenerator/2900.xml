@@ -4060,26 +4060,26 @@
 			</model>
 		</chassis>
 		<chassis name='Naga' unitType='Mek' omni='Clan'>
-			<availability>CW:3</availability>
+			<availability>CW:3,CHH:3</availability>
 			<model name='A'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:3,CDS:4,CW:4,General:2,CGB:3</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='B'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:6,CDS:6,CW:6,General:5</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='C'>
 				<roles>missile_artillery</roles>
-				<availability>CHH:3,CDS:4,CW:4,General:2,CGB:3</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='D'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:4,CDS:4,CW:4,General:2,CGB:3</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='Prime'>
 				<roles>missile_artillery</roles>
-				<availability>CDS:9,CSV:9,General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Naja' unitType='Mek'>

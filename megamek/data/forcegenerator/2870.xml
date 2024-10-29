@@ -3957,6 +3957,29 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Naga' unitType='Mek' omni='Clan'>
+            <availability>CW:3,CHH:2</availability>
+            <model name='A'>
+                <roles>mixed_artillery</roles>
+                <availability>CLAN:4</availability>
+            </model>
+            <model name='B'>
+                <roles>mixed_artillery</roles>
+                <availability>CLAN:6</availability>
+            </model>
+            <model name='C'>
+                <roles>missile_artillery</roles>
+                <availability>CLAN:4</availability>
+            </model>
+            <model name='D'>
+                <roles>mixed_artillery</roles>
+                <availability>CLAN:4</availability>
+            </model>
+            <model name='Prime'>
+                <roles>missile_artillery</roles>
+                <availability>CLAN:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Naja' unitType='Mek'>
 			<availability>CCC:6,CBS:5,CSV:5,CLAN:2</availability>
             <model name=''>

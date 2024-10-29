@@ -6631,24 +6631,24 @@
 		<chassis name='Naga' unitType='Mek' omni='Clan'>
 			<availability>CSA:3,CHH:4,CCC:4,CSR:4,CW:4,CJF:3,CWIE:4,CB:3</availability>
 			<model name='A'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:3,CDS:4,CW:4,General:2,CWIE:4,CGB:3</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CHH:3,CDS:4,CW:4,CLAN:2,CWIE:4,CGB:3</availability>
 			</model>
 			<model name='B'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:6,CDS:6,CW:6,General:5,CWIE:6</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CHH:6,CDS:6,CW:6,CLAN:5,CWIE:6</availability>
 			</model>
 			<model name='C'>
 				<roles>missile_artillery</roles>
-				<availability>CHH:3,MERC.WD:4,CDS:4,CW:4,General:2,CWIE:4,CGB:3</availability>
+				<availability>CHH:3,CDS:4,CW:4,CLAN:2,CWIE:4,CGB:3</availability>
 			</model>
 			<model name='D'>
-				<roles>missile_artillery</roles>
-				<availability>CHH:4,MERC.WD:4,CDS:4,CW:4,General:2,CGB:3</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CHH:4,CDS:4,CW:4,CLAN:2,CGB:3</availability>
 			</model>
 			<model name='Prime'>
 				<roles>missile_artillery</roles>
-				<availability>CDS:9,CSV:9,General:8</availability>
+				<availability>CDS:9,CSV:9,CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Naginata' unitType='Mek'>
