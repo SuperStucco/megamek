@@ -4983,7 +4983,8 @@
 				<availability>General:8,DC:6</availability>
 			</model>
 			<model name='(Cargo)'>
-				<availability>General:4</availability>
+                <roles>cargo,support</roles>
+				<availability>General:4:3036</availability>
 			</model>
 			<model name='(Kurita)'>
 				<availability>DC:6</availability>

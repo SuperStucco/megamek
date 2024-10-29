@@ -6324,6 +6324,7 @@
 				<availability>General:8,DC:2</availability>
 			</model>
 			<model name='(Cargo)'>
+                <roles>cargo,support</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='(Kurita)'>
