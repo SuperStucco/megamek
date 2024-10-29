@@ -5388,16 +5388,20 @@
 		<chassis name='Marauder II' unitType='Mek'>
 			<availability>MERC.WD:5,MERC:2+</availability>
 			<model name='MAD-4A'>
+                <roles>command</roles>
 				<availability>MERC:8</availability>
 			</model>
 			<model name='MAD-5A'>
+                <roles>command</roles>
 				<availability>MERC.WD:4+</availability>
 			</model>
 			<model name='MAD-5B'>
-				<availability>MERC.WD:3</availability>
+                <roles>command</roles>
+				<availability>MERC.WD:3:3050</availability>
 			</model>
 			<model name='MAD-5C'>
-				<availability>MERC.WD:1</availability>
+                <roles>command</roles>
+				<availability>MERC.WD:1:3052</availability>
 			</model>
 		</chassis>
 		<chassis name='Marauder' unitType='Mek'>

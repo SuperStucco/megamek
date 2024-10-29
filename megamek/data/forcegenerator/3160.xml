@@ -11831,6 +11831,10 @@
 			<model name='MAD-6S'>
 				<availability>LA:6</availability>
 			</model>
+            <model name='MAD-8K'>
+                <roles>command</roles>
+                <availability>DC:3</availability>
+            </model>
 		</chassis>
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:4,RA.OA:2,RD:3,LA:5,FWL:3,FS:6,CP:3,TC:3,Periphery:2,DC:2</availability>

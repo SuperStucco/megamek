@@ -11165,33 +11165,39 @@
 		<chassis name='Marauder II' unitType='Mek'>
 			<availability>CC:4,FRR:5,WOB:2,FS:6,MERC:6,TC:4,CS:3,MERC.WD:6,LA:4,CGB.FRR:5,ROS:6,PIR:4,CNC:1,FWL:5,MH:4,DC:5</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>MERC.WD:4</availability>
 			</model>
 			<model name='MAD-4A'>
+                <roles>command</roles>
 				<availability>MERC:1</availability>
 			</model>
 			<model name='MAD-4H'>
+                <roles>command</roles>
 				<availability>PIR:7,MH:7,TC:7</availability>
 			</model>
 			<model name='MAD-4K'>
+                <roles>command</roles>
 				<availability>DC:7</availability>
 			</model>
 			<model name='MAD-4S'>
+                <roles>command</roles>
 				<availability>CS:8,LA:8,FRR:6,CGB.FRR:6,ROS:6,CNC:8,FWL:3,FS:7,MERC:6,DC:4</availability>
 			</model>
 			<model name='MAD-5A'>
+                <roles>command</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 			<model name='MAD-5C'>
+                <roles>command</roles>
 				<availability>MERC.WD:2</availability>
 			</model>
 			<model name='MAD-5W'>
+                <roles>command</roles>
 				<availability>CC:3,CS:4,WOB:8</availability>
 			</model>
-			<model name='MAD-6D'>
-				<availability>ROS:4,FS:3</availability>
-			</model>
 			<model name='MAD-6M'>
+                <roles>command</roles>
 				<availability>ROS:4,FWL:4,MERC:4</availability>
 			</model>
 		</chassis>

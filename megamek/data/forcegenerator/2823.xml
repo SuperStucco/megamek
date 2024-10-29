@@ -2748,7 +2748,7 @@
 			</model>
 		</chassis>
 		<chassis name='Kraken (Bane)' unitType='Mek'>
-			<availability>CSR:6,CLAN:6,CJF:6</availability>
+			<availability>CLAN:6:2827</availability>
 			<model name=''>
 				<availability>CLAN:8</availability>
 			</model>

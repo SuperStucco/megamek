@@ -12095,41 +12095,57 @@
 		<chassis name='Marauder II' unitType='Mek'>
 			<availability>CC:4,MOC:4,FS:6,MERC:5,CP:6,TC:4,MERC.WD:6,LA:2,ROS:6,PIR:4,FWL:6,MH:4,DC:6</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>MERC.WD:6</availability>
 			</model>
 			<model name='MAD-10D'>
-				<availability>FS:4</availability>
+                <roles>command</roles>
+				<availability>FS:4:3141</availability>
 			</model>
 			<model name='MAD-4H'>
+                <roles>command</roles>
 				<availability>PIR:4,MH:4,TC:4</availability>
 			</model>
 			<model name='MAD-4K'>
+                <roles>command</roles>
 				<availability>DC:8</availability>
 			</model>
 			<model name='MAD-4L'>
+                <roles>command</roles>
 				<availability>CC:8,MOC:8</availability>
 			</model>
 			<model name='MAD-4S'>
+                <roles>command</roles>
 				<availability>LA:6,ROS:6,CNC:8,FS:4,MERC:8,CP:8</availability>
 			</model>
 			<model name='MAD-5A'>
+                <roles>command</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 			<model name='MAD-6A'>
-				<availability>IS:6,FS:3</availability>
+                <roles>command</roles>
+				<availability>IS:6:3134,FS:3:3134</availability>
 			</model>
 			<model name='MAD-6C'>
-				<availability>IS:3</availability>
+                <roles>command</roles>
+				<availability>IS:3:3134</availability>
 			</model>
 			<model name='MAD-6D'>
+                <roles>command</roles>
 				<availability>ROS:4,FS:6</availability>
 			</model>
 			<model name='MAD-6M'>
+                <roles>command</roles>
 				<availability>ROS:4,FWL:6,MERC:6,CP:6</availability>
 			</model>
 			<model name='MAD-6S'>
-				<availability>LA:4</availability>
+                <roles>command</roles>
+				<availability>LA:4:3133</availability>
 			</model>
+            <model name='MAD-8K'>
+                <roles>command</roles>
+                <availability>DC:3:3138</availability>
+            </model>
 		</chassis>
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>CC:4,RA.OA:2,RD:3,LA:5,FWL:3,FS:6,CP:3,TC:3,Periphery:2,DC:2</availability>

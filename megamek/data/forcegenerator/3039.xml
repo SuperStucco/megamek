@@ -4420,6 +4420,7 @@
 		<chassis name='Marauder II' unitType='Mek'>
 			<availability>MERC.WD:5,MERC:2+</availability>
 			<model name='MAD-4A'>
+                <roles>command</roles>
 				<availability>MERC:8</availability>
 			</model>
 		</chassis>

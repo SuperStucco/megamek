@@ -4006,6 +4006,7 @@
 		<chassis name='Marauder II' unitType='Mek'>
 			<availability>MERC.WD:4</availability>
 			<model name='MAD-4A'>
+                <roles>command</roles>
 				<availability>MERC:8</availability>
 			</model>
 		</chassis>

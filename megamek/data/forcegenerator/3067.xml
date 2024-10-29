@@ -9891,34 +9891,40 @@
 		<chassis name='Marauder II' unitType='Mek'>
 			<availability>CC:3,FRR:4,WOB:2,FS:5,MERC:5,TC:3,CS:3,MERC.WD:6,LA:4,PIR:3,CNC:3,FWL:4,MH:3,SL.2:4,DC:4</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>MERC.WD:3</availability>
 			</model>
 			<model name='MAD-4A'>
+                <roles>command</roles>
 				<availability>MERC:4</availability>
 			</model>
 			<model name='MAD-4H'>
+                <roles>command</roles>
 				<availability>PIR:8,MH:8,TC:8</availability>
 			</model>
 			<model name='MAD-4K'>
-				<availability>DC:4</availability>
+                <roles>command</roles>
+				<availability>DC:4:3070</availability>
 			</model>
 			<model name='MAD-4S'>
+                <roles>command</roles>
 				<availability>CS:8,LA:8,FRR:8,CNC:8,FWL:6,SL.2:8,FS:8,MERC:4,DC:8</availability>
 			</model>
 			<model name='MAD-5A'>
+                <roles>command</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 			<model name='MAD-5B'>
+                <roles>command</roles>
 				<availability>MERC.WD:1</availability>
 			</model>
 			<model name='MAD-5C'>
+                <roles>command</roles>
 				<availability>MERC.WD:2</availability>
 			</model>
 			<model name='MAD-5W'>
-				<availability>CC:4,CS:4,WOB:8</availability>
-			</model>
-			<model name='MAD-6M'>
-				<availability>FWL:3,MERC:3</availability>
+                <roles>command</roles>
+				<availability>CC:4:3070,CS:4:3070,WOB:8:3070</availability>
 			</model>
 		</chassis>
 		<chassis name='Marauder' unitType='Mek'>

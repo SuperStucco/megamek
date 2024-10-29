@@ -6477,15 +6477,19 @@
 		<chassis name='Marauder II' unitType='Mek'>
 			<availability>MERC.WD:5,MERC:3+</availability>
 			<model name='MAD-4A'>
+                <roles>command</roles>
 				<availability>MERC:6</availability>
 			</model>
 			<model name='MAD-5A'>
+                <roles>command</roles>
 				<availability>MERC.WD:6+</availability>
 			</model>
 			<model name='MAD-5B'>
+                <roles>command</roles>
 				<availability>MERC.WD:4</availability>
 			</model>
 			<model name='MAD-5C'>
+                <roles>command</roles>
 				<availability>MERC.WD:2</availability>
 			</model>
 		</chassis>

@@ -10674,27 +10674,35 @@
 		<chassis name='Marauder II' unitType='Mek'>
 			<availability>CC:4,FRR:5,WOB:2,FS:6,MERC:6,TC:4,CS:3,MERC.WD:6,LA:4,PIR:4,CNC:2,FWL:5,MH:4,DC:5</availability>
 			<model name='C'>
+                <roles>command</roles>
 				<availability>MERC.WD:4</availability>
 			</model>
 			<model name='MAD-4A'>
+                <roles>command</roles>
 				<availability>MERC:2</availability>
 			</model>
 			<model name='MAD-4H'>
+                <roles>command</roles>
 				<availability>PIR:8,MH:8,TC:8</availability>
 			</model>
 			<model name='MAD-4K'>
+                <roles>command</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='MAD-4S'>
+                <roles>command</roles>
 				<availability>CS:8,LA:8,FRR:6,CNC:8,FWL:4,FS:8,MERC:6,DC:5</availability>
 			</model>
 			<model name='MAD-5A'>
+                <roles>command</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 			<model name='MAD-5C'>
+                <roles>command</roles>
 				<availability>MERC.WD:2</availability>
 			</model>
 			<model name='MAD-5W'>
+                <roles>command</roles>
 				<availability>CC:6,CS:4,WOB:8</availability>
 			</model>
 		</chassis>
