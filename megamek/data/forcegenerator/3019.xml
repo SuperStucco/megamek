@@ -4843,12 +4843,14 @@
 		<chassis name='Pike Support Vehicle' unitType='Tank'>
 			<availability>CC:4,MOC:7,HL:2,IS:5,MERC:5,TC:5,Periphery:4,CS:6-,OA:5,MERC.WD:5,FWL:4</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>HL:6,IS:8,Periphery.Deep:6,Periphery:8</availability>
 			</model>
 			<model name='(AC5)'>
 				<availability>MOC:2</availability>
 			</model>
 			<model name='(Missile)'>
+                <roles>fire_support</roles>
 				<availability>MOC:2</availability>
 			</model>
 		</chassis>

@@ -12683,18 +12683,22 @@
 		<chassis name='Pike Support Vehicle' unitType='Tank'>
 			<availability>MOC:3,CC:2,CHH:4,HL:2-,CLAN:4,IS:2-,MERC:2-,CWIE:5,Periphery:3-,TC:2-,RA.OA:3-,OA:2-,MERC.WD:4,CDS:5,LA:1-,CGB.FRR:3-,CNC:4,FWL:1-,MH:4-</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>HL:3,IS:3,Periphery:5</availability>
 			</model>
 			<model name='(AC5)'>
 				<availability>MOC:2</availability>
 			</model>
 			<model name='(Clan)'>
+                <roles>fire_support</roles>
 				<availability>CC:8,MERC.WD:8,CLAN:8</availability>
 			</model>
 			<model name='(Missile)'>
+                <roles>fire_support</roles>
 				<availability>MOC:2</availability>
 			</model>
 			<model name='(RAC) &apos;Assault Pike&apos;'>
+                <roles>fire_support</roles>
 				<availability>CC:7,MOC:6,FS:6,MERC:7,DA:8,TC:6</availability>
 			</model>
 		</chassis>
