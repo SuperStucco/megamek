@@ -8520,10 +8520,11 @@
 		<chassis name='Hi-Scout Drone Carrier' unitType='Tank'>
 			<availability>LA:2,IS:2</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>LA:6,General:8</availability>
 			</model>
 			<model name='(Cunnington)'>
-				<roles>spotter</roles>
+				<roles>recon,spotter</roles>
 				<availability>LA:5</availability>
 			</model>
 		</chassis>

@@ -2942,6 +2942,13 @@
                 <availability>MOC:1:3014,IS:1:3014,TC:1:3014</availability>
             </model>
 		</chassis>
+        <chassis name='Hi-Scout Drone Carrier' unitType='Tank'>
+            <availability>LA:3:3000,IS:2:3000</availability>
+            <model name=''>
+                <roles>recon</roles>
+                <availability>LA:8,General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Highlander IIC' unitType='Mek'>
 			<availability>CW:7,CLAN:6,CNC:7,CJF:7,CGB:7</availability>
 			<model name=''>

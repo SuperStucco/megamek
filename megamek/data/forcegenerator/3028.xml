@@ -3248,6 +3248,7 @@
 		<chassis name='Hi-Scout Drone Carrier' unitType='Tank'>
 			<availability>LA:3,IS:2</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>LA:8,General:8</availability>
 			</model>
 		</chassis>
