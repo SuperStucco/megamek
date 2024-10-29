@@ -7859,26 +7859,35 @@
 		<chassis name='Grand Dragon' unitType='Mek'>
 			<availability>RD:4,ROS:4,MERC:4,CP:5,DC:4</availability>
 			<model name='DRG-10K'>
+                <roles>cavalry</roles>
 				<availability>DC:8</availability>
 			</model>
+            <model name='DRG-12K'>
+                <roles>cavalry</roles>
+                <availability>DC:2:3147</availability>
+            </model>
 			<model name='DRG-5K'>
+                <roles>cavalry</roles>
 				<availability>RD:8,ROS:6,MERC:6,CP:8,DC:2</availability>
 			</model>
 			<model name='DRG-5K-DC'>
-				<roles>command</roles>
+				<roles>cavalry,command</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='DRG-7K'>
+                <roles>cavalry</roles>
 				<availability>ROS:6,MERC:4,DC:1</availability>
 			</model>
 			<model name='DRG-7KC'>
+                <roles>cavalry</roles>
 				<availability>DC:8</availability>
 			</model>
 			<model name='DRG-9KC'>
-				<roles>spotter</roles>
+				<roles>cavalry,command,spotter</roles>
 				<availability>DC:8</availability>
 			</model>
 			<model name='DRG-C'>
+                <roles>cavalry</roles>
 				<availability>ROS:4,DC:2</availability>
 			</model>
 		</chassis>

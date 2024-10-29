@@ -2742,8 +2742,9 @@
 			</model>
 		</chassis>
 		<chassis name='Grand Dragon' unitType='Mek'>
-			<availability>DC:6</availability>
+			<availability>DC:6:3024</availability>
 			<model name='DRG-1G'>
+			    <roles>cavalry</roles>
 				<availability>DC:8</availability>
 			</model>
 		</chassis>

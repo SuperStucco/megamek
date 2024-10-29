@@ -7307,26 +7307,31 @@
 		<chassis name='Grand Dragon' unitType='Mek'>
 			<availability>FRR:6,CGB.FRR:6,CNC:6,WOB:5,DC:8</availability>
 			<model name='DRG-1G'>
+                <roles>cavalry</roles>
 				<availability>FRR:2-,CGB.FRR:3-,DC:3-</availability>
 			</model>
 			<model name='DRG-5K'>
+                <roles>cavalry</roles>
 				<availability>FRR:6,CGB.FRR:6,ROS:6,CNC:8,WOB:8,MERC:5,DC:5</availability>
 			</model>
 			<model name='DRG-5K-DC'>
-				<roles>command</roles>
+				<roles>cavalry,command</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='DRG-7K'>
+                <roles>cavalry</roles>
 				<availability>ROS:6,MERC:3,DC:5</availability>
 			</model>
 			<model name='DRG-7KC'>
+                <roles>cavalry</roles>
 				<availability>DC:4</availability>
 			</model>
 			<model name='DRG-9KC'>
-				<roles>spotter</roles>
+				<roles>cavalry,command,spotter</roles>
 				<availability>DC:5</availability>
 			</model>
 			<model name='DRG-C'>
+                <roles>cavalry</roles>
 				<availability>FRR:3,CGB.FRR:3,ROS:4,DC:6</availability>
 			</model>
 		</chassis>

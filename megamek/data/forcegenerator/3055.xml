@@ -4089,16 +4089,19 @@
 		<chassis name='Grand Dragon' unitType='Mek'>
 			<availability>FRR:6,DC:8</availability>
 			<model name='DRG-1G'>
+                <roles>cavalry</roles>
 				<availability>FRR:6,DC:6</availability>
 			</model>
 			<model name='DRG-5K'>
+                <roles>cavalry</roles>
 				<availability>FRR:4+,DC:6+</availability>
 			</model>
 			<model name='DRG-5K-DC'>
-				<roles>command</roles>
+				<roles>cavalry,command</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='DRG-C'>
+                <roles>cavalry</roles>
 				<availability>FRR:6+,DC:6+</availability>
 			</model>
 		</chassis>
