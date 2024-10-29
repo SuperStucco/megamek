@@ -12278,10 +12278,11 @@
 		<chassis name='Marten Scout VTOL' unitType='VTOL'>
 			<availability>FS.CH:3,IS:2,FS:3,Periphery:2</availability>
 			<model name=''>
+                <roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Infantry)'>
-				<roles>apc</roles>
+				<roles>apc,recon</roles>
 				<availability>General:6</availability>
 			</model>
 		</chassis>
