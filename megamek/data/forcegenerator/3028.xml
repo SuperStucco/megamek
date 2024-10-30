@@ -1572,7 +1572,7 @@
 				<availability>CC:2,SIC:2,MERC:2</availability>
 			</model>
 			<model name='CGR-1A9'>
-				<availability>FRR:2+,DC:2+</availability>
+				<availability>FRR:2+:3034,DC:2+:3034</availability>
 			</model>
 			<model name='CGR-1L'>
 				<availability>CC:8,SIC:6,Periphery:3</availability>

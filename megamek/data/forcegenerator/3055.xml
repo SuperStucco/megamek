@@ -2311,6 +2311,7 @@
 				<availability>CC:5,HL:2,SIC:5,Periphery:4</availability>
 			</model>
 			<model name='CGR-3K'>
+                <roles>raider</roles>
 				<availability>CC:4,FRR:5,MERC:4,DC:5</availability>
 			</model>
 			<model name='CGR-C'>

@@ -1477,13 +1477,13 @@
 				<availability>CC:6-,LA:6-,FWL:6-,DC:6-</availability>
 			</model>
 			<model name='CGR-1A5'>
-				<availability>CC:2,MERC:2</availability>
+				<availability>CC:2:3023,MERC:2:3023</availability>
 			</model>
 			<model name='CGR-1L'>
-				<availability>CC:8</availability>
+				<availability>CC:8:3022</availability>
 			</model>
 			<model name='CGR-SB &apos;Challenger&apos;'>
-				<availability>LA:3,MERC:4</availability>
+				<availability>LA:3:3025,MERC:4:3025</availability>
 			</model>
 		</chassis>
 		<chassis name='Cheetah' unitType='AeroSpaceFighter'>

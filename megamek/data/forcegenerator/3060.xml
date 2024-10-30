@@ -2943,9 +2943,10 @@
 				<availability>CC:4,HL:3,SIC:4,Periphery:5</availability>
 			</model>
 			<model name='CGR-2A2'>
-				<availability>MOC:4,OA:10,PIR:4,MH:4</availability>
+				<availability>MOC:4:3064,OA:10:3064,PIR:4:3064,MH:4:3064</availability>
 			</model>
 			<model name='CGR-3K'>
+                <roles>raider</roles>
 				<availability>CC:3-,FRR:4-,MERC:3-,DC:4-</availability>
 			</model>
 			<model name='CGR-C'>
@@ -2953,7 +2954,7 @@
 			</model>
 			<model name='CGR-SA5'>
 				<roles>urban</roles>
-				<availability>MERC:4,DC:4</availability>
+				<availability>MERC:4:3063,DC:4:3063</availability>
 			</model>
 			<model name='CGR-SB &apos;Challenger&apos;'>
 				<availability>LA:3,MERC:4</availability>

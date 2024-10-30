@@ -2078,10 +2078,11 @@
 				<availability>CC:6,HL:2,SIC:6,Periphery:4</availability>
 			</model>
 			<model name='CGR-3K'>
+			    <roles>raider</roles>
 				<availability>CC:2,FRR:3,MERC:2,DC:4</availability>
 			</model>
 			<model name='CGR-C'>
-				<availability>DC:3</availability>
+				<availability>DC:3:3052</availability>
 			</model>
 			<model name='CGR-SB &apos;Challenger&apos;'>
 				<availability>LA:3,MERC:4</availability>

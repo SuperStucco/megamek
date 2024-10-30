@@ -4136,15 +4136,18 @@
 				<availability>MOC:5,RA.OA:10,FVC:5,PIR:5,MH:5,Periphery:4</availability>
 			</model>
 			<model name='CGR-3K'>
+                <roles>raider</roles>
 				<availability>MERC:1-,DC:2-</availability>
 			</model>
 			<model name='CGR-3Kr'>
+                <roles>raider</roles>
 				<availability>CC:4,RD:4,MERC:4,DC:4</availability>
 			</model>
 			<model name='CGR-C'>
 				<availability>DC:2</availability>
 			</model>
 			<model name='CGR-KMZ'>
+                <roles>raider</roles>
 				<availability>DC.GHO:6,LA:4,MERC:4,DC:4</availability>
 			</model>
 			<model name='CGR-SA5'>
