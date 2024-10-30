@@ -4294,6 +4294,7 @@
 		<chassis name='Conqueror Battlecruiser Carrier' unitType='Warship'>
 			<availability>CSR:1,RA:1</availability>
 			<model name=''>
+                <roles>asf_carrier,cruiser</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
