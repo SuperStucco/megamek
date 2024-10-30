@@ -3532,7 +3532,7 @@
 			</model>
 		</chassis>
 		<chassis name='Cauldron-Born (Ebon Jaguar)' unitType='Mek' omni='Clan'>
-			<availability>CSA:5,CHH:5,CCC:5,CDS:5,CNC:5,RA:5,DC:3+</availability>
+			<availability>CSA:5,CHH:5,CCC:5,CDS:5,CNC:5,RA:5,CEI:3+,DC:3+</availability>
 			<model name='A'>
 				<availability>General:8</availability>
 			</model>
@@ -3559,6 +3559,10 @@
 			<model name='U'>
 				<availability>General:2</availability>
 			</model>
+            <model name='X'>
+                <roles>ew_support</roles>
+                <availability>CLAN:1</availability>
+            </model>
 		</chassis>
 		<chassis name='Cavalier Battle Armor' unitType='BattleArmor'>
 			<availability>FS:8</availability>

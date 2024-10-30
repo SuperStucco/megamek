@@ -3468,6 +3468,10 @@
 			<model name='U'>
 				<availability>General:2</availability>
 			</model>
+            <model name='X'>
+                <roles>ew_support</roles>
+                <availability>CLAN:1</availability>
+            </model>
 		</chassis>
 		<chassis name='Cavalier Battle Armor' unitType='BattleArmor'>
 			<availability>FS:8</availability>

@@ -3521,6 +3521,7 @@
 				<availability>General:2</availability>
 			</model>
 			<model name='X'>
+                <roles>ew_support</roles>
 				<availability>CHH:2,CW:2</availability>
 			</model>
 		</chassis>

@@ -3116,7 +3116,7 @@
 				<availability>General:5</availability>
 			</model>
 			<model name='E'>
-				<availability>CLAN:5,IS:2</availability>
+				<availability>CLAN:5:3069,IS:2:3069</availability>
 			</model>
 			<model name='H'>
 				<availability>CSA:8,CLAN:6,IS:2</availability>

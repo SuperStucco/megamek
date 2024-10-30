@@ -2121,21 +2121,18 @@
 		<chassis name='Cauldron-Born (Ebon Jaguar)' unitType='Mek' omni='Clan'>
 			<availability>CSA:4,CHH:4,CCC:4,CSR:4,CDS:4,CW:4,CLAN:2,CSJ:6,CGS:4,CJF:4,CGB:4</availability>
 			<model name='A'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 			<model name='B'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='C'>
 				<roles>fire_support</roles>
-				<availability>General:5</availability>
-			</model>
-			<model name='D'>
-				<availability>General:5</availability>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:7</availability>
+				<availability>CLAN:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Cavalry Attack Helicopter' unitType='VTOL'>

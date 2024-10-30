@@ -2703,7 +2703,7 @@
 				<availability>General:5</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:6,CLAN:5,IS:2</availability>
+				<availability>CSA:6:3062,CLAN:5:3062,IS:2:3062</availability>
 			</model>
 			<model name='Prime'>
 				<availability>General:7</availability>
