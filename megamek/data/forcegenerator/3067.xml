@@ -3178,7 +3178,7 @@
 		<chassis name='Celerity' unitType='Mek'>
 			<availability>CS:2</availability>
 			<model name='CLR-02-X-D'>
-				<roles>specops</roles>
+				<roles>recon,specops</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

@@ -4006,27 +4006,27 @@
 		<chassis name='Celerity' unitType='Mek' omni='IS'>
 			<availability>ROS:3</availability>
 			<model name='CLR-03-O'>
-				<roles>spotter,specops</roles>
+				<roles>recon,spotter,specops</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='CLR-03-OA'>
-				<roles>specops</roles>
+				<roles>recon,specops</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='CLR-03-OB'>
-				<roles>specops</roles>
+				<roles>recon,specops</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='CLR-03-OC'>
-				<roles>specops</roles>
+				<roles>recon,specops</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='CLR-03-OD'>
-				<roles>specops</roles>
+				<roles>recon,specops</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='CLR-03-OE'>
-				<roles>specops</roles>
+				<roles>recon,specops</roles>
 				<availability>General:7</availability>
 			</model>
 		</chassis>
