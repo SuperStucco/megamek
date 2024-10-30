@@ -3687,21 +3687,26 @@
 				<availability>IS:4,Periphery:3</availability>
 			</model>
 			<model name='CN9-D'>
+                <roles>cavalry</roles>
 				<availability>FVC:4,HL:2,FS:2,MERC:5,Periphery:4</availability>
 			</model>
 			<model name='CN9-D3'>
+                <roles>cavalry</roles>
 				<availability>FVC:2,ROS:3,FS:3,MERC:3,CDP:3</availability>
 			</model>
 			<model name='CN9-D3D'>
+                <roles>cavalry</roles>
 				<availability>FVC:3,ROS:3,FWL:3,FS:3,MERC:3,CDP:3</availability>
 			</model>
 			<model name='CN9-D4D'>
 				<availability>DTA:3,OP:3,DoO:3,ROS:3,DO:3,MSC:3,TP:3,FS:3,MERC:3</availability>
 			</model>
 			<model name='CN9-D5'>
+                <roles>cavalry</roles>
 				<availability>FS:4</availability>
 			</model>
 			<model name='CN9-D9'>
+                <roles>cavalry</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='CN9-Da'>

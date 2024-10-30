@@ -2321,9 +2321,11 @@
 				<availability>LA:2,IS:1,FS:4,MERC:4,Periphery:2</availability>
 			</model>
 			<model name='CN9-D'>
+                <roles>cavalry</roles>
 				<availability>LA:3+,FRR:3+,FWL:3+,SIC:3+,FS:8+,MERC:3+,CIR:3+,Periphery:2+</availability>
 			</model>
 			<model name='CN9-D3'>
+                <roles>cavalry</roles>
 				<availability>FS:2,MERC:2+</availability>
 			</model>
 		</chassis>

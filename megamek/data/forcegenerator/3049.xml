@@ -1967,9 +1967,6 @@
 		</chassis>
 		<chassis name='Centurion' unitType='Mek'>
 			<availability>CC:2,FRR:2,IS:3,WOB:2-,SIC:4,Periphery.OS:4,FS:9,MERC:3,Periphery:2,CS:2-,LA:5,Periphery.HR:4,FWL:2,NIOPS:2-,DC:2</availability>
-			<model name='CN10-B'>
-				<availability>LA:2+,FS:3+</availability>
-			</model>
 			<model name='CN9-A'>
 				<deployedWith>Trebuchet</deployedWith>
 				<availability>HL:6,LA:6,FRR:6,General:6,FWL:6,Periphery.Deep:7,FS:6,MERC:6,Periphery:8</availability>
@@ -1983,10 +1980,12 @@
 				<availability>LA:3,IS:2,FS:4,MERC:4,Periphery:2</availability>
 			</model>
 			<model name='CN9-D'>
+			    <roles>cavalry</roles>
 				<availability>SIC:2+,FS:6+</availability>
 			</model>
 			<model name='CN9-D3'>
-				<availability>FS:2+</availability>
+			    <roles>cavalry</roles>
+				<availability>FS:2+:3052</availability>
 			</model>
 		</chassis>
 		<chassis name='Cerberus' unitType='Mek'>

@@ -3853,21 +3853,26 @@
 				<availability>IS:3,Periphery:4</availability>
 			</model>
 			<model name='CN9-D'>
+                <roles>cavalry</roles>
 				<availability>FVC:4,MERC:4,Periphery:4</availability>
 			</model>
 			<model name='CN9-D3'>
+                <roles>cavalry</roles>
 				<availability>FVC:2,ROS:2,FS:2,MERC:2,CDP:3</availability>
 			</model>
 			<model name='CN9-D3D'>
+                <roles>cavalry</roles>
 				<availability>FVC:3,ROS:3,FWL:3,FS:3,MERC:3,CDP:3</availability>
 			</model>
 			<model name='CN9-D4D'>
 				<availability>DTA:3,OP:3,ROS:3,MSC:3,FS:3,MERC:3</availability>
 			</model>
 			<model name='CN9-D5'>
+                <roles>cavalry</roles>
 				<availability>FS:3</availability>
 			</model>
 			<model name='CN9-D9'>
+                <roles>cavalry</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='CN9-Da'>
@@ -3876,6 +3881,12 @@
 			<model name='CN9-H'>
 				<availability>MH:4-</availability>
 			</model>
+            <model name='CN9-H2 MilitiaMech'>
+                <availability>MH:3-,PIR:6-</availability>
+            </model>
+            <model name='CN9-H2H MilitiaMech'>
+                <availability>MH:3-</availability>
+            </model>
 		</chassis>
 		<chassis name='Centurion' unitType='Mek' omni='IS'>
 			<availability>LA:4,ROS:4,FS:5,MERC:4</availability>

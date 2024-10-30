@@ -2805,19 +2805,23 @@
 				<availability>LA:1,FS:3,MERC:3,Periphery:1</availability>
 			</model>
 			<model name='CN9-D'>
+                <roles>cavalry</roles>
 				<availability>LA:3,FRR:3,FWL:3,SIC:4,FS:8,MERC:4,CIR:3,Periphery:3</availability>
 			</model>
 			<model name='CN9-D3'>
+                <roles>cavalry</roles>
 				<availability>FS:3,MERC:3</availability>
 			</model>
 			<model name='CN9-D3D'>
+                <roles>cavalry</roles>
 				<availability>FWL:2,FS:2,MERC:2</availability>
 			</model>
 			<model name='CN9-D4D'>
-				<availability>FWL:2,FS:2,MERC:2</availability>
+				<availability>FWL:2:3066,FS:2:3066,MERC:2:3066</availability>
 			</model>
 			<model name='CN9-D5'>
-				<availability>FS:5</availability>
+                <roles>cavalry</roles>
+				<availability>FS:5:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Cerberus' unitType='Mek'>

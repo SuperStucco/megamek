@@ -2176,7 +2176,7 @@
 		<chassis name='Centurion' unitType='Mek'>
 			<availability>CC:2,FRR:2,IS:3,WOB:2-,SIC:4,Periphery.OS:4,FS:9,MERC:3,Periphery:2,CS:2-,LA:5,Periphery.HR:4,FWL:2,NIOPS:2-,DC:2</availability>
 			<model name='CN10-B'>
-				<availability>LA:4+,IS:3+,FS:5+</availability>
+				<availability>LA:4+:3057,IS:3+:3057,FS:5+:3057</availability>
 			</model>
 			<model name='CN9-A'>
 				<deployedWith>Trebuchet</deployedWith>
@@ -2191,9 +2191,11 @@
 				<availability>LA:2,IS:1,FS:4,MERC:4,Periphery:2</availability>
 			</model>
 			<model name='CN9-D'>
+                <roles>cavalry</roles>
 				<availability>LA:3+,FRR:3+,FWL:3+,SIC:3+,FS:8+,MERC:3+,CIR:3+,Periphery:2+</availability>
 			</model>
 			<model name='CN9-D3'>
+                <roles>cavalry</roles>
 				<availability>FS:2,MERC:2+</availability>
 			</model>
 		</chassis>

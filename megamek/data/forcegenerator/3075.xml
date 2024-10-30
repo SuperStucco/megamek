@@ -3651,28 +3651,33 @@
 				<availability>IS:4,Periphery:2</availability>
 			</model>
 			<model name='CN9-D'>
+                <roles>cavalry</roles>
 				<availability>FVC:5,HL:2,LA:1,FWL:1,FS:4,MERC:6,CIR:3,Periphery:4</availability>
 			</model>
 			<model name='CN9-D3'>
+                <roles>cavalry</roles>
 				<availability>FVC:2,FS:3,MERC:3</availability>
 			</model>
 			<model name='CN9-D3D'>
+                <roles>cavalry</roles>
 				<availability>FVC:2,FWL:2,FS:2,MERC:2</availability>
 			</model>
 			<model name='CN9-D4D'>
 				<availability>DTA:2,FWL:2,FS:2,MERC:2</availability>
 			</model>
 			<model name='CN9-D5'>
+                <roles>cavalry</roles>
 				<availability>FS:5</availability>
 			</model>
 			<model name='CN9-D9'>
+                <roles>cavalry</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='CN9-Da'>
 				<availability>FVC:1,FWL:1,FS:1,MERC:1,Periphery:1</availability>
 			</model>
 			<model name='CN9-H'>
-				<availability>MH:6</availability>
+				<availability>MH:6:3077</availability>
 			</model>
 		</chassis>
 		<chassis name='Cerberus' unitType='Mek'>

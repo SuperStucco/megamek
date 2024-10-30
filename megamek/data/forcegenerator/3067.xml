@@ -3250,25 +3250,30 @@
 				<availability>FVC:3-,FS:3-,MERC:3-</availability>
 			</model>
 			<model name='CN9-Ar'>
-				<availability>IS:3</availability>
+				<availability>IS:3:3072/availability>
 			</model>
 			<model name='CN9-D'>
+                <roles>cavalry</roles>
 				<availability>FVC:5,HL:2,LA:2,FRR:2,FWL:2,FS:6,MERC:6,CIR:3,Periphery:4</availability>
 			</model>
 			<model name='CN9-D3'>
+                <roles>cavalry</roles>
 				<availability>FVC:2,FS:3,MERC:3</availability>
 			</model>
 			<model name='CN9-D3D'>
+                <roles>cavalry</roles>
 				<availability>FVC:2,FWL:2,FS:2,MERC:2</availability>
 			</model>
 			<model name='CN9-D4D'>
 				<availability>FWL:2,FS:2,MERC:2</availability>
 			</model>
 			<model name='CN9-D5'>
+                <roles>cavalry</roles>
 				<availability>FS:5</availability>
 			</model>
 			<model name='CN9-D9'>
-				<availability>FS:2</availability>
+                <roles>cavalry</roles>
+				<availability>FS:2:3071</availability>
 			</model>
 		</chassis>
 		<chassis name='Cephalus' unitType='Mek' omni='Clan'>
