@@ -3127,45 +3127,55 @@
 		<chassis name='Black Lanner' unitType='Mek' omni='Clan'>
 			<availability>CJF:7</availability>
 			<model name='A'>
-				<roles>recon,spotter</roles>
+				<roles>cavalry,recon,spotter</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='B'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='C'>
+                <roles>cavalry</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='D'>
-				<roles>urban</roles>
+				<roles>anti_infantry,cavalry,urban</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='E'>
+                <roles>cavalry</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='F'>
+                <roles>anti_infantry,cavalry,recon</roles>
 				<availability>CJF:6</availability>
 			</model>
 			<model name='G'>
+                <roles>cavalry,fire_support</roles>
 				<availability>CJF:6</availability>
 			</model>
 			<model name='H'>
+                <roles>cavalry</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='I'>
+                <roles>anti_infantry,cavalry</roles>
 				<availability>CJF:4</availability>
 			</model>
 			<model name='J'>
+                <roles>cavalry</roles>
 				<availability>CJF:4</availability>
 			</model>
 			<model name='Prime'>
+                <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='T'>
+                <roles>cavalry</roles>
 				<availability>CJF:4</availability>
 			</model>
 			<model name='X'>
+                <roles>cavalry</roles>
 				<availability>CJF:2</availability>
 			</model>
 		</chassis>

@@ -2216,27 +2216,31 @@
 		<chassis name='Black Lanner' unitType='Mek' omni='Clan'>
 			<availability>CIH:2:3062,CSV:4,CJF:6</availability>
 			<model name='A'>
-				<roles>recon,spotter</roles>
+				<roles>cavalry,recon,spotter</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='B'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='C'>
+                <roles>cavalry</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='D'>
-				<roles>urban</roles>
+				<roles>anti_infantry,cavalry,urban</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='E'>
-				<availability>General:5</availability>
+                <roles>cavalry</roles>
+				<availability>General:5:3062</availability>
 			</model>
 			<model name='H'>
-				<availability>General:5</availability>
+                <roles>cavalry</roles>
+				<availability>General:5:3061</availability>
 			</model>
 			<model name='Prime'>
+                <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
