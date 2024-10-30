@@ -3244,15 +3244,11 @@
 			</model>
 			<model name='(Gauss)'>
 				<roles>field_gun</roles>
-				<availability>IS:4</availability>
-			</model>
-			<model name='(Light Gauss)'>
-				<roles>field_gun</roles>
-				<availability>FWL:4</availability>
+				<availability>IS:4+</availability>
 			</model>
 			<model name='(UAC5)'>
 				<roles>field_gun</roles>
-				<availability>IS:7</availability>
+				<availability>IS:6+</availability>
 			</model>
 		</chassis>
 		<chassis name='Field Medic' unitType='Infantry'>

@@ -3559,27 +3559,23 @@
 			</model>
 			<model name='(Gauss)'>
 				<roles>field_gun</roles>
-				<availability>IS:5</availability>
+				<availability>IS:4+</availability>
 			</model>
 			<model name='(Light Gauss)'>
 				<roles>field_gun</roles>
-				<availability>IS:4</availability>
+				<availability>FWL:4+:3056</availability>
 			</model>
 			<model name='(UAC10)'>
 				<roles>field_gun</roles>
-				<availability>IS:6</availability>
+				<availability>FWL:4+:3057</availability>
 			</model>
 			<model name='(UAC2)'>
 				<roles>field_gun</roles>
-				<availability>IS:6</availability>
-			</model>
-			<model name='(UAC20)'>
-				<roles>field_gun</roles>
-				<availability>IS:6</availability>
+				<availability>FWL:4+:3057</availability>
 			</model>
 			<model name='(UAC5)'>
 				<roles>field_gun</roles>
-				<availability>IS:7</availability>
+				<availability>IS:6+</availability>
 			</model>
 		</chassis>
 		<chassis name='Field Medic' unitType='Infantry'>
