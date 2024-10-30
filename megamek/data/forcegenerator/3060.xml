@@ -12066,25 +12066,29 @@
 		</chassis>
 		<chassis name='Tornado PA(L)' unitType='BattleArmor'>
 			<availability>CS:2,FWL:2,WOB:2</availability>
-			<model name='G12(Sqd6)' mechanized='true'>
-				<availability>FWL:8,WOB:8</availability>
+			<model name='G12(Sqd4)' mechanized='true'>
+				<availability>FWL:8</availability>
 			</model>
+            <model name='G12(Sqd6)' mechanized='true'>
+                <availability>WOB:8</availability>
+            </model>
 			<model name='G13 [David Light Gauss](Sqd6)' mechanized='false'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4:3066,MH:4:3066</availability>
 			</model>
 			<model name='G13 [Flamer](Sqd6)' mechanized='false'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4:3066,MH:4:3066</availability>
 			</model>
 			<model name='G13 [Grenade Launcher](Sqd6)' mechanized='true'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4:3066,MH:4:3066</availability>
 			</model>
 			<model name='G13 [Machine Gun](Sqd6)' mechanized='true'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4:3066,MH:4:3066</availability>
 			</model>
 			<model name='G13 [Small Laser](Sqd6)' mechanized='false'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4:3066,MH:4:3066</availability>
 			</model>
 			<model name='P12 &apos;Hurricane&apos;(Sqd6)' mechanized='true'>
+                <roles>specops</roles>
 				<availability>CS:8</availability>
 			</model>
 		</chassis>

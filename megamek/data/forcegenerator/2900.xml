@@ -5456,8 +5456,9 @@
 			</model>
 		</chassis>
 		<chassis name='Tornado PA(L)' unitType='BattleArmor'>
-			<availability>CS:1</availability>
+			<availability>CS:1:2905</availability>
 			<model name='P12 &apos;Hurricane&apos;(Sqd6)' mechanized='true'>
+                <roles>specops</roles>
 				<availability>CS:8</availability>
 			</model>
 		</chassis>

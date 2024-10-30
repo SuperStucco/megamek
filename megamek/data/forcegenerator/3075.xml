@@ -16403,9 +16403,12 @@
 		</chassis>
 		<chassis name='Tornado PA(L)' unitType='BattleArmor'>
 			<availability>CS:2,FWL:2,WOB:2,MH:1</availability>
-			<model name='G12(Sqd6)' mechanized='true'>
-				<availability>FWL:8,WOB:8</availability>
+			<model name='G12(Sqd4)' mechanized='true'>
+				<availability>FWL:8</availability>
 			</model>
+            <model name='G12(Sqd6)' mechanized='true'>
+                <availability>WOB:8</availability>
+            </model>
 			<model name='G13 [David Light Gauss](Sqd6)' mechanized='false'>
 				<availability>WOB:4,MH:4</availability>
 			</model>
@@ -16425,12 +16428,15 @@
 				<availability>WOB:3</availability>
 			</model>
 			<model name='G17(Sqd6)' mechanized='false'>
+                <roles>recon,specops</roles>
 				<availability>WOB:4</availability>
 			</model>
 			<model name='P12 &apos;Hurricane&apos;(Sqd6)' mechanized='true'>
+                <roles>specops</roles>
 				<availability>CS:8</availability>
 			</model>
 			<model name='P17 &apos;Hurricane&apos;(Sqd6)' mechanized='false'>
+                <roles>specops</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

@@ -9649,9 +9649,11 @@
 		<chassis name='Tornado PA(L)' unitType='BattleArmor'>
 			<availability>CS:2,FWL:1,WOB:2</availability>
 			<model name='G12(Sqd6)' mechanized='true'>
+                <roles>specops</roles>
 				<availability>FWL:8,WOB:8</availability>
 			</model>
 			<model name='P12 &apos;Hurricane&apos;(Sqd6)' mechanized='true'>
+                <roles>specops</roles>
 				<availability>CS:8</availability>
 			</model>
 		</chassis>

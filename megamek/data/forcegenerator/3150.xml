@@ -18931,22 +18931,25 @@
 		</chassis>
 		<chassis name='Tornado PA(L)' unitType='BattleArmor'>
 			<availability>FWL:1,MH:1,CP:1</availability>
-			<model name='G12(Sqd6)' mechanized='true'>
-				<availability>FWL:8,CP:8</availability>
+			<model name='G12(Sqd4)' mechanized='true'>
+				<availability>FWL:8</availability>
 			</model>
-			<model name='G13 [David Light Gauss](Sqd6)' mechanized='false'>
+            <model name='G12(Sqd5)' mechanized='true'>
+                <availability>FWL:8,CP:8</availability>
+            </model>
+			<model name='G13 [David Light Gauss](Sqd5)' mechanized='false'>
 				<availability>MH:4</availability>
 			</model>
-			<model name='G13 [Flamer](Sqd6)' mechanized='false'>
+			<model name='G13 [Flamer](Sqd5)' mechanized='false'>
 				<availability>MH:4</availability>
 			</model>
-			<model name='G13 [Grenade Launcher](Sqd6)' mechanized='true'>
+			<model name='G13 [Grenade Launcher](Sqd5)' mechanized='true'>
 				<availability>MH:4</availability>
 			</model>
-			<model name='G13 [Machine Gun](Sqd6)' mechanized='true'>
+			<model name='G13 [Machine Gun](Sqd5)' mechanized='true'>
 				<availability>MH:4</availability>
 			</model>
-			<model name='G13 [Small Laser](Sqd6)' mechanized='false'>
+			<model name='G13 [Small Laser](Sqd5)' mechanized='false'>
 				<availability>MH:4</availability>
 			</model>
 		</chassis>
