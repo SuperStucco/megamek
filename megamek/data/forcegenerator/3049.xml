@@ -2333,7 +2333,7 @@
 			</model>
 		</chassis>
 		<chassis name='Claymore' unitType='Dropship'>
-			<availability>LA:1</availability>
+			<availability>LA:1:3054</availability>
 			<model name='(3054)'>
 				<roles>assault</roles>
 				<availability>General:8</availability>

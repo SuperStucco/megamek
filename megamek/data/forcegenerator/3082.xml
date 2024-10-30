@@ -4110,10 +4110,6 @@
 				<roles>assault</roles>
 				<availability>LA:1</availability>
 			</model>
-			<model name='V3'>
-				<roles>assault</roles>
-				<availability>LA:3,FS:3</availability>
-			</model>
 		</chassis>
 		<chassis name='Clint IIC' unitType='Mek'>
 			<availability>CSR:2,CW:5,CBS:2,CNC:5,RA:2,CGB:5</availability>
