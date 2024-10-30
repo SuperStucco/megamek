@@ -2731,7 +2731,7 @@
 			</model>
 			<model name='(Infantry)'>
 				<roles>apc</roles>
-				<availability>General:4</availability>
+				<availability>General:4:3063</availability>
 			</model>
 			<model name='(LRM)'>
 				<availability>General:6</availability>

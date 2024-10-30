@@ -2274,7 +2274,7 @@
 			</model>
 			<model name='(TAG)'>
 				<roles>spotter</roles>
-				<availability>General:4</availability>
+				<availability>General:4:3059</availability>
 			</model>
 		</chassis>
 		<chassis name='Celerity' unitType='Mek'>

@@ -2146,10 +2146,6 @@
 			<model name='(SRM)'>
 				<availability>General:6</availability>
 			</model>
-			<model name='(TAG)'>
-				<roles>spotter</roles>
-				<availability>General:4</availability>
-			</model>
 		</chassis>
 		<chassis name='Celerity' unitType='Mek'>
 			<availability>CS:1</availability>

@@ -1934,15 +1934,9 @@
 			</model>
 		</chassis>
 		<chassis name='Cavalry Attack Helicopter' unitType='VTOL'>
-			<availability>LA:4,FS:6,MERC:4</availability>
+			<availability>LA:4:3054,FS:6:3054,MERC:4:3054</availability>
 			<model name=''>
 				<availability>General:8</availability>
-			</model>
-			<model name='(LRM)'>
-				<availability>General:6</availability>
-			</model>
-			<model name='(SRM)'>
-				<availability>General:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Celerity' unitType='Mek'>

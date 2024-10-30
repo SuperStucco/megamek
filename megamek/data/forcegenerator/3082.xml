@@ -3508,7 +3508,7 @@
 				<availability>General:4</availability>
 			</model>
 			<model name='Cadence Rain'>
-				<roles>specops</roles>
+				<roles>apc,specops</roles>
 				<availability>FS:2+</availability>
 			</model>
 		</chassis>

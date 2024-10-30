@@ -4118,7 +4118,7 @@
 				<availability>General:4</availability>
 			</model>
 			<model name='(Infiltrator)'>
-				<roles>apc</roles>
+				<roles>apc,specops</roles>
 				<availability>FS:6</availability>
 			</model>
 			<model name='(LRM)'>
