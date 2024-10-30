@@ -3509,6 +3509,7 @@
 				<availability>LA:4,General:6,FS:6,TC:6</availability>
 			</model>
 			<model name='ENF-5D'>
+                <roles>raider</roles>
 				<availability>LA:4+,FS:6+,MERC:2+,TC:2+</availability>
 			</model>
 		</chassis>

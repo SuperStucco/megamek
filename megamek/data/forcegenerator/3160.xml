@@ -6193,6 +6193,7 @@
 		<chassis name='Enforcer III' unitType='Mek'>
 			<availability>FVC:5,MERC:5,FS:7</availability>
 			<model name='ENF-6G'>
+                <roles>raider</roles>
 				<availability>FS:1,MERC:4</availability>
 			</model>
 			<model name='ENF-6H'>
@@ -6205,21 +6206,25 @@
 				<availability>FVC:4,FS:4,MERC:4</availability>
 			</model>
 			<model name='ENF-6NAIS'>
+                <roles>raider</roles>
 				<availability>FS:1</availability>
 			</model>
 			<model name='ENF-6T'>
 				<availability>FS:4</availability>
 			</model>
 			<model name='ENF-7C3BS'>
+                <roles>raider</roles>
 				<availability>FS:1</availability>
 			</model>
 			<model name='ENF-7D'>
+                <roles>command,raider</roles>
 				<availability>FS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Enforcer' unitType='Mek'>
 			<availability>FVC:5,FS:4,MERC:2,CDP:1,TC:1</availability>
 			<model name='ENF-5D'>
+                <roles>raider</roles>
 				<availability>FVC:8,FS:8,MERC:6,CDP:6,TC:6</availability>
 			</model>
 			<model name='ENF-5R'>

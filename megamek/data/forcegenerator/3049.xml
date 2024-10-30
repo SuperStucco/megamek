@@ -3024,7 +3024,8 @@
 				<availability>LA:6,General:8,FS:8,TC:8</availability>
 			</model>
 			<model name='ENF-5D'>
-				<availability>LA:2+,FS:4+</availability>
+			    <roles>raider</roles>
+				<availability>LA:2+:3050,FS:4+:3050</availability>
 			</model>
 		</chassis>
 		<chassis name='Engineering Vehicle' unitType='Tank'>
