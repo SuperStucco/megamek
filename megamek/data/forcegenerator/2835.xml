@@ -5266,10 +5266,6 @@
 			<model name=''>
 				<availability>CLAN:8</availability>
 			</model>
-			<model name='2'>
-				<roles>fire_support</roles>
-				<availability>CLAN:8</availability>
-			</model>
 		</chassis>
 		<chassis name='Warhammer' unitType='Mek'>
 			<availability>CS:6-,LA:9,CLAN:5,IS:8,FWL:9,NIOPS:6-,Periphery.Deep:6,Periphery:6</availability>

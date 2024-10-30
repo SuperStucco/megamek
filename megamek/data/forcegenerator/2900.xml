@@ -5804,18 +5804,9 @@
 			<model name=''>
 				<availability>CLAN:8</availability>
 			</model>
-			<model name='10'>
-				<availability>CSJ:3</availability>
-			</model>
-			<model name='11'>
-				<availability>CSJ:3</availability>
-			</model>
-			<model name='12'>
-				<availability>CSJ:3</availability>
-			</model>
 			<model name='2'>
 				<roles>fire_support</roles>
-				<availability>CLAN:4</availability>
+				<availability>CLAN:4:2920</availability>
 			</model>
 		</chassis>
 		<chassis name='Warhammer' unitType='Mek'>

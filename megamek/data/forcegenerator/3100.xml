@@ -18750,11 +18750,14 @@
 		</chassis>
 		<chassis name='Warhammer IIC' unitType='Mek'>
 			<availability>MOC:3,CLAN:7,IS:3,TC:3,RA:7</availability>
+            <model name=''>
+                <availability>CLAN:2-,IS:3</availability>
+            </model>
 			<model name='10'>
-				<availability>MOC:3,CLAN:3,IS:3,TC:3</availability>
+				<availability>MOC:3:3120,CLAN:3:3120,IS:3:3120,TC:3:3120</availability>
 			</model>
 			<model name='11'>
-				<availability>MOC:3,CLAN:3,IS:3,TC:3</availability>
+				<availability>MOC:3:3120,CLAN:3:3120,IS:3:3120,TC:3:3120</availability>
 			</model>
 			<model name='2'>
 				<roles>fire_support</roles>
@@ -18776,9 +18779,11 @@
 				<availability>RA:6</availability>
 			</model>
 			<model name='8'>
+                <roles>cavalry</roles>
 				<availability>MOC:6,CLAN:6,IS:6,TC:6</availability>
 			</model>
 			<model name='9'>
+                <roles>cavalry</roles>
 				<availability>CDS:5</availability>
 			</model>
 		</chassis>

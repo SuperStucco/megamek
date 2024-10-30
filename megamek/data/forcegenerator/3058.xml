@@ -10275,15 +10275,6 @@
 			<model name=''>
 				<availability>CLAN:8</availability>
 			</model>
-			<model name='10'>
-				<availability>CSJ:6</availability>
-			</model>
-			<model name='11'>
-				<availability>CSJ:6</availability>
-			</model>
-			<model name='12'>
-				<availability>CSJ:5</availability>
-			</model>
 			<model name='2'>
 				<roles>fire_support</roles>
 				<availability>CLAN:5</availability>

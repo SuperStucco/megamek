@@ -16376,10 +16376,10 @@
 				<availability>CSA:5,CDS:6,CNC:5,CCO:5,CWIE:5,CGB:5,CB:5</availability>
 			</model>
 			<model name='5'>
-				<availability>CDS:3,CLAN:2,IS:2</availability>
+				<availability>CDS:3:3070,CLAN:2:3070,IS:2:3070</availability>
 			</model>
 			<model name='6'>
-				<availability>CSR:4,CGB:4</availability>
+				<availability>CSR:4:3071,CGB:4:3071</availability>
 			</model>
 		</chassis>
 		<chassis name='Warhammer' unitType='Mek'>

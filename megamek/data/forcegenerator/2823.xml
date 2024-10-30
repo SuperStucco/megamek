@@ -4764,12 +4764,8 @@
 			</model>
 		</chassis>
 		<chassis name='Warhammer IIC' unitType='Mek'>
-			<availability>CLAN:3</availability>
+			<availability>CLAN:3:2829</availability>
 			<model name=''>
-				<availability>CLAN:8</availability>
-			</model>
-			<model name='2'>
-				<roles>fire_support</roles>
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
