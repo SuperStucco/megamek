@@ -9729,30 +9729,38 @@
 			</model>
 		</chassis>
 		<chassis name='Linebacker' unitType='Mek' omni='Clan'>
-			<availability>CSA:4,CCC:4,MERC.KH:2+,CSR:3,CW:5,CCO:4,RA:2,CWIE:6</availability>
+			<availability>CSA:4,CCC:4,CSR:3,CW:5,CCO:4,RA:2,CWIE:6</availability>
 			<model name='A'>
-				<availability>CW:6,General:7,CWIE:6,CGB:6</availability>
+                <roles>cavalry</roles>
+				<availability>CW:6,CLAN:7,CWIE:6</availability>
 			</model>
 			<model name='B'>
-				<availability>CDS:4,General:5,CGB:6</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='C'>
-				<availability>CHH:4,CW:4,CBS:4,CNC:3,General:3,CJF:2,CWIE:5,CGB:5</availability>
+                <roles>cavalry</roles>
+				<availability>CHH:4,CW:4,CLAN:3,CJF:2,CWIE:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CW:6,General:5,CWIE:6,CGB:7</availability>
+                <roles>cavalry</roles>
+				<availability>CW:6,CLAN:5,CWIE:6</availability>
 			</model>
 			<model name='E'>
-				<availability>CDS:5,CLAN:4,General:3,CCO:6</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:4,CCO:6</availability>
 			</model>
 			<model name='F'>
-				<availability>CLAN:4,General:3</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:6,CCC:5,CBS:5,CLAN:4,General:3</availability>
+                <roles>cavalry</roles>
+				<availability>CSA:6,CCC:5,CLAN:4</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:7,General:8,CWIE:9,CGB:9</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:8,CWIE:9</availability>
 			</model>
 		</chassis>
 		<chassis name='Lineholder' unitType='Mek'>

@@ -11342,40 +11342,50 @@
 			<availability>CC:4</availability>
 		</chassis>
 		<chassis name='Linebacker' unitType='Mek' omni='Clan'>
-			<availability>CWE:5,MERC.KH:4+,RA:3,CWIE:6</availability>
+			<availability>CWE:5,RA:3,CWIE:6</availability>
 			<model name='A'>
-				<availability>CWE:6,RD:6,General:7,CWIE:6</availability>
+			    <roles>cavalry</roles>
+				<availability>CWE:6,CLAN:7,CWIE:6</availability>
 			</model>
 			<model name='B'>
-				<availability>RD:6,CDS:4,General:5,CP:4</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='C'>
-				<availability>CWE:4,CHH:4,RD:5,General:3,CP:3,CJF:2,CWIE:5</availability>
+                <roles>cavalry</roles>
+				<availability>CWE:4,CLAN:3,CWIE:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CWE:6,RD:7,General:5,CWIE:6</availability>
+                <roles>cavalry</roles>
+				<availability>CWE:6,CLAN:5,CWIE:6</availability>
 			</model>
 			<model name='E'>
-				<availability>CDS:5,CLAN:4,General:3,CP:5</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='F'>
-				<availability>CLAN:4,General:3</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='G'>
+                <roles>cavalry</roles>
 				<availability>CLAN:4</availability>
 			</model>
 			<model name='H'>
-				<availability>CLAN:4,General:3</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='I'>
-				<roles>recon</roles>
-				<availability>General:5</availability>
+				<roles>anti_infantry,recon</roles>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='Prime'>
-				<availability>RD:9,CDS:7,General:8,CP:7,CWIE:9</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:8,CWIE:9</availability>
 			</model>
 			<model name='T'>
-				<availability>General:5</availability>
+                <roles>recon</roles>
+				<availability>CLAN:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Lineholder' unitType='Mek'>

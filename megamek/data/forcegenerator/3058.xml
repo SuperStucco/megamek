@@ -6081,19 +6081,24 @@
 		<chassis name='Linebacker' unitType='Mek' omni='Clan'>
 			<availability>CHH:2,CCC:2,CSR:5,CW:5,CSV:2,CCO:4,CJF:4,CWIE:6</availability>
 			<model name='A'>
-				<availability>CW:6,General:7,CWIE:6,CGB:6</availability>
+                <roles>cavalry</roles>
+				<availability>CW:6,CLAN:7,CWIE:6</availability>
 			</model>
 			<model name='B'>
-				<availability>CIH:6,CDS:4,General:5,CGB:6</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='C'>
-				<availability>CHH:4,CIH:5,CW:5,CBS:4,CSV:5,CNC:3,General:3,CSJ:4,CJF:2,CWIE:5,CGB:5,CB:5</availability>
+                <roles>cavalry</roles>
+				<availability>CHH:4,CW:5,CSV:5,CLAN:3,CJF:2,CWIE:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CW:6,General:5,CWIE:6,CGB:7</availability>
+                <roles>cavalry</roles>
+				<availability>CW:6,CLAN:5,CWIE:6</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:7,General:8,CWIE:9,CGB:9</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN:8,CWIE:9</availability>
 			</model>
 		</chassis>
 		<chassis name='Lineholder' unitType='Mek'>
