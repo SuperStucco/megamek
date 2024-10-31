@@ -8076,8 +8076,9 @@
 			</model>
 		</chassis>
 		<chassis name='Grendel (Mongrel)' unitType='Mek' omni='Clan'>
-			<availability>CDS:4</availability>
+			<availability>CHH:3,CDS:4,CJF:3,RA:4,MERC:3+</availability>
 			<model name='A'>
+                <roles>fire_support</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='B'>
@@ -8096,9 +8097,11 @@
 				<availability>CLAN:4,IS:2</availability>
 			</model>
 			<model name='G'>
+                <roles>recon</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='H'>
+                <roles>raider</roles>
 				<availability>CHH:8,CLAN:5,IS:3</availability>
 			</model>
 			<model name='I'>
@@ -8111,9 +8114,11 @@
 				<availability>General:6</availability>
 			</model>
 			<model name='Prime'>
+                <roles>raider</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='T'>
+                <roles>raider</roles>
 				<availability>General:5</availability>
 			</model>
 		</chassis>
