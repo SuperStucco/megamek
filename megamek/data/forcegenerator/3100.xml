@@ -9107,22 +9107,43 @@
 			</model>
 		</chassis>
 		<chassis name='IS Standard Battle Armor' unitType='BattleArmor'>
-			<availability>CC:2,MOC:8,LA:1,ROS:4,IS:8,FWL:3,MH:8,TC:8</availability>
+			<availability>IS:5,CC:2,FWL:3,LA:1,ROS:4,MOC:2-,TC:2-,MH:3,MERC:2-,PIR:1</availability>
 			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+				<availability>General:7,MH:0</availability>
 			</model>
+            <model name='[Flamer](Sqd5)' mechanized='false'>
+                <availability>MH:7</availability>
+            </model>
 			<model name='[LRR](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>General:8,MH:0</availability>
 			</model>
+            <model name='[LRR](Sqd5)' mechanized='false'>
+                <availability>MH:8</availability>
+            </model>
 			<model name='[Laser](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>General:6,MH:0</availability>
 			</model>
+            <model name='[Laser](Sqd5)' mechanized='true'>
+                <availability>MH:6</availability>
+            </model>
 			<model name='[MG](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>General:8,MH:0</availability>
 			</model>
+            <model name='[MG](Sqd5)' mechanized='true'>
+                <availability>MH:8</availability>
+            </model>
 			<model name='[SRM](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>General:4,MH:0</availability>
 			</model>
+            <model name='[SRM](Sqd5)' mechanized='true'>
+                <availability>MH:4</availability>
+            </model>
+            <model name='(Baka) [LRR](Sqd4)' mechanized='true'>
+                <availability>DC:6,MERC:4+</availability>
+            </model>
+            <model name='(Baka) [SL](Sqd4)' mechanized='true'>
+                <availability>DC:5,MERC:3+</availability>
+            </model>
 		</chassis>
 		<chassis name='Icarus II' unitType='Mek'>
 			<availability>FWL.pm:3,ROS:2,FWL:3,MH:2,MERC:2</availability>
