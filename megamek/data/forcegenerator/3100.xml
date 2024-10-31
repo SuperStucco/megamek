@@ -8183,7 +8183,7 @@
 			</model>
 		</chassis>
 		<chassis name='Hatchetman' unitType='Mek'>
-			<availability>MERC.KH:4,TC.PL:3,FS:5,MERC:3,Periphery:2,DTA:5,Periphery.R:3,FVC:5,LA:6,CGB.FRR:3,ROS:5,Periphery.MW:3,MSC:5,DC:4</availability>
+			<availability>MERC.KH:4,TC.PL:3,FS:5,MERC:3,Periphery:2,DTA:5,Periphery.R:3,FVC:5,LA:6,CGB.FRR:3,ROS:5,Periphery.MW:3,MSC:5,DC:4-</availability>
 			<model name='HCT-3F'>
 				<roles>urban</roles>
 				<availability>FVC:2-,LA:1-,TC.PL:2-,MERC:1-,Periphery:2-</availability>
@@ -8204,13 +8204,18 @@
 				<availability>ROS:4,FS:2,MERC:6</availability>
 			</model>
 			<model name='HCT-6M'>
+                <roles>raider</roles>
 				<availability>DTA:8,ROS:4,FWL:8,MSC:8,MERC:4</availability>
 			</model>
 			<model name='HCT-6S'>
 				<availability>LA:8,MERC:6</availability>
 			</model>
+            <model name='HCT-7D'>
+                <availability>FS:6+,MERC:3</availability>
+            </model>
 			<model name='HCT-7R'>
-				<availability>ROS:6</availability>
+                <roles>raider</roles>
+				<availability>ROS:6:3114</availability>
 			</model>
 			<model name='HCT-7S'>
 				<availability>LA:8,ROS:5,FS:5,MERC:5</availability>

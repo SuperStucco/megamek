@@ -7663,7 +7663,7 @@
 			</model>
 		</chassis>
 		<chassis name='Hatchetman' unitType='Mek'>
-			<availability>Periphery.R:3,MERC.KH:4,FVC:5,TC.PL:3,LA:6,FRR:3,Periphery.MW:3,WOB:4,FS:5,MERC:3,Periphery:2,DC:4</availability>
+			<availability>Periphery.R:3,MERC.KH:4,FVC:5,TC.PL:3,LA:6,FRR:3,Periphery.MW:3,WOB:4,FS:5,MERC:3,Periphery:2,DC:4-</availability>
 			<model name='HCT-3F'>
 				<roles>urban</roles>
 				<availability>FVC:2-,LA:2-,TC.PL:4-,MERC:2-,FS:2-,Periphery:2-</availability>

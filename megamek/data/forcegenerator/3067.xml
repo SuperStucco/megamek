@@ -7037,10 +7037,10 @@
 			</model>
 		</chassis>
 		<chassis name='Hatchetman' unitType='Mek'>
-			<availability>Periphery.R:3,MERC.KH:4,FVC:5,TC.PL:3,LA:6,FRR:3,Periphery.MW:3,FS:5,MERC:3,Periphery:2,DC:4</availability>
+			<availability>Periphery.R:3,MERC.KH:4,FVC:5,TC.PL:3,LA:6,FRR:3,Periphery.MW:3,FS:5,MERC:3,Periphery:2,DC:4-</availability>
 			<model name='HCT-3F'>
 				<roles>urban</roles>
-				<availability>FVC:3,LA:3,TC.PL:5,MERC:3,FS:2,Periphery:3</availability>
+				<availability>FVC:3,LA:3,TC.PL:5,MERC:3,FS:2,DC:6,Periphery:3</availability>
 			</model>
 			<model name='HCT-5D'>
 				<availability>FS:2,MERC:2</availability>

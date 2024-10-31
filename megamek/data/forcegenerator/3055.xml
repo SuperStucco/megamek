@@ -4434,10 +4434,10 @@
 			</model>
 		</chassis>
 		<chassis name='Hatchetman' unitType='Mek'>
-			<availability>Periphery.R:3,MERC.KH:4,LA:6,TC.PL:3,FRR:3,Periphery.MW:3,FS:5,MERC:3,DC:4</availability>
+			<availability>Periphery.R:3,MERC.KH:4,LA:6,TC.PL:3,FRR:3,Periphery.MW:3,FS:5,MERC:3,DC:4-</availability>
 			<model name='HCT-3F'>
 				<roles>urban</roles>
-				<availability>LA:5,TC.PL:6,MERC:5,FS:5,Periphery:5</availability>
+				<availability>LA:5,TC.PL:6,MERC:5,FS:5,DC:8,Periphery:5</availability>
 			</model>
 			<model name='HCT-5S'>
 				<availability>LA:5+,FRR:2+,FS:5+,MERC:2+</availability>

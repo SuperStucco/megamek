@@ -8025,7 +8025,7 @@
 			</model>
 		</chassis>
 		<chassis name='Hatchetman' unitType='Mek'>
-			<availability>MERC.KH:4,TC.PL:3,FRR:3,WOB:4,FS:5,MERC:3,Periphery:2,Periphery.R:3,FVC:5,LA:6,CGB.FRR:3,ROS:5,Periphery.MW:3,DC:4</availability>
+			<availability>MERC.KH:4,TC.PL:3,FRR:3,WOB:4,FS:5,MERC:3,Periphery:2,Periphery.R:3,FVC:5,LA:6,CGB.FRR:3,ROS:5,Periphery.MW:3,DC:4-</availability>
 			<model name='HCT-3F'>
 				<roles>urban</roles>
 				<availability>FVC:2-,LA:2-,TC.PL:3-,MERC:2-,FS:1-,Periphery:2-</availability>
@@ -8045,14 +8045,8 @@
 			<model name='HCT-6D'>
 				<availability>ROS:5,FS:5,MERC:6</availability>
 			</model>
-			<model name='HCT-6M'>
-				<availability>DTA:8,SC:8,MCM:8,FWL:8,DGM:8</availability>
-			</model>
 			<model name='HCT-6S'>
 				<availability>LA:6,MERC:6</availability>
-			</model>
-			<model name='HCT-7S'>
-				<availability>LA:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Hauberk Battle Armor' unitType='BattleArmor'>

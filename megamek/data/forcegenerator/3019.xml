@@ -2892,6 +2892,13 @@
                 <availability>Periphery:8,PIR:6,BAN:4</availability>
             </model>
         </chassis>
+        <chassis name='Hatchetman' unitType='Mek'>
+            <availability>LA:4:3023</availability>
+            <model name='HCT-3F'>
+                <roles>urban</roles>
+                <availability>LA:8</availability>
+            </model>
+        </chassis>
         <chassis name='Hawk Hover Tank' unitType='Tank'>
             <availability>CS:1-,IS:2-,NIOPS:1-,Periphery:2</availability>
             <model name='(LTV-4)'>

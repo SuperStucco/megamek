@@ -3220,10 +3220,10 @@
 			</model>
 		</chassis>
 		<chassis name='Hatchetman' unitType='Mek'>
-			<availability>LA:4,FS:3,DC:2</availability>
+			<availability>LA:4,FS:3,DC:2-</availability>
 			<model name='HCT-3F'>
 				<roles>urban</roles>
-				<availability>LA:8,Periphery.Deep:6,MERC:8,FS:8,Periphery:8</availability>
+				<availability>LA:8,FS:8,DC:8</availability>
 			</model>
 		</chassis>
         <chassis name='Hawk Hover Tank' unitType='Tank'>
