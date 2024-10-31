@@ -7880,9 +7880,11 @@
 		<chassis name='Hercules' unitType='Mek'>
 			<availability>RA.OA:4,HL:3,ROS:4,Periphery.MW:5,Periphery.ME:5,FWL:6,MERC:6,Periphery:4</availability>
 			<model name='HRC-LS-9000'>
+                <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='HRC-LS-9001'>
+                <roles>cavalry</roles>
 				<availability>Periphery.MW:6,Periphery.ME:6,FWL:2,IS:6,MERC:6</availability>
 			</model>
 		</chassis>

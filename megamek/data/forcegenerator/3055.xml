@@ -4579,10 +4579,12 @@
 		<chassis name='Hercules' unitType='Mek'>
 			<availability>OA:2+,FWL:5+,WOB:2+,MERC:5+</availability>
 			<model name='HRC-LS-9000'>
+                <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='HRC-LS-9001'>
-				<availability>Periphery.MW:6,Periphery.ME:6,FWL:2,IS:6,MERC:6</availability>
+                <roles>cavalry</roles>
+				<availability>FWL:2:3056,IS:6:3056,MERC:6:3056</availability>
 			</model>
 		</chassis>
 		<chassis name='Hermes II' unitType='Mek'>

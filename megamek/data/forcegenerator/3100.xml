@@ -8630,11 +8630,17 @@
 		<chassis name='Hercules' unitType='Mek'>
 			<availability>RA.OA:4,ROS:4,FWL:6,MERC:6,Periphery:5</availability>
 			<model name='HRC-LS-9000'>
+                <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='HRC-LS-9001'>
+                <roles>cavalry</roles>
 				<availability>Periphery.MW:6,Periphery.ME:6,FWL:2,IS:6,MERC:6</availability>
 			</model>
+            <model name='HRC-LS-9003'>
+                <roles>cavalry</roles>
+                <availability>DTA:4+,MSC:4+,FWL:2+,OP:4+,RCM:4+</availability>
+            </model>
 		</chassis>
 		<chassis name='Hermes II' unitType='Mek'>
 			<availability>MOC:2,CC:4,OP:3,LA:2,ROS:1,PIR:2,FWL:6,MH:4,MSC:3,MERC:2,FS:2</availability>

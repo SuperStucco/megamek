@@ -8214,11 +8214,17 @@
 		<chassis name='Hercules' unitType='Mek'>
 			<availability>RA.OA:4,HL:4,ROS:4,FWL:6,MERC:6,Periphery:5</availability>
 			<model name='HRC-LS-9000'>
+                <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='HRC-LS-9001'>
+                <roles>cavalry</roles>
 				<availability>Periphery.MW:6,Periphery.ME:6,FWL:2,IS:6,MERC:6</availability>
 			</model>
+            <model name='HRC-LS-9003'>
+                <roles>cavalry</roles>
+                <availability>DTA:4+:3088,MSC:4+:3088,FWL:2+:3088,OP:4+:3088,RCM:4+:3088</availability>
+            </model>
 		</chassis>
 		<chassis name='Hermes II' unitType='Mek'>
 			<availability>MOC:3,CC:4,OP:4,DoO:4,DO:4,MERC:3,FS:4,LA:3,ROS:2,PIR:3,FWL:7,MH:4,MSC:4,TP:4,DC:2-</availability>

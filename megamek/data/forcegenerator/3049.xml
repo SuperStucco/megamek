@@ -4099,8 +4099,9 @@
 			</model>
 		</chassis>
 		<chassis name='Hercules' unitType='Mek'>
-			<availability>FWL:4+</availability>
+			<availability>FWL:4+:3054</availability>
 			<model name='HRC-LS-9000'>
+			    <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
