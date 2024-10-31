@@ -1421,14 +1421,15 @@
 		<chassis name='Fury Command Tank' unitType='Tank'>
 			<availability>CC:2,LA:2,SL:6,FWL:2,RWR:2,FS:2,MERC:2,DC:2</availability>
 			<model name='(Fury II)'>
-				<availability>General:4</availability>
+				<availability>General:4:2732</availability>
 			</model>
 			<model name='(Original)'>
-				<roles>apc</roles>
+                <roles>command</roles>
 				<availability>SL:8</availability>
 			</model>
 			<model name='(Royal)'>
-				<availability>SL.R:4</availability>
+                <roles>command</roles>
+				<availability>SL.R:4:2751</availability>
 			</model>
 		</chassis>
 		<chassis name='Fury' unitType='Dropship'>

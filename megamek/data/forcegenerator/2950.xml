@@ -2474,10 +2474,11 @@
 		<chassis name='Fury Command Tank' unitType='Tank'>
 			<availability>CHH:6,CW:5,CLAN:3,CJF:5,CGB:6</availability>
 			<model name='(Original)'>
-				<roles>apc</roles>
+                <roles>command</roles>
 				<availability>CLAN:1</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>command</roles>
 				<availability>CLAN:6,BAN:3</availability>
 			</model>
 		</chassis>

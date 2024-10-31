@@ -1922,10 +1922,11 @@
 				<availability>General:4</availability>
 			</model>
 			<model name='(Original)'>
-				<roles>apc</roles>
+                <roles>command</roles>
 				<availability>CLAN:6</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>command</roles>
 				<availability>PP:4,CLAN:8</availability>
 			</model>
 		</chassis>

@@ -6001,16 +6001,18 @@
 				<availability>WOB:8,FS:8</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>apc,spotter</roles>
-				<availability>FS:3</availability>
+				<roles>apc,command,spotter</roles>
+				<availability>FS:3:3070</availability>
 			</model>
 			<model name='(C3S)'>
-				<availability>FS:5</availability>
+				<availability>FS:5:3069</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>command</roles>
 				<availability>CLAN:4,WOB:4,BAN:2</availability>
 			</model>
 			<model name='CX-17'>
+                <roles>command</roles>
 				<availability>CS:8</availability>
 			</model>
 		</chassis>

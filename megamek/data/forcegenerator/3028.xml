@@ -2748,6 +2748,7 @@
 		<chassis name='Fury Command Tank' unitType='Tank'>
 			<availability>CHH:5,CW:4,CLAN:3,CJF:4,CGB:5</availability>
 			<model name='(Royal)'>
+                <roles>command</roles>
 				<availability>CLAN:5,BAN:2</availability>
 			</model>
 		</chassis>

@@ -1485,10 +1485,11 @@
 				<availability>General:4</availability>
 			</model>
 			<model name='(Original)'>
-				<roles>apc</roles>
+                <roles>command</roles>
 				<availability>SL:8</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>command</roles>
 				<availability>SL.R:5</availability>
 			</model>
 		</chassis>

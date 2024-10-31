@@ -7169,7 +7169,7 @@
 				<availability>FS:8,MERC:8</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>apc,spotter</roles>
+				<roles>apc,command,spotter</roles>
 				<availability>FS:3</availability>
 			</model>
 			<model name='(C3S)'>
@@ -7179,10 +7179,11 @@
 				<availability>FS:6</availability>
 			</model>
 			<model name='(Fury IIIm)'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>FS:4</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>command</roles>
 				<availability>CLAN:4,BAN:2</availability>
 			</model>
 		</chassis>

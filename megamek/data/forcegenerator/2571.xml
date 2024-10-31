@@ -1154,9 +1154,9 @@
 			</model>
 		</chassis>
 		<chassis name='Fury Command Tank' unitType='Tank'>
-			<availability>SL:5</availability>
+			<availability>SL:5:2637</availability>
 			<model name='(Original)'>
-				<roles>apc</roles>
+				<roles>command</roles>
 				<availability>SL:8</availability>
 			</model>
 		</chassis>

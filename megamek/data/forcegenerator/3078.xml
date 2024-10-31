@@ -6871,16 +6871,18 @@
 				<availability>ROS:8,WOB:8,FS:8</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>apc,spotter</roles>
+				<roles>apc,command,spotter</roles>
 				<availability>ROS:3,FS:3</availability>
 			</model>
 			<model name='(C3S)'>
 				<availability>ROS:5,FS:5</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>command</roles>
 				<availability>ROS:3,CLAN:4,WOB:4,BAN:2</availability>
 			</model>
 			<model name='CX-17'>
+                <roles>command</roles>
 				<availability>CS:8,ROS:4</availability>
 			</model>
 		</chassis>

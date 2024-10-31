@@ -4955,12 +4955,14 @@
 		<chassis name='Fury Command Tank' unitType='Tank'>
 			<availability>CS:5,CHH:4,CW:3,CLAN:1,FS:3,CJF:3,CGB:4</availability>
 			<model name=''>
-				<availability>FS:8</availability>
+				<availability>FS:8:3064</availability>
 			</model>
 			<model name='(Royal)'>
+                <roles>command</roles>
 				<availability>CLAN:4,BAN:2</availability>
 			</model>
 			<model name='CX-17'>
+                <roles>command</roles>
 				<availability>CS:8</availability>
 			</model>
 		</chassis>

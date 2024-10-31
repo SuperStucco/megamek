@@ -1183,7 +1183,7 @@
 		<chassis name='Fury Command Tank' unitType='Tank'>
 			<availability>SL:6</availability>
 			<model name='(Original)'>
-				<roles>apc</roles>
+                <roles>command</roles>
 				<availability>SL:8</availability>
 			</model>
 		</chassis>
