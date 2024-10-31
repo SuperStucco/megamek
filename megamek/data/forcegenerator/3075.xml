@@ -8692,10 +8692,10 @@
 			</model>
 		</chassis>
 		<chassis name='Infiltrator Mk. I Battle Armor' unitType='BattleArmor'>
-			<availability>LA:1,FS:1,MERC:2,TC:2</availability>
+			<availability>LA:1,FS:1,MERC:2</availability>
 			<model name='&apos;Waddle&apos;(Sqd4)' mechanized='false'>
 				<roles>recon</roles>
-				<availability>LA:6,FS:6,TC:6</availability>
+				<availability>LA:6,FS:6</availability>
 			</model>
 			<model name='(Special Ops)(Sqd4)' mechanized='false'>
 				<roles>specops</roles>

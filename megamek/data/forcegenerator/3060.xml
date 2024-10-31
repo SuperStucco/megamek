@@ -6536,14 +6536,14 @@
 			</model>
 		</chassis>
 		<chassis name='Infiltrator Mk. I Battle Armor' unitType='BattleArmor'>
-			<availability>LA:3,FS:3,MERC:3,TC:2</availability>
+			<availability>LA:3,FS:3,MERC:3</availability>
 			<model name='&apos;Waddle&apos;(Sqd4)' mechanized='false'>
 				<roles>recon</roles>
-				<availability>LA:6,FS:6,TC:6</availability>
+				<availability>LA:6,FS:6</availability>
 			</model>
 			<model name='(Special Ops)(Sqd4)' mechanized='false'>
 				<roles>specops</roles>
-				<availability>LA:2,FS:2,MERC:2</availability>
+				<availability>LA:2:3062,FS:2:3062,MERC:8:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Infiltrator Mk. II Battle Armor' unitType='BattleArmor'>
