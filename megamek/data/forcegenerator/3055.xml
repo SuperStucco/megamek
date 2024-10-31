@@ -4069,16 +4069,19 @@
 		<chassis name='Grand Crusader' unitType='Mek'>
 			<availability>FWL:3,WOB:4</availability>
 			<model name='GRN-D-01'>
-				<availability>WOB:6</availability>
+                <roles>fire_support</roles>
+				<availability>FWL:6,WOB:6</availability>
 			</model>
 			<model name='GRN-D-01-X'>
 				<availability>WOB:1</availability>
 			</model>
 			<model name='GRN-D-02'>
-				<availability>WOB:4</availability>
+                <roles>fire_support</roles>
+				<availability>WOB:4:3056</availability>
 			</model>
 			<model name='GRN-D-02-B'>
-				<availability>WOB:1</availability>
+                <roles>fire_support</roles>
+				<availability>WOB:1:3057</availability>
 			</model>
 		</chassis>
 		<chassis name='Grand Dragon' unitType='Mek'>

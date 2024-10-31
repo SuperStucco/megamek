@@ -3630,15 +3630,13 @@
 			</model>
 		</chassis>
 		<chassis name='Grand Crusader' unitType='Mek'>
-			<availability>WOB:2</availability>
+			<availability>WOB:2:3053</availability>
 			<model name='GRN-D-01'>
+                <roles>fire_support</roles>
 				<availability>WOB:4</availability>
 			</model>
 			<model name='GRN-D-01-X'>
 				<availability>WOB:1</availability>
-			</model>
-			<model name='GRN-D-02-B'>
-				<availability>WOB:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Grand Dragon' unitType='Mek'>

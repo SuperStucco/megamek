@@ -6386,15 +6386,18 @@
 		<chassis name='Grand Crusader' unitType='Mek'>
 			<availability>FWL:4,WOB:2</availability>
 			<model name='GRN-D-01'>
+                <roles>fire_support</roles>
 				<availability>FWL:4,WOB:4</availability>
 			</model>
 			<model name='GRN-D-01-X'>
 				<availability>FWL:2,WOB:2</availability>
 			</model>
 			<model name='GRN-D-02'>
+                <roles>fire_support</roles>
 				<availability>FWL:2,WOB:2</availability>
 			</model>
 			<model name='GRN-D-02-B'>
+                <roles>fire_support</roles>
 				<availability>FWL:1,WOB:1</availability>
 			</model>
 		</chassis>

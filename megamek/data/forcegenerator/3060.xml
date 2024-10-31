@@ -5221,7 +5221,7 @@
 			</model>
 		</chassis>
 		<chassis name='Grand Crusader II' unitType='Mek'>
-			<availability>WOB:3</availability>
+			<availability>WOB:3:3066</availability>
 			<model name='GRN-D-03'>
 				<availability>General:6</availability>
 			</model>
@@ -5232,15 +5232,18 @@
 		<chassis name='Grand Crusader' unitType='Mek'>
 			<availability>FWL:4,WOB:3</availability>
 			<model name='GRN-D-01'>
+                <roles>fire_support</roles>
 				<availability>FWL:6,WOB:8</availability>
 			</model>
 			<model name='GRN-D-01-X'>
 				<availability>FWL:1:3062,WOB:2</availability>
 			</model>
 			<model name='GRN-D-02'>
+                <roles>fire_support</roles>
 				<availability>FWL:2,WOB:4</availability>
 			</model>
 			<model name='GRN-D-02-B'>
+                <roles>fire_support</roles>
 				<availability>FWL:1,WOB:1</availability>
 			</model>
 		</chassis>
