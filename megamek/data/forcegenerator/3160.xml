@@ -8394,13 +8394,17 @@
 				<availability>DC:2</availability>
 			</model>
 			<model name='HTM-28Tr'>
+                <roles>ew_support</roles>
 				<availability>DC:8</availability>
 			</model>
+            <model name='HTM-30T'>
+                <availability>DC:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Hatamoto-Godai' unitType='Mek'>
 			<availability>DC:2</availability>
 			<model name='HTM-30Z'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>DC:8</availability>
 			</model>
 		</chassis>
@@ -8410,11 +8414,15 @@
 				<availability>DC:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Hatamoto-Kaze' unitType='Mek'>
+            <availability>DC:2</availability>
+            <model name='HTM-27V2'>
+                <roles>fire_support</roles>
+                <availability>DC:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Hatamoto-Ku' unitType='Mek'>
 			<availability>DC:1</availability>
-			<model name='HTM-27W'>
-				<availability>General:2</availability>
-			</model>
 			<model name='HTM-27W2'>
 				<availability>DC:6</availability>
 			</model>

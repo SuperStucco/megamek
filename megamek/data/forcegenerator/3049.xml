@@ -3931,16 +3931,17 @@
 				<availability>General:8</availability>
 			</model>
 			<model name='HTM-C'>
-				<availability>DC:6+</availability>
+				<availability>DC:6+:3050</availability>
 			</model>
 			<model name='HTM-CM'>
-				<roles>spotter</roles>
-				<availability>DC:4+</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:4+:3050</availability>
 			</model>
 		</chassis>
 		<chassis name='Hatamoto-Kaze' unitType='Mek'>
 			<availability>FRR:1+,DC:1+</availability>
 			<model name='HTM-27V'>
+                <roles>fire_support</roles>
 				<availability>General:8+</availability>
 			</model>
 		</chassis>
@@ -3951,8 +3952,9 @@
 			</model>
 		</chassis>
 		<chassis name='Hatamoto-Mizo' unitType='Mek'>
-			<availability>DC:2</availability>
+			<availability>DC:2:3050</availability>
 			<model name='HTM-27Y'>
+                <roles>fire_support</roles>
 				<availability>DC:8</availability>
 			</model>
 		</chassis>
