@@ -962,8 +962,8 @@
 		<chassis name='Ailette Zero-G Engineering Exoskeleton' unitType='BattleArmor'>
 			<availability>FS:4</availability>
 			<model name='(Sqd4)' mechanized='false'>
-				<roles>marine</roles>
-				<availability>General:8</availability>
+				<roles>marine,support</roles>
+				<availability>FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Akuma' unitType='Mek'>

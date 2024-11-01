@@ -1223,16 +1223,16 @@
 			</model>
 		</chassis>
 		<chassis name='Ailette Rescue PA(L)' unitType='BattleArmor'>
-			<availability>FS:4,CDP:5,TC:6</availability>
+			<availability>FS:4-,MOC:3-,OA:2,CDP:5,TC:6-,FR:3+,FVC:2+,PIR:3+</availability>
 			<model name='(Sqd4)' mechanized='false'>
 				<roles>marine</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Ailette Zero-G Engineering Exoskeleton' unitType='BattleArmor'>
-			<availability>FS:4</availability>
+			<availability>FS:1,CDP:4,TC:3</availability>
 			<model name='(Sqd4)' mechanized='false'>
-				<roles>marine</roles>
+				<roles>marine,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
