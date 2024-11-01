@@ -13249,7 +13249,7 @@
 			</model>
 		</chassis>
 		<chassis name='Saladin Assault Hover Tank' unitType='Tank'>
-			<availability>Periphery.DD:8,FRR:8,DC.AL:10,IS:7,WOB:5-,MERC:7,Periphery.OS:8,FS:6,CIR:6,Periphery:6,CS:5-,CJF:4,DC:9</availability>
+			<availability>Periphery.DD:8,FRR:8,DC.AL:10,IS:7,WOB:5-,MERC:7,Periphery.OS:8,FS:6,Periphery:6,CS:5-,CJF:4,DC:9</availability>
 			<model name=''>
 				<availability>IS:8-,Periphery:8-</availability>
 			</model>
@@ -13257,6 +13257,7 @@
 				<availability>IS:2-,Periphery:2-</availability>
 			</model>
 			<model name='(Clan Cargo)'>
+                <roles>cargo,support</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(LB-X)'>

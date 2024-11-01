@@ -16099,8 +16099,9 @@
 			</model>
 		</chassis>
 		<chassis name='Saladin Assault Hover Tank' unitType='Tank'>
-			<availability>CC:4,LA:4,DC.AL:7,IS:4,FWL:4,MERC:4,FS:3,CJF:4,DC:5</availability>
+			<availability>DC.AL:7,IS:4,MERC:4,FS:3,CJF:4,DC:5</availability>
 			<model name='(Clan Cargo)'>
+                <roles>cargo,support</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(LB-X)'>

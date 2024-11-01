@@ -10498,13 +10498,14 @@
 				<availability>IS:2,Periphery:2</availability>
 			</model>
 			<model name='(Clan Cargo)'>
+                <roles>cargo,support</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(LB-X)'>
-				<availability>IS:3,DC:4</availability>
+				<availability>IS:3:3061,DC:4:3061</availability>
 			</model>
 			<model name='(Ultra)'>
-				<availability>IS:3,DC:4</availability>
+				<availability>IS:3:3064,DC:4:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Salamander Battle Armor' unitType='BattleArmor'>

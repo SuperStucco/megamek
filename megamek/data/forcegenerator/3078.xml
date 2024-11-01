@@ -14923,6 +14923,7 @@
 				<availability>IS:1-,Periphery:1-</availability>
 			</model>
 			<model name='(Clan Cargo)'>
+                <roles>cargo,support</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(LB-X)'>

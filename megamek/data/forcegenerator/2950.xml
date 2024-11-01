@@ -5021,7 +5021,7 @@
 				<availability>IS:8,Periphery:8</availability>
 			</model>
 			<model name='(Armor)'>
-				<availability>IS:4,Periphery:4</availability>
+				<availability>IS:4:2960,Periphery:4:2960</availability>
 			</model>
 		</chassis>
 		<chassis name='Samurai' unitType='AeroSpaceFighter'>

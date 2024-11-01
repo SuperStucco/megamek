@@ -4744,7 +4744,7 @@
 			</model>
 		</chassis>
 		<chassis name='Saladin Assault Hover Tank' unitType='Tank'>
-			<availability>DC.AL:7,DC:7</availability>
+			<availability>DC:7:2942</availability>
 			<model name=''>
 				<availability>IS:8,Periphery:8</availability>
 			</model>
