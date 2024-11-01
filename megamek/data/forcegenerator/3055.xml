@@ -7996,6 +7996,7 @@
 				<availability>HL:6,LA:2,FRR:8,General:4,Periphery.Deep:7,MERC:8,Periphery:8</availability>
 			</model>
 			<model name='SCP-1O'>
+                <roles>cavalry</roles>
 				<availability>MERC.KH:2,MERC.WD:2,IS:5,MERC:3</availability>
 			</model>
 		</chassis>

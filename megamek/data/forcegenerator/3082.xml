@@ -14159,10 +14159,11 @@
 		<chassis name='Scorpion' unitType='Mek'>
 			<availability>CC:2,HL:2,Periphery.Deep:4-,MERC:2,Periphery:3-,FVC:1,LA:4,CGB.FRR:2-,ROS:1,FWL:2,NIOPS:2-,RCM:2-,DC:3</availability>
 			<model name='SCP-10M'>
+                <roles>cavalry</roles>
 				<availability>CC:4,MOC:3,CGB.FRR:4,ROS:4,FWL:6,MERC:4,DC:4</availability>
 			</model>
 			<model name='SCP-12K'>
-				<roles>spotter</roles>
+				<roles>cavalry,command,spotter</roles>
 				<availability>DC:5</availability>
 			</model>
 			<model name='SCP-12S'>
@@ -14172,9 +14173,11 @@
 				<availability>FRR:3-,Periphery.Deep:8,MERC:3-,Periphery:3-</availability>
 			</model>
 			<model name='SCP-1O'>
+                <roles>cavalry</roles>
 				<availability>CC:2-,HL:1,FRR:2-,FWL:2-,RCM:2-,MERC:1-,Periphery:3,DC:1-</availability>
 			</model>
 			<model name='SCP-1TB'>
+                <roles>cavalry</roles>
 				<availability>ROS:4,MERC:4</availability>
 			</model>
 		</chassis>
