@@ -13351,7 +13351,7 @@
 				<availability>LA:3+,FS:3+,MERC:3+</availability>
 			</model>
 			<model name='ZEU-9T'>
-				<availability>LA:4,MERC:3</availability>
+				<availability>LA:4:3062,MERC:3:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Zhukov Heavy Tank' unitType='Tank'>

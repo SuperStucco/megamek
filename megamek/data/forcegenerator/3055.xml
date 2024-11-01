@@ -9884,7 +9884,7 @@
 		<chassis name='Zeus' unitType='Mek'>
 			<availability>Periphery.R:5,HL:5,LA:10,FRR:4,IS:3,FS:7-,MERC:5</availability>
 			<model name='ZEU-6S'>
-				<availability>HL:6,General:4,Periphery.Deep:6,FS:4,Periphery:8</availability>
+				<availability>HL:6,General:4,FS:4,Periphery:8</availability>
 			</model>
 			<model name='ZEU-6T'>
 				<availability>LA:4,FS:4</availability>

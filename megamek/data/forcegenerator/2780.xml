@@ -4182,5 +4182,14 @@
 				<availability>SL.R:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Zeus' unitType='Mek'>
+            <availability>LA:8:2787</availability>
+            <model name='ZEU-5S'>
+                <availability>LA:6+:2788</availability>
+            </model>
+            <model name='ZEU-5T'>
+                <availability>LA:6+</availability>
+            </model>
+        </chassis>
 	</units>
 </ratgen>

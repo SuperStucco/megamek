@@ -7269,17 +7269,13 @@
 		<chassis name='Zeus' unitType='Mek'>
 			<availability>Periphery.R:5,HL:4,LA:10,FRR:4,FS:6-,MERC:5</availability>
 			<model name='ZEU-6S'>
-				<availability>HL:6,General:6,Periphery.Deep:6,FS:8,Periphery:8</availability>
+				<availability>HL:6,General:6,FS:8,Periphery:8</availability>
 			</model>
 			<model name='ZEU-6T'>
 				<availability>LA:4,FS:6</availability>
 			</model>
 			<model name='ZEU-9S'>
-				<availability>LA:4+</availability>
-			</model>
-			<model name='ZEU-9S-DC'>
-				<roles>command</roles>
-				<availability>LA:1+</availability>
+				<availability>LA:4+:3048</availability>
 			</model>
 		</chassis>
 		<chassis name='Zhukov Heavy Tank' unitType='Tank'>

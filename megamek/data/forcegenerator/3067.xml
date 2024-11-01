@@ -17010,7 +17010,7 @@
 		<chassis name='Zeus' unitType='Mek'>
 			<availability>HL:5,FRR:4,IS:2,WOB:3,FS:6-,MERC:5,CDP:4,Periphery:4,Periphery.R:5,LA:10,PIR:4</availability>
 			<model name='ZEU-10WB'>
-				<availability>LA:4,WOB:8</availability>
+				<availability>LA:4:3070,WOB:8:3070</availability>
 			</model>
 			<model name='ZEU-6S'>
 				<availability>HL:5,General:3-,Periphery.Deep:5,Periphery:7</availability>

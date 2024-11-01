@@ -5842,7 +5842,7 @@
 				<availability>LA:1+</availability>
 			</model>
 			<model name='ZEU-6S'>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>General:8:2898</availability>
 			</model>
 		</chassis>
 		<chassis name='Zorya Light Tank' unitType='Tank'>

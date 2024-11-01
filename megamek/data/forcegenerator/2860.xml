@@ -5328,15 +5328,12 @@
 			</model>
 		</chassis>
 		<chassis name='Zeus' unitType='Mek'>
-			<availability>Periphery.R:5,LA:10,MERC:5</availability>
+			<availability>LA:10,MERC:5</availability>
 			<model name='ZEU-5S'>
 				<availability>LA:2+</availability>
 			</model>
 			<model name='ZEU-5T'>
-				<availability>LA:2+</availability>
-			</model>
-			<model name='ZEU-6S'>
-				<availability>General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>IS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Zorya Light Tank' unitType='Tank'>
