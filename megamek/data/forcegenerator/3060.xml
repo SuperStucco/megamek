@@ -9730,26 +9730,26 @@
 			<availability>CSA:6,CHH:4,CCC:4,CW:8,CNC:4,CGS:7,CCO:6,CWIE:8</availability>
 			<model name='A'>
 				<roles>fire_support</roles>
-				<availability>CSA:4,CDS:9,CW:6,General:7,CGB:6</availability>
+				<availability>CSA:4,CW:6,CLAN:7</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='C'>
-				<availability>CSA:3,CIH:6,General:5,CSJ:6</availability>
+				<availability>CSA:3,CLAN:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CSA:3,General:6</availability>
+				<availability>CSA:3,CLAN:6</availability>
 			</model>
 			<model name='E'>
-				<availability>CSA:3,CDS:5,CW:5,CLAN:4,CCO:6</availability>
+				<availability>CSA:3:3061,CW:5:3061,CLAN:4:3061,CCO:6:3061</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:8,CDS:5,CW:5,CSV:5,CLAN:4,CSJ:3,CGB:3</availability>
+				<availability>CSA:8:3062,CW:5:3062,CLAN:4:3062</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:6,CBS:6,CSV:6,General:8,CSJ:5,CJF:7,CGB:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
         <chassis name='Powerman' unitType='Mek'>

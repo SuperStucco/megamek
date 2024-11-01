@@ -14990,33 +14990,50 @@
 			</model>
 		</chassis>
 		<chassis name='Pouncer' unitType='Mek' omni='Clan'>
-			<availability>CWE:8,CHH:4,CP:4,CWIE:8</availability>
+			<availability>CWE:8,CHH:4,CP:4,CWIE:8,SE:3+</availability>
 			<model name='A'>
 				<roles>fire_support</roles>
-				<availability>CWE:6,RD:6,CDS:9,General:7,CP:9</availability>
+				<availability>CWE:6,CLAN:7,CP:9</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='C'>
-				<availability>General:5</availability>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='D'>
-				<availability>General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='E'>
-				<availability>CWE:5,CDS:5,CLAN:4,General:3,CP:5</availability>
+				<availability>CWE:5,CLAN:4,CP:5</availability>
 			</model>
 			<model name='F'>
-				<availability>CLAN:4,General:3</availability>
+                <roles>anti_infantry,incendiary,recon</roles>
+				<availability>CLAN:4</availability>
 			</model>
+            <model name='G'>
+                <availability>CLAN:2,SE:2</availability>
+            </model>
 			<model name='H'>
-				<availability>CWE:5,RD:3,CDS:5,CLAN:4,General:3,CP:5</availability>
+				<availability>CWE:5,CLAN:4,CP:5</availability>
 			</model>
+            <model name='I'>
+                <availability>CLAN:3,SE:2+</availability>
+            </model>
 			<model name='Prime'>
-				<availability>RD:8,CDS:6,General:8,CP:6,CJF:7</availability>
+				<availability>CLAN:8,CP:6</availability>
 			</model>
+            <model name='T'>
+                <availability>CLAN:3,SE:2+</availability>
+            </model>
+            <model name='W'>
+                <roles>raider</roles>
+                <availability>CLAN:3,SE:3</availability>
+            </model>
+            <model name='X'>
+                <availability>CLAN:3:3147,SE:2+:3147</availability>
+            </model>
 		</chassis>
         <chassis name='Powerman' unitType='Mek'>
             <availability>ROS.pm:2-,MERC:2-,Periphery:2-,PIR:4,BAN:4-</availability>

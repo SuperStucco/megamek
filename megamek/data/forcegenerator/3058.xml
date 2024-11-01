@@ -7877,20 +7877,20 @@
 			<availability>CSA:6,CCC:4,CHH:2,CW:8,CNC:4,CGS:7,CCO:6,CWIE:8</availability>
 			<model name='A'>
 				<roles>fire_support</roles>
-				<availability>CSA:6,CDS:9,CW:6,General:7,CGB:6,CB:7</availability>
+				<availability>CSA:6,CW:6,CLAN:7</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='C'>
-				<availability>CSA:3,CIH:6,General:5,CSJ:6</availability>
+				<availability>CSA:3,CLAN:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CSA:3,General:6</availability>
+				<availability>CSA:3,CLAN:6</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:6,CBS:8,CSV:6,General:8,CSJ:7,CJF:7,CGB:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
         <chassis name='Powerman' unitType='Mek'>
