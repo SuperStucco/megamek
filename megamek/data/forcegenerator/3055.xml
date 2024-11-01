@@ -7288,9 +7288,10 @@
 			</model>
 		</chassis>
 		<chassis name='Piranha' unitType='Mek'>
-			<availability>CHH:3,CIH:3,CDS:4,CSR:2,CBS:2,CLAN:4,CFM:2</availability>
+			<availability>CHH:3,CIH:3,CSR:2,CBS:2,CLAN:4,CFM:2</availability>
 			<model name=''>
-				<availability>CIH:8,CLAN:8</availability>
+                <roles>anti_infantry</roles>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Pirate' unitType='Infantry'>

@@ -12162,17 +12162,18 @@
 		<chassis name='Piranha' unitType='Mek'>
 			<availability>CHH:4,CIH:6,CDS:3,CSR:3,CBS:3,CLAN:2,CFM:3,CWIE:3</availability>
 			<model name=''>
+                <roles>anti_infantry</roles>
 				<availability>CIH:4,CLAN:8</availability>
 			</model>
 			<model name='2'>
 				<availability>CIH:8</availability>
 			</model>
 			<model name='3'>
-				<availability>CIH:6</availability>
+				<availability>CIH:6:3068</availability>
 			</model>
 			<model name='4'>
 				<roles>anti_infantry</roles>
-				<availability>CDS:4</availability>
+				<availability>CDS:4:3072</availability>
 			</model>
 		</chassis>
 		<chassis name='Pirate' unitType='Infantry'>

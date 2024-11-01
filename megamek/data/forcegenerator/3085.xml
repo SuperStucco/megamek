@@ -13374,6 +13374,7 @@
 		<chassis name='Piranha' unitType='Mek'>
 			<availability>CHH:5,CDS:4,RA:3,CWIE:3</availability>
 			<model name=''>
+                <roles>anti_infantry</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>

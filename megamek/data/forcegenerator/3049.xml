@@ -6461,9 +6461,10 @@
 			</model>
 		</chassis>
 		<chassis name='Piranha' unitType='Mek'>
-			<availability>CDS:4,CLAN:4</availability>
+			<availability>CLAN:4:3051</availability>
 			<model name=''>
-				<availability>CIH:8,CLAN:8</availability>
+                <roles>anti_infantry</roles>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Pirate' unitType='Infantry'>

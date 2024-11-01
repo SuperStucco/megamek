@@ -14856,6 +14856,7 @@
 		<chassis name='Piranha' unitType='Mek'>
 			<availability>CHH:6,CDS:5,CP:5,RA:3,CWIE:3</availability>
 			<model name=''>
+                <roles>anti_infantry</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>
@@ -14868,6 +14869,10 @@
 				<roles>anti_infantry</roles>
 				<availability>CDS:4,CP:4</availability>
 			</model>
+            <model name='5'>
+                <roles>anti_infantry</roles>
+                <availability>CC:2,CWE:2,CDS:2,CW:2,LA:2,FWL:2,MERC:2</availability>
+            </model>
 		</chassis>
 		<chassis name='Pirate' unitType='Infantry'>
 			<availability>PIR:4</availability>
