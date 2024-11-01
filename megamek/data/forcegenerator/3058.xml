@@ -10140,14 +10140,17 @@
 			</model>
 		</chassis>
 		<chassis name='Viper (Black Python)' unitType='Mek'>
-			<availability>CSR:3,CSV:6,CLAN:3</availability>
+			<availability>CSV:6,CLAN:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>
+                <roles>raider</roles>
 				<availability>CSV:6,CLAN:2</availability>
 			</model>
 			<model name='5'>
+                <roles>cavalry</roles>
 				<availability>CSR:4,CSV:4,CLAN.IS:4</availability>
 			</model>
 		</chassis>

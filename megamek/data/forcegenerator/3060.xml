@@ -12769,17 +12769,21 @@
 			</model>
 		</chassis>
 		<chassis name='Viper (Black Python)' unitType='Mek'>
-			<availability>CSR:4,CSV:6,CLAN:4</availability>
+			<availability>CSV:6,CLAN:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>
+                <roles>raider</roles>
 				<availability>CSV:6,CLAN:4</availability>
 			</model>
 			<model name='3'>
-				<availability>CSV:6</availability>
+                <roles>raider</roles>
+				<availability>CSV:6:3066</availability>
 			</model>
 			<model name='5'>
+                <roles>cavalry</roles>
 				<availability>CSR:6,CSV:6,CLAN.IS:4</availability>
 			</model>
 		</chassis>

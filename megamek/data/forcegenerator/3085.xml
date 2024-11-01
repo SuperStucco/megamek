@@ -17886,13 +17886,16 @@
 		<chassis name='Viper (Black Python)' unitType='Mek'>
 			<availability>RA:5</availability>
 			<model name=''>
-				<availability>General:5</availability>
+                <roles>raider</roles>
+				<availability>RA:5</availability>
 			</model>
 			<model name='4'>
+                <roles>raider</roles>
 				<availability>RA:6</availability>
 			</model>
 			<model name='5'>
-				<availability>CLAN.IS:4</availability>
+                <roles>cavalry</roles>
+				<availability>RA:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Visigoth' unitType='AeroSpaceFighter' omni='Clan'>

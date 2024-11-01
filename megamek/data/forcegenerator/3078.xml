@@ -18242,15 +18242,19 @@
 		<chassis name='Viper (Black Python)' unitType='Mek'>
 			<availability>CSR:3,CLAN:1</availability>
 			<model name=''>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='2'>
+                <roles>raider</roles>
 				<availability>CLAN:2</availability>
 			</model>
 			<model name='4'>
+                <roles>raider</roles>
 				<availability>CSR:2</availability>
 			</model>
 			<model name='5'>
+                <roles>cavalry</roles>
 				<availability>CSR:8,CLAN.IS:4</availability>
 			</model>
 		</chassis>
