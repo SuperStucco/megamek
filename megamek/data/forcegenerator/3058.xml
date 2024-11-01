@@ -9043,8 +9043,8 @@
 		<chassis name='Sprint Scout Helicopter' unitType='VTOL'>
 			<availability>LA:6,FRR:6,IS:4,SIC:5,FS:6,DC:6</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>recon,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(C3)'>
 				<roles>recon</roles>
@@ -9052,11 +9052,11 @@
 			</model>
 			<model name='(Laser)'>
 				<roles>recon</roles>
-				<availability>General:5</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='(Troop Transport)'>
 				<roles>recon,apc</roles>
-				<availability>General:5</availability>
+				<availability>IS:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Stalker' unitType='Mek'>

@@ -8395,20 +8395,20 @@
 		<chassis name='Sprint Scout Helicopter' unitType='VTOL'>
 			<availability>LA:6,FRR:6,IS:3,SIC:5,FS:6,DC:6</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>recon,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(C3)'>
 				<roles>recon</roles>
-				<availability>FRR:5,IS:4,DC:6</availability>
+				<availability>FRR:5:3057,IS:4:3057,DC:6:3057</availability>
 			</model>
 			<model name='(Laser)'>
 				<roles>recon</roles>
-				<availability>General:5</availability>
+				<availability>IS:5:3056</availability>
 			</model>
 			<model name='(Troop Transport)'>
 				<roles>recon,apc</roles>
-				<availability>General:5</availability>
+				<availability>IS:5:3056</availability>
 			</model>
 		</chassis>
 		<chassis name='Stalker' unitType='Mek'>

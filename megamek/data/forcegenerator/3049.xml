@@ -7475,9 +7475,9 @@
 			</model>
 		</chassis>
 		<chassis name='Sprint Scout Helicopter' unitType='VTOL'>
-			<availability>LA:4,FRR:4,SIC:3,FS:4,DC:4</availability>
+			<availability>LA:4:3052,FRR:4:3052,SIC:3:3052,FS:4:3052,DC:4:3052</availability>
 			<model name=''>
-				<roles>spotter</roles>
+				<roles>recon,spotter</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

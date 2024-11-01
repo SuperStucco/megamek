@@ -16019,8 +16019,8 @@
 		<chassis name='Sprint Scout Helicopter' unitType='VTOL'>
 			<availability>LA:7,FRR:7,CGB.FRR:7,ROS:7,IS:6,FS:7,DC:7</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>recon,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(C3)'>
 				<roles>recon</roles>
@@ -16031,16 +16031,16 @@
 				<availability>CS:5,WOB:6</availability>
 			</model>
 			<model name='(Interdictor)'>
-				<roles>spotter</roles>
+				<roles>recon,ew_support,spotter</roles>
 				<availability>LA:3,FWL:3,MERC:3,FS:3,DC:3</availability>
 			</model>
 			<model name='(Laser)'>
 				<roles>recon</roles>
-				<availability>General:5</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='(Troop Transport)'>
 				<roles>recon,apc</roles>
-				<availability>General:5</availability>
+				<availability>IS:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Sprite Ultraheavy ProtoMech' unitType='ProtoMek'>

@@ -14883,7 +14883,7 @@
 		<chassis name='Sprint Scout Helicopter' unitType='VTOL'>
 			<availability>MOC:2,FVC:2,LA:7,CGB.FRR:7,ROS:7,IS:6,MH:1,FS:7,DC:7</availability>
 			<model name=''>
-				<roles>spotter</roles>
+				<roles>recon,spotter</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(C3)'>
@@ -14891,7 +14891,7 @@
 				<availability>CGB.FRR:5,IS:4,DC:6</availability>
 			</model>
 			<model name='(Interdictor)'>
-				<roles>spotter</roles>
+				<roles>recon,ew_support,spotter</roles>
 				<availability>FVC:2,LA:4,ROS:4,FWL:4,IS:2,MERC:4,FS:4,DC:4</availability>
 			</model>
 			<model name='(Laser)'>
