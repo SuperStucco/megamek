@@ -15785,7 +15785,7 @@
 				<availability>CDS:4,CW:4,General:2,CCO:5,CWIE:4</availability>
 			</model>
 			<model name='F'>
-				<availability>CHH:6,CDS:4,CW:4,CLAN:3,IS:1,CJF:4,CGB:5</availability>
+				<availability>CHH:6:3069,CDS:4:3069,CW:4:3069,CLAN:3:3069,IS:1:3069,CJF:4:3069,CGB:5:3069</availability>
 			</model>
 			<model name='G'>
 				<roles>fire_support</roles>
@@ -15794,6 +15794,9 @@
 			<model name='H'>
 				<availability>CSA:6,CCC:5,CDS:5,CSV:5,CLAN:4,IS:2,CB:6</availability>
 			</model>
+            <model name='J'>
+                <availability>CLAN:3</availability>
+            </model>
 			<model name='Prime'>
 				<availability>CDS:9,General:8,CJF:9,CGB:8</availability>
 			</model>
@@ -15801,6 +15804,10 @@
 				<roles>urban</roles>
 				<availability>CDS:2,CW:4,CSV:2,CNC:2,General:1,CJF:2,CWIE:4,CGB:1</availability>
 			</model>
+            <model name='V'>
+                <roles>mixed_artillery</roles>
+                <availability>CLAN.HW:1-,CLAN.IS:3-,SOC:3:3072,MERC.WD:2</availability>
+            </model>
 			<model name='W'>
 				<roles>training</roles>
 				<availability>CW:3,General:1,CWIE:2</availability>

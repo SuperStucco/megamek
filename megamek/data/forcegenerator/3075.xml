@@ -16913,6 +16913,9 @@
 			<model name='H'>
 				<availability>CSA:6,CCC:5,CDS:5,CSV:5,CLAN:4,IS:2</availability>
 			</model>
+            <model name='J'>
+                <availability>CLAN:4</availability>
+            </model>
 			<model name='Prime'>
 				<availability>CDS:9,General:8,CJF:9,CGB:8</availability>
 			</model>
@@ -16921,8 +16924,12 @@
 				<availability>CDS:2,CW:4,CSV:2,CNC:2,General:1,CJF:2,CWIE:4,CGB:1</availability>
 			</model>
 			<model name='U'>
-				<availability>General:2</availability>
+				<availability>General:2:3077</availability>
 			</model>
+            <model name='V'>
+                <roles>mixed_artillery</roles>
+                <availability>CLAN.HW:1-,CLAN.IS:3-,SOC:3,MERC.WD:2</availability>
+            </model>
 			<model name='W'>
 				<roles>training</roles>
 				<availability>CW:3,General:1,CWIE:2</availability>

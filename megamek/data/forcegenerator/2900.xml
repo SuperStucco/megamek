@@ -5553,26 +5553,22 @@
 		<chassis name='Uller (Kit Fox)' unitType='Mek' omni='Clan'>
 			<availability>CCC:8,CSR:6,CJF:6</availability>
 			<model name='A'>
-				<availability>CHH:6,CIH:6,CDS:6,CW:5,General:5,CCO:4,CJF:6,CGB:6</availability>
+				<availability>CLAN:5,CJF:6</availability>
 			</model>
 			<model name='B'>
-				<availability>CSA:5,CDS:8,CW:7,General:7,CCO:5,CGB:8</availability>
-			</model>
-			<model name='C'>
-				<roles>urban,spotter,anti_infantry</roles>
-				<availability>CDS:2,CW:2,CSV:1,CNC:1,General:2,CSJ:2,CJF:2,CGB:2,CB:3</availability>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='D'>
 				<roles>fire_support</roles>
-				<availability>CHH:5,CDS:5,CW:2,CSV:3,CNC:3,General:4,CGB:4</availability>
-			</model>
-			<model name='G'>
-				<roles>fire_support</roles>
-				<availability>CSA:4,CCC:6,CIH:6,CSR:6,CBS:6,General:5,CCO:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CDS:9,General:8,CJF:9,CGB:9</availability>
+				<availability>CLAN:8,CJF:9</availability>
 			</model>
+            <model name='V'>
+                <roles>mixed_artillery</roles>
+                <availability>CLAN:2-:2921</availability>
+            </model>
 		</chassis>
 		<chassis name='Union C' unitType='Dropship'>
 			<availability>CLAN:8,BAN:4</availability>

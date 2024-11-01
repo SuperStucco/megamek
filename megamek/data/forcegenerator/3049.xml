@@ -8096,7 +8096,7 @@
 			</model>
 		</chassis>
 		<chassis name='Uller (Kit Fox)' unitType='Mek' omni='Clan'>
-			<availability>CCC:9,CIH:3,CSR:7,CSV:5,CLAN:4,CCO:3,MERC.WD:3,CDS:5,CBS:6,CNC:5,CJF:7,CGB:3</availability>
+			<availability>CCC:9,CIH:3,CSR:7,CSV:5,CLAN:4,CCO:3,MERC.WD:3:3051,CDS:5,CBS:6,CNC:5,CJF:7,CGB:3</availability>
 			<model name='A'>
 				<availability>CHH:6,CIH:6,CDS:6,CW:5,General:5,CCO:4,CJF:6,CGB:6</availability>
 			</model>
@@ -8112,22 +8112,26 @@
 				<availability>CHH:5,CDS:4,CW:2,CSV:3,CNC:3,General:4,CGB:4</availability>
 			</model>
 			<model name='E'>
-				<availability>CCO:5</availability>
+				<availability>CCO:5:3054</availability>
 			</model>
 			<model name='G'>
 				<roles>fire_support</roles>
-				<availability>CSA:4,CCC:6,CIH:6,CSR:6,CBS:6,General:5,CCO:4</availability>
+				<availability>CSA:4:3054,CCC:6:3054,CIH:6:3054,CSR:6:3054,CBS:6:3054,General:5:3054,CCO:4:3054</availability>
 			</model>
 			<model name='Prime'>
 				<availability>CDS:9,General:8,CJF:9,CGB:9</availability>
 			</model>
 			<model name='S'>
 				<roles>urban</roles>
-				<availability>CDS:2,CW:1,CSV:2,CNC:2,General:1,CSJ:2,CJF:2,CGB:2</availability>
+				<availability>CDS:2:3050,CW:1:3050,CSV:2:3050,CNC:2:3050,General:1:3050,CSJ:2:3050,CJF:2:3050,CGB:2:3050</availability>
 			</model>
+            <model name='V'>
+                <roles>mixed_artillery</roles>
+                <availability>CLAN.HW:1-,CLAN.IS:3-,MERC.WD:2</availability>
+            </model>
 			<model name='W'>
 				<roles>training</roles>
-				<availability>CW:3</availability>
+				<availability>CW:3:3051,MERC.WD:3:3051</availability>
 			</model>
 		</chassis>
 		<chassis name='Union C' unitType='Dropship'>
