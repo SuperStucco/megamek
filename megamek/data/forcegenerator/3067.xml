@@ -16995,13 +16995,16 @@
 		<chassis name='Zeus-X' unitType='Mek'>
 			<availability>MERC.WD:3,MERC.KH:2,LA:3-</availability>
 			<model name='ZEU-9WD'>
+                <roles>command</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='ZEU-X'>
+                <roles>cavalry</roles>
 				<availability>LA:7</availability>
 			</model>
 			<model name='ZEU-X2'>
-				<availability>LA:6</availability>
+                <roles>cavalry</roles>
+				<availability>LA:6:3069</availability>
 			</model>
 		</chassis>
 		<chassis name='Zeus' unitType='Mek'>

@@ -8760,8 +8760,9 @@
 			</model>
 		</chassis>
 		<chassis name='Zeus-X' unitType='Mek'>
-			<availability>LA:2</availability>
+			<availability>LA:2:3054</availability>
 			<model name='ZEU-X'>
+			    <roles>cavalry</roles>
 				<availability>LA:8</availability>
 			</model>
 		</chassis>

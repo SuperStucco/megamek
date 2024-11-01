@@ -18736,16 +18736,20 @@
 		<chassis name='Zeus-X' unitType='Mek'>
 			<availability>MERC.WD:4,MERC.KH:3,LA:3-,ROS:4</availability>
 			<model name='ZEU-9WD'>
+                <roles>command</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='ZEU-X'>
+                <roles>cavalry</roles>
 				<availability>LA:3</availability>
 			</model>
 			<model name='ZEU-X2'>
+                <roles>cavalry</roles>
 				<availability>LA:5</availability>
 			</model>
 			<model name='ZEU-X3'>
-				<availability>LA:3-</availability>
+                <roles>cavalry</roles>
+				<availability>LA:3-:3089</availability>
 			</model>
 		</chassis>
 		<chassis name='Zeus' unitType='Mek'>
