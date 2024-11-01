@@ -7562,26 +7562,21 @@
 		<chassis name='Raptor' unitType='Mek' omni='IS'>
 			<availability>CS:2+,FS:2+,DC:4+</availability>
 			<model name='RTX1-O'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='RTX1-OA'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>IS:6</availability>
 			</model>
 			<model name='RTX1-OB'>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='RTX1-OC'>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='RTX1-OD'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
-			</model>
-			<model name='RTX1-OE'>
-				<availability>General:6</availability>
-			</model>
-			<model name='RTX1-OR'>
-				<availability>CLAN:6</availability>
+				<availability>IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Raven' unitType='Mek'>

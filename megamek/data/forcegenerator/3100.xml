@@ -14500,35 +14500,37 @@
 		<chassis name='Raptor' unitType='Mek' omni='IS'>
 			<availability>FS:4,DC:6</availability>
 			<model name='RTX1-O'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='RTX1-OA'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>IS:6</availability>
 			</model>
 			<model name='RTX1-OB'>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='RTX1-OC'>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='RTX1-OD'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='RTX1-OE'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='RTX1-OF'>
+                <roles>raider</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='RTX1-OG'>
-				<availability>General:4</availability>
+				<availability>IS:4</availability>
 			</model>
 			<model name='RTX1-OR'>
-				<availability>CLAN:6,IS:3</availability>
+				<availability>IS:3</availability>
 			</model>
 			<model name='RTX1-OU'>
-				<availability>General:2</availability>
+				<availability>IS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Raubvogel Aerobomber' unitType='Conventional Fighter'>
