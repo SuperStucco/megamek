@@ -1137,17 +1137,19 @@
 		<chassis name='Anvil' unitType='Mek'>
 			<availability>CC:4,FWL:6,WOB:2,MERC:2</availability>
 			<model name='ANV-3M'>
+                <roles>raider</roles>
 				<availability>CC:8,FWL:6,WOB:6,MERC:6</availability>
 			</model>
 			<model name='ANV-5M'>
+                <roles>raider</roles>
 				<availability>FWL:6,WOB:6</availability>
 			</model>
 			<model name='ANV-6M'>
-				<roles>spotter</roles>
+				<roles>raider,spotter</roles>
 				<availability>FWL:4,WOB:4</availability>
 			</model>
 			<model name='ANV-8M'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>FWL:4,WOB:4</availability>
 			</model>
 		</chassis>

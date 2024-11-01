@@ -1583,23 +1583,27 @@
 		<chassis name='Anvil' unitType='Mek'>
 			<availability>CC:1,PR:6,DoO:6,WOB:2,DO:6,DGM:6,MERC:3,DTA:6,SC:6,MCM:6,ROS:4,PG:6,FWL:5,TP:6,DA:6,RFS:6</availability>
 			<model name='ANV-3M'>
+                <roles>raider</roles>
 				<availability>CC:5,ROS:6,FWL:4,WOB:4,MERC:5</availability>
 			</model>
 			<model name='ANV-3R'>
+                <roles>raider</roles>
 				<availability>FWL:4,WOB:4,MERC:4</availability>
 			</model>
 			<model name='ANV-5M'>
+                <roles>raider</roles>
 				<availability>DTA:5,DoO:5,FWL:6,WOB:6,DO:5,TP:5,DA:5</availability>
 			</model>
 			<model name='ANV-5Q'>
+                <roles>raider</roles>
 				<availability>DTA:4,SC:4,PR:4,MCM:4,PG:4,FWL:2,WOB:4,DGM:4,RFS:4</availability>
 			</model>
 			<model name='ANV-6M'>
-				<roles>spotter</roles>
+				<roles>raider,spotter</roles>
 				<availability>FWL:4,WOB:4</availability>
 			</model>
 			<model name='ANV-8M'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>PR:5,DoO:5,WOB:4,DO:5,DGM:5,DTA:5,SC:5,MCM:5,PG:5,FWL:2,TP:5,DA:5,RFS:5</availability>
 			</model>
 		</chassis>

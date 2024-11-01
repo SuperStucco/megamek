@@ -1497,23 +1497,27 @@
 		<chassis name='Anvil' unitType='Mek'>
 			<availability>RF:6,ROS:4,FWL:6,MERC:4,DA:6,CP:6</availability>
 			<model name='ANV-3M'>
+                <roles>raider</roles>
 				<availability>ROS:6,FWL:2,MERC:2,CP:2</availability>
 			</model>
 			<model name='ANV-3R'>
+                <roles>raider</roles>
 				<availability>FWL:4,MERC:4,CP:4</availability>
 			</model>
 			<model name='ANV-5M'>
+                <roles>raider</roles>
 				<availability>FWL:4,DA:4,CP:4</availability>
 			</model>
 			<model name='ANV-5Q'>
+                <roles>raider</roles>
 				<availability>RF:4,FWL:4,CP:4</availability>
 			</model>
 			<model name='ANV-6M'>
-				<roles>spotter</roles>
+				<roles>raider,spotter</roles>
 				<availability>ROS:3,FWL:3,MERC:3,CP:3</availability>
 			</model>
 			<model name='ANV-8M'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>RF:5,FWL:5,DA:5,CP:5</availability>
 			</model>
 		</chassis>
