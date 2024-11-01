@@ -2148,42 +2148,47 @@
 				<availability>General:8</availability>
 			</model>
 			<model name='AV1-OA'>
-				<availability>General:7</availability>
+                <roles>urban</roles>
+				<availability>General:5-</availability>
 			</model>
 			<model name='AV1-OB'>
+                <roles>fire_support</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='AV1-OC'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:5+</availability>
 			</model>
 			<model name='AV1-OD'>
-				<availability>General:6</availability>
+				<availability>IS:6+,RD:4-,CP:4-</availability>
 			</model>
 			<model name='AV1-OE'>
 				<availability>General:6</availability>
 			</model>
 			<model name='AV1-OF'>
-				<availability>General:5</availability>
+				<availability>General:7</availability>
 			</model>
 			<model name='AV1-OG'>
+                <roles>fire_support</roles>
 				<availability>General:7</availability>
 			</model>
 			<model name='AV1-OH'>
 				<availability>General:4</availability>
 			</model>
 			<model name='AV1-OI'>
+                <roles>fire_support</roles>
 				<availability>General:3</availability>
 			</model>
 			<model name='AV1-OJ'>
+                <roles>anti_aircraft,fire_support</roles>
 				<availability>General:4</availability>
 			</model>
 			<model name='AV1-OR'>
-				<availability>General:3+,CLAN:6,DC:3+</availability>
+				<availability>IS:3+,CLAN:6</availability>
 			</model>
 			<model name='AV1-OU'>
-				<roles>spotter</roles>
-				<availability>General:2</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Avenger' unitType='Dropship'>

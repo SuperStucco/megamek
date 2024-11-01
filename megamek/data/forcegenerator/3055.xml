@@ -1276,22 +1276,25 @@
 			</model>
 		</chassis>
 		<chassis name='Avatar' unitType='Mek' omni='IS'>
-			<availability>CS:3+,IS:3+,DC:4+</availability>
+			<availability>CS:3+:3056,IS:3+:3056,DC:4+:3056</availability>
 			<model name='AV1-O'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='AV1-OA'>
-				<availability>General:7</availability>
+                <roles>urban</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='AV1-OB'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='AV1-OC'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:5+</availability>
 			</model>
 			<model name='AV1-OG'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>IS:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Avenger' unitType='Dropship'>

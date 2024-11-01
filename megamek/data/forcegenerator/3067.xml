@@ -1742,35 +1742,38 @@
 		<chassis name='Avatar' unitType='Mek' omni='IS'>
 			<availability>CS:6+,IS:4+,DC:6+</availability>
 			<model name='AV1-O'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='AV1-OA'>
-				<availability>General:7</availability>
+                <roles>urban</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='AV1-OB'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='AV1-OC'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:5+,WOB:3</availability>
 			</model>
 			<model name='AV1-OD'>
-				<availability>General:6</availability>
+				<availability>IS:6+,WOB:4</availability>
 			</model>
 			<model name='AV1-OE'>
-				<availability>General:6</availability>
+				<availability>CS:6,WOB:6</availability>
 			</model>
 			<model name='AV1-OF'>
-				<availability>General:5</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='AV1-OG'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='AV1-OH'>
-				<availability>General:4</availability>
+				<availability>IS:4:3069</availability>
 			</model>
 			<model name='AV1-OR'>
-				<availability>General:1+,CLAN:6,DC:2+</availability>
+				<availability>IS:1+,DC:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Avenger' unitType='Dropship'>
