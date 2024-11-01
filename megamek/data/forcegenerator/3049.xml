@@ -6678,9 +6678,9 @@
 			</model>
 		</chassis>
 		<chassis name='Raijin' unitType='Mek'>
-			<availability>CS:4</availability>
+			<availability>CS:4:3052</availability>
 			<model name='RJN-101-A'>
-				<availability>General:8</availability>
+				<availability>CS:8:3053</availability>
 			</model>
 			<model name='RJN-101-X'>
 				<availability>CS:4</availability>

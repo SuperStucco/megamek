@@ -9999,6 +9999,19 @@
 				<availability>General:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Raijin II' unitType='Mek'>
+            <availability>WOB:6+:3066</availability>
+            <model name='RJN-200-A'>
+                <availability>General:8</availability>
+            </model>
+            <model name='RJN-200-B'>
+                <roles>recon,spotter</roles>
+                <availability>General:5+</availability>
+            </model>
+            <model name='RJN-200-C'>
+                <availability>General:4+</availability>
+            </model>
+        </chassis>
 		<chassis name='Raijin' unitType='Mek'>
 			<availability>CS:5,WOB:5</availability>
 			<model name='RJN-101-A'>
@@ -10008,7 +10021,7 @@
 				<availability>CS:4</availability>
 			</model>
 			<model name='RJN-101-C'>
-				<availability>General:6</availability>
+				<availability>General:6:3062</availability>
 			</model>
 			<model name='RJN-101-X'>
 				<availability>CS:4</availability>

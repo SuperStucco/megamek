@@ -14416,7 +14416,7 @@
 			</model>
 		</chassis>
 		<chassis name='Raijin' unitType='Mek'>
-			<availability>Blessed Order:1</availability>
+			<availability>Blessed Order:1:3122</availability>
 			<model name='RJN-301-B'>
 				<availability>Blessed Order:1</availability>
 			</model>
