@@ -16675,7 +16675,7 @@
 				<availability>LA:4,FS:4,MERC:4</availability>
 			</model>
 			<model name='(Interdictor)(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(Sqd4)' mechanized='false'>
 				<availability>LA:1</availability>

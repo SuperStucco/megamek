@@ -15410,10 +15410,10 @@
 		<chassis name='Sloth Battle Armor' unitType='BattleArmor'>
 			<availability>LA:4,ROS:4,FS:4,MERC:4</availability>
 			<model name='&apos;Huntsman&apos;(Sqd4)' mechanized='false'>
-				<availability>LA:4,MERC:4,FS:4</availability>
+				<availability>LA:4:3093,MERC:4:3093,FS:4:3093</availability>
 			</model>
 			<model name='(Interdictor)(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='(Sqd4)' mechanized='false'>
 				<availability>LA:2</availability>

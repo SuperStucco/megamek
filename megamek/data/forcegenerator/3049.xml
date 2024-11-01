@@ -7360,7 +7360,7 @@
 			</model>
 		</chassis>
 		<chassis name='Sloth Battle Armor' unitType='BattleArmor'>
-			<availability>LA:3</availability>
+			<availability>LA:3:3050</availability>
 			<model name='(Sqd4)' mechanized='false'>
 				<availability>LA:6</availability>
 			</model>

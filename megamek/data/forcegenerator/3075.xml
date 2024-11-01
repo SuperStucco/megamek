@@ -15064,7 +15064,7 @@
 		<chassis name='Sloth Battle Armor' unitType='BattleArmor'>
 			<availability>LA:3,FS:3</availability>
 			<model name='(Interdictor)(Sqd4)' mechanized='false'>
-				<availability>General:4</availability>
+				<availability>IS:4</availability>
 			</model>
 			<model name='(Sqd4)' mechanized='false'>
 				<availability>LA:4</availability>
