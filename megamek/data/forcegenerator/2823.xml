@@ -2045,7 +2045,7 @@
 			<availability>MOC:4,CHH:4,CLAN:3,IS:4,FS:3,CIR:4,Periphery:3,TC:4,CS:4,OA:4,CBS:4,FWL:5,NIOPS:4,DC:3</availability>
 			<model name='(2638)'>
 				<roles>vee_carrier,infantry_carrier</roles>
-				<availability>CC:8,General:8,FWL:8</availability>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Gabriel Reconnaissance Hovercraft' unitType='Tank'>

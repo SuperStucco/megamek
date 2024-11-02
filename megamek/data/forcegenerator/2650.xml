@@ -1191,7 +1191,7 @@
 			<availability>MOC:4,OA:4,SL:4,IS:4,FS:3,DC:3,Periphery:2,TC:4</availability>
 			<model name='(2638)'>
 				<roles>vee_carrier,infantry_carrier</roles>
-				<availability>CC:8,General:8,FWL:8</availability>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Galahad' unitType='Mek'>

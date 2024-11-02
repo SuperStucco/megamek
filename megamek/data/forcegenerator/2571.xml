@@ -1161,10 +1161,10 @@
 			</model>
 		</chassis>
 		<chassis name='Fury' unitType='Dropship'>
-			<availability>CC:3,MOC:3,OA:3,LA:3,SL:3,FWL:3,IS:3,FS:2,DC:2,TC:3</availability>
+			<availability>MOC:3:2638,OA:3:2638,SL:3:2638,IS:3:2638,FS:2:2638,DC:2:2638,TC:3:2638</availability>
 			<model name='(2638)'>
 				<roles>vee_carrier,infantry_carrier</roles>
-				<availability>CC:8,General:8,FWL:8</availability>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Galahad' unitType='Mek'>

@@ -6720,7 +6720,7 @@
 			</model>
 		</chassis>
 		<chassis name='Fury' unitType='Dropship'>
-			<availability>MOC:4,CC:4,CHH:2,HL:2,CLAN:1,IS:4,FS:3,BAN:4,Periphery:3,TC:4,RA.OA:4,LA:4,CGB.FRR:3,FWL:5,NIOPS:4,DC:3</availability>
+			<availability>MOC:4,CHH:2,HL:2,CLAN:1,IS:4,FS:3,BAN:4,Periphery:3,TC:4,RA.OA:4,CGB.FRR:3,FWL:5,NIOPS:4,DC:3</availability>
 			<model name='(2638)'>
 				<roles>vee_carrier,infantry_carrier</roles>
 				<availability>CC:2-,General:8</availability>
