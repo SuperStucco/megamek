@@ -5103,11 +5103,14 @@
 			</model>
 		</chassis>
 		<chassis name='Gladiator Exoskeleton' unitType='BattleArmor'>
-			<availability>MH:2</availability>
-			<model name='[AG](Sqd4)' mechanized='false'>
-				<availability>MH:4</availability>
+			<availability>MH:2,PIR:1+</availability>
+            <model name='[AG](Sqd4)' mechanized='true'>
+                <availability>PIR:8</availability>
+            </model>
+			<model name='[AG](Sqd5)' mechanized='true'>
+				<availability>MH:4,PIR:5</availability>
 			</model>
-			<model name='[BC/ID](Sqd4)' mechanized='false'>
+			<model name='[BC/ID](Sqd5)' mechanized='false'>
 				<availability>MH:2</availability>
 			</model>
 		</chassis>

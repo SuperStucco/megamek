@@ -7687,17 +7687,23 @@
 			</model>
 		</chassis>
 		<chassis name='Gladiator Battle Armor' unitType='BattleArmor'>
-			<availability>MERC:4</availability>
-			<model name='S (Sqd4)' mechanized='false'>
+			<availability>MERC:4,PIR:3+</availability>
+			<model name='S (Sqd4)' mechanized='true'>
 				<availability>General:8</availability>
 			</model>
+            <model name='S (Sqd5)' mechanized='true'>
+                <availability>PIR:5</availability>
+            </model>
 		</chassis>
 		<chassis name='Gladiator Exoskeleton' unitType='BattleArmor'>
-			<availability>MH:2</availability>
-			<model name='[AG](Sqd4)' mechanized='false'>
-				<availability>MH:3</availability>
+			<availability>MH:2,PIR:3</availability>
+			<model name='[AG](Sqd4)' mechanized='true'>
+				<availability>PIR:8</availability>
 			</model>
-			<model name='[BC/ID](Sqd4)' mechanized='false'>
+            <model name='[AG](Sqd5)' mechanized='true'>
+                <availability>MH:3,PIR:5</availability>
+            </model>
+			<model name='[BC/ID](Sqd5)' mechanized='false'>
 				<availability>MH:2</availability>
 			</model>
 		</chassis>

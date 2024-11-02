@@ -3956,11 +3956,11 @@
 			</model>
 		</chassis>
 		<chassis name='Gladiator Exoskeleton' unitType='BattleArmor'>
-			<availability>MH:1</availability>
-			<model name='[AG](Sqd4)' mechanized='false'>
+			<availability>MH:1:3056</availability>
+			<model name='[AG](Sqd5)' mechanized='true'>
 				<availability>MH:2</availability>
 			</model>
-			<model name='[BC/ID](Sqd4)' mechanized='false'>
+			<model name='[BC/ID](Sqd5)' mechanized='false'>
 				<availability>MH:1</availability>
 			</model>
 		</chassis>
