@@ -2167,28 +2167,31 @@
 		<chassis name='Black Hawk-KU' unitType='Mek' omni='IS'>
 			<availability>CC:4+,LA:6+,FRR:6+,SIC:4+,FS:4+,MERC:4+,DC:7+</availability>
 			<model name='BHKU-O'>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BHKU-OA'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BHKU-OB'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BHKU-OC'>
-				<availability>General:7</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='BHKU-OD'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BHKU-OE'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>IS:6:3063</availability>
 			</model>
 			<model name='BHKU-OR'>
-				<availability>General:1+,DC:1+</availability>
+				<availability>IS:1+</availability>
 			</model>
 			<model name='BHKU-OX'>
-				<availability>FS:2,DC:2</availability>
+                <roles>raider</roles>
+				<availability>FS:2+,DC:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Knight' unitType='Mek'>

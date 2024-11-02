@@ -1731,22 +1731,20 @@
 		<chassis name='Black Hawk-KU' unitType='Mek' omni='IS'>
 			<availability>LA:4+,FRR:4+,SIC:2+,FS:2+,DC:5+</availability>
 			<model name='BHKU-O'>
-				<availability>General:8</availability>
+			    <roles>raider</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BHKU-OA'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BHKU-OB'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BHKU-OC'>
-				<availability>General:7</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='BHKU-OD'>
-				<availability>General:7</availability>
-			</model>
-			<model name='BHKU-OX'>
-				<availability>FS:2,DC:2</availability>
+				<availability>IS:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Knight' unitType='Mek'>

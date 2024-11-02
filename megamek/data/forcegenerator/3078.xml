@@ -3043,33 +3043,37 @@
 		<chassis name='Black Hawk-KU' unitType='Mek' omni='IS'>
 			<availability>CC:4,LA:6,FRR:6,CGB.FRR:6,FS:4,MERC:4,DC:7</availability>
 			<model name='BHKU-O'>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BHKU-OA'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BHKU-OB'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BHKU-OC'>
-				<availability>General:7</availability>
+				<availability>IS:5-</availability>
 			</model>
 			<model name='BHKU-OD'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BHKU-OE'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>IS:6</availability>
 			</model>
 			<model name='BHKU-OF'>
-				<availability>General:4</availability>
+                <roles>cavalry</roles>
+				<availability>IS:4</availability>
 			</model>
 			<model name='BHKU-OR'>
-				<availability>General:2+,DC:2+</availability>
+				<availability>IS:2+</availability>
 			</model>
 			<model name='BHKU-OU'>
-				<availability>General:2</availability>
+				<availability>IS:2</availability>
 			</model>
 			<model name='BHKU-OX'>
+                <roles>raider</roles>
 				<availability>DC:2</availability>
 			</model>
 		</chassis>
