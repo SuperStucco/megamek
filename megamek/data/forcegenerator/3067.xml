@@ -5762,42 +5762,45 @@
 			</model>
 		</chassis>
 		<chassis name='Firestarter' unitType='Mek' omni='IS'>
-			<availability>CS:5+,CC:4+,FVC:4+,LA:5+,IS:4+,WOB:5+,FS:5+,MERC:4+,DC:7+</availability>
+			<availability>CS:5+,FVC:4+,LA:5+,IS:4+,WOB:5+,FS:5+,MERC:4+,DC:7+</availability>
 			<model name='FS9-O'>
-				<availability>General:8</availability>
+                <roles>anti_infantry,recon</roles>
+				<availability>IS:7-,FVC:8</availability>
 			</model>
 			<model name='FS9-OA'>
 				<availability>General:7</availability>
 			</model>
 			<model name='FS9-OB'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>raider,spotter</roles>
+				<availability>General:7,DC:8+,WOB:7-</availability>
 			</model>
 			<model name='FS9-OC'>
 				<roles>fire_support</roles>
-				<availability>General:7</availability>
+				<availability>General:7,DC:8+,WOB:7-</availability>
 			</model>
 			<model name='FS9-OD'>
-				<availability>General:7</availability>
+                <roles>ew_support</roles>
+				<availability>General:7,DC:8+,WOB:7-</availability>
 			</model>
 			<model name='FS9-OE'>
-				<availability>General:7</availability>
+				<availability>General:5,DC:6</availability>
 			</model>
 			<model name='FS9-OF'>
-				<availability>General:6</availability>
+				<availability>General:6,FVC:4+</availability>
 			</model>
 			<model name='FS9-OG'>
 				<availability>General:6</availability>
 			</model>
 			<model name='FS9-OH'>
-				<roles>recon</roles>
-				<availability>General:4</availability>
+                <roles>ew_support,raider,recon</roles>
+				<availability>General:4:3069,FVC:3+:3069</availability>
 			</model>
 			<model name='FS9-OR'>
-				<availability>CLAN:4,IS:1+,DC:1+</availability>
+				<availability>IS:1+</availability>
 			</model>
 			<model name='FS9-OX'>
-				<availability>General:2</availability>
+                <roles>ew_support,raider,recon</roles>
+				<availability>IS:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Flashman' unitType='Mek'>

@@ -3913,32 +3913,35 @@
 			</model>
 		</chassis>
 		<chassis name='Firestarter' unitType='Mek' omni='IS'>
-			<availability>CS:4+,CC:3+,LA:4+,IS:3+,WOB:4+,FS:4+,MERC:3+,DC:6+</availability>
+			<availability>CS:4+,LA:4+,IS:3+,WOB:4+,FS:4+,MERC:3+,DC:6+</availability>
 			<model name='FS9-O'>
-				<availability>General:8</availability>
+                <roles>anti_infantry,recon</roles>
+				<availability>IS:8,DC:7</availability>
 			</model>
 			<model name='FS9-OA'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='FS9-OB'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>raider,spotter</roles>
+				<availability>IS:7,DC:8+</availability>
 			</model>
 			<model name='FS9-OC'>
 				<roles>fire_support</roles>
-				<availability>General:7</availability>
+				<availability>IS:7,DC:8+</availability>
 			</model>
 			<model name='FS9-OD'>
-				<availability>General:7</availability>
+                <roles>ew_support</roles>
+				<availability>IS:7,DC:8+</availability>
 			</model>
 			<model name='FS9-OE'>
-				<availability>General:6</availability>
+				<availability>IS:5,DC:6</availability>
 			</model>
 			<model name='FS9-OR'>
-				<availability>CLAN:4,IS:1+,DC:1+</availability>
+				<availability>IS:1+:3059</availability>
 			</model>
 			<model name='FS9-OX'>
-				<availability>General:1</availability>
+                <roles>ew_support,raider,recon</roles>
+				<availability>IS:1+:3059</availability>
 			</model>
 		</chassis>
 		<chassis name='Flashman' unitType='Mek'>
