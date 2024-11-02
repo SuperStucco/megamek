@@ -4315,7 +4315,8 @@
 		<chassis name='Gorilla Exoskeleton' unitType='BattleArmor'>
 			<availability>IS:6,MERC:5,Periphery:4</availability>
 			<model name='PEX-2B(Sqd4)' mechanized='false'>
-				<availability>IS:6-,MERC:5-,Periphery:4-</availability>
+                <roles>support</roles>
+				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Goshawk (Vapor Eagle)' unitType='Mek'>
