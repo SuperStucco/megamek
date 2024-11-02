@@ -1621,7 +1621,7 @@
 			</model>
 		</chassis>
 		<chassis name='Excalibur' unitType='Dropship'>
-			<availability>IS:4,Periphery:2,CS:5,OA:2,NIOPS:5</availability>
+			<availability>IS:4,Periphery:2,CS:5,NIOPS:5</availability>
 			<model name='(2786)'>
 				<roles>troop_carrier</roles>
 				<availability>General:8</availability>

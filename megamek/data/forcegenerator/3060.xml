@@ -4317,8 +4317,9 @@
 			</model>
 		</chassis>
 		<chassis name='Excalibur' unitType='Dropship'>
-			<availability>MOC:3,FRR:6,IS:5,WOB:5,FS:3,Periphery:2,TC:3,CS:5,LA:5,NIOPS:5,DC:6</availability>
+			<availability>MOC:3,FRR:6,IS:5,WOB:5,FS:3,Periphery:2,TC:3,CS:5,NIOPS:5,DC:6</availability>
 			<model name='&apos;Pocket Warship&apos;'>
+                <roles>pocket_warship</roles>
 				<availability>FS:2,MERC:2</availability>
 			</model>
 			<model name='(2786)'>

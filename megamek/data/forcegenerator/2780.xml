@@ -1291,6 +1291,13 @@
 				<availability>SL:8,IS:8,DC:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Excalibur' unitType='Dropship'>
+            <availability>IS:4:2786,Periphery:2:2786,CS:5:2786,NIOPS:5:2786</availability>
+            <model name='(2786)'>
+                <roles>troop_carrier</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Excalibur' unitType='Mek'>
 			<availability>LA:3+,SL:5+,NIOPS:5,FS:3+,DC:3+</availability>
 			<model name='EXC-B1'>
