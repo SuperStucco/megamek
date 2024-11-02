@@ -5135,18 +5135,19 @@
 		<chassis name='Daikyu' unitType='Mek'>
 			<availability>ROS:5,DC:8</availability>
 			<model name='DAI-01'>
-				<roles>fire_support</roles>
-				<availability>General:6</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>IS:6</availability>
 			</model>
 			<model name='DAI-01r'>
-				<availability>General:3</availability>
+                <roles>cavalry,fire_support</roles>
+				<availability>IS:3</availability>
 			</model>
 			<model name='DAI-02'>
-				<roles>fire_support</roles>
+				<roles>raider</roles>
 				<availability>DC:5</availability>
 			</model>
 			<model name='DAI-03'>
-				<roles>fire_support</roles>
+				<roles>cavalry</roles>
 				<availability>DC:6</availability>
 			</model>
 		</chassis>
