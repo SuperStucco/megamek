@@ -4385,9 +4385,9 @@
 			</model>
 		</chassis>
 		<chassis name='Grand Titan' unitType='Mek'>
-			<availability>MOC:3+,IS:3+,WOB:5,FWL.KIS:7+,MERC:3+,CS:3,Periphery.MW:1,FWL:6+,MH:3+</availability>
+			<availability>MOC:3+,IS:3+,WOB:5,FWL.KIS:7,MERC:3+,CS:3,Periphery.MW:1+,FWL:6+,MH:3+</availability>
 			<model name='T-IT-N10M'>
-				<availability>HL:6,General:6,FWL:8,Periphery.Deep:6,MERC:8,Periphery:8</availability>
+				<availability>IS:6,FWL:8,MERC:8,Periphery:8</availability>
 			</model>
 			<model name='T-IT-N11M'>
 				<availability>FWL:5,WOB:5,MERC:2</availability>

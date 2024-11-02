@@ -7043,13 +7043,17 @@
 			</model>
 		</chassis>
 		<chassis name='Grand Titan' unitType='Mek'>
-			<availability>CC:5,MOC:5,IS:2,WOB:5,FWL.KIS:8,FS:5,MERC:5,CS:3,DTA:7,FVC:5,Periphery.MW:4,Periphery.ME:2,FWL:7,MH:4,RCM:7,DC:5</availability>
+			<availability>CC:5,MOC:5,IS:2,WOB:5,FWL.KIS:8,FS:5,MERC:5+,CS:3,DTA:7,FVC:5+,Periphery.MW:4+,Periphery.ME:2+,FWL:7,MH:4+,RCM:7,DC:5</availability>
 			<model name='T-IT-N10M'>
-				<availability>HL:4,General:2,FWL:6,Periphery.Deep:4,MERC:6,Periphery:6</availability>
+				<availability>IS:2,FWL:6,MERC:6,Periphery:6</availability>
 			</model>
 			<model name='T-IT-N11M'>
 				<availability>DTA:4,CC:4,MOC:4,FWL:6,WOB:6,MERC:4,FS:4,DC:4</availability>
 			</model>
+            <model name='T-IT-N14R &apos;Vengeance&apos;'>
+                <roles>mixed_artillery</roles>
+                <availability>FWL.RH:1+</availability>
+            </model>
 		</chassis>
 		<chassis name='Grasshopper' unitType='Mek'>
 			<availability>CS:4-,HL:5,IS:5,NIOPS:4-,Periphery.Deep:5,WOB:4-,MERC:7,Periphery:6,DC:6</availability>

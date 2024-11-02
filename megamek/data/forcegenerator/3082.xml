@@ -6914,15 +6914,12 @@
 			</model>
 		</chassis>
 		<chassis name='Grand Titan' unitType='Mek'>
-			<availability>CC:5,MOC:5,PR:7,DoO:7,DO:7,DGM:7,FS:5,MERC:5,SC:7,DTA:7,FVC:5,MCM:7,ROS:6,Periphery.MW:4,PG:7,Periphery.ME:3,FWL:7,MH:4,MSC:5,TP:7,DA:7,RCM:7,RFS:7,DC:5</availability>
+			<availability>CC:5,MOC:5,PR:7,DoO:7,DO:7,DGM:7,FS:5,MERC:5+,SC:7,DTA:7,FVC:5+,MCM:7,ROS:6,Periphery.MW:4+,PG:7,Periphery.ME:3+,FWL:7,MH:4+,MSC:5,TP:7,DA:7,RCM:7,RFS:7,DC:5</availability>
 			<model name='T-IT-N10M'>
-				<availability>HL:3,ROS:5,FWL:5,MERC:5,Periphery:5</availability>
+				<availability>ROS:5,FWL:5,MERC:5,Periphery:5</availability>
 			</model>
 			<model name='T-IT-N11M'>
 				<availability>DTA:5,CC:5,MOC:5,SC:6,MCM:6,ROS:6,DGM:6,MSC:6,MERC:4,FS:5,DC:5</availability>
-			</model>
-			<model name='T-IT-N13M'>
-				<availability>PR:2,DoO:4,DO:4,DGM:4,MERC:2,DTA:4,SC:4,MCM:4,ROS:2,PG:2,MSC:4,TP:4,DA:2,RCM:2,RFS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Grasshopper' unitType='Mek'>

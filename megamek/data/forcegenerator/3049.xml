@@ -3665,6 +3665,12 @@
 				<availability>FRR:4+:3050,DC:4+:3050</availability>
 			</model>
 		</chassis>
+        <chassis name='Grand Titan' unitType='Mek'>
+            <availability>FWL:6+:3054,WOB:5:3054,FWL.KIS:7:3054</availability>
+            <model name='T-IT-N10M'>
+                <availability>WOB:8,FWL:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Grasshopper' unitType='Mek'>
 			<availability>CS:4-,MOC:6,OA:6,HL:4,IS:6,NIOPS:4-,Periphery.Deep:5,WOB:4-,MERC:7,Periphery:6,DC:6,TC:6</availability>
 			<model name='GHR-5H'>
