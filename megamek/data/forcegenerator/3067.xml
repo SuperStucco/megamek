@@ -2947,7 +2947,7 @@
 		<chassis name='Caesar' unitType='Mek'>
 			<availability>CS:3,FVC:6,LA:4,FS:6,MERC:3</availability>
 			<model name='CES-3R'>
-				<availability>CS:8,FVC:8,General:4,FS:6,MERC:6</availability>
+				<availability>CS:8,FVC:8,LA:4,FS:6,MERC:6</availability>
 			</model>
 			<model name='CES-3S'>
 				<availability>LA:4</availability>

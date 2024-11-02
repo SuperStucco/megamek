@@ -3757,6 +3757,9 @@
 			<model name='CES-4S'>
 				<availability>LA:6,FS:6</availability>
 			</model>
+            <model name='CES-5R'>
+                <availability>LA:2+,FS:4+,FWL:2+,MERC:1+</availability>
+            </model>
 		</chassis>
 		<chassis name='Calliope' unitType='Mek'>
 			<availability>MOC:6,CC:5,DA:4,MERC:3</availability>

@@ -1816,7 +1816,7 @@
 		<chassis name='Caesar' unitType='Mek'>
 			<availability>LA:3+,FS:4+</availability>
 			<model name='CES-3R'>
-				<availability>CS:8,General:8,FS:8,MERC:8</availability>
+				<availability>LA:8,FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Cameron Battlecruiser' unitType='Warship'>
