@@ -3440,6 +3440,7 @@
 				<availability>General:7</availability>
 			</model>
 			<model name='BJ2-OA'>
+                <roles>fire_support</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='BJ2-OB'>
@@ -3449,22 +3450,27 @@
 				<availability>General:6</availability>
 			</model>
 			<model name='BJ2-OD'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>General:6-</availability>
 			</model>
 			<model name='BJ2-OE'>
+                <roles>fire_support</roles>
 				<availability>General:7,FWL:8,CP:8</availability>
 			</model>
 			<model name='BJ2-OF'>
 				<availability>General:4,FWL:7,CP:7</availability>
 			</model>
+            <model name='BJ2-OG'>
+                <availability>General:5:3134,FS:7:3134</availability>
+            </model>
 			<model name='BJ2-OR'>
 				<availability>CLAN:6,IS:3+,DC:3+</availability>
 			</model>
 			<model name='BJ2-OU'>
-				<availability>General:2</availability>
+				<availability>IS:2,CP:2</availability>
 			</model>
 			<model name='BJ2-OX'>
-				<availability>General:2</availability>
+				<availability>IS:2,Periphery:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Blackstone Baronet Passenger VTOL' unitType='VTOL'>

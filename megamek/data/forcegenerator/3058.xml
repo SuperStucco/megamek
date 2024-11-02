@@ -1931,25 +1931,28 @@
 		<chassis name='Blackjack' unitType='Mek' omni='IS'>
 			<availability>CS:2+,FWL:2+,IS:2+,WOB:2+,SIC:2+,FS:2+,MERC:2+,DC:5+</availability>
 			<model name='BJ2-O'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BJ2-OA'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BJ2-OB'>
-				<availability>General:7</availability>
+				<availability>IS:7,WOB:5</availability>
 			</model>
 			<model name='BJ2-OC'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BJ2-OD'>
-				<availability>General:7</availability>
+                <roles>raider</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='BJ2-OE'>
-				<availability>General:5,FWL:6</availability>
+                <roles>fire_support</roles>
+				<availability>IS:5:3059,FWL:6:3059</availability>
 			</model>
 			<model name='BJ2-OR'>
-				<availability>CLAN:6,DC:1+</availability>
+				<availability>DC:1+:3059</availability>
 			</model>
 		</chassis>
 		<chassis name='Blizzard Hover Transport' unitType='Tank'>
