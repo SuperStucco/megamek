@@ -6100,15 +6100,16 @@
 			</model>
 		</chassis>
 		<chassis name='Gallowglas' unitType='Mek'>
-			<availability>CC:3,MOC:3,MERC.WD:8,IS:5,FWL:3,MH:4,MERC:6,TC:3</availability>
+			<availability>CC:3,MOC:3,MERC.WD:8,IS:5,FWL:3,MH:2+,MERC:6,TC:3</availability>
 			<model name='GAL-1GLS'>
-				<availability>HL:6,IS:8,Periphery.Deep:6,MERC:6,Periphery:8</availability>
+				<availability>IS:8,MERC:6,Periphery:8</availability>
 			</model>
 			<model name='GAL-2GLS'>
-				<availability>HL:2-,IS:4-,Periphery:4-</availability>
+				<availability>IS:4,Periphery:4+</availability>
 			</model>
 			<model name='GAL-2GLSA'>
-				<availability>MERC.WD:3</availability>
+                <roles>raider</roles>
+				<availability>MERC.WD:3:3069</availability>
 			</model>
 			<model name='GAL-3GLS'>
 				<availability>MERC.WD:7,MERC:4</availability>
@@ -6120,7 +6121,8 @@
 				<availability>MERC.WD:4</availability>
 			</model>
 			<model name='WD'>
-				<availability>MERC.WD:8-</availability>
+                <roles>cavalry</roles>
+				<availability>MERC.WD:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Garm' unitType='Mek'>

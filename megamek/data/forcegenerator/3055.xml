@@ -3908,14 +3908,15 @@
 			</model>
 		</chassis>
 		<chassis name='Gallowglas' unitType='Mek'>
-			<availability>CC:2+,MOC:2+,MERC.WD:6,IS:4+,FWL:2+,MH:4,MERC:6,TC:2+</availability>
+			<availability>CC:2+,MOC:2+,MERC.WD:6,IS:4+,FWL:2+,MERC:6,TC:2+</availability>
 			<model name='GAL-1GLS'>
-				<availability>HL:6,IS:8,Periphery.Deep:6,MERC:8,Periphery:8</availability>
+				<availability>IS:8,MERC:8,Periphery:8</availability>
 			</model>
 			<model name='GAL-2GLS'>
-				<availability>HL:2,IS:4,Periphery:4</availability>
+				<availability>IS:4,Periphery:4+</availability>
 			</model>
 			<model name='WD'>
+			    <roles>cavalry</roles>
 				<availability>MERC.WD:8</availability>
 			</model>
 		</chassis>
