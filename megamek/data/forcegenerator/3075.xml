@@ -5933,10 +5933,12 @@
 		<chassis name='Falconer' unitType='Mek'>
 			<availability>CS:4,LA:8,FS:8,MERC:3</availability>
 			<model name='FLC-8R'>
-				<availability>General:6</availability>
+                <roles>cavalry</roles>
+				<availability>IS:6</availability>
 			</model>
 			<model name='FLC-9R'>
-				<availability>General:4</availability>
+                <roles>cavalry</roles>
+				<availability>IS:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Fast Recon' unitType='Infantry'>
