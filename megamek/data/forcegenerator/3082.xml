@@ -6953,39 +6953,47 @@
 				<availability>IS:3,DC:3</availability>
 			</model>
 		</chassis>
-		<chassis name='Gray Death Heavy Suit' unitType='BattleArmor'>
-			<availability>MERC.KH:3,MERC.WD:3,LA:3,ROS:2,MERC:2</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
-			</model>
-		</chassis>
+        <chassis name='Gray Death Heavy Suit' unitType='BattleArmor'>
+            <availability>MERC.KH:3:3083,MERC.WD:3:3083,LA:3:3083,ROS:2:3083,MERC:2:3083</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>IS:8,MERC.WD:0</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>MERC.WD:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Gray Death Scout Suit' unitType='BattleArmor'>
-			<availability>LA:4,MERC:4,TC:4</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<availability>LA:4,MERC:4</availability>
+			<model name='(Sqd4)' mechanized='true'>
+                <roles>recon,specops</roles>
+				<availability>IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Gray Death Standard Suit' unitType='BattleArmor'>
 			<availability>LA:7,MERC:5</availability>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='[LRR](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
-			<model name='[Laser](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+				<availability>IS:6</availability>
 			</model>
-			<model name='[MG](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[MG](Sqd4)' mechanized='true'>
+				<availability>IS:8</availability>
 			</model>
 			<model name='[SRM](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 		</chassis>
-		<chassis name='Gray Death Strike Armor' unitType='BattleArmor'>
-			<availability>LA:4</availability>
-		</chassis>
+        <chassis name='Gray Death Strike Suit' unitType='BattleArmor'>
+            <availability>LA:4</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>LA:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Great Wyrm' unitType='Mek'>
 			<availability>CSA:4,CCC:4,CHH:5,CCO:4,CGB:5</availability>
 			<model name=''>

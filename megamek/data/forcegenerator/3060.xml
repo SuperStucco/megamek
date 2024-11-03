@@ -5324,24 +5324,25 @@
 			</model>
 		</chassis>
 		<chassis name='Gray Death Scout Suit' unitType='BattleArmor'>
-			<availability>MERC.GDL:4,LA:2,FS:2,MERC:2,TC:2</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<availability>MERC.GDL:4,LA:2,FS:2,MERC:2</availability>
+			<model name='(Sqd4)' mechanized='true'>
+                <roles>recon,specops</roles>
+				<availability>IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Gray Death Standard Suit' unitType='BattleArmor'>
 			<availability>MERC.GDL:6,LA:4,MERC:4</availability>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
-			<model name='[Laser](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+				<availability>IS:6</availability>
 			</model>
-			<model name='[MG](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[MG](Sqd4)' mechanized='true'>
+				<availability>IS:8</availability>
 			</model>
 			<model name='[SRM](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Great Wyrm' unitType='Mek'>

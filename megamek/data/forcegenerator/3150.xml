@@ -1171,9 +1171,6 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
-		<chassis name='&apos;Surat&apos; (Grey Death) Solahma Suit' unitType='BattleArmor'>
-			<availability>CLAN.IS:4-</availability>
-		</chassis>
 		<chassis name='AA Jump Infantry' unitType='Infantry'>
 			<availability>FWL:2</availability>
 			<model name='292nd League Regulars'>
@@ -7505,9 +7502,6 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
-		<chassis name='GD Infiltrator Suit' unitType='BattleArmor'>
-			<availability>MERC.KH:6,RF:4,LA:6,ROS:4,MERC:4</availability>
-		</chassis>
 		<chassis name='Gabriel Reconnaissance Hovercraft' unitType='Tank'>
 			<availability>TC:4</availability>
 			<model name=''>
@@ -8085,37 +8079,72 @@
 		</chassis>
 		<chassis name='Gray Death Heavy Suit' unitType='BattleArmor'>
 			<availability>MERC.KH:4,MERC.WD:4,LA:4,ROS:3,MERC:3</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
-			</model>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>IS:8,MERC.WD:0</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>MERC.WD:8</availability>
+            </model>
 		</chassis>
+        <chassis name='Gray Death Infiltrator Suit' unitType='BattleArmor'>
+            <availability>MERC.KH:6,RF:4,LA:6,ROS:4,MERC:4</availability>
+            <model name='(Firedrake)(Sqd4)' mechanized='true'>
+                <roles>anti_infantry</roles>
+                <availability>IS:8</availability>
+            </model>
+            <model name='(Mines)(Sqd4)' mechanized='true'>
+                <roles>minelayer</roles>
+                <availability>IS:6</availability>
+            </model>
+            <model name='(Remote Sensors)(Sqd4)' mechanized='true'>
+                <roles>recon</roles>
+                <availability>IS:7</availability>
+            </model>
+            <model name='(Sensors)(Sqd4)' mechanized='true'>
+                <roles>recon</roles>
+                <availability>IS:7</availability>
+            </model>
+            <model name='(TAG)(Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>IS:7,RF:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Gray Death Scout Suit' unitType='BattleArmor'>
-			<availability>LA:4,MERC:4,TC:4</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<availability>LA:4,MERC:4</availability>
+			<model name='(Sqd4)' mechanized='true'>
+                <roles>recon,specops</roles>
+				<availability>IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Gray Death Standard Suit' unitType='BattleArmor'>
 			<availability>LA:8,MERC:5</availability>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='[LRR](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
-			<model name='[Laser](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+				<availability>IS:6</availability>
 			</model>
-			<model name='[MG](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[MG](Sqd4)' mechanized='true'>
+				<availability>IS:8</availability>
 			</model>
 			<model name='[SRM](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 		</chassis>
-		<chassis name='Gray Death Strike Armor' unitType='BattleArmor'>
-			<availability>LA:5</availability>
-		</chassis>
+        <chassis name='Gray Death Strike Suit' unitType='BattleArmor'>
+            <availability>LA:5</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>LA:8</availability>
+            </model>
+            <model name='(Harjel)(Sqd4)' mechanized='true'>
+                <roles>anti_infantry,spotter</roles>
+                <availability>LA:6+</availability>
+            </model>
+        </chassis>
 		<chassis name='Great Wyrm' unitType='Mek'>
 			<availability>CHH:5,RD:5</availability>
 			<model name=''>
@@ -18245,6 +18274,15 @@
 				<availability>ROS:5,CP:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Surat (Gray Death) Solahma Suit' unitType='BattleArmor'>
+            <availability>CLAN.IS:4-</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>RA:8-</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>CLAN.IS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Suzaku' unitType='AeroSpaceFighter'>
 			<availability>DC.SL:8,DC:8</availability>
 			<model name='SU-14'>
