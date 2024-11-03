@@ -12022,17 +12022,17 @@
 			</model>
 		</chassis>
 		<chassis name='Naginata' unitType='Mek'>
-			<availability>ROS:4,MERC:4,DC:6</availability>
+			<availability>ROS:4,MERC:4+,DC:6</availability>
 			<model name='NG-C3A'>
-				<roles>fire_support,spotter</roles>
+				<roles>command,fire_support,spotter</roles>
 				<availability>DC:8</availability>
 			</model>
 			<model name='NG-C3Ar'>
-				<roles>fire_support,spotter</roles>
-				<availability>General:5</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>ROS:5+,DC:5+,MERC:2+</availability>
 			</model>
 			<model name='NG-C3B'>
-				<roles>spotter</roles>
+				<roles>command,spotter</roles>
 				<availability>DC:4</availability>
 			</model>
 			<model name='NG-C3C'>

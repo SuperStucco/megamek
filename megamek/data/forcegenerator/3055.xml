@@ -6657,9 +6657,9 @@
 			</model>
 		</chassis>
 		<chassis name='Naginata' unitType='Mek'>
-			<availability>DC:4</availability>
+			<availability>DC:4+</availability>
 			<model name='NG-C3A'>
-				<roles>fire_support,spotter</roles>
+				<roles>command,fire_support,spotter</roles>
 				<availability>DC:8</availability>
 			</model>
 		</chassis>

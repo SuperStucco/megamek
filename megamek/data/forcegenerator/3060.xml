@@ -8829,15 +8829,19 @@
 			</model>
 		</chassis>
 		<chassis name='Naginata' unitType='Mek'>
-			<availability>DC:6</availability>
+			<availability>DC:6+</availability>
 			<model name='NG-C3A'>
-				<roles>fire_support,spotter</roles>
+				<roles>command,fire_support,spotter</roles>
 				<availability>DC:8</availability>
 			</model>
 			<model name='NG-C3B'>
-				<roles>spotter</roles>
-				<availability>DC:4</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:4+:3063</availability>
 			</model>
+            <model name='NG-C3C'>
+                <roles>fire_support</roles>
+                <availability>DC:2:3066</availability>
+            </model>
 		</chassis>
 		<chassis name='Nagumo' unitType='Dropship'>
 			<availability>DC:4</availability>
