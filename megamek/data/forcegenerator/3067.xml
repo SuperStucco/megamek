@@ -11910,21 +11910,25 @@
 			</model>
 		</chassis>
 		<chassis name='Penetrator' unitType='Mek'>
-			<availability>FVC:7,LA:5,FS:7,MERC:3</availability>
+			<availability>FVC:5+,LA:5,FS:7,MERC:3+</availability>
 			<model name='PTR-4D'>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>IS:8,FVC:8</availability>
 			</model>
 			<model name='PTR-4F'>
 				<availability>LA:3,FS:3</availability>
 			</model>
 			<model name='PTR-6M'>
+                <roles>raider</roles>
 				<availability>LA:5,FS:5</availability>
 			</model>
 			<model name='PTR-6S'>
+                <roles>raider</roles>
 				<availability>LA:5,FS:5</availability>
 			</model>
 			<model name='PTR-6T'>
-				<availability>FS.DBG:8,FS:4</availability>
+                <roles>raider</roles>
+				<availability>FS.DBG:8,FS:4+</availability>
 			</model>
 		</chassis>
 		<chassis name='Peregrine (Horned Owl)' unitType='Mek'>

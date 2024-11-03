@@ -7663,18 +7663,21 @@
 			</model>
 		</chassis>
 		<chassis name='Penetrator' unitType='Mek'>
-			<availability>LA:4,FS:4,MERC:1</availability>
+			<availability>LA:4,FS:4,MERC:1+</availability>
 			<model name='PTR-4D'>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='PTR-4F'>
 				<availability>LA:3,FS:3</availability>
 			</model>
 			<model name='PTR-6M'>
+                <roles>raider</roles>
 				<availability>LA:5,FS:5</availability>
 			</model>
 			<model name='PTR-6S'>
-				<availability>LA:5,FS:5</availability>
+                <roles>raider</roles>
+				<availability>LA:5:3059,FS:5:3059</availability>
 			</model>
 		</chassis>
 		<chassis name='Peregrine (Horned Owl)' unitType='Mek'>

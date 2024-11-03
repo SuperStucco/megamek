@@ -6348,6 +6348,13 @@
 				<availability>IS:1</availability>
 			</model>
 		</chassis>
+        <chassis name='Penetrator' unitType='Mek'>
+            <availability>LA:3+:3053,FS:3+:3053</availability>
+            <model name='PTR-4D'>
+                <roles>raider</roles>
+                <availability>IS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Peregrine (Horned Owl)' unitType='Mek'>
 			<availability>CLAN:3,CSJ:6,CGB:5</availability>
 			<model name=''>

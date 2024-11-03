@@ -14715,20 +14715,31 @@
 		<chassis name='Penetrator' unitType='Mek'>
 			<availability>FVC:7,LA:5,FS:7,MERC:4</availability>
 			<model name='PTR-4D'>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>IS:8,FS:6-,FVC:8</availability>
 			</model>
 			<model name='PTR-4F'>
 				<availability>LA:3,FS:3</availability>
 			</model>
 			<model name='PTR-6M'>
+                <roles>raider</roles>
 				<availability>LA:5,FS:5</availability>
 			</model>
 			<model name='PTR-6S'>
+                <roles>raider</roles>
 				<availability>LA:5,FS:5</availability>
 			</model>
 			<model name='PTR-6T'>
 				<availability>FS.DBG:8,FS:4</availability>
 			</model>
+            <model name='PTR-7D'>
+                <roles>raider</roles>
+                <availability>FS:4+</availability>
+            </model>
+            <model name='PTR-8D'>
+                <roles>raider</roles>
+                <availability>FS:5+</availability>
+            </model>
 		</chassis>
 		<chassis name='Penthesilea' unitType='Mek'>
 			<availability>MOC:8,CC:4,MERC:4,TC:4</availability>
