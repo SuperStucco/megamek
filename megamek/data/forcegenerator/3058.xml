@@ -4667,9 +4667,10 @@
 			</model>
 		</chassis>
 		<chassis name='Harpy' unitType='ProtoMek'>
-			<availability>CSA:1,CHH:2,CSJ:6</availability>
+			<availability>CSJ:6</availability>
 			<model name=''>
-				<availability>CSA:4,CHH:6,CSJ:8</availability>
+                <roles>anti_infantry,urban</roles>
+				<availability>CSJ:8</availability>
 			</model>
 		</chassis>
         <chassis name='Harvester' unitType='Mek'>

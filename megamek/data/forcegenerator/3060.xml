@@ -5684,15 +5684,18 @@
 			</model>
 		</chassis>
 		<chassis name='Harpy' unitType='ProtoMek'>
-			<availability>CSA:4,CHH:4,CBS:2:3062,CFM:2:3062,CSJ:6,CJF:4:3061</availability>
+			<availability>CSA:2:3062,CHH:4:3062,CBS:2:3062,CFM:2:3062,CSJ:3,CJF:4:3062</availability>
 			<model name=''>
-				<availability>CSA:6,CHH:8,CFM:6:3062,CSJ:8,CJF:6</availability>
+                <roles>anti_infantry,urban</roles>
+				<availability>CSA:6,CHH:6,CBS:6,CFM:6,CSJ:8,CJF:6</availability>
 			</model>
 			<model name='2'>
-				<availability>CHH:6,CBS:6:3062</availability>
+                <roles>urban</roles>
+				<availability>CHH:6:3063,CBS:6:3063,CFM:6:3063</availability>
 			</model>
 			<model name='3'>
-				<availability>CSA:4,CHH:3,CFM:4:3062</availability>
+                <roles>recon</roles>
+				<availability>CSA:4:3065,CHH:3:3065,CFM:4:3065</availability>
 			</model>
 		</chassis>
         <chassis name='Harvester' unitType='Mek'>

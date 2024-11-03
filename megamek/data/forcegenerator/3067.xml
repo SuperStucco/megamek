@@ -6991,16 +6991,20 @@
 		<chassis name='Harpy' unitType='ProtoMek'>
 			<availability>CSA:4,CHH:6,CBS:2,CSV:2,CFM:3,CJF:4</availability>
 			<model name=''>
+                <roles>anti_infantry,urban</roles>
 				<availability>CSA:4,CHH:6,CBS:4,CFM:4,CJF:4</availability>
 			</model>
 			<model name='2'>
+                <roles>urban</roles>
 				<availability>CHH:8,CBS:8,CSV:8,CFM:8</availability>
 			</model>
 			<model name='3'>
+                <roles>recon</roles>
 				<availability>CSA:6,CHH:3,CFM:6</availability>
 			</model>
 			<model name='4'>
-				<availability>CHH:4</availability>
+                <roles>urban</roles>
+				<availability>CHH:4:3069</availability>
 			</model>
 		</chassis>
         <chassis name='Harvester' unitType='Mek'>

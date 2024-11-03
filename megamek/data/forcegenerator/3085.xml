@@ -7749,12 +7749,15 @@
 		<chassis name='Harpy' unitType='ProtoMek'>
 			<availability>CHH:6,CSL:6</availability>
 			<model name=''>
+                <roles>anti_infantry,urban</roles>
 				<availability>CHH:4,CSL:4</availability>
 			</model>
 			<model name='2'>
+                <roles>urban</roles>
 				<availability>CHH:8,CSL:8</availability>
 			</model>
 			<model name='4'>
+                <roles>urban</roles>
 				<availability>CHH:6</availability>
 			</model>
 		</chassis>
