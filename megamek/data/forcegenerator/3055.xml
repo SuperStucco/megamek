@@ -5979,10 +5979,10 @@
 			</model>
 		</chassis>
 		<chassis name='Maelstrom' unitType='Mek'>
-			<availability>LA:4,FS:3,DC:3</availability>
+			<availability>LA:4:3056,FS:3:3056,DC:3:3056</availability>
 			<model name='MTR-5K'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+			    <roles>cavalry,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Magellan Jumpship' unitType='Jumpship'>

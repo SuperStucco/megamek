@@ -7910,18 +7910,18 @@
 			</model>
 		</chassis>
 		<chassis name='Maelstrom' unitType='Mek'>
-			<availability>LA:4,FS:3,MERC:3,DC:5</availability>
+			<availability>LA:4,FS:3,MERC:3+,DC:5</availability>
 			<model name='MTR-5K'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>cavalry,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='MTR-6E'>
-				<roles>recon,spotter</roles>
-				<availability>DC:2</availability>
+				<roles>cavalry,ew_support,spotter</roles>
+				<availability>DC:2:3062</availability>
 			</model>
 			<model name='MTR-6K'>
-				<roles>recon,spotter</roles>
-				<availability>LA:4,FS:4,DC:4</availability>
+				<roles>cavalry,ew_support,spotter</roles>
+				<availability>LA:4:3062,FS:4:3062,DC:4:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Magellan Jumpship' unitType='Jumpship'>

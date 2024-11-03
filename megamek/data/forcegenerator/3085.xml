@@ -10739,17 +10739,17 @@
 			</model>
 		</chassis>
 		<chassis name='Maelstrom' unitType='Mek'>
-			<availability>LA:6,IS:4,FS:4,MERC:4,DC:6</availability>
+			<availability>LA:6,IS:4+,FS:4,MERC:4+,DC:6</availability>
 			<model name='MTR-5K'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>cavalry,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='MTR-6E'>
-				<roles>recon,spotter</roles>
+				<roles>cavalry,ew_support,spotter</roles>
 				<availability>DC:1</availability>
 			</model>
 			<model name='MTR-6K'>
-				<roles>recon,spotter</roles>
+				<roles>cavalry,ew_support,spotter</roles>
 				<availability>LA:4,ROS:4,FS:4,MERC:4,DC:4</availability>
 			</model>
 		</chassis>
