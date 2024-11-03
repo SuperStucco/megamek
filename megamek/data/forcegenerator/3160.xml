@@ -10546,22 +10546,22 @@
 		<chassis name='Kirghiz' unitType='AeroSpaceFighter' omni='Clan'>
 			<availability>RD:6,CLAN:4,BAN:7</availability>
 			<model name='A'>
-				<availability>General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='B'>
-				<availability>General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='C'>
-				<availability>General:5</availability>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='D'>
-				<availability>General:5</availability>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='E'>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kirishima Cruiser' unitType='Warship'>

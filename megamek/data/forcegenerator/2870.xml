@@ -3181,18 +3181,18 @@
 			</model>
 		</chassis>
 		<chassis name='Kirghiz' unitType='AeroSpaceFighter' omni='Clan'>
-			<availability>CLAN:7,CGS:8,CGB:9</availability>
+			<availability>CLAN:7:2874,CGS:8:2874,CGB:9:2874</availability>
 			<model name='A'>
-				<availability>General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='B'>
-				<availability>General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='C'>
-				<availability>General:5,CGS:6</availability>
+				<availability>CLAN:5,CGS:6</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kiso' unitType='Mek'>
