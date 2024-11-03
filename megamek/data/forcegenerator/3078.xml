@@ -8220,7 +8220,7 @@
 				<availability>DC:7</availability>
 			</model>
 			<model name='Meteor'>
-				<availability>CS:4,MERC.KH:3,MERC.WD:2,IS:5,MERC:3,Periphery:3,BAN:2</availability>
+				<availability>CS:4,MERC.WD:2,IS:5,MERC:3,Periphery:3,BAN:2</availability>
 			</model>
 			<model name='Meteor-G'>
 				<availability>MERC.KH:2,MERC.WD:2-,IS:4,MERC:3,Periphery:3</availability>

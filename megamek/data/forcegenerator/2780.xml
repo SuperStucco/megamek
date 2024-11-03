@@ -1768,7 +1768,7 @@
 				<availability>DC:8</availability>
 			</model>
 			<model name='Inseki II'>
-				<availability>DC:2</availability>
+				<availability>DC:2:2793</availability>
 			</model>
 			<model name='Meteor'>
 				<availability>CS:2,PP:2,SLIE:2,IS:5,MERC:4,Periphery:5</availability>

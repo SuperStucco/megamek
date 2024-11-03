@@ -4482,9 +4482,6 @@
 			<model name='Meteor'>
 				<availability>CS:4,MERC.KH:3,MERC.WD:2-,IS:5,MERC:3,Periphery:3,BAN:2</availability>
 			</model>
-			<model name='Meteor-U'>
-				<availability>FC:6</availability>
-			</model>
 		</chassis>
 		<chassis name='Heavy Tracked APC' unitType='Tank'>
 			<availability>CHH:7,HL:5,CLAN:5,IS:7,Periphery.Deep:5,Periphery:6,TC:7</availability>

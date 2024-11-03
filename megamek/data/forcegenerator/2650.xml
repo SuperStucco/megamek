@@ -1338,9 +1338,9 @@
 			</model>
 		</chassis>
 		<chassis name='Heavy Strike Fighter' unitType='Conventional Fighter'>
-			<availability>TH:2,IS:2,MERC:2,DC:1,Periphery:2</availability>
+			<availability>TH:2:2665,IS:2:2665,MERC:2:2665,DC:1:2665,Periphery:2:2665</availability>
 			<model name='Inseki'>
-				<availability>DC:8</availability>
+				<availability>DC:8:2683</availability>
 			</model>
 			<model name='Meteor'>
 				<availability>TH:5,IS:2,MERC:1,Periphery:2</availability>

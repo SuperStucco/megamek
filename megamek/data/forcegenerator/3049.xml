@@ -4026,7 +4026,7 @@
 				<availability>DC:7</availability>
 			</model>
 			<model name='Meteor'>
-				<availability>CS:4,MERC.KH:3,MERC.WD:2,IS:5,MERC:3,Periphery:3,BAN:2</availability>
+				<availability>CS:4,MERC.WD:2,IS:5,MERC:3,Periphery:3,BAN:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Heavy Tracked APC' unitType='Tank'>

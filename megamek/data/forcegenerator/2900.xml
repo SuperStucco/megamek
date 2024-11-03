@@ -2642,7 +2642,7 @@
 		<chassis name='Heavy Strike Fighter' unitType='Conventional Fighter'>
 			<availability>CS:3,IS:4,MERC:2,DC:4,Periphery:3,TC:1,BAN:2</availability>
 			<model name='Bat Hawk'>
-				<availability>CC:2,MOC:5,TC:5,Periphery:4</availability>
+				<availability>CC:2:2916,MOC:5:2916,TC:5:2916,Periphery:4:2916</availability>
 			</model>
 			<model name='Inseki'>
 				<availability>DC:5-</availability>

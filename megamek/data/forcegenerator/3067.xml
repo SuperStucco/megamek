@@ -7215,10 +7215,10 @@
 				<availability>DC:7</availability>
 			</model>
 			<model name='Meteor'>
-				<availability>CS:4,MERC.KH:3,MERC.WD:2-,IS:5,MERC:3,Periphery:3,BAN:2</availability>
+				<availability>CS:4,MERC.WD:2-,IS:5,MERC:3,Periphery:3,BAN:2</availability>
 			</model>
 			<model name='Meteor-G'>
-				<availability>MERC.KH:1,MERC.WD:2-,IS:2,MERC:1,Periphery:2</availability>
+				<availability>MERC.WD:2-,IS:2,MERC:1,Periphery:2</availability>
 			</model>
 			<model name='Meteor-U'>
 				<availability>MERC:2,FS:5</availability>

@@ -2795,7 +2795,7 @@
 			</model>
 		</chassis>
 		<chassis name='Heavy Strike Fighter' unitType='Conventional Fighter'>
-			<availability>CS:3,MERC.KH:2,MERC.WD:2,IS:4,MERC:2,DC:4,Periphery:3,TC:2,BAN:2</availability>
+			<availability>CS:3,MERC.WD:2,IS:4,MERC:2,DC:4,Periphery:3,TC:2,BAN:2</availability>
 			<model name='Bat Hawk'>
 				<availability>CC:2,MOC:7,TC:7,Periphery:5</availability>
 			</model>
