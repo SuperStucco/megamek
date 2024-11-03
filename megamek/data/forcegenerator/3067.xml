@@ -10220,19 +10220,39 @@
 		<chassis name='Mauler' unitType='Mek'>
 			<availability>LA:3,FRR:5,MERC:4,FS:3,DC:7</availability>
 			<model name='MAL-1K'>
-				<availability>DC:3</availability>
+			    <roles>fire_support</roles>
+				<availability>DC:3:3069</availability>
 			</model>
+            <model name='MAL-1KX'>
+                <roles>fire_support</roles>
+                <availability>DC:2+:3068</availability>
+            </model>
 			<model name='MAL-1R'>
-				<availability>FRR:8,MERC:6,DC:3</availability>
+                <roles>fire_support</roles>
+				<availability>FRR:8,MERC:6,DC:3-</availability>
 			</model>
+            <model name='MAL-1Y'>
+                <roles>fire_support</roles>
+                <availability>FRR:5-,DC:5-</availability>
+            </model>
+            <model name='MAL-2D'>
+                <availability>LA:5+,FS:5+</availability>
+            </model>
 			<model name='MAL-2R'>
-				<availability>LA:8,FS:8,MERC:8</availability>
+                <roles>fire_support</roles>
+				<availability>LA:7-,FS:7-,MERC:8</availability>
 			</model>
+            <model name='MAL-3K'>
+                <roles>fire_support</roles>
+                <availability>DC:2+:3074</availability>
+            </model>
 			<model name='MAL-3R'>
-				<availability>DC:6</availability>
+                <roles>fire_support</roles>
+				<availability>DC:6+</availability>
 			</model>
 			<model name='MAL-C'>
-				<availability>DC:6</availability>
+                <roles>fire_support</roles>
+				<availability>DC:6+</availability>
 			</model>
 		</chassis>
 		<chassis name='Maultier Hover APC' unitType='Tank'>

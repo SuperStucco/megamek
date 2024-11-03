@@ -6650,12 +6650,19 @@
 			</model>
 		</chassis>
 		<chassis name='Mauler' unitType='Mek'>
-			<availability>FRR:4+,MERC:2+,DC:7+</availability>
+			<availability>FRR:4+,MERC:2+,DC:7+,FS:2-,LA:2-</availability>
 			<model name='MAL-1R'>
 				<availability>FRR:8,MERC:6,DC:4</availability>
 			</model>
+            <model name='MAL-1X-AFFC'>
+                <availability>FS:8,LA:8</availability>
+            </model>
+            <model name='MAL-1Y'>
+                <roles>fire_support</roles>
+                <availability>FRR:6-,DC:6-</availability>
+            </model>
 			<model name='MAL-C'>
-				<availability>DC:5</availability>
+				<availability>DC:5+</availability>
 			</model>
 		</chassis>
 		<chassis name='Maultier Hover APC' unitType='Tank'>

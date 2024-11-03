@@ -12572,17 +12572,29 @@
 			</model>
 		</chassis>
 		<chassis name='Mauler' unitType='Mek'>
-			<availability>MERC:5,DC:7</availability>
+			<availability>MERC:5-,DC:7,RA.OA:5-</availability>
 			<model name='MAL-1K'>
-				<availability>DC:6</availability>
+                <roles>fire_support</roles>
+				<availability>DC:6,RA.OA:8</availability>
 			</model>
 			<model name='MAL-1R'>
-				<availability>MERC:6</availability>
+                <roles>fire_support</roles>
+				<availability>MERC:8</availability>
 			</model>
+            <model name='MAL-3K'>
+                <roles>fire_support</roles>
+                <availability>DC:3+</availability>
+            </model>
 			<model name='MAL-3R'>
+                <roles>fire_support</roles>
 				<availability>DC:4</availability>
 			</model>
+            <model name='MAL-4R'>
+                <roles>fire_support</roles>
+                <availability>DC:3+:3144</availability>
+            </model>
 			<model name='MAL-C'>
+                <roles>fire_support</roles>
 				<availability>DC:1</availability>
 			</model>
 		</chassis>

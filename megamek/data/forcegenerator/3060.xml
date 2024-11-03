@@ -8201,14 +8201,23 @@
 			<model name='MAL-1R'>
 				<availability>FRR:8,MERC:6,DC:4</availability>
 			</model>
+            <model name='MAL-1Y'>
+                <roles>fire_support</roles>
+                <availability>FRR:5-,DC:5-</availability>
+            </model>
+            <model name='MAL-2D'>
+                <availability>LA:5+:3065,FS:5+:3065</availability>
+            </model>
 			<model name='MAL-2R'>
 				<availability>LA:8,FS:8,MERC:8</availability>
 			</model>
 			<model name='MAL-3R'>
-				<availability>DC:5</availability>
+			    <roles>fire_support</roles>
+				<availability>DC:5+:3062</availability>
 			</model>
 			<model name='MAL-C'>
-				<availability>DC:6</availability>
+			    <roles>fire_support</roles>
+				<availability>DC:6+</availability>
 			</model>
 		</chassis>
 		<chassis name='Maultier Hover APC' unitType='Tank'>

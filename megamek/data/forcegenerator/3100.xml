@@ -11781,18 +11781,30 @@
 			</model>
 		</chassis>
 		<chassis name='Mauler' unitType='Mek'>
-			<availability>MERC:5,DC:7</availability>
+			<availability>MERC:5-,DC:7</availability>
 			<model name='MAL-1K'>
+                <roles>fire_support</roles>
 				<availability>DC:6</availability>
 			</model>
 			<model name='MAL-1R'>
-				<availability>CGB.FRR:8,MERC:6</availability>
+                <roles>fire_support</roles>
+				<availability>CGB.FRR:8-,MERC:6-</availability>
 			</model>
+            <model name='MAL-1Y'>
+                <roles>fire_support</roles>
+                <availability>MERC:4-</availability>
+            </model>
+            <model name='MAL-3K'>
+                <roles>fire_support</roles>
+                <availability>DC:3+</availability>
+            </model>
 			<model name='MAL-3R'>
+                <roles>fire_support</roles>
 				<availability>DC:4</availability>
 			</model>
 			<model name='MAL-C'>
-				<availability>DC:2</availability>
+                <roles>fire_support</roles>
+				<availability>DC:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Maultier Hover APC' unitType='Tank'>
