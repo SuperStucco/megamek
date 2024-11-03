@@ -13486,39 +13486,44 @@
 			</model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>
-			<availability>SE:3,CJF:5</availability>
+			<availability>SE:3+,CJF:5,CDS:4</availability>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CLAN:7,SE:7</availability>
 			</model>
 			<model name='B'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7,SE:7</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7,SE:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7,SE:7</availability>
 			</model>
 			<model name='E'>
-				<availability>CLAN:5,IS:3</availability>
+                <roles>raider</roles>
+				<availability>CLAN:5,SE:5</availability>
 			</model>
 			<model name='F'>
-				<availability>SE:2,CJF:4</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:4,SE:2</availability>
 			</model>
 			<model name='G'>
-				<availability>SE:1,CJF:2</availability>
+				<availability>CLAN:2,SE:1</availability>
 			</model>
 			<model name='H'>
-				<availability>CLAN:5,IS:3</availability>
+				<availability>CLAN:5,SE:5</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8,SE:8</availability>
 			</model>
 			<model name='T'>
-				<availability>SE:6,CJF:6</availability>
+				<availability>CLAN:6,SE:6</availability>
 			</model>
 			<model name='X'>
-				<availability>SE:1,CJF:2</availability>
+				<availability>SE:1,CJF:2,CDS:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Hawk' unitType='Mek'>

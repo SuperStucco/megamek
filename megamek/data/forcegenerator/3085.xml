@@ -12090,33 +12090,38 @@
 			<availability>CEI:2</availability>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>
-			<availability>CSA:3,CCC:3,CEI:3,CJF:5</availability>
+			<availability>CEI:3+,CJF:5</availability>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CJF:7,CEI:7</availability>
 			</model>
 			<model name='B'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CJF:7,CEI:7</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CJF:7,CEI:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CJF:7,CEI:7</availability>
 			</model>
 			<model name='E'>
-				<availability>CLAN:5,IS:3</availability>
+                <roles>raider</roles>
+				<availability>CJF:5,CEI:5</availability>
 			</model>
 			<model name='F'>
+                <roles>fire_support</roles>
 				<availability>CEI:2,CJF:4</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:7,CLAN:5,IS:3</availability>
+				<availability>CJF:5,CEI:7</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CJF:8,CEI:8</availability>
 			</model>
 			<model name='X'>
-				<availability>CEI:1,CJF:2</availability>
+				<availability>CJF:2,CEI:1</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Hawk' unitType='Mek'>

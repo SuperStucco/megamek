@@ -8881,27 +8881,31 @@
 			</model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>
-			<availability>CSA:5,CSJ:3,CJF:5,CGS:2</availability>
+			<availability>CSA:5,CSJ:3,CJF:5,CGS:2+</availability>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CLAN:7,CGS:6</availability>
 			</model>
 			<model name='B'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7,CGS:5</availability>
 			</model>
 			<model name='E'>
-				<availability>CLAN:5,IS:2</availability>
+                <roles>raider</roles>
+				<availability>CLAN:5:3061</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:6,CLAN:5,IS:2</availability>
+				<availability>CSA:6:3062,CLAN:5:3062</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Hawk' unitType='Mek'>

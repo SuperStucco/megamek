@@ -6698,21 +6698,24 @@
 			</model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>
-			<availability>CSA:4,CSJ:3,CJF:4</availability>
+			<availability>CSJ:3,CJF:4</availability>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='B'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Hawk' unitType='Mek'>
