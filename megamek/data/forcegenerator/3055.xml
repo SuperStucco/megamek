@@ -5827,30 +5827,24 @@
 			</model>
 		</chassis>
 		<chassis name='Longinus Battle Armor' unitType='BattleArmor'>
-			<availability>FWL:6</availability>
-			<model name='[David](Sqd4)' mechanized='false'>
-				<availability>General:5</availability>
+			<availability>FWL:6:3057,WOB:6:3057</availability>
+			<model name='[Flamer](Sqd4)' mechanized='true'>
+				<availability>FWL:7</availability>
 			</model>
-			<model name='[David](Sqd6)' mechanized='false'>
-				<availability>CS:5,WOB:5</availability>
+			<model name='[Flamer](Sqd6)' mechanized='true'>
+				<availability>WOB:7</availability>
 			</model>
-			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
-			</model>
-			<model name='[Flamer](Sqd6)' mechanized='false'>
-				<availability>CS:7,WOB:7</availability>
-			</model>
-			<model name='[Laser](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+				<availability>FWL:6</availability>
 			</model>
 			<model name='[Laser](Sqd6)' mechanized='true'>
-				<availability>CS:6,WOB:6</availability>
+				<availability>WOB:6</availability>
 			</model>
 			<model name='[MG](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>FWL:8</availability>
 			</model>
-			<model name='[MG](Sqd6)' mechanized='false'>
-				<availability>CS:8,WOB:8</availability>
+			<model name='[MG](Sqd6)' mechanized='true'>
+				<availability>WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Lucifer II' unitType='AeroSpaceFighter'>

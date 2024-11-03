@@ -11718,22 +11718,35 @@
 			</model>
 		</chassis>
 		<chassis name='Longinus Battle Armor' unitType='BattleArmor'>
-			<availability>RF:8,FWL:8,MH:6,DA:8,CP:8</availability>
+			<availability>CC:4,ROS:4,RF:8,FWL:8,MH:6+,MOC:3+,DA:8,CP:4-</availability>
 			<model name='(Magnetic)(Sqd4)' mechanized='true'>
-				<availability>FWL:6,CP:6</availability>
+                <roles>anti_infantry,mag_clamp</roles>
+				<availability>FWL:6</availability>
 			</model>
-			<model name='[David](Sqd4)' mechanized='false'>
-				<availability>General:5</availability>
+			<model name='[David](Sqd4)' mechanized='true'>
+				<availability>IS:5,MOC:5</availability>
 			</model>
-			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+            <model name='[David](Sqd5)' mechanized='true'>
+                <availability>MH:3,CP:8</availability>
+            </model>
+			<model name='[Flamer](Sqd4)' mechanized='true'>
+				<availability>IS:7,MOC:7</availability>
 			</model>
-			<model name='[Laser](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+            <model name='[Flamer](Sqd5)' mechanized='true'>
+                <availability>MH:7,CP:7</availability>
+            </model>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+				<availability>IS:6,MOC:6</availability>
 			</model>
+            <model name='[Laser](Sqd5)' mechanized='true'>
+                <availability>MH:6,CP:6</availability>
+            </model>
 			<model name='[MG](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>IS:8,MOC:8</availability>
 			</model>
+            <model name='[MG](Sqd5)' mechanized='true'>
+                <availability>MH:8,CP:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Lu Wei Bing' unitType='Mek'>
 			<availability>CC:7</availability>
