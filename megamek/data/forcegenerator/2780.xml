@@ -3235,7 +3235,7 @@
             </model>
 		</chassis>
 		<chassis name='Ripper Infantry Transport' unitType='VTOL'>
-			<availability>CC:4+,LA:4+,SL:5,FWL:4+,NIOPS:5,FS:5+,DC:4+</availability>
+			<availability>IS:4+,SL:5,NIOPS:5,FS:5+</availability>
 			<model name=''>
 				<roles>apc</roles>
 				<availability>General:8</availability>

@@ -5363,14 +5363,14 @@
 			</model>
 		</chassis>
 		<chassis name='Ripper Infantry Transport' unitType='VTOL'>
-			<availability>CS:5,CHH:4,CSR:2,CLAN:2,NIOPS:5,CJF:1</availability>
+			<availability>CS:5,CHH:4,CLAN:2,NIOPS:5,CJF:1</availability>
 			<model name=''>
 				<roles>apc</roles>
-				<availability>General:8,BAN:2</availability>
+				<availability>CS:8,NIOPS:8,BAN:2</availability>
 			</model>
 			<model name='(Royal)'>
 				<roles>apc</roles>
-				<availability>CHH:8,CLAN:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Rogue' unitType='AeroSpaceFighter'>

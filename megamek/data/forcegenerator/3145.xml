@@ -15985,7 +15985,7 @@
 			<availability>CC:5,CHH:4,FVC:4,LA:5,ROS:6,CLAN:2,FS:5,DC:5</availability>
 			<model name=''>
 				<roles>apc</roles>
-				<availability>General:8,BAN:2</availability>
+				<availability>General:8,IS:5-,CLAN:0,BAN:2</availability>
 			</model>
 			<model name='(ERML)'>
 				<roles>apc</roles>
@@ -16001,11 +16001,11 @@
 			</model>
 			<model name='(MG)'>
 				<roles>apc</roles>
-				<availability>CC:6,FVC:6,LA:6,FS:6,DC:6</availability>
+				<availability>CC:5-,FVC:6,LA:5-,FS:5-,DC:5-</availability>
 			</model>
 			<model name='(Royal)'>
 				<roles>apc</roles>
-				<availability>CHH:8,CLAN:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='(SPL)'>
 				<roles>apc</roles>

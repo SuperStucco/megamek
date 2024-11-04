@@ -3262,7 +3262,7 @@
             </model>
 		</chassis>
 		<chassis name='Ripper Infantry Transport' unitType='VTOL'>
-			<availability>PP:5,CC:4+,CS:5,LA:4+,FWL:4+,NIOPS:5,FS:4+,DC:4+</availability>
+			<availability>PP:5,IS:4+,CS:5,NIOPS:5</availability>
 			<model name=''>
 				<roles>apc</roles>
 				<availability>General:8</availability>

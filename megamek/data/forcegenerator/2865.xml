@@ -4195,7 +4195,7 @@
             </model>
 		</chassis>
 		<chassis name='Ripper Infantry Transport' unitType='VTOL'>
-			<availability>CC:1+,CS:5,CHH:5,LA:1+,CLAN:4,FWL:1+,NIOPS:5,FS:1+,CJF:3,DC:1+</availability>
+			<availability>IS:1+,CS:5,CHH:5,CLAN:4,NIOPS:5,CJF:3</availability>
 			<model name=''>
 				<roles>apc</roles>
 				<availability>General:8,CLAN:4,BAN:6</availability>
