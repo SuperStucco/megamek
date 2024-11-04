@@ -10092,15 +10092,18 @@
 			</model>
 		</chassis>
 		<chassis name='Rakshasa' unitType='Mek'>
-			<availability>LA:4,FS:5,MERC:3</availability>
+			<availability>LA:4,FS:5,MERC:3+</availability>
 			<model name='MDG-1A'>
-				<availability>LA:8,FS:8,MERC:8</availability>
+                <roles>cavalry</roles>
+				<availability>LA:8,FS:8,MERC:6</availability>
 			</model>
 			<model name='MDG-1B'>
-				<availability>LA:6,FS:6,MERC:4</availability>
+                <roles>cavalry</roles>
+				<availability>LA:6,FS:6,MERC:8</availability>
 			</model>
 			<model name='MDG-2A'>
-				<availability>FS.CMM:9,FS:6</availability>
+                <roles>cavalry</roles>
+				<availability>FS.CMM:9:3064,FS:6+:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Rapier' unitType='AeroSpaceFighter'>

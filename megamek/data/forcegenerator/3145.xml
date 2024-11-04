@@ -15539,15 +15539,19 @@
 		<chassis name='Rakshasa' unitType='Mek'>
 			<availability>LA:2,ROS:3,FS:3,MERC:3</availability>
 			<model name='MDG-1A'>
-				<availability>LA:8,FS:8,MERC:8</availability>
+                <roles>cavalry</roles>
+				<availability>LA:8,FS:5-,MERC:6</availability>
 			</model>
 			<model name='MDG-1Ar'>
+                <roles>cavalry</roles>
 				<availability>ROS:8,FS:4,MERC:4</availability>
 			</model>
 			<model name='MDG-1B'>
-				<availability>LA:6,FS:6,MERC:4</availability>
+                <roles>cavalry</roles>
+				<availability>LA:6,FS:6,MERC:8</availability>
 			</model>
 			<model name='MDG-2A'>
+                <roles>cavalry</roles>
 				<availability>FS.CMM:9,FS:6</availability>
 			</model>
 		</chassis>

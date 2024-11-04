@@ -7520,12 +7520,14 @@
 			</model>
 		</chassis>
 		<chassis name='Rakshasa' unitType='Mek'>
-			<availability>LA:3,FS:4</availability>
+			<availability>LA:3+,FS:4+</availability>
 			<model name='MDG-1A'>
-				<availability>LA:8,FS:8,MERC:8</availability>
+			    <roles>cavalry</roles>
+				<availability>LA:8,FS:8</availability>
 			</model>
 			<model name='MDG-1B'>
-				<availability>LA:4,FS:4,MERC:3</availability>
+			    <roles>cavalry</roles>
+				<availability>LA:4:3056,FS:4:3056</availability>
 			</model>
 		</chassis>
 		<chassis name='Rapier' unitType='AeroSpaceFighter'>
