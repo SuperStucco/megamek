@@ -14647,10 +14647,10 @@
 			<availability>LA:7,ROS:4,FS:5,MERC:5</availability>
 			<model name='PPR-5S'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='PPR-5T'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>LA:5,MERC:3,FS:3</availability>
 			</model>
 			<model name='PPR-6S'>
