@@ -12664,33 +12664,33 @@
 			</model>
 		</chassis>
 		<chassis name='Phantom' unitType='Mek' omni='Clan'>
-			<availability>CHH:7,CCC:6,CSR:3,CW:8,CSL:7,CCO:4,CJF:7,RA:4,CWIE:8</availability>
+			<availability>CHH:7,CSR:3,CW:8,CJF:7,RA:4,CWIE:8,CEI:3+</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CSA:7,General:7</availability>
+				<availability>CLAN:7,CEI:7</availability>
 			</model>
 			<model name='B'>
 				<roles>recon</roles>
-				<availability>CSA:6,General:6,CCO:7,CGB:7</availability>
+				<availability>CLAN:6,CEI:6</availability>
 			</model>
 			<model name='C'>
-				<availability>CSA:5,CDS:4,CNC:6,General:5,CCO:4,CGB:6</availability>
+				<availability>CLAN:5,CEI:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CSA:5,General:5,CCO:4,CGB:4</availability>
+				<availability>CLAN:5,CEI:5</availability>
 			</model>
 			<model name='E'>
-				<availability>CDS:5,CLAN:4,General:3,CCO:6</availability>
+				<availability>CLAN:4,CEI:4</availability>
 			</model>
 			<model name='F'>
-				<availability>CLAN:4,General:3</availability>
+				<availability>CLAN:4,CEI:4</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:6,CCC:5,CBS:5,CLAN:4,General:3</availability>
+				<availability>CLAN:4,CEI:4</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon,spotter</roles>
-				<availability>CSA:7,General:8,CCO:9,CGB:9</availability>
+				<availability>CLAN:8,CEI:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Phoenix Hawk IIC' unitType='Mek'>

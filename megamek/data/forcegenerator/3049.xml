@@ -6386,24 +6386,24 @@
             </model>
 		</chassis>
 		<chassis name='Phantom' unitType='Mek' omni='Clan'>
-			<availability>CW:6</availability>
+			<availability>CW:6:3052</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CSA:6,CIH:6,General:7</availability>
+				<availability>CW:7</availability>
 			</model>
 			<model name='B'>
 				<roles>recon</roles>
-				<availability>CSA:7,General:6,CCO:7,CGB:7</availability>
+				<availability>CW:6</availability>
 			</model>
 			<model name='C'>
-				<availability>CSA:4,CIH:6,CDS:4,CNC:6,General:5,CCO:4,CGB:4</availability>
+				<availability>CW:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CSA:4,CIH:6,General:5,CCO:4,CGB:4</availability>
+				<availability>CW:5</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon,spotter</roles>
-				<availability>CSA:7,CIH:7,General:8,CCO:9,CGB:9</availability>
+				<availability>CW:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Phoenix Hawk IIC' unitType='Mek'>

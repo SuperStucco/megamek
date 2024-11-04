@@ -9570,27 +9570,27 @@
 			<availability>CHH:7,CCC:6,CIH:6,CSR:6,CW:8,CGS:4,CCO:4,CJF:7,CWIE:8</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CSA:7,CIH:6,General:7</availability>
+				<availability>CIH:6,CLAN:7</availability>
 			</model>
 			<model name='B'>
 				<roles>recon</roles>
-				<availability>CSA:6,General:6,CCO:7,CGB:7</availability>
+				<availability>CLAN:6,CCO:7</availability>
 			</model>
 			<model name='C'>
-				<availability>CSA:5,CIH:6,CDS:4,CNC:6,General:5,CCO:4,CGB:6</availability>
+				<availability>CIH:6,CLAN:5,CCO:4</availability>
 			</model>
 			<model name='D'>
-				<availability>CSA:5,CIH:6,General:5,CCO:4,CGB:4</availability>
+				<availability>CIH:6,CLAN:5,CCO:4</availability>
 			</model>
 			<model name='E'>
-				<availability>CDS:5,CLAN:4,General:2,CCO:6</availability>
+				<availability>CLAN:4:3061,CCO:6:3061</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:6,CCC:5,CBS:4,CSV:5,CLAN:4</availability>
+				<availability>CCC:5:3062,CLAN:4:3062</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon,spotter</roles>
-				<availability>CSA:7,CIH:7,General:8,CCO:9,CGB:9</availability>
+				<availability>CIH:7,CLAN:8,CCO:9</availability>
 		    </model>
 	    </chassis>
 	    <chassis name='Phoenix' unitType='Mek'>

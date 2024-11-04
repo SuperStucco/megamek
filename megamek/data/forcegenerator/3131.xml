@@ -14692,34 +14692,56 @@
 			</model>
 		</chassis>
 		<chassis name='Phantom' unitType='Mek' omni='Clan'>
-			<availability>CWE:8,CHH:7,CW:8,CJF:7,RA:6,CWIE:8</availability>
+			<availability>CWE:8,CHH:7,CW:8,CJF:7,RA:6,CWIE:8,LA:4+,CEI:3+,SE:3+:3141</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>General:7</availability>
+				<availability>CLAN:7,LA:4+,CEI:7,SE:7</availability>
 			</model>
 			<model name='B'>
 				<roles>recon</roles>
-				<availability>RD:7,General:6</availability>
+				<availability>CLAN:6,LA:4+,CEI:6,SE:6</availability>
 			</model>
 			<model name='C'>
-				<availability>RD:6,CDS:4,CNC:6,General:5,CP:5</availability>
+				<availability>CLAN:5,LA:4+,CEI:5,SE:5</availability>
 			</model>
 			<model name='D'>
-				<availability>RD:4,General:5</availability>
+				<availability>CLAN:5,LA:7,CEI:5,SE:5</availability>
 			</model>
 			<model name='E'>
-				<availability>CDS:5,CLAN:4,General:3,CP:5</availability>
+				<availability>CLAN:4,LA:4+,CEI:4,SE:4</availability>
 			</model>
 			<model name='F'>
-				<availability>CLAN:4,General:3</availability>
+				<availability>CLAN:4,LA:4+,CEI:4,SE:4</availability>
 			</model>
+            <model name='G'>
+                <availability>CLAN:4,LA:6,CEI:4,SE:4</availability>
+            </model>
 			<model name='H'>
-				<availability>CLAN:4,General:3</availability>
+				<availability>CLAN:4,LA:4+,CEI:4,SE:4</availability>
 			</model>
+            <model name='I'>
+                <roles>spotter</roles>
+                <availability>CLAN:4:3141,LA:4+,SE:4</availability>
+            </model>
+            <model name='J'>
+                <roles>spotter</roles>
+                <availability>CLAN:4:3141,LA:4+,SE:4</availability>
+            </model>
+            <model name='K'>
+                <roles>ew_support,recon</roles>
+                <availability>CLAN:4:3141,LA:6,SE:4</availability>
+            </model>
+            <model name='L'>
+                <roles>anti_personnel</roles>
+                <availability>CLAN:4:3142,LA:4+,SE:4</availability>
+            </model>
 			<model name='Prime'>
 				<roles>recon,spotter</roles>
-				<availability>RD:9,General:8</availability>
+				<availability>CLAN:8,LA:8,CEI:8,SE:8</availability>
 			</model>
+            <model name='T'>
+                <availability>CLAN:3+:3142,LA:4+,SE:3+</availability>
+            </model>
 		</chassis>
 		<chassis name='Phoenix Hawk IIC' unitType='Mek'>
 			<availability>CC:3,CLAN:3,CP:5,MERC:3,FS:3,RA:5,DTA:3,CDS:5,RF:3,LA:3,ROS:4,MSC:3,DC:3</availability>
