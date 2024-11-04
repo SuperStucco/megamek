@@ -5251,29 +5251,29 @@
 			</model>
 		</chassis>
 		<chassis name='IS Standard Battle Armor' unitType='BattleArmor'>
-			<availability>IS:4+,CC:5+,FWL:5-,LA:8,DC:6-,FS:6-,CS:8,WOB:6,MOC:2+,TC:2+,MERC:2+</availability>
-			<model name='[Flamer](Sqd4)' mechanized='false'>
+			<availability>IS:4,CC:5+,FWL:5-,LA:8,DC:6-,FS:6-,CS:8,WOB:6,MOC:2+,TC:2+,MERC:2+</availability>
+			<model name='[Flamer](Sqd4)' mechanized='true'>
 				<availability>General:7,CS:0,WOB:0</availability>
 			</model>
-			<model name='[Flamer](Sqd6)' mechanized='false'>
+			<model name='[Flamer](Sqd6)' mechanized='true'>
 				<availability>CS:7,WOB:7</availability>
 			</model>
 			<model name='[Laser](Sqd4)' mechanized='true'>
 				<availability>General:6,CS:0,WOB:0</availability>
 			</model>
-			<model name='[Laser](Sqd6)' mechanized='false'>
+			<model name='[Laser](Sqd6)' mechanized='true'>
 				<availability>CS:6,WOB:6</availability>
 			</model>
 			<model name='[MG](Sqd4)' mechanized='true'>
 				<availability>General:8,CS:0,WOB:0</availability>
 			</model>
-			<model name='[MG](Sqd6)' mechanized='false'>
+			<model name='[MG](Sqd6)' mechanized='true'>
 				<availability>CS:8,WOB:8</availability>
 			</model>
 			<model name='[SRM](Sqd4)' mechanized='true'>
 				<availability>General:4,CS:0,WOB:0</availability>
 			</model>
-			<model name='[SRM](Sqd6)' mechanized='false'>
+			<model name='[SRM](Sqd6)' mechanized='true'>
 				<availability>CS:4,WOB:4</availability>
 			</model>
 		</chassis>

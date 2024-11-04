@@ -9178,33 +9178,33 @@
 			</model>
 		</chassis>
 		<chassis name='IS Standard Battle Armor' unitType='BattleArmor'>
-			<availability>IS:5,CC:2,FWL:3,LA:1,ROS:4,MOC:2-,TC:2-,MH:3,MERC:2-,PIR:1</availability>
-			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:7,MH:0</availability>
+			<availability>IS:5,CC:2,FWL:3,DC:3-,LA:1,FS:0,ROS:4,MOC:2-,TC:2-,MH:3,FR:4+,RA.OA:3+,MERC:2-,PIR:1</availability>
+			<model name='[Flamer](Sqd4)' mechanized='true'>
+				<availability>General:7,DC:0,MH:0</availability>
 			</model>
-            <model name='[Flamer](Sqd5)' mechanized='false'>
+            <model name='[Flamer](Sqd5)' mechanized='true'>
                 <availability>MH:7</availability>
             </model>
-			<model name='[LRR](Sqd4)' mechanized='false'>
-				<availability>General:8,MH:0</availability>
+			<model name='[LRR](Sqd4)' mechanized='true'>
+				<availability>General:8,DC:0,MH:0</availability>
 			</model>
-            <model name='[LRR](Sqd5)' mechanized='false'>
+            <model name='[LRR](Sqd5)' mechanized='true'>
                 <availability>MH:8</availability>
             </model>
 			<model name='[Laser](Sqd4)' mechanized='true'>
-				<availability>General:6,MH:0</availability>
+				<availability>General:6,DC:0,MH:0</availability>
 			</model>
             <model name='[Laser](Sqd5)' mechanized='true'>
                 <availability>MH:6</availability>
             </model>
 			<model name='[MG](Sqd4)' mechanized='true'>
-				<availability>General:8,MH:0</availability>
+				<availability>General:8,DC:0,MH:0</availability>
 			</model>
             <model name='[MG](Sqd5)' mechanized='true'>
                 <availability>MH:8</availability>
             </model>
 			<model name='[SRM](Sqd4)' mechanized='true'>
-				<availability>General:4,MH:0</availability>
+				<availability>General:4,DC:0,MH:0</availability>
 			</model>
             <model name='[SRM](Sqd5)' mechanized='true'>
                 <availability>MH:4</availability>

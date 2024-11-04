@@ -9743,33 +9743,33 @@
 			</model>
 		</chassis>
 		<chassis name='IS Standard Battle Armor' unitType='BattleArmor'>
-			<availability>IS:5,CC:2,FWL:3,LA:1,ROS:4,MOC:2-,CP:3:3138,TC:2-,MH:3,MERC:3-,PIR:1</availability>
-			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:7,CP:0,MH:0</availability>
+			<availability>IS:5,CC:2,FWL:3,DC:3-,LA:1,FS:0,ROS:4,MOC:2-,CP:3:3138,TC:2-,MH:3,FR:4+,RA.OA:3+,MERC:3-,PIR:1</availability>
+			<model name='[Flamer](Sqd4)' mechanized='true'>
+				<availability>General:7,DC:0,CP:0,MH:0</availability>
 			</model>
-            <model name='[Flamer](Sqd5)' mechanized='false'>
+            <model name='[Flamer](Sqd5)' mechanized='true'>
                 <availability>CP:4-,MH:7</availability>
             </model>
-			<model name='[LRR](Sqd4)' mechanized='false'>
-				<availability>General:8,CP:0,MH:0</availability>
+			<model name='[LRR](Sqd4)' mechanized='true'>
+				<availability>General:8,DC:0,CP:0,MH:0</availability>
 			</model>
-            <model name='[LRR](Sqd5)' mechanized='false'>
+            <model name='[LRR](Sqd5)' mechanized='true'>
                 <availability>CP:4-,MH:8</availability>
             </model>
 			<model name='[Laser](Sqd4)' mechanized='true'>
-				<availability>General:6,CP:0,MH:0</availability>
+				<availability>General:6,DC:0,CP:0,MH:0</availability>
 			</model>
             <model name='[Laser](Sqd5)' mechanized='true'>
                 <availability>CP:8-,MH:6</availability>
             </model>
 			<model name='[MG](Sqd4)' mechanized='true'>
-				<availability>General:8,CP:0,MH:0</availability>
+				<availability>General:8,DC:0,CP:0,MH:0</availability>
 			</model>
             <model name='[MG](Sqd5)' mechanized='true'>
                 <availability>CP:5-,MH:8</availability>
             </model>
 			<model name='[SRM](Sqd4)' mechanized='true'>
-				<availability>General:4,CP:0,MH:0</availability>
+				<availability>General:4,DC:0,CP:0,MH:0</availability>
 			</model>
             <model name='[SRM](Sqd5)' mechanized='true'>
                 <availability>MH:4</availability>
@@ -9781,15 +9781,19 @@
                 <availability>DC:5,MERC:3+</availability>
             </model>
             <model name='(Fa Sure) [David](Sqd4)' mechanized='true'>
+                <roles>minelayer,minesweeper</roles>
                 <availability>FWL:3:3140,FWL.DA:6:3140,MERC:3+:3140</availability>
             </model>
             <model name='(Fa Sure) [MG](Sqd4)' mechanized='true'>
+                <roles>minelayer,minesweeper</roles>
                 <availability>FWL:3:3140,FWL.DA:6:3140,MERC:3+:3140</availability>
             </model>
             <model name='[Magnetic](Sqd4)' mechanized='true'>
-                <availability>General:3+:3141,CP:0,MH:0</availability>
+                <roles>mag_clamp</roles>
+                <availability>General:3+:3141,DC:0,CP:0,MH:0</availability>
             </model>
             <model name='[Magnetic](Sqd5)' mechanized='true'>
+                <roles>mag_clamp</roles>
                 <availability>CP:5-:3141,MH:3+:3141</availability>
             </model>
 		</chassis>
