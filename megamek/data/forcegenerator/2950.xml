@@ -5180,6 +5180,21 @@
 				<availability>LA:4,FS:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Shadow Cat' unitType='Mek' omni='Clan'>
+            <availability>CNC:6:3003,CSJ:5:3008,CCC:4:3009,CFM:4:3009,CSV:4:3009</availability>
+            <model name='A'>
+                <roles>recon</roles>
+                <availability>CLAN:6</availability>
+            </model>
+            <model name='B'>
+                <roles>recon</roles>
+                <availability>CLAN:6</availability>
+            </model>
+            <model name='Prime'>
+                <roles>recon</roles>
+                <availability>CLAN:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>
 			<availability>CHH:7,CDS:7,CLAN:7,CNC:7,CJF:7,CGB:7</availability>
 			<model name=''>

@@ -5404,18 +5404,18 @@
 			</model>
 		</chassis>
 		<chassis name='Shadow Cat' unitType='Mek' omni='Clan'>
-			<availability>CCC:4,CSR:4,CDS:4,CW:4,CSV:4,CNC:6,CFM:4,CSJ:5,CB:4</availability>
+			<availability>CCC:4,CSV:4,CNC:6,CFM:4,CSJ:5</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CSR:3,CW:3,General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='B'>
-				<roles>recon</roles>
-				<availability>CSR:8,CW:3,General:6</availability>
+				<roles>fire_support,recon</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon</roles>
-				<availability>CSR:3,General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>

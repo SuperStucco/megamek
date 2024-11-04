@@ -16852,48 +16852,52 @@
 			</model>
 		</chassis>
 		<chassis name='Shadow Cat' unitType='Mek' omni='Clan'>
-			<availability>CDS:5,ROS:5,CNC:7,CLAN.IS:5,MERC:3+,CP:6,CJF:5,RA:5</availability>
+			<availability>ROS:5,FWL:3+:3139,DC:4+,CNC:7,CLAN.IS:5,MERC:3+,CP:6</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CWE:3,CW:3,General:6,RA:3</availability>
+				<availability>CWE:3,CW:3,CLAN:6,RA:3,IS:6</availability>
 			</model>
 			<model name='B'>
-				<roles>recon</roles>
-				<availability>CWE:3,CW:3,General:6,RA:8</availability>
+				<roles>fire_support,recon</roles>
+				<availability>CWE:3,CW:3,CLAN:6,RA:8,IS:6</availability>
 			</model>
 			<model name='C'>
 				<availability>CLAN:6,IS:3</availability>
 			</model>
 			<model name='D'>
-				<availability>General:6</availability>
+				<availability>CLAN:6,IS:6</availability>
 			</model>
-			<model name='E'>
-				<availability>General:4</availability>
-			</model>
+            <model name='E'>
+                <roles>raider</roles>
+                <availability>CLAN:3,IS:3+</availability>
+            </model>
 			<model name='F'>
-				<availability>General:4</availability>
+				<availability>CLAN:4,IS:4</availability>
 			</model>
 			<model name='H'>
 				<availability>CLAN:6,IS:3</availability>
 			</model>
 			<model name='I'>
-				<availability>General:5</availability>
+				<availability>CLAN:5:3136,CLAN:5:3136</availability>
 			</model>
 			<model name='J'>
-				<availability>General:5</availability>
+                <roles>recon</roles>
+				<availability>CLAN:5,IS:5</availability>
 			</model>
 			<model name='M'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>CLAN:6,IS:6</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon</roles>
-				<availability>General:8,RA:3</availability>
+				<availability>CLAN:8,RA:3,IS:8</availability>
 			</model>
 			<model name='T'>
-				<availability>General:4</availability>
+				<availability>CLAN:4:3142,IS:4:3142</availability>
 			</model>
 			<model name='TC'>
-				<availability>ROS:2,FWL:1:3139,CLAN.IS:2,MERC:2</availability>
+                <roles>recon</roles>
+				<availability>ROS:2,IS:1,CLAN.IS:2,MERC:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>

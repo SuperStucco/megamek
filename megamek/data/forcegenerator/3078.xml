@@ -15561,33 +15561,36 @@
 			<availability>CCC:5,CSR:2,CDS:5,CW:1,CNC:7,CLAN.IS:1,CSL:4,CJF:5,CWIE:1</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CSR:2,CW:3,General:6</availability>
+				<availability>CSR:2,CW:3,CLAN:6</availability>
 			</model>
 			<model name='B'>
-				<roles>recon</roles>
-				<availability>CSR:5,CW:3,General:6</availability>
+				<roles>fire_support,recon</roles>
+				<availability>CSR:5,CW:3,CLAN:6</availability>
 			</model>
 			<model name='C'>
-				<availability>CLAN:6,IS:3,CCO:7</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='D'>
-				<availability>General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:8,CLAN:6,IS:3</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='J'>
-				<availability>General:5</availability>
+                <roles>recon</roles>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='M'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon</roles>
-				<availability>CSR:2,General:8</availability>
+				<availability>CSR:2,CLAN:8</availability>
 			</model>
 			<model name='TC'>
-				<availability>CCC:2,CDS:1:3081,CLAN.IS:3,CSL:2,MERC:1:3081,CJF:1:3081</availability>
+                <roles>recon</roles>
+				<availability>CCC:2,CDS:1:3081,CLAN.IS:3,CSL:2,CJF:1:3081</availability>
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>

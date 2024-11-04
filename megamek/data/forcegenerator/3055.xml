@@ -8087,20 +8087,22 @@
 			<availability>CCC:5,CSR:5,CDS:4,CW:4,CSV:5,CNC:8,CFM:5,CSJ:6,CJF:3,CB:5</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CSR:3,CW:3,General:6</availability>
+				<availability>CSR:3,CW:3,CLAN:6</availability>
 			</model>
 			<model name='B'>
-				<roles>recon</roles>
-				<availability>CSR:8,CW:3,General:6</availability>
+				<roles>fire_support,recon</roles>
+				<availability>CSR:8,CW:3,CLAN:6</availability>
 			</model>
 			<model name='M'>
-				<availability>General:5</availability>
+                <roles>raider</roles>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon</roles>
-				<availability>CSR:3,General:8</availability>
+				<availability>CSR:3,CLAN:8</availability>
 			</model>
 			<model name='TC'>
+                <roles>recon</roles>
 				<availability>CSV:4,CNC:4</availability>
 			</model>
 		</chassis>

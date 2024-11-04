@@ -5639,18 +5639,18 @@
 			</model>
 		</chassis>
 		<chassis name='Shadow Cat' unitType='Mek' omni='Clan'>
-			<availability>CCC:5,CSR:5,CDS:4,CW:4,CSV:5,CNC:7,CFM:5,CSJ:6,CB:5</availability>
+			<availability>CCC:5,CSV:5,CNC:7,CFM:5,CSJ:6</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CSR:3,CW:3,General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='B'>
-				<roles>recon</roles>
-				<availability>CSR:8,CW:3,General:6</availability>
+				<roles>fire_support,recon</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon</roles>
-				<availability>CSR:3,General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>

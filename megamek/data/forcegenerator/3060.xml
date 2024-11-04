@@ -10917,29 +10917,31 @@
 			<availability>CCC:5,CSR:4,CDS:4,CW:4,CBS:2,CSV:5,CNC:8,CFM:5,CLAN.IS:3,CJF:4,CWIE:4</availability>
 			<model name='A'>
 				<roles>recon</roles>
-				<availability>CSR:3,CW:3,General:6</availability>
+				<availability>CSR:3,CW:3,CLAN:6</availability>
 			</model>
 			<model name='B'>
-				<roles>recon</roles>
-				<availability>CSR:8,CW:3,General:6</availability>
+				<roles>fire_support,recon</roles>
+				<availability>CSR:8,CW:3,CLAN:6</availability>
 			</model>
 			<model name='C'>
-				<availability>CLAN:4,IS:1,CCO:5</availability>
+				<availability>CLAN:4:3061</availability>
 			</model>
 			<model name='D'>
-				<availability>General:6</availability>
+				<availability>CLAN:6:3062</availability>
 			</model>
 			<model name='H'>
-				<availability>CSA:6,CLAN:5,IS:2</availability>
+				<availability>CLAN:5:3062</availability>
 			</model>
 			<model name='M'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='Prime'>
 				<roles>recon</roles>
-				<availability>CSR:3,General:8</availability>
+				<availability>CSR:3,CLAN:8</availability>
 			</model>
 			<model name='TC'>
+                <roles>recon</roles>
 				<availability>CSV:2,CNC:2,CLAN.IS:3:3062</availability>
 			</model>
 		</chassis>
