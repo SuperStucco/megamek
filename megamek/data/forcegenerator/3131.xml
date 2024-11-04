@@ -15435,33 +15435,34 @@
 			</model>
 		</chassis>
 		<chassis name='Raiden Battle Armor' unitType='BattleArmor'>
-			<availability>DC:5</availability>
+			<availability>DC:5,MERC:5</availability>
 			<model name='(Anti-Infantry)(Sqd4)' mechanized='true'>
-				<availability>General:4</availability>
+                <roles>anti_infantry</roles>
+				<availability>DC:4</availability>
 			</model>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='[Laser](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='[MG](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
-			<model name='[MRM](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+			<model name='[MRM](Sqd4)' mechanized='true'>
+				<availability>IS:7</availability>
 			</model>
 			<model name='[Tsunami](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Raiden II Battle Armor' unitType='BattleArmor'>
-			<availability>DC:5</availability>
+			<availability>DC:5+</availability>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>DC:6</availability>
 			</model>
-			<model name='[HMG](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[HMG](Sqd4)' mechanized='true'>
+				<availability>DC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Raijin' unitType='Mek'>
