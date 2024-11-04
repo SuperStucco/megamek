@@ -7839,11 +7839,12 @@
 		<chassis name='Pilum Heavy Tank' unitType='Tank'>
 			<availability>LA:4+,FS:6+</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(Arrow IV)'>
 				<roles>missile_artillery</roles>
-				<availability>General:4</availability>
+				<availability>IS:4:3059</availability>
 			</model>
 		</chassis>
 		<chassis name='Pinto Attack VTOL' unitType='VTOL'>
