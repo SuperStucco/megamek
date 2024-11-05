@@ -13868,12 +13868,12 @@
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>
-			<availability>CHH:6,FRR:2,CLAN:5,FS:2,MERC:2,CWIE:6,CS:2,CDS:6,CW:4,LA:2,CNC:6,FWL:2,CJF:4,DC:2,CGB:6</availability>
+			<availability>CLAN.HW:5-,CLAN.IS:7-,CHH:6,CWIE:6,CDS:6,CW:4,CNC:6,CJF:4-,CGB:6,SOC:3+:3072,BAN:5</availability>
 			<model name=''>
 				<availability>CLAN:4</availability>
 			</model>
 			<model name='10'>
-				<availability>CHH:4-,CW:2-</availability>
+				<availability>CHH:4-:3068,CW:2-:3068</availability>
 			</model>
 			<model name='2'>
 				<availability>CSA:4,CCC:4,CIH:4,CGB:4,CB:4</availability>
@@ -13885,10 +13885,10 @@
 				<availability>CDS:5,CNC:5</availability>
 			</model>
 			<model name='5'>
-				<availability>CS:4,CDS:4,LA:4,FRR:4,FWL:4,FS:4,MERC:4,DC:4</availability>
+				<availability>CDS:4:3069</availability>
 			</model>
 			<model name='6'>
-				<availability>CHH:4</availability>
+				<availability>CHH:4:3069</availability>
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk' unitType='Mek'>

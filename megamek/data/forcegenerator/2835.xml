@@ -4446,12 +4446,12 @@
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>
-			<availability>CHH:6,CDS:6,CLAN:6,CNC:6,CJF:6,CGB:6</availability>
+			<availability>CLAN:6,BAN:2+</availability>
 			<model name=''>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CSA:6,CCC:6,CIH:6,CGB:6,CB:6</availability>
+				<availability>CGB:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk' unitType='Mek'>

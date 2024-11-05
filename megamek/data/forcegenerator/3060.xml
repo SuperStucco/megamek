@@ -10946,7 +10946,7 @@
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>
-			<availability>CHH:6,CDS:6,CLAN:6,CNC:6,CJF:5,CWIE:6,CGB:6</availability>
+			<availability>CLAN.HW:5-,CLAN.IS:7-,CHH:6,CDS:6,CNC:6,CJF:5-,CWIE:6,CGB:6,BAN:5</availability>
 			<model name=''>
 				<availability>CLAN:6</availability>
 			</model>

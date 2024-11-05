@@ -15880,7 +15880,10 @@
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>
-			<availability>OP:3,CHH:4,IS:3,FS:3,CWIE:4,RA:4,DTA:3,RA.OA:3,RD:4,CDS:4,RF:3,CW:4,ROS:4,CNC:4,MSC:3,RCM:3,DA:3,CGB:4</availability>
+			<availability>CLAN.IS:4,CJF:1-,RA.OA:3,BAN:5,IS:3,MERC:4,ROS:4</availability>
+            <model name=''>
+                <availability>CLAN:1,BAN:8,IS:8</availability>
+            </model>
 			<model name='10'>
 				<availability>CHH:7-,RD:4-,CW:5-</availability>
 			</model>
@@ -15888,13 +15891,14 @@
 				<availability>RD:2,CGB:2</availability>
 			</model>
 			<model name='3'>
-				<availability>CDS:5,CNC:5,IS:6</availability>
+				<availability>CDS:5,CNC:5,IS:6+</availability>
 			</model>
 			<model name='4'>
-				<availability>CDS:5,CNC:5,IS:6,RA:6</availability>
+				<availability>CDS:5,CNC:5,RA:6,IS:6</availability>
 			</model>
 			<model name='5'>
-				<availability>RD:4,CDS:8,LA:8,FWL:8,IS:8,FS:8,MERC:8,DC:8,CGB:4</availability>
+                <roles>anti_infantry</roles>
+				<availability>RD:4,CDS:8,CGB:4,RD:4,IS:5</availability>
 			</model>
 			<model name='6'>
 				<availability>CHH:8</availability>
@@ -15903,7 +15907,7 @@
 				<availability>RA.OA:8,RA:8</availability>
 			</model>
 			<model name='8'>
-				<availability>CDS:4,LA:6,CNC:6,IS:4,CWIE:6</availability>
+				<availability>CDS:4,CNC:6,CWIE:6,IS:4+,LA:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk' unitType='Mek'>

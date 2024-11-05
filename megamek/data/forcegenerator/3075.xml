@@ -14851,9 +14851,9 @@
 			</model>
 		</chassis>
 		<chassis name='Shadow Hawk IIC' unitType='Mek'>
-			<availability>CHH:6,FRR:3,CLAN:4,IS:1,FS:3,MERC:3,CWIE:6,DTA:3,CS:3,CDS:6,LA:3,CNC:6,FWL:3,RCM:3,CJF:2,DC:3,CGB:6</availability>
+			<availability>CLAN.HW:5-,CLAN.IS:6,CJF:2,SOC:3+,BAN:5,CS:3+,DC:2+,FS:2+,FRR:3+,FWL:2+,LA:2+,MERC:2+</availability>
 			<model name=''>
-				<availability>CLAN:2</availability>
+				<availability>CLAN:2,SOC:8</availability>
 			</model>
 			<model name='10'>
 				<availability>CHH:6-,CW:3-</availability>
@@ -14868,7 +14868,8 @@
 				<availability>CDS:5,CNC:5</availability>
 			</model>
 			<model name='5'>
-				<availability>CS:6,CDS:6,LA:6,FRR:5,FWL:6,IS:4,FS:6,MERC:6,DC:6</availability>
+                <roles>anti_infantry</roles>
+				<availability>CDS:6:3069,IS:8:3069</availability>
 			</model>
 			<model name='6'>
 				<availability>CHH:5</availability>
