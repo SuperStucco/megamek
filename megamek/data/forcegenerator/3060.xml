@@ -5398,18 +5398,18 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin IIC' unitType='Mek'>
-			<availability>CSA:5,MERC.WD:5,CIH:6,CDS:5,CNC:7,CLAN:4,CCO:5</availability>
+			<availability>CLAN.HW:4,CLAN.IS:6-,CCC:5-,CCO:4-,CHH:4,CIH:5-,CSA:4-,CWIE:6,BAN:3</availability>
 			<model name=''>
-				<availability>MERC.WD:6,CLAN:4,CNC:4</availability>
+				<availability>CLAN:4,BAN:8</availability>
 			</model>
 			<model name='2'>
-				<availability>MERC.WD:8,CIH:6,CNC:6,CLAN:6</availability>
+				<availability>CLAN.HW:8,CGB:8,CHH:8,CJF:8,CNC:8,CW:8,CWIE:8</availability>
 			</model>
 			<model name='3'>
-				<availability>CDS:6,CNC:4,CLAN:4,CCO:6</availability>
+				<availability>CLAN:4,CDS:6,CSA:6</availability>
 			</model>
 			<model name='4'>
-				<availability>CSA:5,CDS:5,CNC:6,CLAN:4</availability>
+				<availability>CLAN:4,CCO:5,CDS:5,CNC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>

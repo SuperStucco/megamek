@@ -2263,9 +2263,9 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin IIC' unitType='Mek'>
-			<availability>CSA:4,CIH:4,CDS:4,CW:4,CNC:4,CLAN:4,CCO:4,CJF:4,CGB:4</availability>
+			<availability>CCC:4:2852,CCO:4:2852,CGB:4:2852,CNC:4:2852,CDS:4:2852,CSJ:4:2852</availability>
 			<model name=''>
-				<availability>CLAN:8,CNC:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>

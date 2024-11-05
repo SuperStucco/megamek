@@ -8271,33 +8271,34 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin IIC' unitType='Mek'>
-			<availability>CWE:2,MERC.WD:5,CDS:6,CW:2,CNC:7,IS:3,CP:6,CJF:2,CWIE:4,DC:4</availability>
+			<availability>CLAN.IS:5,CJF:3-,CNC:7,CW:3-,CWIE:6,CEI:4+,SE:3+,BAN:3,IS:4+,DC:4,FS:4,LA:4,ROS:4,Periphery:2+,Periphery.Deep:0</availability>
 			<model name=''>
-				<availability>MERC.WD:6,CNC:4,CP:4</availability>
+				<availability>CLAN.IS:2-,CP:4-,CEI:8,SE:8,BAN:8,IS:8,Periphery:8,Periphery.Deep:0</availability>
 			</model>
 			<model name='2'>
-				<availability>MERC.WD:8,CNC:2</availability>
+				<availability>CDS:4,CNC:3-,CP:3-,RD:3-,CEI:8,SE:6,DC:7,MERC:8</availability>
 			</model>
 			<model name='3'>
-				<availability>CDS:8,CNC:5,IS:8,CP:6</availability>
+				<availability>CDS:8,CHH:8,CNC:5,ROS:8</availability>
 			</model>
 			<model name='4'>
-				<availability>CDS:6,CNC:8,IS:6,CP:7</availability>
+				<availability>CDS:6,CNC:8,DC:4+,FS:4+,LA:4+</availability>
 			</model>
 			<model name='5'>
-				<availability>CDS:4,CNC:4,CP:4</availability>
+                <roles>anti_infantry</roles>
+				<availability>CDS:4,CNC:4,CP:4,LA:6</availability>
 			</model>
 			<model name='6'>
-				<availability>ROS:4,CNC:6,CP:6,DC:6</availability>
+				<availability>CNC:6,CP:6,ROS:4,DC:6+</availability>
 			</model>
 			<model name='7'>
-				<availability>ROS:4,CNC:6,CP:6</availability>
+				<availability>ROS:4+,CP:5+,CNC:5+</availability>
 			</model>
 			<model name='8'>
-				<availability>CWE:6,CW:6,LA:6,ROS:4,CJF:6,CWIE:6</availability>
+				<availability>CJF:5,CWE:4,CW:4,CWIE:4,LA:5,ROS:4</availability>
 			</model>
 			<model name='9'>
-				<availability>DC:2</availability>
+				<availability>DC:2:3144</availability>
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>

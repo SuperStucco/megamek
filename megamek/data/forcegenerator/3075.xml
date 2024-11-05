@@ -7172,21 +7172,22 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin IIC' unitType='Mek'>
-			<availability>CSA:6,MERC.WD:5,CDS:6,CNC:7,CLAN:3,CCO:6,CWIE:4,DC:4</availability>
+			<availability>CLAN.HW:4,CLAN.IS:6-,CCC:5-,CCO:4-,CHH:4,CIH:5-,CNC:7,CSA:4-,CWIE:6,SOC:3+,BAN:3,DC:3+</availability>
 			<model name=''>
-				<availability>MERC.WD:6,CLAN:2-,CNC:4</availability>
+				<availability>CLAN:4-,SOC:6,BAN:8</availability>
 			</model>
 			<model name='2'>
-				<availability>MERC.WD:8,CNC:4,CLAN:2</availability>
+				<availability>CLAN.HW:6,CGB:4,CHH:4,CJF:4,CNC:6,CW:4,CWIE:4,SOC:6</availability>
 			</model>
 			<model name='3'>
-				<availability>CDS:8,CNC:5,CLAN:3,CCO:8</availability>
+				<availability>CLAN:3,CDS:8,CNC:5,CSA:8</availability>
 			</model>
 			<model name='4'>
-				<availability>CSA:6,CDS:6,CNC:8,CLAN:3</availability>
+				<availability>CLAN:3,CCO:6,CDS:6,CNC:8</availability>
 			</model>
 			<model name='5'>
-				<availability>CDS:4,CNC:4</availability>
+                <roles>anti_infantry</roles>
+				<availability>CNC:4</availability>
 			</model>
 			<model name='6'>
 				<availability>CNC:5,DC:5</availability>

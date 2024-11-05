@@ -3739,12 +3739,12 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin IIC' unitType='Mek'>
-			<availability>CSA:4,MERC.WD:3,CIH:6,CDS:4,CW:6,CNC:6,CLAN:4,CCO:4,CJF:6,CGB:6</availability>
+			<availability>CLAN.HW:4,CLAN.IS:6-,CCC:5-,CCO:4-,CHH:4,CIH:5-,CSA:4-,CSJ:4-,BAN:3</availability>
 			<model name=''>
-				<availability>MERC.WD:6,CLAN:6,CNC:6</availability>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='2'>
-				<availability>MERC.WD:8,CIH:8,CNC:8,CLAN:8</availability>
+				<availability>CLAN.HW:8,CGB:8,CHH:8,CJF:8,CNC:8,CW:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>

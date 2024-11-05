@@ -7973,33 +7973,34 @@
 			</model>
 		</chassis>
 		<chassis name='Griffin IIC' unitType='Mek'>
-			<availability>CWE:4,MERC.WD:5,CDS:6,LA:3,IS:3,CP:6,CJF:2,DC:4</availability>
+			<availability>CLAN.IS:4,CJF:3-,CWE:3-,BAN:3,IS:4+,DC:4,FS:4,LA:4,Periphery:2+,Periphery.Deep:0</availability>
 			<model name=''>
-				<availability>MERC.WD:6,CP:4</availability>
+				<availability>CLAN.IS:2-,CP:3-,BAN:8,IS:8,Periphery:8,Periphery.Deep:0</availability>
 			</model>
 			<model name='2'>
-				<availability>MERC.WD:8</availability>
+				<availability>CDS:4,CP:4-,RD:3-,DC:7,MERC:8</availability>
 			</model>
 			<model name='3'>
-				<availability>CDS:8,IS:8,CP:6</availability>
+				<availability>CDS:8,CHH:8</availability>
 			</model>
 			<model name='4'>
-				<availability>CDS:6,IS:6,CP:7</availability>
+				<availability>CDS:6,DC:4+,FS:4+,LA:4+</availability>
 			</model>
 			<model name='5'>
-				<availability>CDS:4,CP:4</availability>
+                <roles>anti_infantry</roles>
+				<availability>CDS:4,CP:4,LA:6</availability>
 			</model>
 			<model name='6'>
-				<availability>CP:6,DC:6</availability>
+				<availability>CDS:4,CP:6,DC:6+</availability>
 			</model>
 			<model name='7'>
-				<availability>CP:6</availability>
+				<availability>CP:5+,DC:3+</availability>
 			</model>
 			<model name='8'>
-				<availability>CWE:6,LA:6,CJF:6</availability>
+				<availability>CHH:5,LA:5</availability>
 			</model>
 			<model name='9'>
-				<availability>DC:2</availability>
+				<availability>DC:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Griffin' unitType='Mek'>
