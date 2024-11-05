@@ -8534,26 +8534,23 @@
 			</model>
 		</chassis>
 		<chassis name='Strider' unitType='Mek' omni='IS'>
-			<availability>LA:2+,FWL:2+,FS:2+,MERC:2+,DC:6+</availability>
+			<availability>DC:6+:3057</availability>
 			<model name='SR1-O'>
-				<availability>General:8</availability>
+				<availability>DC:7</availability>
 			</model>
 			<model name='SR1-OA'>
 				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<availability>DC:5+</availability>
 			</model>
 			<model name='SR1-OB'>
-				<availability>General:7</availability>
+				<availability>DC:7</availability>
 			</model>
 			<model name='SR1-OC'>
-				<availability>General:7</availability>
+				<availability>DC:8+</availability>
 			</model>
 			<model name='SR1-OD'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
-			</model>
-			<model name='SR1-OE'>
-				<availability>General:6</availability>
+				<roles>recon,spotter</roles>
+				<availability>DC:8+</availability>
 			</model>
 		</chassis>
 		<chassis name='Striker Light Tank' unitType='Tank'>

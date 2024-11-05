@@ -16807,38 +16807,41 @@
 			</model>
 		</chassis>
 		<chassis name='Strider' unitType='Mek' omni='IS'>
-			<availability>CC:5,MOC:5,LA:5,ROS:6,FWL:5,FS:6,MERC:5,DA:5,DC:7</availability>
+			<availability>CC:4,DC:6,ROS:3,FWL:5,DA:4,MSC:5,MERC:4,MOC:5+</availability>
 			<model name='SR1-O'>
-				<availability>General:8</availability>
+				<availability>IS:4,MOC:4</availability>
 			</model>
 			<model name='SR1-OA'>
 				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<availability>CC:6,DC:4,ROS:6-,FWL:6,MSC:6,MERC:4-,MOC:7</availability>
 			</model>
 			<model name='SR1-OB'>
-				<availability>General:7</availability>
+				<availability>CC:7,DC:6,ROS:6,FWL:8,MSC:8,MERC:7,MOC:7</availability>
 			</model>
 			<model name='SR1-OC'>
-				<availability>General:7</availability>
+				<availability>CC:7,DC:7+,ROS:4,FWL:6,MSC:6,MERC:7,MOC:6</availability>
 			</model>
 			<model name='SR1-OD'>
 				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<availability>CC:6+,DC:8+,ROS:5,FWL:5,MSC:6,MERC:8,MOC:5</availability>
 			</model>
 			<model name='SR1-OE'>
-				<availability>General:6</availability>
+				<availability>IS:6,MERC:6+,MOC:5+</availability>
 			</model>
 			<model name='SR1-OF'>
-				<availability>General:6</availability>
+				<availability>IS:7,MOC:6+</availability>
 			</model>
 			<model name='SR1-OG'>
-				<availability>General:4</availability>
+				<availability>IS:7,MOC:7</availability>
 			</model>
+            <model name='SR1-OH'>
+                <availability>IS:3+</availability>
+            </model>
 			<model name='SR1-OR'>
-				<availability>CLAN:6,General:3</availability>
+				<availability>IS:6+</availability>
 			</model>
 			<model name='SR1-OX'>
-				<availability>General:2</availability>
+				<availability>IS:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Striker Light Tank' unitType='Tank'>
