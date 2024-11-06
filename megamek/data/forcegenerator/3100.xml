@@ -18220,35 +18220,40 @@
 			</model>
 		</chassis>
 		<chassis name='Turkina' unitType='Mek' omni='Clan'>
-			<availability>CHH:4,CW:4,CNC:4,CJF:7</availability>
+			<availability>CHH:2,CJF:7,CNC:3+,CW:2,CEI:2+</availability>
 			<model name='A'>
-				<availability>CHH:7,CW:7,CNC:7,CJF:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7,CEI:7</availability>
 			</model>
 			<model name='B'>
-				<availability>RD:9,CW:9,General:7,CGB:9</availability>
+				<availability>CLAN:7,CNC:8,CEI:8</availability>
 			</model>
 			<model name='C'>
-				<availability>CHH:7,CW:7,CNC:7,CJF:7</availability>
+                <roles>urban</roles>
+				<availability>CLAN:7,CEI:5</availability>
 			</model>
 			<model name='D'>
-				<availability>CHH:6,CW:6,CNC:6,CJF:6</availability>
+				<availability>CLAN:5,CEI:3</availability>
 			</model>
 			<model name='E'>
-				<availability>CHH:4,CW:4,CNC:4,CJF:4</availability>
+				<availability>CLAN:4,CHH:6,CEI:4</availability>
 			</model>
 			<model name='H'>
-				<availability>CHH:5,CW:6,CNC:5,CJF:5</availability>
+				<availability>CLAN:4,CW:5,CEI:4</availability>
 			</model>
 			<model name='M'>
 				<roles>fire_support</roles>
-				<availability>CHH:4,CW:2,CEI:2,CNC:6,CJF:7</availability>
+				<availability>CLAN:5,CEI:4</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CHH:8,CW:8,CNC:8,CJF:8</availability>
+				<availability>CLAN:8,CNC:7,CEI:8</availability>
 			</model>
 			<model name='U'>
 				<availability>CLAN:2</availability>
 			</model>
+            <model name='X'>
+                <availability>CLAN:2+,CJF:5+,CEI:1+</availability>
+            </model>
 		</chassis>
 		<chassis name='Typhoon Urban Assault Vehicle' unitType='Tank'>
 			<availability>LA:3,ROS:3,FS:6,MERC:3</availability>

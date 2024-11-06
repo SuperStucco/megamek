@@ -8109,22 +8109,20 @@
 			</model>
 		</chassis>
 		<chassis name='Turkina' unitType='Mek' omni='Clan'>
-			<availability>CSJ:2,CJF:5</availability>
+			<availability>CJF:4+:3052,CNC:3+:3053,CSJ:2+:3053</availability>
 			<model name='A'>
-				<availability>CHH:7,CW:7,CNC:7,CSJ:7,CFM:7,CGS:7,CJF:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='B'>
-				<availability>CW:7,General:7,CGB:7</availability>
+				<availability>CLAN:7,CNC:8</availability>
 			</model>
 			<model name='C'>
-				<availability>CHH:7,CW:7,CNC:7,CSJ:7,CFM:7,CJF:7,CGS:7</availability>
-			</model>
-			<model name='M'>
-				<roles>fire_support</roles>
-				<availability>CNC:6,CSJ:4,CJF:6</availability>
+                <roles>urban</roles>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CHH:8,CW:8,CNC:8,CFM:8,CSJ:8,CJF:8,CCO:8</availability>
+				<availability>CLAN:8,CNC:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Tyre' unitType='AeroSpaceFighter'>

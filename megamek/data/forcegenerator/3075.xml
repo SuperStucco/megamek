@@ -16876,38 +16876,39 @@
 			</model>
 		</chassis>
 		<chassis name='Turkina' unitType='Mek' omni='Clan'>
-			<availability>SOC:4,CNC:4,CJF:7,CLAN.HW:4</availability>
+			<availability>CLAN.HW:4,CJF:7,CNC:3+,SOC:3+</availability>
 			<model name='A'>
-				<availability>CHH:7,CW:7,CNC:7,CGS:7,CJF:7</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:7,SOC:2</availability>
 			</model>
 			<model name='B'>
-				<availability>CW:9,General:7,CGB:9</availability>
+				<availability>CLAN:7,CNC:8,CGS:9,SOC:4</availability>
 			</model>
 			<model name='C'>
-				<availability>CHH:7,CW:7,CNC:7,CJF:7,CGS:7</availability>
+                <roles>urban</roles>
+				<availability>CLAN:7,CLAN.HW:6,SOC:2</availability>
 			</model>
 			<model name='D'>
-				<availability>CHH:6,CW:6,CNC:6,CJF:6</availability>
+				<availability>CLAN:5,CLAN.HW:6,CCO:7,SOC:6</availability>
 			</model>
 			<model name='E'>
-				<availability>CHH:4,CW:4,CNC:4,CJF:4</availability>
+				<availability>CLAN:4:3070,SOC:2</availability>
 			</model>
 			<model name='H'>
-				<availability>CHH:5,CW:6,CNC:5,CJF:5</availability>
+				<availability>CLAN:5,CLAN.HW:6,CSA:7,SOC:2</availability>
 			</model>
 			<model name='M'>
 				<roles>fire_support</roles>
-				<availability>SOC:2,CNC:6,CJF:7,CLAN.HW:4</availability>
+				<availability>CLAN:5,CLAN.HW:4,SOC:2</availability>
 			</model>
 			<model name='Prime'>
-				<availability>CHH:8,CW:8,CNC:8,CJF:8,CCO:8</availability>
+				<availability>CLAN:8,CNC:7,SOC:2</availability>
 			</model>
 			<model name='U'>
-				<availability>CLAN:2</availability>
+				<availability>CLAN:2:3077</availability>
 			</model>
 			<model name='X'>
-				<roles>fire_support</roles>
-				<availability>CJF:3</availability>
+				<availability>CJF:3+:3077</availability>
 			</model>
 			<model name='Z'>
 				<roles>spotter</roles>
