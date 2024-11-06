@@ -4613,7 +4613,7 @@
             <model name='ED-X5M LoggerMech MOD'>
                 <availability>General:8</availability>
             </model>
-            <model name='ED-X5M-B LoggerMech MOD'>
+            <model name='ED-X5M-B DemolitionMech MOD'>
                 <availability>ROS.pm:3,MH:7+</availability>
             </model>
         </chassis>

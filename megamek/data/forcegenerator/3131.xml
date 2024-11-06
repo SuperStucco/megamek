@@ -5359,7 +5359,7 @@
             <model name='ED-X5M LoggerMech MOD'>
                 <availability>General:8</availability>
             </model>
-            <model name='ED-X5M-B LoggerMech MOD'>
+            <model name='ED-X5M-B DemolitionMech MOD'>
                 <availability>ROS.pm:3,MH:7+</availability>
             </model>
         </chassis>
@@ -8159,7 +8159,7 @@
                 <roles>spotter</roles>
                 <availability>LA:8</availability>
             </model>
-            <model name='(Harjel)(Sqd4)' mechanized='true'>
+            <model name='(HarJel)(Sqd4)' mechanized='true'>
                 <roles>anti_infantry,spotter</roles>
                 <availability>LA:5+</availability>
             </model>
@@ -14737,7 +14737,7 @@
                 <availability>CLAN:4:3141,LA:6,SE:4</availability>
             </model>
             <model name='L'>
-                <roles>anti_personnel</roles>
+                <roles>anti_infantry</roles>
                 <availability>CLAN:4:3142,LA:4+,SE:4</availability>
             </model>
 			<model name='Prime'>

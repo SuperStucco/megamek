@@ -5285,7 +5285,7 @@
             <model name='ED-X5M LoggerMech MOD'>
                 <availability>General:8</availability>
             </model>
-            <model name='ED-X5M-B LoggerMech MOD'>
+            <model name='ED-X5M-B DemolitionMech MOD'>
                 <availability>ROS.pm:3,MH:7+</availability>
             </model>
         </chassis>
@@ -5874,7 +5874,7 @@
                 <availability>MERC.WD:8,ROS:4,CLAN:8</availability>
             </model>
             <model name='(Gauss)'>
-                <roles>fier_support</roles>
+                <roles>fire_support</roles>
                 <availability>CC:8,MOC:8,LA:8,ROS:8,FWL:8,IS:8,FS:8,CP:8,DC:8,TC:8,CWIE:4</availability>
             </model>
             <model name='(MRM)'>
@@ -8152,7 +8152,7 @@
                 <roles>spotter</roles>
                 <availability>LA:8</availability>
             </model>
-            <model name='(Harjel)(Sqd4)' mechanized='true'>
+            <model name='(HarJel)(Sqd4)' mechanized='true'>
                 <roles>anti_infantry,spotter</roles>
                 <availability>LA:6+</availability>
             </model>
@@ -14886,7 +14886,7 @@
                 <availability>CLAN:4,LA:6,SE:4</availability>
             </model>
             <model name='L'>
-                <roles>anti_personnel</roles>
+                <roles>anti_infantry</roles>
                 <availability>CLAN:4,LA:4+,SE:4</availability>
             </model>
             <model name='Prime'>
