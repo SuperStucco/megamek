@@ -12043,13 +12043,19 @@
 			</model>
 		</chassis>
 		<chassis name='Thunder' unitType='Mek'>
-			<availability>CC:8,MOC:5,MERC:3,TC:4</availability>
+			<availability>CC:8,MOC:5,MERC:3,TC:4+</availability>
 			<model name='THR-1L'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>IS:8,MOC:8,TC:8</availability>
 			</model>
 			<model name='THR-2L'>
-				<availability>CC:5</availability>
+                <roles>cavalry</roles>
+				<availability>CC:5+:3063</availability>
 			</model>
+            <model name='THR-3L'>
+                <roles>mixed_artillery</roles>
+                <availability>CC:4+:3066</availability>
+            </model>
 		</chassis>
 		<chassis name='Thunderbird' unitType='AeroSpaceFighter'>
 			<availability>HL:4,CLAN:2,IS:5,Periphery.Deep:5,WOB:4-,FS:6,Periphery:5,TC:6,CS:4-,LA:6,NIOPS:4-</availability>

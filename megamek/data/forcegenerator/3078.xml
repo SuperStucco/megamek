@@ -17143,19 +17143,18 @@
 			</model>
 		</chassis>
 		<chassis name='Thunder' unitType='Mek'>
-			<availability>CC:8,MOC:5,PR:4,PG:4,MERC:4,DA:4,RFS:4,TC:4</availability>
+			<availability>CC:8,MOC:5,MERC:4,TC:4</availability>
 			<model name='THR-1L'>
-				<availability>General:7</availability>
+                <roles>cavalry</roles>
+				<availability>CC:7,MERC:8,Periphery:8,FR:8</availability>
 			</model>
 			<model name='THR-2L'>
+                <roles>cavalry</roles>
 				<availability>CC:5</availability>
 			</model>
 			<model name='THR-3L'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>CC:4</availability>
-			</model>
-			<model name='THR-C4'>
-				<availability>CC:2,MOC:2,CC.LCC:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Thunderbird' unitType='AeroSpaceFighter'>

@@ -15287,15 +15287,15 @@
 			</model>
 		</chassis>
 		<chassis name='Thunder' unitType='Mek'>
-			<availability>CC:8,MOC:5,MERC:4,TC:4</availability>
+			<availability>CC:8,MOC:5,MERC:4,TC:4,FR:3+</availability>
 			<model name='THR-1L'>
-				<availability>General:8</availability>
+				<availability>CC:7,MERC:8,Periphery:8,FR:8</availability>
 			</model>
 			<model name='THR-2L'>
 				<availability>CC:5</availability>
 			</model>
 			<model name='THR-3L'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>CC:4</availability>
 			</model>
 		</chassis>

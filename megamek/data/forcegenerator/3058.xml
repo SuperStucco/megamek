@@ -9577,9 +9577,10 @@
 			</model>
 		</chassis>
 		<chassis name='Thunder' unitType='Mek'>
-			<availability>CC:6+,MOC:3+,MERC:2+,TC:2</availability>
+			<availability>CC:6+,MOC:3+,MERC:2+,TC:2+</availability>
 			<model name='THR-1L'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>IS:8,MOC:8,TC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Thunderbird' unitType='AeroSpaceFighter'>
