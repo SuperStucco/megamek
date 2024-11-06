@@ -19557,51 +19557,50 @@
             </model>
         </chassis>
         <chassis name='Tunnel Rat I Mining Exoskeleton' unitType='BattleArmor'>
-            <availability>IS:4-</availability>
-            <model name='[Armored Glove](Sqd4)' mechanized='false'>
-                <availability>IS:4-</availability>
+            <availability>IS:3-</availability>
+            <model name='[Armored Glove](Sqd4)' mechanized='true'>
+                <roles>support</roles>
+                <availability>IS:8</availability>
             </model>
-            <model name='[Industrial Drill](Sqd4)' mechanized='false'>
-                <availability>IS:4-</availability>
+            <model name='[Industrial Drill](Sqd4)' mechanized='true'>
+                <roles>support</roles>
+                <availability>IS:8</availability>
             </model>
         </chassis>
         <chassis name='Tunnel Rat II Mining Exoskeleton' unitType='BattleArmor'>
-            <availability>IS:4-,Periphery:4</availability>
-            <model name='[Armored Glove](Sqd4)' mechanized='false'>
-                <availability>IS:4-,Periphery:4</availability>
+            <availability>IS:8,MERC:3-,MOC:1-,TC:1-,CDP:8,FVC:4-,FR:3-,PIR:8</availability>
+            <model name='[Armored Glove](Sqd4)' mechanized='true'>
+                <availability>MERC:8,Periphery:8,CDP:8,FVC:8,FR:8,PIR:8</availability>
             </model>
-            <model name='[Industrial Drill](Sqd4)' mechanized='false'>
+            <model name='[Industrial Drill](Sqd4)' mechanized='true'>
                 <roles>support</roles>
-                <availability>IS:4-</availability>
+                <availability>IS:8,Periphery:8,CDP:8,FVC:8,FR:8</availability>
             </model>
         </chassis>
         <chassis name='Tunnel Rat III Mining Exoskeleton' unitType='BattleArmor'>
-            <availability>IS:4-</availability>
-            <model name='[Armored Glove](Sqd4)' mechanized='false'>
-                <availability>IS:4-</availability>
+            <availability>IS:1-,MERC:4-,PIR:6</availability>
+            <model name='[Armored Glove](Sqd4)' mechanized='true'>
+                <availability>IS:8,PIR:8</availability>
             </model>
-            <model name='[Industrial Drill](Sqd4)' mechanized='false'>
+            <model name='[Industrial Drill](Sqd4)' mechanized='true'>
                 <roles>support</roles>
-                <availability>IS:4-</availability>
+                <availability>IS:8</availability>
             </model>
         </chassis>
         <chassis name='Tunnel Rat IV Mining Exoskeleton' unitType='BattleArmor'>
-            <availability>IS:4-</availability>
-            <model name='[Armored Glove/GL](Sqd4)' mechanized='false'>
-                <availability>IS:4-</availability>
+            <availability>IS:3-,MERC:6-,PIR:4</availability>
+            <model name='[Armored Glove/GL](Sqd4)' mechanized='true'>
+                <availability>IS:8,PIR:8</availability>
             </model>
-            <model name='[Armored Glove/LMG](Sqd4)' mechanized='false'>
-                <availability>IS:4-</availability>
+            <model name='[Armored Glove/LMG](Sqd4)' mechanized='true'>
+                <availability>IS:8,PIR:8</availability>
             </model>
-            <model name='[Battle Claw/GL](Sqd4)' mechanized='false'>
-                <availability>IS:4-</availability>
+            <model name='[Battle Claw/GL](Sqd4)' mechanized='true'>
+                <availability>IS:8,PIR:8</availability>
             </model>
-            <model name='[Battle Claw/LMG](Sqd4)' mechanized='false'>
-                <availability>IS:4-</availability>
+            <model name='[Battle Claw/LMG](Sqd4)' mechanized='true'>
+                <availability>IS:8,PIR:8</availability>
             </model>
-        </chassis>
-        <chassis name='Tunnel Rat Mining Exoskeleton' unitType='BattleArmor'>
-            <availability>IS:4-</availability>
         </chassis>
         <chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
             <availability>ROS:4,DC:4</availability>

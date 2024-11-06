@@ -12375,51 +12375,49 @@
 			</model>
 		</chassis>
 		<chassis name='Tunnel Rat I Mining Exoskeleton' unitType='BattleArmor'>
-			<availability>IS:3-:3062,FS:5-</availability>
-			<model name='[Armored Glove](Sqd4)' mechanized='false'>
-				<availability>IS:3-:3062,FS:5-</availability>
+			<availability>IS:3-,MERC:8-,PIR:2</availability>
+			<model name='[Armored Glove](Sqd4)' mechanized='true'>
+				<availability>IS:8,PIR:8</availability>
 			</model>
-			<model name='[Industrial Drill](Sqd4)' mechanized='false'>
-				<availability>IS:3-:3062,FS:5-</availability>
+			<model name='[Industrial Drill](Sqd4)' mechanized='true'>
+                <roles>support</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tunnel Rat II Mining Exoskeleton' unitType='BattleArmor'>
-			<availability>IS:4-,Periphery:4</availability>
-			<model name='[Armored Glove](Sqd4)' mechanized='false'>
-				<availability>IS:4-,Periphery:4</availability>
+			<availability>IS:1-,MERC:6-,CIR:8,MOC:7,OA:8,TC:7,PIR:8</availability>
+			<model name='[Armored Glove](Sqd4)' mechanized='true'>
+				<availability>IS:8,Periphery:8,PIR:8</availability>
 			</model>
-			<model name='[Industrial Drill](Sqd4)' mechanized='false'>
+			<model name='[Industrial Drill](Sqd4)' mechanized='true'>
 				<roles>support</roles>
-				<availability>IS:2-</availability>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tunnel Rat III Mining Exoskeleton' unitType='BattleArmor'>
-			<availability>IS:2-</availability>
-			<model name='[Armored Glove](Sqd4)' mechanized='false'>
-				<availability>IS:2-</availability>
+			<availability>IS:2-:3062,MERC:7-:3062,PIR:6:3062</availability>
+			<model name='[Armored Glove](Sqd4)' mechanized='true'>
+				<availability>IS:8,PIR:8</availability>
 			</model>
-			<model name='[Industrial Drill](Sqd4)' mechanized='false'>
+			<model name='[Industrial Drill](Sqd4)' mechanized='true'>
 				<roles>support</roles>
-				<availability>IS:2-</availability>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tunnel Rat IV Mining Exoskeleton' unitType='BattleArmor'>
 			<availability>IS:2-</availability>
-			<model name='[Armored Glove/GL](Sqd4)' mechanized='false'>
+			<model name='[Armored Glove/GL](Sqd4)' mechanized='true'>
 				<availability>IS:2-</availability>
 			</model>
-			<model name='[Armored Glove/LMG](Sqd4)' mechanized='false'>
+			<model name='[Armored Glove/LMG](Sqd4)' mechanized='true'>
 				<availability>IS:2-</availability>
 			</model>
-			<model name='[Battle Claw/GL](Sqd4)' mechanized='false'>
+			<model name='[Battle Claw/GL](Sqd4)' mechanized='true'>
 				<availability>IS:2-</availability>
 			</model>
-			<model name='[Battle Claw/LMG](Sqd4)' mechanized='false'>
+			<model name='[Battle Claw/LMG](Sqd4)' mechanized='true'>
 				<availability>IS:2-</availability>
 			</model>
-		</chassis>
-		<chassis name='Tunnel Rat Mining Exoskeleton' unitType='BattleArmor'>
-			<availability>LA:4-,IS:2-:3062,FS:4-</availability>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
 			<availability>CS:4,WOB:4</availability>
