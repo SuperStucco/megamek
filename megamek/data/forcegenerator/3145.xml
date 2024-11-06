@@ -18232,36 +18232,41 @@
 			</model>
 		</chassis>
 		<chassis name='Sunder' unitType='Mek' omni='IS'>
-			<availability>CC:4,LA:5,ROS:5,FS:5,MERC:4,DC:7</availability>
+			<availability>CC:4,DC:3,FS:6,LA:6,ROS:5+,MERC:3+,CDS:4-</availability>
 			<model name='SD1-O'>
-				<availability>General:8</availability>
+				<availability>IS:4-,MERC:7,CDS:3-</availability>
 			</model>
 			<model name='SD1-OA'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CDS:6-</availability>
 			</model>
 			<model name='SD1-OB'>
 				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<availability>DC:3+,FS:3+</availability>
 			</model>
 			<model name='SD1-OC'>
-				<availability>General:6,DC:7</availability>
+				<availability>IS:5-,DC:3-</availability>
 			</model>
 			<model name='SD1-OD'>
-				<availability>General:6,FS:7,DC:7</availability>
+				<availability>IS:5,DC:4,MERC:4,CDS:4-</availability>
 			</model>
 			<model name='SD1-OE'>
-				<availability>General:4</availability>
+				<availability>IS:6,DC:8+,CDS:6</availability>
 			</model>
 			<model name='SD1-OF'>
-				<availability>General:4</availability>
+                <roles>fire_support</roles>
+				<availability>IS:3+,DC:5+,CDS:5</availability>
 			</model>
 			<model name='SD1-OG'>
-				<availability>General:4</availability>
+				<availability>IS:3+,DC:4+,ROS:6,MERC:1+,CDS:6</availability>
 			</model>
 			<model name='SD1-OR'>
-				<availability>General:3+,CLAN:6,DC:3+</availability>
+				<availability>IS:3+,DC:5+,CDS:7</availability>
 			</model>
+            <model name='SD1-OX'>
+                <roles>fire_support</roles>
+                <availability>IS:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Supernova' unitType='Mek'>
 			<availability>CWE:5,RD:3,CDS:4,ROS:3,CP:7,CWIE:5</availability>

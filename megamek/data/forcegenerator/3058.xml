@@ -9340,23 +9340,23 @@
 			</model>
 		</chassis>
 		<chassis name='Sunder' unitType='Mek' omni='IS'>
-			<availability>CC:2+,LA:3+,SIC:2+,FS:3+,MERC:2+,DC:4+</availability>
+			<availability>CC:2+,DC:4+,FS:4+,LA:3+,SIC:2+,MERC:2+</availability>
 			<model name='SD1-O'>
-				<availability>General:8</availability>
+				<availability>IS:6,MERC:8</availability>
 			</model>
 			<model name='SD1-OA'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='SD1-OB'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:6+,FS:2+</availability>
 			</model>
 			<model name='SD1-OC'>
-				<availability>General:6,DC:7</availability>
+				<availability>IS:6-,DC:7-</availability>
 			</model>
 			<model name='SD1-OR'>
-				<availability>CLAN:6,General:1+,DC:2+</availability>
+				<availability>IS:1+:3059,DC:2+:3059</availability>
 			</model>
 		</chassis>
 		<chassis name='Supernova' unitType='Mek'>

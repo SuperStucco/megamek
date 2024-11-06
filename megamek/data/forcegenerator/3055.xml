@@ -8628,20 +8628,17 @@
 			</model>
 		</chassis>
 		<chassis name='Sunder' unitType='Mek' omni='IS'>
-			<availability>LA:3+,FS:3+,DC:4+</availability>
+			<availability>LA:4+:3057,FS:3+:3057,DC:4+:3056</availability>
 			<model name='SD1-O'>
-				<availability>General:8</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='SD1-OA'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='SD1-OB'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
-			</model>
-			<model name='SD1-OC'>
-				<availability>General:6,DC:7</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:2+,DC:6+</availability>
 			</model>
 		</chassis>
 		<chassis name='Supernova' unitType='Mek'>
