@@ -1196,22 +1196,22 @@
             </model>
         </chassis>
         <chassis name='Achileus Light Battle Armor' unitType='BattleArmor'>
-            <availability>RF:4,FWL:4,DA:4,CP:4</availability>
-            <model name='[David](Sqd4)' mechanized='false'>
-                <availability>General:5</availability>
+            <availability>RF:4,FWL:4,DA:4,CP:4,CC:4+,ROS:4+,MERC:3+,MOC:4+</availability>
+            <model name='[David](Sqd4)' mechanized='true'>
+                <availability>IS:5,MOC:5+</availability>
             </model>
-            <model name='[Flamer](Sqd4)' mechanized='false'>
-                <availability>General:7</availability>
+            <model name='[Flamer](Sqd4)' mechanized='true'>
+                <availability>IS:7,MOC:7</availability>
             </model>
             <model name='[Laser](Sqd4)' mechanized='true'>
-                <availability>General:6</availability>
+                <availability>IS:6,MOC:6</availability>
             </model>
             <model name='[MG](Sqd4)' mechanized='true'>
-                <availability>General:8</availability>
+                <availability>IS:8,MOC:8</availability>
             </model>
-            <model name='[TAG](Sqd4)' mechanized='false'>
+            <model name='[TAG](Sqd4)' mechanized='true'>
                 <roles>spotter</roles>
-                <availability>General:5</availability>
+                <availability>IS:5,FWL:6+,CC:7+,MOC:3+</availability>
             </model>
         </chassis>
         <chassis name='Achilles' unitType='Dropship'>
