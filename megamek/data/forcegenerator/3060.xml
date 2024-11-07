@@ -4128,7 +4128,8 @@
 		<chassis name='Eagle Frigate' unitType='Warship'>
 			<availability>FWL:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<roles>frigate</roles>
+				<availability>FWL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Eagle' unitType='AeroSpaceFighter'>
