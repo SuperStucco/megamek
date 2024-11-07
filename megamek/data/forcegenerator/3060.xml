@@ -12472,18 +12472,23 @@
 			</model>
 		</chassis>
 		<chassis name='Typhoon Urban Assault Vehicle' unitType='Tank'>
-			<availability>LA:3,FS:6,MERC:3</availability>
+			<availability>LA:3,FS:6,MERC:3+</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(LB-X)'>
 				<roles>urban</roles>
-				<availability>General:4</availability>
+				<availability>FS:4:3065</availability>
 			</model>
 			<model name='(RAC)'>
 				<roles>urban</roles>
-				<availability>General:4,FS:5</availability>
+				<availability>LA:4:3064,FS:5:3064</availability>
 			</model>
+            <model name='(Tracked)'>
+                <roles>urban</roles>
+                <availability>FS:1</availability>
+            </model>
 		</chassis>
 		<chassis name='Tyr Infantry Support Tank' unitType='Tank'>
 			<availability>CHH:4,CDS:4,FRR:1,CGB:4</availability>

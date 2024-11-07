@@ -18878,15 +18878,16 @@
 		<chassis name='Typhoon Urban Assault Vehicle' unitType='Tank'>
 			<availability>LA:3,FS:6,MERC:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>IS:8,FS:6-</availability>
 			</model>
 			<model name='(LB-X)'>
 				<roles>urban</roles>
-				<availability>General:4</availability>
+				<availability>IS:4</availability>
 			</model>
 			<model name='(RAC)'>
 				<roles>urban</roles>
-				<availability>General:4,FS:6</availability>
+				<availability>IS:4,FS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Typhoon' unitType='AeroSpaceFighter'>

@@ -9886,10 +9886,14 @@
 			</model>
 		</chassis>
 		<chassis name='Typhoon Urban Assault Vehicle' unitType='Tank'>
-			<availability>LA:3,FS:5,MERC:2</availability>
+			<availability>LA:3+,FS:5+,MERC:2+</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
+            <model name='(Tracked)'>
+                <roles>urban</roles>
+                <availability>FS:1</availability>
+            </model>
 		</chassis>
 		<chassis name='Tyre' unitType='AeroSpaceFighter'>
 			<availability>CSV:9,CLAN:7</availability>
