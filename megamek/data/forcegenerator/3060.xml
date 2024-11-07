@@ -13268,13 +13268,16 @@
             </model>
 		</chassis>
 		<chassis name='Wraith' unitType='Mek'>
-			<availability>CC:5,MOC:4,FWL:4,WOB:4,MERC:5,DC:4</availability>
+			<availability>CC:5,MOC:4+,FWL:4,WOB:4,MERC:5+,DC:4</availability>
 			<model name='TR1'>
-				<availability>CC:8,MOC:8,FWL:8,WOB:8,MERC:8,DC:8</availability>
+				<availability>IS:8,WOB:7-,MOC:8</availability>
 			</model>
 			<model name='TR2'>
-				<availability>General:4,MERC:4,DC:4</availability>
+				<availability>IS:4,WOB:3-,MOC:4</availability>
 			</model>
+            <model name='TR3'>
+                <availability>WOB:6:3065</availability>
+            </model>
 		</chassis>
 		<chassis name='Wyvern IIC' unitType='Mek'>
 			<availability>CHH:4,CW:4,CLAN:2</availability>

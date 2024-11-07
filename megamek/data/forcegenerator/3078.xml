@@ -18984,12 +18984,12 @@
 			</model>
 		</chassis>
 		<chassis name='Wraith' unitType='Mek'>
-			<availability>CC:5,MOC:4,DoO:5,FWL:4,WOB:4,DO:5,TP:5,MERC:5,DA:5,DC:4</availability>
+			<availability>CC:5,MOC:4+,DoO:5,FWL:4,WOB:4,DO:5,TP:5,MERC:5,DA:5,DC:4,FR:3+</availability>
 			<model name='TR1'>
-				<availability>CC:8,MOC:8,FWL:8,WOB:8,MERC:8,DC:8</availability>
+				<availability>IS:8,WOB:5-,MOC:8,FR:8</availability>
 			</model>
 			<model name='TR2'>
-				<availability>DoO:8,General:1,DO:8,TP:8,DA:8,MERC:4,DC:4</availability>
+				<availability>IS:8,WOB:2-,MERC:4,DC:4,MOC:4</availability>
 			</model>
 			<model name='TR3'>
 				<availability>WOB:6</availability>

@@ -21066,9 +21066,9 @@
             </model>
         </chassis>
         <chassis name='Wraith' unitType='Mek'>
-            <availability>CC:5,MOC:4,FWL:4,MERC:5,DA:5,CP:4,DC:4</availability>
+            <availability>CC:5,MOC:4,FWL:4,MERC:5,DA:5,CP:4,DC:4,CDS:4-,FR:3+</availability>
             <model name='TR1'>
-                <availability>CC:8,MOC:8,FWL:8,MERC:8,CP:8,DC:8</availability>
+                <availability>IS:8,CP:8,CDS:8,MOC:8,FR:8</availability>
             </model>
             <model name='TR2'>
                 <availability>FWL:4,DA:8,MERC:4,CP:4,DC:4</availability>
