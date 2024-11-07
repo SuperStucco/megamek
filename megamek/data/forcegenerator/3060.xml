@@ -1867,11 +1867,13 @@
 			</model>
 		</chassis>
 		<chassis name='Barghest' unitType='Mek'>
-			<availability>LA:4,FRR:3,MERC:3</availability>
+			<availability>LA:4,FRR:3+,MERC:3</availability>
 			<model name='BGS-1T'>
-				<availability>General:8</availability>
+			    <roles>cavalry</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BGS-2T'>
+                <roles>cavalry</roles>
 				<availability>LA:5,MERC:5</availability>
 			</model>
 		</chassis>

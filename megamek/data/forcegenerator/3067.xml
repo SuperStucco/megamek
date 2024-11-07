@@ -2090,17 +2090,20 @@
 		<chassis name='Barghest' unitType='Mek'>
 			<availability>LA:5,FRR:4,MERC:4</availability>
 			<model name='BGS-1T'>
+                <roles>cavalry</roles>
 				<availability>General:6</availability>
 			</model>
 			<model name='BGS-2T'>
+                <roles>cavalry</roles>
 				<availability>LA:5,MERC:5</availability>
 			</model>
 			<model name='BGS-3T'>
-				<availability>LA:4,MERC:4</availability>
+                <roles>cavalry</roles>
+				<availability>LA:4+:3062,MERC:4+:3062</availability>
 			</model>
 			<model name='BGS-7S'>
-				<roles>fire_support</roles>
-				<availability>LA:3</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>LA:3+:3074</availability>
 			</model>
 		</chassis>
 		<chassis name='Bashkir' unitType='AeroSpaceFighter' omni='Clan'>

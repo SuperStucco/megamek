@@ -1618,9 +1618,10 @@
 			</model>
 		</chassis>
 		<chassis name='Barghest' unitType='Mek'>
-			<availability>LA:3,MERC:2</availability>
+			<availability>LA:3+,MERC:2+</availability>
 			<model name='BGS-1T'>
-				<availability>General:8</availability>
+				<roles>cavalry</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bashkir' unitType='AeroSpaceFighter' omni='Clan'>

@@ -2609,19 +2609,22 @@
 		<chassis name='Barghest' unitType='Mek'>
 			<availability>LA:5,ROS:4,MERC:4</availability>
 			<model name='BGS-1T'>
-				<availability>General:2</availability>
+                <roles>cavalry</roles>
+				<availability>LA:2,IS:4</availability>
 			</model>
 			<model name='BGS-2T'>
-				<availability>LA:4,ROS:4,MERC:4</availability>
+                <roles>cavalry</roles>
+				<availability>LA:3,IS:4</availability>
 			</model>
 			<model name='BGS-3T'>
-				<availability>LA:3,ROS:3,MERC:3</availability>
+                <roles>cavalry</roles>
+				<availability>IS:3</availability>
 			</model>
 			<model name='BGS-4T'>
 				<availability>LA:8</availability>
 			</model>
 			<model name='BGS-7S'>
-				<roles>fire_support</roles>
+				<roles>cavalry,fire_support</roles>
 				<availability>LA:4</availability>
 			</model>
 		</chassis>
