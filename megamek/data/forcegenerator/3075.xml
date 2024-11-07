@@ -6304,7 +6304,7 @@
 			</model>
 			<model name='FS9-OC'>
 				<roles>fire_support</roles>
-				<availability>General:7,,DC:8+,WOB:6-</availability>
+				<availability>General:7,DC:8+,WOB:6-</availability>
 			</model>
 			<model name='FS9-OD'>
                 <roles>ew_support</roles>
@@ -9923,7 +9923,7 @@
 			</model>
 		</chassis>
 		<chassis name='Leopard' unitType='Dropship'>
-			<availability>MOC:8CC:7,HL:7,FRR:7,IS:8,Periphery.Deep:7,WOB:4,FS:7,BAN:2,Periphery:8,CS:4,LA:7,FWL:7,NIOPS:4,DC:7</availability>
+			<availability>MOC:8,CC:7,HL:7,FRR:7,IS:8,Periphery.Deep:7,WOB:4,FS:7,BAN:2,Periphery:8,CS:4,LA:7,FWL:7,NIOPS:4,DC:7</availability>
 			<model name='&apos;Pocket Warship&apos;'>
 				<availability>FWL:3,WOB:6</availability>
 			</model>

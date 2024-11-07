@@ -3142,7 +3142,7 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>
+		<chassis name='Riga II Destroyer-Carrier' unitType='Warship'>
 			<availability>SL:3</availability>
             <model name='(2747)'>
                 <roles>destroyer</roles>

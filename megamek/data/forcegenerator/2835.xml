@@ -4235,7 +4235,7 @@
 				<availability>CLAN:6-,General:8,BAN:7</availability>
 			</model>
 		</chassis>
-		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>
+		<chassis name='Riga II Destroyer-Carrier' unitType='Warship'>
 			<availability>CLAN:1</availability>
             <model name='(2747)'>
                 <roles>destroyer</roles>

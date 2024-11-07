@@ -6591,7 +6591,7 @@
 			</model>
 		</chassis>
 		<chassis name='Intruder' unitType='Dropship'>
-			<availability>MOC:4,HL:2,CLAN:1,IS:4,WOB:4,SIC:4,FS:3,CIR:4,BAN:4,Periphery:3,CS:4FWL:6,NIOPS:4,DC:5</availability>
+			<availability>MOC:4,HL:2,CLAN:1,IS:4,WOB:4,SIC:4,FS:3,CIR:4,BAN:4,Periphery:3,CS:4,FWL:6,NIOPS:4,DC:5</availability>
 			<model name='(2655)'>
 				<roles>assault</roles>
 				<availability>General:6</availability>
@@ -12406,21 +12406,6 @@
 			<model name='[Industrial Drill](Sqd4)' mechanized='true'>
 				<roles>support</roles>
 				<availability>IS:8</availability>
-			</model>
-		</chassis>
-		<chassis name='Tunnel Rat IV Mining Exoskeleton' unitType='BattleArmor'>
-			<availability>IS:2-</availability>
-			<model name='[Armored Glove/GL](Sqd4)' mechanized='true'>
-				<availability>IS:2-</availability>
-			</model>
-			<model name='[Armored Glove/LMG](Sqd4)' mechanized='true'>
-				<availability>IS:2-</availability>
-			</model>
-			<model name='[Battle Claw/GL](Sqd4)' mechanized='true'>
-				<availability>IS:2-</availability>
-			</model>
-			<model name='[Battle Claw/LMG](Sqd4)' mechanized='true'>
-				<availability>IS:2-</availability>
 			</model>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
