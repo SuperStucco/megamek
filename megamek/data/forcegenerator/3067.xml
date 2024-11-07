@@ -4935,10 +4935,6 @@
 			<model name='I'>
 				<availability>CIH:5,General:2</availability>
 			</model>
-            <model name='P'>
-                <roles>cavalry</roles>
-                <availability>CLAN:4,DC:6,MERC:6,WOB:6</availability>
-            </model>
 			<model name='Prime'>
 				<availability>CDS:9,General:8,CJF:9,CGB:6</availability>
 			</model>
@@ -12991,7 +12987,7 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Riga II Destroyer/Carrier' unitType='Warship'>
+		<chassis name='Riga II Destroyer-Carrier' unitType='Warship'>
 			<availability>CB:1</availability>
             <model name='(2747)'>
                 <roles>destroyer</roles>
