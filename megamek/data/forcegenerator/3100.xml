@@ -5524,15 +5524,18 @@
 			</model>
 		</chassis>
 		<chassis name='Demolisher II Heavy Tank' unitType='Tank'>
-			<availability>LA:6,ROS:4,MERC:4,CWIE:4</availability>
+			<availability>LA:6,ROS:4,OP:4,MERC:4,CWIE:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>LA:8,ROS:8,MERC:8,CWIE:8</availability>
 			</model>
 			<model name='(MML)'>
-				<availability>LA:5,ROS:5,CWIE:5</availability>
+                <roles>fire_support</roles>
+				<availability>LA:5,ROS:5,OP:8,CWIE:5</availability>
 			</model>
 			<model name='(Thunderbolt)'>
-				<availability>LA:4,CWIE:4</availability>
+                <roles>fire_support</roles>
+				<availability>LA:4,MERC:2+,CWIE:4</availability>
 			</model>
 		</chassis>
 		<chassis name='DemolitionMech' unitType='Mek'>

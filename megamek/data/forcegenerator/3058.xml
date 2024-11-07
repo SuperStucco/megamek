@@ -3283,9 +3283,10 @@
 			</model>
 		</chassis>
 		<chassis name='Demolisher II Heavy Tank' unitType='Tank'>
-			<availability>LA:4</availability>
+			<availability>LA:4:3059</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>LA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='DemolitionMech' unitType='Mek'>

@@ -5306,12 +5306,15 @@
 		<chassis name='Demolisher II Heavy Tank' unitType='Tank'>
 			<availability>LA:6,ROS:4,MERC:4,CWIE:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>IS:8,CWIE:8</availability>
 			</model>
 			<model name='(MML)'>
+                <roles>fire_support</roles>
 				<availability>LA:4,ROS:4,CWIE:4</availability>
 			</model>
 			<model name='(Thunderbolt)'>
+                <roles>fire_support</roles>
 				<availability>LA:3,CWIE:3</availability>
 			</model>
 		</chassis>
