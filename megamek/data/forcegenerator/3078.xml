@@ -1409,6 +1409,7 @@
 		<chassis name='Agamemnon Heavy Cruiser' unitType='Warship'>
 			<availability>FWL:2</availability>
 			<model name=''>
+                <roles>cruiser</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
