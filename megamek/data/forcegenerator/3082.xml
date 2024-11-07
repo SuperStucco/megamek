@@ -5476,51 +5476,51 @@
 			</model>
 		</chassis>
 		<chassis name='Elemental Battle Armor' unitType='BattleArmor'>
-			<availability>CHH:5,MERC.WD:5,CW:5,CLAN:5,CNC:5+</availability>
-			<model name='(Fire) [AP Gauss](Sqd5)' mechanized='false'>
-				<availability>CHH:1,CW:1,CJF:4</availability>
+			<availability>MERC.WD:5+,CLAN:7,CHH:6,CGB:6,CNC:5+,CWIE:6+,CEI:7+</availability>
+			<model name='(Fire) [AP Gauss](Sqd5)' mechanized='true'>
+				<availability>CHH:1,CW:1,CJF:5</availability>
 			</model>
-			<model name='(Fire) [Flamer](Sqd5)' mechanized='false'>
+			<model name='(Fire) [Flamer](Sqd5)' mechanized='true'>
 				<availability>CHH:1,CW:1,CJF:4</availability>
 			</model>
 			<model name='(Fire) [MicroPL](Sqd5)' mechanized='true'>
 				<availability>CHH:1,CW:1,CJF:4</availability>
 			</model>
 			<model name='(Headhunter)(Sqd5)' mechanized='true'>
-				<availability>CW:2,CGB:2,CWIE:2</availability>
+				<availability>CW:2,CGB:2,CWIE:2,CEI:2</availability>
 			</model>
 			<model name='(Space) [Flamer](Sqd5)' mechanized='true'>
 				<roles>marine</roles>
-				<availability>CSR:2,CLAN:2,RA:3</availability>
+				<availability>CSR:2,CLAN:2,RA:3,CEI:2</availability>
 			</model>
 			<model name='(Space) [MG](Sqd5)' mechanized='true'>
 				<roles>marine</roles>
-				<availability>CSR:2,CLAN:2,RA:3</availability>
+				<availability>CSR:2,CLAN:2,RA:3,CEI:2</availability>
 			</model>
-			<model name='(Space) [MicroPL](Sqd5)' mechanized='false'>
+			<model name='(Space) [MicroPL](Sqd5)' mechanized='true'>
 				<roles>marine</roles>
-				<availability>CSR:2,CLAN:2,RA:4</availability>
+				<availability>CSR:2,CLAN:2,RA:4,CEI:2+</availability>
 			</model>
 			<model name='[AP Gauss](Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CLAN:6+,CJF:7+,MERC.WD:4+,CEI:2+</availability>
 			</model>
 			<model name='[ER Laser](Sqd5)' mechanized='true'>
-				<availability>MERC.WD:6,CLAN:6</availability>
+				<availability>CLAN:6,CJF:5-,MERC.WD:6,CEI:6</availability>
 			</model>
-			<model name='[Flamer](Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[Flamer](Sqd5)' mechanized='true'>
+				<availability>CLAN:7,CJF:6-,CWIE:6,MERC.WD:7,CEI:7</availability>
 			</model>
-			<model name='[HMG](Sqd5)' mechanized='false'>
-				<availability>CLAN:7</availability>
+			<model name='[HMG](Sqd5)' mechanized='true'>
+				<availability>CLAN:6,CJF:6-,MERC.WD:5,CEI:6</availability>
 			</model>
 			<model name='[Laser](Sqd5)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>CLAN:7,CJF:6-,CWIE:8,MERC.WD:8,CEI:6</availability>
 			</model>
 			<model name='[MG](Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CLAN:7,CJF:6-,MERC.WD:7,CEI:7</availability>
 			</model>
-			<model name='[MicroPL](Sqd5)' mechanized='false'>
-				<availability>CLAN:6</availability>
+			<model name='[MicroPL](Sqd5)' mechanized='true'>
+				<availability>CLAN:6,CJF:5-,MERC.WD:6,CEI:5+</availability>
 			</model>
 		</chassis>
 		<chassis name='Elemental II Battle Armor' unitType='BattleArmor'>

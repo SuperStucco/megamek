@@ -5070,52 +5070,73 @@
 			</model>
 		</chassis>
 		<chassis name='Elemental Battle Armor' unitType='BattleArmor'>
-			<availability>CHH:7,MERC.WD:7,CW:7,CLAN:7,CNC:7+</availability>
-			<model name='(Fire) [AP Gauss](Sqd5)' mechanized='false'>
-				<availability>CJF:3</availability>
+			<availability>MERC.WD:7,CLAN:7,CHH:6,CNC:7+,SOC:8</availability>
+			<model name='(Fire) [AP Gauss](Sqd5)' mechanized='true'>
+				<availability>CJF:4+:3069,SOC:0</availability>
 			</model>
-			<model name='(Fire) [Flamer](Sqd5)' mechanized='false'>
-				<availability>CJF:3</availability>
+			<model name='(Fire) [Flamer](Sqd5)' mechanized='true'>
+				<availability>CJF:3+:3069,SOC:0</availability>
 			</model>
 			<model name='(Fire) [MicroPL](Sqd5)' mechanized='true'>
-				<availability>CJF:3</availability>
+				<availability>CJF:3+:3069,SOC:0</availability>
 			</model>
 			<model name='(Headhunter)(Sqd5)' mechanized='true'>
-				<availability>CW:2,CGB:2,CWIE:2</availability>
+				<availability>CW:2,CGB:2,CWIE:2,SOC:0</availability>
 			</model>
 			<model name='(Space) [Flamer](Sqd5)' mechanized='true'>
 				<roles>marine</roles>
-				<availability>CSR:4,CLAN:2</availability>
+				<availability>CSR:4,CLAN:2,SOC:0</availability>
 			</model>
 			<model name='(Space) [MG](Sqd5)' mechanized='true'>
 				<roles>marine</roles>
-				<availability>CSR:4,CLAN:2</availability>
+				<availability>CSR:4,CLAN:2,SOC:0</availability>
 			</model>
-			<model name='(Space) [MicroPL](Sqd5)' mechanized='false'>
+			<model name='(Space) [MicroPL](Sqd5)' mechanized='true'>
 				<roles>marine</roles>
-				<availability>CSR:3,CLAN:2</availability>
+				<availability>CSR:3,CLAN:2,SOC:0</availability>
 			</model>
 			<model name='[AP Gauss](Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CLAN:6+:3069,CJF:7+:3069,WD:4+:3069,SOC:0</availability>
 			</model>
+            <model name='[AP Gauss](Sqd3)' mechanized='true'>
+                <availability>SOC:7</availability>
+            </model>
 			<model name='[ER Laser](Sqd5)' mechanized='true'>
-				<availability>MERC.WD:6,CLAN:6</availability>
+				<availability>CLAN:6,MERC.WD:6,SOC:0</availability>
 			</model>
-			<model name='[Flamer](Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+            <model name='[ER Laser](Sqd3)' mechanized='true'>
+                <availability>SOC:7</availability>
+            </model>
+			<model name='[Flamer](Sqd5)' mechanized='true'>
+				<availability>CLAN:7,CWIE:6,CJF:6,MERC.WD:7,SOC:0</availability>
 			</model>
-			<model name='[HMG](Sqd5)' mechanized='false'>
-				<availability>CLAN:7</availability>
+            <model name='[Flamer](Sqd3)' mechanized='true'>
+                <availability>SOC:5-</availability>
+            </model>
+			<model name='[HMG](Sqd5)' mechanized='true'>
+				<availability>CLAN:6,MERC.WD:5,SOC:0</availability>
 			</model>
+            <model name='[HMG](Sqd3)' mechanized='true'>
+                <availability>SOC:5-</availability>
+            </model>
 			<model name='[Laser](Sqd5)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:7,CLAN.HW:8,CWIE:8,MERC.WD:8,SOC:0</availability>
 			</model>
+            <model name='[Laser](Sqd3)' mechanized='true'>
+                <availability>SOC:6-</availability>
+            </model>
 			<model name='[MG](Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CLAN:7,MERC.WD:7,SOC:0</availability>
 			</model>
-			<model name='[MicroPL](Sqd5)' mechanized='false'>
-				<availability>CLAN:6</availability>
+            <model name='[MG](Sqd3)' mechanized='true'>
+                <availability>SOC:5-</availability>
+            </model>
+			<model name='[MicroPL](Sqd5)' mechanized='true'>
+				<availability>CLAN:6,MERC.WD:6,SOC:0</availability>
 			</model>
+            <model name='[MicroPL](Sqd3)' mechanized='true'>
+                <availability>SOC:7</availability>
+            </model>
 		</chassis>
 		<chassis name='Emperor' unitType='Mek'>
 			<availability>CC:3,MOC:4,CLAN:2,IS:4,WOB:7,FS:3,MERC:4,TC:4,CS:7,LA:4,CNC:5,NIOPS:7</availability>

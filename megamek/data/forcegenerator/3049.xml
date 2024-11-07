@@ -2989,9 +2989,9 @@
 			</model>
 		</chassis>
 		<chassis name='Elemental Battle Armor' unitType='BattleArmor'>
-			<availability>CHH:8,MERC.WD:8,CW:8,CLAN:8,CNC:8</availability>
+			<availability>MERC.WD:8,CLAN:8</availability>
 			<model name='(Headhunter)(Sqd5)' mechanized='true'>
-				<availability>CW:2</availability>
+				<availability>CW:2:3050,CGB:2:3050</availability>
 			</model>
 			<model name='(Space) [Flamer](Sqd5)' mechanized='true'>
 				<roles>marine</roles>
@@ -3001,14 +3001,14 @@
 				<roles>marine</roles>
 				<availability>CSR:4,CLAN:2</availability>
 			</model>
-			<model name='[Flamer](Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[Flamer](Sqd5)' mechanized='true'>
+				<availability>CLAN.IS:8,CLAN.HW:7,MERC.WD:7</availability>
 			</model>
 			<model name='[Laser](Sqd5)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:6,CLAN.HW:8,MERC.WD:8</availability>
 			</model>
 			<model name='[MG](Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:8,CLAN.HW:7,MERC.WD:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Emperor' unitType='Mek'>
@@ -8559,7 +8559,7 @@
 			</model>
 			<model name='WHM-7M-DC'>
 				<roles>command</roles>
-				<availability>CC:2:3052,FWL:3:3052,DC:2,3052</availability>
+				<availability>CC:2:3052,FWL:3:3052,DC:2:3052</availability>
 			</model>
 			<model name='WHM-7S'>
 				<availability>LA:4+:3050,FS:3+:3050,MERC:2+:3050</availability>

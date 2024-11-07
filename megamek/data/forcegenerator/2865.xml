@@ -1704,15 +1704,15 @@
 			</model>
 		</chassis>
 		<chassis name='Elemental Battle Armor' unitType='BattleArmor'>
-			<availability>CW:8</availability>
-			<model name='[Flamer](Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<availability>CW:8:2868,CHH:2869</availability>
+			<model name='[Flamer](Sqd5)' mechanized='true'>
+				<availability>CW:8,CHH:8</availability>
 			</model>
 			<model name='[Laser](Sqd5)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>CW:7,CHH:7</availability>
 			</model>
 			<model name='[MG](Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CW:8,CHH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Emperor' unitType='Mek'>

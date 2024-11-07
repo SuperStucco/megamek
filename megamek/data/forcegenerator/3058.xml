@@ -3485,7 +3485,7 @@
 			</model>
 		</chassis>
 		<chassis name='Elemental Battle Armor' unitType='BattleArmor'>
-			<availability>CHH:8,MERC.WD:8,CW:8,CLAN:8,CNC:8</availability>
+			<availability>MERC.WD:8,CLAN:8,CHH:7</availability>
 			<model name='(Headhunter)(Sqd5)' mechanized='true'>
 				<availability>CW:2,CGB:2,CWIE:2</availability>
 			</model>
@@ -3497,17 +3497,17 @@
 				<roles>marine</roles>
 				<availability>CSR:4,CLAN:2</availability>
 			</model>
-			<model name='[Flamer](Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[Flamer](Sqd5)' mechanized='true'>
+				<availability>CLAN:7,CWIE:6,MERC.WD:7</availability>
 			</model>
-			<model name='[HMG](Sqd5)' mechanized='false'>
-				<availability>CLAN:7</availability>
+			<model name='[HMG](Sqd5)' mechanized='true'>
+				<availability>CLAN.HW:6:3059,CLAN.IS:6:3059,CGS:0,CWIE:0</availability>
 			</model>
 			<model name='[Laser](Sqd5)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:7,CLAN.HW:8,CWIE:8,MERC.WD:8</availability>
 			</model>
 			<model name='[MG](Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CLAN:7,MERC.WD:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Emperor' unitType='Mek'>
@@ -3968,7 +3968,7 @@
 			</model>
 			<model name='FLS-8K'>
                 <roles>cavalry</roles>
-				<availability>DC.GHO:8,CS:6,,FRR:8,LA:2,CLAN:8,NIOPS:6,WOB:6,MERC.SI:8,BAN:8</availability>
+				<availability>DC.GHO:8,CS:6,FRR:8,LA:2,CLAN:8,NIOPS:6,WOB:6,MERC.SI:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Flatbed Truck' unitType='Tank'>
@@ -6986,7 +6986,7 @@
             </model>
             <model name='LT-MOB-25F'>
                 <roles>artillery</roles>
-                <availability>General:2+WOB:4+</availability>
+                <availability>General:2+,WOB:4+</availability>
             </model>
 			<model name='LT-MOB-25F (Ammunition Carriage)'>
 				<roles>support</roles>
