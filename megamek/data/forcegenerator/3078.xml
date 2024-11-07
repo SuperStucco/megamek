@@ -3766,18 +3766,18 @@
 			</model>
 		</chassis>
 		<chassis name='Cavalier Battle Armor' unitType='BattleArmor'>
-			<availability>LA:1,FS:8</availability>
-			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+			<availability>LA:1,FS:8,FVC:2+</availability>
+			<model name='[Flamer](Sqd4)' mechanized='true'>
+				<availability>IS:7,FVC:7</availability>
 			</model>
 			<model name='[Laser](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>IS:6,FVC:6</availability>
 			</model>
-			<model name='[MG](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[MG](Sqd4)' mechanized='true'>
+				<availability>IS:8,FVC:8</availability>
 			</model>
 			<model name='[SRM](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>IS:4,FVC:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Cavalry Attack Helicopter' unitType='VTOL'>
