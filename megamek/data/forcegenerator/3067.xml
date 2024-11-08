@@ -7956,7 +7956,7 @@
 			</model>
 			<model name='4'>
 				<roles>anti_infantry</roles>
-				<availability>CBS:3:3068</availability>
+				<availability>CBS:3:3072</availability>
 			</model>
 		</chassis>
 		<chassis name='Hyena' unitType='Mek'>

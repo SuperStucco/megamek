@@ -6453,16 +6453,12 @@
 			</model>
 		</chassis>
 		<chassis name='Hydra' unitType='ProtoMek'>
-			<availability>CHH:3,CBS:1:3062,CFM:4:3062,CSJ:5</availability>
+			<availability>CHH:3:3062,CBS:1:3062,CFM:4:3062,CSJ:5</availability>
 			<model name=''>
 				<availability>CHH:8,CBS:8,CFM:8,CSJ:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CHH:6</availability>
-			</model>
-			<model name='3'>
-				<roles>fire_support</roles>
-				<availability>CFM:3:3062</availability>
+				<availability>CHH:6:3066</availability>
 			</model>
 		</chassis>
 		<chassis name='Hyena' unitType='Mek'>

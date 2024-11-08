@@ -5265,9 +5265,9 @@
 			</model>
 		</chassis>
 		<chassis name='Hydra' unitType='ProtoMek'>
-			<availability>CHH:2,CSJ:4</availability>
+			<availability>CSJ:4:3059</availability>
 			<model name=''>
-				<availability>CHH:5,CSJ:8</availability>
+				<availability>CSJ:8</availability>
 			</model>
 		</chassis>
 		<chassis name='IS Standard Battle Armor' unitType='BattleArmor'>
