@@ -4482,7 +4482,7 @@
 			</model>
 		</chassis>
 		<chassis name='Iron Cheetah' unitType='Mek'>
-			<availability>CSJ:3+</availability>
+			<availability>CSJ:3+:3054</availability>
 			<model name='A'>
 				<availability>CSJ:6</availability>
 			</model>

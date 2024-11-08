@@ -9953,11 +9953,20 @@
 		</chassis>
 		<chassis name='Iron Cheetah' unitType='Mek'>
 			<availability>CDS:3,ROS:3+</availability>
+            <model name='A'>
+                <availability>CDS:6,ROS:6</availability>
+            </model>
+            <model name='B'>
+                <availability>CDS:6,ROS:6</availability>
+            </model>
+            <model name='C'>
+                <availability>CDS:6,ROS:6</availability>
+            </model>
 			<model name='D'>
 				<availability>CDS:3,ROS:3</availability>
 			</model>
 			<model name='L'>
-				<availability>CDS:4,LA:4,ROS:4,FWL:4,FS:4,RA:4</availability>
+				<availability>CDS:4:3135,ROS:4:3135</availability>
 			</model>
 			<model name='Prime'>
 				<availability>CDS:8,ROS:8</availability>

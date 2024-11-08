@@ -8559,6 +8559,15 @@
 		</chassis>
 		<chassis name='Iron Cheetah' unitType='Mek'>
 			<availability>CDS:1,ROS:1+</availability>
+            <model name='A'>
+                <availability>CDS:6,ROS:6</availability>
+            </model>
+            <model name='B'>
+                <availability>CDS:6,ROS:6</availability>
+            </model>
+            <model name='C'>
+                <availability>CDS:6,ROS:6</availability>
+            </model>
 			<model name='D'>
 				<availability>CDS:3,ROS:3</availability>
 			</model>

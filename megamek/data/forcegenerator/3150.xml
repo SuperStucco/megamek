@@ -9983,7 +9983,7 @@
             </model>
         </chassis>
         <chassis name='Iron Cheetah' unitType='Mek'>
-            <availability>CDS:3,LA:2+,ROS:3+,FWL:2+,FS:2+,RA:2+</availability>
+            <availability>CDS:3,LA:2+:3051,ROS:3+,FWL:2+:3051,FS:2+:3051,RA:2+:3051</availability>
             <model name='A'>
                 <availability>CDS:6,LA:6,ROS:6,FWL:6,FS:6,RA:6</availability>
             </model>
