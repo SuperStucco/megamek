@@ -5274,24 +5274,24 @@
 			</model>
 		</chassis>
 		<chassis name='Kage Light Battle Armor' unitType='BattleArmor'>
-			<availability>DC:4</availability>
-			<model name='[ECM](Sqd4)' mechanized='false'>
+			<availability>DC:4:3056</availability>
+			<model name='[ECM](Sqd4)' mechanized='true'>
 				<roles>recon</roles>
 				<availability>DC:5</availability>
 			</model>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>DC:7</availability>
 			</model>
-			<model name='[Laser](Sqd4)' mechanized='false'>
+			<model name='[Laser](Sqd4)' mechanized='true'>
 				<roles>recon</roles>
-				<availability>General:6</availability>
+				<availability>DC:6</availability>
 			</model>
 			<model name='[MG](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>DC:8</availability>
 			</model>
 			<model name='[TAG](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>DC:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Kanga Medium Hovertank' unitType='Tank'>

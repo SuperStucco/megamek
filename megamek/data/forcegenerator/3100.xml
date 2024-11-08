@@ -9895,36 +9895,38 @@
 		<chassis name='Kage Light Battle Armor' unitType='BattleArmor'>
 			<availability>ROS:3,DC:4</availability>
 			<model name='(DEST)(Sqd4)' mechanized='true'>
+                <roles>specops</roles>
 				<availability>DC:4</availability>
 			</model>
-			<model name='(Space)(Sqd4)' mechanized='false'>
+			<model name='(Space)(Sqd4)' mechanized='true'>
 				<roles>marine</roles>
 				<availability>ROS:2,DC:2</availability>
 			</model>
-			<model name='(Vibro-Claw)(Sqd4)' mechanized='false'>
+			<model name='(Vibro-Claw)(Sqd4)' mechanized='true'>
 				<roles>recon</roles>
 				<availability>DC:4</availability>
 			</model>
 			<model name='C(Sqd4)' mechanized='true'>
-				<availability>DC:3</availability>
+                <roles>recon</roles>
+				<availability>DC:3+</availability>
 			</model>
-			<model name='[ECM](Sqd4)' mechanized='false'>
+			<model name='[ECM](Sqd4)' mechanized='true'>
 				<roles>recon</roles>
-				<availability>MERC:2,DC:5</availability>
+				<availability>DC:5</availability>
 			</model>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>DC:7</availability>
 			</model>
-			<model name='[Laser](Sqd4)' mechanized='false'>
+			<model name='[Laser](Sqd4)' mechanized='true'>
 				<roles>recon</roles>
-				<availability>General:6</availability>
+				<availability>DC:6</availability>
 			</model>
 			<model name='[MG](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>DC:8</availability>
 			</model>
 			<model name='[TAG](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>DC:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Kalki Cruise Missile Launcher' unitType='Tank'>
