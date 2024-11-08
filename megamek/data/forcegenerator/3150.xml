@@ -7927,9 +7927,18 @@
         <chassis name='Gorgon' unitType='ProtoMek'>
             <availability>RA:6</availability>
             <model name=''>
+                <roles>fire_support</roles>
                 <availability>RA:5</availability>
             </model>
             <model name='3'>
+                <availability>RA:6</availability>
+            </model>
+            <model name='5'>
+                <roles>fire_support,mag_clamp</roles>
+                <availability>RA:4</availability>
+            </model>
+            <model name='6'>
+                <roles>ew_support,anti_infantry</roles>
                 <availability>RA:6</availability>
             </model>
         </chassis>

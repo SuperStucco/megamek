@@ -6829,13 +6829,14 @@
 		<chassis name='Gorgon' unitType='ProtoMek'>
 			<availability>CSA:7,CSR:3,CBS:4,CNC:4,CCO:4,RA:4</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>CSA:5,CSR:3,CBS:3,CNC:3,RA:5</availability>
 			</model>
 			<model name='2'>
-				<availability>CSA:6:3180,CCO:8:3080</availability>
+				<availability>CSA:6</availability>
 			</model>
 			<model name='3'>
-				<availability>CSA:6:3180,CSR:3,CBS:6:3080,RA:6</availability>
+				<availability>CSA:6,CSR:3,CBS:6,RA:6</availability>
 			</model>
 			<model name='4'>
 				<roles>anti_infantry</roles>

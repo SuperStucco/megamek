@@ -5199,15 +5199,16 @@
 			</model>
 		</chassis>
 		<chassis name='Gorgon' unitType='ProtoMek'>
-			<availability>CSA:5,CSR:4,CIH:3,CBS:3,CNC:3,CFM:3,CSJ:5,CJF:6,CCO:3</availability>
+			<availability>CSA:5:3062,CSR:4:3062,CIH:3:3062,CBS:3:3062,CNC:3:3062,CFM:3:3062,CSJ:5,CJF:6:3062,CCO:3:3062</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>CSA:7,CSR:6,CNC:6,CSJ:8,CJF:4</availability>
 			</model>
 			<model name='2'>
-				<availability>CSA:6,CIH:6,CFM:6,CJF:6,CCO:6</availability>
+				<availability>CSA:6:3062,CIH:6:3062,CFM:6:3062,CJF:6:3062,CCO:6:3062</availability>
 			</model>
 			<model name='3'>
-				<availability>CSA:4,CSR:4,CBS:4</availability>
+				<availability>CSA:4:3066,CSR:4:3066,CBS:4:3066</availability>
 			</model>
 		</chassis>
 		<chassis name='Gorilla Exoskeleton' unitType='BattleArmor'>

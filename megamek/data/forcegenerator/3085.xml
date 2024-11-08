@@ -7117,7 +7117,7 @@
 		<chassis name='Gorgon' unitType='ProtoMek'>
 			<availability>CNC:4,RA:6</availability>
 			<model name=''>
-				<availability>RA:5</availability>
+				<availability>CNC:8,RA:5</availability>
 			</model>
 			<model name='3'>
 				<availability>RA:6</availability>

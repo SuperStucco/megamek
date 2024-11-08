@@ -7277,8 +7277,9 @@
 			</model>
 		</chassis>
 		<chassis name='Gorgon' unitType='ProtoMek'>
-			<availability>CSA:7,CSR:3,CBS:4,CNC:4,CJF:5,CCO:4</availability>
+			<availability>CSA:5,CSR:3,CIH:4,CBS:4,CNC:4,CCO:4</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>CSA:7,CSR:3,CBS:5,CNC:5</availability>
 			</model>
 			<model name='2'>
