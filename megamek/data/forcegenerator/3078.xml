@@ -9808,19 +9808,19 @@
 			</model>
 		</chassis>
 		<chassis name='Katana (Crockett)' unitType='Mek'>
-			<availability>DC.GHO:6,FRR:2,CGB.FRR:2,DC:6</availability>
+			<availability>FRR:2,CGB.FRR:2,DC:6</availability>
 			<model name='CRK-5003-2'>
-				<availability>FRR:8,CGB.FRR:8,DC:3-</availability>
+				<availability>FRR:8,CGB.FRR:8,DC.GHO:3-</availability>
 			</model>
 			<model name='CRK-5003-C'>
-				<availability>DC:4</availability>
+				<availability>DC:8</availability>
 			</model>
 			<model name='CRK-5003-CJ'>
-				<availability>DC.GR:5,DC:5</availability>
+				<availability>DC:5</availability>
 			</model>
 			<model name='CRK-5003-CM'>
-				<roles>spotter</roles>
-				<availability>DC:7</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:4+</availability>
 			</model>
 		</chassis>
 		<chassis name='Katya Ground Assault Craft' unitType='Conventional Fighter'>

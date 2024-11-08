@@ -5326,16 +5326,16 @@
 			</model>
 		</chassis>
 		<chassis name='Katana (Crockett)' unitType='Mek'>
-			<availability>DC.GHO:3+,FRR:2+,DC:2+</availability>
+			<availability>DC.GHO:3+,FRR:2+,DC:2</availability>
 			<model name='CRK-5003-2'>
-				<availability>FRR:8,DC:8</availability>
+				<availability>FRR:8,DC:6-,DC.GHO:8</availability>
 			</model>
 			<model name='CRK-5003-C'>
-				<availability>DC:2+</availability>
+				<availability>DC:2:3057</availability>
 			</model>
 			<model name='CRK-5003-CM'>
-				<roles>spotter</roles>
-				<availability>DC:2</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:2+:3057</availability>
 			</model>
 		</chassis>
 		<chassis name='Kestrel VTOL' unitType='VTOL'>

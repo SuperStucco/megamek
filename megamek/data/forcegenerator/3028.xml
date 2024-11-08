@@ -3678,7 +3678,7 @@
 		<chassis name='Katana (Crockett)' unitType='Mek'>
 			<availability>DC.GHO:3+</availability>
 			<model name='CRK-5003-2'>
-				<availability>FRR:8,DC:8</availability>
+				<availability>DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kestrel VTOL' unitType='VTOL'>
