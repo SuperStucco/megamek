@@ -6796,7 +6796,7 @@
 			<model name='[AG](Sqd5)' mechanized='true'>
 				<availability>MH:4,PIR:5</availability>
 			</model>
-			<model name='[BC/ID](Sqd5)' mechanized='false'>
+			<model name='[BC/ID](Sqd5)' mechanized='true'>
 				<availability>MH:2</availability>
 			</model>
 		</chassis>
