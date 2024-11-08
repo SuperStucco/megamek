@@ -9408,11 +9408,13 @@
 			</model>
 		</chassis>
 		<chassis name='JagerMech III' unitType='Mek'>
-			<availability>FVC:6,FRR:6,CGB.FRR:6,WOB:4,FS:7,DC:5</availability>
+			<availability>FRR:6,CGB.FRR:6,WOB:4,FS:7,DC:5,FVC:6</availability>
 			<model name='JM6-D3'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>IS:8,FVC</availability>
 			</model>
 			<model name='JM6-D4'>
+                <roles>cavalry</roles>
 				<availability>FS:4</availability>
 			</model>
 		</chassis>

@@ -8317,12 +8317,14 @@
 			</model>
 		</chassis>
 		<chassis name='JagerMech III' unitType='Mek'>
-			<availability>FVC:6,FRR:5,WOB:4,FS:6,DC:4</availability>
+			<availability>FRR:5,WOB:4,FS:6,DC:4,FVC:6</availability>
 			<model name='JM6-D3'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>IS:8,FVC:8</availability>
 			</model>
 			<model name='JM6-D4'>
-				<availability>FS:4</availability>
+                <roles>cavalry</roles>
+				<availability>FS:4:3073</availability>
 			</model>
 		</chassis>
 		<chassis name='JagerMech' unitType='Mek'>

@@ -8759,9 +8759,9 @@
 			</model>
 		</chassis>
 		<chassis name='JagerMech III' unitType='Mek'>
-			<availability>FVC:7,CGB.FRR:6,ROS:4,FS:8,DC:5</availability>
+			<availability>CGB.FRR:6,ROS:4,FS:8,DC:5,FVC:7</availability>
 			<model name='JM6-D3'>
-				<availability>General:8</availability>
+				<availability>IS:8,FVC:8</availability>
 			</model>
 			<model name='JM6-D4'>
 				<availability>ROS:4,FS:4</availability>

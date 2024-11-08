@@ -10304,12 +10304,14 @@
             </model>
         </chassis>
         <chassis name='JagerMech III' unitType='Mek'>
-            <availability>FVC:7,ROS:5,FS:8,DC:5</availability>
+            <availability>CC:3-,ROS:5,FS:8,DC:5,FVC:7</availability>
             <model name='JM6-D3'>
-                <availability>General:8</availability>
+                <roles>cavalry</roles>
+                <availability>IS:8,CC:0,FVC:8</availability>
             </model>
             <model name='JM6-D4'>
-                <availability>ROS:4,FS:4</availability>
+                <roles>cavalry</roles>
+                <availability>CC:8,ROS:4,FS:4</availability>
             </model>
         </chassis>
         <chassis name='JagerMech' unitType='Mek'>

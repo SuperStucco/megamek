@@ -5515,7 +5515,8 @@
 		<chassis name='JagerMech III' unitType='Mek'>
 			<availability>FS:4</availability>
 			<model name='JM6-D3'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='JagerMech' unitType='Mek'>
