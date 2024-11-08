@@ -10665,19 +10665,23 @@
         </chassis>
         <chassis name='Kanazuchi Assault Battle Armor' unitType='BattleArmor'>
             <availability>DC:4</availability>
+            <model name='(Support)(Sqd4)' mechanized='false'>
+                <roles>sr_fire_support</roles>
+                <availability>DC:4+</availability>
+            </model>
             <model name='(Upgrade) [Battle Claw](Sqd4)' mechanized='false'>
-                <availability>General:7</availability>
+                <availability>DC:7</availability>
             </model>
             <model name='[Battle Claw](Sqd4)' mechanized='false'>
-                <availability>General:6</availability>
+                <availability>DC:5</availability>
             </model>
             <model name='[Industrial Drill](Sqd4)' mechanized='false'>
                 <roles>support</roles>
-                <availability>General:4</availability>
+                <availability>DC:4</availability>
             </model>
             <model name='[Salvage Arm](Sqd4)' mechanized='false'>
                 <roles>support</roles>
-                <availability>General:4</availability>
+                <availability>DC:4</availability>
             </model>
         </chassis>
         <chassis name='Karhu' unitType='Mek' omni='Clan'>
