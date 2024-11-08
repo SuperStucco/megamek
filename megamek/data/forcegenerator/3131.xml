@@ -7836,17 +7836,17 @@
 			</model>
 		</chassis>
 		<chassis name='Gnome Battle Armor' unitType='BattleArmor'>
-			<availability>CHH:6,CLAN:2</availability>
-			<model name='(LRM)(Sqd5)' mechanized='false'>
+			<availability>CHH:6,CLAN:2,CEI:2+,SE:2+</availability>
+			<model name='(LRM)(Sqd5)' mechanized='true'>
 				<availability>CHH:4</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>CLAN:7,CEI:8,SE:8</availability>
 			</model>
-			<model name='(Upgrade) [Bearhunter](Sqd5)' mechanized='false'>
+			<model name='(Upgrade) [Bearhunter](Sqd5)' mechanized='true'>
 				<availability>CHH:6</availability>
 			</model>
-			<model name='(Upgrade) [MRR](Sqd5)' mechanized='false'>
+			<model name='(Upgrade) [MRR](Sqd5)' mechanized='true'>
 				<availability>CHH:8</availability>
 			</model>
 			<model name='(Upgrade) [Pulse Laser](Sqd5)' mechanized='true'>

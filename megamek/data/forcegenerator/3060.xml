@@ -5149,9 +5149,9 @@
 			</model>
 		</chassis>
 		<chassis name='Gnome Battle Armor' unitType='BattleArmor'>
-			<availability>CHH:6,CLAN:1</availability>
+			<availability>CHH:6,CLAN:2</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:7</availability>
+				<availability>CLAN:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Goblin Infantry Support Vehicle' unitType='Tank'>
