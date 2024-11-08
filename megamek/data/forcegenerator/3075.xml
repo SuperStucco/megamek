@@ -6717,18 +6717,21 @@
 			</model>
 		</chassis>
 		<chassis name='Garm' unitType='Mek'>
-			<availability>FVC:5,FS:6,MERC:4,CDP:4,TC:4</availability>
+			<availability>FS:6,MERC:4,FVC:4+,CDP:4+,TC:4,FR:3+</availability>
 			<model name='GRM-01A'>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>FS:8,MERC:6+,FVC:6+,Periphery:8,FR:8</availability>
 			</model>
 			<model name='GRM-01A2'>
-				<availability>FS:3</availability>
+                <roles>fire_support</roles>
+				<availability>FS:3+:3076</availability>
 			</model>
 			<model name='GRM-01B'>
-				<availability>FVC:7,IS:7,CDP:7</availability>
+                <roles>fire_support</roles>
+				<availability>FS:6,MERC:8,FVC:8</availability>
 			</model>
 			<model name='GRM-01C'>
-				<availability>FS:5,MERC:5</availability>
+				<availability>FS:5,MERC:5+</availability>
 			</model>
 		</chassis>
 		<chassis name='Gazelle' unitType='Dropship'>

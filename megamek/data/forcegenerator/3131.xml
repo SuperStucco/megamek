@@ -7628,18 +7628,21 @@
 			</model>
 		</chassis>
 		<chassis name='Garm' unitType='Mek'>
-			<availability>FVC:4,FS:6,MERC:4,CDP:4,TC:4</availability>
+			<availability>FS:6,ROS:5,MERC:4,FVC:5+,CDP:4+,TC:3,FR:3+</availability>
 			<model name='GRM-01A'>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>FS:6,MERC:7,FVC:6+,Periphery:8,FR:8</availability>
 			</model>
 			<model name='GRM-01A2'>
-				<availability>FS:6</availability>
+                <roles>fire_support</roles>
+				<availability>FS:4,ROS:8</availability>
 			</model>
 			<model name='GRM-01B'>
-				<availability>FVC:7,IS:7,CDP:7</availability>
+                <roles>fire_support</roles>
+				<availability>FS:3-,MERC:4-,FVC:8,CDP:8</availability>
 			</model>
 			<model name='GRM-01C'>
-				<availability>FS:5,MERC:5</availability>
+				<availability>FS:6,ROS:5,MERC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Garrot Superheavy Transport' unitType='VTOL'>

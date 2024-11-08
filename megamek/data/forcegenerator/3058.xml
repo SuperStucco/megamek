@@ -4204,12 +4204,14 @@
 			</model>
 		</chassis>
 		<chassis name='Garm' unitType='Mek'>
-			<availability>FS:3,MERC:2,TC:2</availability>
+			<availability>FS:3,MERC:2,TC:2+</availability>
 			<model name='GRM-01A'>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>FS:8,MERC:6,TC:8</availability>
 			</model>
 			<model name='GRM-01B'>
-				<availability>IS:7</availability>
+                <roles>fire_support</roles>
+				<availability>FS:6:3059,MERC:8:3059</availability>
 			</model>
 		</chassis>
 		<chassis name='Gazelle' unitType='Dropship'>
