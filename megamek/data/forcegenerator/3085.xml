@@ -12396,15 +12396,15 @@
 			<availability>DC:3</availability>
 			<model name='OBK-M10'>
 				<roles>missile_artillery</roles>
-				<availability>General:8</availability>
+				<availability>DC:8</availability>
 			</model>
 			<model name='OBK-M11'>
-				<roles>fire_support</roles>
-				<availability>DC:6</availability>
+				<roles>sr_fire_support</roles>
+				<availability>DC:6-</availability>
 			</model>
 			<model name='OBK-M12'>
-				<roles>missile_artillery,spotter</roles>
-				<availability>DC:2</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:3+</availability>
 			</model>
 		</chassis>
 		<chassis name='Ocelot' unitType='Mek'>

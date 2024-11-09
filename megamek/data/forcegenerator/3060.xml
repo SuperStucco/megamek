@@ -9067,7 +9067,7 @@
 			<availability>CS:2,DC:3+</availability>
 			<model name='OBK-M10'>
 				<roles>missile_artillery</roles>
-				<availability>General:8</availability>
+				<availability>CS:8,DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Odin Scout Tank' unitType='Tank'>
