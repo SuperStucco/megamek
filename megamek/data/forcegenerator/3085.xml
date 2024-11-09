@@ -12787,38 +12787,38 @@
 			</model>
 		</chassis>
 		<chassis name='Owens' unitType='Mek' omni='IS'>
-			<availability>CC:4,ROS:4,CNC:4,FWL:4,FS:4,MERC:4,DC:6</availability>
+			<availability>CC:4,ROS:4,FWL:4,MERC:4,DC:6</availability>
 			<model name='OW-1'>
 				<roles>recon,spotter</roles>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='OW-1A'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='OW-1B'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='OW-1C'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='OW-1D'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='OW-1E'>
 				<roles>recon,spotter</roles>
-				<availability>General:4</availability>
+				<availability>IS:4</availability>
 			</model>
 			<model name='OW-1F'>
-				<roles>recon,spotter</roles>
-				<availability>General:4</availability>
+				<roles>ew_support,recon,spotter</roles>
+				<availability>IS:4</availability>
 			</model>
 			<model name='OW-1R'>
 				<roles>recon,spotter</roles>
-				<availability>General:2,CLAN:6</availability>
+				<availability>IS:2,MERC:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='PAB-28 Sniper Suit' unitType='BattleArmor'>

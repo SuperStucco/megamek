@@ -9303,34 +9303,34 @@
 			</model>
 		</chassis>
 		<chassis name='Owens' unitType='Mek' omni='IS'>
-			<availability>CC:2+,CS:3+,FWL:2+,WOB:2+,SIC:2+,FS:2+,MERC:2+,DC:4+</availability>
+			<availability>CC:2+,CS:3,FWL:2+,WOB:2+,SIC:2+,FS:2+,MERC:2+,DC:4</availability>
 			<model name='OW-1'>
 				<roles>recon,spotter</roles>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='OW-1A'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='OW-1B'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='OW-1C'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:7</availability>
 			</model>
 			<model name='OW-1D'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='OW-1E'>
 				<roles>recon,spotter</roles>
-				<availability>General:4</availability>
+				<availability>IS:4</availability>
 			</model>
 			<model name='OW-1R'>
 				<roles>recon,spotter</roles>
-				<availability>General:1+,CLAN:6</availability>
+				<availability>IS:1+</availability>
 			</model>
 		</chassis>
 		<chassis name='Pack Hunter' unitType='Mek'>

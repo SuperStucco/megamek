@@ -7005,27 +7005,23 @@
 			<availability>CS:2+,DC:3+</availability>
 			<model name='OW-1'>
 				<roles>recon,spotter</roles>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='OW-1A'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='OW-1B'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='OW-1C'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='OW-1D'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
-			</model>
-			<model name='OW-1R'>
-				<roles>recon,spotter</roles>
-				<availability>CLAN:6</availability>
+				<availability>IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Packrat LRPV' unitType='Tank'>
