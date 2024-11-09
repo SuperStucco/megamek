@@ -6917,9 +6917,9 @@
 			</model>
 		</chassis>
 		<chassis name='Minotaur' unitType='ProtoMek'>
-			<availability>CSA:2,CHH:4,CSJ:4,CGS:2</availability>
+			<availability>CSJ:4:3059</availability>
 			<model name=''>
-				<availability>CSA:2,CHH:4,CSJ:8,CGS:2</availability>
+				<availability>CSJ:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Miraborg' unitType='Dropship'>

@@ -12172,9 +12172,10 @@
 		<chassis name='Minotaur' unitType='ProtoMek'>
 			<availability>CHH:8,CEI:6,RA:3</availability>
 			<model name=''>
-				<availability>CHH:8,CEI:6,RA:3</availability>
+				<availability>CHH:8,CEI:6,RA:8</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support</roles>
 				<availability>CHH:8</availability>
 			</model>
 			<model name='3'>
@@ -12186,7 +12187,7 @@
 				<availability>CHH:6+</availability>
 			</model>
 			<model name='XP'>
-				<availability>CHH:4</availability>
+				<availability>CHH:2+</availability>
 			</model>
 			<model name='Z'>
 				<roles>mag_clamp</roles>

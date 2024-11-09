@@ -12643,7 +12643,7 @@
 		<chassis name='Minotaur' unitType='ProtoMek'>
 			<availability>CHH:8,RA:3</availability>
 			<model name=''>
-				<availability>CHH:8,RA:3</availability>
+				<availability>CHH:8,RA:8</availability>
 			</model>
 			<model name='2'>
 				<availability>CHH:8</availability>
@@ -12653,7 +12653,7 @@
 				<availability>CHH:6+</availability>
 			</model>
 			<model name='XP'>
-				<availability>CHH:4</availability>
+				<availability>CHH:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Minsk' unitType='Mek'>

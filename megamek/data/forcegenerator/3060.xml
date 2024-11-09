@@ -8533,16 +8533,17 @@
 			</model>
 		</chassis>
 		<chassis name='Minotaur' unitType='ProtoMek'>
-			<availability>CSA:4,CHH:6,CCC:6:3062,CIH:3:3062,CSR:3:3062,CBS:4:3062,CSV:4:3062,CSJ:5,CFM:3:3062,CGS:4</availability>
+			<availability>CSA:4:3062,CHH:6:3062,CCC:6:3062,CSR:3:3062,CIH:3:3062,CBS:4:3062,CFM:3:3062,CSJ:5,CGS:4:3062</availability>
 			<model name=''>
-				<availability>CSA:4,CHH:6,CCC:6:3062,CIH:3:3062,CSR:3:3062,CBS:4:3062,CSV:4:3062,CSJ:8,CFM:3:3062,CGS:4</availability>
+				<availability>CBS:4,CCC:6,CFM:3,CGS:4,CHH:6,CIH:3,CSR:3,CSA:4,CSJ:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CSA:4,CHH:6,CCC:4,CGS:4</availability>
+                <roles>fire_support</roles>
+				<availability>CSA:4:3062,CHH:6:3062,CCC:4:3062,CGS:4:3062</availability>
 			</model>
 			<model name='3'>
 				<roles>fire_support</roles>
-				<availability>CIH:4</availability>
+				<availability>CIH:4:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Miraborg' unitType='Dropship'>

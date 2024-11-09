@@ -11945,9 +11945,10 @@
 		<chassis name='Minotaur' unitType='ProtoMek'>
 			<availability>CSA:6,CHH:8,CCC:8,CSR:2,CBS:4,CEI:8,CSL:8,CGS:6</availability>
 			<model name=''>
-				<availability>CSA:6,CHH:8,CCC:8,CSR:2,CBS:4,CEI:8,CSL:8,CGS:6</availability>
+				<availability>CSA:8,CHH:8,CCC:8,CSR:8,CBS:8,CEI:8,CSL:8,CGS:6</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support</roles>
 				<availability>CSA:6,CHH:8,CCC:6,CEI:8,CSL:8,CGS:6</availability>
 			</model>
 			<model name='3'>
@@ -11959,7 +11960,7 @@
 			</model>
 			<model name='P2'>
 				<roles>mag_clamp</roles>
-				<availability>CHH:4+</availability>
+				<availability>CHH:4+:3080</availability>
 			</model>
 			<model name='XP'>
 				<availability>CHH:3</availability>

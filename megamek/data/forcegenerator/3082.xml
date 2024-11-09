@@ -11119,24 +11119,25 @@
 		<chassis name='Minotaur' unitType='ProtoMek'>
 			<availability>CSA:6,CHH:8,CCC:8,CSR:2,CBS:4,CEI:6,CSL:8,RA:2</availability>
 			<model name=''>
-				<availability>CSA:6,CHH:8,CCC:8,CSR:2,CBS:4,CEI:6,CSL:8,RA:2</availability>
+				<availability>CSA:8,CHH:8,CCC:8,CSR:8,CBS:4,CEI:6,CSL:8,RA:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CSA:6:3080,CHH:8,CCC:4:3080,CEI:6:3080,CSL:8</availability>
+                <roles>fire_support</roles>
+				<availability>CSA:6,CHH:8,CCC:4,CEI:6,CSL:8</availability>
 			</model>
 			<model name='3'>
 				<roles>fire_support</roles>
 				<availability>CEI:6</availability>
 			</model>
 			<model name='4'>
-				<availability>CBS:4:3080</availability>
+				<availability>CBS:4</availability>
 			</model>
 			<model name='P2'>
 				<roles>mag_clamp</roles>
 				<availability>CHH:5+</availability>
 			</model>
 			<model name='XP'>
-				<availability>CHH:4</availability>
+				<availability>CHH:3</availability>
 			</model>
 			<model name='Z'>
 				<roles>mag_clamp</roles>

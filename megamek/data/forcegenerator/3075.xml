@@ -11462,9 +11462,10 @@
 		<chassis name='Minotaur' unitType='ProtoMek'>
 			<availability>CSA:6,CHH:8,CCC:8,CSR:3,CBS:4,SOC:4,CSV:4,CSL:8,CGS:6</availability>
 			<model name=''>
-				<availability>CSA:6,CHH:8,CCC:8,CSR:3,CBS:4,SOC:4,CSV:4,CSL:8,CGS:6</availability>
+				<availability>CSA:8,CHH:8,CCC:8,CSR:8,CBS:8,SOC:4,CSV:8,CSL:8,CGS:6</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support</roles>
 				<availability>CSA:6,CHH:8,CCC:6,CSL:8,CGS:6</availability>
 			</model>
 			<model name='4'>
@@ -11472,7 +11473,7 @@
 			</model>
 			<model name='Z'>
 				<roles>mag_clamp</roles>
-				<availability>SOC:4</availability>
+				<availability>SOC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Miraborg' unitType='Dropship'>
