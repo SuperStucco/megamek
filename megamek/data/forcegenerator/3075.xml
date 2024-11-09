@@ -12040,9 +12040,9 @@
 			</model>
 		</chassis>
 		<chassis name='Nightsky' unitType='Mek'>
-			<availability>Periphery.R:2,LA:8,WOB:3,FS:7,MERC:5,CIR:2</availability>
+			<availability>LA:8,WOB:3,FS:7,MERC:5,CIR:2+</availability>
 			<model name='NGS-4S'>
-				<availability>HL:6,LA:5,General:8,Periphery.Deep:6,FS:5,MERC:5,Periphery:8</availability>
+				<availability>LA:5,FS:5,MERC:5,CIR:8</availability>
 			</model>
 			<model name='NGS-4T'>
 				<availability>LA:4,FS:4,MERC:4</availability>
@@ -12054,10 +12054,11 @@
 				<availability>LA:4,FS:4,MERC:4</availability>
 			</model>
 			<model name='NGS-6S'>
-				<availability>LA:6,MERC:2</availability>
+                <roles>urban</roles>
+				<availability>LA:6</availability>
 			</model>
 			<model name='NGS-6T'>
-				<availability>LA:5,WOB:8,MERC:5,FS:5</availability>
+				<availability>LA:5,WOB:8,MERC:4+,FS:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Nightstar' unitType='Mek'>

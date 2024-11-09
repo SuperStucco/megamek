@@ -6778,10 +6778,19 @@
 			</model>
 		</chassis>
 		<chassis name='Nightsky' unitType='Mek'>
-			<availability>LA:5,FS:5</availability>
+			<availability>LA:5,FS:5,MERC:4+</availability>
 			<model name='NGS-4S'>
-				<availability>HL:6,LA:8,General:8,Periphery.Deep:6,FS:8,MERC:8,Periphery:8</availability>
+				<availability>LA:8,FS:8,MERC:8</availability>
 			</model>
+            <model name='NGS-4T'>
+                <availability>LA:2:3056,FS:2:3056,MERC:2+:3056</availability>
+            </model>
+            <model name='NGS-5S'>
+                <availability>LA:2:3056,FS:2:3056,MERC:2+:3056</availability>
+            </model>
+            <model name='NGS-5T'>
+                <availability>LA:2:3057,FS:2:3057,MERC:2+:3057</availability>
+            </model>
 		</chassis>
 		<chassis name='Nightstar' unitType='Mek'>
 			<availability>CSA:6,CS:3,LA:4+,CLAN:2,NIOPS:3,FS:4+,MERC:2+</availability>

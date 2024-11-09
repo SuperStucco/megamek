@@ -6068,6 +6068,12 @@
 				<availability>CLAN:8,BAN:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Nightsky' unitType='Mek'>
+            <availability>LA:5+:3053,FS:5+:3053</availability>
+            <model name='NGS-4S'>
+                <availability>LA:8,FS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Nightstar' unitType='Mek'>
 			<availability>CSA:6,CS:4,CLAN:2,NIOPS:4</availability>
 			<model name='NSR-9J'>

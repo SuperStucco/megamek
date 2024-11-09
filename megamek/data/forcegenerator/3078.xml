@@ -12558,24 +12558,25 @@
 			</model>
 		</chassis>
 		<chassis name='Nightsky' unitType='Mek'>
-			<availability>PR:4,DoO:4,WOB:3,DO:4,FS:7,MERC:5,CIR:2,Periphery.R:2,LA:8,ROS:5,PG:4,TP:4,RFS:4</availability>
+			<availability>PR:4,DoO:4,WOB:2,DO:4,FS:7,MERC:5,CIR:2+,LA:8,ROS:5,PG:4,TP:4,RFS:4</availability>
 			<model name='NGS-4S'>
-				<availability>PR:4,HL:6,DoO:4,Periphery.Deep:6,DO:4,FS:5,MERC:5,Periphery:8,LA:5,ROS:4,PG:4,General:8,TP:4,RFS:4</availability>
+				<availability>PR:4,HL:6,DoO:4,DO:4,FS:5,MERC:5,LA:5,ROS:4,PG:4,TP:4,RFS:4,CIR:8</availability>
 			</model>
 			<model name='NGS-4T'>
-				<availability>LA:4,FS:4,MERC:4</availability>
+				<availability>LA:4,FS:3,MERC:4</availability>
 			</model>
 			<model name='NGS-5S'>
-				<availability>LA:4,FS:4,MERC:3</availability>
+				<availability>LA:4,FS:3,MERC:3</availability>
 			</model>
 			<model name='NGS-5T'>
 				<availability>PR:5,LA:4,DoO:5,ROS:5,PG:5,DO:5,TP:5,FS:4,MERC:4,RFS:5</availability>
 			</model>
 			<model name='NGS-6S'>
-				<availability>LA:6,ROS:6,MERC:2</availability>
+                <roles>urban</roles>
+				<availability>LA:6,ROS:6,MERC:2+</availability>
 			</model>
 			<model name='NGS-6T'>
-				<availability>PR:6,LA:5,ROS:6,PG:6,WOB:8,MERC:5,FS:5,RFS:6</availability>
+				<availability>PR:6,LA:5,ROS:6,PG:6,WOB:8,MERC:5+,FS:5,RFS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Nightstar' unitType='Mek'>

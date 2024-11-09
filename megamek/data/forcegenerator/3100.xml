@@ -12806,20 +12806,21 @@
 			</model>
 		</chassis>
 		<chassis name='Nightsky' unitType='Mek'>
-			<availability>OP:5,Periphery.R:2,RF:5,LA:8,ROS:6,FS:7,MERC:6</availability>
+			<availability>OP:5,RF:5,LA:8,ROS:6,FS:7,MERC:6</availability>
 			<model name='NGS-4S'>
-				<availability>OP:4,RF:4,LA:4,ROS:4,General:8,Periphery.Deep:6,FS:4,MERC:4,Periphery:8</availability>
+				<availability>OP:4,RF:4,LA:3-,ROS:4,FS:4,MERC:4</availability>
 			</model>
 			<model name='NGS-4T'>
-				<availability>LA:4,FS:4,MERC:4</availability>
+				<availability>LA:3-,MERC:4</availability>
 			</model>
 			<model name='NGS-5S'>
-				<availability>LA:4,FS:4,MERC:3</availability>
+				<availability>LA:3-,MERC:3</availability>
 			</model>
 			<model name='NGS-5T'>
-				<availability>OP:5,RF:5,LA:4,ROS:5,FS:4,MERC:4</availability>
+				<availability>OP:5,RF:5,LA:3-,ROS:5,FS:4,MERC:4</availability>
 			</model>
 			<model name='NGS-6S'>
+                <roles>urban</roles>
 				<availability>LA:8,ROS:6,MERC:4</availability>
 			</model>
 			<model name='NGS-6T'>
