@@ -13868,17 +13868,17 @@
             </model>
         </chassis>
         <chassis name='Nova Cat' unitType='Mek' omni='Clan'>
-            <availability>RD:3,CDS:6,ROS:4+,CP:7,CWIE:4,DC:3,RA:2</availability>
+            <availability>CDS:6,ROS:4+,CP:7,CWIE:4,RD:3,RA:2,DC:3+</availability>
             <model name='A'>
-                <availability>General:6</availability>
+                <roles>raider</roles>
+                <availability>CLAN:6,DC:6</availability>
             </model>
             <model name='B'>
                 <roles>fire_support</roles>
-                <availability>General:7</availability>
+                <availability>CLAN:7,DC:6</availability>
             </model>
             <model name='C'>
-                <roles>urban</roles>
-                <availability>General:4</availability>
+                <availability>CLAN:4</availability>
             </model>
             <model name='D'>
                 <availability>CLAN:5</availability>
@@ -13888,26 +13888,28 @@
                 <availability>CLAN:6</availability>
             </model>
             <model name='F'>
-                <availability>CLAN:4</availability>
+                <roles>raider</roles>
+                <availability>CLAN:4,DC:4</availability>
             </model>
             <model name='G'>
                 <roles>fire_support,anti_infantry</roles>
                 <availability>CLAN:3</availability>
             </model>
             <model name='H'>
-                <availability>RD:4,CDS:4,ROS:4,CP:3,CWIE:4,RA:2,DC:2</availability>
+                <availability>CLAN:4.ROS:4,CP:3,RA:2</availability>
             </model>
             <model name='I'>
                 <availability>CLAN:4</availability>
             </model>
             <model name='M'>
-                <availability>RD:4,ROS:2,CP:2,CWIE:2,RA:2,DC:2</availability>
+                <roles>urban</roles>
+                <availability>RD:4,ROS:2,CP:2,CWIE:2,RA:2</availability>
             </model>
             <model name='Prime'>
-                <availability>General:8</availability>
+                <availability>CLAN:8,DC:8</availability>
             </model>
             <model name='T'>
-                <availability>RD:2,CDS:2,ROS:2,CP:4,CWIE:2,DC:2,RA:2</availability>
+                <availability>CLAN:2,ROS:2,CP:4,RA:2,DC:6</availability>
             </model>
         </chassis>
         <chassis name='Nuberu Anti Aircraft Tank' unitType='Tank'>

@@ -12141,37 +12141,39 @@
 			</model>
 		</chassis>
 		<chassis name='Nova Cat' unitType='Mek' omni='Clan'>
-			<availability>CSA:4,CDS:6,SOC:1,CNC:9,CLAN:3,CWIE:4</availability>
+			<availability>CLAN.HW:3,CDS:6,CGB:4,CNC:9,CWIE:4,SOC:1</availability>
 			<model name='A'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>CLAN:6,CGS:8</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:7</availability>
+				<availability>CLAN:7,CGS:4</availability>
 			</model>
 			<model name='C'>
-				<roles>urban</roles>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='D'>
-				<availability>CLAN:5</availability>
+				<availability>CLAN:5,CGS:7</availability>
 			</model>
 			<model name='E'>
 				<roles>fire_support</roles>
-				<availability>CLAN:6</availability>
+				<availability>CLAN:6,CGS:3+</availability>
 			</model>
 			<model name='F'>
-				<availability>CLAN:4</availability>
+                <roles>raider</roles>
+				<availability>CLAN:4,CGS:7+</availability>
 			</model>
 			<model name='G'>
 				<roles>fire_support,anti_infantry</roles>
 				<availability>CLAN:3</availability>
 			</model>
 			<model name='M'>
-				<availability>SOC:1,CNC:6,CLAN.HW:2,CGB:4,CWIE:2</availability>
+                <roles>urban</roles>
+				<availability>CLAN.HW:2,CNC:6,CGB:4,CWIE:2</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Nyx' unitType='Mek'>

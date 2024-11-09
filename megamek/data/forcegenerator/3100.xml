@@ -12937,17 +12937,17 @@
 			</model>
 		</chassis>
 		<chassis name='Nova Cat' unitType='Mek' omni='Clan'>
-			<availability>RD:3,CDS:6,ROS:4+,CNC:9,CLAN:3,CWIE:4,DC:3:3131,RA:2</availability>
+			<availability>CGB:3,RD:3,CDS:6,ROS:4+,CNC:9,CWIE:4,RA:2</availability>
 			<model name='A'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:7</availability>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='C'>
-				<roles>urban</roles>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='D'>
 				<availability>CLAN:5</availability>
@@ -12957,6 +12957,7 @@
 				<availability>CLAN:6</availability>
 			</model>
 			<model name='F'>
+                <roles>raider</roles>
 				<availability>CLAN:4</availability>
 			</model>
 			<model name='G'>
@@ -12964,13 +12965,17 @@
 				<availability>CLAN:3</availability>
 			</model>
 			<model name='H'>
-				<availability>RD:4,CDS:4,ROS:4,CNC:4,CWIE:4,RA:2,DC:2:3131,CGB:4</availability>
+				<availability>CLAN:4+,ROS:4+,CWIE:4+,RA:2+</availability>
 			</model>
+            <model name='I'>
+                <availability>CLAN:4+:3132</availability>
+            </model>
 			<model name='M'>
-				<availability>RD:4,ROS:2,CNC:2,CGB:4,CWIE:2,RA:2,DC:2:3131</availability>
+                <roles>urban</roles>
+				<availability>RD:4,ROS:2,CNC:2,CWIE:2,RA:2</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Nuberu Anti Aircraft Tank' unitType='Tank'>

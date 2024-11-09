@@ -9036,30 +9036,31 @@
 			</model>
 		</chassis>
 		<chassis name='Nova Cat' unitType='Mek' omni='Clan'>
-			<availability>CSA:4,CIH:4,CDS:5,CNC:7,CLAN:3,CSJ:4,CWIE:4</availability>
+			<availability>CLAN.HW:4,CDS:5,CGB:4,CNC:7,CSJ:4,CWIE:4</availability>
 			<model name='A'>
-				<availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>CLAN:6,CGS:8</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:7</availability>
+				<availability>CLAN:7,CGS:4</availability>
 			</model>
 			<model name='C'>
-				<roles>urban</roles>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='D'>
-				<availability>CLAN:5</availability>
+				<availability>CLAN:5,CGS:7</availability>
 			</model>
 			<model name='E'>
 				<roles>fire_support</roles>
-				<availability>CLAN:5</availability>
+				<availability>CLAN:5:3064,CGS:3+:3064</availability>
 			</model>
 			<model name='M'>
-				<availability>CNC:6,CLAN.HW:2,CGB:4,CWIE:2</availability>
+                <roles>urban</roles>
+				<availability>CLAN.HW:2:3062,CNC:6:3062,CGB:4:3062,CWIE:2:3062</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='O-Bakemono' unitType='Mek'>
