@@ -16524,15 +16524,17 @@
             </model>
         </chassis>
         <chassis name='Salamander Battle Armor' unitType='BattleArmor'>
-            <availability>CHH:4,CLAN:3</availability>
+            <availability>CHH:4,CLAN.IS:3,SE:3</availability>
             <model name='(Anti-Infantry)(Sqd5)' mechanized='true'>
+                <roles>anti_infantry</roles>
                 <availability>CJF:5</availability>
             </model>
             <model name='(Laser)(Sqd5)' mechanized='true'>
                 <availability>CWE:6,RA:6</availability>
             </model>
-            <model name='(Sqd5)' mechanized='false'>
-                <availability>General:7</availability>
+            <model name='(Sqd5)' mechanized='true'>
+                <roles>anti_infantry,incendiary</roles>
+                <availability>CLAN.IS:7,SE:8</availability>
             </model>
         </chassis>
         <chassis name='Salamander' unitType='Mek'>

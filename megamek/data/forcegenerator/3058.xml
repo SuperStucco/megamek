@@ -8526,9 +8526,10 @@
 			</model>
 		</chassis>
 		<chassis name='Salamander Battle Armor' unitType='BattleArmor'>
-			<availability>CHH:2,CLAN:2,CFM:6</availability>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:7</availability>
+			<availability>CLAN.IS:2,CCC:2,CCO:2,CGS:2,CIH:2,CSA:2,CFM:6</availability>
+			<model name='(Sqd5)' mechanized='true'>
+                <roles>anti_infantry,incendiary</roles>
+				<availability>CLAN:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Salamander' unitType='Mek'>

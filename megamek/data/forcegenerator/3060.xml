@@ -10596,10 +10596,11 @@
 		<chassis name='Salamander Battle Armor' unitType='BattleArmor'>
 			<availability>CHH:4,CLAN:3,CFM:6</availability>
 			<model name='(Laser)(Sqd5)' mechanized='true'>
-				<availability>CSR:6,CW:6</availability>
+				<availability>CSR:6:3064,CW:6:3064</availability>
 			</model>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:7</availability>
+			<model name='(Sqd5)' mechanized='true'>
+                <roles>anti_infantry,incendiary</roles>
+				<availability>CLAN:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Salamander' unitType='Mek'>
