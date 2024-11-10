@@ -9983,9 +9983,9 @@
 			</model>
 		</chassis>
 		<chassis name='Undine Battle Armor' unitType='BattleArmor'>
-			<availability>CDS:3,CW:3,CGS:5</availability>
+			<availability>CGS:5:3059</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>CGS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Union C' unitType='Dropship'>

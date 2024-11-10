@@ -18439,12 +18439,12 @@
 			</model>
 		</chassis>
 		<chassis name='Undine Battle Armor' unitType='BattleArmor'>
-			<availability>CDS:4,CW:4</availability>
+			<availability>CLAN.IS:3,CDS:4,CEI:6</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>CLAN.IS:3,CEI:3</availability>
 			</model>
 			<model name='(Upgrade)(Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CLAN.IS:6,CDS:8,CW:8,CEI:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Union C' unitType='Dropship'>

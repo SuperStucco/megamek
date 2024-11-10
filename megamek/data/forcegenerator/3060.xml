@@ -12569,7 +12569,7 @@
 		<chassis name='Undine Battle Armor' unitType='BattleArmor'>
 			<availability>CDS:4,CW:4,CGS:6</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Union C' unitType='Dropship'>

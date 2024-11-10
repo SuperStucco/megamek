@@ -19832,12 +19832,12 @@
             </model>
         </chassis>
         <chassis name='Undine Battle Armor' unitType='BattleArmor'>
-            <availability>CWE:4,CDS:4,CP:4</availability>
+            <availability>CLAN.IS:3,CHH:4,CDS:4,CWE:4,CP:4,SE:6</availability>
             <model name='(Sqd5)' mechanized='true'>
-                <availability>General:4</availability>
+                <availability>CLAN.IS:3,SE:3</availability>
             </model>
             <model name='(Upgrade)(Sqd5)' mechanized='true'>
-                <availability>General:6</availability>
+                <availability>CLAN.IS:6,CHH:8,CDS:8,CWE:8,SE:8</availability>
             </model>
         </chassis>
         <chassis name='Union C' unitType='Dropship'>

@@ -17077,10 +17077,10 @@
 		<chassis name='Undine Battle Armor' unitType='BattleArmor'>
 			<availability>CDS:4,CW:4,CGS:6</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='(Upgrade)(Sqd5)' mechanized='true'>
-				<availability>General:6,CGS:8</availability>
+				<availability>CLAN:6,CGS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Union C' unitType='Dropship'>
