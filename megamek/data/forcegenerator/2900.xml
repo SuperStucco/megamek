@@ -1610,10 +1610,11 @@
 				<availability>FS:6-</availability>
 			</model>
 		</chassis>
-		<chassis name='Corone' unitType='Warship'>
+		<chassis name='Corone Destroyer' unitType='Warship'>
 			<availability>CSR:2:2915</availability>
 		    <model name='(2915)'>
-			    <availability>General:8</availability>
+                <roles>destroyer</roles>
+			    <availability>CSR:8</availability>
 		    </model>
 		</chassis>
 		<chassis name='Corsair' unitType='AeroSpaceFighter'>

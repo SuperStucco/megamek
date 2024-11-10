@@ -13896,7 +13896,7 @@
                 <availability>CLAN:3</availability>
             </model>
             <model name='H'>
-                <availability>CLAN:4.ROS:4,CP:3,RA:2</availability>
+                <availability>CLAN:4,ROS:4,CP:3,RA:2</availability>
             </model>
             <model name='I'>
                 <availability>CLAN:4</availability>
