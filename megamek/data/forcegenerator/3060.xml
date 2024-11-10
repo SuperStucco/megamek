@@ -10734,24 +10734,24 @@
 		<chassis name='Schiltron Mobile Fire-Support Platform' unitType='Tank' omni='IS'>
 			<availability>FRR:2,FWL:2,WOB:2,FS:2,MERC:2,MERC.NH:3,DC:2</availability>
 			<model name='A'>
-				<roles>fire_support,spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,sr_fire_support,spotter</roles>
+				<availability>IS:6-,MERC:8-</availability>
 			</model>
 			<model name='B'>
-				<roles>fire_support,spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='C'>
-				<roles>fire_support,spotter</roles>
-				<availability>General:6</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:6,MERC:8</availability>
 			</model>
 			<model name='D'>
-				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>IS:5:3063,FS:7:3063</availability>
 			</model>
 			<model name='Prime'>
-				<roles>missile_artillery,spotter</roles>
-				<availability>General:6</availability>
+				<roles>command,mixed_artillery,spotter</roles>
+				<availability>IS:6+,MERC:4+</availability>
 			</model>
 		</chassis>
 		<chassis name='Schrek AC Carrier' unitType='Tank'>

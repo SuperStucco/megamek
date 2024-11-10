@@ -15237,32 +15237,32 @@
 		<chassis name='Schiltron Mobile Fire-Support Platform' unitType='Tank' omni='IS'>
 			<availability>DTA:4,DoO:4,FRR:4,CGB.FRR:4,FWL:4,WOB:4,DO:4,TP:4,FS:4,MERC:4,MERC.NH:4,DC:4</availability>
 			<model name='A'>
-				<roles>fire_support,spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,sr_fire_support,spotter</roles>
+				<availability>IS:7-,MERC:8-</availability>
 			</model>
 			<model name='B'>
-				<roles>fire_support,spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>IS:7</availability>
 			</model>
 			<model name='C'>
-				<roles>fire_support,spotter</roles>
-				<availability>General:6</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:6,MERC:8</availability>
 			</model>
 			<model name='D'>
-				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>IS:5,FS:7</availability>
 			</model>
 			<model name='E'>
-				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>IS:5,FS:6</availability>
 			</model>
 			<model name='F'>
-				<roles>spotter</roles>
-				<availability>General:4</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>IS:4</availability>
 			</model>
 			<model name='Prime'>
-				<roles>missile_artillery,spotter</roles>
-				<availability>General:6</availability>
+				<roles>command,mixed_artillery,spotter</roles>
+				<availability>IS:5+,MERC:3+</availability>
 			</model>
 		</chassis>
 		<chassis name='Schrek AC Carrier' unitType='Tank'>
