@@ -18535,9 +18535,10 @@
 			</model>
 		</chassis>
 		<chassis name='Winterhawk APC' unitType='Tank'>
-			<availability>LA.pm:3,MERC:4</availability>
+			<availability>LA:6,MERC:3+</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>apc</roles>
+                <availability>LA:8,MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Wolf Trap (Tora)' unitType='Mek'>
