@@ -16505,7 +16505,8 @@
 		<chassis name='Tatsumaki Destroyer' unitType='Warship'>
 			<availability>DC:1</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>destroyer</roles>
+				<availability>DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tempest' unitType='Mek'>
