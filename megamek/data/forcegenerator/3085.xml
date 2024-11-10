@@ -15470,15 +15470,15 @@
 			</model>
 		</chassis>
 		<chassis name='Siren' unitType='ProtoMek'>
-			<availability>CSA:5,CCC:7,CCO:4</availability>
+			<availability>CEI:5</availability>
 			<model name=''>
 				<roles>recon</roles>
-				<availability>CSA:4,CCC:4,CCO:4</availability>
+				<availability>CEI:6</availability>
 			</model>
-			<model name='3'>
-				<roles>recon</roles>
-				<availability>CSA:6,CCC:4</availability>
-			</model>
+            <model name='4'>
+                <roles>recon</roles>
+                <availability>CEI:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Sirocco' unitType='Mek'>
 			<availability>DTA:5,CC:3,OP:5,DoO:5,ROS:3,DO:5,MSC:5,TP:5,MERC:3</availability>

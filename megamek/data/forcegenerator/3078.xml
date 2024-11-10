@@ -15873,13 +15873,13 @@
 			</model>
 		</chassis>
 		<chassis name='Siren' unitType='ProtoMek'>
-			<availability>CSA:5,CCC:7,CEI:6,CCO:4</availability>
+			<availability>CSA:5,CCC:7,CEI:6:3080</availability>
 			<model name=''>
 				<roles>recon</roles>
-				<availability>CSA:4,CCC:4,CEI:6,CCO:4</availability>
+				<availability>CSA:4,CCC:4,CEI:6</availability>
 			</model>
 			<model name='2'>
-				<roles>recon</roles>
+				<roles>anti_infantry,recon</roles>
 				<availability>CSA:8,CCC:8,CEI:6</availability>
 			</model>
 			<model name='3'>

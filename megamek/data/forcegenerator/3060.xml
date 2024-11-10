@@ -11144,12 +11144,12 @@
 				<availability>CSA:6,CCC:6,CIH:6,CSJ:8,CCO:6</availability>
 			</model>
 			<model name='2'>
-				<roles>recon</roles>
-				<availability>CSA:6,CCC:6,CIH:6</availability>
+				<roles>anti_infantry,recon</roles>
+				<availability>CSA:6:3061,CCC:6,CIH:6</availability>
 			</model>
 			<model name='3'>
 				<roles>recon</roles>
-				<availability>CSA:6,CCC:4,CIH:6</availability>
+				<availability>CSA:6:3064,CCC:4:3064,CIH:6:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Sirocco' unitType='Mek'>

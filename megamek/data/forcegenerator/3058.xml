@@ -8940,10 +8940,10 @@
 			</model>
 		</chassis>
 		<chassis name='Siren' unitType='ProtoMek'>
-			<availability>CSA:2,CSJ:4</availability>
+			<availability>CSJ:4:3059</availability>
 			<model name=''>
 				<roles>recon</roles>
-				<availability>CSA:8,CIH:8,CSJ:8</availability>
+				<availability>CSJ:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Skaret Assassins' unitType='Infantry'>

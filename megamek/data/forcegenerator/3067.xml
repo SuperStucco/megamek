@@ -14149,7 +14149,7 @@
 				<availability>CSA:4,CCC:4,CIH:4,CCO:4</availability>
 			</model>
 			<model name='2'>
-				<roles>recon</roles>
+				<roles>anti_infantry,recon</roles>
 				<availability>CSA:8,CCC:8,CIH:8</availability>
 			</model>
 			<model name='3'>
@@ -14158,11 +14158,11 @@
 			</model>
 			<model name='4'>
 				<roles>recon</roles>
-				<availability>CIH:5</availability>
+				<availability>CIH:5:3068</availability>
 			</model>
 			<model name='5'>
-				<roles>recon</roles>
-				<availability>CIH:4</availability>
+				<roles>anti_infantry,recon</roles>
+				<availability>CIH:4:3070</availability>
 			</model>
 		</chassis>
 		<chassis name='Sirocco' unitType='Mek'>

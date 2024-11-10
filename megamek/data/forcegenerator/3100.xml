@@ -16247,6 +16247,13 @@
 				<availability>General:7</availability>
 			</model>
 		</chassis>
+        <chassis name='Siren' unitType='ProtoMek'>
+            <availability>CEI:2</availability>
+            <model name=''>
+                <roles>recon</roles>
+                <availability>CEI:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Sirocco' unitType='Mek'>
 			<availability>DTA:5,CC:3,OP:5,ROS:3,MSC:5,MERC:3</availability>
 			<model name='SRC-3C'>
