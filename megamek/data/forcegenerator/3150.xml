@@ -16145,7 +16145,11 @@
                 <availability>RA:8</availability>
             </model>
             <model name='4'>
+                <roles>ew_support,anti_infantry</roles>
                 <availability>RA:6</availability>
+            </model>
+            <model name='5'>
+                <availability>RA:8</availability>
             </model>
         </chassis>
         <chassis name='Rogue Bear Heavy Battle Armor' unitType='BattleArmor'>

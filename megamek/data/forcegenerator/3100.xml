@@ -14992,19 +14992,20 @@
 			</model>
 		</chassis>
 		<chassis name='Roc' unitType='ProtoMek'>
-			<availability>CHH:4,CNC:7,RA:7</availability>
+			<availability>RA:7</availability>
 			<model name=''>
-				<availability>CHH:8,CNC:7,RA:7</availability>
+				<availability>RA:7</availability>
 			</model>
 			<model name='2'>
-				<availability>CNC:6,RA:8</availability>
-			</model>
-			<model name='3'>
-				<availability>CNC:4</availability>
+				<availability>RA:8</availability>
 			</model>
 			<model name='4'>
+                <roles>ew_support,anti_infantry</roles>
 				<availability>RA:6</availability>
 			</model>
+            <model name='5'>
+                <availability>RA:6:3112</availability>
+            </model>
 		</chassis>
 		<chassis name='Rogue Bear Heavy Battle Armor' unitType='BattleArmor'>
 			<availability>RD:6-,CGB:6-</availability>

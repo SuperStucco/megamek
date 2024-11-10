@@ -14697,6 +14697,7 @@
 				<availability>CSR:3,CBS:6,CNC:4,CCO:4,CWIE:3</availability>
 			</model>
 			<model name='4'>
+                <roles>ew_support,anti_infantry</roles>
 				<availability>CSR:5,CCO:4</availability>
 			</model>
 		</chassis>

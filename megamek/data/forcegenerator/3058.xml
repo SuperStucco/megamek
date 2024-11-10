@@ -8348,9 +8348,9 @@
 			</model>
 		</chassis>
 		<chassis name='Roc' unitType='ProtoMek'>
-			<availability>CHH:4,CSJ:4,CGS:4,CCO:4,CWIE:4</availability>
+			<availability>CSJ:4:3059</availability>
 			<model name=''>
-				<availability>CHH:6,CSJ:6,CCO:4,CGS:4,CWIE:4</availability>
+				<availability>CSJ:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Rogue' unitType='AeroSpaceFighter'>

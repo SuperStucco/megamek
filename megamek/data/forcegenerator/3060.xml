@@ -10376,13 +10376,13 @@
 		<chassis name='Roc' unitType='ProtoMek'>
 			<availability>CCC:2:3062,CHH:4,CSR:5:3062,CBS:5:3062,CNC:6:3062,CFM:3:3062,CSJ:5,CGS:5,CCO:6,CWIE:6</availability>
 			<model name=''>
-				<availability>CCC:2:3062,CHH:6,CSR:5:3062,CBS:5:3062,CNC:6:3062,CFM:3:3062,CSJ:7,CCO:6,CGS:5,CWIE:6</availability>
+				<availability>CCC:2,CHH:6,CSR:5,CBS:5,CNC:6,CFM:3,CSJ:7,CCO:6,CGS:5,CWIE:6</availability>
 			</model>
 			<model name='2'>
-				<availability>CCC:4,CSR:6,CBS:6,CNC:4,CFM:6,CCO:6,CGS:4</availability>
+				<availability>CCC:4:3062,CSR:6:3062,CBS:6:3062,CFM:6:3062,CCO:6:3062,CGS:4:3062</availability>
 			</model>
 			<model name='3'>
-				<availability>CSR:4,CBS:4,CNC:3,CFM:4,CCO:3,CWIE:4</availability>
+				<availability>CSR:4:3064,CBS:4:3064,CNC:3:3064,CFM:4:3064,CCO:3:3064,CWIE:4:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Rogue' unitType='AeroSpaceFighter'>

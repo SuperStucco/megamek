@@ -14007,9 +14007,11 @@
 				<availability>CSR:6,CBS:6,CSV:5,CNC:4,CCO:4,CWIE:6</availability>
 			</model>
 			<model name='4'>
+                <roles>ew_support,anti_infantry</roles>
 				<availability>CSR:5,CCO:4</availability>
 			</model>
 			<model name='Z'>
+                <roles>mag_clamp</roles>
 				<availability>SOC:8</availability>
 			</model>
 		</chassis>

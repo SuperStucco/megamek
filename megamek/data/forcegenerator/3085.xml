@@ -14350,6 +14350,7 @@
 				<availability>CNC:4</availability>
 			</model>
 			<model name='4'>
+                <roles>ew_support,anti_infantry</roles>
 				<availability>RA:6</availability>
 			</model>
 		</chassis>
