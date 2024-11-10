@@ -18291,13 +18291,15 @@
 		<chassis name='Zechetinu Corvette' unitType='Warship'>
 			<availability>FWL:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>corvette</roles>
+				<availability>FWL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Zechetinu II Corvette' unitType='Warship'>
 			<availability>FWL:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>corvette</roles>
+				<availability>FWL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Zephyr Hovertank' unitType='Tank'>
