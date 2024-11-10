@@ -11838,21 +11838,22 @@
 			</model>
 		</chassis>
 		<chassis name='Partisan Air Defense Tank' unitType='Tank'>
-			<availability>CS:6,HL:2,LA:7,FRR:4,CNC:4,IS:5,WOB:6,FS:8,DC:6,Periphery:3,CWIE:5</availability>
+			<availability>CS:6,LA:7,FRR:4,IS:5,WOB:6,FS:8,DC:6,CNC:4-,CWIE:5-</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>anti_aircraft</roles>
+				<availability>IS:8,FS:6,CNC:8,CWIE:8</availability>
 			</model>
 			<model name='(Company Command)'>
-				<roles>spotter,anti_aircraft</roles>
-				<availability>WOB:2,FS:2</availability>
+				<roles>command,spotter,anti_aircraft</roles>
+				<availability>WOB:2,FS:2+</availability>
 			</model>
 			<model name='(Lance Command)'>
-				<roles>spotter,anti_aircraft</roles>
-				<availability>WOB:4,FS:5</availability>
+				<roles>command,spotter,anti_aircraft</roles>
+				<availability>WOB:4,FS:5+</availability>
 			</model>
 			<model name='(Quad RAC)'>
 				<roles>anti_aircraft</roles>
-				<availability>WOB:1,FS:2+</availability>
+				<availability>WOB:1:3069,FS:2+:3069</availability>
 			</model>
 			<model name='(RAC)'>
 				<roles>anti_aircraft</roles>
@@ -11860,7 +11861,7 @@
 			</model>
 			<model name='(XL)'>
 				<roles>anti_aircraft</roles>
-				<availability>WOB:6,FS:6</availability>
+				<availability>WOB:6,FS:6+</availability>
 			</model>
 		</chassis>
 		<chassis name='Partisan Heavy Tank' unitType='Tank'>

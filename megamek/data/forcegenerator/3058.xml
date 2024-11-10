@@ -7608,21 +7608,22 @@
 			</model>
 		</chassis>
 		<chassis name='Partisan Air Defense Tank' unitType='Tank'>
-			<availability>CC:2,CS:3,LA:4,FRR:2,IS:2,WOB:2,FS:6+,DC:3,CWIE:4</availability>
+			<availability>CS:3,LA:3,FRR:3,IS:2,FS:6+,FWL:4+,DC:3,CWIE:4-</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>anti_aircraft</roles>
+				<availability>IS:8,CWIE:8</availability>
 			</model>
 			<model name='(Company Command)'>
-				<roles>spotter,anti_aircraft</roles>
-				<availability>WOB:2,FS:2</availability>
+				<roles>command,spotter,anti_aircraft</roles>
+				<availability>WOB:2,FS:2+</availability>
 			</model>
 			<model name='(Lance Command)'>
-				<roles>spotter,anti_aircraft</roles>
-				<availability>WOB:4,FS:5</availability>
+				<roles>command,spotter,anti_aircraft</roles>
+				<availability>WOB:4,FS:5+</availability>
 			</model>
 			<model name='(XL)'>
 				<roles>anti_aircraft</roles>
-				<availability>WOB:4,FS:4</availability>
+				<availability>WOB:4:3059,FS:4+:3059</availability>
 			</model>
 		</chassis>
 		<chassis name='Partisan Heavy Tank' unitType='Tank'>
