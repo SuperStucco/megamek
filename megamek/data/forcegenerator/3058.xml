@@ -8547,6 +8547,17 @@
 				<availability>LA:4+,FS:2+,MERC:2+</availability>
 			</model>
 		</chassis>
+        <chassis name='Salrilla Exoskeleton' unitType='BattleArmor'>
+            <availability>IS:2,MOC:2,OA:2,TC:3,CIR:2+,PIR:2+</availability>
+            <model name='[Mine Clearance](Sqd4)' mechanized='true'>
+                <roles>minesweeper,support</roles>
+                <availability>IS:6,Periphery:5,PIR:4</availability>
+            </model>
+            <model name='[Salvage Arm](Sqd4)' mechanized='true'>
+                <roles>support</roles>
+                <availability>IS:8,Periphery:8,PIR:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Samurai' unitType='AeroSpaceFighter'>
 			<availability>OA:2,FRR:1,DC:1</availability>
 			<model name='SL-25'>
