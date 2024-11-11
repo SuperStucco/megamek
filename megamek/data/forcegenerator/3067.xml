@@ -1060,17 +1060,18 @@
 		<chassis name='Ajax Assault Tank' unitType='Tank' omni='IS'>
 			<availability>CS:3,FS:6</availability>
 			<model name='A'>
-				<availability>General:6</availability>
+				<availability>FS:6,CS:4</availability>
 			</model>
 			<model name='B'>
-				<roles>spotter</roles>
-				<availability>General:4</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>IS:4</availability>
 			</model>
 			<model name='C'>
-				<availability>General:4</availability>
+                <roles>urban</roles>
+				<availability>IS:4:3068</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Akuma' unitType='Mek'>
