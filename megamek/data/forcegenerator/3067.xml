@@ -1249,11 +1249,13 @@
 			</model>
 		</chassis>
 		<chassis name='Arcas' unitType='Mek'>
-			<availability>CGB:5</availability>
+			<availability>CGB:5-</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>CGB:8</availability>
 			</model>
 			<model name='2'>
+                <roles>cavalry</roles>
 				<availability>CGB:3</availability>
 			</model>
 		</chassis>

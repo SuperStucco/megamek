@@ -1604,14 +1604,17 @@
 			</model>
 		</chassis>
 		<chassis name='Arcas' unitType='Mek'>
-			<availability>RD:6,CDS:3,CP:3</availability>
+			<availability>CHH:4RD:6,CDS:3,CW:3,RA:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>raider</roles>
+				<availability>CLAN.IS:8</availability>
 			</model>
 			<model name='2'>
+                <roles>cavalry</roles>
 				<availability>RD:3</availability>
 			</model>
 			<model name='3'>
+                <roles>raider</roles>
 				<availability>RD:6</availability>
 			</model>
 		</chassis>
