@@ -2657,13 +2657,13 @@
 		<chassis name='Basilisk ProtoMech (Quad)' unitType='ProtoMek'>
 			<availability>CCC:2,CCO:2</availability>
 			<model name=''>
-				<availability>CCC:2,CCO:2</availability>
+				<availability>CCC:8,CCO:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Basilisk' unitType='ProtoMek'>
 			<availability>CSA:2,CCC:6</availability>
 			<model name=''>
-				<availability>CSA:2,CCC:6</availability>
+				<availability>CSA:8,CCC:6</availability>
 			</model>
 			<model name='2'>
 				<availability>CCC:6</availability>

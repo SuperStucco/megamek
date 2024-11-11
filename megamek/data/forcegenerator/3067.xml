@@ -2139,10 +2139,19 @@
 				<availability>SOC:10,CCO:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Basilisk ProtoMech (Quad)' unitType='ProtoMek'>
+            <availability>SOC:4:3072,CCO:2:3072</availability>
+            <model name=''>
+                <availability>SOC:4,CCO:8</availability>
+            </model>
+            <model name='B'>
+                <availability>SOC:2</availability>
+            </model>
+        </chassis>
 		<chassis name='Basilisk' unitType='ProtoMek'>
-			<availability>CSA:2,CCC:5,SOC:4,CSV:3</availability>
+			<availability>CSA:2,CCC:5,SOC:4:3072,CSV:3</availability>
 			<model name=''>
-				<availability>CSA:2,CCC:5,SOC:4,CSV:3</availability>
+				<availability>CSA:8,CCC:5,SOC:4,CSV:3</availability>
 			</model>
 			<model name='2'>
 				<availability>CCC:5,CSV:3</availability>

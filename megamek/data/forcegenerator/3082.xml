@@ -2440,9 +2440,9 @@
 			</model>
 		</chassis>
 		<chassis name='Basilisk ProtoMech (Quad)' unitType='ProtoMek'>
-			<availability>CCC:2,CCO:2</availability>
+			<availability>CCC:2</availability>
 			<model name=''>
-				<availability>CCC:2,CCO:2</availability>
+				<availability>CCC:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Basilisk' unitType='ProtoMek'>

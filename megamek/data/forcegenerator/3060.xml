@@ -1901,15 +1901,12 @@
 			</model>
 		</chassis>
 		<chassis name='Basilisk' unitType='ProtoMek'>
-			<availability>CCC:4</availability>
+			<availability>CCC:4:3063</availability>
 			<model name=''>
-				<availability>CCC:4</availability>
+				<availability>CCC:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CCC:4</availability>
-			</model>
-			<model name='3'>
-				<availability>CCC:4</availability>
+				<availability>CCC:6:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Bastion System Defense Station' unitType='Space Station'>

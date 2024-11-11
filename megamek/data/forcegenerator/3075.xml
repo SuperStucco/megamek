@@ -2467,7 +2467,7 @@
 		<chassis name='Basilisk ProtoMech (Quad)' unitType='ProtoMek'>
 			<availability>CCC:2,SOC:4,CCO:2</availability>
 			<model name=''>
-				<availability>CCC:2,SOC:4,CCO:2</availability>
+				<availability>CCC:8,SOC:4,CCO:8</availability>
 			</model>
 			<model name='B'>
 				<availability>SOC:2</availability>
@@ -2476,7 +2476,7 @@
 		<chassis name='Basilisk' unitType='ProtoMek'>
 			<availability>CSA:2,CCC:6,SOC:4,CSV:4</availability>
 			<model name=''>
-				<availability>CSA:2,CCC:6,SOC:4,CSV:4</availability>
+				<availability>CSA:8,CCC:6,SOC:4,CSV:4</availability>
 			</model>
 			<model name='2'>
 				<availability>CCC:6,CSV:4</availability>
