@@ -2817,14 +2817,15 @@
 		<chassis name='Bishamon' unitType='Mek'>
 			<availability>FWL:4,RCM:4,DC:6</availability>
 			<model name='BSN-3K'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BSN-4K'>
-				<roles>spotter</roles>
-				<availability>DC:4</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:4+</availability>
 			</model>
 			<model name='BSN-5KC'>
-				<availability>DC:4</availability>
+                <roles>cavalry,ew_support</roles>
+				<availability>DC:4+:3076</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Hawk (Nova)' unitType='Mek' omni='Clan'>

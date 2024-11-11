@@ -3032,15 +3032,16 @@
             </model>
         </chassis>
         <chassis name='Bishamon' unitType='Mek'>
-            <availability>ROS:4,FWL:3,CP:3,DC:6</availability>
+            <availability>ROS:4,FWL:3,DC:6</availability>
             <model name='BSN-3K'>
-                <availability>General:8</availability>
+                <availability>IS:8,DC:5-</availability>
             </model>
             <model name='BSN-4K'>
-                <roles>spotter</roles>
-                <availability>ROS:4,DC:4</availability>
+                <roles>command,spotter</roles>
+                <availability>ROS:4,DC:4+</availability>
             </model>
             <model name='BSN-5KC'>
+                <roles>cavalry,ew_support</roles>
                 <availability>ROS:6,DC:6</availability>
             </model>
         </chassis>
