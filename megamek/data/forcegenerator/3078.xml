@@ -2974,19 +2974,23 @@
 			</model>
 		</chassis>
 		<chassis name='Beowulf' unitType='Mek'>
-			<availability>CS:6,FRR:6,CGB.FRR:6,ROS:6,CNC:4,CGB:4</availability>
+			<availability>CS:6,FRR:6,CGB.FRR:6,ROS:6,CNC:4-,CGB:4-</availability>
 			<model name='BEO-12'>
-				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<roles>command,recon,spotter</roles>
+				<availability>IS:6,CLAN.IS:8</availability>
 			</model>
 			<model name='BEO-14'>
-				<roles>recon</roles>
-				<availability>CS:4</availability>
+				<roles>command,recon</roles>
+				<availability>CS:4+</availability>
 			</model>
 			<model name='BEO-X-7a'>
-				<roles>recon,spotter</roles>
-				<availability>CS:1</availability>
+				<roles>recon,specops,spotter</roles>
+				<availability>CS:1+</availability>
 			</model>
+            <model name='C'>
+                <roles>command,recon,spotter</roles>
+                <availability>FRR:2+,CGB:4+</availability>
+            </model>
 		</chassis>
 		<chassis name='Berserker' unitType='Mek'>
 			<availability>PR:4,LA:7,FRR:3,CGB.FRR:3,ROS:4,PG:4,FS:3,MERC:2,RFS:4</availability>

@@ -2995,21 +2995,25 @@
             </model>
         </chassis>
         <chassis name='Beowulf IIC' unitType='Mek'>
-            <availability>RD:6</availability>
+            <availability>RD:6-,RA:4-</availability>
             <model name=''>
-                <roles>spotter</roles>
-                <availability>General:8</availability>
+                <roles>recon,spotter</roles>
+                <availability>CLAN.IS:8</availability>
             </model>
         </chassis>
         <chassis name='Beowulf' unitType='Mek'>
-            <availability>RD:6,ROS:6,CP:4</availability>
+            <availability>RD:6-,ROS:6</availability>
             <model name='BEO-12'>
-                <roles>recon,spotter</roles>
-                <availability>General:4</availability>
+                <roles>command,recon,spotter</roles>
+                <availability>ROS:4,RD:4-</availability>
             </model>
             <model name='BEO-14'>
-                <roles>recon</roles>
-                <availability>ROS:6</availability>
+                <roles>command,recon</roles>
+                <availability>ROS:6,RD:5-</availability>
+            </model>
+            <model name='C'>
+                <roles>command,recon,spotter</roles>
+                <availability>RD:4</availability>
             </model>
         </chassis>
         <chassis name='Berserker' unitType='Mek'>

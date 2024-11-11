@@ -2115,10 +2115,10 @@
 			</model>
 		</chassis>
 		<chassis name='Beowulf' unitType='Mek'>
-			<availability>CS:5,FRR:5,CNC:3</availability>
+			<availability>CS:5,FRR:5+,CNC:4-</availability>
 			<model name='BEO-12'>
-				<roles>recon,spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,recon,spotter</roles>
+				<availability>IS:8,CNC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Berserker' unitType='Mek'>

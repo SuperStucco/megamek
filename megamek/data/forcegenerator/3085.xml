@@ -2744,25 +2744,30 @@
 			</model>
 		</chassis>
 		<chassis name='Beowulf IIC' unitType='Mek'>
-			<availability>CGB.FRR:5,CGB:5</availability>
+			<availability>CGB.FRR:5,CGB:5-</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>recon,spotter</roles>
+				<availability>CGB.FRR:8,CGB:8</availability>
 			</model>
 			<model name='PR'>
-				<availability>General:1</availability>
+                <roles>recon</roles>
+				<availability>CGB.FRR:3-:3086,CGB:3-:3086</availability>
 			</model>
 		</chassis>
 		<chassis name='Beowulf' unitType='Mek'>
-			<availability>CGB.FRR:6,ROS:6,CNC:4,CGB:5</availability>
+			<availability>CGB.FRR:6,ROS:6,CNC:4-,CGB:5-</availability>
 			<model name='BEO-12'>
-				<roles>recon,spotter</roles>
-				<availability>General:5</availability>
+				<roles>command,recon,spotter</roles>
+				<availability>IS:5,CLAN.IS:8</availability>
 			</model>
 			<model name='BEO-14'>
-				<roles>recon</roles>
-				<availability>ROS:5</availability>
+				<roles>command,recon</roles>
+				<availability>ROS:5,CGB.FRR:5</availability>
 			</model>
+            <model name='C'>
+                <roles>command,recon,spotter</roles>
+                <availability>CGB.FRR:2+,CGB:4+</availability>
+            </model>
 		</chassis>
 		<chassis name='Berserker' unitType='Mek'>
 			<availability>PR:5,RF:5,LA:7,CGB.FRR:3,ROS:4,PG:5,FS:3,MERC:3,RFS:5</availability>
