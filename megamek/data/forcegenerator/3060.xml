@@ -1318,12 +1318,14 @@
 			</model>
 		</chassis>
 		<chassis name='Argus' unitType='Mek'>
-			<availability>FS:4+</availability>
+			<availability>FS:4+:3062</availability>
 			<model name='AGS-2D'>
-				<availability>General:8</availability>
+			    <roles>cavalry,fire_support</roles>
+				<availability>FS:4</availability>
 			</model>
 			<model name='AGS-4D'>
-				<availability>General:4</availability>
+                <roles>cavalry</roles>
+				<availability>FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Armored Personnel Carrier' unitType='Tank'>

@@ -1901,19 +1901,24 @@
 		<chassis name='Argus' unitType='Mek'>
 			<availability>FS:5</availability>
 			<model name='AGS-2D'>
-				<availability>General:8</availability>
+                <roles>cavalry,fire_support</roles>
+				<availability>FS:4</availability>
 			</model>
 			<model name='AGS-4D'>
-				<availability>General:5</availability>
+                <roles>cavalry</roles>
+				<availability>FS:8</availability>
 			</model>
 			<model name='AGS-5D'>
-				<availability>General:4</availability>
+                <roles>cavalry</roles>
+				<availability>FS:5</availability>
 			</model>
 			<model name='AGS-6F'>
-				<availability>General:3</availability>
+                <roles>cavalry</roles>
+				<availability>FS:3</availability>
 			</model>
 			<model name='AGS-8DX'>
-				<availability>General:2</availability>
+                <roles>cavalry</roles>
+				<availability>FS:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Armored Personnel Carrier' unitType='Tank'>
