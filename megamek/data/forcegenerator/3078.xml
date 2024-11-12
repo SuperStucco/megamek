@@ -17619,15 +17619,24 @@
 		</chassis>
 		<chassis name='Trinity Medium Battle Armor' unitType='BattleArmor'>
 			<availability>CC:7,MOC:7,MH:4,TC:7</availability>
-			<model name='(Asterion Upgrade)[PPC](Sqd4)' mechanized='false'>
+            <model name='(Asterion Upgrade)[MRR](Sqd4)' mechanized='true'>
+                <availability>TC:4-</availability>
+            </model>
+			<model name='(Asterion Upgrade)[PPC](Sqd4)' mechanized='true'>
 				<availability>TC:4</availability>
 			</model>
 			<model name='(Asterion)[MRR](Sqd4)' mechanized='false'>
-				<availability>MH:5,TC:5</availability>
+				<availability>TC:5-</availability>
 			</model>
+            <model name='(Asterion)[MRR](Sqd5)' mechanized='false'>
+                <availability>MH:8</availability>
+            </model>
 			<model name='(Asterion)[PPC](Sqd4)' mechanized='true'>
-				<availability>MH:5,TC:5</availability>
+				<availability>TC:5</availability>
 			</model>
+            <model name='(Asterion)[PPC](Sqd5)' mechanized='true'>
+                <availability>MH:6</availability>
+            </model>
 			<model name='(Theseus RL)[LRR](Sqd4)' mechanized='false'>
 				<availability>MOC:5</availability>
 			</model>
@@ -17640,6 +17649,9 @@
 			<model name='(Ying Long)(Plasma)(Sqd4)' mechanized='true'>
 				<availability>CC:8</availability>
 			</model>
+            <model name='(Ying Long BC3)(David)(Sqd4)' mechanized='true'>
+                <availability>CC:3+</availability>
+            </model>
 		</chassis>
 		<chassis name='Triton' unitType='ProtoMek'>
 			<availability>CEI:5,CGS:5</availability>

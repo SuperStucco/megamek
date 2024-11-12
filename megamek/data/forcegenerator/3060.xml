@@ -12335,12 +12335,12 @@
 			</model>
 		</chassis>
 		<chassis name='Trinity Medium Battle Armor' unitType='BattleArmor'>
-			<availability>CC:4,MOC:2,TC:2</availability>
-			<model name='(Asterion)[MRR](Sqd4)' mechanized='false'>
-				<availability>MH:6,TC:6</availability>
+			<availability>CC:4:3065,MOC:2+:3065,TC:2+:3065</availability>
+			<model name='(Asterion)[MRR](Sqd4)' mechanized='true'>
+				<availability>TC:6</availability>
 			</model>
 			<model name='(Asterion)[PPC](Sqd4)' mechanized='true'>
-				<availability>MH:6,TC:6</availability>
+				<availability>TC:6</availability>
 			</model>
 			<model name='(Theseus)[MRR](Sqd4)' mechanized='true'>
 				<availability>MOC:8</availability>

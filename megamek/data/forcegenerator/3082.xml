@@ -16356,28 +16356,40 @@
 			</model>
 		</chassis>
 		<chassis name='Trinity Medium Battle Armor' unitType='BattleArmor'>
-			<availability>CC:7,MOC:7,MH:4,TC:7</availability>
-			<model name='(Asterion Upgrade)[PPC](Sqd4)' mechanized='false'>
+			<availability>CC:7,MOC:7,MH:4,TC:7,FR:5+</availability>
+            <model name='(Asterion Upgrade)[MRR](Sqd4)' mechanized='true'>
+                <availability>TC:5-</availability>
+            </model>
+			<model name='(Asterion Upgrade)[PPC](Sqd4)' mechanized='true'>
 				<availability>TC:5</availability>
 			</model>
-			<model name='(Asterion)[MRR](Sqd4)' mechanized='false'>
-				<availability>MH:4,TC:4</availability>
+			<model name='(Asterion)[MRR](Sqd4)' mechanized='true'>
+				<availability>TC:4-</availability>
 			</model>
-			<model name='(Asterion)[PPC](Sqd4)' mechanized='true'>
-				<availability>MH:4,TC:4</availability>
+            <model name='(Asterion)[MRR](Sqd5)' mechanized='true'>
+                <availability>MH:8</availability>
+            </model>
+                <model name='(Asterion)[PPC](Sqd4)' mechanized='true'>
+				<availability>TC:4</availability>
 			</model>
-			<model name='(Theseus RL)[LRR](Sqd4)' mechanized='false'>
-				<availability>MOC:6</availability>
+            <model name='(Asterion)[PPC](Sqd5)' mechanized='true'>
+                <availability>MH:6</availability>
+            </model>
+			<model name='(Theseus RL)[LRR](Sqd4)' mechanized='true'>
+				<availability>MOC:6,FR:6</availability>
 			</model>
-			<model name='(Theseus Support)&apos;Killshot&apos;(Sqd4)' mechanized='false'>
-				<availability>MOC:6</availability>
+			<model name='(Theseus Support)&apos;Killshot&apos;(Sqd4)' mechanized='true'>
+				<availability>MOC:6,FR:6</availability>
 			</model>
 			<model name='(Theseus)[MRR](Sqd4)' mechanized='true'>
-				<availability>MOC:8</availability>
+				<availability>MOC:8,FR:8</availability>
 			</model>
 			<model name='(Ying Long)(Plasma)(Sqd4)' mechanized='true'>
 				<availability>CC:8</availability>
 			</model>
+            <model name='(Ying Long BC3)(David)(Sqd4)' mechanized='true'>
+                <availability>CC:3+</availability>
+            </model>
 		</chassis>
 		<chassis name='Triton' unitType='ProtoMek'>
 			<availability>CEI:5</availability>
