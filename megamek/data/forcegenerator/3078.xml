@@ -1698,26 +1698,32 @@
 		<chassis name='Archangel' unitType='Mek' omni='IS'>
 			<availability>WOB.SD:5,WOB:1+</availability>
 			<model name='C-ANG-O Invictus'>
-				<availability>General:8</availability>
+                <roles>command</roles>
+				<availability>WOB:8</availability>
 			</model>
 			<model name='C-ANG-OA Dominus'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-ANG-OB Infernus'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-ANG-OC Comminus'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-ANG-OD Luminos'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-ANG-OE Eminus'>
-				<roles>fire_support</roles>
-				<availability>General:7</availability>
+				<roles>command,fire_support</roles>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-ANG-OS Caelestis'>
-				<availability>General:4</availability>
+                <roles>command</roles>
+				<availability>WOB.SD:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Archer' unitType='Mek'>
