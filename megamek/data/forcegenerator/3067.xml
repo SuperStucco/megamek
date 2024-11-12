@@ -15200,7 +15200,8 @@
 		<chassis name='Thera Carrier' unitType='Warship'>
 			<availability>FWL:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>asf_carrier</roles>
+				<availability>FWL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Thor (Summoner)' unitType='Mek' omni='Clan'>
