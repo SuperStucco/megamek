@@ -1266,13 +1266,14 @@
 				<availability>CHH:8</availability>
 			</model>
 			<model name='(Interdictor)(Sqd5)' mechanized='true'>
-				<availability>CJF:4</availability>
+				<availability>CJF:4:3076</availability>
 			</model>
-			<model name='(Jade Falcon)(Sqd5)' mechanized='false'>
+			<model name='(Jade Falcon)(Sqd5)' mechanized='true'>
 				<availability>CJF:8</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:7</availability>
+                <roles>recon</roles>
+				<availability>CLAN:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Agamemnon Heavy Cruiser' unitType='Warship'>
