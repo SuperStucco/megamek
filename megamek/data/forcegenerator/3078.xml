@@ -3288,16 +3288,18 @@
 			</model>
 		</chassis>
 		<chassis name='Bloodhound' unitType='Mek'>
-			<availability>DTA:6,SC:6,DoO:6,MCM:6,FWL:6,WOB:4,DO:6,DGM:6,TP:6,DA:6</availability>
+			<availability>FWL:6,DA:6,MSC:6,DTA:6,SC:6,DoO:6,MCM:6,DO:6,DGM:6,TP:6,WOB:4</availability>
 			<model name='B1-HND'>
-				<availability>General:8</availability>
+                <roles>recon</roles>
+				<availability>FWL:8,DA:8,MSC:8,DTA:8,SC:8,DoO:8,MCM:8,DO:8,DGM:8,TP:8,WOB:8</availability>
 			</model>
 			<model name='B2-HND'>
-				<availability>General:4,RCM:0</availability>
+                <roles>ew_support,recon</roles>
+				<availability>FWL:4,DA:4,MSC:4,DTA:4,SC:4,DoO:4,MCM:4,DO:4,DGM:4,TP:4,RCM:0,WOB:4</availability>
 			</model>
 			<model name='B3-HND'>
-				<roles>anti_infantry</roles>
-				<availability>IS:2</availability>
+				<roles>anti_infantry,recon</roles>
+				<availability>FWL:2:3081</availability>
 			</model>
 		</chassis>
 		<chassis name='Blue Flame' unitType='Mek'>

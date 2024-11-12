@@ -3368,16 +3368,18 @@
 			</model>
 		</chassis>
 		<chassis name='Bloodhound' unitType='Mek'>
-			<availability>RF:5,ROS:4,FWL:6,MH:4,MERC:4,DA:6,CP:6</availability>
+			<availability>FWL:6,DA:6,RF:5,ROS:4,MERC:4,CW:4-,MH:4,TC:3</availability>
 			<model name='B1-HND'>
-				<availability>General:8</availability>
+                <roles>recon</roles>
+				<availability>IS:8,CW:8,MH:8</availability>
 			</model>
 			<model name='B2-HND'>
-				<availability>RF:0,General:4</availability>
+                <roles>ew_support,recon</roles>
+				<availability>IS:4,RF:0,CW:4,MH:4</availability>
 			</model>
 			<model name='B3-HND'>
-				<roles>anti_infantry</roles>
-				<availability>IS:4</availability>
+				<roles>anti_infantry,recon</roles>
+				<availability>IS:4,CW:3-,TC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bluehawk Combat Support Fighter' unitType='Conventional Fighter'>

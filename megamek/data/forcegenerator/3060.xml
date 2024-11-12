@@ -2349,9 +2349,10 @@
 			</model>
 		</chassis>
 		<chassis name='Bloodhound' unitType='Mek'>
-			<availability>FWL:4,WOB:3</availability>
+			<availability>FWL:4+:3064,WOB:3:3064</availability>
 			<model name='B1-HND'>
-				<availability>General:8</availability>
+                <roles>recon</roles>
+				<availability>FWL:8,WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Blue Flame' unitType='Mek'>

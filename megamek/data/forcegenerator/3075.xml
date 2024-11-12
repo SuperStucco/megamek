@@ -3089,12 +3089,14 @@
 			</model>
 		</chassis>
 		<chassis name='Bloodhound' unitType='Mek'>
-			<availability>DTA:6,FWL:6,WOB:4</availability>
+			<availability>FWL:6,WOB:4</availability>
 			<model name='B1-HND'>
-				<availability>General:8</availability>
+                <roles>recon</roles>
+				<availability>FWL:8,WOB:8</availability>
 			</model>
 			<model name='B2-HND'>
-				<availability>General:4,RCM:0</availability>
+                <roles>ew_support,recon</roles>
+				<availability>FWL:4,RCM:0,WOB:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Blue Flame' unitType='Mek'>

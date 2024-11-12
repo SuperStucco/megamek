@@ -3013,15 +3013,17 @@
 			</model>
 		</chassis>
 		<chassis name='Bloodhound' unitType='Mek'>
-			<availability>DoO:6,DO:6,DGM:6,MERC:3,DTA:6,SC:6,MCM:6,ROS:3,FWL:6,MH:3,MSC:4,TP:6,DA:6</availability>
+			<availability>FWL:6,DA:6,MSC:4,DTA:6,SC:6,DoO:6,MCM:6,DO:6,DGM:6,TP:6,MERC:3,ROS:3,MH:3+</availability>
 			<model name='B1-HND'>
-				<availability>General:8</availability>
+                <roles>recon</roles>
+				<availability>IS:8,MH:8</availability>
 			</model>
 			<model name='B2-HND'>
-				<availability>General:4,RCM:0</availability>
+                <roles>ew_support,recon</roles>
+				<availability>IS:4,RCM:0,MH:4</availability>
 			</model>
 			<model name='B3-HND'>
-				<roles>anti_infantry</roles>
+				<roles>anti_infantry,recon</roles>
 				<availability>IS:3</availability>
 			</model>
 		</chassis>
