@@ -3051,7 +3051,8 @@
 		<chassis name='Blackstone Baronet Passenger VTOL' unitType='VTOL'>
 			<availability>LA:3</availability>
 			<model name=''>
-				<availability>General:5</availability>
+                <roles>civilian</roles>
+				<availability>LA:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Blitzkrieg' unitType='Mek'>
