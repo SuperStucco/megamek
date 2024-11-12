@@ -18548,16 +18548,17 @@
             </model>
         </chassis>
         <chassis name='Sylph Battle Armor' unitType='BattleArmor'>
-            <availability>CDS:2,CP:2,RA:4</availability>
+            <availability>CDS:2,RA:4</availability>
             <model name='(Enhanced)(Sqd5)' mechanized='true'>
                 <availability>RA:8</availability>
             </model>
             <model name='(Sqd5)' mechanized='true'>
-                <availability>General:6</availability>
-            </model>
-            <model name='(Upgrade)(Sqd5)' mechanized='false'>
                 <roles>recon</roles>
-                <availability>General:7</availability>
+                <availability>CDS:6,RA:6</availability>
+            </model>
+            <model name='(Upgrade)(Sqd5)' mechanized='true'>
+                <roles>anti_infantry,recon</roles>
+                <availability>CDS:7,RA:7</availability>
             </model>
         </chassis>
         <chassis name='Tai-sho' unitType='Mek'>

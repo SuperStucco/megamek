@@ -11786,10 +11786,15 @@
 			</model>
 		</chassis>
 		<chassis name='Sylph Battle Armor' unitType='BattleArmor'>
-			<availability>CCC:6,CSR:2,CDS:2</availability>
+			<availability>CCC:6,CSR:2,CDS:2,CSA:2</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+                <roles>recon</roles>
+				<availability>CLAN:6</availability>
 			</model>
+		    <model name='(Upgrade)(Sqd5)' mechanized='true'>
+			    <roles>anti_infantry,recon</roles>
+			    <availability>CCC:5:3065,CSR:5:3065,CDS:2:3065</availability>
+		    </model>
 		</chassis>
 		<chassis name='Tai-sho' unitType='Mek'>
 			<availability>DC:2</availability>

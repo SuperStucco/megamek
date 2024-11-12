@@ -15005,12 +15005,17 @@
 		<chassis name='Sylph Battle Armor' unitType='BattleArmor'>
 			<availability>CSA:2,CCC:6,CSR:3,CDS:2,CB:2</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+                <roles>recon</roles>
+				<availability>CLAN:6</availability>
 			</model>
-			<model name='(Upgrade)(Sqd5)' mechanized='false'>
-				<roles>recon</roles>
-				<availability>General:7</availability>
+			<model name='(Upgrade)(Sqd5)' mechanized='true'>
+				<roles>anti_infantry,recon</roles>
+				<availability>CLAN:7</availability>
 			</model>
+            <model name='XR(Sqd5)' mechanized='true'>
+                <roles>anti_infantry</roles>
+                <availability>CSR:2:3077</availability>
+            </model>
 		</chassis>
 		<chassis name='Tai-sho' unitType='Mek'>
 			<availability>WOB:2,DC:4</availability>
