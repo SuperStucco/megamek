@@ -16423,10 +16423,10 @@
 			</model>
 		</chassis>
 		<chassis name='Tai-sho' unitType='Mek'>
-			<availability>ROS:4,DC:6</availability>
+			<availability>ROS:4,DC:6+</availability>
 			<model name='TSH-7S'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,spotter</roles>
+				<availability>ROS:6+,DC:6+</availability>
 			</model>
 			<model name='TSH-8S'>
 				<availability>ROS:6,DC:6</availability>

@@ -15018,13 +15018,13 @@
             </model>
 		</chassis>
 		<chassis name='Tai-sho' unitType='Mek'>
-			<availability>WOB:2,DC:4</availability>
+			<availability>WOB:2,DC:4+</availability>
 			<model name='TSH-7S'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:7+,WOB:8</availability>
 			</model>
 			<model name='TSH-8S'>
-				<availability>DC:5</availability>
+				<availability>DC:5:3073</availability>
 			</model>
 		</chassis>
 		<chassis name='Talon' unitType='Mek'>

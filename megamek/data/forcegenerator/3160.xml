@@ -17855,10 +17855,10 @@
 			</model>
 		</chassis>
 		<chassis name='Tai-sho' unitType='Mek'>
-			<availability>DC:6</availability>
+			<availability>DC:6+</availability>
 			<model name='TSH-7S'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:6+</availability>
 			</model>
 			<model name='TSH-8S'>
 				<availability>DC:6</availability>

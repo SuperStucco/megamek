@@ -16038,10 +16038,10 @@
 			</model>
 		</chassis>
 		<chassis name='Tai-sho' unitType='Mek'>
-			<availability>WOB:3,DC:5</availability>
+			<availability>WOB:3,DC:5+</availability>
 			<model name='TSH-7S'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:6+,WOB:8</availability>
 			</model>
 			<model name='TSH-8S'>
 				<availability>DC:6</availability>

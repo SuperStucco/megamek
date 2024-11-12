@@ -11797,10 +11797,10 @@
 		    </model>
 		</chassis>
 		<chassis name='Tai-sho' unitType='Mek'>
-			<availability>DC:2</availability>
+			<availability>DC:2+:3061</availability>
 			<model name='TSH-7S'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Talon' unitType='Mek'>
