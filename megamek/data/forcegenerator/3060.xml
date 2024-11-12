@@ -12487,8 +12487,9 @@
             </model>
 		</chassis>
 		<chassis name='Tyr Infantry Support Tank' unitType='Tank'>
-			<availability>CHH:4,CDS:4,FRR:1,CGB:4</availability>
+			<availability>CHH:4:3063,CDS:4:3063,FRR:1:3064,CGB:4:3063</availability>
 			<model name=''>
+			    <roles>apc</roles>
 				<availability>FRR:8,CLAN:8</availability>
 			</model>
 		</chassis>

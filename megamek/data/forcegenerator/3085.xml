@@ -17525,11 +17525,12 @@
 		<chassis name='Tyr Infantry Support Tank' unitType='Tank'>
 			<availability>CHH:4,CDS:4,CGB.FRR:2,ROS:3,CGB:5,DC:2</availability>
 			<model name=''>
+                <roles>apc</roles>
 				<availability>CGB.FRR:8,CLAN:8</availability>
 			</model>
 			<model name='(Kurita)'>
 				<roles>apc</roles>
-				<availability>IS:8</availability>
+				<availability>ROS:8,DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tyre' unitType='AeroSpaceFighter'>
