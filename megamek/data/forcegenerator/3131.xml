@@ -3238,15 +3238,15 @@
 			</model>
 		</chassis>
 		<chassis name='Black Hawk (Standard)' unitType='Mek'>
-			<availability>MOC:3,CHH:8,MERC.WD:4,MERC.KH:6,RD:3-,CDS:6,CNC:6,IS:5,MERC:6,CWIE:6,TC:3</availability>
+			<availability>CHH:8,CDS:6,CNC:6,RD:3-,CWIE:6,IS:5,MERC.WD:4,MERC:6+,MOC:3+,TC:3+</availability>
 			<model name=''>
-				<availability>General:6</availability>
+				<availability>CLAN.IS:6,IS:8,ROS:6,Periphery:8</availability>
 			</model>
 			<model name='2'>
-				<availability>General:4</availability>
+				<availability>CLAN:4.IS,IS:4+,ROS:4,MERC:3+</availability>
 			</model>
 			<model name='3'>
-				<availability>General:4</availability>
+				<availability>CLAN:4.IS,CNC:8,IS:4,TC:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Hawk-KU' unitType='Mek' omni='IS'>

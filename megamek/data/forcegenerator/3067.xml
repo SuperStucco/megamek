@@ -2525,9 +2525,9 @@
 			</model>
 		</chassis>
 		<chassis name='Black Hawk (Standard)' unitType='Mek'>
-			<availability>CHH:2-</availability>
+			<availability>CHH:2-:3073</availability>
 			<model name=''>
-				<availability>General:6</availability>
+				<availability>CHH:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Hawk-KU' unitType='Mek' omni='IS'>
