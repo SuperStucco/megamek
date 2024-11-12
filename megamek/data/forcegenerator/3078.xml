@@ -3239,10 +3239,12 @@
 		<chassis name='Blitzkrieg' unitType='Mek'>
 			<availability>SC:4,PR:4,LA:6,MCM:4,PG:4,FWL:2,DGM:4,RFS:4</availability>
 			<model name='BTZ-3F'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BTZ-4F'>
-				<availability>LA:5</availability>
+                <roles>raider</roles>
+				<availability>LA:5,RFS:2,PR:2,PG:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Blizzard Hover Transport' unitType='Tank'>

@@ -2323,9 +2323,10 @@
 			</model>
 		</chassis>
 		<chassis name='Blitzkrieg' unitType='Mek'>
-			<availability>LA:3,FWL:1</availability>
+			<availability>LA:3+:3061,FWL:1+:3061</availability>
 			<model name='BTZ-3F'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Blizzard Hover Transport' unitType='Tank'>

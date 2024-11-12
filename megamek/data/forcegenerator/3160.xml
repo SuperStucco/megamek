@@ -3277,11 +3277,13 @@
 			</model>
 		</chassis>
 		<chassis name='Blitzkrieg' unitType='Mek'>
-			<availability>RF:4,LA:6,FWL:2,MERC:4,CP:2</availability>
+			<availability>RF:4,LA:6,FWL:2,MERC:4</availability>
 			<model name='BTZ-3F'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BTZ-4F'>
+                <roles>raider</roles>
 				<availability>RF:6,LA:6</availability>
 			</model>
 		</chassis>

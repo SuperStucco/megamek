@@ -3049,9 +3049,11 @@
 		<chassis name='Blitzkrieg' unitType='Mek'>
 			<availability>LA:6,FWL:3</availability>
 			<model name='BTZ-3F'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='BTZ-4F'>
+                <roles>raider</roles>
 				<availability>LA:5</availability>
 			</model>
 		</chassis>
