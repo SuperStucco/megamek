@@ -1572,15 +1572,16 @@
 			</model>
 		</chassis>
 		<chassis name='Asura Medium Battle Armor' unitType='BattleArmor'>
-			<availability>WOB.SD:6</availability>
+			<availability>WOB.SD:6:3072</availability>
 			<model name='(Anti-Infantry)(Sqd6)' mechanized='true'>
-				<availability>WOB:5</availability>
+                <roles>anti_infantry</roles>
+				<availability>WOB.SD:5</availability>
 			</model>
 			<model name='(SRM)(Sqd6)' mechanized='true'>
-				<availability>WOB:4</availability>
+				<availability>WOB.SD:4</availability>
 			</model>
-			<model name='(Sqd6)' mechanized='false'>
-				<availability>WOB:8</availability>
+			<model name='(Sqd6)' mechanized='true'>
+				<availability>WOB.SD:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Athena Combat Vehicle' unitType='Tank'>
