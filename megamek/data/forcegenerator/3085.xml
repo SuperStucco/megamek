@@ -1173,12 +1173,12 @@
 		<chassis name='Aerie PA(L)' unitType='BattleArmor'>
 			<availability>RA:6</availability>
 			<model name='(Salvage)(Sqd5)' mechanized='false'>
-				<roles>marine</roles>
-				<availability>General:6</availability>
+				<roles>marine,support</roles>
+				<availability>RA:8</availability>
 			</model>
-			<model name='(Sqd5)' mechanized='false'>
+			<model name='(Sqd5)' mechanized='true'>
 				<roles>marine</roles>
-				<availability>General:4</availability>
+				<availability>RA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Aeron Strike VTOL' unitType='VTOL'>
