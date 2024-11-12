@@ -17709,32 +17709,32 @@
 		<chassis name='Star Adder (Blood Asp)' unitType='Mek' omni='Clan'>
 			<availability>CHH:4+,RA:2+</availability>
 			<model name='A'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='C'>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='D'>
-				<availability>General:5</availability>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='E'>
-				<availability>General:5</availability>
+				<availability>CLAN:5</availability>
 			</model>
 			<model name='F'>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='G'>
-				<availability>General:5</availability>
+				<availability>CLAN:5,CHH:7</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:7</availability>
+				<availability>CLAN:7</availability>
 			</model>
 			<model name='T'>
-				<availability>General:5</availability>
+				<availability>CLAN:5:3142</availability>
 			</model>
 		</chassis>
 		<chassis name='Star Dagger' unitType='AeroSpaceFighter'>

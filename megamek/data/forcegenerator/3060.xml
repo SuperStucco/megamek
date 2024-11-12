@@ -2342,31 +2342,6 @@
 				<availability>General:5</availability>
 			</model>
 		</chassis>
-		<chassis name='Blood Asp' unitType='Mek' omni='Clan'>
-			<availability>CSA:5,CHH:3,CCC:2,CBS:2</availability>
-			<model name='A'>
-				<availability>General:8</availability>
-			</model>
-			<model name='B'>
-				<roles>fire_support</roles>
-				<availability>General:6</availability>
-			</model>
-			<model name='C'>
-				<availability>General:4</availability>
-			</model>
-			<model name='D'>
-				<availability>CSA:7,General:5</availability>
-			</model>
-			<model name='E'>
-				<availability>General:5</availability>
-			</model>
-			<model name='F'>
-				<availability>General:4</availability>
-			</model>
-			<model name='Prime'>
-				<availability>General:7</availability>
-			</model>
-		</chassis>
 		<chassis name='Blood Kite' unitType='Mek'>
 			<availability>CSA:4,CCC:3,CFM.MiKr:5,CBS:10,CFM:3</availability>
 			<model name=''>
@@ -11418,26 +11393,23 @@
 		<chassis name='Star Adder (Blood Asp)' unitType='Mek' omni='Clan'>
 			<availability>CSA:4+,CHH:2+,CCC:1:3062,CBS:1:3062</availability>
 			<model name='A'>
-				<availability>General:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:6</availability>
+				<availability>CLAN:6</availability>
 			</model>
 			<model name='C'>
-				<availability>General:4</availability>
+				<availability>CLAN:4</availability>
 			</model>
 			<model name='D'>
-				<availability>CSA:7,General:5</availability>
+				<availability>CSA:7,CLAN:5</availability>
 			</model>
 			<model name='E'>
-				<availability>General:5</availability>
-			</model>
-			<model name='F'>
-				<availability>General:4</availability>
+				<availability>CLAN:5:3063</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:7</availability>
+				<availability>CLAN:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Star Lord JumpShip' unitType='Jumpship'>
