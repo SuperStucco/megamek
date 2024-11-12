@@ -1678,7 +1678,7 @@
 			<availability>WOB:2</availability>
 			<model name=''>
                 <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Behemoth (Stone Rhino)' unitType='Mek'>

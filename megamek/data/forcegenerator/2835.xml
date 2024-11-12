@@ -873,7 +873,7 @@
 			<availability>CC:2+,CS:2,LA:1+,CLAN:6,FWL:1+,NIOPS:2,FS:1+,MERC:1+,DC:1+</availability>
 			<model name=''>
 			    <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CLAN:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Behemoth (Stone Rhino)' unitType='Mek'>

@@ -582,7 +582,7 @@
 			<availability>CC:4+,LA:3+,SL:8,FWL:3+,NIOPS:2,FS:3+,MERC:2+,DC:3+</availability>
 			<model name=''>
 			    <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Behemoth' unitType='Dropship'>

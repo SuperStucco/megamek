@@ -483,7 +483,7 @@
 			<availability>SL:7:2666</availability>
 			<model name=''>
 			    <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>SL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Eagle' unitType='Dropship'>

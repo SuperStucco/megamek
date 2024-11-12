@@ -2899,7 +2899,7 @@
 			<availability>CS:5,ROS:5,NIOPS:5,WOB:8</availability>
 			<model name=''>
 			    <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,NIOPS:8</availability>
 			</model>
 			<model name='(C3i)'>
 				<roles>spotter</roles>

@@ -576,7 +576,7 @@
 			<availability>CC:4+,LA:4+,SL:8,FWL:4+,RWR:2+,FS:4+,MERC:2+,DC:4+</availability>
 			<model name=''>
 			    <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,RWR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Eagle' unitType='Dropship'>

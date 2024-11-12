@@ -2781,7 +2781,7 @@
 			<availability>ROS:6</availability>
 			<model name=''>
 			    <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>ROS:8</availability>
 			</model>
 			<model name='(Sealed)'>
                 <roles>recon</roles>

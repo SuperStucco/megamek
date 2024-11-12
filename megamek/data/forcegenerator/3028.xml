@@ -1158,7 +1158,7 @@
 			<availability>CS:2,NIOPS:2</availability>
 			<model name=''>
                 <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>CS:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Behemoth (Stone Rhino)' unitType='Mek'>

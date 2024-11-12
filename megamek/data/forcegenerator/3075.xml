@@ -2708,7 +2708,7 @@
 			<availability>CS:5,NIOPS:5,WOB:8</availability>
 			<model name=''>
 			    <roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>CS:8,WOB:8,NIOPS:8</availability>
 			</model>
 			<model name='(C3i)'>
 				<roles>recon,spotter</roles>
