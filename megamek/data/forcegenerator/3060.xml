@@ -13165,7 +13165,8 @@
 		<chassis name='White Flame' unitType='Mek'>
 			<availability>WOB:3</availability>
 			<model name='WHF-3B'>
-				<availability>WOB:8</availability>
+			    <roles>cavalry</roles>
+				<availability>WOB:8:3065</availability>
 			</model>
 		</chassis>
 		<chassis name='Whitestreak Jetski' unitType='Naval'>

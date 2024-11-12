@@ -16820,10 +16820,12 @@
 		<chassis name='White Flame' unitType='Mek'>
 			<availability>WOB.SD:6,WOB:4</availability>
 			<model name='WHF-3B'>
+                <roles>cavalry</roles>
 				<availability>WOB:8</availability>
 			</model>
 			<model name='WHF-3C'>
-				<availability>WOB:4</availability>
+                <roles>cavalry</roles>
+				<availability>WOB:4:3069</availability>
 			</model>
 		</chassis>
 		<chassis name='White Tip Submarine' unitType='Naval'>
