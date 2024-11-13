@@ -4221,19 +4221,24 @@
 			</model>
 		</chassis>
 		<chassis name='Enforcer III' unitType='Mek'>
-			<availability>FS:5,MERC:3</availability>
+			<availability>FS:5,SIC:3,MERC:3+</availability>
 			<model name='ENF-6G'>
                 <roles>raider</roles>
-				<availability>FS:3:3062,MERC:3:3062</availability>
+				<availability>FS:3:3062,MERC:3+:3062</availability>
 			</model>
 			<model name='ENF-6H'>
+                <roles>raider</roles>
 				<availability>FS:4:3064</availability>
 			</model>
 			<model name='ENF-6M'>
-				<availability>FS:8,MERC:8</availability>
+                <roles>raider</roles>
+				<availability>FS:8,SIC:8,MERC:8</availability>
 			</model>
+            <model name='ENF-6Ma'>
+                <availability>FS:8-:3065</availability>
+            </model>
 			<model name='ENF-6T'>
-				<availability>FS:4:3062</availability>
+				<availability>FS:4+:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Enforcer' unitType='Mek'>

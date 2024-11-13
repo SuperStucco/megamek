@@ -3528,9 +3528,10 @@
 			</model>
 		</chassis>
 		<chassis name='Enforcer III' unitType='Mek'>
-			<availability>FS:4</availability>
+			<availability>FS:4:3059,SIC:2+:3059</availability>
 			<model name='ENF-6M'>
-				<availability>FS:5,MERC:5</availability>
+                <roles>raider</roles>
+				<availability>FS:8,SIC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Enforcer' unitType='Mek'>

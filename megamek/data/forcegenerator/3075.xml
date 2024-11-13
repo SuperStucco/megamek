@@ -5733,24 +5733,26 @@
 				<availability>FS:2,MERC:4</availability>
 			</model>
 			<model name='ENF-6H'>
+                <roles>raider</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='ENF-6M'>
-				<availability>FVC:8,FS:8,MERC:8</availability>
+                <roles>raider</roles>
+				<availability>FVC:6,FS:8,MERC:8</availability>
 			</model>
 			<model name='ENF-6Ma'>
-				<availability>FVC:2,FS:2</availability>
+				<availability>FVC:8-,FS:6-</availability>
 			</model>
 			<model name='ENF-6NAIS'>
                 <roles>raider</roles>
-				<availability>FS:1</availability>
+				<availability>FS:4+</availability>
 			</model>
 			<model name='ENF-6T'>
 				<availability>FS:4</availability>
 			</model>
 			<model name='ENF-7C3BS'>
                 <roles>raider</roles>
-				<availability>FS:1</availability>
+				<availability>FS:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Enforcer' unitType='Mek'>

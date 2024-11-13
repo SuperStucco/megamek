@@ -6251,33 +6251,31 @@
 		</chassis>
 		<chassis name='Enforcer III' unitType='Mek'>
 			<availability>FVC:5,MERC:5,FS:7</availability>
-			<model name='ENF-6G'>
-                <roles>raider</roles>
-				<availability>FS:1,MERC:4</availability>
-			</model>
 			<model name='ENF-6H'>
+                <roles>raider</roles>
 				<availability>FS:1</availability>
 			</model>
 			<model name='ENF-6M'>
-				<availability>FVC:8,FS:8,MERC:8</availability>
+                <roles>raider</roles>
+				<availability>FVC:5+,FS:6,MERC:8</availability>
 			</model>
 			<model name='ENF-6Ma'>
-				<availability>FVC:4,FS:4,MERC:4</availability>
+				<availability>FVC:8-,FS:3-,MERC:4-</availability>
 			</model>
 			<model name='ENF-6NAIS'>
                 <roles>raider</roles>
-				<availability>FS:1</availability>
+				<availability>FS:4+</availability>
 			</model>
-			<model name='ENF-6T'>
-				<availability>FS:4</availability>
-			</model>
+            <model name='ENF-6R'>
+                <availability>FS:6,MERC:4</availability>
+            </model>
 			<model name='ENF-7C3BS'>
                 <roles>raider</roles>
-				<availability>FS:1</availability>
+				<availability>FS:3+</availability>
 			</model>
 			<model name='ENF-7D'>
-                <roles>command,raider</roles>
-				<availability>FS:6</availability>
+                <roles>command</roles>
+				<availability>FS:6,MERC:4+</availability>
 			</model>
 		</chassis>
 		<chassis name='Enforcer' unitType='Mek'>
