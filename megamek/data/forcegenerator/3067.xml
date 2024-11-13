@@ -4815,38 +4815,30 @@
 			</model>
 		</chassis>
 		<chassis name='Deva' unitType='Mek' omni='IS'>
-			<availability>WOB.SD:5,WOB:1+</availability>
+			<availability>WOB.SD:5:3069,WOB:1+:3069</availability>
 			<model name='C-DVA-O Invictus'>
 				<deployedWith>Grigori</deployedWith>
-				<availability>General:8</availability>
+				<availability>WOB:8</availability>
 			</model>
 			<model name='C-DVA-OA Dominus'>
 				<deployedWith>Grigori</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-DVA-OB Infernus'>
 				<deployedWith>Grigori</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-DVA-OC Comminus'>
 				<deployedWith>Grigori</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-DVA-OD Luminos'>
 				<deployedWith>Grigori</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-DVA-OE Eminus'>
 				<deployedWith>Grigori</deployedWith>
-				<availability>General:7</availability>
-			</model>
-			<model name='C-DVA-OS Caelestis'>
-				<deployedWith>Grigori</deployedWith>
-				<availability>General:4</availability>
-			</model>
-			<model name='C-DVA-OU Exanimus'>
-				<deployedWith>Grigori</deployedWith>
-				<availability>General:4</availability>
+				<availability>WOB:5:3072</availability>
 			</model>
 		</chassis>
 		<chassis name='Devastator Heavy Tank' unitType='Tank'>
