@@ -3330,7 +3330,7 @@
 				<availability>CCO:3</availability>
 			</model>
 			<model name='2'>
-				<deployedWith>Sprite Ultraheavy ProtoMech</deployedWith>
+                <roles>raider</roles>
 				<availability>CCO:2</availability>
 			</model>
 		</chassis>

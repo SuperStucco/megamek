@@ -3040,16 +3040,6 @@
 				<availability>General:5</availability>
 			</model>
 		</chassis>
-		<chassis name='Boggart Ultraheavy ProtoMech' unitType='ProtoMek'>
-			<availability>CCO:1:3080</availability>
-			<model name=''>
-				<availability>CCO:1:3080</availability>
-			</model>
-			<model name='2'>
-				<deployedWith>Sprite Ultraheavy ProtoMech</deployedWith>
-				<availability>CCO:1:3080</availability>
-			</model>
-		</chassis>
 		<chassis name='Bolla Stealth Tank (RotS)' unitType='Tank' omni='IS'>
 			<availability>ROS:1</availability>
 			<model name='A'>

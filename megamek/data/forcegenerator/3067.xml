@@ -2771,12 +2771,12 @@
 			</model>
 		</chassis>
 		<chassis name='Boggart Ultraheavy ProtoMech' unitType='ProtoMek'>
-			<availability>SOC:4+,CCO:4</availability>
+			<availability>SOC:4+:3072,CCO:4:3072</availability>
 			<model name=''>
 				<availability>SOC:2+,CCO:3</availability>
 			</model>
 			<model name='2'>
-				<deployedWith>Sprite Ultraheavy ProtoMech</deployedWith>
+                <roles>raider</roles>
 				<availability>SOC:2,CCO:2</availability>
 			</model>
 		</chassis>
