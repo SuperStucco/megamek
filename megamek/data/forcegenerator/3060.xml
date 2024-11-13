@@ -2859,16 +2859,16 @@
 			</model>
 		</chassis>
 		<chassis name='Challenger MBT' unitType='Tank'>
-			<availability>LA:6,FS:7,MERC:4,DC:4,TC:4</availability>
+			<availability>FC:7,LA:4+,FS:7,MERC:4+,DC:4+</availability>
 			<model name='X'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='XI'>
-				<roles>spotter</roles>
-				<availability>LA:6,FS:6,DC:6</availability>
+				<roles>command,spotter</roles>
+				<availability>FC:5+:3062,IS:4+:3062</availability>
 			</model>
 			<model name='XII'>
-				<availability>LA:5,FS:5,DC:5</availability>
+				<availability>LA:4:3065,FS:5:3065,DC:4:3065</availability>
 			</model>
 		</chassis>
 		<chassis name='Chameleon' unitType='Mek'>

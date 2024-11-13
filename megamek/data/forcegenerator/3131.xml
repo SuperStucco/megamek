@@ -4391,22 +4391,22 @@
 			</model>
 		</chassis>
 		<chassis name='Challenger MBT' unitType='Tank'>
-			<availability>LA:4,ROS:4,FS:8,MERC:4,DC:4,TC:4</availability>
+			<availability>LA:2,ROS:4,FS:8,MERC:4+,DC:2,TC:2+</availability>
 			<model name='Mk. XV'>
-				<availability>FS.PMM:8,ROS:4,FS.CMM:8,FS.DMM:8,FS:6,FS.CrMM:8</availability>
+				<availability>FS:7,ROS:4</availability>
 			</model>
 			<model name='X'>
-				<availability>General:8</availability>
+				<availability>IS:8,FS:4+,TC:8</availability>
 			</model>
 			<model name='XI'>
-				<roles>spotter</roles>
-				<availability>LA:6,FS:6,DC:6</availability>
+				<roles>command,spotter</roles>
+				<availability>LA:3+,FS:4+</availability>
 			</model>
 			<model name='XII'>
-				<availability>LA:5,ROS:5,FS:5,DC:5</availability>
+				<availability>LA:2,ROS:5,FS:5+,MERC:5+</availability>
 			</model>
 			<model name='XIVs'>
-				<availability>LA:4,ROS:4,FS:4,DC:4</availability>
+				<availability>LA:3,ROS:4,FS:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Chameleon' unitType='Mek'>

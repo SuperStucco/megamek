@@ -2263,9 +2263,9 @@
 			</model>
 		</chassis>
 		<chassis name='Challenger MBT' unitType='Tank'>
-			<availability>LA:6,FS:6,MERC:3,DC:3,TC:4</availability>
+			<availability>FC:6+:3057,FS:5+:3057</availability>
 			<model name='X'>
-				<availability>General:8</availability>
+				<availability>FC:8,FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Chameleon' unitType='Mek'>
