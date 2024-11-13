@@ -7562,11 +7562,12 @@
 		<chassis name='Glory Heavy Fire Support Vehicle' unitType='Tank'>
 			<availability>FS:7</availability>
 			<model name=''>
+                <roles>fire_support</roles>
 				<availability>FS:8</availability>
 			</model>
 			<model name='(3090 Upgrade)'>
-				<roles>fire_support</roles>
-				<availability>FS:6</availability>
+				<roles>ew_support,fire_support</roles>
+				<availability>FS:6+</availability>
 			</model>
 			<model name='(Arrow IV)'>
 				<roles>missile_artillery</roles>
@@ -7574,7 +7575,7 @@
 			</model>
 			<model name='(Light Gauss)'>
 				<roles>fire_support</roles>
-				<availability>General:2</availability>
+				<availability>FS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Gnome Battle Armor' unitType='BattleArmor'>
