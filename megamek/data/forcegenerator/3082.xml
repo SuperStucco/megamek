@@ -4253,10 +4253,13 @@
 			</model>
 		</chassis>
 		<chassis name='Condor Heavy Hover Tank' unitType='Tank'>
-			<availability>CC:2,MOC:1,HL:2,IS:3,FS:4,Periphery:3,TC:2,FVC:4,LA:5,CGB.FRR:3,ROS:3,NIOPS:3</availability>
+			<availability>CC:2,MOC:1,HL:2,IS:3,FS:4,Periphery:3,TC:2,FVC:4,LA:5,CGB.FRR:3,CLAN.IS:3-,ROS:3,NIOPS:3</availability>
 			<model name=''>
-				<availability>CC:4-,FVC:3-,General:2-,FS:4-,Periphery:3-</availability>
+				<availability>CC:4-,FVC:3-,IS:2-,FS:4-,Periphery:3-</availability>
 			</model>
+            <model name='C'>
+                <availability>CLAN.IS:8</availability>
+            </model>
 			<model name='(Flamer)'>
 				<availability>CC:1,LA:1,FS:1</availability>
 			</model>

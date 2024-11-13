@@ -1327,7 +1327,7 @@
 		<chassis name='Condor Heavy Hover Tank' unitType='Tank'>
 			<availability>CS:3,LA:7,IS:3,NIOPS:3,Periphery:3</availability>
 			<model name=''>
-				<availability>CC:6,General:8,FS:6,Periphery:8</availability>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Condor' unitType='Dropship'>

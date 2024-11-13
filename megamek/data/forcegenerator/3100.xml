@@ -4569,13 +4569,23 @@
 			</model>
 		</chassis>
 		<chassis name='Condor Heavy Hover Tank' unitType='Tank'>
-			<availability>CC:2,FVC:2,LA:4,ROS:3,IS:2,FWL:2,FS:3,TC:2,DC:2,Periphery:2</availability>
+			<availability>FVC:2,LA:4,ROS:3,IS:2,FS:3,CLAN.IS:4-,Periphery:2</availability>
 			<model name=''>
 				<availability>Periphery:2-</availability>
 			</model>
+            <model name='C'>
+                <availability>CLAN.IS:8</availability>
+            </model>
+            <model name='(Laser Upgrade)'>
+                <availability>FS:4:3130</availability>
+            </model>
 			<model name='(Laser)'>
 				<availability>LA:2,IS:2</availability>
 			</model>
+            <model name='(Ultra)'>
+                <roles>spotter</roles>
+                <availability>IS:3+:3113,MERC:2+:3113</availability>
+            </model>
 			<model name='(Upgrade) (Laser)'>
 				<availability>LA:6,IS:8</availability>
 			</model>

@@ -3328,7 +3328,7 @@
 		<chassis name='Condor Heavy Hover Tank' unitType='Tank'>
 			<availability>MOC:2,CC:2,HL:2,IS:3,WOB:3,FS:4,Periphery:3,TC:2,CS:3,LA:6,NIOPS:3</availability>
 			<model name=''>
-				<availability>CC:6,General:7,FS:6,Periphery:7</availability>
+				<availability>IS:7,CC:6,FS:6,Periphery:7</availability>
 			</model>
 			<model name='(Davion)'>
 				<availability>SIC:5,FS:6</availability>
@@ -3336,12 +3336,18 @@
 			<model name='(Flamer)'>
 				<availability>CC:2,LA:2,SIC:2,FS:2</availability>
 			</model>
+            <model name='(Fusion)'>
+                <availability>LA:3,MERC:3</availability>
+            </model>
 			<model name='(Laser)'>
-				<availability>LA:5,IS:3</availability>
+				<availability>LA:5:3061,IS:3:3061</availability>
 			</model>
 			<model name='(Liao)'>
 				<availability>CC:8,SIC:5</availability>
 			</model>
+            <model name='(Upgrade)'>
+                <availability>LA:8:3066,FWL:6:3066,MERC:6:3066</availability>
+            </model>
 		</chassis>
 		<chassis name='Condor' unitType='Dropship'>
 			<availability>IS:5,Periphery.Deep:6,WOB:4,CIR:6,Periphery:6</availability>

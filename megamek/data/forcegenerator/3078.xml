@@ -4580,7 +4580,7 @@
 		<chassis name='Condor Heavy Hover Tank' unitType='Tank'>
 			<availability>CC:2,MOC:2,HL:2,IS:3,WOB:3,FS:4,Periphery:3,TC:2,CS:3,FVC:4,LA:5,CGB.FRR:3,ROS:3,NIOPS:3</availability>
 			<model name=''>
-				<availability>CC:4-,FVC:4-,General:3-,FS:4-,Periphery:3-</availability>
+				<availability>CC:4-,FVC:4-,IS:3-,FS:4-,Periphery:3-</availability>
 			</model>
 			<model name='(Davion)'>
 				<availability>FS:2-</availability>
@@ -4588,6 +4588,9 @@
 			<model name='(Flamer)'>
 				<availability>CC:2,LA:2,FS:2</availability>
 			</model>
+            <model name='(Fusion)'>
+                <availability>LA:1,MERC:1</availability>
+            </model>
 			<model name='(Laser)'>
 				<availability>LA:3,IS:3</availability>
 			</model>

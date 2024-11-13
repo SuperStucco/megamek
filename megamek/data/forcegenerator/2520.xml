@@ -510,9 +510,9 @@
 			</model>
 		</chassis>
 		<chassis name='Condor Heavy Hover Tank' unitType='Tank'>
-			<availability>LA:5</availability>
+			<availability>LA:5:2564</availability>
 			<model name=''>
-				<availability>General:8,Periphery:8</availability>
+				<availability>LA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Congress D Frigate' unitType='Warship'>
