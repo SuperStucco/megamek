@@ -3851,21 +3851,21 @@
 			</model>
 		</chassis>
 		<chassis name='Centaur' unitType='ProtoMek'>
-			<availability>CHH:5,CSR:3,CEI:4,CNC:6,CSL:5,CJF:4</availability>
+			<availability>CHH:5,CSR:3,CNC:6,CSL:5,CEI:4</availability>
 			<model name=''>
-				<availability>CHH:8,CNC:8,CSL:5,CJF:3</availability>
+				<availability>CHH:8,CNC:8,CSL:5</availability>
 			</model>
 			<model name='2'>
-				<roles>mag_clamp</roles>
 				<availability>CSL:5</availability>
 			</model>
 			<model name='3'>
-				<availability>CSR:3,CBS:6</availability>
+				<availability>CSR:3</availability>
 			</model>
 			<model name='4'>
 				<availability>CEI:4</availability>
 			</model>
 			<model name='Z'>
+                <roles>mag_clamp</roles>
 				<availability>CEI:4</availability>
 			</model>
 		</chassis>

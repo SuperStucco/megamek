@@ -3239,17 +3239,17 @@
 				<availability>CHH:8,SOC:6,CNC:8,CFM:6,CJF:6</availability>
 			</model>
 			<model name='2'>
-				<roles>mag_clamp</roles>
-				<availability>CHH:4,CSR:4,CBS:4,CNC:4,CFM:8,CJF:4</availability>
+				<availability>CHH:2,CSR:2,CBS:3,CNC:2,CFM:8,CJF:2</availability>
 			</model>
 			<model name='3'>
-				<availability>CSR:6,CIH:4,CBS:4,CSV:4,CFM:6,CJF:4</availability>
+				<availability>CSR:8,CIH:4,CBS:3,CSV:8,CFM:6,CJF:2</availability>
 			</model>
 			<model name='4'>
-				<availability>CIH:3</availability>
+				<availability>CIH:3:3071</availability>
 			</model>
 			<model name='Z'>
-				<availability>CIH:4</availability>
+                <roles>mag_clamp</roles>
+				<availability>SOC:4:3072</availability>
 			</model>
 		</chassis>
 		<chassis name='Centipede Scout Car' unitType='Tank'>

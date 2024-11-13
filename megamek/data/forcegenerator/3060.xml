@@ -2745,16 +2745,15 @@
 			</model>
 		</chassis>
 		<chassis name='Centaur' unitType='ProtoMek'>
-			<availability>CHH:4,CSR:3,CBS:3,CNC:4,CFM:3,CSJ:5,CJF:5</availability>
+			<availability>CHH:4,CSR:3:3062,CBS:3:3062,CNC:4:3062,CFM:3:3062,CSJ:5,CJF:5:3062</availability>
 			<model name=''>
-				<availability>CHH:8,CNC:8,CFM:8,CSJ:8,CJF:8</availability>
+				<availability>CHH:8,CSR:8,CNC:8,CFM:8,CSJ:8,CJF:8</availability>
 			</model>
 			<model name='2'>
-				<roles>mag_clamp</roles>
-				<availability>CHH:4,CSR:4,CBS:4,CNC:4,CFM:6,CJF:4</availability>
+				<availability>CHH:4:3063,CSR:4:3063,CBS:4:3063,CNC:4:3063,CFM:6:3063,CJF:4:3063</availability>
 			</model>
 			<model name='3'>
-				<availability>CSR:4,CBS:3,CFM:4,CJF:4</availability>
+				<availability>CSR:4:3065,CBS:3:3065,CFM:4:3065,CJF:4:3065</availability>
 			</model>
 		</chassis>
 		<chassis name='Centipede Scout Car' unitType='Tank'>
