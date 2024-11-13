@@ -3728,6 +3728,34 @@
 				<availability>MH:6:3077</availability>
 			</model>
 		</chassis>
+        <chassis name='Cephalus' unitType='Mek' omni='Clan'>
+            <availability>SOC:3,CCO:1</availability>
+            <model name='A'>
+                <roles>recon,spotter</roles>
+                <availability>SOC:7,CCO:3-</availability>
+            </model>
+            <model name='B'>
+                <roles>specops,spotter</roles>
+                <availability>SOC:6,CCO:4-</availability>
+            </model>
+            <model name='C'>
+                <availability>SOC:5,CCO:5</availability>
+            </model>
+            <model name='D'>
+                <availability>SOC:6,CCO:7</availability>
+            </model>
+            <model name='E'>
+                <roles>spotter</roles>
+                <availability>SOC:6,CCO:8</availability>
+            </model>
+            <model name='Prime'>
+                <roles>recon,spotter</roles>
+                <availability>SOC:8,CCO:3-</availability>
+            </model>
+            <model name='U'>
+                <availability>SOC:2,CCO:3</availability>
+            </model>
+        </chassis>
 		<chassis name='Cerberus' unitType='Mek'>
 			<availability>MOC:4,LA:5,IS:4,MH:4,FS:5,DC:6</availability>
 			<model name='MR-5M'>

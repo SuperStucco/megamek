@@ -3328,31 +3328,31 @@
 			</model>
 		</chassis>
 		<chassis name='Cephalus' unitType='Mek' omni='Clan'>
-			<availability>SOC:3,CCO:1,CB:2</availability>
+			<availability>SOC:3:3072,CCO:1:3072,CB:2:3072</availability>
 			<model name='A'>
-				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<roles>recon,spotter</roles>
+				<availability>SOC:7,CCO:3-,CB:3-</availability>
 			</model>
 			<model name='B'>
-				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<roles>specops,spotter</roles>
+				<availability>SOC:6,CCO:4-,CB:4-</availability>
 			</model>
 			<model name='C'>
-				<availability>General:6</availability>
+				<availability>SOC:5,CCO:5,CB:4</availability>
 			</model>
 			<model name='D'>
-				<availability>General:6</availability>
+				<availability>SOC:6,CCO:7,CB:8</availability>
 			</model>
 			<model name='E'>
 				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<availability>SOC:6,CCO:8,CB:7</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>recon,spotter</roles>
+				<availability>SOC:8,CCO:3-,CB:3-</availability>
 			</model>
 			<model name='U'>
-				<availability>General:2</availability>
+				<availability>SOC:2,CCO:3,CB:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Cerberus' unitType='Mek'>
