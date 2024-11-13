@@ -6134,33 +6134,32 @@
 			</model>
 		</chassis>
 		<chassis name='Fenrir Battle Armor' unitType='BattleArmor'>
-			<availability>LA:4</availability>
-			<model name='&apos;Longshot&apos; (Sqd4)' mechanized='false'>
-				<availability>General:4</availability>
-			</model>
+			<availability>LA:4,MERC:3+</availability>
 			<model name='[ERML](Sqd4)' mechanized='false'>
-				<availability>General:5</availability>
+				<availability>LA:5,MERC:4+</availability>
 			</model>
 			<model name='[MG](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+                <roles>anti_infantry</roles>
+				<availability>LA:8,MERC:8</availability>
 			</model>
 			<model name='[MPL](Sqd4)' mechanized='false'>
-				<availability>General:5</availability>
+				<availability>LA:5,MERC:4+</availability>
 			</model>
 			<model name='[Mortar](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>LA:8,MERC:6</availability>
 			</model>
 			<model name='[SL](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>LA:6,MERC:7</availability>
 			</model>
 			<model name='[SPL](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>LA:6,MERC:7</availability>
 			</model>
 			<model name='[SRM](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+				<availability>LA:7,MERC:7</availability>
 			</model>
-			<model name='[VSP](Sqd6)' mechanized='false'>
-				<availability>General:4</availability>
+			<model name='[VSP](Sqd4)' mechanized='false'>
+				<availability>LA:4,MERC:1+</availability>
 			</model>
 		</chassis>
 		<chassis name='Fenris (Ice Ferret)' unitType='Mek' omni='Clan'>
