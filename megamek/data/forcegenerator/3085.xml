@@ -5039,9 +5039,9 @@
             </model>
 		</chassis>
 		<chassis name='Daimyo' unitType='Mek'>
-			<availability>CGB.FRR:6,ROS:5,DC:7,CGB:4</availability>
+			<availability>CGB.FRR:6,ROS:5,DC:7,CGB:4-</availability>
 			<model name='DMO-1K'>
-				<availability>General:8,DC:4</availability>
+				<availability>CGB.FRR:8,ROS:8,DC:4,CGB:8</availability>
 			</model>
 			<model name='DMO-2K'>
 				<availability>CGB.FRR:4,DC:6</availability>
@@ -5050,8 +5050,8 @@
 				<availability>DC:8</availability>
 			</model>
 			<model name='DMO-5K'>
-				<roles>spotter</roles>
-				<availability>DC:4</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:4+</availability>
 			</model>
 		</chassis>
 		<chassis name='Daishi (Dire Wolf)' unitType='Mek' omni='Clan'>

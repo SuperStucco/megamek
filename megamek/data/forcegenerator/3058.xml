@@ -3145,7 +3145,7 @@
 		<chassis name='Daimyo' unitType='Mek'>
 			<availability>FRR:5,DC:6</availability>
 			<model name='DMO-1K'>
-				<availability>General:8,DC:8</availability>
+				<availability>FRR:8,DC:8</availability>
 			</model>
 			<model name='DMO-2K'>
 				<availability>FRR:2,DC:3</availability>

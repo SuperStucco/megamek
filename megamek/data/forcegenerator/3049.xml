@@ -2706,9 +2706,9 @@
             </model>
 		</chassis>
 		<chassis name='Daimyo' unitType='Mek'>
-			<availability>FRR:4,DC:4</availability>
+			<availability>FRR:4:3053,DC:4:3053</availability>
 			<model name='DMO-1K'>
-				<availability>General:8,DC:8</availability>
+				<availability>FRR:8,DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Daishi (Dire Wolf)' unitType='Mek' omni='Clan'>
