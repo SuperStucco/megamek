@@ -2356,9 +2356,9 @@
 			</model>
 		</chassis>
 		<chassis name='Blue Flame' unitType='Mek'>
-			<availability>WOB:3</availability>
+			<availability>WOB:3:3062</availability>
 			<model name='BLF-21'>
-				<availability>General:8</availability>
+				<availability>WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bluehawk Combat Support Fighter' unitType='Conventional Fighter'>
