@@ -4733,9 +4733,9 @@
 			</model>
 		</chassis>
 		<chassis name='Corona Heavy Battle Armor' unitType='BattleArmor'>
-			<availability>CLAN.IS:4</availability>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<availability>CLAN.IS:4,CEI:2+</availability>
+			<model name='(Sqd5)' mechanized='true'>
+				<availability>CLAN:8,CEI:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Corsair' unitType='AeroSpaceFighter'>

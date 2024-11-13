@@ -4505,8 +4505,8 @@
 			<model name='(SRM) (Sqd5)' mechanized='true'>
 				<availability>CSA:4</availability>
 			</model>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='(Sqd5)' mechanized='true'>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Corsair' unitType='AeroSpaceFighter'>

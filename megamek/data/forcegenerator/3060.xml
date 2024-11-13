@@ -3439,9 +3439,9 @@
 			</model>
 		</chassis>
 		<chassis name='Corona Heavy Battle Armor' unitType='BattleArmor'>
-			<availability>CSA:2,CCC:2,CSV:2,CLAN.IS:1,CCO:1</availability>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<availability>CSA:2,CCC:2+:3061,CSV:2+:3061,CSR:2+:3061,CLAN.IS:1:3062,CCO:1:3061</availability>
+			<model name='(Sqd5)' mechanized='true'>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Corsair' unitType='AeroSpaceFighter'>

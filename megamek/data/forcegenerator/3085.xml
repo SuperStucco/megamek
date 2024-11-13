@@ -4535,12 +4535,12 @@
 			</model>
 		</chassis>
 		<chassis name='Corona Heavy Battle Armor' unitType='BattleArmor'>
-			<availability>CSA:6,CCC:4,CLAN.IS:4,CSL:4,CCO:3</availability>
+			<availability>CSA:6,CCC:4,CLAN.IS:4,CSL:4,CCO:3,CEI:2+</availability>
 			<model name='(SRM) (Sqd5)' mechanized='true'>
 				<availability>CSA:4</availability>
 			</model>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='(Sqd5)' mechanized='true'>
+				<availability>CLAN:8,CEI:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Corsair' unitType='AeroSpaceFighter'>

@@ -4077,10 +4077,10 @@
 		<chassis name='Corona Heavy Battle Armor' unitType='BattleArmor'>
 			<availability>CSA:4,CCC:3,CSV:3,CLAN.IS:2,CCO:2,CB:4</availability>
 			<model name='(SRM) (Sqd5)' mechanized='true'>
-				<availability>CSA:4</availability>
+				<availability>CSA:4:3073</availability>
 			</model>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='(Sqd5)' mechanized='true'>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Corsair' unitType='AeroSpaceFighter'>
