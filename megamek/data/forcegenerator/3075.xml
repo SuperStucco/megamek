@@ -5933,26 +5933,32 @@
 		</chassis>
 		<chassis name='Fa Shih Battle Armor' unitType='BattleArmor'>
 			<availability>CC:7</availability>
-			<model name='(Support) [King David](Sqd4)' mechanized='false'>
-				<availability>General:5</availability>
+			<model name='(Support) [King David](Sqd4)' mechanized='true'>
+                <roles>mag_clamp</roles>
+				<availability>CC:5</availability>
 			</model>
-			<model name='(Support) [Plasma](Sqd4)' mechanized='false'>
-				<availability>General:5</availability>
+			<model name='(Support) [Plasma](Sqd4)' mechanized='true'>
+                <roles>mag_clamp</roles>
+				<availability>CC:5</availability>
 			</model>
-			<model name='[Flamer](Sqd4)' mechanized='false'>
+			<model name='[Flamer](Sqd4)' mechanized='true'>
+                <roles>mag_clamp,minelayer,minesweeper</roles>
 				<availability>CC:7</availability>
 			</model>
 			<model name='[LRR](Sqd4)' mechanized='true'>
+                <roles>mag_clamp,minelayer,minesweeper</roles>
 				<availability>CC:8</availability>
 			</model>
-			<model name='[Laser](Sqd4)' mechanized='false'>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+                <roles>mag_clamp,minelayer,minesweeper</roles>
 				<availability>CC:6</availability>
 			</model>
-			<model name='[MG](Sqd4)' mechanized='false'>
+			<model name='[MG](Sqd4)' mechanized='true'>
+                <roles>mag_clamp,minelayer,minesweeper</roles>
 				<availability>CC:8</availability>
 			</model>
 			<model name='[TAG](Sqd4)' mechanized='true'>
-				<roles>spotter</roles>
+                <roles>mag_clamp,minelayer,minesweeper,spotter</roles>
 				<availability>CC:5</availability>
 			</model>
 		</chassis>

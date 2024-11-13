@@ -6696,28 +6696,34 @@
             </model>
         </chassis>
         <chassis name='Fa Shih Battle Armor' unitType='BattleArmor'>
-            <availability>CC:5,MERC:4</availability>
-            <model name='(Support) [King David](Sqd4)' mechanized='false'>
-                <availability>General:5</availability>
+            <availability>CC:5,MOC:2+,MERC:4</availability>
+            <model name='(Support) [King David](Sqd4)' mechanized='true'>
+                <roles>mag_clamp</roles>
+                <availability>CC:5,MOC:5,MERC:8</availability>
             </model>
-            <model name='(Support) [Plasma](Sqd4)' mechanized='false'>
-                <availability>General:5</availability>
+            <model name='(Support) [Plasma](Sqd4)' mechanized='true'>
+                <roles>mag_clamp</roles>
+                <availability>CC:5,MOC:5,MERC:8</availability>
             </model>
-            <model name='[Flamer](Sqd4)' mechanized='false'>
-                <availability>CC:7</availability>
+            <model name='[Flamer](Sqd4)' mechanized='true'>
+                <roles>mag_clamp,minelayer,minesweeper</roles>
+                <availability>CC:7,MOC:7</availability>
             </model>
             <model name='[LRR](Sqd4)' mechanized='true'>
-                <availability>CC:8</availability>
+                <roles>mag_clamp,minelayer,minesweeper</roles>
+                <availability>CC:8,MOC:8</availability>
             </model>
-            <model name='[Laser](Sqd4)' mechanized='false'>
-                <availability>CC:6</availability>
+            <model name='[Laser](Sqd4)' mechanized='true'>
+                <roles>mag_clamp,minelayer,minesweeper</roles>
+                <availability>CC:6,MOC:6</availability>
             </model>
-            <model name='[MG](Sqd4)' mechanized='false'>
-                <availability>CC:8</availability>
+            <model name='[MG](Sqd4)' mechanized='true'>
+                <roles>mag_clamp,minelayer,minesweeper</roles>
+                <availability>CC:8,MOC:8</availability>
             </model>
             <model name='[TAG](Sqd4)' mechanized='true'>
-                <roles>spotter</roles>
-                <availability>CC:5</availability>
+                <roles>mag_clamp,minelayer,minesweeper,spotter</roles>
+                <availability>CC:5,MOC:7+</availability>
             </model>
         </chassis>
         <chassis name='Factory' unitType='Space Station'>
