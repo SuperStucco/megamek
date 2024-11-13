@@ -3259,7 +3259,7 @@
 		<chassis name='Buccaneer' unitType='Mek'>
 			<availability>PR:5,RF:5,PG:5,FWL:3,MSC:5,RFS:5</availability>
 			<model name='BCN-3R'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bulldog Medium Tank' unitType='Tank'>

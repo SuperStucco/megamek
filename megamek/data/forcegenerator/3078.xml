@@ -3468,10 +3468,10 @@
 		<chassis name='Buccaneer' unitType='Mek'>
 			<availability>SC:4,PR:4,MCM:4,PG:4,FWL:3,WOB:6,DGM:4,RFS:4</availability>
 			<model name='BCN-3R'>
-				<availability>General:8</availability>
+				<availability>IS:8,WOB:8</availability>
 			</model>
 			<model name='BCN-5W'>
-				<roles>urban</roles>
+				<roles>anti_infantry,urban</roles>
 				<availability>WOB:4</availability>
 			</model>
 			<model name='BCN-6W'>

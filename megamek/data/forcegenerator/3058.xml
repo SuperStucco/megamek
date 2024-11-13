@@ -2061,7 +2061,7 @@
 		<chassis name='Buccaneer' unitType='Mek'>
 			<availability>FWL:2,WOB:4</availability>
 			<model name='BCN-3R'>
-				<availability>General:8</availability>
+				<availability>FWL:8,WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bulldog Medium Tank' unitType='Tank'>

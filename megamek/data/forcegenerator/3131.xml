@@ -3731,9 +3731,9 @@
 			</model>
 		</chassis>
 		<chassis name='Buccaneer' unitType='Mek'>
-			<availability>RF:5,FWL:3,MSC:5,CP:3</availability>
+			<availability>RF:5,FWL:3,MSC:5</availability>
 			<model name='BCN-3R'>
-				<availability>General:8</availability>
+				<availability>FWL:8,RF:8,MSC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bulldog Medium Tank' unitType='Tank'>
