@@ -5233,14 +5233,14 @@
 		</chassis>
 		<chassis name='Djinn Battle Armor' unitType='BattleArmor'>
 			<availability>PIR:1</availability>
-			<model name='(Reflective) &apos;Terrorizer&apos; [Flamer] (Sqd6)' mechanized='true'>
-				<availability>General:6</availability>
+			<model name='(Reflective) &apos;Terrorizer&apos; [Flamer] (Sqd4)' mechanized='true'>
+				<availability>PIR:8</availability>
 			</model>
-			<model name='(Reflective) &apos;Terrorizer&apos; [Laser] (Sqd6)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='(Reflective) &apos;Terrorizer&apos; [Laser] (Sqd4)' mechanized='true'>
+				<availability>PIR:4</availability>
 			</model>
-			<model name='(Reflective) &apos;Terrorizer&apos; [MG] (Sqd6)' mechanized='true'>
-				<availability>General:6</availability>
+			<model name='(Reflective) &apos;Terrorizer&apos; [MG] (Sqd4)' mechanized='true'>
+				<availability>PIR:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Dola' unitType='Mek'>

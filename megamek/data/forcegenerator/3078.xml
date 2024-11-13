@@ -5586,21 +5586,31 @@
         </chassis>
 		<chassis name='Djinn Battle Armor' unitType='BattleArmor'>
 			<availability>WOB.SD:5,PIR:1,WOB:1</availability>
+            <model name='(Reflective) &apos;Terrorizer&apos; [Flamer] (Sqd4)' mechanized='true'>
+                <availability>PIR:8:3079</availability>
+            </model>
 			<model name='(Reflective) &apos;Terrorizer&apos; [Flamer] (Sqd6)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>WOB:7:3079</availability>
 			</model>
-			<model name='(Reflective) &apos;Terrorizer&apos; [Laser] (Sqd6)' mechanized='false'>
-				<availability>General:6</availability>
+            <model name='(Reflective) &apos;Terrorizer&apos; [Laser] (Sqd4)' mechanized='true'>
+                <availability>PIR:4:3079</availability>
+            </model>
+			<model name='(Reflective) &apos;Terrorizer&apos; [Laser] (Sqd6)' mechanized='true'>
+				<availability>WOB:6:3079</availability>
 			</model>
+            <model name='(Reflective) &apos;Terrorizer&apos; [MG] (Sqd6)' mechanized='true'>
+                <availability>PIR:6:3079</availability>
+            </model>
 			<model name='(Reflective) &apos;Terrorizer&apos; [MG] (Sqd6)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>WOB:8:3079</availability>
 			</model>
-			<model name='(Sqd6)' mechanized='false'>
-				<roles>spotter</roles>
+			<model name='(Sqd6)' mechanized='true'>
+				<roles>anti_infantry,spotter</roles>
 				<availability>WOB.SD:8</availability>
 			</model>
-			<model name='(Stealth) (Sqd6)' mechanized='false'>
-				<availability>WOB:4</availability>
+			<model name='(Stealth) (Sqd6)' mechanized='true'>
+                <roles>specops</roles>
+				<availability>WOB.SD:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Donar Assault Helicopter' unitType='VTOL'>

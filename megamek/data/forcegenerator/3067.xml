@@ -4872,13 +4872,14 @@
             </model>
         </chassis>
 		<chassis name='Djinn Battle Armor' unitType='BattleArmor'>
-			<availability>WOB.SD:4</availability>
-			<model name='(Sqd6)' mechanized='false'>
-				<roles>spotter</roles>
+			<availability>WOB.SD:4:3070</availability>
+			<model name='(Sqd6)' mechanized='true'>
+				<roles>anti_infantry,spotter</roles>
 				<availability>WOB.SD:8</availability>
 			</model>
 			<model name='(Stealth) (Sqd6)' mechanized='false'>
-				<availability>WOB:4</availability>
+                <roles>specops</roles>
+				<availability>WOB.SD:4:3071</availability>
 			</model>
 		</chassis>
 		<chassis name='Donar Assault Helicopter' unitType='VTOL'>
