@@ -7611,25 +7611,25 @@
 			</model>
 		</chassis>
 		<chassis name='Hauptmann' unitType='Mek' omni='IS'>
-			<availability>LA:6</availability>
+			<availability>LA:6,ROS:4</availability>
 			<model name='HA1-O'>
-				<availability>General:8</availability>
+				<availability>LA:8,ROS:8</availability>
 			</model>
 			<model name='HA1-OA'>
-				<availability>General:7</availability>
+				<availability>LA:7,ROS:7</availability>
 			</model>
 			<model name='HA1-OB'>
-				<availability>General:7</availability>
+				<availability>LA:7,ROS:7</availability>
 			</model>
 			<model name='HA1-OC'>
-				<availability>General:7</availability>
+				<availability>LA:7,ROS:7</availability>
 			</model>
 			<model name='HA1-OD'>
-				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<roles>command,spotter</roles>
+				<availability>LA:6+,ROS:4+</availability>
 			</model>
 			<model name='HA1-OE'>
-				<availability>General:5</availability>
+				<availability>LA:5,ROS:5</availability>
 			</model>
 		</chassis>
         <chassis name='Hawk Hover Tank' unitType='Tank'>
