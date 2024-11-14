@@ -8914,20 +8914,21 @@
             </model>
 		</chassis>
 		<chassis name='Hauberk Battle Armor' unitType='BattleArmor'>
-			<availability>FS:4</availability>
+			<availability>FS:4,ROS:3</availability>
 			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>FS:8,ROS:8</availability>
 			</model>
 			<model name='Commando(Sqd4)' mechanized='false'>
 				<roles>urban</roles>
-				<availability>General:6</availability>
+				<availability>FS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Hauberk II Battle Armor' unitType='BattleArmor'>
 			<availability>FS:2</availability>
 			<model name='(Sqd4)' mechanized='false'>
 				<roles>urban</roles>
-				<availability>General:8</availability>
+				<availability>FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Hauptmann' unitType='Mek' omni='IS'>
