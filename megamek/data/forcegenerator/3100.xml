@@ -9851,15 +9851,24 @@
 			</model>
 		</chassis>
 		<chassis name='Jinggau' unitType='Mek'>
-			<availability>CC:6,MOC:5,TC:4</availability>
+			<availability>CC:6,FS:4+,ROS:5+,DA:4+,MSC:4+,OP:4+,RF:4+,CHH:5-,MOC:5</availability>
 			<model name='JN-G7L'>
 				<availability>CC:4</availability>
 			</model>
+            <model name='JN-G7Lr'>
+                <availability>CHH:8,FS:6,ROS:6,DA:8,MSC:8,OP:8,RF:8</availability>
+            </model>
 			<model name='JN-G8A'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>CC:8,MOC:8</availability>
 			</model>
+            <model name='JN-G8Ar'>
+                <roles>cavalry</roles>
+                <availability>CHH:8,FS:8,ROS:8,DA:8,MSC:8,OP:8,RF:8</availability>
+            </model>
 			<model name='JN-G9CC'>
-				<availability>CC:3</availability>
+                <roles>cavalry,command</roles>
+				<availability>CC:3+</availability>
 			</model>
 		</chassis>
 		<chassis name='Jonah Submarine' unitType='Naval'>

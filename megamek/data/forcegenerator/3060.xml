@@ -6898,7 +6898,8 @@
 		<chassis name='Jinggau' unitType='Mek'>
 			<availability>CC:2+,MOC:1+,TC:1+</availability>
 			<model name='JN-G8A'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>CC:8,MOC:8,TC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Jonah Submarine' unitType='Naval'>

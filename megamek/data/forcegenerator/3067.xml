@@ -8554,15 +8554,17 @@
 			</model>
 		</chassis>
 		<chassis name='Jinggau' unitType='Mek'>
-			<availability>CC:4,MOC:3,TC:3</availability>
+			<availability>CC:4,MOC:3+,TC:3+</availability>
 			<model name='JN-G7L'>
-				<availability>CC:4</availability>
+				<availability>CC:4:3068</availability>
 			</model>
 			<model name='JN-G8A'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>CC:8,MOC:8,TC:8</availability>
 			</model>
 			<model name='JN-G9CC'>
-				<availability>CC:3</availability>
+                <roles>cavalry,command</roles>
+				<availability>CC:3+:3072</availability>
 			</model>
 		</chassis>
 		<chassis name='Jonah Submarine' unitType='Naval'>
