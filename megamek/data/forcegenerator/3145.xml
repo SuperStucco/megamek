@@ -8149,9 +8149,9 @@
 			</model>
 		</chassis>
 		<chassis name='Grenadier Battle Armor' unitType='BattleArmor'>
-			<availability>FS:4,TC:2</availability>
+			<availability>FS:4,ROS:4,MERC:3+,FR:2+</availability>
 			<model name='(Hunter-Killer) [C3/HRR](Sqd4)' mechanized='false'>
-				<availability>FS:5</availability>
+				<availability>FS:5+</availability>
 			</model>
 			<model name='(Hunter-Killer) [MagShot](Sqd4)' mechanized='false'>
 				<availability>FS:4</availability>
@@ -8160,42 +8160,44 @@
 				<availability>FS:4</availability>
 			</model>
 			<model name='(Hunter-Killer) [SVSP/Magshot](Sqd4)' mechanized='false'>
-				<availability>FS:5</availability>
+				<availability>FS:5+</availability>
 			</model>
 			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>IS:6,FR:6</availability>
 			</model>
 			<model name='[Heavy Flamer](Sqd4)' mechanized='false'>
-				<availability>FS:6</availability>
+                <roles>anti_infantry,urban</roles>
+				<availability>IS:3,FS:6</availability>
 			</model>
 			<model name='[LRR](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>IS:8,FR:8</availability>
 			</model>
 			<model name='[MagShot](Sqd4)' mechanized='false'>
-				<availability>FS:5</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='[SRM/SL](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>IS:6,FR:6</availability>
 			</model>
 			<model name='[TAG](Sqd4)' mechanized='false'>
 				<roles>spotter</roles>
-				<availability>General:4</availability>
+				<availability>IS:4,FR:3+</availability>
 			</model>
 		</chassis>
 		<chassis name='Grenadier II Battle Armor' unitType='BattleArmor'>
-			<availability>ROS:4,FS:5</availability>
+			<availability>ROS:4,FS:5+</availability>
 			<model name='A(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>FS:6,ROS:6</availability>
 			</model>
 			<model name='B(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+                <roles>fire_support</roles>
+				<availability>FS:6,ROS:6</availability>
 			</model>
 			<model name='C(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>FS:6,ROS:6</availability>
 			</model>
 			<model name='D(Sqd4)' mechanized='false'>
-				<roles>artillery</roles>
-				<availability>ROS:4</availability>
+                <roles>mixed_artillery</roles>
+				<availability>FS:4,ROS:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Grendel (Mongrel)' unitType='Mek' omni='Clan'>

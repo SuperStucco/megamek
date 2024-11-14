@@ -5363,22 +5363,22 @@
 			</model>
 		</chassis>
 		<chassis name='Grenadier Battle Armor' unitType='BattleArmor'>
-			<availability>FS:2</availability>
+			<availability>FS:2:3065</availability>
 			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>FS:6</availability>
 			</model>
 			<model name='[LRR](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>FS:8</availability>
 			</model>
 			<model name='[MagShot](Sqd4)' mechanized='false'>
 				<availability>FS:5</availability>
 			</model>
 			<model name='[SRM/SL](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>FS:6</availability>
 			</model>
 			<model name='[TAG](Sqd4)' mechanized='false'>
 				<roles>spotter</roles>
-				<availability>General:4</availability>
+				<availability>FS:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Grendel (Mongrel)' unitType='Mek' omni='Clan'>
