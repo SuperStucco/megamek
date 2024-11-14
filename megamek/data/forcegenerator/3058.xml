@@ -4864,9 +4864,9 @@
 			</model>
 		</chassis>
 		<chassis name='Helios' unitType='Mek'>
-			<availability>CS:2,SIC:4,FS:2,MERC:2</availability>
+			<availability>SIC:4</availability>
 			<model name='HEL-3D'>
-				<availability>CC:8,CS:8,MOC:8,SIC:8,FS:8,MERC:8,TC:8</availability>
+				<availability>SIC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Hellcat II' unitType='AeroSpaceFighter'>

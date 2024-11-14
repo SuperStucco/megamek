@@ -5945,15 +5945,15 @@
 			</model>
 		</chassis>
 		<chassis name='Helios' unitType='Mek'>
-			<availability>CS:4,MOC:3,CC:3,SIC:5,FS:3,MERC:3,DC:2,TC:3</availability>
+			<availability>CC:3,DC:2,CS:4,FS:3,SIC:5,MERC:3,MOC:3,TC:3</availability>
 			<model name='HEL-3D'>
-				<availability>CC:8,CS:8,MOC:8,SIC:8,FS:8,MERC:8,TC:8</availability>
+				<availability>CC:8,CS:8,FS:8,SIC:8,MERC:8,MOC:8,TC:8</availability>
 			</model>
 			<model name='HEL-4A'>
-				<availability>CC:5,MOC:5,SIC:5,MERC:5,DC:5,TC:5</availability>
+				<availability>CC:4,DC:5,SIC:4,MERC:5,MOC:5,TC:5</availability>
 			</model>
 			<model name='HEL-C'>
-				<availability>CC:5,MOC:5,SIC:5,MERC:5,DC:8</availability>
+				<availability>CC:5,DC:8,SIC:5,MERC:5,MOC:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Hellcat II' unitType='AeroSpaceFighter'>
