@@ -8429,27 +8429,35 @@
 			</model>
 		</chassis>
 		<chassis name='Groundhog Exoskeleton' unitType='BattleArmor'>
-			<availability>MERC.KH:3-,MERC.WD:3-,IS:4-,MERC:3-,Periphery:3-</availability>
-			<model name='CEX-205 [Armored Glove](Sqd4)' mechanized='false'>
-				<availability>MERC.KH:3-,MERC.WD:3-,IS:4,MERC:3,Periphery:3</availability>
+			<availability>IS:2,LA:3,MERC:4,FVC:1,MOC:1,MH:2,FR:4,PIR:6</availability>
+			<model name='CEX-205 [Armored Glove](Sqd4)' mechanized='true'>
+				<availability>MERC:2-,Periphery:4-,MH:0,FR:4-,PIR:8-</availability>
 			</model>
-			<model name='CEX-205 [Basic Manipulator](Sqd4)' mechanized='false'>
-				<roles>support</roles>
-				<availability>MERC.KH:3-,MERC.WD:3-,IS:4,MERC:3,Periphery:3</availability>
+            <model name='CEX-205 [Armored Glove](Sqd5)' mechanized='true'>
+                <availability>MH:3-</availability>
+			</model>
+			<model name='CEX-205 [Basic Manipulator](Sqd4)' mechanized='true'>
+				<availability>Periphery:2-,PIR:8-</availability>
 			</model>
 			<model name='CEX-205 [Cargo Lifter](Sqd4)' mechanized='false'>
 				<roles>support</roles>
-				<availability>MERC.KH:3-,MERC.WD:3-,IS:4,MERC:3,Periphery:3</availability>
+				<availability>IS:8,MERC:8,Periphery:8</availability>
 			</model>
 			<model name='CEX-205 [Industrial Drill](Sqd4)' mechanized='false'>
-				<availability>MERC.KH:3-,MERC.WD:3-,IS:4,MERC:3,Periphery:3</availability>
+                <roles>support</roles>
+				<availability>IS:6,MERC:4,Periphery:6</availability>
 			</model>
-			<model name='CEX-205 [Mine Clearance](Sqd4)' mechanized='false'>
-				<availability>MERC.KH:3,MERC.WD:3-,IS:4,MERC:3,Periphery:3</availability>
+			<model name='CEX-205 [Mine Clearance](Sqd4)' mechanized='true'>
+                <roles>minesweeper</roles>
+				<availability>IS:8+,FVC:8+,MERC:5+,Periphery:8+,MH:0,FR:8+,PIR:0</availability>
+			</model>
+            <model name='CEX-205 [Mine Clearance](Sqd5)' mechanized='true'>
+                <roles>minesweeper</roles>
+                <availability>MH:6+</availability>
 			</model>
 			<model name='CEX-205 [Salvage Arm](Sqd4)' mechanized='false'>
 				<roles>support</roles>
-				<availability>MERC.KH:3-,MERC.WD:3-,IS:4,MERC:3,Periphery:3</availability>
+				<availability>IS:7,MERC:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Guardian Fighter' unitType='Conventional Fighter'>

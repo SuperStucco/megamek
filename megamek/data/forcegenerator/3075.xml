@@ -7411,27 +7411,35 @@
 			</model>
 		</chassis>
 		<chassis name='Groundhog Exoskeleton' unitType='BattleArmor'>
-			<availability>MERC.KH:2-,MERC.WD:2,IS:4-,MERC:3-,Periphery:2-</availability>
-			<model name='CEX-205 [Armored Glove](Sqd4)' mechanized='false'>
-				<availability>MERC.KH:2-,MERC.WD:2,IS:4,MERC:3,Periphery:2</availability>
+			<availability>IS:4,LA:5,MERC:6,FVC:4,MOC:3,MH:2,OA:1,TC:1,CIR:4,FR:6,PIR:7</availability>
+			<model name='CEX-205 [Armored Glove](Sqd4)' mechanized='true'>
+				<availability>IS:3-,FVC:3-,MERC:3-,Periphery:4-,MH:0,CIR:6-,FR:4-,PIR:8-</availability>
 			</model>
-			<model name='CEX-205 [Basic Manipulator](Sqd4)' mechanized='false'>
-				<roles>support</roles>
-				<availability>MERC.KH:2-,MERC.WD:2,IS:4,MERC:3,Periphery:2</availability>
+            <model name='CEX-205 [Armored Glove](Sqd5)' mechanized='true'>
+                <availability>MH:4-</availability>
+            </model>
+			<model name='CEX-205 [Basic Manipulator](Sqd4)' mechanized='true'>
+				<availability>MERC:2-,Periphery:2-,PIR:8-</availability>
 			</model>
 			<model name='CEX-205 [Cargo Lifter](Sqd4)' mechanized='false'>
 				<roles>support</roles>
-				<availability>MERC.KH:2-,MERC.WD:2,IS:4,MERC:3,Periphery:2</availability>
+				<availability>IS:8,MERC:8,Periphery:8</availability>
 			</model>
 			<model name='CEX-205 [Industrial Drill](Sqd4)' mechanized='false'>
-				<availability>MERC.KH:2-,MERC.WD:2,IS:4,MERC:3,Periphery:2</availability>
+                <roles>support</roles>
+				<availability>IS:6,MERC:4,Periphery:6</availability>
 			</model>
-			<model name='CEX-205 [Mine Clearance](Sqd4)' mechanized='false'>
-				<availability>MERC.KH:2,MERC.WD:2,IS:4,MERC:3,Periphery:2</availability>
+			<model name='CEX-205 [Mine Clearance](Sqd4)' mechanized='true'>
+                <roles>minesweeper</roles>
+				<availability>IS:8+,FVC:8+,MERC:5+,Periphery:8+,MH:0,CIR:0,FR:8+,PIR:0</availability>
 			</model>
+            <model name='CEX-205 [Mine Clearance](Sqd5)' mechanized='true'>
+                <roles>minesweeper</roles>
+                <availability>MH:5+</availability>
+            </model>
 			<model name='CEX-205 [Salvage Arm](Sqd4)' mechanized='false'>
 				<roles>support</roles>
-				<availability>MERC.KH:2-,MERC.WD:2,IS:4,MERC:3,Periphery:2</availability>
+				<availability>IS:7,MERC:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Guardian Fighter' unitType='Conventional Fighter'>
