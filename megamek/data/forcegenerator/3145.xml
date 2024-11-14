@@ -9898,18 +9898,24 @@
             </model>
         </chassis>
 		<chassis name='Infiltrator Mk. II Battle Armor' unitType='BattleArmor'>
-			<availability>ROS:3,FS:4,TC:3</availability>
-			<model name='&apos;Puma&apos;(Sqd4)' mechanized='false'>
+			<availability>ROS:3,FS:4</availability>
+			<model name='&apos;Puma&apos;(Sqd4)' mechanized='true'>
+                <roles>specops</roles>
 				<availability>FS:8,TC:8</availability>
 			</model>
+            <model name='Coral Intent(Sqd4)' mechanized='true'>
+                <availability>FS:4+</availability>
+            </model>
 			<model name='(Magnetic)(Sqd4)' mechanized='true'>
+                <roles>mag_clamp</roles>
 				<availability>ROS:4,FS:4</availability>
 			</model>
-			<model name='(Marine)(Sqd4)' mechanized='false'>
+			<model name='(Marine)(Sqd4)' mechanized='true'>
 				<roles>marine</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='(Sensor)(Sqd4)' mechanized='true'>
+                <roles>recon,specops</roles>
 				<availability>FS:4</availability>
 			</model>
 		</chassis>

@@ -6587,12 +6587,14 @@
 			</model>
 		</chassis>
 		<chassis name='Infiltrator Mk. II Battle Armor' unitType='BattleArmor'>
-			<availability>FS:3,TC:2</availability>
-			<model name='&apos;Puma&apos;(Sqd4)' mechanized='false'>
-				<availability>FS:8,TC:8</availability>
+			<availability>FS:3,SIC:2+</availability>
+			<model name='&apos;Puma&apos;(Sqd4)' mechanized='true'>
+                <roles>specops</roles>
+				<availability>FS:8,SIC:8</availability>
 			</model>
 			<model name='(Sensor)(Sqd4)' mechanized='true'>
-				<availability>FS:4</availability>
+                <roles>recon,specops</roles>
+				<availability>FS:4:3063</availability>
 			</model>
 		</chassis>
 		<chassis name='Initiate' unitType='Mek'>
