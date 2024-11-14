@@ -7349,36 +7349,38 @@
 			<model name='C-GRG-O Invictus'>
 				<roles>fire_support</roles>
 				<deployedWith>Deva</deployedWith>
-				<availability>General:8</availability>
+				<availability>WOB:8</availability>
 			</model>
 			<model name='C-GRG-OA Dominus'>
+                <roles>raider</roles>
 				<deployedWith>Deva</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-GRG-OB Infernus'>
 				<roles>fire_support</roles>
 				<deployedWith>Deva</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-GRG-OC Comminus'>
 				<deployedWith>Deva</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-GRG-OD Luminos'>
+                <roles>raider</roles>
 				<deployedWith>Deva</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-GRG-OE Eminus'>
 				<deployedWith>Deva</deployedWith>
-				<availability>General:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='C-GRG-OS Caelestis'>
 				<deployedWith>Deva</deployedWith>
-				<availability>General:4</availability>
+				<availability>WOB:4</availability>
 			</model>
 			<model name='C-GRG-OU Exanimus'>
 				<deployedWith>Deva</deployedWith>
-				<availability>General:4</availability>
+				<availability>WOB:4:3077</availability>
 			</model>
 		</chassis>
 		<chassis name='Grim Reaper' unitType='Mek'>
