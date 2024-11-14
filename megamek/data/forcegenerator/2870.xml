@@ -2491,7 +2491,7 @@
 			</model>
 		</chassis>
 		<chassis name='Hachiman Fire Support Tank' unitType='Tank'>
-			<availability>CSA:6,CHH:7,CBS:6,CLAN:5</availability>
+			<availability>CCC:5,CGS:5,CHH:7,CNC:5,CDS:5,CSA:6,CSV:5</availability>
 			<model name=''>
 				<roles>fire_support</roles>
 				<availability>CLAN:8</availability>

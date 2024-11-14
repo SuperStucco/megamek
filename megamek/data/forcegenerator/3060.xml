@@ -5603,7 +5603,7 @@
 			<availability>CSA:6,CHH:7,CBS:6,CLAN:5</availability>
 			<model name=''>
 				<roles>fire_support</roles>
-				<availability>MERC.WD:8,CLAN:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Hamilcar' unitType='Dropship'>

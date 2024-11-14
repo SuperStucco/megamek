@@ -8639,14 +8639,14 @@
 			</model>
 		</chassis>
 		<chassis name='Hachiman Fire Support Tank' unitType='Tank'>
-			<availability>RA.OA:5,CHH:7,LA:3,ROS:4,CLAN:5,FS:3,MERC:3</availability>
+			<availability>CHH:7,CLAN.IS:5,CEI:5+,SE:5+,LA:3+,FS:3+,ROS:4,MERC:3+,RA.OA:5+</availability>
 			<model name=''>
 				<roles>fire_support</roles>
-				<availability>MERC.WD:8,CLAN:8,IS:8</availability>
+				<availability>CLAN.IS:8,IS:8,CEI:8,SE:8</availability>
 			</model>
 			<model name='(AAA)'>
-				<roles>fire_support</roles>
-				<availability>RA.OA:8,RD:4,CDS:4,CP:4,RA:8</availability>
+				<roles>anti_aircraft,fire_support</roles>
+				<availability>RD:4,CDS:4,CP:4,RA:8,RA.OA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Hadur Fast Support Vehicle' unitType='Tank'>

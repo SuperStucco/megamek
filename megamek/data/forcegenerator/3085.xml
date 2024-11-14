@@ -7667,14 +7667,14 @@
 			</model>
 		</chassis>
 		<chassis name='Hachiman Fire Support Tank' unitType='Tank'>
-			<availability>CSA:6,RA.OA:4,CHH:7,LA:2,ROS:3,CLAN:5,FS:2,MERC:2</availability>
+			<availability>CSA:6,CHH:7,CLAN.IS:5,CEI:5+,LA:2+,FS:2+,ROS:3,MERC:2+,RA.OA:3+</availability>
 			<model name=''>
 				<roles>fire_support</roles>
-				<availability>MERC.WD:8,CLAN:8,IS:8</availability>
+				<availability>CLAN.IS:8,IS:8,CEI:8</availability>
 			</model>
 			<model name='(AAA)'>
-				<roles>fire_support</roles>
-				<availability>RA.OA:8,CDS:4,RA:8,CGB:4</availability>
+				<roles>anti_aircraft,fire_support</roles>
+				<availability>CDS:4,RA:8,CGB:4,RA.OA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Hamilcar' unitType='Dropship'>
