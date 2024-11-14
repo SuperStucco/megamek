@@ -9336,7 +9336,8 @@
 		<chassis name='Jetta Coruna 4X' unitType='Conventional Fighter'>
 			<availability>FS:3</availability>
 			<model name=''>
-				<availability>General:6-</availability>
+                <roles>civilian</roles>
+				<availability>FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Jifty Transportable Field Repair Unit' unitType='Tank'>
