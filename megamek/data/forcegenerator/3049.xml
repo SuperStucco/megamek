@@ -4913,10 +4913,10 @@
 			</model>
 		</chassis>
 		<chassis name='Komodo' unitType='Mek'>
-			<availability>DC:4</availability>
+			<availability>DC:4:3053</availability>
 			<model name='KIM-2'>
 				<roles>spotter,anti_infantry</roles>
-				<availability>General:8,DC:8</availability>
+				<availability>DC:8</availability>
 			</model>
 			<model name='KIM-2A'>
 				<roles>spotter</roles>

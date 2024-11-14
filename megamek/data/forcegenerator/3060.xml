@@ -7228,18 +7228,18 @@
 			<availability>FRR:5,MERC:3,DC:7</availability>
 			<model name='KIM-2'>
 				<roles>spotter,anti_infantry</roles>
-				<availability>General:8,DC:7</availability>
+				<availability>FRR:8,MERC:8,DC:7</availability>
 			</model>
 			<model name='KIM-2A'>
 				<roles>spotter</roles>
 				<availability>DC:5</availability>
 			</model>
 			<model name='KIM-2C'>
-				<availability>DC:6</availability>
+				<availability>DC:6:3064</availability>
 			</model>
 			<model name='KIM-3C'>
-				<roles>spotter</roles>
-				<availability>DC:4</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:4+:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Koryu Submarine' unitType='Naval'>

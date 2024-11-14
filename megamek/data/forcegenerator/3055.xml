@@ -5482,7 +5482,7 @@
 			<availability>FRR:5,MERC:2,DC:7</availability>
 			<model name='KIM-2'>
 				<roles>spotter,anti_infantry</roles>
-				<availability>General:8,DC:8</availability>
+				<availability>FRR:8,MERC:8,DC:8</availability>
 			</model>
 			<model name='KIM-2A'>
 				<roles>spotter</roles>

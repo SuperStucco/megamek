@@ -10401,10 +10401,10 @@
 			</model>
 		</chassis>
 		<chassis name='Komodo' unitType='Mek'>
-			<availability>CGB.FRR:5,MERC:5,DC:8</availability>
+			<availability>MERC:5,DC:8</availability>
 			<model name='KIM-2'>
 				<roles>spotter,anti_infantry</roles>
-				<availability>General:8,DC:3</availability>
+				<availability>MERC:8,DC:3</availability>
 			</model>
 			<model name='KIM-2A'>
 				<roles>spotter</roles>
@@ -10414,8 +10414,8 @@
 				<availability>DC:8</availability>
 			</model>
 			<model name='KIM-3C'>
-				<roles>spotter</roles>
-				<availability>DC:6</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:6+</availability>
 			</model>
 		</chassis>
 		<chassis name='Kopis Assault Battle Armor' unitType='BattleArmor'>
