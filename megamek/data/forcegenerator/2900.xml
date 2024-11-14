@@ -3358,17 +3358,17 @@
 			</model>
 		</chassis>
 		<chassis name='Leopard CV' unitType='Dropship'>
-			<availability>OA:8,HL:5,CLAN:2,IS:7,Periphery.Deep:6,BAN:6,Periphery:7</availability>
+			<availability>OA:8,HL:5,CLAN:2-,IS:7,Periphery.Deep:6,BAN:6,Periphery:7</availability>
 			<model name='(2581)'>
 				<roles>asf_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CLAN:8,Periphery:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Leopard' unitType='Dropship'>
-			<availability>CC:6,HL:5,CLAN:1,IS:7,Periphery.Deep:6,FS:6,BAN:5,Periphery:7,CS:4,LA:6,CBS:1,FWL:6,NIOPS:4,DC:6</availability>
+			<availability>CC:6,HL:5,CLAN:1-,IS:7,Periphery.Deep:6,FS:6,BAN:5,Periphery:7,CS:4,LA:6,CBS:1,FWL:6,NIOPS:4,DC:6</availability>
 			<model name='(2537)'>
 				<roles>mek_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CLAN:8,Periphery:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Life Boat' unitType='Small Craft'>

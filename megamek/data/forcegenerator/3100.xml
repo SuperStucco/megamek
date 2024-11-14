@@ -10730,22 +10730,26 @@
 			<availability>RA.OA:8,IS:7,Periphery.Deep:5,MH:6,BAN:4,Periphery:7</availability>
 			<model name='(2581)'>
 				<roles>asf_carrier</roles>
-				<availability>General:5-</availability>
+				<availability>IS:4-,Periphery:4,Periphery.Deep:8,HL:5,BAN:8</availability>
 			</model>
 			<model name='(3054)'>
 				<roles>asf_carrier</roles>
-				<availability>CC:8,DTA:8,OP:8,RF:8,LA:8,ROS:8,General:3,FWL:8,MSC:8,FS:8,RCM:8,DA:8</availability>
+				<availability>IS:5,Periphery:2,CC:8,FS:8,DTA:8,SC:8,LA:8,ROS:8,FWL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Leopard' unitType='Dropship'>
-			<availability>CC:7,RA.OA:8,LA:7,IS:8,Periphery.Deep:6,FWL:7,FS:7,BAN:2,Periphery:8,DC:7</availability>
+			<availability>CC:7,RA.OA:8,LA:7,IS:8,Periphery.Deep:6,FWL:7,FS:7,BAN:2,Periphery:8,DC:7,CEI:5-</availability>
+            <model name='&apos;Pocket Warship&apos;'>
+                <roles>pocket_warship</roles>
+                <availability>FWL:2+,DA:2+,MSC:2+,OP:2+,RF:2+,RCM:2+,DTA:2+</availability>
+            </model>
 			<model name='(2537)'>
 				<roles>mek_carrier</roles>
-				<availability>General:2-</availability>
+				<availability>IS:4-,Periphery:5,CEI:8,Periphery.Deep:8,HL:5,BAN:8</availability>
 			</model>
 			<model name='(3056)'>
 				<roles>mek_carrier</roles>
-				<availability>DTA:8,OP:8,RF:8,LA:8,ROS:8,General:3,FWL:8,MSC:8,FS:8,DA:8,RCM:8</availability>
+				<availability>IS:5,Periphery:2,FS:8,DTA:8,SC:8,LA:8,ROS:8,FWL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Leviathan Heavy Transport' unitType='Warship'>

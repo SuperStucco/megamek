@@ -1581,17 +1581,17 @@
 			</model>
 		</chassis>
 		<chassis name='Leopard CV' unitType='Dropship'>
-			<availability>OA:8,IS:7,Periphery.Deep:7,Periphery:7</availability>
+			<availability>OA:8:2581,IS:7:2581,Periphery.Deep:7:2581,Periphery:7:2581</availability>
 			<model name='(2581)'>
 				<roles>asf_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Leopard' unitType='Dropship'>
 			<availability>CC:4,IS:5,Periphery.Deep:5,FS:4,Periphery:5,TH:5,LA:4,SL:4,FWL:4,DC:4</availability>
 			<model name='(2537)'>
 				<roles>mek_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Leviathan Jumpship' unitType='Jumpship'>

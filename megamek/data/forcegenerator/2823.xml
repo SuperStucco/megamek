@@ -2801,14 +2801,14 @@
 			<availability>OA:8,CLAN:5,IS:7,Periphery.Deep:7,Periphery:7</availability>
 			<model name='(2581)'>
 				<roles>asf_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CLAN:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Leopard' unitType='Dropship'>
 			<availability>CC:5,CHH:4,CLAN:5,IS:6,Periphery.Deep:6,FS:5,CIR:7,Periphery:6,CS:4,LA:5,CBS:4,FWL:5,NIOPS:4,DC:5</availability>
 			<model name='(2537)'>
 				<roles>mek_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CLAN:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Life Boat' unitType='Small Craft'>

@@ -906,17 +906,17 @@
 			</model>
 		</chassis>
 		<chassis name='Condor' unitType='Dropship'>
-			<availability>IS:4,Periphery.Deep:4,CIR:4,Periphery:4</availability>
+			<availability>IS:4,Periphery.Deep:4,Periphery:4</availability>
 			<model name='(2801)'>
 				<roles>troop_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Confederate' unitType='Dropship'>
 			<availability>PP:7,MOC:3,IS:6,FS:5,CIR:2,TC:3,CS:6,OA:3,LA:4,FWL:4,NIOPS:6,DC:4</availability>
 			<model name='(2602)'>
 				<roles>mek_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 			<model name='(2602) (Mech)'>
 				<roles>mek_carrier</roles>

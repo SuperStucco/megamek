@@ -4102,14 +4102,14 @@
 			<availability>OA:8,HL:5,IS:7,Periphery.Deep:6,MH:5,BAN:4,Periphery:7</availability>
 			<model name='(2581)'>
 				<roles>asf_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Leopard' unitType='Dropship'>
 			<availability>CC:7,HL:6,FRR:7,IS:8,Periphery.Deep:7,SIC:7,FS:7,BAN:2,Periphery:8,CS:4,LA:7,FWL:7,NIOPS:4,DC:7</availability>
 			<model name='(2537)'>
 				<roles>mek_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Liberator Cruiser' unitType='Warship'>
