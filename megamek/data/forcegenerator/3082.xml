@@ -8158,14 +8158,10 @@
 			</model>
 		</chassis>
 		<chassis name='Hobgoblin Ultraheavy ProtoMech' unitType='ProtoMek'>
-			<availability>CHH:4,CSL:4,CCO:6</availability>
+			<availability>CHH:4,CSL:4</availability>
 			<model name=''>
 				<roles>mag_clamp</roles>
-				<availability>CHH:4,CSL:4,CCO:6</availability>
-			</model>
-			<model name='2'>
-				<roles>mag_clamp</roles>
-				<availability>CCO:4</availability>
+				<availability>CHH:4,CSL:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Hollander II' unitType='Mek'>

@@ -7727,6 +7727,17 @@
 				<availability>DC:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Hobgoblin Ultraheavy ProtoMech' unitType='ProtoMek'>
+            <availability>SOC:6:3072,CCO:6:3072</availability>
+            <model name=''>
+                <roles>mag_clamp</roles>
+                <availability>SOC:6,CCO:6</availability>
+            </model>
+            <model name='2'>
+                <roles>anti_infantry,mag_clamp</roles>
+                <availability>SOC:4,CCO:4</availability>
+            </model>
+        </chassis>
 		<chassis name='Hollander II' unitType='Mek'>
 			<availability>LA:5,MERC:4,FS:4</availability>
 			<model name='BZK-F5'>

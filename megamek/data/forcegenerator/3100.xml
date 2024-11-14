@@ -9003,10 +9003,10 @@
 			</model>
 		</chassis>
 		<chassis name='Hobgoblin Ultraheavy ProtoMech' unitType='ProtoMek'>
-			<availability>CHH:4</availability>
+			<availability>CHH:2</availability>
 			<model name=''>
 				<roles>mag_clamp</roles>
-				<availability>CHH:4</availability>
+				<availability>CHH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Hollander III' unitType='Mek'>
