@@ -7939,9 +7939,6 @@
 				<availability>CC:8,MOC:8,MERC:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Hurricane PA (L)' unitType='BattleArmor'>
-			<availability>CS:1</availability>
-		</chassis>
 		<chassis name='Huscarl' unitType='AeroSpaceFighter' omni='IS'>
 			<availability>CS:3+,FRR:5+,CNC:3</availability>
 			<model name='HSCL-1-O'>
