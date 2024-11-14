@@ -9393,23 +9393,23 @@
             </model>
 		</chassis>
 		<chassis name='Kobold Battle Armor' unitType='BattleArmor'>
-			<availability>CGB.FRR:6</availability>
+			<availability>CGB.FRR:4,ROS:5</availability>
 			<model name='[MicroGL/Flamer](Sqd4)' mechanized='true'>
-				<availability>CGB.FRR:6</availability>
+				<availability>CGB.FRR:6,ROS:6</availability>
 			</model>
 			<model name='[MicroGL/SPL](Sqd4)' mechanized='true'>
-				<availability>CGB.FRR:4</availability>
+				<availability>CGB.FRR:4,ROS:4</availability>
 			</model>
 			<model name='[MicroGL/TAG](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>CGB.FRR:6</availability>
+				<availability>CGB.FRR:6,ROS:6</availability>
 			</model>
 			<model name='[SL/Flamer](Sqd4)' mechanized='true'>
-				<availability>CGB.FRR:6</availability>
+				<availability>CGB.FRR:6,ROS:6</availability>
 			</model>
-			<model name='[SL/TAG](Sqd4)' mechanized='false'>
+			<model name='[SL/TAG](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>CGB.FRR:8</availability>
+				<availability>CGB.FRR:8,ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kodiak' unitType='Mek'>

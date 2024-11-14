@@ -10701,10 +10701,14 @@
 			</model>
 		</chassis>
 		<chassis name='Kobold Battle Armor IIC' unitType='BattleArmor'>
-			<availability>RD:4</availability>
-			<model name='(Sqd5)' mechanized='false'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+			<availability>RD:4,MERC:3+</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <roles>recon,spotter</roles>
+                <availability>MERC:8</availability>
+            </model>
+			<model name='(Sqd5)' mechanized='true'>
+				<roles>recon,spotter</roles>
+				<availability>RD:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kodiak II' unitType='Mek'>

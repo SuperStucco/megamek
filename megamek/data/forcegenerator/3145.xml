@@ -10963,12 +10963,36 @@
 			</model>
 		</chassis>
 		<chassis name='Kobold Battle Armor IIC' unitType='BattleArmor'>
-			<availability>RD:4</availability>
-			<model name='(Sqd5)' mechanized='false'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+			<availability>RD:4,MERC:3+</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <roles>recon,spotter</roles>
+                <availability>MERC:8</availability>
+            </model>
+			<model name='(Sqd5)' mechanized='true'>
+				<roles>recon,spotter</roles>
+				<availability>RD:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Kobold Battle Armor' unitType='BattleArmor'>
+            <availability>ROS:5</availability>
+            <model name='[MicroGL/Flamer](Sqd4)' mechanized='true'>
+                <availability>ROS:6</availability>
+            </model>
+            <model name='[MicroGL/SPL](Sqd4)' mechanized='true'>
+                <availability>ROS:4</availability>
+            </model>
+            <model name='[MicroGL/TAG](Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>ROS:6</availability>
+            </model>
+            <model name='[SL/Flamer](Sqd4)' mechanized='true'>
+                <availability>ROS:6</availability>
+            </model>
+            <model name='[SL/TAG](Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>ROS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Kodiak II' unitType='Mek'>
 			<availability>RD:6</availability>
 			<model name=''>

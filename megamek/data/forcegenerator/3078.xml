@@ -10092,15 +10092,15 @@
             </model>
 		</chassis>
 		<chassis name='Kobold Battle Armor' unitType='BattleArmor'>
-			<availability>CS:5,FRR:5,CGB.FRR:5</availability>
+			<availability>CS:5,FRR:5,CGB.FRR:4-</availability>
 			<model name='X-C3(Sqd6)' mechanized='true'>
-				<availability>CS:2</availability>
+				<availability>CS:2+</availability>
 			</model>
 			<model name='[MicroGL/Flamer](Sqd4)' mechanized='true'>
 				<availability>FRR:6,CGB.FRR:6</availability>
 			</model>
-			<model name='[MicroGL/Flamer](Sqd6)' mechanized='false'>
-				<availability>CS:6</availability>
+			<model name='[MicroGL/Flamer](Sqd6)' mechanized='true'>
+				<availability>CS:6-</availability>
 			</model>
 			<model name='[MicroGL/SPL](Sqd4)' mechanized='true'>
 				<availability>FRR:4,CGB.FRR:4</availability>
@@ -10112,17 +10112,17 @@
 				<roles>spotter</roles>
 				<availability>FRR:6,CGB.FRR:6</availability>
 			</model>
-			<model name='[MicroGL/TAG](Sqd6)' mechanized='false'>
+			<model name='[MicroGL/TAG](Sqd6)' mechanized='true'>
 				<roles>spotter</roles>
 				<availability>CS:6</availability>
 			</model>
 			<model name='[SL/Flamer](Sqd4)' mechanized='true'>
 				<availability>FRR:6,CGB.FRR:6</availability>
 			</model>
-			<model name='[SL/Flamer](Sqd6)' mechanized='false'>
+			<model name='[SL/Flamer](Sqd6)' mechanized='true'>
 				<availability>CS:6</availability>
 			</model>
-			<model name='[SL/TAG](Sqd4)' mechanized='false'>
+			<model name='[SL/TAG](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
 				<availability>FRR:8,CGB.FRR:8</availability>
 			</model>

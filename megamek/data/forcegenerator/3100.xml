@@ -10311,30 +10311,47 @@
 			</model>
 		</chassis>
 		<chassis name='Kobold Battle Armor IIC' unitType='BattleArmor'>
-			<availability>RD:4,CGB:3</availability>
-			<model name='(Sqd5)' mechanized='false'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+			<availability>RD:4,CGB:3,CGB.FRR:2+</availability>
+			<model name='(Sqd5)' mechanized='true'>
+				<roles>recon,spotter</roles>
+				<availability>RD:8,CGB:8,CGB.FRR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kobold Battle Armor' unitType='BattleArmor'>
-			<availability>RD:3-,CGB:3-</availability>
-			<model name='[MicroGL/Flamer](Sqd5)' mechanized='false'>
-				<availability>RD:6,CGB:6</availability>
+			<availability>RD:3-,CGB:3-,CGB.FRR:3,ROS:5</availability>
+            <model name='[MicroGL/Flamer](Sqd4)' mechanized='true'>
+                <availability>ROS:6</availability>
+            </model>
+			<model name='[MicroGL/Flamer](Sqd5)' mechanized='true'>
+				<availability>CGB.FRR:6,RD:6,CGB:6</availability>
 			</model>
+            <model name='[MicroGL/SPL](Sqd4)' mechanized='true'>
+                <availability>ROS:4</availability>
+            </model>
 			<model name='[MicroGL/SPL](Sqd5)' mechanized='true'>
-				<availability>RD:4,CGB:4</availability>
+				<availability>CGB.FRR:4,RD:4,CGB:4</availability>
 			</model>
+            <model name='[MicroGL/TAG](Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>ROS:6</availability>
+            </model>
 			<model name='[MicroGL/TAG](Sqd5)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>RD:6,CGB:6</availability>
+				<availability>CGB.FRR:6,RD:6,CGB:6</availability>
 			</model>
-			<model name='[SL/Flamer](Sqd5)' mechanized='false'>
-				<availability>RD:6,CGB:6</availability>
+            <model name='[SL/Flamer](Sqd4)' mechanized='true'>
+                <availability>ROS:6</availability>
+            </model>
+			<model name='[SL/Flamer](Sqd5)' mechanized='true'>
+				<availability>CGB.FRR:6,RD:6,CGB:6</availability>
 			</model>
-			<model name='[SL/TAG](Sqd5)' mechanized='false'>
+            <model name='[SL/TAG](Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>ROS:8</availability>
+            </model>
+			<model name='[SL/TAG](Sqd5)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>RD:8,CGB:8</availability>
+				<availability>CGB.FRR:8,RD:8,CGB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kodiak II' unitType='Mek'>
