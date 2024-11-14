@@ -5545,13 +5545,13 @@
 			</model>
 		</chassis>
 		<chassis name='Gunslinger' unitType='Mek'>
-			<availability>LA:6,FRR:5,IS:5,FS:5,DC:6</availability>
+			<availability>CS:5,LA:6,FRR:5,MERC:5+,FS:5,DC:6</availability>
 			<model name='GUN-1ERD'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='GUN-2ERD'>
-				<roles>spotter</roles>
-				<availability>LA:3,WOB:2,FS:2,DC:2</availability>
+				<roles>command,spotter</roles>
+				<availability>LA:2+:3062,FS:2+:3062,DC:3+:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Gurkha' unitType='Mek'>

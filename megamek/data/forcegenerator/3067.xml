@@ -6859,13 +6859,13 @@
 			</model>
 		</chassis>
 		<chassis name='Gunslinger' unitType='Mek'>
-			<availability>FVC:5,LA:7,FRR:5,IS:5,FS:5,DC:6</availability>
+			<availability>FVC:3+,LA:7,FRR:5,MERC:5+,FS:5,DC:6,WOB:4</availability>
 			<model name='GUN-1ERD'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='GUN-2ERD'>
-				<roles>spotter</roles>
-				<availability>LA:4,WOB:3,FS:3,DC:3</availability>
+				<roles>command,spotter</roles>
+				<availability>LA:3+,WOB:3,FS:3+,DC:4+</availability>
 			</model>
 		</chassis>
 		<chassis name='Gurkha' unitType='Mek'>

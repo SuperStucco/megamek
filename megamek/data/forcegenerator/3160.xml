@@ -8228,17 +8228,20 @@
 			<availability>CC:6-,MOC:5,DA:4</availability>
 		</chassis>
 		<chassis name='Gunslinger' unitType='Mek'>
-			<availability>FVC:5,LA:8,IS:5,MH:4,FS:5,DC:7</availability>
+			<availability>IS:5,FVC:3+,LA:8,DC:7,MH:3+</availability>
 			<model name='GUN-1ERD'>
-				<availability>General:8</availability>
+				<availability>IS:8,LA:6,FS:4,DC:3,ROS:5,MH:8</availability>
 			</model>
 			<model name='GUN-2ERD'>
-				<roles>spotter</roles>
-				<availability>LA:6,General:4,FS:6,DC:6</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:4+,FS:2+,DC:2+,ROS:2+</availability>
 			</model>
 			<model name='GUN-2ERDr'>
-				<roles>spotter</roles>
-				<availability>FS:4,DC:4</availability>
+				<roles>command,spotter</roles>
+				<availability>FS:5+,DC:5+,ROS:4+</availability>
+            </model>
+            <model name='GUN-3ERD'>
+                <availability>DC:7+,LA:5+,MERC:3+</availability>
 			</model>
 		</chassis>
 		<chassis name='Gunsmith' unitType='Mek'>

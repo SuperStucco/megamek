@@ -4566,9 +4566,9 @@
 			</model>
 		</chassis>
 		<chassis name='Gunslinger' unitType='Mek'>
-			<availability>LA:5,FRR:4,IS:3,FS:4,DC:4</availability>
+			<availability>LA:5,FRR:4,MERC:3+,FS:4,DC:4</availability>
 			<model name='GUN-1ERD'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Habitat' unitType='Space Station'>
