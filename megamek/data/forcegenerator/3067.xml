@@ -9213,19 +9213,22 @@
 			</model>
 		</chassis>
 		<chassis name='Lao Hu' unitType='Mek'>
-			<availability>CC:6,MOC:4,FS:2,TC:4</availability>
+			<availability>CC:6,MOC:4+,FS:2,TC:4+</availability>
 			<model name='LHU-2B'>
+                <roles>cavalry</roles>
 				<availability>MOC:8,CC:8,TC:8</availability>
 			</model>
 			<model name='LHU-3B'>
-				<roles>spotter</roles>
-				<availability>CC:6,MOC:6</availability>
+				<roles>cavalry,command,spotter</roles>
+				<availability>CC:5+,MOC:3+</availability>
 			</model>
 			<model name='LHU-3C'>
-				<availability>CC:4+,MOC:4+</availability>
+                <roles>cavalry,fire_support</roles>
+				<availability>CC:6,MOC:6</availability>
 			</model>
 			<model name='LHU-3L'>
-				<availability>CC:4,MOC:4,FS:8</availability>
+                <roles>cavalry</roles>
+				<availability>CC:4:3069,MOC:4:3069,FS:8:3069</availability>
 			</model>
 		</chassis>
 		<chassis name='Laser Carrier' unitType='Tank'>
