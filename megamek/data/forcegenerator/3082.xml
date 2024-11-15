@@ -10840,30 +10840,30 @@
 			</model>
 		</chassis>
 		<chassis name='Maxim Heavy Hover Transport' unitType='Tank'>
-			<availability>CLAN:1,IS:1,Periphery.Deep:5,MERC:1,Periphery:1,RA.OA:1,LA:3,CGB.FRR:2,ROS:1,NIOPS:2-</availability>
+			<availability>IS:3-,CLAN:3-,Periphery:5-,Periphery.Deep:8-</availability>
 			<model name=''>
 				<roles>apc</roles>
-				<availability>IS:3-,Periphery.Deep:8,Periphery:3-</availability>
+				<availability>IS:3-,Periphery:6,Periphery.Deep:8</availability>
 			</model>
 			<model name='(Anti-Infantry)'>
 				<roles>apc,spotter,anti_infantry</roles>
-				<availability>IS:2,DC:3</availability>
+				<availability>Periphery:3,Periphery.Deep:5</availability>
 			</model>
 			<model name='(BA Factory Upgrade)'>
 				<roles>apc</roles>
-				<availability>CC:5,CGB.FRR:5,FWL:5,IS:4,DC:5</availability>
+				<availability>IS:5,Periphery:5+,Periphery.Deep:0</availability>
 			</model>
 			<model name='(BA Field Upgrade)'>
 				<roles>apc,spotter</roles>
-				<availability>CGB.FRR:3,IS:2,MERC:3,DC:4</availability>
+				<availability>IS:7,Periphery:7+,Periphery.Deep:0</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>apc,spotter</roles>
-				<availability>IS:2</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:4+</availability>
 			</model>
 			<model name='(C3S)'>
 				<roles>apc,spotter</roles>
-				<availability>IS:4</availability>
+				<availability>IS:5</availability>
 			</model>
 			<model name='(Clan)'>
 				<roles>ew_support,apc</roles>
@@ -10871,15 +10871,11 @@
 			</model>
 			<model name='(Fire Support)'>
 				<roles>apc,fire_support</roles>
-				<availability>FVC:4,LA:4,IS:2,FS:4,MERC:4,DC:6</availability>
-			</model>
-			<model name='(SRM2)'>
-				<roles>apc</roles>
-				<availability>IS:1-,Periphery:2-</availability>
+				<availability>IS:2,Periphery:5,Periphery.Deep:6</availability>
 			</model>
 			<model name='(SRM4)'>
 				<roles>apc</roles>
-				<availability>IS:1-,Periphery:2-</availability>
+				<availability>Periphery:5,Periphery.Deep:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Maxim Mk II Transport' unitType='Tank'>

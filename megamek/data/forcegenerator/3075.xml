@@ -11261,8 +11261,8 @@
 				<availability>FRR:3,IS:2,MERC:3,DC:4</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>apc,spotter</roles>
-				<availability>IS:2</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:2+</availability>
 			</model>
 			<model name='(C3S)'>
 				<roles>apc,spotter</roles>

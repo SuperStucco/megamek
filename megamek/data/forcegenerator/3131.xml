@@ -12798,6 +12798,45 @@
 				<availability>IS:3+,MERC:2+</availability>
 			</model>
 		</chassis>
+        <chassis name='Maxim Heavy Hover Transport' unitType='Tank'>
+            <availability>IS:3-,CLAN:3-,Periphery:5-,Periphery.Deep:8-</availability>
+            <model name=''>
+                <roles>apc</roles>
+                <availability>IS:3-,Periphery:6,Periphery.Deep:8</availability>
+            </model>
+            <model name='(Anti-Infantry)'>
+                <roles>apc,spotter,anti_infantry</roles>
+                <availability>Periphery:3,Periphery.Deep:5</availability>
+            </model>
+            <model name='(BA Factory Upgrade)'>
+                <roles>apc</roles>
+                <availability>IS:5,Periphery:5+,Periphery.Deep:0</availability>
+            </model>
+            <model name='(BA Field Upgrade)'>
+                <roles>apc,spotter</roles>
+                <availability>IS:7,Periphery:7+,Periphery.Deep:0</availability>
+            </model>
+            <model name='(C3M)'>
+                <roles>command,spotter</roles>
+                <availability>IS:4+</availability>
+            </model>
+            <model name='(C3S)'>
+                <roles>apc,spotter</roles>
+                <availability>IS:5</availability>
+            </model>
+            <model name='(Clan)'>
+                <roles>ew_support,apc</roles>
+                <availability>MERC.WD:8,CLAN:8</availability>
+            </model>
+            <model name='(Fire Support)'>
+                <roles>apc,fire_support</roles>
+                <availability>IS:2,Periphery:5,Periphery.Deep:6</availability>
+            </model>
+            <model name='(SRM4)'>
+                <roles>apc</roles>
+                <availability>Periphery:5,Periphery.Deep:6</availability>
+            </model>
+        </chassis>
 		<chassis name='Maxim Mk II Transport' unitType='Tank'>
 			<availability>LA:5,ROS:6,MERC:4</availability>
 			<model name=''>
