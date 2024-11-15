@@ -13023,12 +13023,15 @@
 		<chassis name='Ninja-To' unitType='Mek'>
 			<availability>DC:8</availability>
 			<model name='NJT-2'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>DC:8</availability>
 			</model>
 			<model name='NJT-3'>
-				<availability>General:2</availability>
+                <roles>cavalry</roles>
+				<availability>DC:2</availability>
 			</model>
 			<model name='NJT-4'>
+                <roles>cavalry</roles>
 				<availability>DC:4</availability>
 			</model>
 		</chassis>

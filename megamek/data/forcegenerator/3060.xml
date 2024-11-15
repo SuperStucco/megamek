@@ -9008,9 +9008,10 @@
 			</model>
 		</chassis>
 		<chassis name='Ninja-To' unitType='Mek'>
-			<availability>DC:3</availability>
+			<availability>DC:3:3062</availability>
 			<model name='NJT-2'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='No-Dachi' unitType='Mek'>

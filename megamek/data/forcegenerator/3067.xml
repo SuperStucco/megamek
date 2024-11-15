@@ -11322,10 +11322,12 @@
 		<chassis name='Ninja-To' unitType='Mek'>
 			<availability>WOB:3,DC:5</availability>
 			<model name='NJT-2'>
-				<availability>General:8</availability>
+			    <roles>cavalry</roles>
+				<availability>DC:8,WOB:8</availability>
 			</model>
 			<model name='NJT-3'>
-				<availability>General:2</availability>
+			    <roles>cavalry</roles>
+				<availability>DC:2:3068,WOB:2:3068</availability>
 			</model>
 		</chassis>
 		<chassis name='No-Dachi' unitType='Mek'>
