@@ -12022,24 +12022,28 @@
 		<chassis name='Manteuffel Attack Tank' unitType='Tank' omni='IS'>
 			<availability>LA:6,FS:6</availability>
 			<model name='A'>
-				<availability>General:7,FS:6</availability>
+                <roles>cavalry</roles>
+				<availability>LA:7,FS:6</availability>
 			</model>
 			<model name='B'>
-				<availability>General:4</availability>
+                <roles>cavalry</roles>
+				<availability>LA:6,FS:4</availability>
 			</model>
 			<model name='C'>
-				<roles>spotter</roles>
-				<availability>General:7,FS:5</availability>
+				<roles>cavalry,command,spotter</roles>
+				<availability>LA:5+,FS:5+</availability>
 			</model>
 			<model name='D'>
-				<roles>apc</roles>
-				<availability>General:4</availability>
+				<roles>apc,cavalry,fire_support</roles>
+				<availability>LA:4,FS:4</availability>
 			</model>
 			<model name='E'>
-				<availability>General:6</availability>
+                <roles>cavalry</roles>
+				<availability>LA:6,FS:6</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>LA:6,FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Manticore Heavy Tank' unitType='Tank'>
