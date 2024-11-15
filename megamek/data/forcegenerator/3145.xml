@@ -12999,34 +12999,34 @@
 			<availability>CC:7,MOC:5</availability>
 			<model name='MS1-O'>
 				<roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>CC:8,MOC:8</availability>
 			</model>
 			<model name='MS1-OA'>
 				<roles>recon,spotter</roles>
-				<availability>General:7</availability>
+				<availability>CC:7,MOC:7</availability>
 			</model>
 			<model name='MS1-OB'>
 				<roles>recon</roles>
-				<availability>General:7</availability>
+				<availability>CC:7,MOC:7</availability>
 			</model>
 			<model name='MS1-OC'>
-				<roles>recon</roles>
-				<availability>General:7</availability>
+				<roles>ew_support,recon</roles>
+				<availability>CC:7,MOC:7</availability>
 			</model>
 			<model name='MS1-OD'>
 				<roles>recon</roles>
-				<availability>General:7</availability>
+				<availability>CC:7,MOC:7</availability>
 			</model>
 			<model name='MS1-OE'>
 				<roles>anti_infantry</roles>
-				<availability>General:6</availability>
+				<availability>CC:6,MOC:6</availability>
 			</model>
 			<model name='MS1-OF'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>CC:5,MOC:5</availability>
 			</model>
 			<model name='MS1-OG'>
-				<availability>General:4</availability>
+				<availability>CC:4,MOC:4</availability>
 			</model>
 			<model name='MS1-OU'>
 				<roles>spotter</roles>
