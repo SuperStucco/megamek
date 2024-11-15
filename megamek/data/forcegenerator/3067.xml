@@ -10775,7 +10775,8 @@
 		<chassis name='Mjolnir Battlecruiser' unitType='Warship'>
 			<availability>LA:1</availability>
 			<model name=''>
-				<availability>General:8</availability>
+			    <roles>cruiser</roles>
+				<availability>LA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Mobile Headquarters' unitType='Tank'>
