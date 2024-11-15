@@ -2843,7 +2843,7 @@
 		<chassis name='Newgrange III Yardship' unitType='Warship'>
 			<availability>SL:4</availability>
             <model name='(2700)'>
-                <availability>General:8</availability>
+                <availability>SL:8</availability>
             </model>
 		</chassis>
 		<chassis name='Night Hawk' unitType='Mek'>

@@ -11627,7 +11627,7 @@
 		<chassis name='Newgrange III Yardship' unitType='Warship'>
 			<availability>ROS:1</availability>
             <model name='(2700)'>
-                <availability>General:8</availability>
+                <availability>ROS:8</availability>
             </model>
 		</chassis>
 		<chassis name='Nexus' unitType='Mek'>
@@ -16418,7 +16418,7 @@
 			<model name='(Ying Long)(Plasma)(Sqd4)' mechanized='true'>
 				<availability>CC:8</availability>
 			</model>
-            <model name='(Ying Long BC3)(David)(Sqd4)' mechanized='true'>
+            <model name='(Ying Long BC3)[David](Sqd4)' mechanized='true'>
                 <availability>CC:3+</availability>
             </model>
 		</chassis>

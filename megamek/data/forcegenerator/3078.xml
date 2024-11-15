@@ -9484,7 +9484,7 @@
 			<availability>FRR:6,CGB.FRR:6,WOB:4,FS:7,DC:5,FVC:6</availability>
 			<model name='JM6-D3'>
                 <roles>cavalry</roles>
-				<availability>IS:8,FVC</availability>
+				<availability>IS:8,FVC:8</availability>
 			</model>
 			<model name='JM6-D4'>
                 <roles>cavalry</roles>
@@ -12538,10 +12538,10 @@
 				<availability>FS:2</availability>
 			</model>
 		</chassis>
-		<chassis name='Newgrange Yardship' unitType='Warship'>
+		<chassis name='Newgrange III Yardship' unitType='Warship'>
 			<availability>WOB:2</availability>
             <model name='(2700)'>
-                <availability>General:8</availability>
+                <availability>WOB:8</availability>
             </model>
 		</chassis>
 		<chassis name='Nexus II' unitType='Mek'>
@@ -17728,7 +17728,7 @@
 			<model name='(Ying Long)(Plasma)(Sqd4)' mechanized='true'>
 				<availability>CC:8</availability>
 			</model>
-            <model name='(Ying Long BC3)(David)(Sqd4)' mechanized='true'>
+            <model name='(Ying Long BC3)[David](Sqd4)' mechanized='true'>
                 <availability>CC:3+</availability>
             </model>
 		</chassis>

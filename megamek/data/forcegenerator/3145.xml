@@ -10289,7 +10289,7 @@
 			<availability>ROS:5,FS:8,DC:5,FVC:7</availability>
 			<model name='JM6-D3'>
                 <roles>cavalry</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,FVC:8</availability>
 			</model>
 			<model name='JM6-D4'>
                 <roles>cavalry</roles>
@@ -13673,7 +13673,7 @@
 		<chassis name='Newgrange III Yardship' unitType='Warship'>
 			<availability>ROS:1</availability>
             <model name='(2700)'>
-                <availability>General:8</availability>
+                <availability>ROS:8</availability>
             </model>
 		</chassis>
 		<chassis name='Nexus' unitType='Mek'>

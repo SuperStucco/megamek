@@ -12032,7 +12032,7 @@
 		<chassis name='Newgrange III Yardship' unitType='Warship'>
 			<availability>WOB:2</availability>
             <model name='(2700)'>
-                <availability>General:8</availability>
+                <availability>WOB:8</availability>
             </model>
 		</chassis>
 		<chassis name='Nexus II' unitType='Mek'>
@@ -15252,7 +15252,7 @@
 				<availability>CSA:4,CCC:4,CCO:4</availability>
 			</model>
 			<model name='2'>
-				<roles>anti_personnel,recon</roles>
+				<roles>anti_infantry,recon</roles>
 				<availability>CSA:8,CCC:8</availability>
 			</model>
 			<model name='3'>
