@@ -5835,20 +5835,22 @@
 			<availability>CC:6,HL:6,FRR:5,IS:7,Periphery.Deep:6,WOB:6,SIC:5,Periphery:7,CS:3,FWL:9,NIOPS:3,DC:6</availability>
 			<model name='LGB-0W'>
 				<roles>fire_support</roles>
-				<availability>General:6</availability>
+				<availability>IS:6,Periphery:8</availability>
 			</model>
 			<model name='LGB-0W2'>
+                <roles>fire_support</roles>
 				<availability>MERC.KH:2-,MERC.WD:2-,IS:2-,MERC:2,Periphery:2</availability>
 			</model>
 			<model name='LGB-7Q'>
 				<roles>fire_support</roles>
-				<availability>MOC:5,OA:5,General:5,TC:5,Periphery:5</availability>
+				<availability>IS:5,Periphery:5</availability>
 			</model>
 			<model name='LGB-7V'>
 				<roles>fire_support</roles>
-				<availability>MOC:3+,FWL:4+,IS:3+</availability>
+				<availability>MOC:3+:3056,FWL:4+:3056,IS:3+:3056</availability>
 			</model>
 			<model name='LGB-8C'>
+                <roles>fire_support</roles>
 				<availability>MERC.KH:4,MERC.WD:3-,IS:4,MERC:3,Periphery:3</availability>
 			</model>
 		</chassis>

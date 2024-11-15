@@ -796,8 +796,9 @@
 			</model>
 		</chassis>
 		<chassis name='Longbow' unitType='Mek'>
-			<availability>FWL:5</availability>
+			<availability>FWL:5:2480</availability>
 			<model name='LGB-0C'>
+                <roles>fire_support</roles>
 				<availability>FWL:8</availability>
 			</model>
 		</chassis>

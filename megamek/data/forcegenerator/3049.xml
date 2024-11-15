@@ -5220,16 +5220,18 @@
 			<availability>CC:6,HL:5,FRR:5,IS:7,Periphery.Deep:6,WOB:4,SIC:6,Periphery:7,CS:4,FWL:9,NIOPS:4,DC:5</availability>
 			<model name='LGB-0W'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 			<model name='LGB-0W2'>
+                <roles>fire_support</roles>
 				<availability>MERC.KH:2-,MERC.WD:2-,IS:2-,MERC:2,Periphery:2</availability>
 			</model>
 			<model name='LGB-7Q'>
 				<roles>fire_support</roles>
-				<availability>MOC:6,OA:6,General:6,TC:6,Periphery:6</availability>
+				<availability>IS:6,Periphery:6</availability>
 			</model>
 			<model name='LGB-8C'>
+                <roles>fire_support</roles>
 				<availability>MERC.KH:5,MERC.WD:3,IS:4,MERC:4,Periphery:3</availability>
 			</model>
 		</chassis>

@@ -9643,13 +9643,15 @@
 		<chassis name='Longbow' unitType='Mek'>
 			<availability>MOC:6,CC:4,HL:6,FRR:4,IS:6,Periphery.Deep:6,WOB:6,FS:5,Periphery:7,TC:6,CS:3,OA:6,LA:5,FWL:7,NIOPS:3</availability>
 			<model name='LGB-0H'>
+                <roles>fire_support</roles>
 				<availability>PIR:3,MH:5</availability>
 			</model>
 			<model name='LGB-0W'>
 				<roles>fire_support</roles>
-				<availability>General:5-</availability>
+				<availability>IS:5-,Periphery:6</availability>
 			</model>
 			<model name='LGB-0W2'>
+                <roles>fire_support</roles>
 				<availability>MERC.KH:1-,MERC.WD:1-,IS:2-,MERC:2-,Periphery:2</availability>
 			</model>
 			<model name='LGB-10C'>
@@ -9660,30 +9662,31 @@
 				<availability>CC:5,MOC:4,LA:3,FWL:3,MH:3,FS:3,MERC:3</availability>
 			</model>
 			<model name='LGB-13C'>
-				<roles>fire_support</roles>
-				<availability>CC:3,FWL:3,FS:3,MERC:3,DC:3</availability>
+				<roles>fire_support,sr_fire_support</roles>
+				<availability>CC:3:3070,FWL:3:3070,FS:3:3070,MERC:3:3070,DC:3:3070</availability>
 			</model>
 			<model name='LGB-13NAIS'>
-				<availability>WOB:2,FS:3</availability>
+				<availability>WOB:2:3069,FS:3:3069</availability>
 			</model>
 			<model name='LGB-14C'>
-				<roles>fire_support</roles>
-				<availability>CC:3,CS:3,LA:3,FS:3,MERC:3,DC:3</availability>
+				<roles>fire_support,sr_fire_support</roles>
+				<availability>CC:3:3070,CS:3:3070,LA:3:3070,FS:3:3070,MERC:3:3070,DC:3:3070</availability>
 			</model>
 			<model name='LGB-7Q'>
 				<roles>fire_support</roles>
-				<availability>MOC:4-,OA:4-,General:4-,TC:4-,Periphery:4-</availability>
+				<availability>IS:4-,Periphery:4-</availability>
 			</model>
 			<model name='LGB-7V'>
 				<roles>fire_support</roles>
 				<availability>MOC:4,FVC:4,FWL:7,IS:4</availability>
 			</model>
 			<model name='LGB-8C'>
+                <roles>fire_support</roles>
 				<availability>MERC.KH:3-,MERC.WD:2-,IS:3-,MERC:3-,Periphery:5</availability>
 			</model>
 			<model name='LGB-8V'>
-				<roles>missile_artillery,fire_support</roles>
-				<availability>LA:2,FRR:2,FWL:2,FS:3,MERC:2</availability>
+				<roles>mixed_artillery</roles>
+				<availability>LA:2+,FRR:2+,FWL:2+,FS:3+,MERC:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Longinus Battle Armor' unitType='BattleArmor'>

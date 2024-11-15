@@ -1671,21 +1671,24 @@
 		<chassis name='Longbow' unitType='Mek'>
 			<availability>MOC:3,IS:4,RWR:3,FS:5,Periphery:2,TC:3,OA:3,LA:6,SL:5,FWL:9,SL.R:4</availability>
 			<model name='LGB-0C'>
+                <roles>fire_support</roles>
 				<availability>FWL:4-,IS:4-,Periphery.Deep:8,Periphery:8</availability>
 			</model>
 			<model name='LGB-0W'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>DC:8,FWL:8,MERC:8,Periphery:8</availability>
 			</model>
 			<model name='LGB-0W2'>
+                <roles>fire_support</roles>
 				<availability>FWL:6,MERC:6+,Periphery:5+,DC:6</availability>
 			</model>
 			<model name='LGB-7Q'>
 				<roles>fire_support</roles>
-				<availability>General:6</availability>
+				<availability>FS:6:2610,FWL:6:2610,LA:6:2610,SL:6:2610,MOC:6:2610,OA:6:2610</availability>
 			</model>
 			<model name='LGB-8C'>
-				<availability>MOC:3,OA:3,TH:4,LA:3,SL:4,FWL:3,RWR:2,FS:3</availability>
+                <roles>fire_support</roles>
+				<availability>MOC:3:2615,OA:3:2615,TH:4:2615,LA:3:2615,SL:4:2615,FWL:3:2615,RWR:2:2615,FS:3:2615</availability>
 			</model>
 		</chassis>
 		<chassis name='Lucifer' unitType='AeroSpaceFighter'>

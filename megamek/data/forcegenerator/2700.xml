@@ -2145,20 +2145,23 @@
 		<chassis name='Longbow' unitType='Mek'>
 			<availability>MOC:7,CC:6,IS:7,Periphery.Deep:5,RWR:7,FS:8,Periphery:5,TC:7,OA:7,SL:4,FWL:9,SL.R:2,DC:6</availability>
 			<model name='LGB-0C'>
+                <roles>fire_support</roles>
 				<availability>Periphery.Deep:5,Periphery:5</availability>
 			</model>
 			<model name='LGB-0W'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>DC:8,FWL:8,MERC:8,Periphery:8</availability>
 			</model>
 			<model name='LGB-0W2'>
+                <roles>fire_support</roles>
 				<availability>FWL:6,MERC:6+,Periphery:5+,DC:6</availability>
 			</model>
 			<model name='LGB-7Q'>
 				<roles>fire_support</roles>
-				<availability>General:6</availability>
+				<availability>FS:6,FWL:6,LA:6,SL:6,MOC:6,OA:6</availability>
 			</model>
 			<model name='LGB-8C'>
+                <roles>fire_support</roles>
 				<availability>MOC:4,OA:4,TH:8,LA:6,SL:8,FWL:6,RWR:3,FS:6</availability>
 			</model>
 		</chassis>

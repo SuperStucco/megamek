@@ -1164,12 +1164,17 @@
 		<chassis name='Longbow' unitType='Mek'>
 			<availability>FWL:9</availability>
 			<model name='LGB-0C'>
+                <roles>fire_support</roles>
 				<availability>FWL:6</availability>
 			</model>
 			<model name='LGB-0W'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>FWL:8:2529</availability>
 			</model>
+            <model name='LGB-0W2'>
+                <roles>fire_support</roles>
+                <availability>FWL:6:2531</availability>
+            </model>
 		</chassis>
 		<chassis name='Lucifer' unitType='AeroSpaceFighter'>
 			<availability>LA:6</availability>
