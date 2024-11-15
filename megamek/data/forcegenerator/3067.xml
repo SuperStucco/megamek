@@ -11586,34 +11586,38 @@
 			</model>
 		</chassis>
 		<chassis name='Osteon' unitType='Mek' omni='Clan'>
-			<availability>SOC:5,CCO:3,CB:3</availability>
+			<availability>SOC:5:3072,CCO:3:3072,CB:3:3072</availability>
 			<model name='A'>
-				<availability>General:6</availability>
+                <roles>fire_support</roles>
+				<availability>CLAN:5-,SOC:6</availability>
 			</model>
 			<model name='B'>
-				<availability>General:6</availability>
+				<availability>CLAN:7,SOC:6</availability>
 			</model>
 			<model name='C'>
-				<availability>General:6</availability>
+			    <roles>raider</roles>
+				<availability>CLAN:6,SOC:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:6</availability>
+				<availability>CLAN:6,SOC:7</availability>
 			</model>
 			<model name='E'>
-				<availability>General:5</availability>
+                <roles>anti_aircraft</roles>
+				<availability>CLAN:5,SOC:5</availability>
 			</model>
 			<model name='F'>
-				<availability>General:5</availability>
+                <roles>anti_infantry</roles>
+				<availability>CLAN:4-,SOC:6</availability>
 			</model>
 			<model name='G'>
-				<roles>missile_artillery</roles>
-				<availability>General:5</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CLAN:4-,SOC:5</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN:8,SOC:8</availability>
 			</model>
 			<model name='U'>
-				<availability>General:2</availability>
+				<availability>CLAN:2,SOC:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Ostroc' unitType='Mek'>
