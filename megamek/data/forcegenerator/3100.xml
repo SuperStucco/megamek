@@ -11603,16 +11603,16 @@
 			</model>
 		</chassis>
 		<chassis name='Manticore Heavy Tank' unitType='Tank'>
-			<availability>MOC:4,CC:4,IS:5,MERC:5,Periphery:5,CWIE:5,RA.OA:5,ROS:5,FWL:4,DC:6</availability>
+			<availability>MOC:4,CC:4,IS:5,MERC:5,Periphery:5,CWIE:5-,RA.OA:5,ROS:5,FWL:4,DC:6</availability>
 			<model name=''>
-				<availability>General:1-,Periphery:2</availability>
+				<availability>IS:1-,CWIE:8,Periphery:2</availability>
 			</model>
 			<model name='(3055 Upgrade)'>
 				<availability>FVC:8,RF:8,LA:8,ROS:8,FS:8,MERC:8</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>spotter</roles>
-				<availability>ROS:4,FS:4,DC:4</availability>
+				<roles>command,spotter</roles>
+				<availability>ROS:4,FS:4+,DC:4+</availability>
 			</model>
 			<model name='(C3S)'>
 				<availability>ROS:8,FS:6,DC:8</availability>

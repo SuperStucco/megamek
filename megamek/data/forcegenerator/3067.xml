@@ -10062,14 +10062,14 @@
 		<chassis name='Manticore Heavy Tank' unitType='Tank'>
 			<availability>MOC:7,CC:7,HL:7,FRR:9,IS:8,Periphery.Deep:8,WOB:8,MERC:8,CIR:7,Periphery:8,CS:8,FWL:7,NIOPS:8,DC:10</availability>
 			<model name=''>
-				<availability>HL:4,LA:3-,General:6-,Periphery.Deep:5,FS:3-,DC:3-,Periphery:6</availability>
+				<availability>HL:4,LA:3-,IS:6-,Periphery.Deep:5,FS:3-,DC:3-,Periphery:6</availability>
 			</model>
 			<model name='(3055 Upgrade)'>
 				<availability>FVC:8,LA:8,FS:8,MERC:6</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>spotter</roles>
-				<availability>FS:3,DC:4</availability>
+				<roles>command,spotter</roles>
+				<availability>FS:3+,DC:4+</availability>
 			</model>
 			<model name='(C3S)'>
 				<availability>FS:6,DC:7</availability>

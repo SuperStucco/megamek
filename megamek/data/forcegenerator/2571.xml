@@ -1744,6 +1744,12 @@
 				<availability>General:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Manticore Heavy Tank' unitType='Tank'>
+            <availability>IS:4+:2575,TH:8:2575,SL:8:2575</availability>
+            <model name=''>
+                <availability>IS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Marauder' unitType='Mek'>
 			<availability>SL:6:2612</availability>
 			<model name='MAD-1R'>

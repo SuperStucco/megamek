@@ -10873,14 +10873,14 @@
 		<chassis name='Manticore Heavy Tank' unitType='Tank'>
 			<availability>MOC:6,CC:6,HL:6,FRR:8,IS:7,Periphery.Deep:7,WOB:7,MERC:7,CIR:6,Periphery:7,CS:7,FWL:6,NIOPS:7,DC:9</availability>
 			<model name=''>
-				<availability>HL:3,LA:2-,General:4-,Periphery.Deep:6,FS:2-,DC:2-,Periphery:5</availability>
+				<availability>HL:3,LA:2-,IS:4-,Periphery.Deep:6,FS:2-,DC:2-,Periphery:5</availability>
 			</model>
 			<model name='(3055 Upgrade)'>
 				<availability>FVC:8,LA:8,FS:8,MERC:8</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>spotter</roles>
-				<availability>FS:4,DC:4</availability>
+				<roles>command,spotter</roles>
+				<availability>FS:4+,DC:4+</availability>
 			</model>
 			<model name='(C3S)'>
 				<availability>FS:6,DC:8</availability>
@@ -11239,7 +11239,7 @@
 			</model>
 		</chassis>
 		<chassis name='Maxim Heavy Hover Transport' unitType='Tank'>
-			<availability>CC:2FRR:4,CLAN:2,IS:2,Periphery.Deep:5,WOB:2-,MERC:2,FS:1,CIR:3,Periphery:2,CS:2-,LA:4,NIOPS:2-</availability>
+			<availability>CC:2,FRR:4,CLAN:2,IS:2,Periphery.Deep:5,WOB:2-,MERC:2,FS:1,CIR:3,Periphery:2,CS:2-,LA:4,NIOPS:2-</availability>
 			<model name=''>
 				<roles>apc</roles>
 				<availability>HL:2-,IS:4-,Periphery.Deep:8,Periphery:4-</availability>

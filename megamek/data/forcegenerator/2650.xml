@@ -1848,7 +1848,7 @@
 		<chassis name='Manticore Heavy Tank' unitType='Tank'>
 			<availability>IS:8,Periphery.Deep:7,RWR:8,FS:9,MERC:8,Periphery:7,TC:8,OA:8,LA:10,DC:10</availability>
 			<model name=''>
-				<availability>LA:6,General:6,Periphery.Deep:6,FS:6,DC:6,Periphery:6</availability>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Marauder' unitType='Mek'>
