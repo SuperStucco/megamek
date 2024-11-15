@@ -13440,14 +13440,14 @@
             </model>
         </chassis>
         <chassis name='Morningstar City Command Vehicle' unitType='Tank'>
-            <availability>CC:3,MOC:4,ROS:4,FS:6,MERC:4</availability>
+            <availability>CC:3,MOC:4,ROS:4,FS:6,MERC:4,FR:3+</availability>
             <model name=''>
-                <roles>urban,spotter</roles>
-                <availability>General:8</availability>
+                <roles>command,urban,spotter</roles>
+                <availability>IS:8,MOC:8,FR:8</availability>
             </model>
             <model name='(Company Command)'>
-                <roles>urban,spotter</roles>
-                <availability>CC:4,ROS:4,FS:4</availability>
+                <roles>command,urban,spotter</roles>
+                <availability>CC:4+,ROS:4+,FS:4+</availability>
             </model>
         </chassis>
         <chassis name='Morrigan' unitType='Mek'>

@@ -8716,14 +8716,14 @@
 			</model>
 		</chassis>
 		<chassis name='Morningstar City Command Vehicle' unitType='Tank'>
-			<availability>FS:3,MERC:3</availability>
+			<availability>FS:3:3065,MERC:3:3065</availability>
 			<model name=''>
-				<roles>urban,spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,urban,spotter</roles>
+				<availability>FS:8,MERC:8</availability>
 			</model>
 			<model name='(Laser)'>
-				<roles>urban</roles>
-				<availability>CC:2,FS:2</availability>
+				<roles>apc,urban</roles>
+				<availability>FS:4-</availability>
 			</model>
 		</chassis>
 		<chassis name='Morrigu Fire Support Vehicle' unitType='Tank'>

@@ -11773,20 +11773,20 @@
 		<chassis name='Morningstar City Command Vehicle' unitType='Tank'>
 			<availability>CC:3,WOB:4,FS:6,MERC:4</availability>
 			<model name=''>
-				<roles>urban,spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,urban,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(Company Command)'>
-				<roles>urban,spotter</roles>
-				<availability>CC:4,WOB:4,FS:4</availability>
+				<roles>command,urban,spotter</roles>
+				<availability>CC:4+,WOB:4,FS:4+</availability>
 			</model>
 			<model name='(HPG)'>
 				<roles>apc,urban</roles>
 				<availability>WOB:6</availability>
 			</model>
 			<model name='(Laser)'>
-				<roles>urban</roles>
-				<availability>CC:2,WOB:2,FS:2</availability>
+				<roles>apc,urban</roles>
+				<availability>CC:4-,WOB:6-,FS:4-</availability>
 			</model>
 		</chassis>
 		<chassis name='Morrigu Fire Support Vehicle' unitType='Tank'>
