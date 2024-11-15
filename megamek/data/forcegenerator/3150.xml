@@ -13727,10 +13727,16 @@
         <chassis name='Nekohono&apos;o' unitType='Dropship'>
             <availability>ROS:3,CP:4,DC:5</availability>
             <model name=''>
+                <roles>assault</roles>
                 <availability>CP:8,DC:4</availability>
             </model>
+            <model name='(HQ)'>
+                <roles>assault,ba_carrier,missile_artillery</roles>
+                <availability>DC:3+</availability>
+            </model>
             <model name='(SCL)'>
-                <availability>ROS:4,DC:6</availability>
+                <roles>assault</roles>
+                <availability>ROS:8,DC:6</availability>
             </model>
         </chassis>
         <chassis name='Neptune Submarine' unitType='Naval'>

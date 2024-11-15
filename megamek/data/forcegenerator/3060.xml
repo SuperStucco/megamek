@@ -8883,8 +8883,9 @@
 			</model>
 		</chassis>
 		<chassis name='Nekohono&apos;o' unitType='Dropship'>
-			<availability>CNC:2,DC:3</availability>
+			<availability>CNC:2:3065,DC:3:3065</availability>
 			<model name=''>
+                <roles>assault</roles>
 				<availability>CNC:8,DC:8</availability>
 			</model>
 		</chassis>

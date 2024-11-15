@@ -11991,8 +11991,13 @@
 		<chassis name='Nekohono&apos;o' unitType='Dropship'>
 			<availability>CNC:4,DC:5</availability>
 			<model name=''>
+                <roles>assault</roles>
 				<availability>CNC:8,DC:8</availability>
 			</model>
+            <model name='(HQ)'>
+                <roles>assault,ba_carrier,missile_artillery</roles>
+                <availability>DC:2+:3077</availability>
+            </model>
 		</chassis>
 		<chassis name='Nephilim Assault Battle Armor' unitType='BattleArmor'>
 			<availability>WOB.SD:2</availability>

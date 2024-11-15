@@ -13296,9 +13296,15 @@
 		<chassis name='Nekohono&apos;o' unitType='Dropship'>
 			<availability>CP:4,DC:5</availability>
 			<model name=''>
+                <roles>assault</roles>
 				<availability>CP:8,DC:4</availability>
 			</model>
+            <model name='(HQ)'>
+                <roles>assault,ba_carrier,missile_artillery</roles>
+                <availability>DC:3+</availability>
+            </model>
 			<model name='(SCL)'>
+                <roles>assault</roles>
 				<availability>DC:6</availability>
 			</model>
 		</chassis>
