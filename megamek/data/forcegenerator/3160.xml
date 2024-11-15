@@ -12449,12 +12449,12 @@
 		<chassis name='Maxim (I) Heavy Hover Transport' unitType='Tank'>
 			<availability>IS:6</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>apc,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(Company Command)'>
-				<roles>spotter</roles>
-				<availability>General:3</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:3+,MERC:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Maxim Mk II Transport' unitType='Tank'>

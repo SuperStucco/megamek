@@ -10404,14 +10404,14 @@
 			</model>
 		</chassis>
 		<chassis name='Maxim (I) Heavy Hover Transport' unitType='Tank'>
-			<availability>IS:4</availability>
+			<availability>IS:4,MERC:5</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>apc,spotter</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(Company Command)'>
-				<roles>spotter</roles>
-				<availability>General:2</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:2+:3069</availability>
 			</model>
 		</chassis>
 		<chassis name='Maxim Heavy Hover Transport' unitType='Tank'>
