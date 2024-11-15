@@ -13282,12 +13282,12 @@
 		<chassis name='Mongoose II' unitType='Mek'>
 			<availability>LA:5,ROS:5,MERC:4</availability>
 			<model name='MON-267'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>LA:8,ROS:8,MERC:8</availability>
 			</model>
 			<model name='MON-268'>
-				<roles>recon,spotter</roles>
-				<availability>LA:3,ROS:3,MERC:3</availability>
+				<roles>command,recon,spotter</roles>
+				<availability>LA:3+,ROS:3+,MERC:2+</availability>
 			</model>
 		</chassis>
 		<chassis name='Mongoose' unitType='Mek'>

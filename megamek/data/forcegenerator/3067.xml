@@ -10873,14 +10873,14 @@
 			</model>
 		</chassis>
 		<chassis name='Mongoose II' unitType='Mek'>
-			<availability>CS:4</availability>
+			<availability>CS:4:3073</availability>
 			<model name='MON-266'>
-				<roles>recon</roles>
-				<availability>CS:8,LA:2</availability>
+				<roles>command,recon</roles>
+				<availability>CS:8</availability>
 			</model>
 			<model name='MON-267'>
-				<roles>recon</roles>
-				<availability>LA:8,MERC:8</availability>
+				<roles>command,recon</roles>
+				<availability>LA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Mongoose' unitType='Mek'>

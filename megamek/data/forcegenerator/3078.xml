@@ -12211,18 +12211,18 @@
 			</model>
 		</chassis>
 		<chassis name='Mongoose II' unitType='Mek'>
-			<availability>CS:5,LA:4+</availability>
+			<availability>CS:5,LA:4+,ROS:5,MERC:2+</availability>
 			<model name='MON-266'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>CS:8,LA:1</availability>
 			</model>
 			<model name='MON-267'>
-				<roles>recon</roles>
+				<roles>command,recon</roles>
 				<availability>LA:8,ROS:8,MERC:8</availability>
 			</model>
 			<model name='MON-268'>
-				<roles>recon,spotter</roles>
-				<availability>LA:3,ROS:3</availability>
+				<roles>command,recon,spotter</roles>
+				<availability>LA:3+,ROS:3+</availability>
 			</model>
 		</chassis>
 		<chassis name='Mongoose' unitType='Mek'>
