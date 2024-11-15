@@ -12002,22 +12002,22 @@
 		<chassis name='Nephilim Assault Battle Armor' unitType='BattleArmor'>
 			<availability>WOB.SD:2</availability>
 			<model name='(Capture Team)[HMG](Sqd6)' mechanized='false'>
-				<availability>General:3</availability>
+				<availability>WOB.SD:3</availability>
 			</model>
 			<model name='(Gauss)(Sqd6)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>WOB.SD:6</availability>
 			</model>
 			<model name='(Narc)(Sqd6)' mechanized='false'>
-				<availability>General:3</availability>
+				<availability>WOB.SD:3</availability>
 			</model>
 			<model name='(Plasma)(Sqd6)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>WOB.SD:8</availability>
 			</model>
 			<model name='(Seeker) [MG](Sqd6)' mechanized='false'>
-				<availability>General:4</availability>
+				<availability>WOB.SD:4</availability>
 			</model>
 			<model name='(Support)(Sqd6)' mechanized='false'>
-				<availability>General:3</availability>
+				<availability>WOB.SD:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Neptune Submarine' unitType='Naval'>
