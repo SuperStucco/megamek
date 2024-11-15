@@ -2762,16 +2762,17 @@
 			</model>
 		</chassis>
 		<chassis name='Nighthawk PA(L)' unitType='BattleArmor'>
-			<availability>SL:2</availability>
-			<model name='Mk. XXI(Sqd4)' mechanized='false'>
+			<availability>SL.R:2</availability>
+			<model name='Mk. XXI(Sqd4)' mechanized='true'>
 				<roles>specops</roles>
-				<availability>General:8</availability>
+				<availability>SL.R:8</availability>
 			</model>
 			<model name='Mk. XXII(Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>SL.R:6</availability>
 			</model>
 			<model name='Mk. XXX(Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+                <roles>specops</roles>
+				<availability>SL.R:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Nightshade ECM VTOL' unitType='VTOL'>

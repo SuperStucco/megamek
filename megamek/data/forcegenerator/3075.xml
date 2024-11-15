@@ -12107,17 +12107,29 @@
 			</model>
 		</chassis>
 		<chassis name='Nighthawk PA(L)' unitType='BattleArmor'>
-			<availability>CS:2,NIOPS:2,WOB.PM:4,MERC:2</availability>
-			<model name='Mk. XXI(Sqd4)' mechanized='false'>
+			<availability>CS:2,NIOPS:2,WOB.PM:4</availability>
+			<model name='Mk. XXI(Sqd4)' mechanized='true'>
 				<roles>specops</roles>
-				<availability>General:8</availability>
+				<availability>NIOPS:5,WOB.PM:4</availability>
 			</model>
+            <model name='Mk. XXI(Sqd6)' mechanized='true'>
+                <roles>specops</roles>
+                <availability>CS:8</availability>
+            </model>
 			<model name='Mk. XXII(Sqd4)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>NIOPS:8,WOB.PM:8</availability>
 			</model>
+            <model name='Mk. XXII(Sqd6)' mechanized='true'>
+                <availability>CS:5</availability>
+            </model>
 			<model name='Mk. XXX(Sqd4)' mechanized='true'>
-				<availability>General:4</availability>
+                <roles>specops</roles>
+				<availability>NIOPS:5,WOB.PM:4</availability>
 			</model>
+            <model name='Mk. XXX(Sqd6)' mechanized='true'>
+                <roles>specops</roles>
+                <availability>CS:6</availability>
+            </model>
 		</chassis>
 		<chassis name='Nightlord Battleship' unitType='Warship'>
 			<availability>CSA:1,CSR:1,CDS:1,CSV:1,CGS:1,CCO:1,CJF:1,CGB:1</availability>

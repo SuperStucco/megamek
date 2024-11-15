@@ -13841,6 +13841,23 @@
             <availability>CWE:4</availability>
             <model name=''>
                 <availability>General:8</availability>
+			</model>
+		</chassis>
+        <chassis name='Nighthawk PA(L)' unitType='BattleArmor'>
+            <availability>LA:3,ROS:6,CWIE:4-,SE:4-,NIOPS:2</availability>
+            <model name='Mk. XXI(Sqd4)' mechanized='true'>
+                <roles>specops</roles>
+                <availability>LA:8,ROS:5,NIOPS:5</availability>
+            </model>
+            <model name='Mk. XXI(Sqd5)' mechanized='true'>
+                <availability>CWIE:8,SE:8</availability>
+            </model>
+            <model name='Mk. XXII(Sqd4)' mechanized='true'>
+                <availability>ROS:8,NIOPS:8</availability>
+            </model>
+            <model name='Mk. XXX(Sqd4)' mechanized='true'>
+                <roles>specops</roles>
+                <availability>ROS:4,NIOPS:4</availability>
             </model>
         </chassis>
         <chassis name='Nightlord Battleship' unitType='Warship'>
