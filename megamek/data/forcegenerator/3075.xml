@@ -16395,24 +16395,24 @@
 		</chassis>
 		<chassis name='Tengu Heavy Battle Armor' unitType='BattleArmor'>
 			<availability>WOB.SD:5</availability>
-			<model name='(SVSP)(Sqd6)' mechanized='false'>
-				<availability>General:5</availability>
+			<model name='(SVSP)(Sqd6)' mechanized='true'>
+				<availability>WOB.SD:5</availability>
 			</model>
 			<model name='(Support)[LRR](Sqd6)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>WOB.SD:6</availability>
 			</model>
-			<model name='[C3i](Sqd6)' mechanized='false'>
+			<model name='[C3i](Sqd6)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>WOB.SD:5</availability>
 			</model>
 			<model name='[ML](Sqd6)' mechanized='true'>
-				<availability>General:5</availability>
+				<availability>WOB.SD:5</availability>
 			</model>
-			<model name='[Plasma](Sqd6)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[Plasma](Sqd6)' mechanized='true'>
+				<availability>WOB.SD:8</availability>
 			</model>
-			<model name='[RL](Sqd6)' mechanized='false'>
-				<availability>General:4</availability>
+			<model name='[RL](Sqd6)' mechanized='true'>
+				<availability>WOB.SD:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Tessen' unitType='Mek'>
