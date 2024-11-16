@@ -13676,21 +13676,22 @@
 			</model>
 		</chassis>
 		<chassis name='Saxon APC' unitType='Tank'>
-			<availability>LA:4,MERC:2</availability>
+			<availability>LA:4:3070,MERC:2:3070</availability>
 			<model name=''>
-				<availability>General:8</availability>
+			    <roles>apc</roles>
+				<availability>LA:8,MERC:8</availability>
 			</model>
 			<model name='(HQ)'>
-				<roles>apc,support,spotter</roles>
-				<availability>General:2</availability>
+				<roles>command,support,spotter</roles>
+				<availability>LA:5+:3074</availability>
 			</model>
 			<model name='(Laser)'>
 				<roles>apc</roles>
-				<availability>General:4</availability>
+				<availability>LA:4:3071</availability>
 			</model>
 			<model name='(MASH)'>
-				<roles>apc,support</roles>
-				<availability>General:4</availability>
+				<roles>support</roles>
+				<availability>LA:8:3071</availability>
 			</model>
 		</chassis>
 		<chassis name='Scarabus' unitType='Mek'>

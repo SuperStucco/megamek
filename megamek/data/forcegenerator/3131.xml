@@ -16693,21 +16693,22 @@
 			</model>
 		</chassis>
 		<chassis name='Saxon APC' unitType='Tank'>
-			<availability>LA:6,MERC:4</availability>
+			<availability>LA:6,ROS:6,MERC:4,CJF:6-</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>apc</roles>
+				<availability>LA:8,ROS:8,MERC:8,CJF:8</availability>
 			</model>
 			<model name='(HQ)'>
-				<roles>apc,support,spotter</roles>
-				<availability>General:2</availability>
+				<roles>command,support,spotter</roles>
+				<availability>LA:5+</availability>
 			</model>
 			<model name='(Laser)'>
 				<roles>apc</roles>
-				<availability>General:4</availability>
+				<availability>LA:4,ROS:6,MERC:4</availability>
 			</model>
 			<model name='(MASH)'>
 				<roles>apc,support</roles>
-				<availability>General:4</availability>
+				<availability>LA:8,ROS:8,MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Scapha Hovertank' unitType='Tank' omni='IS'>
