@@ -16366,15 +16366,15 @@
         </chassis>
         <chassis name='Rogue Bear Heavy Battle Armor' unitType='BattleArmor'>
             <availability>RD:6-</availability>
-            <model name='(Hybrid)(Sqd5)' mechanized='false'>
-                <roles>recon</roles>
-                <availability>General:4</availability>
+            <model name='(Hybrid)(Sqd5)' mechanized='true'>
+				<roles>anti_infantry,recon</roles>
+				<availability>RD:3</availability>
             </model>
             <model name='(Sqd5)' mechanized='true'>
-                <availability>General:8</availability>
+				<availability>RD:4-</availability>
             </model>
-            <model name='(Upgrade)(Sqd5)' mechanized='false'>
-                <availability>General:6</availability>
+            <model name='(Upgrade)(Sqd5)' mechanized='true'>
+				<availability>RD:6</availability>
             </model>
         </chassis>
         <chassis name='Rokurokubi' unitType='Mek'>

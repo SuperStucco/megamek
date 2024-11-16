@@ -15208,16 +15208,16 @@
             </model>
 		</chassis>
 		<chassis name='Rogue Bear Heavy Battle Armor' unitType='BattleArmor'>
-			<availability>RD:6-,CGB:6-</availability>
-			<model name='(Hybrid)(Sqd5)' mechanized='false'>
-				<roles>recon</roles>
-				<availability>General:4</availability>
+			<availability>RD:5-,CGB:4-,CGB.FRR:6</availability>
+			<model name='(Hybrid)(Sqd5)' mechanized='true'>
+				<roles>anti_infantry,recon</roles>
+				<availability>RD:3,CGB:3,CGB.FRR:4</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>RD:6-,CGB:4,CGB.FRR:8</availability>
 			</model>
-			<model name='(Upgrade)(Sqd5)' mechanized='false'>
-				<availability>General:4</availability>
+			<model name='(Upgrade)(Sqd5)' mechanized='true'>
+				<availability>RD:6+:3108,CGB:8+:3108,CGB.FRR:6+:3108</availability>
 			</model>
 		</chassis>
 		<chassis name='Rommel Tank' unitType='Tank'>

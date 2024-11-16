@@ -14261,7 +14261,7 @@
 		<chassis name='Rogue Bear Heavy Battle Armor' unitType='BattleArmor'>
 			<availability>CGB:5-</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CGB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Rogue' unitType='AeroSpaceFighter'>
