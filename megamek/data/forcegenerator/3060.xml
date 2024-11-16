@@ -9262,25 +9262,27 @@
 		<chassis name='Ostsol' unitType='Mek'>
 			<availability>CS:6,HL:2,IS:3,FWL:5,NIOPS:6,WOB:6,FS:5,MERC:4,Periphery:3</availability>
 			<model name='OTL-4D'>
-				<availability>HL:3,IS:5,FWL:5,Periphery.Deep:8,MERC:5,Periphery:5</availability>
+				<availability>HL:8,IS:8,FS:5,FWL:5,DC:5,CS:5,WOB:5,MERC:5,Periphery:8</availability>
 			</model>
 			<model name='OTL-4F'>
 				<availability>FS:2</availability>
 			</model>
 			<model name='OTL-5D'>
-				<availability>FS:4</availability>
+				<availability>FS:4-:3065</availability>
 			</model>
 			<model name='OTL-5M'>
+                <roles>raider</roles>
 				<availability>CS:4,FWL:6,WOB:6,MERC:4</availability>
 			</model>
 			<model name='OTL-6D'>
-				<availability>FS:3,MERC:2,DC:2</availability>
+                <roles>raider</roles>
+				<availability>FS:3:3064,MERC:2:3064,DC:2:3064</availability>
 			</model>
 			<model name='OTL-7M'>
-				<availability>FWL:4,WOB:3,MERC:4</availability>
+				<availability>FWL:4:3065,WOB:3:3065,MERC:4:3065</availability>
 			</model>
 			<model name='OTL-8M'>
-				<availability>FWL:4,WOB:3,MERC:2</availability>
+				<availability>FWL:4:3066,WOB:3:3066,MERC:2:3066</availability>
 			</model>
 		</chassis>
 		<chassis name='Outpost' unitType='Dropship'>

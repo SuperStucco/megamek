@@ -2730,9 +2730,10 @@
 			</model>
 		</chassis>
 		<chassis name='Ostsol' unitType='Mek'>
-			<availability>FWL:4,FS:4,MERC:4,Periphery:1</availability>
+			<availability>SL:6,FWL:4:2752,FS:4:2752,MERC:4:2752,Periphery:1:2752</availability>
 			<model name='OTL-4D'>
-				<availability>SL:8,IS:8,FWL:8,Periphery.Deep:8,MERC:8,Periphery:8</availability>
+                <roles>raider</roles>
+				<availability>SL:8,IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Ostwar' unitType='Mek'>

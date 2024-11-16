@@ -14382,15 +14382,15 @@
 			</model>
 		</chassis>
 		<chassis name='Ostsol' unitType='Mek'>
-			<availability>RF:5,ROS:4,FWL:5,FS:5,MERC:3,CP:5</availability>
+			<availability>CC:2+,RF:5,ROS:4,FWL:5,FS:5,MERC:3,CP:5,RD:3-,CDS:4-</availability>
 			<model name='C'>
-				<availability>RD:2,CDS:2,LA:2,MERC:2</availability>
+				<availability>RD:8,CDS:8,CC:8,LA:2+,MERC:2+,FWL:2+</availability>
 			</model>
 			<model name='OTL-5D'>
-				<availability>FVC:3,Periphery.HR:4,PIR:3,FS:2,Periphery:4</availability>
+				<availability>FVC:3-,Periphery.HR:4,PIR:3,FS:2-,Periphery:4</availability>
 			</model>
 			<model name='OTL-5M'>
-				<availability>FWL:2,MERC:4,CP:2</availability>
+				<availability>FWL:2-,MERC:4-,CP:2-</availability>
 			</model>
 			<model name='OTL-6D'>
 				<availability>FS:4</availability>
@@ -14402,18 +14402,23 @@
 				<availability>FS:8</availability>
 			</model>
 			<model name='OTL-8E'>
+                <roles>raider</roles>
 				<availability>FS:4,MERC:2,DC:4</availability>
 			</model>
 			<model name='OTL-8E3'>
-				<availability>FS:2,DC:2</availability>
+                <roles>raider</roles>
+				<availability>FS:2:3149,DC:2:3149</availability>
 			</model>
 			<model name='OTL-8F'>
+                <roles>raider</roles>
 				<availability>DC:2</availability>
 			</model>
 			<model name='OTL-8M'>
+                <roles>cavalry</roles>
 				<availability>RF:8,FWL:6,MERC:3,CP:6</availability>
 			</model>
 			<model name='OTL-9M'>
+                <roles>cavalry</roles>
 				<availability>ROS:4,FWL:6,CP:6</availability>
 			</model>
 			<model name='OTL-9R'>

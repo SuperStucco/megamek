@@ -3325,9 +3325,10 @@
 			</model>
 		</chassis>
 		<chassis name='Ostsol' unitType='Mek'>
-			<availability>CS:6,FWL:8,NIOPS:6,FS:8,MERC:8,Periphery:3</availability>
+			<availability>PP:5+,CLAN:6,CS:6,FWL:8,NIOPS:6,FS:8,MERC:8,Periphery:3</availability>
 			<model name='OTL-4D'>
-				<availability>PP:8,CLAN:8,IS:8,FWL:8,Periphery.Deep:8,MERC:8,Periphery:8</availability>
+                <roles>raider</roles>
+				<availability>PP:8,CLAN:8,IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Overlord C' unitType='Dropship'>

@@ -6964,12 +6964,14 @@
 		<chassis name='Ostsol' unitType='Mek'>
 			<availability>CS:6,HL:2,IS:3,FWL:5,NIOPS:6,WOB:6,FS:5,MERC:5,Periphery:3</availability>
 			<model name='OTL-4D'>
-				<availability>HL:4,IS:6,FWL:6,Periphery.Deep:6,MERC:6,Periphery:6</availability>
+                <roles>raider</roles>
+				<availability>HL:8,IS:8,FS:6,FWL:6,CS:6,WOB:6,MERC:6,Periphery:8</availability>
 			</model>
 			<model name='OTL-4F'>
 				<availability>FS:3</availability>
 			</model>
 			<model name='OTL-5M'>
+                <roles>raider</roles>
 				<availability>CS:3+,FWL:6+,WOB:5+,MERC:3+</availability>
 			</model>
 		</chassis>

@@ -2226,6 +2226,13 @@
 				<availability>SL.R:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Ostsol' unitType='Mek'>
+            <availability>SL:6:2694</availability>
+            <model name='OTL-4D'>
+                <roles>raider</roles>
+                <availability>SL:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Ostwar' unitType='Mek'>
 			<availability>SL.R:2</availability>
 			<model name='OWR-2M'>

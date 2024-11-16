@@ -12207,13 +12207,13 @@
 		<chassis name='Ostsol' unitType='Mek'>
 			<availability>PR:5,DoO:5,DO:5,DGM:5,FS:5,MERC:3,Periphery:2,DTA:5,SC:5,MCM:5,ROS:4,PG:5,FWL:5,NIOPS:6,MSC:4,TP:5,RFS:5</availability>
 			<model name='OTL-4D'>
-				<availability>FWL:2-,Periphery.Deep:8,MERC:2-,Periphery:2-</availability>
+				<availability>FWL:2-,MERC:2-,Periphery:2-</availability>
 			</model>
 			<model name='OTL-5D'>
-				<availability>FVC:4,Periphery.HR:4,PIR:4,FS:3,Periphery:3</availability>
+				<availability>FVC:4-,Periphery.HR:4,PIR:4,FS:3-,Periphery:3</availability>
 			</model>
 			<model name='OTL-5M'>
-				<availability>FWL:4,MERC:4</availability>
+				<availability>FWL:4-,MERC:4-</availability>
 			</model>
 			<model name='OTL-6D'>
 				<availability>FS:4</availability>
@@ -12225,9 +12225,11 @@
 				<availability>FS:6</availability>
 			</model>
 			<model name='OTL-8M'>
+                <roles>cavalry</roles>
 				<availability>DTA:6,SC:6,PR:6,MCM:6,PG:6,DGM:6,MSC:6,MERC:3,RFS:6</availability>
 			</model>
 			<model name='OTL-9M'>
+                <roles>cavalry</roles>
 				<availability>ROS:2,FWL:4</availability>
 			</model>
 			<model name='OTL-9R'>

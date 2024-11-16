@@ -2936,7 +2936,8 @@
 		<chassis name='Ostsol' unitType='Mek'>
 			<availability>FWL:8,NIOPS:6,FS:8,MERC:8,Periphery:3</availability>
 			<model name='OTL-4D'>
-				<availability>SL:8,IS:8,FWL:8,Periphery.Deep:8,MERC:8,Periphery:8</availability>
+                <roles>raider</roles>
+				<availability>SL:8,IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Ostwar' unitType='Mek'>

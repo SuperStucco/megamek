@@ -13483,10 +13483,10 @@
 				<availability>Periphery:1-</availability>
 			</model>
 			<model name='OTL-5D'>
-				<availability>FVC:4,Periphery.HR:4,PIR:4,FS:2,Periphery:4</availability>
+				<availability>FVC:4-,Periphery.HR:4,PIR:4,FS:2-,Periphery:4</availability>
 			</model>
 			<model name='OTL-5M'>
-				<availability>FWL:3,MERC:4</availability>
+				<availability>FWL:3-,MERC:4-</availability>
 			</model>
 			<model name='OTL-6D'>
 				<availability>FS:4</availability>
@@ -13498,9 +13498,11 @@
 				<availability>FS:8</availability>
 			</model>
 			<model name='OTL-8M'>
+                <roles>cavalry</roles>
 				<availability>DTA:8,RF:8,MSC:6,MERC:3</availability>
 			</model>
 			<model name='OTL-9M'>
+                <roles>cavalry</roles>
 				<availability>ROS:4,FWL:5</availability>
 			</model>
 			<model name='OTL-9R'>
