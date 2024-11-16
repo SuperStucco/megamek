@@ -11894,52 +11894,55 @@
 			</model>
 		</chassis>
 		<chassis name='Pariah (Septicemia)' unitType='Mek' omni='Clan'>
-			<availability>SOC:10,CCO:6,CB:5</availability>
+			<availability>SOC:10:3072,CCO:6:3072,CB:5:3072</availability>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>SOC:5,CLAN:6</availability>
 			</model>
 			<model name='A-Z'>
 				<roles>spotter</roles>
-				<availability>SOC:7,General:4</availability>
+				<availability>SOC:7,CLAN:3</availability>
 			</model>
 			<model name='B'>
-				<availability>General:7</availability>
+                <roles>raider</roles>
+				<availability>SOC:6,CLAN:7</availability>
 			</model>
 			<model name='B-Z'>
 				<roles>spotter</roles>
-				<availability>SOC:7,General:4</availability>
+				<availability>SOC:8,CLAN:3</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+                <roles>anti_infantry</roles>
+				<availability>SOC:6,CLAN:4</availability>
 			</model>
 			<model name='C-Z'>
-				<availability>SOC:7,General:4</availability>
+                <roles>anti_infantry</roles>
+				<availability>SOC:7,CLAN:3</availability>
 			</model>
 			<model name='D'>
-				<availability>General:7</availability>
+				<availability>SOC:5,CLAN:7</availability>
 			</model>
 			<model name='D-Z'>
-				<availability>SOC:7,General:4</availability>
+				<availability>SOC:7,CLAN:4</availability>
 			</model>
 			<model name='E'>
 				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<availability>SOC:7,CLAN:3</availability>
 			</model>
 			<model name='F'>
-				<roles>missile_artillery</roles>
-				<availability>General:7</availability>
+				<roles>mixed_artillery</roles>
+				<availability>SOC:7,CLAN:4-</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>SOC:6,CLAN:8</availability>
 			</model>
 			<model name='US'>
-				<availability>General:2</availability>
+				<availability>SOC:2,CLAN:2</availability>
 			</model>
 			<model name='UW'>
-				<availability>General:4</availability>
+				<availability>SOC:4,CLAN:4</availability>
 			</model>
 			<model name='Z'>
-				<availability>SOC:3,General:1</availability>
+				<availability>SOC:3,CLAN:1</availability>
 			</model>
 		</chassis>
 		<chassis name='Partisan Air Defense Tank' unitType='Tank'>

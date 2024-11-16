@@ -12850,6 +12850,58 @@
 				<availability>General:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Pariah (Septicemia)' unitType='Mek' omni='Clan'>
+            <availability>SOC:10,CCO:6</availability>
+            <model name='A'>
+                <availability>SOC:5,CLAN:6</availability>
+            </model>
+            <model name='A-Z'>
+                <roles>spotter</roles>
+                <availability>SOC:7,CLAN:3</availability>
+            </model>
+            <model name='B'>
+                <roles>raider</roles>
+                <availability>SOC:6,CLAN:7</availability>
+            </model>
+            <model name='B-Z'>
+                <roles>spotter</roles>
+                <availability>SOC:8,CLAN:3</availability>
+            </model>
+            <model name='C'>
+                <roles>anti_infantry</roles>
+                <availability>SOC:6,CLAN:4</availability>
+            </model>
+            <model name='C-Z'>
+                <roles>anti_infantry</roles>
+                <availability>SOC:7,CLAN:3</availability>
+            </model>
+            <model name='D'>
+                <availability>SOC:5,CLAN:7</availability>
+            </model>
+            <model name='D-Z'>
+                <availability>SOC:7,CLAN:4</availability>
+            </model>
+            <model name='E'>
+                <roles>spotter</roles>
+                <availability>SOC:7,CLAN:3</availability>
+            </model>
+            <model name='F'>
+                <roles>mixed_artillery</roles>
+                <availability>SOC:7,CLAN:4-</availability>
+            </model>
+            <model name='Prime'>
+                <availability>SOC:6,CLAN:8</availability>
+            </model>
+            <model name='US'>
+                <availability>SOC:2,CLAN:2</availability>
+            </model>
+            <model name='UW'>
+                <availability>SOC:4,CLAN:4</availability>
+            </model>
+            <model name='Z'>
+                <availability>SOC:3,CLAN:1</availability>
+            </model>
+        </chassis>
 		<chassis name='Partisan Air Defense Tank' unitType='Tank'>
 			<availability>CS:6,HL:2+,LA:7,FRR:4,IS:5,WOB:6,FS:8,DC:6,Periphery:4,CNC:5-,CWIE:5-</availability>
 			<model name=''>

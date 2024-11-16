@@ -13422,6 +13422,26 @@
 				<availability>General:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Pariah (Septicemia)' unitType='Mek' omni='Clan'>
+            <availability>CCO:5-</availability>
+            <model name='A'>
+                <availability>CCO:6</availability>
+            </model>
+            <model name='B'>
+                <roles>raider</roles>
+                <availability>CCO:7</availability>
+            </model>
+            <model name='C'>
+                <roles>anti_infantry</roles>
+                <availability>CCO:4</availability>
+            </model>
+            <model name='D'>
+                <availability>CCO:7</availability>
+            </model>
+            <model name='Prime'>
+                <availability>CCO:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Partisan Air Defense Tank' unitType='Tank'>
 			<availability>CS:6,HL:3+,LA:7,FRR:4,CGB.FRR:4,IS:5,WOB:6,FS:8,DC:6,Periphery:4,CNC:5-,CWIE:5-</availability>
 			<model name=''>
