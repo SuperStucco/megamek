@@ -15106,27 +15106,10 @@
 			</model>
 		</chassis>
 		<chassis name='Sprite Ultraheavy ProtoMech' unitType='ProtoMek'>
-			<availability>CHH:4,CBS:3,CSL:4,CCO:5</availability>
+			<availability>CHH:4,CBS:3,CSL:4</availability>
 			<model name=''>
-				<availability>CHH:5,CBS:6,CSL:5,CCO:5</availability>
-			</model>
-			<model name='2'>
-				<roles>fire_support</roles>
-				<deployedWith>Boggart Ultraheavy ProtoMech</deployedWith>
-				<availability>CCO:5</availability>
-			</model>
-			<model name='3'>
-				<roles>fire_support</roles>
-				<deployedWith>Boggart Ultraheavy ProtoMech</deployedWith>
-				<availability>CCO:5</availability>
-			</model>
-		</chassis>
-		<chassis name='Sprite' unitType='ProtoMek'>
-			<availability>CHH:4,CBS:4,CSL:4,CCO:5</availability>
-			<model name='2'>
-				<roles>fire_support</roles>
-				<deployedWith>Boggart Ultraheavy ProtoMech</deployedWith>
-				<availability>CCO:5</availability>
+                <roles>fire_support</roles>
+				<availability>CHH:8,CBS:8,CSL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Stalker' unitType='Mek'>

@@ -14559,23 +14559,12 @@
 			</model>
 		</chassis>
 		<chassis name='Sprite Ultraheavy ProtoMech' unitType='ProtoMek'>
-			<availability>CHH:4,CBS:3,SOC:7,CCO:5</availability>
+			<availability>CHH:4:3074,CBS:3:3074,SOC:7:3072,CCO:5:3072</availability>
 			<model name=''>
-				<availability>CHH:5,CBS:6,SOC:8,CCO:5</availability>
+                <roles>fire_support</roles>
+                <deployedWith>Boggart Ultraheavy ProtoMech</deployedWith>
+				<availability>CHH:8,CBS:8,SOC:8,CCO:5</availability>
 			</model>
-			<model name='2'>
-				<roles>fire_support</roles>
-				<deployedWith>Boggart Ultraheavy ProtoMech</deployedWith>
-				<availability>SOC:7,CCO:5</availability>
-			</model>
-			<model name='3'>
-				<roles>fire_support</roles>
-				<deployedWith>Boggart Ultraheavy ProtoMech</deployedWith>
-				<availability>SOC:7,CCO:5</availability>
-			</model>
-		</chassis>
-		<chassis name='Sprite' unitType='ProtoMek'>
-			<availability>CHH:3,CBS:3,SOC:4,CCO:4</availability>
 			<model name='2'>
 				<roles>fire_support</roles>
 				<deployedWith>Boggart Ultraheavy ProtoMech</deployedWith>

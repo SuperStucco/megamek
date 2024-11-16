@@ -18079,7 +18079,8 @@
         <chassis name='Sprite Ultraheavy ProtoMech' unitType='ProtoMek'>
             <availability>CHH:4</availability>
             <model name=''>
-                <availability>CHH:5</availability>
+                <roles>fire_support</roles>
+                <availability>CHH:8</availability>
             </model>
         </chassis>
         <chassis name='Sprite' unitType='ProtoMek'>

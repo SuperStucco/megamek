@@ -15907,11 +15907,9 @@
 		<chassis name='Sprite Ultraheavy ProtoMech' unitType='ProtoMek'>
 			<availability>CHH:4</availability>
 			<model name=''>
-				<availability>CHH:5</availability>
+                <roles>fire_support</roles>
+				<availability>CHH:8</availability>
 			</model>
-		</chassis>
-		<chassis name='Sprite' unitType='ProtoMek'>
-			<availability>CHH:4,CSL:4,CCO:5</availability>
 		</chassis>
 		<chassis name='Stalker' unitType='Mek'>
 			<availability>MOC:5,CC:4,HL:9,CLAN:2,IS:5,Periphery.Deep:9,Periphery:10,TC:7,RA.OA:7,LA:6,CGB.FRR:5,ROS:4,FWL:7,NIOPS:5,DC:4</availability>
