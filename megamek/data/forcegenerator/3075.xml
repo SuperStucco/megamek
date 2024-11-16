@@ -15258,19 +15258,22 @@
 		<chassis name='Shedu Assault Battle Armor' unitType='BattleArmor'>
 			<availability>WOB.SD:2</availability>
 			<model name='(Capture Team)(Sqd6)' mechanized='false'>
-				<availability>General:3</availability>
+                <roles>specops</roles>
+				<availability>WOB.SD:3</availability>
 			</model>
 			<model name='(PPC)(Sqd6)' mechanized='false'>
-				<availability>General:4</availability>
+				<availability>WOB.SD:4</availability>
 			</model>
 			<model name='(Recon)(Sqd6)' mechanized='false'>
-				<availability>General:4</availability>
+                <roles>recon</roles>
+				<availability>WOB.SD:4</availability>
 			</model>
 			<model name='(Sqd6)' mechanized='false'>
-				<availability>General:8</availability>
+                <roles>anti_infantry,urban</roles>
+				<availability>WOB.SD:8</availability>
 			</model>
 			<model name='(Support)(Sqd6)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>WOB.SD:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Shilone' unitType='AeroSpaceFighter'>
