@@ -14027,16 +14027,18 @@
 			</model>
 		</chassis>
 		<chassis name='Sagittaire' unitType='Mek'>
-			<availability>FVC:5,ROS:3,FS:6,MERC:3</availability>
+			<availability>FVC:5+,ROS:3,FS:6,MERC:3+</availability>
 			<model name='SGT-10X'>
-				<availability>ROS:3,FS:3,MERC:3</availability>
+                <roles>urban</roles>
+				<availability>ROS:8:3084,FS:3+:3084,MERC:8:3084</availability>
 			</model>
 			<model name='SGT-8R'>
+                <roles>urban</roles>
 				<availability>FVC:8,FS:6</availability>
 			</model>
 			<model name='SGT-9D'>
-				<roles>spotter</roles>
-				<availability>FS:4</availability>
+				<roles>command,spotter,urban</roles>
+				<availability>FS:4+</availability>
 			</model>
 		</chassis>
 		<chassis name='Sagittarii' unitType='AeroSpaceFighter'>

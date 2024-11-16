@@ -15148,13 +15148,14 @@
 			</model>
 		</chassis>
 		<chassis name='Sagittaire' unitType='Mek'>
-			<availability>FVC:5,FS:6</availability>
+			<availability>FVC:5+,FS:6</availability>
 			<model name='SGT-8R'>
+                <roles>urban</roles>
 				<availability>FVC:8,FS:7</availability>
 			</model>
 			<model name='SGT-9D'>
-				<roles>spotter</roles>
-				<availability>FS:4</availability>
+				<roles>command,spotter,urban</roles>
+				<availability>FS:4+</availability>
 			</model>
 		</chassis>
 		<chassis name='Sai' unitType='AeroSpaceFighter'>

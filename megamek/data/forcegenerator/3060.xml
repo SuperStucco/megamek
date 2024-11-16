@@ -10579,8 +10579,9 @@
 			</model>
 		</chassis>
 		<chassis name='Sagittaire' unitType='Mek'>
-			<availability>FS:4</availability>
+			<availability>FS:4+:3063</availability>
 			<model name='SGT-8R'>
+                <roles>urban</roles>
 				<availability>FS:8</availability>
 			</model>
 		</chassis>
