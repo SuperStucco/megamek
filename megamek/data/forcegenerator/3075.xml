@@ -16452,10 +16452,11 @@
 		<chassis name='Thanatos' unitType='Mek'>
 			<availability>LA:5,FS:5,MERC:4</availability>
 			<model name='TNS-4S'>
-				<availability>General:8</availability>
+			    <roles>cavalry</roles>
+				<availability>LA:8,FS:8,MERC:8</availability>
 			</model>
 			<model name='TNS-4T'>
-				<availability>IS:5</availability>
+				<availability>LA:5,FS:5,MERC:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Tharkad Battlecruiser' unitType='Warship'>

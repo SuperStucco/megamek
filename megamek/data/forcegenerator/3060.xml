@@ -11959,12 +11959,13 @@
 			</model>
 		</chassis>
 		<chassis name='Thanatos' unitType='Mek'>
-			<availability>LA:4,FS:4,MERC:3</availability>
+			<availability>LA:4:3061,FS:4:3061,MERC:3+:3061</availability>
 			<model name='TNS-4S'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>LA:8,FS:8,MERC:8</availability>
 			</model>
 			<model name='TNS-4T'>
-				<availability>IS:4</availability>
+				<availability>LA:4:3062,FS:4:3062,MERC:4:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Thera Carrier' unitType='Warship'>
