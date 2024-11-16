@@ -9902,13 +9902,13 @@
 			</model>
 		</chassis>
 		<chassis name='Procyon' unitType='ProtoMek'>
-			<availability>CHH:3,CBS:2,CCO:6</availability>
+			<availability>CHH:3:3063,CBS:2:3063,CCO:6:3063</availability>
 			<model name=''>
 				<availability>CHH:8,CBS:8,CCO:8</availability>
 			</model>
 			<model name='2'>
 				<roles>fire_support</roles>
-				<availability>CHH:3,CCO:3</availability>
+				<availability>CHH:3:3064,CCO:3:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Prometheus Combat Support Bridgelayer' unitType='Tank'>

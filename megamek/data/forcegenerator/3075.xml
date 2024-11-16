@@ -13567,7 +13567,7 @@
 			</model>
 		</chassis>
 		<chassis name='Procyon' unitType='ProtoMek'>
-			<availability>CHH:5,CBS:4,CSL:6,CCO:8</availability>
+			<availability>CHH:5,CBS:4,SOC:6,CSL:6,CCO:8</availability>
 			<model name=''>
 				<availability>CHH:8,CBS:8,CSL:8,CCO:8</availability>
 			</model>
@@ -13576,15 +13576,18 @@
 				<availability>CHH:2,CCO:2</availability>
 			</model>
 			<model name='3'>
-				<availability>CCO:4</availability>
+				<availability>SOC:8,CCO:4</availability>
 			</model>
 			<model name='4'>
 				<availability>CCO:4</availability>
 			</model>
 			<model name='5'>
-				<roles>mag_clamp</roles>
 				<availability>CCO:4</availability>
 			</model>
+            <model name='Z'>
+                <roles>mag_clamp</roles>
+                <availability>SOC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Prometheus Combat Support Bridgelayer' unitType='Tank'>
 			<availability>FS:4</availability>

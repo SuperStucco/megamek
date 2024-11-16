@@ -12569,15 +12569,18 @@
 				<availability>CHH:3,CCO:3</availability>
 			</model>
 			<model name='3'>
-				<availability>SOC:8,CCO:4</availability>
+				<availability>SOC:8:3068,CCO:4:3068</availability>
 			</model>
 			<model name='4'>
-				<availability>CCO:4</availability>
+				<availability>CCO:4:3068</availability>
 			</model>
 			<model name='5'>
-				<roles>mag_clamp</roles>
 				<availability>CCO:4</availability>
 			</model>
+            <model name='Z'>
+                <roles>mag_clamp</roles>
+                <availability>SOC:8:3072</availability>
+            </model>
 		</chassis>
 		<chassis name='Prometheus Combat Support Bridgelayer' unitType='Tank'>
 			<availability>FS:4</availability>

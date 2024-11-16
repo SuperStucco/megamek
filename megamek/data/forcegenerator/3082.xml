@@ -13163,33 +13163,17 @@
 				<availability>General:7</availability>
 			</model>
 		</chassis>
-		<chassis name='Procyon ProtoMech' unitType='ProtoMek'>
-			<availability>CHH:5+</availability>
-			<model name='(Quad)'>
-				<availability>CHH:5+</availability>
-			</model>
-		</chassis>
 		<chassis name='Procyon' unitType='ProtoMek'>
-			<availability>CHH:6,CBS:4,CSL:6,CCO:8</availability>
+			<availability>CHH:6,CBS:4,CSL:6</availability>
 			<model name=''>
-				<availability>CHH:8,CBS:8,CSL:8,CCO:8</availability>
+				<availability>CHH:8,CBS:8,CSL:8</availability>
 			</model>
 			<model name='(Quad)'>
 				<availability>CHH:5+</availability>
 			</model>
 			<model name='2'>
 				<roles>fire_support</roles>
-				<availability>CHH:1,CCO:1</availability>
-			</model>
-			<model name='3'>
-				<availability>CCO:4</availability>
-			</model>
-			<model name='4'>
-				<availability>CCO:4</availability>
-			</model>
-			<model name='5'>
-				<roles>mag_clamp</roles>
-				<availability>CCO:4</availability>
+				<availability>CHH:1</availability>
 			</model>
 		</chassis>
 		<chassis name='Prometheus Combat Support Bridgelayer' unitType='Tank'>

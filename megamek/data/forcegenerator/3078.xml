@@ -14135,12 +14135,6 @@
 				<availability>General:2</availability>
 			</model>
 		</chassis>
-		<chassis name='Procyon ProtoMech' unitType='ProtoMek'>
-			<availability>CHH:4+</availability>
-			<model name='(Quad)'>
-				<availability>CHH:4+</availability>
-			</model>
-		</chassis>
 		<chassis name='Procyon' unitType='ProtoMek'>
 			<availability>CHH:5,CBS:4,CSL:6,CCO:8</availability>
 			<model name=''>
@@ -14160,7 +14154,6 @@
 				<availability>CCO:4</availability>
 			</model>
 			<model name='5'>
-				<roles>mag_clamp</roles>
 				<availability>CCO:4</availability>
 			</model>
 		</chassis>
