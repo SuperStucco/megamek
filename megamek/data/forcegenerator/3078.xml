@@ -13682,20 +13682,20 @@
 		</chassis>
 		<chassis name='Phalanx Battle Armor' unitType='BattleArmor'>
 			<availability>FWL:6,WOB:6</availability>
-			<model name='(A)(Sqd4)' mechanized='false'>
+			<model name='(A)(Sqd4)' mechanized='true'>
 				<availability>FWL:8</availability>
 			</model>
-			<model name='(A)(Sqd6)' mechanized='false'>
+			<model name='(A)(Sqd6)' mechanized='true'>
 				<availability>WOB:8</availability>
 			</model>
 			<model name='(B)(Sqd4)' mechanized='true'>
 				<availability>FWL:1</availability>
 			</model>
-			<model name='(B)(Sqd6)' mechanized='false'>
+			<model name='(B)(Sqd6)' mechanized='true'>
 				<availability>WOB:3</availability>
 			</model>
-			<model name='(C)(Sqd4)' mechanized='false'>
-				<availability>FWL:1</availability>
+			<model name='(C)(Sqd4)' mechanized='true'>
+				<availability>FWL:4</availability>
 			</model>
 			<model name='(C)(Sqd6)' mechanized='true'>
 				<availability>WOB:5</availability>

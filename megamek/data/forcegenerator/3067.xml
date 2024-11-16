@@ -12146,23 +12146,23 @@
 		</chassis>
 		<chassis name='Phalanx Battle Armor' unitType='BattleArmor'>
 			<availability>FWL:5,WOB:4</availability>
-			<model name='(A)(Sqd4)' mechanized='false'>
+			<model name='(A)(Sqd4)' mechanized='true'>
 				<availability>FWL:8</availability>
 			</model>
-			<model name='(A)(Sqd6)' mechanized='false'>
+			<model name='(A)(Sqd6)' mechanized='true'>
 				<availability>WOB:8</availability>
 			</model>
 			<model name='(B)(Sqd4)' mechanized='true'>
 				<availability>FWL:1</availability>
 			</model>
-			<model name='(B)(Sqd6)' mechanized='false'>
+			<model name='(B)(Sqd6)' mechanized='true'>
 				<availability>WOB:3</availability>
 			</model>
-			<model name='(C)(Sqd4)' mechanized='false'>
-				<availability>FWL:1</availability>
+			<model name='(C)(Sqd4)' mechanized='true'>
+				<availability>FWL:5:3071</availability>
 			</model>
 			<model name='(C)(Sqd6)' mechanized='true'>
-				<availability>WOB:4</availability>
+				<availability>WOB:4:3071</availability>
 			</model>
 		</chassis>
 		<chassis name='Phantom' unitType='Mek' omni='Clan'>

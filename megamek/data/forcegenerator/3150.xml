@@ -15041,12 +15041,18 @@
             </model>
         </chassis>
         <chassis name='Phalanx Battle Armor' unitType='BattleArmor'>
-            <availability>RF:5,ROS:5,FWL:6,DA:5,CP:6</availability>
-            <model name='(A)(Sqd4)' mechanized='false'>
-                <availability>FWL:8,CP:8</availability>
+            <availability>CC:4,RF:5,ROS:5,FWL:6,DA:5</availability>
+            <model name='(A)(Sqd4)' mechanized='true'>
+                <availability>CC:8,ROS:8,FWL:8</availability>
+            </model>
+            <model name='(B)(Sqd4)' mechanized='true'>
+                <availability>CC:1,FWL:1</availability>
+            </model>
+            <model name='(C)(Sqd4)' mechanized='true'>
+                <availability>CC:4,FWL:4</availability>
             </model>
             <model name='(D)(Sqd4)' mechanized='true'>
-                <availability>RF:8,ROS:8,FWL:8,DA:8,CP:8</availability>
+                <availability>CC:5+,RF:8,ROS:8,FWL:8,DA:8</availability>
             </model>
         </chassis>
         <chassis name='Phalanx Support Tank' unitType='Tank'>
