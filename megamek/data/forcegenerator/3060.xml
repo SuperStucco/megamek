@@ -11137,10 +11137,10 @@
 			</model>
 		</chassis>
 		<chassis name='Shugenja' unitType='Mek'>
-			<availability>DC:3</availability>
+			<availability>DC:3+:3061,CS:2+:3061</availability>
 			<model name='SJA-7D'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:8,CS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Shuttle' unitType='Small Craft'>

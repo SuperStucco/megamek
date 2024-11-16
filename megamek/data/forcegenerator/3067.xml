@@ -14242,15 +14242,15 @@
 			</model>
 		</chassis>
 		<chassis name='Shugenja' unitType='Mek'>
-			<availability>CS:3,WOB:2,DC:5</availability>
+			<availability>CS:3+,WOB:2,DC:5+</availability>
 			<model name='SJA-7D'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,spotter</roles>
+				<availability>CS:8,DC:8,WOB:8</availability>
 			</model>
-			<model name='SJA-8H'>
-				<roles>spotter</roles>
-				<availability>WOB:3,DC:3</availability>
-			</model>
+            <model name='SJA-8H'>
+                <roles>command,spotter</roles>
+                <availability>DC:3:3069</availability>
+            </model>
 		</chassis>
 		<chassis name='Shuttle' unitType='Small Craft'>
 			<availability>CLAN:10,IS:10,Periphery:10</availability>

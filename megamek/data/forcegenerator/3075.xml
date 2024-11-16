@@ -15357,14 +15357,14 @@
 			</model>
 		</chassis>
 		<chassis name='Shugenja' unitType='Mek'>
-			<availability>CS:4,WOB:3,DC:6</availability>
+			<availability>CS:4+,WOB:3,DC:6+</availability>
 			<model name='SJA-7D'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:8,CS:8,WOB:8</availability>
 			</model>
 			<model name='SJA-8H'>
-				<roles>spotter</roles>
-				<availability>WOB:3,DC:3</availability>
+				<roles>command,spotter</roles>
+				<availability>DC:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Shuttle' unitType='Small Craft'>
