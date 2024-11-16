@@ -15609,21 +15609,49 @@
 			</model>
 		</chassis>
 		<chassis name='Purifier Adaptive Battle Armor' unitType='BattleArmor'>
-			<availability>ROS:5</availability>
-			<model name='[Laser](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+			<availability>ROS:4,FWL:3,MH:3+,TC:2+,SE:3-</availability>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+				<availability>ROS:7,FWL:7,TC:7</availability>
 			</model>
+            <model name='[Laser](Sqd5)' mechanized='true'>
+                <availability>MH:7,SE:8</availability>
+            </model>
 			<model name='[Narc](Sqd4)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>ROS:4,FWL:5,TC:4</availability>
 			</model>
+            <model name='[Narc](Sqd5)' mechanized='true'>
+                <availability>MH:4,SE:2</availability>
+            </model>
 			<model name='[PPC](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>ROS:6,FWL:6,TC:8</availability>
 			</model>
-			<model name='[TAG](Sqd4)' mechanized='false'>
+            <model name='[PPC](Sqd5)' mechanized='true'>
+                <availability>MH:6,SE:7</availability>
+            </model>
+			<model name='[TAG](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>ROS:5,FWL:6,TC:5</availability>
 			</model>
+            <model name='[TAG](Sqd5)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>MH:4+,SE:3</availability>
+            </model>
 		</chassis>
+        <chassis name='Purifier Battle Armor Terra' unitType='BattleArmor'>
+            <availability>ROS:4+</availability>
+            <model name='[AP Gauss](Sqd6)' mechanized='true'>
+                <availability>ROS:5</availability>
+            </model>
+            <model name='[ERSL](Sqd6)' mechanized='true'>
+                <availability>ROS:6</availability>
+            </model>
+            <model name='[MRR](Sqd6)' mechanized='true'>
+                <availability>ROS:6-</availability>
+            </model>
+            <model name='[SPL](Sqd6)' mechanized='true'>
+                <availability>ROS:5</availability>
+            </model>
+        </chassis>
 		<chassis name='Quaestor Mobile Tactical Command HQ' unitType='Tank'>
 			<availability>ROS:5,IS:4</availability>
 			<model name=''>

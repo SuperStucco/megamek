@@ -14257,47 +14257,60 @@
 			</model>
 		</chassis>
 		<chassis name='Purifier Adaptive Battle Armor' unitType='BattleArmor'>
-			<availability>WOB:6,MH:4,CIR:4,TC:4</availability>
-			<model name='[Laser](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+			<availability>WOB:6,WOB.PM:0,MH:4+,CIR:2+,TC:2+</availability>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+				<availability>CIR:7,TC:5</availability>
 			</model>
+            <model name='[Laser](Sqd5)' mechanized='true'>
+                <availability>MH:7</availability>
+            </model>
 			<model name='[Laser](Sqd6)' mechanized='true'>
-				<availability>CS:7,WOB:7,Periphery:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='[Narc](Sqd4)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>CIR:3,TC:4</availability>
 			</model>
-			<model name='[Narc](Sqd6)' mechanized='false'>
-				<availability>CS:4,WOB:4,Periphery:4</availability>
+            <model name='[Narc](Sqd5)' mechanized='true'>
+                <availability>MH:4</availability>
+            </model>
+			<model name='[Narc](Sqd6)' mechanized='true'>
+				<availability>WOB:6</availability>
 			</model>
 			<model name='[PPC](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CIR:6,TC:8</availability>
 			</model>
+            <model name='[PPC](Sqd5)' mechanized='true'>
+                <availability>MH:6</availability>
+            </model>
 			<model name='[PPC](Sqd6)' mechanized='true'>
-				<availability>CS:6,WOB:6,Periphery:6</availability>
+				<availability>WOB:6</availability>
 			</model>
-			<model name='[TAG](Sqd4)' mechanized='false'>
+			<model name='[TAG](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>CIR:3+,TC:5</availability>
 			</model>
-			<model name='[TAG](Sqd6)' mechanized='false'>
+            <model name='[TAG](Sqd5)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>MH:4+</availability>
+            </model>
+			<model name='[TAG](Sqd6)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>CS:5,WOB:5,Periphery:5</availability>
+				<availability>WOB:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Purifier Battle Armor Terra' unitType='BattleArmor'>
-			<availability>WOB:4</availability>
-			<model name='[AP Gauss](Sqd6)' mechanized='false'>
-				<availability>General:6</availability>
+			<availability>WOB:4+,WOB.PM:0</availability>
+			<model name='[AP Gauss](Sqd6)' mechanized='true'>
+				<availability>WOB:5</availability>
 			</model>
-			<model name='[ERSL](Sqd6)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[ERSL](Sqd6)' mechanized='true'>
+				<availability>WOB:6</availability>
 			</model>
-			<model name='[MRR](Sqd6)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[MRR](Sqd6)' mechanized='true'>
+				<availability>WOB:6-</availability>
 			</model>
 			<model name='[SPL](Sqd6)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>WOB:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Pwwka' unitType='Mek'>

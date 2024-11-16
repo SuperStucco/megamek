@@ -9996,32 +9996,36 @@
 			</model>
 		</chassis>
 		<chassis name='Purifier Adaptive Battle Armor' unitType='BattleArmor'>
-			<availability>WOB:4,MH:3,CIR:3,TC:3</availability>
-			<model name='[Laser](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+			<availability>WOB:4:3062,WOB.PM:0,MH:3+:3062,CIR:2+:3062,TC:2+:3062</availability>
+			<model name='[Laser](Sqd4)' mechanized='true'>
+				<availability>CIR:7,TC:7</availability>
 			</model>
+            <model name='[Laser](Sqd5)' mechanized='true'>
+                <availability>MH:7</availability>
+            </model>
 			<model name='[Laser](Sqd6)' mechanized='true'>
-				<availability>CS:7,WOB:7,Periphery:7</availability>
+				<availability>WOB:7</availability>
 			</model>
 			<model name='[Narc](Sqd4)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>CIR:3,TC:4</availability>
 			</model>
-			<model name='[Narc](Sqd6)' mechanized='false'>
-				<availability>CS:4,WOB:4,Periphery:4</availability>
+            <model name='[Narc](Sqd5)' mechanized='true'>
+                <availability>MH:4</availability>
+            </model>
+			<model name='[Narc](Sqd6)' mechanized='true'>
+				<availability>WOB:6</availability>
 			</model>
-			<model name='[PPC](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
-			</model>
-			<model name='[PPC](Sqd6)' mechanized='true'>
-				<availability>CS:6,WOB:6,Periphery:6</availability>
-			</model>
-			<model name='[TAG](Sqd4)' mechanized='false'>
+			<model name='[TAG](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>CIR:3+,TC:5</availability>
 			</model>
-			<model name='[TAG](Sqd6)' mechanized='false'>
+            <model name='[TAG](Sqd5)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>MH:4+</availability>
+            </model>
+			<model name='[TAG](Sqd6)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>CS:5,WOB:5,Periphery:5</availability>
+				<availability>WOB:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Quasit MilitiaMech' unitType='Mek'>
