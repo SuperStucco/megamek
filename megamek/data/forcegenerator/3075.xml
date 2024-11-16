@@ -14947,13 +14947,14 @@
 		<chassis name='Se&apos;irim Medium Battle Armor' unitType='BattleArmor'>
 			<availability>WOB.SD:7</availability>
 			<model name='(Anti-Infantry)(Sqd6)' mechanized='true'>
-				<availability>General:4</availability>
+                <roles>anti_infantry</roles>
+				<availability>WOB.SD:4</availability>
 			</model>
-			<model name='(Capture Team)(Sqd6)' mechanized='false'>
-				<availability>General:2</availability>
+			<model name='(Capture Team)(Sqd6)' mechanized='true'>
+				<availability>WOB.SD:2</availability>
 			</model>
-			<model name='(Sqd6)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='(Sqd6)' mechanized='true'>
+				<availability>WOB.SD:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Sea Skimmer Hydrofoil' unitType='Naval'>
