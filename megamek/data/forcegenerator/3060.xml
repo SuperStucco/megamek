@@ -11914,25 +11914,26 @@
 			</model>
 		</chassis>
 		<chassis name='Templar' unitType='Mek' omni='IS'>
-			<availability>FS:3+</availability>
+			<availability>FS:3+:3062</availability>
 			<model name='TLR1-O'>
-				<availability>General:8</availability>
+				<availability>FS:8</availability>
 			</model>
 			<model name='TLR1-OA'>
-				<availability>General:7</availability>
+				<availability>FS:7</availability>
 			</model>
 			<model name='TLR1-OB'>
-				<availability>General:4</availability>
+				<availability>FS:4</availability>
 			</model>
 			<model name='TLR1-OC'>
-				<availability>General:5</availability>
+                <roles>urban</roles>
+				<availability>FS:5</availability>
 			</model>
 			<model name='TLR1-OD'>
-				<availability>General:5</availability>
+				<availability>FS:4+:3063</availability>
 			</model>
 			<model name='TLR1-OE'>
-				<roles>spotter</roles>
-				<availability>General:3</availability>
+				<roles>command,spotter</roles>
+				<availability>FS:3+:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Tessen' unitType='Mek'>

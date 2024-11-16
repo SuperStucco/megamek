@@ -18900,61 +18900,65 @@
         <chassis name='Templar III' unitType='Mek' omni='IS'>
             <availability>FS:6</availability>
             <model name='TLR2-O'>
-                <availability>General:8</availability>
+				<availability>FS:8</availability>
             </model>
             <model name='TLR2-OA'>
-                <availability>General:7</availability>
+                <roles>urban</roles>
+				<availability>FS:7</availability>
             </model>
             <model name='TLR2-OB'>
-                <availability>General:7</availability>
+                <roles>raider,urban</roles>
+				<availability>FS:5</availability>
             </model>
             <model name='TLR2-OC'>
-                <availability>General:7</availability>
+				<availability>FS:7</availability>
             </model>
             <model name='TLR2-OD'>
-                <availability>General:7</availability>
+				<availability>FS:6+</availability>
             </model>
         </chassis>
         <chassis name='Templar' unitType='Mek' omni='IS'>
-            <availability>FS:4</availability>
+            <availability>FS:2</availability>
             <model name='TLR1-O'>
-                <availability>General:8</availability>
+                <availability>FS:8</availability>
             </model>
             <model name='TLR1-OA'>
-                <availability>General:7</availability>
+                <availability>FS:7</availability>
             </model>
             <model name='TLR1-OB'>
-                <availability>General:4</availability>
+                <availability>FS:4</availability>
             </model>
             <model name='TLR1-OC'>
-                <availability>General:5</availability>
+                <roles>urban</roles>
+                <availability>FS:5</availability>
             </model>
             <model name='TLR1-OD'>
-                <availability>General:5</availability>
+                <availability>FS:5</availability>
             </model>
             <model name='TLR1-OE'>
-                <roles>spotter</roles>
-                <availability>General:3</availability>
+                <roles>command,spotter</roles>
+                <availability>FS:4+</availability>
             </model>
             <model name='TLR1-OF'>
-                <roles>spotter</roles>
-                <availability>General:2</availability>
+                <roles>command,spotter</roles>
+                <availability>FS:3+</availability>
             </model>
             <model name='TLR1-OG'>
                 <roles>fire_support</roles>
-                <availability>General:4</availability>
+                <availability>FS:4</availability>
             </model>
             <model name='TLR1-OH'>
-                <availability>General:5</availability>
+                <availability>FS:5</availability>
             </model>
             <model name='TLR1-OI'>
-                <availability>General:5</availability>
+                <roles>fire_support</roles>
+                <availability>FS:5</availability>
             </model>
             <model name='TLR1-OR'>
-                <availability>General:3</availability>
+                <availability>FS:3+</availability>
             </model>
             <model name='TLR1-OU'>
-                <availability>General:2</availability>
+                <availability>FS:2</availability>
             </model>
         </chassis>
         <chassis name='Tenshi' unitType='Mek' omni='IS'>
