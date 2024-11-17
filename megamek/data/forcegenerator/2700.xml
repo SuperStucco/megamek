@@ -3465,18 +3465,21 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbolt' unitType='Mek'>
-			<availability>CC:8,LA:8,SL:7-,IS:5,Periphery.Deep:5,FS:7,MERC:5,DC:8,Periphery:5</availability>
+			<availability>IS:5,CC:8,LA:8,FS:7,DC:8,SL:7-,MERC:5,Periphery:5</availability>
 			<model name='TDR-1C'>
-				<availability>MOC:4,Periphery.Deep:4,TC:4,Periphery:4</availability>
+				<availability>Periphery:6-,TC:4-</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>CC:8,LA:8,General:8,Periphery.Deep:8,SL.R:7,Periphery:8</availability>
+				<availability>IS:8,SL:8,SL.R:7,Periphery:6,TC:8</availability>
 			</model>
 			<model name='TDR-5Sb'>
-				<availability>SL.R:4</availability>
+				<availability>SL.R:4:2753</availability>
 			</model>
+            <model name='TDR-5Sb2'>
+                <availability>SL:6+,SL.R:6,IS:4+,Periphery:2+</availability>
+            </model>
 			<model name='TDR-5Sd'>
-				<availability>FS:3+</availability>
+				<availability>FS:3+:2750</availability>
 			</model>
 		</chassis>
 		<chassis name='Titan' unitType='Dropship'>

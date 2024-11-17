@@ -17371,12 +17371,12 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbolt' unitType='Mek'>
-			<availability>CC:6,MERC.KH:4,HL:3,CEI:1+,MERC.ELH:8,CLAN:1,IS:5,Periphery.Deep:6,WOB:2-,MERC:6,Periphery:4,CS:3-,FVC:5,MERC.WD:2,LA:6,ROS:5,NIOPS:3-</availability>
+			<availability>CC:6,MERC.KH:4,HL:3,CEI:1+,MERC.ELH:8,CLAN.IS:1,IS:5,Periphery.Deep:6,WOB:2-,MERC:6,Periphery:4,CS:3-,FVC:5,MERC.WD:2,LA:6,ROS:5,NIOPS:3-</availability>
 			<model name='C'>
-				<availability>CSA:1-,CCC:1-,LA:2,CEI:1+,FS:2,CGS:1-,DC:1</availability>
+				<availability>CLAN.IS:2,CEI:1+,LA:2,FS:2,DC:1</availability>
 			</model>
 			<model name='C 2'>
-				<availability>CJF:2</availability>
+				<availability>CJF:6</availability>
 			</model>
 			<model name='TDR-10M'>
 				<availability>ROS:6,FWL:3</availability>
@@ -17400,7 +17400,7 @@
 				<availability>FVC:2,FR:1,FS:1,MERC:1,TC:1</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>CC:3-,HL:1-,LA:2-,General:3-,Periphery.Deep:8,Periphery:4-</availability>
+				<availability>IS:3-,HL:8,LA:2-,Periphery:4-</availability>
 			</model>
 			<model name='TDR-5SS'>
 				<availability>LA:3-,MERC:1-</availability>
@@ -17409,6 +17409,7 @@
 				<availability>CLAN:1,TC:4</availability>
 			</model>
 			<model name='TDR-60-RLA'>
+                <roles>cavalry</roles>
 				<availability>ROS:2,MERC:2,DC:2</availability>
 			</model>
 			<model name='TDR-7M'>
@@ -17424,9 +17425,11 @@
 				<availability>MOC:3,CC:3,DoO:4,WOB:3,DO:4,DGM:4,DTA:4,SC:4,MCM:4,PIR:2,FWL:4,MH:3,TP:4,DA:4</availability>
 			</model>
 			<model name='TDR-9NAIS'>
+                <roles>cavalry</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='TDR-9Nr'>
+                <roles>cavalry,ew_support</roles>
 				<availability>WOB:2,FS:2,MERC:2</availability>
 			</model>
 			<model name='TDR-9S'>

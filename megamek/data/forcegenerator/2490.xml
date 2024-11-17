@@ -1447,12 +1447,12 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbolt' unitType='Mek'>
-			<availability>CC:4</availability>
+			<availability>IS:4+,CC:4,SL:4</availability>
 			<model name='TDR-1C'>
-				<availability>CC:8,Periphery.Deep:8,TC:8,Periphery:8</availability>
+				<availability>CC:8</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>CC:6,LA:8,General:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>IS:8:2505,SL:8:2505,CC:6:2505</availability>
 			</model>
 		</chassis>
 		<chassis name='Toro' unitType='Mek'>

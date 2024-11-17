@@ -5744,15 +5744,15 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbolt' unitType='Mek'>
-			<availability>CC:8,CCC:2-,CSR:2-,HL:3,CLAN:1-,IS:8,Periphery.Deep:6,FS:7,MERC:8,CGS:2-,Periphery:5,CS:5-,CBS:2,NIOPS:5-,CB:2</availability>
+			<availability>CC:8,HL:3,CLAN:2-,CBS:2,CB:2,IS:8,Periphery.Deep:6,FS:7,MERC:8,Periphery:5,CS:5-,NIOPS:5-</availability>
 			<model name='C'>
-				<availability>CSA:1-,CCC:2-,CHH:1-,CSR:2-,CBS:2,CSJ:1-,CGS:2-,CJF:1-,CB:2</availability>
+				<availability>CLAN:1,CCC:2,CSR:2,CBS:2,CGS:2,CB:2</availability>
 			</model>
 			<model name='TDR-5D'>
 				<availability>FS:4,MERC:2</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>CC:8,HL:6,LA:6,General:8,Periphery.Deep:7,BAN:2,Periphery:8</availability>
+				<availability>IS:8,HL:8,LA:6,BAN:2,Periphery:8</availability>
 			</model>
 			<model name='TDR-5SE'>
 				<availability>MERC.ELH:8,MERC:2</availability>
@@ -5761,7 +5761,7 @@
 				<availability>LA:8</availability>
 			</model>
 			<model name='TDR-5Sb'>
-				<availability>CHH:4,CSR:4,CDS:4,CW:4,CLAN:4,CNC:4,CJF:4,BAN:2,CGB:4</availability>
+				<availability>CLAN:4-,BAN:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Tigress Close Patrol Craft' unitType='Small Craft'>

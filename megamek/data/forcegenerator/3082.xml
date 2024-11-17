@@ -16067,12 +16067,12 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbolt' unitType='Mek'>
-			<availability>CC:5,MERC.KH:4,HL:2,CEI:1+,IS:4,Periphery.Deep:6,FS:5,MERC:6,Periphery:3,TC:4,FVC:4,MERC.WD:2,LA:6,ROS:5,NIOPS:3-,MH:4,DC:5</availability>
+			<availability>CC:5,MERC.KH:4,HL:2,CJF:1,CEI:1+,IS:4,Periphery.Deep:6,FS:5,MERC:6,Periphery:3,TC:4,FVC:4,MERC.WD:2,LA:6,ROS:5,NIOPS:3-,MH:4,DC:5</availability>
 			<model name='C'>
-				<availability>CSA:1-,CCC:1-,LA:2,CEI:1+,FS:2,DC:1</availability>
+				<availability>CEI:1+,LA:2,FS:2,DC:1</availability>
 			</model>
 			<model name='C 2'>
-				<availability>CJF:2</availability>
+				<availability>CJF:6</availability>
 			</model>
 			<model name='TDR-10M'>
 				<availability>CC:2,ROS:6,FWL:4,MERC:2</availability>
@@ -16096,7 +16096,7 @@
 				<availability>FVC:2,FR:1,FS:1,MERC:1,TC:1</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>CC:3-,LA:1-,General:3-,Periphery.Deep:8,Periphery:3-</availability>
+				<availability>IS:3-,LA:1-,Periphery:3-</availability>
 			</model>
 			<model name='TDR-5SS'>
 				<availability>LA:3-,MERC:1-</availability>
@@ -16105,6 +16105,7 @@
 				<availability>TC:5</availability>
 			</model>
 			<model name='TDR-60-RLA'>
+                <roles>cavalry</roles>
 				<availability>ROS:2,MERC:2,DC:2</availability>
 			</model>
 			<model name='TDR-7M'>
@@ -16120,9 +16121,11 @@
 				<availability>MOC:3,CC:3,DoO:5,DO:5,DGM:5,MERC:2,DTA:5,SC:5,MCM:5,PIR:3,FWL:3,MH:3,MSC:5,TP:5,DA:5</availability>
 			</model>
 			<model name='TDR-9NAIS'>
+                <roles>cavalry</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='TDR-9Nr'>
+                <roles>cavalry,ew_support</roles>
 				<availability>FS:3,MERC:3</availability>
 			</model>
 			<model name='TDR-9S'>
@@ -16132,6 +16135,7 @@
 				<availability>FVC:4,LA:4,ROS:6,MERC:4,FS:4</availability>
 			</model>
 			<model name='TDR-9T'>
+                <roles>cavalry</roles>
 				<availability>TC:4</availability>
 			</model>
 			<model name='TDR-9W'>

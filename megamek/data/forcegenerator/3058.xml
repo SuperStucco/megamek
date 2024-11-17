@@ -9639,18 +9639,18 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbolt' unitType='Mek'>
-			<availability>CC:7,HL:3,MERC.ELH:7+,CLAN:1-,IS:8,Periphery.Deep:6,WOB:3-,CLAN.IS:1-,FS:7,MERC:8,Periphery:4,CS:4-,MERC.WD:4,NIOPS:4-,CB:1</availability>
+			<availability>CC:7,HL:3,MERC.ELH:7+,CLAN:1-,CLAN.IS:2-,CB:1,IS:8,Periphery.Deep:6,WOB:3-,FS:7,MERC:8,Periphery:4,CS:4-,MERC.WD:4,NIOPS:4-</availability>
 			<model name='C'>
-				<availability>CSA:1-,CCC:1-,LA:2+,CLAN.IS:1-,FS:1+,CGS:1-,CB:1,DC:1+</availability>
+				<availability>CLAN:1,CLAN.IS:2,LA:2+,FS:1+,DC:1+</availability>
 			</model>
 			<model name='C 2'>
-				<availability>CJF:2</availability>
+				<availability>CJF:6</availability>
 			</model>
 			<model name='TDR-5D'>
 				<availability>FS:1,MERC:2</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>CC:6,HL:4,LA:4,General:6,Periphery.Deep:6,Periphery:6</availability>
+				<availability>IS:6,HL:8,LA:4,Periphery:6</availability>
 			</model>
 			<model name='TDR-5SE'>
 				<availability>MERC.ELH:4,MERC:1</availability>
@@ -9659,7 +9659,7 @@
 				<availability>LA:6,MERC:3</availability>
 			</model>
 			<model name='TDR-5Sb'>
-				<availability>CHH:2,CSR:2,CDS:2,CW:2,CLAN:2,CNC:2,CJF:2,CWIE:2,CGB:2</availability>
+				<availability>CLAN:2-,CWIE:2</availability>
 			</model>
 			<model name='TDR-7M'>
 				<availability>CS:4+,CC:2+,FWL:7+,IS:2+,WOB:4+,MERC:2+</availability>

@@ -4920,7 +4920,7 @@
 		<chassis name='Thunderbolt' unitType='Mek'>
 			<availability>CC:9,CS:5-,LA:8,CLAN:4,IS:7,Periphery.Deep:6,NIOPS:5-,MERC:7,Periphery:6,DC:8</availability>
 			<model name='C'>
-				<availability>CLAN:2-</availability>
+				<availability>CLAN:2</availability>
 			</model>
 			<model name='TDR-5D'>
 				<availability>FS:4,MERC:2</availability>
@@ -4932,13 +4932,13 @@
 				<availability>CC:2</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>General:8,CLAN:1-,Periphery.Deep:8,BAN:5,Periphery:8</availability>
+				<availability>IS:8,CLAN:1-,BAN:5,Periphery:8</availability>
 			</model>
 			<model name='TDR-5SE'>
 				<availability>MERC.ELH:8,MERC:2</availability>
 			</model>
 			<model name='TDR-5Sb'>
-				<availability>CHH:6,CSR:6,CDS:6,CW:6,CLAN:6,CNC:6,CJF:6,BAN:4,CGB:6</availability>
+				<availability>CLAN:6-,BAN:4</availability>
 			</model>
 			<model name='TDR-5Sd'>
 				<availability>FS:1+</availability>

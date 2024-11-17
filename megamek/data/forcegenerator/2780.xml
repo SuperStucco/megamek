@@ -3736,16 +3736,19 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbolt' unitType='Mek'>
-			<availability>CC:8,LA:8,SL:5-,IS:5,NIOPS:5-,Periphery.Deep:5,FS:7,MERC:5,Periphery:5,DC:8</availability>
+			<availability>IS:5,CC:8,LA:8,FS:7,DC:8,SL:5-,MERC:5,Periphery:5,NIOPS:5-</availability>
 			<model name='TDR-1C'>
-				<availability>MOC:1,TC:1,Periphery:1</availability>
+				<availability>Periphery:2-,TC:0</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>CC:8,LA:8,General:8,Periphery.Deep:8,SL.R:5,Periphery:8</availability>
+				<availability>IS:8,SL:8,SL.R:5,Periphery:8</availability>
 			</model>
 			<model name='TDR-5Sb'>
 				<availability>SL.R:6</availability>
 			</model>
+            <model name='TDR-5Sb2'>
+                <availability>SL:6+,SL.R:6,IS:4+</availability>
+            </model>
 			<model name='TDR-5Sd'>
 				<availability>FS:3+</availability>
 			</model>

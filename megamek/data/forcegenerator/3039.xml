@@ -6556,15 +6556,15 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbolt' unitType='Mek'>
-			<availability>HL:2,MERC.ELH:3+,CLAN:1-,IS:8,Periphery.Deep:6,FS:7,MERC:8,Periphery:4,CS:5-,CBS:1,NIOPS:5-,CB:1</availability>
+			<availability>HL:2,MERC.ELH:3+,CLAN:1-,CBS:1,CB:1,IS:8,Periphery.Deep:6,FS:7,MERC:8,Periphery:4,CS:5-,NIOPS:5-</availability>
 			<model name='C'>
-				<availability>CSA:1-,CCC:1-,CSR:1-,CBS:1,CSJ:1-,CGS:1-,CJF:1-,CB:1</availability>
+				<availability>CLAN:1</availability>
 			</model>
 			<model name='TDR-5D'>
 				<availability>FS:3,MERC:4</availability>
 			</model>
 			<model name='TDR-5S'>
-				<availability>CC:8,HL:6,LA:5,General:8,Periphery.Deep:7,Periphery:8</availability>
+				<availability>IS:8,HL:8,LA:5,Periphery:8</availability>
 			</model>
 			<model name='TDR-5SE'>
 				<availability>MERC.ELH:8,MERC:2</availability>
@@ -6573,7 +6573,7 @@
 				<availability>LA:8</availability>
 			</model>
 			<model name='TDR-5Sb'>
-				<availability>CHH:3,CSR:3,CDS:3,CW:3,CLAN:3,CNC:3,CJF:3,BAN:1,CGB:3</availability>
+				<availability>CLAN:3-,BAN:1</availability>
 			</model>
 			<model name='TDR-7M'>
 				<availability>FWL:3+</availability>
