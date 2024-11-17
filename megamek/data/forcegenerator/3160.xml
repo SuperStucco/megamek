@@ -10812,21 +10812,21 @@
 			</model>
 		</chassis>
 		<chassis name='Kopis Assault Battle Armor' unitType='BattleArmor'>
-			<availability>FWL:6,MERC:4,CP:6</availability>
+			<availability>FWL:6,MERC:4</availability>
 			<model name='&apos;The Dark Alley&apos;(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>FWL:8,MERC:8</availability>
 			</model>
 			<model name='(AI Mk II)(Sqd4)' mechanized='false'>
-				<availability>FWL:5,MERC:4,CP:5</availability>
+				<availability>FWL:5,MERC:4</availability>
 			</model>
 			<model name='(AI Mk IIr)(Sqd4)' mechanized='false'>
-				<availability>FWL:4,MERC:3,CP:4</availability>
+				<availability>FWL:4,MERC:3</availability>
 			</model>
 			<model name='(Anti-Infantry)(Sqd4)' mechanized='false'>
-				<availability>General:4</availability>
+				<availability>FWL:4,MERC:4</availability>
 			</model>
 			<model name='(Mortar)(Sqd4)' mechanized='false'>
-				<availability>FWL:4,MERC:3,CP:4</availability>
+				<availability>FWL:4,MERC:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Koroshiya' unitType='AeroSpaceFighter'>

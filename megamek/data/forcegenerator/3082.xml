@@ -9477,15 +9477,13 @@
 			</model>
 		</chassis>
 		<chassis name='Kopis Assault Battle Armor' unitType='BattleArmor'>
-			<availability>DoO:5,ROS:4,FWL:4,DO:5,TP:5,MERC:3</availability>
+			<availability>ROS:4,FWL:4,DoO:5,DO:5,TP:5,MERC:3</availability>
 			<model name='&apos;The Dark Alley&apos;(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
-			</model>
-			<model name='(AI Mk II)(Sqd4)' mechanized='false'>
-				<availability>DoO:4,DO:4,TP:4</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(Anti-Infantry)(Sqd4)' mechanized='false'>
-				<availability>General:4</availability>
+                <roles>anti_infantry,urban</roles>
+				<availability>IS:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Koryu Submarine' unitType='Naval'>

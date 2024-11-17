@@ -11121,20 +11121,24 @@
 			</model>
 		</chassis>
 		<chassis name='Kopis Assault Battle Armor' unitType='BattleArmor'>
-			<availability>OP:6,ROS:5,FWL:5,MERC:4,CP:5</availability>
+			<availability>OP:6,ROS:5,FWL:5,MERC:4</availability>
 			<model name='&apos;The Dark Alley&apos;(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(AI Mk II)(Sqd4)' mechanized='false'>
+                <roles>anti_infantry,urban</roles>
 				<availability>OP:6,MERC:4</availability>
 			</model>
 			<model name='(AI Mk IIr)(Sqd4)' mechanized='false'>
+                <roles>anti_infantry,urban</roles>
 				<availability>OP:4,MERC:3</availability>
 			</model>
 			<model name='(Anti-Infantry)(Sqd4)' mechanized='false'>
-				<availability>General:4</availability>
+                <roles>anti_infantry,urban</roles>
+				<availability>IS:4</availability>
 			</model>
 			<model name='(Mortar)(Sqd4)' mechanized='false'>
+                <roles>fire_support,urban</roles>
 				<availability>OP:4,MERC:3</availability>
 			</model>
 		</chassis>
