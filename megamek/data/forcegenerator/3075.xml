@@ -8951,9 +8951,9 @@
 			</model>
 		</chassis>
 		<chassis name='Ironhold Assault Battle Armor' unitType='BattleArmor'>
-			<availability>CJF:3</availability>
+			<availability>CJF:3:3077</availability>
 			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>CJF:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Ironsides' unitType='AeroSpaceFighter'>

@@ -9490,13 +9490,13 @@
 		<chassis name='Ironhold Assault Battle Armor' unitType='BattleArmor'>
 			<availability>CJF:5</availability>
 			<model name='(Anti-Tank)(Sqd5)' mechanized='false'>
-				<availability>General:4</availability>
+				<availability>CJF:4</availability>
 			</model>
 			<model name='(Fire)(Sqd5)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>CJF:6</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>CJF:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Isegrim Assault DropShip' unitType='Dropship'>
