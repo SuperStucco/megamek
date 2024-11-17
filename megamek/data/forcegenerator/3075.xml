@@ -18176,12 +18176,6 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Water Elemental Mining Suit' unitType='BattleArmor'>
-			<availability>CGS:2-</availability>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>CGS:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Whirlwind Destroyer' unitType='Warship'>
 			<availability>CS:1,CSR:2,CSV:2,CJF:1</availability>
 			<model name='(2606)'>
