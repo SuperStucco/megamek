@@ -18605,16 +18605,23 @@
 			<model name='(DCA)(Sqd4)' mechanized='true'>
 				<availability>DC:6</availability>
 			</model>
-			<model name='(Minelayer)(Sqd4)' mechanized='false'>
+            <model name='(Caltrop)(Sqd4)' mechanized='true'>
+                <roles>minelayer</roles>
+                <availability>DC:1+</availability>
+            </model>
+			<model name='(Minelayer)(Sqd4)' mechanized='true'>
 				<roles>minelayer</roles>
-				<availability>DC:4</availability>
+				<availability>DC:4:3079</availability>
 			</model>
-			<model name='(Nova Cat)(Sqd5)' mechanized='false'>
-				<availability>CNC:8</availability>
+			<model name='(Nova Cat)(Sqd5)' mechanized='true'>
+				<availability>CNC:6</availability>
 			</model>
-			<model name='(Sqd4)' mechanized='false'>
+			<model name='(Sqd4)' mechanized='true'>
 				<availability>DC:8</availability>
 			</model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>CNC:6-</availability>
+            </model>
 		</chassis>
 		<chassis name='Volga Transport' unitType='Warship'>
 			<availability>CSA:2,CS:1,CHH:1,CSR:1,CDS:2,CW:1,NIOPS:1,CSL:1,CGS:1,CCO:1,CGB:1</availability>

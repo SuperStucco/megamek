@@ -17841,10 +17841,10 @@
 			<model name='(DCA)(Sqd4)' mechanized='true'>
 				<availability>DC:6</availability>
 			</model>
-			<model name='(Nova Cat)(Sqd5)' mechanized='false'>
+			<model name='(Nova Cat)(Sqd5)' mechanized='true'>
 				<availability>CNC:8</availability>
 			</model>
-			<model name='(Sqd4)' mechanized='false'>
+			<model name='(Sqd4)' mechanized='true'>
 				<availability>DC:8</availability>
 			</model>
 		</chassis>
