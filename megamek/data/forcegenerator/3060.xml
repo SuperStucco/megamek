@@ -4292,12 +4292,12 @@
 			</model>
 		</chassis>
 		<chassis name='Erinyes' unitType='ProtoMek'>
-			<availability>CJF:2</availability>
+			<availability>CJF:2:3062</availability>
 			<model name=''>
 				<availability>CJF:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CJF:6</availability>
+				<availability>CJF:6:3064</availability>
 			</model>
 		</chassis>
 		<chassis name='Escape Pod' unitType='Small Craft'>

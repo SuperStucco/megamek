@@ -5825,10 +5825,10 @@
 		<chassis name='Erinyes' unitType='ProtoMek'>
 			<availability>SOC:4</availability>
 			<model name=''>
-				<availability>SOC:4,CJF:6</availability>
+				<availability>SOC:4</availability>
 			</model>
 			<model name='2'>
-				<availability>SOC:4,CJF:8</availability>
+				<availability>SOC:4</availability>
 			</model>
 			<model name='3'>
 				<availability>SOC:8</availability>
