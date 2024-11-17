@@ -20852,9 +20852,9 @@
 			</model>
 		</chassis>
 		<chassis name='Wight' unitType='Mek'>
-			<availability>CC:6,LA:5,CNC:2-,FWL:5,IS:4,CP:3-,MERC:5,DC:8</availability>
+			<availability>CC:6,LA:5,CNC:2-,CDS:3-,ROS:4,FWL:5,CP:3-,MERC:5,DC:8,MH:3,TC:3</availability>
 			<model name='WGT-1LAW/SC'>
-				<availability>LA:4,FWL:4,IS:4,MERC:4,CP:4,DC:4</availability>
+				<availability>LA:4,FWL:4,MERC:4,CP:4,DC:4</availability>
 			</model>
 			<model name='WGT-1LAW/SC3'>
 				<availability>ROS:5,DC:6</availability>
@@ -20866,12 +20866,13 @@
 				<availability>DC:6</availability>
 			</model>
 			<model name='WGT-2SC'>
-				<availability>LA:6,FWL:6,IS:4,MERC:6,CP:6</availability>
+				<availability>LA:6,FWL:6,MERC:6,CDS:8,CP:6,MH:8,TC:8</availability>
 			</model>
 			<model name='WGT-3SC'>
-				<availability>CC:8,LA:6,FWL:6,IS:6,MERC:6,CP:6</availability>
+				<availability>CC:8,LA:6,ROS:5,FWL:6,MERC:6,CP:6,MH:8</availability>
 			</model>
 			<model name='WGT-4NC &apos;Dezgra&apos;'>
+                <roles>specops</roles>
 				<availability>CNC:8,CP:8</availability>
 			</model>
 		</chassis>

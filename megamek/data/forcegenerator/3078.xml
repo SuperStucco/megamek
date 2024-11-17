@@ -19067,6 +19067,7 @@
 				<availability>CC:8,LA:4,FWL:4,MERC:4</availability>
 			</model>
 			<model name='WGT-4NC &apos;Dezgra&apos;'>
+                <roles>specops</roles>
 				<availability>CNC:8</availability>
 			</model>
 		</chassis>

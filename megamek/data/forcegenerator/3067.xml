@@ -16969,15 +16969,19 @@
 			</model>
 		</chassis>
 		<chassis name='Wight' unitType='Mek'>
-			<availability>DC:4</availability>
+			<availability>DC:4:3069,FWL:2+:3069,LA:2+:3069,CNC:2-</availability>
 			<model name='WGT-1LAW/SC'>
 				<availability>DC:8</availability>
 			</model>
 			<model name='WGT-1LAW/SC3'>
-				<availability>DC:4</availability>
+				<availability>DC:4:3070</availability>
 			</model>
+            <model name='WGT-2SC'>
+                <availability>FWL:8,LA:8</availability>
+            </model>
 			<model name='WGT-4NC &apos;Dezgra&apos;'>
-				<availability>CNC:8</availability>
+			    <roles>specops</roles>
+				<availability>CNC:8:3074</availability>
 			</model>
 		</chassis>
 		<chassis name='Winterhawk APC' unitType='Tank'>
