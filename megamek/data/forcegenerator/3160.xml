@@ -1881,15 +1881,16 @@
 		<chassis name='Arondight Pocket Warship' unitType='Dropship'>
 			<availability>LA:4,MERC:3,FS:5</availability>
 			<model name=''>
+                <roles>pocket_warship</roles>
 				<availability>FS:2</availability>
 			</model>
 			<model name='(Refit)'>
-				<roles>assault</roles>
+                <roles>pocket_warship</roles>
 				<availability>FS:8</availability>
 			</model>
 			<model name='(SCC)'>
-				<roles>assault</roles>
-				<availability>General:4</availability>
+                <roles>pocket_warship</roles>
+				<availability>FS:4,LA:4,MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Arrow IV Assault Vehicle' unitType='Tank'>
