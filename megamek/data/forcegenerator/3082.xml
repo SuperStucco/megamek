@@ -16763,14 +16763,14 @@
             </model>
 		</chassis>
 		<chassis name='Union-X' unitType='Dropship'>
-			<availability>LA:3</availability>
+			<availability>LA:3,ROS:6</availability>
 			<model name='(3065)'>
 				<roles>troop_carrier</roles>
-				<availability>General:5</availability>
+				<availability>LA:5</availability>
 			</model>
 			<model name='(3071)'>
 				<roles>troop_carrier</roles>
-				<availability>General:6</availability>
+				<availability>LA:6,ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Union' unitType='Dropship'>

@@ -16124,11 +16124,11 @@
 			<availability>LA:2,LA.SR:4</availability>
 			<model name='(3065)'>
 				<roles>troop_carrier</roles>
-				<availability>General:8</availability>
+				<availability>LA:8</availability>
 			</model>
 			<model name='(3071)'>
 				<roles>troop_carrier</roles>
-				<availability>General:5</availability>
+				<availability>LA:5:3071</availability>
 			</model>
 		</chassis>
 		<chassis name='Union' unitType='Dropship'>

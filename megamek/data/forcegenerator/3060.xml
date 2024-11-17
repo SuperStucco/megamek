@@ -12626,7 +12626,7 @@
 			<availability>LA.SR:3</availability>
 			<model name='(3065)'>
 				<roles>troop_carrier</roles>
-				<availability>General:8</availability>
+				<availability>LA.SR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Union' unitType='Dropship'>
