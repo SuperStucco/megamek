@@ -5185,8 +5185,8 @@
 		</chassis>
 		<chassis name='Water Elemental Mining Suit' unitType='BattleArmor'>
 			<availability>CW:1,CGS:2</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='(Sqd5)' mechanized='false'>
+				<availability>CW:8,CGS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Whirlwind Destroyer' unitType='Warship'>
