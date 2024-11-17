@@ -7169,29 +7169,29 @@
 		<chassis name='Flamberge' unitType='Mek'>
 			<availability>CJF:4</availability>
 			<model name='2'>
-				<availability>General:6</availability>
+				<availability>CJF:8</availability>
 			</model>
 			<model name='3'>
-				<availability>General:6</availability>
+				<availability>CJF:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Flamberge' unitType='Mek' omni='Clan'>
 			<availability>CJF:5</availability>
 			<model name='A'>
-				<availability>General:6</availability>
+				<availability>CJF:6</availability>
 			</model>
 			<model name='B'>
-				<availability>General:6</availability>
+				<availability>CJF:6</availability>
 			</model>
 			<model name='C'>
-				<roles>missile_artillery,spotter</roles>
-				<availability>General:4</availability>
+				<roles>mixed_artillery,spotter</roles>
+				<availability>CJF:4</availability>
 			</model>
 			<model name='D'>
-				<availability>General:6</availability>
+				<availability>CJF:6</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CJF:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Flashman' unitType='Mek'>
