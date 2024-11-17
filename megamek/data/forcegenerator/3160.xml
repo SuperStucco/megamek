@@ -4504,23 +4504,22 @@
 			</model>
 		</chassis>
 		<chassis name='Clan Medium Battle Armor' unitType='BattleArmor'>
-			<availability>CWE:4-,RD:6,CDS:5,CLAN.IS:5,CP:6</availability>
+			<availability>CWE:4-,RD:6-,CDS:5,CLAN.IS:5-,CP:6,FS:3+,LA:3,DC:2,FWL:3+</availability>
 			<model name='(Laser) &apos;Volk&apos; (Sqd5)' mechanized='true'>
 				<availability>CWE:4</availability>
 			</model>
-			<model name='(Naval) &apos;Bär&apos; (Sqd4)' mechanized='false'>
+			<model name='(Naval) &apos;Bär&apos; (Sqd5)' mechanized='true'>
 				<roles>marine</roles>
 				<availability>RD:6</availability>
+            </model>
+            <model name='(Rabid)(Sqd4)' mechanized='true'>
+                <availability>FS:8,LA:8,FWL:8,DC:8</availability>
 			</model>
-			<model name='(Naval) &apos;Bär&apos; (Sqd5)' mechanized='false'>
-				<roles>marine</roles>
-				<availability>CWE:4-,RD:6,CDS:5,CLAN.IS:5,CP:6</availability>
-			</model>
-			<model name='(Rabid)(Sqd5)' mechanized='false'>
-				<availability>CWE:4,RD:4,CDS:4,CP:4</availability>
+			<model name='(Rabid)(Sqd5)' mechanized='true'>
+				<availability>CLAN.IS:4</availability>
 			</model>
 			<model name='(Rache)(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Clan Motorized Point' unitType='Infantry'>

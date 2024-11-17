@@ -3777,16 +3777,9 @@
 			</model>
 		</chassis>
 		<chassis name='Clan Medium Battle Armor' unitType='BattleArmor'>
-			<availability>CDS:3,CW:3-,CNC:5,CGB:3,CWIE:3</availability>
-			<model name='(Laser) &apos;Volk&apos; (Sqd5)' mechanized='true'>
-				<availability>CW:8</availability>
-			</model>
-			<model name='(Naval) &apos;Bär&apos; (Sqd5)' mechanized='false'>
-				<roles>marine</roles>
-				<availability>CDS:3,CW:3-,CNC:5,CGB:3,CWIE:3</availability>
-			</model>
-			<model name='(Rabid)(Sqd5)' mechanized='false'>
-				<availability>CDS:8,CW:4,CNC:8,CGB:4,CWIE:8</availability>
+			<availability>CNC:5</availability>
+			<model name='(Rabid)(Sqd5)' mechanized='true'>
+				<availability>CNC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Clan Motorized Point' unitType='Infantry'>

@@ -4091,19 +4091,22 @@
 			</model>
 		</chassis>
 		<chassis name='Clan Medium Battle Armor' unitType='BattleArmor'>
-			<availability>CDS:4,CW:4-,CNC:7,CLAN.IS:4,CGB:6,CWIE:6</availability>
+			<availability>CDS:4,CW:4-,CNC:7,CLAN.IS:4-,CGB:6-,CWIE:6,FS:3+,ROS:4+</availability>
 			<model name='(Laser) &apos;Volk&apos; (Sqd5)' mechanized='true'>
 				<availability>CW:5</availability>
 			</model>
-			<model name='(Naval) &apos;Bär&apos; (Sqd5)' mechanized='false'>
+			<model name='(Naval) &apos;Bär&apos; (Sqd5)' mechanized='true'>
 				<roles>marine</roles>
-				<availability>CDS:4,CW:4-,CNC:7,CLAN.IS:4,CGB:6,CWIE:6</availability>
+				<availability>CGB:6</availability>
 			</model>
-			<model name='(Rabid)(Sqd5)' mechanized='false'>
+            <model name='(Rabid)(Sqd4)' mechanized='true'>
+                <availability>FS:8,ROS:8</availability>
+            </model>
+			<model name='(Rabid)(Sqd5)' mechanized='true'>
 				<availability>CDS:7,CW:4,CNC:7,CGB:4,CWIE:7</availability>
 			</model>
 			<model name='(Rache)(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Clan Motorized Point' unitType='Infantry'>
