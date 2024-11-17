@@ -5548,10 +5548,10 @@
 		<chassis name='Elemental II Battle Armor' unitType='BattleArmor'>
 			<availability>CHH:4</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CHH:8:3084</availability>
 			</model>
 			<model name='X(Sqd5)' mechanized='true'>
-				<availability>General:1</availability>
+				<availability>CHH:1</availability>
 			</model>
 		</chassis>
 		<chassis name='Emperor' unitType='Mek'>

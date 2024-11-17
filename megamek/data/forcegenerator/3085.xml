@@ -5778,22 +5778,19 @@
 		<chassis name='Elemental II Battle Armor' unitType='BattleArmor'>
 			<availability>CHH:5</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
-			</model>
-			<model name='X(Sqd5)' mechanized='true'>
-				<availability>General:1</availability>
+				<availability>CHH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Elemental III Battle Armor' unitType='BattleArmor'>
-			<availability>CHH:4</availability>
-			<model name='[AP Gauss](Sqd5)' mechanized='false'>
-				<availability>CHH:4</availability>
+			<availability>CHH:4:3091</availability>
+			<model name='[AP Gauss](Sqd5)' mechanized='true'>
+				<availability>CHH:8</availability>
 			</model>
-			<model name='[Flamer](Sqd5)' mechanized='false'>
-				<availability>CHH:4</availability>
+			<model name='[Flamer](Sqd5)' mechanized='true'>
+				<availability>CHH:8</availability>
 			</model>
-			<model name='[MicroPL](Sqd5)' mechanized='false'>
-				<availability>CHH:4</availability>
+			<model name='[MicroPL](Sqd5)' mechanized='true'>
+				<availability>CHH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Emperor' unitType='Mek'>

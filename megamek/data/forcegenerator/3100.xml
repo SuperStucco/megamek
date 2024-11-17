@@ -6038,19 +6038,19 @@
 		<chassis name='Elemental II Battle Armor' unitType='BattleArmor'>
 			<availability>CHH:6</availability>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CHH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Elemental III Battle Armor' unitType='BattleArmor'>
 			<availability>CHH:4,CLAN.IS:2</availability>
-			<model name='[AP Gauss](Sqd5)' mechanized='false'>
-				<availability>CHH:5,CLAN.IS:2</availability>
+			<model name='[AP Gauss](Sqd5)' mechanized='true'>
+				<availability>CLAN.IS:8</availability>
 			</model>
-			<model name='[Flamer](Sqd5)' mechanized='false'>
-				<availability>CHH:5,CLAN.IS:2</availability>
+			<model name='[Flamer](Sqd5)' mechanized='true'>
+				<availability>CLAN.IS:8</availability>
 			</model>
-			<model name='[MicroPL](Sqd5)' mechanized='false'>
-				<availability>CHH:5,CLAN.IS:2</availability>
+			<model name='[MicroPL](Sqd5)' mechanized='true'>
+				<availability>CLAN.IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Emperor' unitType='Mek'>
