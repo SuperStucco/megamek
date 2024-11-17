@@ -8171,9 +8171,12 @@
 				<availability>WOB:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Inquisitor' unitType='Mek'>
-			<availability>WOB.PM:3-</availability>
-		</chassis>
+        <chassis name='Inquisitor' unitType='Mek'>
+            <availability>FWL:3-,WOB.PM:8-</availability>
+            <model name='ITW-80 SecurityMech'>
+                <availability>FWL:8,WOB.PM:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Intruder' unitType='Dropship'>
 			<availability>MOC:4,HL:2,CLAN:1,IS:4,WOB:4,FS:3,CIR:4,BAN:4,Periphery:3,TC:3,CS:4,FWL:6,NIOPS:4,DC:6</availability>
 			<model name='(2655)'>

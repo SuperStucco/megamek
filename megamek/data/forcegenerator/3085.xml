@@ -8926,6 +8926,12 @@
 				<availability>FS:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Inquisitor' unitType='Mek'>
+            <availability>LA:3-,DA:3-,PR:3-,PG:3-,RF:3-,ROS:3-</availability>
+            <model name='ITW-80 SecurityMech'>
+                <availability>IS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Interdictor Pocket Warship' unitType='Dropship'>
 			<availability>CC:3,LA:3,ROS:4,FWL:3,FS:3,DC:3</availability>
 			<model name=''>

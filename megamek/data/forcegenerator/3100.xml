@@ -9405,6 +9405,25 @@
 				<availability>FS:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Inquisitor' unitType='Mek'>
+            <availability>LA:2-,DA:2-,DO:2-,PR:3-,PG:3-,RF:3-,ROS:2-</availability>
+            <model name='ITW-80 SecurityMech'>
+                <availability>IS:8</availability>
+            </model>
+            <model name='ITW-85 SecurityMech'>
+                <roles>ew_support</roles>
+                <availability>IS:5:3120</availability>
+            </model>
+        </chassis>
+        <chassis name='Inquisitor II' unitType='Mek'>
+            <availability>OP:2-:3122,ROS:2-:3122</availability>
+            <model name='ITW-205'>
+                <availability>OP:8,ROS:8</availability>
+            </model>
+            <model name='ITW-200'>
+                <availability>OP:5:3130,ROS:5:3130</availability>
+            </model>
+        </chassis>
 		<chassis name='Interdictor Pocket Warship' unitType='Dropship'>
 			<availability>CC:4,LA:4,ROS:5,FWL:4,FS:4,DC:4</availability>
 			<model name=''>

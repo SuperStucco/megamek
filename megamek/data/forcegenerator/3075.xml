@@ -8890,7 +8890,10 @@
 			</model>
 		</chassis>
 		<chassis name='Inquisitor' unitType='Mek'>
-			<availability>WOB.PM:4-</availability>
+			<availability>FWL:3-,WOB.PM:8-</availability>
+            <model name='ITW-80 SecurityMech'>
+                <availability>FWL:8,WOB.PM:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Interdictor Pocket Warship' unitType='Dropship'>
 			<availability>WOB:6</availability>
