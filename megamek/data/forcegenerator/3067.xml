@@ -6038,9 +6038,10 @@
 			</model>
 		</chassis>
 		<chassis name='Fortune Wheeled Assault Vehicle' unitType='Tank'>
-			<availability>LA:4</availability>
+			<availability>LA:4+</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>LA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Fox Corvette' unitType='Warship'>

@@ -6395,13 +6395,15 @@
 		<chassis name='Fortune Wheeled Assault Vehicle' unitType='Tank'>
 			<availability>PR:3,LA:6,ROS:3,PG:3,RFS:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>spotter</roles>
-				<availability>LA:4,ROS:4</availability>
+				<roles>command,spotter,urban</roles>
+				<availability>LA:4+,ROS:4</availability>
 			</model>
 			<model name='(Thunderbolt)'>
+                <roles>fire_support,urban</roles>
 				<availability>PR:4,LA:4,PG:4,RFS:4</availability>
 			</model>
 		</chassis>

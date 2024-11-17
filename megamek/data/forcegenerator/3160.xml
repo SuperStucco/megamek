@@ -7151,16 +7151,18 @@
 			</model>
 		</chassis>
 		<chassis name='Fortune Wheeled Assault Vehicle' unitType='Tank'>
-			<availability>RF:4,LA:6</availability>
+			<availability>FWL:4,LA:6,MH:3,TC:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>LA:8,FWL:8,MH:8,TC:8</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>spotter</roles>
-				<availability>LA:6</availability>
+				<roles>command,spotter,urban</roles>
+				<availability>LA:6+</availability>
 			</model>
 			<model name='(Thunderbolt)'>
-				<availability>RF:4,LA:4</availability>
+                <roles>fire_support,urban</roles>
+				<availability>FWL:4,LA:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Fox Armored Car' unitType='Tank'>
