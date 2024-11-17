@@ -9690,7 +9690,7 @@
 			</model>
 		</chassis>
 		<chassis name='Longinus Battle Armor' unitType='BattleArmor'>
-			<availability>FWL:8,WOB:8,MH:4+</availability>
+			<availability>FWL:8,WOB:6,MH:4+</availability>
 			<model name='(Magnetic)(Sqd4)' mechanized='true'>
                 <roles>anti_infantry,mag_clamp</roles>
 				<availability>FWL:4:3069</availability>
@@ -15679,20 +15679,35 @@
             <model name='G12(Sqd6)' mechanized='true'>
                 <availability>WOB:8</availability>
             </model>
+            <model name='G13 [David Light Gauss](Sqd5)' mechanized='false'>
+                <availability>MH:4</availability>
+            </model>
 			<model name='G13 [David Light Gauss](Sqd6)' mechanized='false'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4</availability>
 			</model>
+            <model name='G13 [Flamer](Sqd5)' mechanized='false'>
+                <availability>MH:4</availability>
+            </model>
 			<model name='G13 [Flamer](Sqd6)' mechanized='false'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4</availability>
 			</model>
+            <model name='G13 [Grenade Launcher](Sqd5)' mechanized='true'>
+                <availability>MH:4</availability>
+            </model>
 			<model name='G13 [Grenade Launcher](Sqd6)' mechanized='true'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4</availability>
 			</model>
+            <model name='G13 [Machine Gun](Sqd5)' mechanized='true'>
+                <availability>MH:4</availability>
+            </model>
 			<model name='G13 [Machine Gun](Sqd6)' mechanized='true'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4</availability>
 			</model>
+            <model name='G13 [Small Laser](Sqd5)' mechanized='false'>
+                <availability>MH:4</availability>
+            </model>
 			<model name='G13 [Small Laser](Sqd6)' mechanized='false'>
-				<availability>WOB:4,MH:4</availability>
+				<availability>WOB:4</availability>
 			</model>
 			<model name='G14(Sqd6)' mechanized='false'>
 				<availability>WOB:3</availability>
@@ -15924,7 +15939,7 @@
 			</model>
 		</chassis>
 		<chassis name='Tunnel Rat II Mining Exoskeleton' unitType='BattleArmor'>
-			<availability>IS:1-,MERC:4-,CIR:8,MOC:5-,OA:6-,TC:4-,CDP:8,FVC:3-,FR:3-,PIR:8</availability>
+			<availability>IS:1-,MERC:4-,CIR:8,MOC:3,OA:6-,TC:3,CDP:8,FVC:3-,FR:3-,PIR:8</availability>
 			<model name='[Armored Glove](Sqd4)' mechanized='true'>
 				<availability>IS:8,Periphery:8,CDP:8,FVC:8,FR:8,PIR:8</availability>
 			</model>

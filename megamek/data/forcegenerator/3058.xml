@@ -5275,7 +5275,7 @@
 			</model>
 		</chassis>
 		<chassis name='IS Standard Battle Armor' unitType='BattleArmor'>
-			<availability>IS:4,CC:5+,FWL:5-,LA:8,DC:6-,FS:6-,CS:8,WOB:6,MOC:2+,TC:2+,MERC:2+</availability>
+			<availability>IS:4,CC:5+,FWL:5-,LA:8,DC:6-,FS:6-,CS:8,WOB:6,MOC:3+,TC:2+,MERC:2+</availability>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
 				<availability>General:7,CS:0,WOB:0</availability>
 			</model>
@@ -9873,7 +9873,7 @@
 			</model>
 		</chassis>
 		<chassis name='Tunnel Rat II Mining Exoskeleton' unitType='BattleArmor'>
-			<availability>IS:3-,MERC:8-,CIR:8,MOC:8,OA:8,TC:8,PIR:8</availability>
+			<availability>IS:3-,MERC:8-,CIR:8,MOC:4,OA:8,TC:6,PIR:8</availability>
 			<model name='[Armored Glove](Sqd4)' mechanized='true'>
 				<availability>IS:8,Periphery:8,PIR:8</availability>
 			</model>

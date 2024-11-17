@@ -6475,7 +6475,7 @@
 			</model>
 		</chassis>
 		<chassis name='IS Standard Battle Armor' unitType='BattleArmor'>
-			<availability>IS:6,CC:6,FWL:5-,LA:7,DC:5-,FS:2-,CS:8,WOB:5,MOC:2+,TC:2+,MH:4,MERC:2+</availability>
+			<availability>IS:6,CC:6,FWL:5-,LA:7,DC:5-,FS:2-,CS:8,WOB:5,MOC:3+,TC:3+,MH:4,MERC:2+</availability>
 			<model name='[Flamer](Sqd4)' mechanized='true'>
 				<availability>General:7,CS:0,WOB:0,MH:0</availability>
 			</model>
@@ -7755,7 +7755,7 @@
 			</model>
 		</chassis>
 		<chassis name='Longinus Battle Armor' unitType='BattleArmor'>
-			<availability>FWL:8,WOB:8,MH:3+</availability>
+			<availability>FWL:8,WOB:7,MH:3+</availability>
 			<model name='[David](Sqd4)' mechanized='true'>
 				<availability>FWL:5:3063</availability>
 			</model>
@@ -12269,27 +12269,42 @@
 			</model>
 		</chassis>
 		<chassis name='Tornado PA(L)' unitType='BattleArmor'>
-			<availability>CS:2,FWL:2,WOB:2</availability>
+			<availability>CS:2,FWL:2,WOB:2,MH:1:3066</availability>
 			<model name='G12(Sqd4)' mechanized='true'>
 				<availability>FWL:8</availability>
 			</model>
             <model name='G12(Sqd6)' mechanized='true'>
                 <availability>WOB:8</availability>
             </model>
+            <model name='G13 [David Light Gauss](Sqd5)' mechanized='false'>
+                <availability>MH:4:3066</availability>
+            </model>
 			<model name='G13 [David Light Gauss](Sqd6)' mechanized='false'>
-				<availability>WOB:4:3066,MH:4:3066</availability>
+				<availability>WOB:4:3066</availability>
 			</model>
+            <model name='G13 [Flamer](Sqd5)' mechanized='false'>
+                <availability>MH:4:3066</availability>
+            </model>
 			<model name='G13 [Flamer](Sqd6)' mechanized='false'>
-				<availability>WOB:4:3066,MH:4:3066</availability>
+				<availability>WOB:4:3066</availability>
 			</model>
+            <model name='G13 [Grenade Launcher](Sqd5)' mechanized='true'>
+                <availability>MH:4:3066</availability>
+            </model>
 			<model name='G13 [Grenade Launcher](Sqd6)' mechanized='true'>
-				<availability>WOB:4:3066,MH:4:3066</availability>
+				<availability>WOB:4:3066</availability>
 			</model>
+            <model name='G13 [Machine Gun](Sqd5)' mechanized='true'>
+                <availability>MH:4:3066</availability>
+            </model>
 			<model name='G13 [Machine Gun](Sqd6)' mechanized='true'>
-				<availability>WOB:4:3066,MH:4:3066</availability>
+				<availability>WOB:4:3066</availability>
 			</model>
+            <model name='G13 [Small Laser](Sqd5)' mechanized='false'>
+                <availability>MH:4:3066</availability>
+            </model>
 			<model name='G13 [Small Laser](Sqd6)' mechanized='false'>
-				<availability>WOB:4:3066,MH:4:3066</availability>
+				<availability>WOB:4:3066</availability>
 			</model>
 			<model name='P12 &apos;Hurricane&apos;(Sqd6)' mechanized='true'>
                 <roles>specops</roles>
@@ -12450,7 +12465,7 @@
 			</model>
 		</chassis>
 		<chassis name='Tunnel Rat II Mining Exoskeleton' unitType='BattleArmor'>
-			<availability>IS:1-,MERC:6-,CIR:8,MOC:7,OA:8,TC:7,PIR:8</availability>
+			<availability>IS:1-,MERC:6-,CIR:8,MOC:4,OA:8,TC:4,PIR:8</availability>
 			<model name='[Armored Glove](Sqd4)' mechanized='true'>
 				<availability>IS:8,Periphery:8,PIR:8</availability>
 			</model>
