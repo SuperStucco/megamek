@@ -9253,6 +9253,17 @@
 				<availability>WOB:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Legionnaire' unitType='Mek'>
+            <availability>FS:3+</availability>
+            <model name='LGN-1X'>
+                <roles>recon</roles>
+                <availability>FS:2</availability>
+            </model>
+            <model name='LGN-2D'>
+                <roles>cavalry</roles>
+                <availability>FS:8:3073</availability>
+            </model>
+        </chassis>
 		<chassis name='Leopard CV' unitType='Dropship'>
 			<availability>OA:8,HL:6,IS:7,Periphery.Deep:6,MH:6,BAN:4,Periphery:7</availability>
 			<model name='(2581)'>

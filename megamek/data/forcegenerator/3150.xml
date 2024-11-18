@@ -11473,25 +11473,25 @@
             </model>
         </chassis>
         <chassis name='Legionnaire' unitType='Mek'>
-            <availability>ROS:4,FS:8,MERC:4</availability>
-            <model name='LGN-1X'>
-                <availability>FS.CH:4,FS:1</availability>
-            </model>
+            <availability>ROS:4,FS:8,DC:4,MERC:4,CDP:3+,TC:3,PIR:4+</availability>
             <model name='LGN-2D'>
-                <availability>General:8</availability>
+                <roles>cavalry</roles>
+                <availability>FS:8,ROS:8,MERC:8,CDP:8,TC:8</availability>
             </model>
             <model name='LGN-2F'>
-                <availability>FS:8</availability>
+                <roles>cavalry</roles>
+                <availability>FS:8+</availability>
             </model>
             <model name='LGN-2K'>
-                <roles>raider</roles>
-                <availability>ROS:6</availability>
+                <roles>cavalry,raider</roles>
+                <availability>ROS:6,DC:8,PIR:8</availability>
             </model>
             <model name='LGN-2XA'>
-                <roles>missile_artillery</roles>
+                <roles>cavalry,mixed_artillery</roles>
                 <availability>FS:4</availability>
             </model>
             <model name='LGN-2XU'>
+                <roles>cavalry</roles>
                 <availability>FS:4</availability>
             </model>
         </chassis>
