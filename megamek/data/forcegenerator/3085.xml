@@ -9549,21 +9549,26 @@
 			</model>
 		</chassis>
 		<chassis name='Karhu' unitType='Mek' omni='Clan'>
-			<availability>CGB:6</availability>
+			<availability>CGB:6,CGB.FRR:5+</availability>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CGB:7,CGB.FRR:5</availability>
 			</model>
 			<model name='B'>
-				<availability>General:7</availability>
+				<availability>CGB:7</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+				<availability>CGB:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:7</availability>
+                <roles>ew_support,raider</roles>
+				<availability>CGB:7</availability>
 			</model>
+            <model name='G'>
+                <roles>raider,spotter</roles>
+                <availability>CGB:6:3099</availability>
+            </model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CGB:5,CGB.FRR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Gunship' unitType='VTOL'>

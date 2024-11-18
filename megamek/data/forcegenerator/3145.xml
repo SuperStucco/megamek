@@ -10708,25 +10708,26 @@
 			</model>
 		</chassis>
 		<chassis name='Karhu' unitType='Mek' omni='Clan'>
-			<availability>RD:8</availability>
+			<availability>RD:8,CDS:4,CW:3,RA:3,RA.OA:5</availability>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:7,RA.OA:5</availability>
 			</model>
 			<model name='B'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:7</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:7</availability>
+                <roles>ew_support,raider</roles>
+				<availability>CLAN.IS:7</availability>
 			</model>
 			<model name='G'>
-				<roles>spotter</roles>
-				<availability>General:6</availability>
+                <roles>raider,spotter</roles>
+                <availability>CLAN.IS:6</availability>
 			</model>
 			<model name='Prime'>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:7-,CW:5-,RA.OA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Gunship' unitType='VTOL'>
