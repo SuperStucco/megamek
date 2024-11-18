@@ -2093,16 +2093,16 @@
 			</model>
 		</chassis>
 		<chassis name='Axman' unitType='Mek'>
-			<availability>FVC:2,LA:4,CGB.FRR:2,ROS:4,FS:2,MERC:1</availability>
+			<availability>FVC:2,LA:4,CGB.FRR:2,ROS:4,FS:2,RFS:2,MERC:1</availability>
 			<model name='AXM-1N'>
 				<availability>FVC:5,LA:5,CGB.FRR:5,MERC:5,FS:5</availability>
 			</model>
 			<model name='AXM-2N'>
 				<roles>fire_support</roles>
-				<availability>FVC:1,LA:2,FS:1</availability>
+				<availability>FVC:1,LA:2</availability>
 			</model>
 			<model name='AXM-3S'>
-				<availability>LA:6,ROS:4,FS:4,MERC:4</availability>
+				<availability>LA:6,ROS:4,FS:4,MERC:4,RFS:8</availability>
 			</model>
 			<model name='AXM-3Sr'>
 				<availability>LA:5,ROS:4,FS:6,MERC:2</availability>
@@ -2111,7 +2111,8 @@
 				<availability>FS:5</availability>
 			</model>
 			<model name='AXM-6T'>
-				<availability>LA:4</availability>
+                <roles>cavalry,fire_support</roles>
+				<availability>LA:3:3083</availability>
 			</model>
 		</chassis>
 		<chassis name='Baboon (Howler)' unitType='Mek'>

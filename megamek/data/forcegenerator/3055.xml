@@ -1372,9 +1372,9 @@
 			</model>
 		</chassis>
 		<chassis name='Axman' unitType='Mek'>
-			<availability>LA:5+,FRR:2+,FS:3+,MERC:2+</availability>
+			<availability>LA:5+,FRR:2+,FS:3+,SIC:2+,MERC:2+</availability>
 			<model name='AXM-1N'>
-				<availability>LA:8,FRR:8,MERC:8,FS:8</availability>
+				<availability>LA:8,FRR:8,MERC:8,FS:8,SIC:8</availability>
 			</model>
 			<model name='AXM-2N'>
 				<roles>fire_support</roles>

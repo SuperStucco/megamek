@@ -973,9 +973,9 @@
 			</model>
 		</chassis>
 		<chassis name='Axman' unitType='Mek'>
-			<availability>LA:5+,FS:3+</availability>
+			<availability>LA:5+:3048,FS:3+:3048</availability>
 			<model name='AXM-1N'>
-				<availability>LA:8,FRR:8,MERC:8,FS:8</availability>
+				<availability>LA:8,FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Baboon (Howler)' unitType='Mek'>

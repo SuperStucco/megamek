@@ -1856,14 +1856,18 @@
 				<availability>FVC:2,LA:4,FS:2</availability>
 			</model>
 			<model name='AXM-3S'>
-				<availability>LA:4,FS:3,MERC:3</availability>
+				<availability>LA:4,MERC:3</availability>
 			</model>
 			<model name='AXM-3Sr'>
-				<availability>LA:3,FS:4</availability>
+				<availability>LA:3:3069,FS:4:3069</availability>
 			</model>
 			<model name='AXM-4D'>
 				<availability>FS:3</availability>
 			</model>
+            <model name='AXM-6X'>
+                <roles>cavalry,fire_support</roles>
+                <availability>LA:1:3074</availability>
+            </model>
 		</chassis>
 		<chassis name='Baboon (Howler)' unitType='Mek'>
 			<availability>CSA:5,CSR:5,CSV:6,CJF:5,CB:4</availability>

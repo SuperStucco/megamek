@@ -2256,27 +2256,25 @@
 			</model>
 		</chassis>
 		<chassis name='Axman' unitType='Mek'>
-			<availability>FVC:1,LA:5,FS:1</availability>
-			<model name='AXM-1N'>
-				<availability>FVC:2,LA:2,MERC:2,FS:2</availability>
-			</model>
+			<availability>FVC:1,LA:5,FS:1,FWL:2,Periphery:3+,PIR:3</availability>
 			<model name='AXM-2N'>
 				<roles>fire_support</roles>
-				<availability>LA:1</availability>
+				<availability>FVC:1,PIR:8</availability>
 			</model>
 			<model name='AXM-3S'>
-				<availability>LA:6,FS:4,MERC:4</availability>
+				<availability>LA:6,FS:4,MERC:4,FVC:3+,FWL:8,Periphery:8</availability>
 			</model>
 			<model name='AXM-3Sr'>
-				<availability>LA:6,FS:6,MERC:4</availability>
+                <availability>LA:6,FS:6,MERC:4</availability>
 			</model>
 			<model name='AXM-4D'>
 				<availability>FS:6</availability>
 			</model>
 			<model name='AXM-5N'>
-				<availability>FS:2</availability>
+                <availability>FS:3+</availability>
 			</model>
 			<model name='AXM-6T'>
+			    <roles>cavalry,fire_support</roles>
 				<availability>LA:6</availability>
 			</model>
 		</chassis>
