@@ -2095,38 +2095,38 @@
 			</model>
 		</chassis>
 		<chassis name='Aurora' unitType='Dropship'>
-			<availability>LA:6,FS:6</availability>
+			<availability>LA:6,FS:6,DC:5,ROS:6,MERC:6,CJF:4-,FVC:7,MH:5</availability>
 			<model name=''>
 				<roles>mek_carrier</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,FVC:8,CJF:8,MH:8</availability>
 			</model>
 			<model name='(BA)'>
 				<roles>ba_carrier</roles>
-				<availability>General:5</availability>
+				<availability>IS:5,FVC:3,CJF:5</availability>
 			</model>
 			<model name='(CV)'>
 				<roles>asf_carrier</roles>
-				<availability>General:5</availability>
+				<availability>IS:5,FVC:5,CJF:2</availability>
 			</model>
 			<model name='(Cargo)'>
 				<roles>cargo</roles>
-				<availability>General:4</availability>
+				<availability>IS:4,FVC:4,CJF:4</availability>
 			</model>
 			<model name='(Combined Arms)'>
 				<roles>troop_carrier</roles>
-				<availability>General:6</availability>
+				<availability>IS:6,FVC:6,CJF:2</availability>
 			</model>
 			<model name='(Gunship)'>
 				<roles>assault</roles>
-				<availability>General:4</availability>
+				<availability>IS:4,FVC:2,CJF:1</availability>
 			</model>
 			<model name='(Tanker)'>
 				<roles>support</roles>
-				<availability>General:4</availability>
+				<availability>IS:4,FVC:4,CJF:4</availability>
 			</model>
 			<model name='(Vehicle)'>
 				<roles>vee_carrier</roles>
-				<availability>General:6</availability>
+				<availability>IS:6,CJF:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Avalanche' unitType='Mek' omni='IS'>
