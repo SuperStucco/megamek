@@ -5041,10 +5041,10 @@
 			</model>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
-			<availability>IS:3,DC:3</availability>
+			<availability>IS:3,CS:6,CBS:4-,CGB:3-,CIH:3-,CSR:3-,CW:3-,BAN:3</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CS:8,CLAN:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Typhoon' unitType='AeroSpaceFighter'>

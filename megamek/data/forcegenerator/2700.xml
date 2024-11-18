@@ -3578,10 +3578,10 @@
 			</model>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
-			<availability>TH:5</availability>
+			<availability>TH:5,SL:4</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:8</availability>
+				<availability>TH:8,SL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Typhoon' unitType='AeroSpaceFighter'>

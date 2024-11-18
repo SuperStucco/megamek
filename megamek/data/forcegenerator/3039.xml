@@ -6731,7 +6731,7 @@
 			<availability>CS:6</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:8</availability>
+				<availability>CS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Turk' unitType='AeroSpaceFighter' omni='Clan'>

@@ -3844,6 +3844,13 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
+            <availability>SL:5,SLIE:5,CS:6</availability>
+            <model name=''>
+                <roles>apc,urban</roles>
+                <availability>SL:8,SLIE:8,CS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Typhoon' unitType='AeroSpaceFighter'>
 			<availability>LA:2</availability>
 			<model name='TFN-2A'>

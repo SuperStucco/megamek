@@ -19125,9 +19125,13 @@
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
 			<availability>DC:4</availability>
+            <model name=''>
+                <roles>apc,urban</roles>
+                <availability>DC:8</availability>
+            </model>
 			<model name='(C3)'>
-				<roles>apc,urban,spotter</roles>
-				<availability>DC:8</availability>
+				<roles>apc,command,urban,spotter</roles>
+				<availability>DC:5+</availability>
 			</model>
 		</chassis>
 		<chassis name='Turk' unitType='AeroSpaceFighter' omni='Clan'>

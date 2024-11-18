@@ -4917,10 +4917,10 @@
 			</model>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
-			<availability>IS:2,DC:2</availability>
+			<availability>IS:2,CS:6,CBS:3-,CGB:2-,CIH:2-,CSR:2-,CW:2-,BAN:2</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CS:8,CLAN:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Union C' unitType='Dropship'>

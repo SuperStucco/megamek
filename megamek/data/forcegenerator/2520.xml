@@ -1744,7 +1744,7 @@
 			<availability>TH:6</availability>
 			<model name='(Original)'>
 				<roles>apc,urban</roles>
-				<availability>General:8</availability>
+				<availability>TH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Typhoon' unitType='AeroSpaceFighter'>

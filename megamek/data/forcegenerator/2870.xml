@@ -5386,10 +5386,10 @@
 			</model>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
-			<availability>IS:1,DC:1</availability>
+			<availability>IS:1,CS:6,CBS:2-,CGB:1-,CIH:1-,CSR:1-,CW:2-,BAN:1</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,CS:8,CLAN:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Uller (Kit Fox)' unitType='Mek' omni='Clan'>

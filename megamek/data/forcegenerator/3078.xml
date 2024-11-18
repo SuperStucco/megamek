@@ -17953,14 +17953,14 @@
 			</model>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
-			<availability>CS:4,WOB:4,DC:3</availability>
+			<availability>CS:4,WOB:4,DC:3,ROS:4,CEI:5</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:5</availability>
+				<availability>ROS:8,CS:8,WOB:8,DC:5,CEI:8</availability>
 			</model>
 			<model name='(C3)'>
-				<roles>apc,urban,spotter</roles>
-				<availability>ROS:8,DC:8</availability>
+				<roles>apc,command,urban,spotter</roles>
+				<availability>ROS:5,DC:5+</availability>
 			</model>
 			<model name='(Original)'>
 				<roles>apc,urban</roles>

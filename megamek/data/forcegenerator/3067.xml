@@ -15973,11 +15973,15 @@
 			</model>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
-			<availability>CS:4,WOB:4</availability>
+			<availability>CS:4,WOB:4,DC:3</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:8</availability>
+				<availability>CS:8,WOB:8</availability>
 			</model>
+            <model name='(C3)'>
+                <roles>apc,command,urban,spotter</roles>
+                <availability>DC:5+</availability>
+            </model>
 			<model name='(Original)'>
 				<roles>apc,urban</roles>
 				<availability>DC:2-</availability>

@@ -2595,11 +2595,11 @@
 			<availability>TH:6,SL:4</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:4</availability>
+				<availability>TH:4,SL:4</availability>
 			</model>
 			<model name='(Original)'>
 				<roles>apc,urban</roles>
-				<availability>General:6</availability>
+				<availability>TH:6,SL:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Typhoon' unitType='AeroSpaceFighter'>

@@ -5542,6 +5542,13 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
+            <availability>IS:1,CS:6,CBS:2-,BAN:1</availability>
+            <model name=''>
+                <roles>apc,urban</roles>
+                <availability>IS:8,CS:8,CLAN:8,BAN:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Tyre' unitType='AeroSpaceFighter'>
 			<availability>CSV:7,CLAN:5</availability>
 			<model name=''>

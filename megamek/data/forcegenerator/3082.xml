@@ -16590,14 +16590,14 @@
 			</model>
 		</chassis>
 		<chassis name='Turhan Urban Combat Vehicle' unitType='Tank'>
-			<availability>ROS:3,DC:4</availability>
+			<availability>ROS:3,DC:4,CEI:5</availability>
 			<model name=''>
 				<roles>apc,urban</roles>
-				<availability>General:5</availability>
+				<availability>ROS:8,DC:8,CEI:8</availability>
 			</model>
 			<model name='(C3)'>
-				<roles>apc,urban,spotter</roles>
-				<availability>ROS:8,DC:8</availability>
+				<roles>apc,command,urban,spotter</roles>
+				<availability>ROS:5,DC:5+</availability>
 			</model>
 		</chassis>
 		<chassis name='Turk' unitType='AeroSpaceFighter' omni='Clan'>
