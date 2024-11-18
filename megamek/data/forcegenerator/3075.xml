@@ -14483,14 +14483,21 @@
 		<chassis name='SM Tank Destroyer' unitType='Tank'>
 			<availability>CNC:2,DC:2</availability>
 			<model name='SM1'>
+                <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='SM1A'>
+                <roles>cavalry</roles>
 				<availability>General:8</availability>
 			</model>
-			<model name='SM3'>
-				<availability>General:8</availability>
-			</model>
+            <model name='SM1 &apos;Telos&apos;'>
+                <roles>cavalry,fire_support</roles>
+                <availability>DC:3+:3077</availability>
+            </model>
+            <model name='SM3'>
+                <roles>cavalry</roles>
+                <availability>CNC:8,DC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='SRM Carrier' unitType='Tank'>
 			<availability>General:7,CLAN:3,WOB:8</availability>

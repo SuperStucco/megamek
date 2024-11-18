@@ -16412,15 +16412,26 @@
 			</model>
 		</chassis>
 		<chassis name='SM Tank Destroyer' unitType='Tank'>
-			<availability>CNC:3,CP:3,DC:3</availability>
+			<availability>CNC:3,CP:3,IS:3</availability>
 			<model name='SM1'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>CNC:8,CP:8,IS:8,DC:0</availability>
 			</model>
 			<model name='SM1A'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>CNC:8,CP:8,IS:8,DC:0</availability>
 			</model>
+            <model name='SM1B'>
+                <roles>cavalry</roles>
+                <availability>IS:6:3140,DC:0</availability>
+            </model>
+            <model name='SM1 &apos;Telos&apos;'>
+                <roles>cavalry,fire_support</roles>
+                <availability>DC:3+</availability>
+            </model>
 			<model name='SM3'>
-				<availability>General:8</availability>
+                <roles>cavalry</roles>
+				<availability>CNC:8,CP:8,IS:8,DC:0</availability>
 			</model>
 		</chassis>
 		<chassis name='SM2 Heavy Artillery Vehicle' unitType='Tank'>
