@@ -18693,6 +18693,20 @@
 				<availability>General:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Tiamat II' unitType='Dropship'>
+            <availability>SL3:3</availability>
+            <model name='(3112)'>
+                <roles>pocket_warship</roles>
+                <availability>SL3:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Tiamat Pocket Warship' unitType='Dropship'>
+            <availability>SL3:4</availability>
+            <model name=''>
+                <roles>pocket_warship</roles>
+                <availability>SL3:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Tian-Zong' unitType='Mek'>
 			<availability>CC:6+,MOC:5+</availability>
 			<model name='TNZ-N1'>

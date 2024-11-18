@@ -16793,9 +16793,10 @@
 			</model>
 		</chassis>
 		<chassis name='Tiamat Pocket Warship' unitType='Dropship'>
-			<availability>WOB:5</availability>
+			<availability>WOB.SD:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>pocket_warship</roles>
+				<availability>WOB.SD:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tigress Close Patrol Craft' unitType='Small Craft'>

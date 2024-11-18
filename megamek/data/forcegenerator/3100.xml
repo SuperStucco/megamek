@@ -18053,15 +18053,16 @@
 			</model>
 		</chassis>
 		<chassis name='Tiamat II' unitType='Dropship'>
-			<availability>ROS:2</availability>
+			<availability>ROS:2:3112</availability>
 			<model name='(3112)'>
-				<availability>General:8</availability>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tiamat Pocket Warship' unitType='Dropship'>
 			<availability>ROS:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>pocket_warship</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tian-Zong' unitType='Mek'>

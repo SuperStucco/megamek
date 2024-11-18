@@ -17489,12 +17489,14 @@
 			</model>
 		</chassis>
 		<chassis name='Tiamat Pocket Warship' unitType='Dropship'>
-			<availability>WOB:5</availability>
+			<availability>WOB:5,WOB.PM:0</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>pocket_warship</roles>
+				<availability>WOB.SD:8</availability>
 			</model>
 			<model name='(CASPAR II Drone)'>
-				<availability>WOB:6</availability>
+                <roles>pocket_warship</roles>
+				<availability>WOB:6,WOB.SD:0</availability>
 			</model>
 		</chassis>
 		<chassis name='Tigress Close Patrol Craft' unitType='Small Craft'>
