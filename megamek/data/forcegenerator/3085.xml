@@ -3230,11 +3230,11 @@
 		<chassis name='Bruin' unitType='Mek'>
 			<availability>CGB:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>CGB:8</availability>
 			</model>
 			<model name='2'>
 				<roles>anti_infantry</roles>
-				<availability>General:4</availability>
+				<availability>CGB:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Brutus Assault Tank' unitType='Tank'>

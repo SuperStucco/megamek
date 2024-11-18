@@ -3368,13 +3368,13 @@
 			</model>
 		</chassis>
 		<chassis name='Bruin' unitType='Mek'>
-			<availability>RD:5,CGB:5</availability>
+			<availability>RD:5,CGB:5,CHH:3,CW:2</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>CGB:8,RD:8,CHH:8,CW:8</availability>
 			</model>
 			<model name='2'>
 				<roles>anti_infantry</roles>
-				<availability>General:4</availability>
+				<availability>CGB:4,RD:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Brutus Assault Tank' unitType='Tank'>

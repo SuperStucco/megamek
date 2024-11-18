@@ -3439,9 +3439,9 @@
 			</model>
 		</chassis>
 		<chassis name='Bruin' unitType='Mek'>
-			<availability>CGB:3</availability>
+			<availability>CGB:3:3081</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>CGB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Brutus Assault Tank' unitType='Tank'>
