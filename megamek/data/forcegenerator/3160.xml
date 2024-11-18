@@ -2477,10 +2477,9 @@
 			</model>
 		</chassis>
 		<chassis name='Bandit Hovercraft' unitType='Tank'>
-			<availability>MERC.KH:3,MERC.WD:3,MERC:3</availability>
+			<availability>MERC.KH:3,MERC.WD:3,MERC:1</availability>
 			<model name='Mk 2'>
-				<roles>apc</roles>
-				<availability>General:8</availability>
+				<availability>MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bandit Hovercraft' unitType='Tank' omni='IS'>

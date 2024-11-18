@@ -2529,9 +2529,6 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Bandit Hovercraft' unitType='Tank'>
-			<availability>MERC.WD:3,MERC.KH:3,MERC:3</availability>
-		</chassis>
 		<chassis name='Bandit Hovercraft' unitType='Tank' omni='IS'>
 			<availability>MERC.WD:4,MERC:5</availability>
 			<model name='A'>
