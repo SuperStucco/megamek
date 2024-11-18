@@ -10458,7 +10458,7 @@
 			</model>
 		</chassis>
 		<chassis name='Rottweiler Battle Armor' unitType='BattleArmor'>
-			<availability>LA:3</availability>
+			<availability>LA:3:3065</availability>
 			<model name='(Sqd4)' mechanized='false'>
 				<roles>recon</roles>
 				<availability>LA:8</availability>

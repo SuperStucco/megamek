@@ -16391,16 +16391,19 @@
 		<chassis name='Rottweiler Battle Armor' unitType='BattleArmor'>
 			<availability>LA:5,ROS:3,MERC:3</availability>
 			<model name='(Close Combat)(Sqd4)' mechanized='false'>
+                <roles>anti_infantry,recon,urban</roles>
 				<availability>LA:4</availability>
 			</model>
 			<model name='(Firedrake)(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+                <roles>anti_infantry</roles>
+				<availability>LA:6</availability>
 			</model>
 			<model name='(Sqd4)' mechanized='false'>
 				<roles>recon</roles>
-				<availability>LA:4</availability>
+				<availability>LA:4,ROS:8,MERC:8</availability>
 			</model>
 			<model name='(Upgrade)(Sqd4)' mechanized='false'>
+                <roles>recon</roles>
 				<availability>LA:8</availability>
 			</model>
 		</chassis>
