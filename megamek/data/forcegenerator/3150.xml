@@ -1269,8 +1269,8 @@
         <chassis name='Aesir Assault Dropship' unitType='Dropship'>
             <availability>RD:3,CP:1</availability>
             <model name=''>
-                <roles>assault</roles>
-                <availability>General:8</availability>
+                <roles>assault,asf_carrier</roles>
+                <availability>RD:8,CP:8</availability>
             </model>
         </chassis>
         <chassis name='Aesir Medium AA Vehicle' unitType='Tank'>
@@ -20432,7 +20432,8 @@
         <chassis name='Vanir Assault Dropship' unitType='Dropship'>
             <availability>RD:5,CP:2</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <roles>assault</roles>
+                <availability>RD:8,CP:8</availability>
             </model>
         </chassis>
         <chassis name='Vedette Medium Tank' unitType='Tank'>

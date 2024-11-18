@@ -1203,8 +1203,8 @@
 		<chassis name='Aesir Assault Dropship' unitType='Dropship'>
 			<availability>CNC:1,CGB:3</availability>
 			<model name=''>
-				<roles>assault</roles>
-				<availability>General:8</availability>
+				<roles>assault,asf_carrier</roles>
+				<availability>CNC:8,CGB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Afreet Medium Battle Armor' unitType='BattleArmor'>
@@ -17016,7 +17016,8 @@
 		<chassis name='Vanir Assault Dropship' unitType='Dropship'>
 			<availability>CNC:2,CGB:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>assault</roles>
+				<availability>CNC:8,CGB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Vedette Medium Tank' unitType='Tank'>
