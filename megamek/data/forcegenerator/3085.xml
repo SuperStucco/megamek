@@ -6814,12 +6814,13 @@
 			</model>
 		</chassis>
 		<chassis name='Gallant' unitType='Mek'>
-			<availability>MOC:3,LA:4,ROS:4,CNC:3,IS:3,FS:4,MERC:3,CDP:3,CWIE:3,TC:3</availability>
+			<availability>LA:4,ROS:4,CNC:3,IS:3,FS:4,MERC:3,CWIE:3,MOC:3,TC:3,MH:2,CDP:3+</availability>
 			<model name='GLT-7-0'>
-				<availability>General:8,FS:4</availability>
+			    <roles>raider,urban</roles>
+				<availability>IS:8,FS:4,ROS:2,CNC:8,CWIE:8,Periphery:8,CDP:8</availability>
 			</model>
 			<model name='GLT-8-0'>
-				<availability>ROS:6,FS:8,MERC:6</availability>
+				<availability>ROS:8,FS:8,MERC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Galleon Light Tank' unitType='Tank'>

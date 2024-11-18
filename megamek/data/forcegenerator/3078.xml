@@ -7027,10 +7027,11 @@
 		<chassis name='Gallant' unitType='Mek'>
 			<availability>LA:3,ROS:3,WOB:5,FS:3,MERC:2</availability>
 			<model name='GLT-7-0'>
-				<availability>General:8,FS:4</availability>
+			    <roles>raider,urban</roles>
+				<availability>WOB:8,FS:4,LA:8,MERC:8</availability>
 			</model>
 			<model name='GLT-8-0'>
-				<availability>FS:8</availability>
+				<availability>FS:8,ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Galleon Light Tank' unitType='Tank'>
