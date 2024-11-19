@@ -15617,14 +15617,15 @@
 				<availability>LA:6</availability>
 			</model>
 		</chassis>
-		<chassis name='SeaBuster Strike Fighter' unitType='Conventional Fighter'>
-			<availability>TC:4</availability>
-		</chassis>
 		<chassis name='Seabuster Strike Fighter' unitType='Conventional Fighter'>
-			<availability>OA:3</availability>
+			<availability>OA:3+,TC:2+</availability>
+            <model name=''>
+                <roles>recon</roles>
+                <availability>TC:8:3081</availability>
+            </model>
 			<model name='(Early)'>
 				<roles>recon</roles>
-				<availability>OA:4</availability>
+				<availability>OA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Seahorse Cargo Sub' unitType='Naval'>

@@ -17197,13 +17197,11 @@
 				<availability>LA:6,ROS:5</availability>
 			</model>
 		</chassis>
-		<chassis name='SeaBuster Strike Fighter' unitType='Conventional Fighter'>
-			<availability>TC:6</availability>
-		</chassis>
 		<chassis name='Seabuster Strike Fighter' unitType='Conventional Fighter'>
-			<availability>MOC:2,MH:2,FR:2,CDP:2</availability>
+			<availability>MOC:2,TC:2,MH:2,FR:2,CDP:2</availability>
 			<model name=''>
-				<availability>MOC:3,MH:3,FR:4,CDP:4,TC:2</availability>
+                <roles>recon</roles>
+				<availability>MOC:8,MH:8,FR:8,CDP:8,TC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Seahorse Cargo Sub' unitType='Naval'>
