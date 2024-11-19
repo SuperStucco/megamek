@@ -13804,7 +13804,7 @@
 			<availability>CGB:4-,CGB.FRR:5</availability>
 			<model name='(Hybrid)(Sqd5)' mechanized='true'>
 				<roles>anti_infantry,recon</roles>
-				<availability>CGB:3,CGB:FRR:4</availability>
+				<availability>CGB:3,CGB.FRR:4</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='true'>
 				<availability>CGB:8,CGB.FRR:8</availability>
@@ -14900,6 +14900,21 @@
 				<availability>LA:3</availability>
 			</model>
 		</chassis>
+        <chassis name='Smoothdavid PA(L)' unitType='BattleArmor'>
+            <availability>LA:3-,PIR:3</availability>
+            <model name='II(Sqd4)' mechanized='true'>
+                <availability>LA:4-,PIR:8</availability>
+            </model>
+            <model name='III(Sqd4)' mechanized='true'>
+                <availability>LA:7,PIR:5+</availability>
+            </model>
+        </chassis>
+        <chassis name='Smoothgoliath PA(L)' unitType='BattleArmor'>
+            <availability>LA:2-,PIR:3</availability>
+            <model name='II(Sqd4)' mechanized='true'>
+                <availability>LA:8,PIR:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Snake' unitType='Mek'>
 			<availability>CC:6,MOC:6,FWL:3,MERC:2,DA:4,TC:4</availability>
 			<model name='SNK-1V'>

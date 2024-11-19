@@ -14377,6 +14377,21 @@
 				<availability>LA:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Smoothdavid PA(L)' unitType='BattleArmor'>
+            <availability>LA:3-,PIR:3</availability>
+            <model name='II(Sqd4)' mechanized='true'>
+                <availability>LA:7-,PIR:8</availability>
+            </model>
+            <model name='III(Sqd4)' mechanized='true'>
+                <availability>LA:7:3071,PIR:5+:3071</availability>
+            </model>
+        </chassis>
+        <chassis name='Smoothgoliath PA(L)' unitType='BattleArmor'>
+            <availability>LA:2-,PIR:3</availability>
+            <model name='II(Sqd4)' mechanized='true'>
+                <availability>LA:8,PIR:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Snake' unitType='Mek'>
 			<availability>CC:5,MOC:4,FWL:3,MERC:2,TC:4</availability>
 			<model name='SNK-1V'>
