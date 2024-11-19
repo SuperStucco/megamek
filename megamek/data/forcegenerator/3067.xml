@@ -2784,6 +2784,25 @@
 				<availability>SOC:2,CCO:2</availability>
 			</model>
 		</chassis>
+        <chassis name='Bolla Stealth Tank' unitType='Tank' omni='IS'>
+            <availability>WOB.SD:3:3074</availability>
+            <model name='Comminus'>
+                <roles>apc,fire_support</roles>
+                <availability>WOB.SD:7</availability>
+            </model>
+            <model name='Dominus'>
+                <roles>apc,inf_support</roles>
+                <availability>WOB.SD:7</availability>
+            </model>
+            <model name='Infernus'>
+                <roles>apc,urban</roles>
+                <availability>WOB.SD:7</availability>
+            </model>
+            <model name='Invictus'>
+                <roles>apc,fire_support</roles>
+                <availability>WOB.SD:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Bombardier' unitType='Mek'>
 			<availability>CS:3,OA:5,FVC:3,CDS:4,CLAN:3,IS:1-,NIOPS:3,FWL:1-,WOB:5,DC:3</availability>
 			<model name='BMB-05A'>

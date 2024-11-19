@@ -3339,18 +3339,22 @@
 			</model>
 		</chassis>
 		<chassis name='Bolla Stealth Tank' unitType='Tank' omni='IS'>
-			<availability>WOB:4</availability>
+			<availability>WOB.SD:6,WOB:4+,WOB.PM:0</availability>
 			<model name='Comminus'>
-				<availability>General:7</availability>
+                <roles>apc,fire_support</roles>
+                <availability>WOB:7</availability>
 			</model>
 			<model name='Dominus'>
-				<availability>General:7</availability>
+                <roles>apc,inf_support</roles>
+                <availability>WOB:7</availability>
 			</model>
 			<model name='Infernus'>
-				<availability>General:7</availability>
+                <roles>apc,urban</roles>
+                <availability>WOB:7</availability>
 			</model>
 			<model name='Invictus'>
-				<availability>General:8</availability>
+                <roles>apc,fire_support</roles>
+                <availability>WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bombardier' unitType='Mek'>

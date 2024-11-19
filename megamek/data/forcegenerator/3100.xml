@@ -3270,25 +3270,26 @@
 			</model>
 		</chassis>
 		<chassis name='Bolla Stealth Tank (RotS)' unitType='Tank' omni='IS'>
-			<availability>ROS:3</availability>
+			<availability>ROS:3+</availability>
 			<model name='A'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>apc,fire_support,spotter</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='B'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>apc,command,fire_support,spotter</roles>
+				<availability>ROS:4+</availability>
 			</model>
 			<model name='C'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>apc,inf_support,spotter</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:6</availability>
+                <roles>apc,fire_support</roles>
+				<availability>ROS:6</availability>
 			</model>
 			<model name='Prime'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>apc,inf_support,spotter</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bombardier' unitType='Mek'>
