@@ -2336,7 +2336,7 @@
 			<model name='AXM-4D'>
 				<availability>FS:4</availability>
 			</model>
-            <model name='AXM-6x'>
+            <model name='AXM-6X'>
                 <roles>cavalry,fire_support</roles>
                 <availability>LA:1</availability>
             </model>
