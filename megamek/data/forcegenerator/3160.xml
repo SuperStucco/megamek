@@ -1428,6 +1428,16 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Angerona Scout Suit' unitType='BattleArmor'>
+            <availability>FS:3,FWL:3,MERC:5+</availability>
+            <model name='(Recon)(Sqd4)' mechanized='true'>
+                <roles>recon</roles>
+                <availability>IS:4</availability>
+            </model>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>IS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Anhur Transport' unitType='VTOL'>
 			<availability>AML:4,SL3.CJF:6,CHH:6,RD:6,SE:6,CDS:6,SL3:4,SL3.CSJ:6,CP:4,CJF:6,RA:6</availability>
 			<model name=''>

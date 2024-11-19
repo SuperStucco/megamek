@@ -1467,12 +1467,12 @@
         </chassis>
         <chassis name='Angerona Scout Suit' unitType='BattleArmor'>
             <availability>ROS:6</availability>
-            <model name='(Recon)(Sqd4)' mechanized='false'>
+            <model name='(Recon)(Sqd4)' mechanized='true'>
                 <roles>recon</roles>
-                <availability>General:4</availability>
+                <availability>ROS:4</availability>
             </model>
-            <model name='(Sqd4)' mechanized='false'>
-                <availability>General:8</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>ROS:8</availability>
             </model>
         </chassis>
         <chassis name='Anhur Transport' unitType='VTOL'>
