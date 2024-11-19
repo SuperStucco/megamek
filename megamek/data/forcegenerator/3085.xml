@@ -17344,12 +17344,15 @@
 		<chassis name='Trebaruna' unitType='Mek'>
 			<availability>CC:4,DTA:3,OP:3,DoO:3,ROS:4,DO:3,MSC:3,TP:3,MERC:3</availability>
 			<model name='TR-XB'>
+                <roles>command</roles>
 				<availability>CC:4,DTA:4,ROS:8,MSC:4,MERC:4</availability>
 			</model>
 			<model name='TR-XJ'>
+                <roles>command</roles>
 				<availability>DTA:8,OP:8,DoO:8,DO:8,MSC:8,TP:8,MERC:4</availability>
 			</model>
 			<model name='TR-XL'>
+                <roles>command</roles>
 				<availability>CC:8</availability>
 			</model>
 		</chassis>

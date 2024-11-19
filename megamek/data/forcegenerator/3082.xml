@@ -16391,12 +16391,15 @@
 		<chassis name='Trebaruna' unitType='Mek'>
 			<availability>CC:4,DTA:2,SC:3,DoO:3,MCM:3,ROS:4,DO:3,DGM:3,MSC:2,TP:3,MERC:2</availability>
 			<model name='TR-XB'>
+                <roles>command</roles>
 				<availability>CC:4,DTA:4,SC:4,MCM:4,ROS:8,DGM:4,MSC:4,MERC:4</availability>
 			</model>
 			<model name='TR-XJ'>
+                <roles>command</roles>
 				<availability>DTA:8,SC:8,DoO:8,MCM:8,DGM:8,DO:8,MSC:8,TP:8,MERC:4</availability>
 			</model>
 			<model name='TR-XL'>
+                <roles>command</roles>
 				<availability>CC:8</availability>
 			</model>
 		</chassis>

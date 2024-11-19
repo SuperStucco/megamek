@@ -18944,18 +18944,22 @@
 			</model>
 		</chassis>
 		<chassis name='Trebaruna' unitType='Mek'>
-			<availability>CC:5,LA:6,FWL:4,MERC:4,DA:4,CP:4</availability>
+			<availability>CC:5,LA:6,FWL:4,MERC:4,DA:4,CWE:4-,MOC:3+</availability>
 			<model name='TR-XB'>
-				<availability>CC:4,MERC:4</availability>
+                <roles>command</roles>
+				<availability>CC:4,MERC:4,CWE:8</availability>
 			</model>
 			<model name='TR-XH'>
+                <roles>command</roles>
 				<availability>CC:4,LA:8,DA:8</availability>
 			</model>
 			<model name='TR-XJ'>
+                <roles>command</roles>
 				<availability>FWL:8,MERC:4,CP:8</availability>
 			</model>
 			<model name='TR-XL'>
-				<availability>CC:8</availability>
+                <roles>command</roles>
+				<availability>CC:8,MOC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Trebuchet' unitType='Mek'>

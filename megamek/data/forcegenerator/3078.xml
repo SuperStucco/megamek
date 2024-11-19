@@ -17767,11 +17767,13 @@
 			</model>
 		</chassis>
 		<chassis name='Trebaruna' unitType='Mek'>
-			<availability>CC:3,ROS:3</availability>
+			<availability>CC:3:3081,ROS:3:3081</availability>
 			<model name='TR-XB'>
+			    <roles>command</roles>
 				<availability>CC:4,ROS:8</availability>
 			</model>
 			<model name='TR-XL'>
+                <roles>command</roles>
 				<availability>CC:8</availability>
 			</model>
 		</chassis>

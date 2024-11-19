@@ -18324,15 +18324,19 @@
 		<chassis name='Trebaruna' unitType='Mek'>
 			<availability>CC:5,DTA:4,OP:4,LA:5,ROS:5,MSC:4,MERC:4,DA:4</availability>
 			<model name='TR-XB'>
+                <roles>command</roles>
 				<availability>CC:4,DTA:4,ROS:8,MSC:4,MERC:4</availability>
 			</model>
 			<model name='TR-XH'>
+                <roles>command</roles>
 				<availability>CC:4,DTA:4,LA:8,MSC:4,DA:8</availability>
 			</model>
 			<model name='TR-XJ'>
+                <roles>command</roles>
 				<availability>DTA:8,OP:8,MSC:8,MERC:4</availability>
 			</model>
 			<model name='TR-XL'>
+                <roles>command</roles>
 				<availability>CC:8</availability>
 			</model>
 		</chassis>
