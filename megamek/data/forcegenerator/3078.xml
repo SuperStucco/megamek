@@ -17702,8 +17702,9 @@
 			</model>
 		</chassis>
 		<chassis name='Trajan Assault Infantry Fighting Vehicle' unitType='Tank'>
-			<availability>WOB:5,WOB.PM:8</availability>
+			<availability>WOB:5:3080,WOB.PM:8:3080</availability>
 			<model name=''>
+			    <roles>apc</roles>
 				<availability>WOB:2</availability>
 			</model>
 			<model name='(ICE)'>

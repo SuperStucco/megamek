@@ -17279,11 +17279,12 @@
 		<chassis name='Trajan Assault Infantry Fighting Vehicle' unitType='Tank'>
 			<availability>ROS:5</availability>
 			<model name=''>
+                <roles>apc</roles>
 				<availability>ROS:8</availability>
 			</model>
 			<model name='(ICE)'>
 				<roles>apc</roles>
-				<availability>ROS:4</availability>
+				<availability>ROS:4-</availability>
 			</model>
 		</chassis>
 		<chassis name='Tramp JumpShip' unitType='Jumpship'>
