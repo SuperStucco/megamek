@@ -12931,7 +12931,7 @@
 		<chassis name='Omega' unitType='Mek'>
 			<availability>WOB:2</availability>
 			<model name='SHP-4X'>
-				<availability>General:8</availability>
+				<availability>WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Oni' unitType='AeroSpaceFighter'>

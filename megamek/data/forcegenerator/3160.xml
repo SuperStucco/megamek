@@ -13775,6 +13775,12 @@
 				<availability>CLAN:2,IS:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Omega' unitType='Mek'>
+            <availability>SL3:1</availability>
+            <model name='SHP-5R'>
+                <availability>SL3:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Omen' unitType='Mek'>
 			<availability>RA:6</availability>
 			<model name=''>
