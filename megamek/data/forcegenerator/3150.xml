@@ -1259,11 +1259,12 @@
         <chassis name='Aeron Strike VTOL' unitType='VTOL'>
             <availability>MOC:6,CHH:5,CDS:4,ROS:6,IS:6,FR:1,DA:8,CP:4,FS:2,MERC:6</availability>
             <model name=''>
-                <availability>ROS:6,DA:6,FS:3</availability>
+                <roles>ew_support</roles>
+                <availability>ROS:6,DA:6,FS:3,MOC:4</availability>
             </model>
             <model name='(BAP)'>
                 <roles>recon,ew_support</roles>
-                <availability>MOC:4,CHH:4,CDS:4,IS:3,FR:3,CP:4,MERC:3</availability>
+                <availability>MOC:8,CHH:8,CDS:8,IS:3,FR:8,CP:8,MERC:8</availability>
             </model>
         </chassis>
         <chassis name='Aesir Assault Dropship' unitType='Dropship'>
