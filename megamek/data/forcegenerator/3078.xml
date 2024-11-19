@@ -14337,6 +14337,7 @@
 		<chassis name='Pwwka' unitType='Mek'>
 			<availability>WOB:3</availability>
 			<model name='S-PW-1LAM'>
+			    <roles>recon,specops</roles>
 				<availability>WOB:3</availability>
 			</model>
 		</chassis>
