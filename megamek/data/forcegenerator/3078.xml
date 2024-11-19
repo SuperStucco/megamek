@@ -2437,11 +2437,11 @@
 				<availability>CLAN.IS:8</availability>
 			</model>
 			<model name='(LRM)'>
-				<availability>OA:2,CLAN.IS:2,FS:2,MERC:2,DC:2</availability>
+				<availability>CLAN.IS:2,FS:8,MERC:8,DC:8,OA:8</availability>
 			</model>
 			<model name='(Spotter)'>
-				<roles>spotter</roles>
-				<availability>IS:2,CLAN.IS:6</availability>
+				<roles>ew_support,spotter</roles>
+				<availability>CLAN.IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Baleena Passenger Submarine' unitType='Naval'>

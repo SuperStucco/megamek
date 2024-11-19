@@ -2383,19 +2383,19 @@
 			</model>
 		</chassis>
 		<chassis name='Balac Strike VTOL' unitType='VTOL'>
-			<availability>IS:3,CLAN.IS:3,MERC:3</availability>
+			<availability>CLAN.IS:3,IS:3,MERC:3,RA.OA:3</availability>
 			<model name=''>
-				<availability>IS:8,CLAN.IS:8,MERC:8</availability>
+				<availability>CLAN.IS:8,IS:5,RA.OA:5</availability>
 			</model>
 			<model name='(Hybrid)'>
-				<availability>IS:3,CLAN.IS:3,MERC:3</availability>
+				<availability>CLAN.IS:3,IS:6,RA.OA:6</availability>
 			</model>
 			<model name='(LRM)'>
-				<availability>IS:2,CLAN.IS:2,MERC:2</availability>
+				<availability>CLAN.IS:2,IS:4-,RA.OA:4-</availability>
 			</model>
 			<model name='(Spotter)'>
-				<roles>spotter</roles>
-				<availability>IS:2,CLAN.IS:7</availability>
+                <roles>ew_support,spotter</roles>
+				<availability>CLAN.IS:6,IS:2,RA.OA:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Baleena Passenger Submarine' unitType='Naval'>
