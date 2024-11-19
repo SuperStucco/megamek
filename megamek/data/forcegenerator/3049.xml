@@ -6507,9 +6507,9 @@
 			</model>
 		</chassis>
 		<chassis name='Pillager' unitType='Mek'>
-			<availability>CS:5,CNC:3,CLAN:2,NIOPS:5</availability>
+			<availability>CS:5,CLAN:2,NIOPS:5,BAN:0</availability>
 			<model name='PLG-3Z'>
-				<availability>General:8</availability>
+				<availability>CS:8,CLAN:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Piranha' unitType='Mek'>

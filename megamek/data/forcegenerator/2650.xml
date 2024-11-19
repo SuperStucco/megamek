@@ -2327,7 +2327,8 @@
 		<chassis name='Pillager' unitType='Mek'>
 			<availability>CC:4+,LA:4+,SL:7,FWL:4+,FS:4+</availability>
 			<model name='PLG-1N'>
-				<availability>SL:4-,IS:8-</availability>
+                <roles>urban</roles>
+				<availability>SL:4-,IS:8</availability>
 			</model>
 			<model name='PLG-3Z'>
 				<availability>SL:6,SL.R:8</availability>

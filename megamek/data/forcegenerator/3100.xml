@@ -14293,18 +14293,18 @@
 			</model>
 		</chassis>
 		<chassis name='Pillager' unitType='Mek'>
-			<availability>CC:6,MOC:3,MERC.WD:4,MERC.KH:4,ROS:4,CNC:6,MERC:4</availability>
+			<availability>CC:6,MERC:4,ROS:4,MOC:3,TC:1+,CDP:1+,FR:1+</availability>
 			<model name='PLG-3Z'>
-				<availability>General:8</availability>
+				<availability>IS:8,CC:5,MOC:8,TC:8,CDP:8,FR:8</availability>
 			</model>
 			<model name='PLG-4Z'>
-				<availability>CC:6,MOC:5</availability>
+				<availability>CC:8,MOC:5</availability>
 			</model>
 			<model name='PLG-5L'>
-				<roles>missile_artillery</roles>
+				<roles>mixed_artillery</roles>
 				<availability>CC:5</availability>
 			</model>
-			<model name='PLG-5Z'>
+			<model name='PLG-6Z'>
 				<availability>CC:4</availability>
 			</model>
 		</chassis>

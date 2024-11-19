@@ -7292,9 +7292,9 @@
 			</model>
 		</chassis>
 		<chassis name='Pillager' unitType='Mek'>
-			<availability>CC:3+,CS:4,MERC.KH:2+,CNC:3,CLAN:2,NIOPS:4</availability>
+			<availability>CC:3+,CS:4,MERC:1+,MERC.KH:2+,CLAN:2,NIOPS:4,BAN:0</availability>
 			<model name='PLG-3Z'>
-				<availability>General:8</availability>
+				<availability>IS:8,CLAN:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Pilum Heavy Tank' unitType='Tank'>

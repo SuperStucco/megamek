@@ -3069,7 +3069,7 @@
 		<chassis name='Pillager' unitType='Mek'>
 			<availability>CC:7+,LA:6+,SL:5-,FWL:6+,NIOPS:5,FS:6+</availability>
 			<model name='PLG-3Z'>
-				<availability>General:8,SL:8,SL.R:8</availability>
+				<availability>IS:8,SL:8,SL.R:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Pinto Corvette' unitType='Warship'>

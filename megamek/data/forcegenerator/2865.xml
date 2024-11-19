@@ -3989,9 +3989,9 @@
 			</model>
 		</chassis>
 		<chassis name='Pillager' unitType='Mek'>
-			<availability>CC:4+,CS:5,LA:3+,CNC:4,CLAN:4,FWL:3+,NIOPS:5,FS:3+</availability>
+			<availability>CLAN:4,CC:4+,CS:5,LA:3+,FWL:3+,NIOPS:5,FS:3+,BAN:0</availability>
 			<model name='PLG-3Z'>
-				<availability>General:8</availability>
+				<availability>IS:8,CLAN:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Pirate' unitType='Infantry'>

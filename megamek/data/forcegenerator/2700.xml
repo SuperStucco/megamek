@@ -2866,10 +2866,11 @@
 		<chassis name='Pillager' unitType='Mek'>
 			<availability>CC:6+,LA:6+,SL:7,FWL:6+,RWR:3+,FS:6+</availability>
 			<model name='PLG-1N'>
+                <roles>urban</roles>
 				<availability>SL:2-,IS:6-</availability>
 			</model>
 			<model name='PLG-3Z'>
-				<availability>General:6,SL:7,SL.R:8</availability>
+				<availability>IS:6,SL:7,SL.R:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Pinto Corvette' unitType='Warship'>

@@ -4040,9 +4040,9 @@
 			</model>
 		</chassis>
 		<chassis name='Pillager' unitType='Mek'>
-			<availability>CC:6+,CS:5,LA:5+,CNC:4,CLAN:4,FWL:5+,NIOPS:5,FS:5+</availability>
+			<availability>CLAN:4,CC:6+,CS:5,LA:5+,FWL:5+,NIOPS:5,FS:5+,BAN:0</availability>
 			<model name='PLG-3Z'>
-				<availability>General:8</availability>
+				<availability>IS:8,CLAN:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Pinto Corvette' unitType='Warship'>
