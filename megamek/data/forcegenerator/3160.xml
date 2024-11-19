@@ -12031,12 +12031,17 @@
             </model>
 		</chassis>
 		<chassis name='Mangonel' unitType='Mek'>
-			<availability>MERC.KH:4,RF:4,LA:4,MERC:4</availability>
+			<availability>MERC.KH:4,LA:4,FWL:4,MERC:4,SL3:2</availability>
 			<model name='MNL-3L'>
-				<availability>MERC.KH:6</availability>
+				<availability>MERC.KH:6,MERC:6</availability>
 			</model>
+            <model name='MNL-3W'>
+                <roles>cavalry</roles>
+                <availability>LA:3+,SL3:8,MERC.KH:3+</availability>
+            </model>
 			<model name='MNL-4S'>
-				<availability>General:6</availability>
+                <roles>cavalry</roles>
+				<availability>LA:5+,FWL:4+,MERC:4+,MERC.KH:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Manta Fast Attack Submarine' unitType='Naval'>

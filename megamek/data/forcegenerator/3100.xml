@@ -11597,15 +11597,17 @@
             </model>
 		</chassis>
 		<chassis name='Mangonel' unitType='Mek'>
-			<availability>MERC.KH:4,RF:4,LA:4,ROS:4,MERC:4,CWIE:6</availability>
+			<availability>MERC.KH:4,LA:4,ROS:4,RF:4,MERC:4,CWIE:6</availability>
 			<model name='MNL-3L'>
-				<availability>MERC.KH:6,ROS:4,CWIE:6</availability>
+				<availability>MERC.KH:6,ROS:4,MERC:4,CWIE:6-</availability>
 			</model>
 			<model name='MNL-3W'>
-				<availability>ROS:2,CWIE:4</availability>
+                <roles>cavalry</roles>
+				<availability>ROS:2,CWIE:3</availability>
 			</model>
 			<model name='MNL-4S'>
-				<availability>General:5</availability>
+                <roles>cavalry</roles>
+				<availability>IS:4+,MERC.KH:4,CWIE:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Manta Fast Attack Submarine' unitType='Naval'>
