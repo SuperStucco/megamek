@@ -18811,9 +18811,11 @@
 		<chassis name='Waneta' unitType='Mek'>
 			<availability>WOB:3</availability>
 			<model name='S-WN-1LAM'>
+                <roles>specops</roles>
 				<availability>WOB:1</availability>
 			</model>
 			<model name='S-WN-2LAM'>
+                <roles>recon,specops</roles>
 				<availability>WOB:3</availability>
 			</model>
 		</chassis>
