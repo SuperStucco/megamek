@@ -19427,7 +19427,8 @@
 		<chassis name='Yurei' unitType='Mek'>
 			<availability>WOB:3</availability>
 			<model name='S-YR-1LAM'>
-				<availability>WOB:3</availability>
+			    <roles>raider,recon,specops</roles>
+				<availability>WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Zanadu Air Bus' unitType='Conventional Fighter'>
