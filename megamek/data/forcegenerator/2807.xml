@@ -3501,10 +3501,10 @@
 			</model>
 		</chassis>
 		<chassis name='Skulker Wheeled Scout Tank' unitType='Tank'>
-			<availability>PP:4,CC:3,Periphery.DD:3,IS:4,MERC:4,Periphery.OS:3,Periphery:2,CS:3,OA:3,NIOPS:3,DC:8</availability>
+			<availability>IS:4,DC:7</availability>
 			<model name=''>
 				<roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Slayer' unitType='AeroSpaceFighter'>

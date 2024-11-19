@@ -16545,29 +16545,33 @@
 			</model>
 		</chassis>
 		<chassis name='Skulker Wheeled Scout Tank Mk II' unitType='Tank'>
-			<availability>FS:7,MERC:4</availability>
+			<availability>FS:7,MERC:4+</availability>
 			<model name=''>
-				<roles>recon</roles>
-				<availability>General:8</availability>
+				<roles>ew_support,recon</roles>
+				<availability>FS:8,MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Skulker Wheeled Scout Tank' unitType='Tank'>
-			<availability>CC:2,Periphery.DD:3,IS:1,MERC:1,Periphery.OS:3,FS:1,RA.OA:1,FVC:1,CGB.FRR:3-,ROS:2-,FWL:2,DC:4</availability>
+			<availability>IS:2,FS:0,CC:3,CGB.FRR:3,RD:3-,RA.OA:2,FVC:4-</availability>
 			<model name=''>
 				<roles>recon</roles>
-				<availability>General:3-</availability>
+				<availability>IS:8,DC:4,LA:0,CC:0,CGB.FRR:4-,RD:3-,RA.OA:8,FVC:8</availability>
 			</model>
+            <model name='C'>
+                <roles>recon</roles>
+                <availability>CC:8,LA:8,MERC:6+,CGB.FRR:8,RD:8</availability>
+            </model>
 			<model name='(C3M)'>
-				<roles>spotter</roles>
-				<availability>IS:4</availability>
+				<roles>command,spotter</roles>
+				<availability>IS:4+,CGB.FRR:4+</availability>
 			</model>
 			<model name='(MG)'>
-				<roles>recon</roles>
-				<availability>FVC:4,IS.pm:4</availability>
+				<roles>apc,recon</roles>
+				<availability>DC:1-,FVC:4-</availability>
 			</model>
 			<model name='(SRM)'>
 				<roles>recon</roles>
-				<availability>FVC:3,IS.pm:3</availability>
+				<availability>DC:1,FVC:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Slayer' unitType='AeroSpaceFighter'>

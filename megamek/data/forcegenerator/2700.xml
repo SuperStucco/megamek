@@ -3207,10 +3207,10 @@
 			</model>
 		</chassis>
 		<chassis name='Skulker Wheeled Scout Tank' unitType='Tank'>
-			<availability>CC:3,Periphery.DD:3,IS:4,RWR:2,MERC:4,Periphery.OS:3,Periphery:2,OA:3,SL:3-,SL.R:0,DC:8</availability>
+			<availability>DC:8,SL:3-,SL.R:0</availability>
 			<model name=''>
 				<roles>recon</roles>
-				<availability>General:8</availability>
+				<availability>DC:8,SL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Snowden Mining Station' unitType='Space Station'>

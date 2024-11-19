@@ -16100,22 +16100,22 @@
 			</model>
 		</chassis>
 		<chassis name='Skulker Wheeled Scout Tank' unitType='Tank'>
-			<availability>CC:3,Periphery.DD:3,FRR:5-,IS:2,WOB:3-,MERC:2,Periphery.OS:3,CS:3-,OA:1,FVC:2,CGB.FRR:5-,ROS:3-,FWL:3,NIOPS:3-,DC:6</availability>
+			<availability>IS:2,DC:4,CGB:3-,FVC:4</availability>
 			<model name=''>
 				<roles>recon</roles>
-				<availability>General:5-</availability>
+				<availability>IS:8,FS:5,DC:6,CGB:8,FVC:8</availability>
 			</model>
 			<model name='(C3M)'>
-				<roles>spotter</roles>
-				<availability>IS:4</availability>
+				<roles>command,spotter</roles>
+				<availability>FS:4+,DC:4+</availability>
 			</model>
 			<model name='(MG)'>
-				<roles>recon</roles>
-				<availability>IS.pm:4</availability>
+				<roles>apc,recon</roles>
+				<availability>IS:4-</availability>
 			</model>
 			<model name='(SRM)'>
 				<roles>recon</roles>
-				<availability>IS.pm:5</availability>
+				<availability>IS:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Slayer' unitType='AeroSpaceFighter'>
