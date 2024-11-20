@@ -6346,10 +6346,10 @@
 			</model>
 		</chassis>
 		<chassis name='Fennec' unitType='Mek'>
-			<availability>FS:2</availability>
+			<availability>FS:3+:3080</availability>
 			<model name='FEC-1CM'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>cavalry,command,spotter</roles>
+				<availability>FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Fenrir Battle Armor' unitType='BattleArmor'>

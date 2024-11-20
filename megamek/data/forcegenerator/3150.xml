@@ -6808,17 +6808,18 @@
             </model>
         </chassis>
         <chassis name='Fennec' unitType='Mek'>
-            <availability>FS:5</availability>
+			<availability>FS:5+</availability>
             <model name='FEC-1CM'>
-                <roles>spotter</roles>
-                <availability>General:8</availability>
+				<roles>cavalry,command,spotter</roles>
+				<availability>FS:4</availability>
             </model>
             <model name='FEC-3C'>
-                <availability>General:4</availability>
+                <roles>cavalry</roles>
+				<availability>FS:5-</availability>
             </model>
             <model name='FEC-5CM'>
-                <roles>spotter</roles>
-                <availability>General:5</availability>
+				<roles>cavalry,command,spotter</roles>
+				<availability>FS:4+</availability>
             </model>
         </chassis>
         <chassis name='Fenrir Battle Armor' unitType='BattleArmor'>
