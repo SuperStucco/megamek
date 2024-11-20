@@ -11472,24 +11472,26 @@
 			</model>
 		</chassis>
 		<chassis name='Mad Cat Mk II' unitType='Mek'>
-			<availability>CDS:5,CW:4,LA:4,CNC:6,CLAN:4,IS:4,FS:4,CWIE:4,DC:4</availability>
+			<availability>CDS:5,CNC:6,CLAN.IS:4,IS:4+,MERC:3+,ROS:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>CDS:8,CW:8,CNC:8,CWIE:8,IS:8,ROS:4-</availability>
 			</model>
 			<model name='2'>
-				<availability>CDS:4,CW:4,LA:4,CNC:4,IS:4,FS:4,DC:4,CWIE:4</availability>
+                <roles>urban</roles>
+				<availability>CDS:4,CW:4,CNC:4,CWIE:4,IS:4</availability>
 			</model>
 			<model name='3'>
 				<availability>CDS:4</availability>
 			</model>
 			<model name='4'>
-				<availability>General:5</availability>
+			    <roles>raider</roles>
+				<availability>CDS:5,CW:5,CNC:5,CWIE:5,IS:5</availability>
 			</model>
 			<model name='5'>
-				<availability>General:4</availability>
+				<availability>CDS:4:3109,CW:4:3109,CNC:4:3109,CWIE:4:3109,IS:4:3109</availability>
 			</model>
 			<model name='Enhanced'>
-				<availability>CGB.FRR:6,CLAN:6,CNC:4,CWIE:4</availability>
+				<availability>CLAN.IS:6,CNC:4,CWIE:4,ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Maelstrom' unitType='Mek'>

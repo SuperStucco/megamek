@@ -10832,21 +10832,23 @@
 			</model>
 		</chassis>
 		<chassis name='Mad Cat Mk II' unitType='Mek'>
-			<availability>CDS:5,CW:4,LA:4,CNC:6,CLAN:4,IS:4,FS:4,CWIE:4,DC:4</availability>
+			<availability>CDS:5,CNC:6,CLAN.IS:4,IS:4+,LA:4+,FS:4+,DC:4+,MERC:3+</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>CDS:8,CW:8,CNC:8,CWIE:8,IS:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CDS:4,CW:4,LA:4,CNC:4,IS:4,FS:4,DC:4,CWIE:4</availability>
+                <roles>urban</roles>
+				<availability>CDS:4,CW:4,CNC:4,CWIE:4,IS:4</availability>
 			</model>
 			<model name='3'>
 				<availability>CDS:4</availability>
 			</model>
 			<model name='4'>
-				<availability>General:4</availability>
+			    <roles>raider</roles>
+				<availability>CDS:4:3090,CW:4:3090,CNC:4:3090,CWIE:4:3090,IS:4:3090</availability>
 			</model>
 			<model name='Enhanced'>
-				<availability>CGB.FRR:6,CLAN:6,CNC:4,CWIE:4</availability>
+				<availability>CGB.FRR:4+,CLAN.IS:6,CNC:4,CWIE:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Maelstrom' unitType='Mek'>

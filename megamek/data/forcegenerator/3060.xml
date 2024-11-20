@@ -7937,9 +7937,9 @@
 			</model>
 		</chassis>
 		<chassis name='Mad Cat Mk II' unitType='Mek'>
-			<availability>CDS:4,CW:2,LA:2,CNC:4,FS:2,CWIE:2,DC:2</availability>
+			<availability>CDS:4,CNC:4,CWIE:2,LA:2+,FS:2+,DC:2+</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:8,LA:8,FS:8,DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Maelstrom' unitType='Mek'>

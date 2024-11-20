@@ -12252,27 +12252,30 @@
             </model>
         </chassis>
         <chassis name='Mad Cat Mk II' unitType='Mek'>
-            <availability>CDS:5,LA:4,CLAN:4,IS:4,FS:4,CP:5,CWIE:4,DC:4</availability>
+			<availability>CDS:5,CWE:3,CP:5,CLAN.IS:4,IS:4+,MERC:3+,ROS:4</availability>
             <model name=''>
-                <availability>General:8</availability>
+				<availability>CDS:8,CWE:8,CWIE:8,CP:8,IS:8,ROS:4-</availability>
             </model>
             <model name='2'>
-                <availability>CWE:4,CDS:4,LA:4,IS:4,FS:4,CP:4,DC:4,CWIE:4</availability>
+                <roles>urban</roles>
+				<availability>CDS:4,CWE:4,CWIE:4,CP:4,IS:4</availability>
             </model>
             <model name='3'>
                 <availability>CDS:4,CP:4</availability>
             </model>
             <model name='4'>
-                <availability>General:6</availability>
+                <roles>raider</roles>
+				<availability>CDS:5,CWE:5,CHH:6,CWIE:5,CP:4,IS:5</availability>
             </model>
             <model name='5'>
-                <availability>General:6</availability>
+				<availability>CDS:4,CWE:4,CWIE:4,CP:4,IS:4</availability>
             </model>
             <model name='6'>
-                <availability>CDS:5,CP:5</availability>
+                <roles>raider</roles>
+				<availability>CDS:5,CP:5</availability>
             </model>
             <model name='Enhanced'>
-                <availability>CLAN:6,CP:4,CWIE:4</availability>
+				<availability>CLAN.IS:6,CWIE:4,CP:4,ROS:8</availability>
             </model>
         </chassis>
         <chassis name='Mad Cat Mk IV (Savage Wolf)' unitType='Mek'>

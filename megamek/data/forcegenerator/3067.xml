@@ -9933,12 +9933,13 @@
 			</model>
 		</chassis>
 		<chassis name='Mad Cat Mk II' unitType='Mek'>
-			<availability>CIH:4,CDS:5,CW:4,LA:3,CNC:6,FS:3,CWIE:4,DC:3</availability>
+			<availability>CIH:4,CDS:5,CJF:3,CW:4,CNC:6,CWIE:4,LA:3+,FS:3+,DC:3+</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:8,LA:8,FS:8,DC:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CDS:4,CW:4,LA:4,CNC:4,FS:4,DC:4,CWIE:4</availability>
+                <roles>urban</roles>
+				<availability>CDS:4,CW:4,CNC:4,CWIE:4,LA:4,FS:4,DC:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Maelstrom' unitType='Mek'>
