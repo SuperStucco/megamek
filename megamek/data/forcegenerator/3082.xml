@@ -4135,11 +4135,11 @@
 			<availability>LA:4,FS:4</availability>
 			<model name='(3054)'>
 				<roles>assault</roles>
-				<availability>General:8</availability>
+				<availability>LA:8,FS:8</availability>
 			</model>
 			<model name='Interceptor'>
 				<roles>assault</roles>
-				<availability>LA:1</availability>
+				<availability>LA:1+</availability>
 			</model>
 		</chassis>
 		<chassis name='Clint IIC' unitType='Mek'>
