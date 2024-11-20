@@ -4805,9 +4805,10 @@
 			</model>
 		</chassis>
 		<chassis name='Heavy LRM Carrier' unitType='Tank'>
-			<availability>MOC:6,OA:5,HL:3,Periphery.CM:5,Periphery.HR:5,Periphery.ME:5,MH:5,MERC:3,TC:5,Periphery:4</availability>
+			<availability>MERC:3,Periphery:5,MOC:6,HL:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>MERC:8,Periphery:8,HL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Heavy Strike Fighter' unitType='Conventional Fighter'>
@@ -5725,22 +5726,26 @@
 			<availability>LA:3,FRR:3,FWL:3,FS:3</availability>
 			<model name=''>
 				<deployedWith>Karnov UR Transport</deployedWith>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Transport' unitType='VTOL'>
-			<availability>MERC.KH:4,MERC.WD:4,HL:3,LA:4,IS:5,MERC:5,Periphery:4,DC:4</availability>
+			<availability>MERC.KH:4,MERC.WD:4,IS:5,LA:4,DC:4,MERC:5,Periphery:4,HL:3,PIR:2</availability>
 			<model name=''>
 				<roles>apc,cargo</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8,HL:8</availability>
 			</model>
 			<model name='(3055 Upgrade)'>
 				<roles>apc,cargo</roles>
-				<availability>IS:3+,MERC:3+,Periphery:1+</availability>
+				<availability>IS:3+,MERC:3+,Periphery:1+,HL:0</availability>
 			</model>
+            <model name='(AC)'>
+                <roles>inf_support</roles>
+                <availability>MERC:3</availability>
+            </model>
 			<model name='(Artillery)'>
-				<roles>artillery</roles>
-				<availability>General:2</availability>
+				<roles>mixed_artillery</roles>
+				<availability>IS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Katana (Crockett)' unitType='Mek'>
@@ -7196,7 +7201,7 @@
 		<chassis name='Nexus' unitType='Mek'>
 			<availability>CS:6,WOB:6</availability>
 			<model name='NXS1-A'>
-				<availability>General:8</availability>
+				<availability>CS:8,WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>

@@ -1497,10 +1497,10 @@
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Transport' unitType='VTOL'>
-			<availability>TH:3+,SL:3+,IS:2+,MERC:2+,Periphery:1</availability>
+			<availability>TH:3+:2600,SL:3+:2600,IS:2+:2600,MERC:2+:2600</availability>
 			<model name=''>
 				<roles>apc,cargo</roles>
-				<availability>General:6</availability>
+				<availability>IS:8,SL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kimagure Pursuit Cruiser' unitType='Warship'>
