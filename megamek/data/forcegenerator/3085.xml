@@ -11406,11 +11406,12 @@
 		<chassis name='Maxim Mk II Transport' unitType='Tank'>
 			<availability>LA:3,ROS:4,MERC:2</availability>
 			<model name=''>
+			    <roles>apc</roles>
 				<availability>LA:8,ROS:8</availability>
 			</model>
 			<model name='(ECM)'>
-				<roles>apc</roles>
-				<availability>General:4</availability>
+				<roles>apc,ew_support</roles>
+				<availability>LA:4:3087,ROS:4:3087,MERC:8:3087</availability>
 			</model>
 			<model name='(Infantry Support) &apos;Shiloh&apos;'>
 				<roles>apc</roles>

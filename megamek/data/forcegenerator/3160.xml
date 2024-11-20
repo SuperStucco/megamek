@@ -12551,17 +12551,18 @@
             </model>
         </chassis>
 		<chassis name='Maxim Mk II Transport' unitType='Tank'>
-			<availability>LA:5,MERC:4</availability>
+            <availability>LA:5,DC:5,MERC:4,CJF:5-</availability>
 			<model name=''>
-				<availability>LA:8</availability>
+			    <roles>apc</roles>
+                <availability>LA:8,DC:8,CJF:8</availability>
 			</model>
 			<model name='(ECM)'>
-				<roles>apc</roles>
-				<availability>General:4</availability>
+                <roles>ew_support,apc</roles>
+                <availability>LA:4,DC:4,MERC:8</availability>
 			</model>
 			<model name='(Infantry Support) &apos;Shiloh&apos;'>
 				<roles>apc</roles>
-				<availability>LA:4</availability>
+                <availability>LA:4,CJF:4</availability>
 			</model>
 		</chassis>
 		<chassis name='McKenna Battleship' unitType='Warship'>
