@@ -3358,18 +3358,18 @@
 			</model>
 		</chassis>
 		<chassis name='Bombardier' unitType='Mek'>
-			<availability>CS:3,OA:5,FVC:4,CDS:4,CLAN:3,IS:1-,NIOPS:3,FWL:1-,WOB:5,DC:4</availability>
+			<availability>CLAN.HW:1-,CLAN.IS:2-,CS:2,WOB:2,IS:1-,DC:4,FVC:4,OA:5,NIOPS:3</availability>
 			<model name='BMB-05A'>
-				<roles>missile_artillery,fire_support</roles>
-				<availability>OA:8</availability>
+				<roles>mixed_artillery</roles>
+				<availability>OA:6+:3070</availability>
 			</model>
 			<model name='BMB-10D'>
 				<roles>fire_support</roles>
-				<availability>IS:1-,Periphery.Deep:8,Periphery:1-</availability>
+				<availability>IS:8,DC:2</availability>
 			</model>
 			<model name='BMB-12D'>
 				<roles>fire_support</roles>
-				<availability>CS:4,OA:5,FVC:6,FRR:6,CGB.FRR:6,ROS:3,CLAN:8,NIOPS:4,WOB:4,MERC.SI:8,BAN:8</availability>
+				<availability>CLAN:8,CS:4,WOB:4,MERC.SI:8,FVC:6,OA:8,NIOPS:4</availability>
 			</model>
 			<model name='BMB-14C'>
 				<roles>fire_support</roles>

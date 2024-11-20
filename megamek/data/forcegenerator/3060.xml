@@ -2375,18 +2375,18 @@
 			</model>
 		</chassis>
 		<chassis name='Bombardier' unitType='Mek'>
-			<availability>CS:4,OA:1-,CDS:5,CLAN:4,IS:1-,NIOPS:4,FWL:1-,WOB:5,DC:1-</availability>
+			<availability>CLAN.HW:1-,CLAN.IS:3-,CS:4,WOB:3,IS:1-,DC:1,FRR:1,OA:1,NIOPS:4</availability>
 			<model name='BMB-10D'>
 				<roles>fire_support</roles>
-				<availability>HL:4-,IS:6-,Periphery.Deep:6-,Periphery:6-</availability>
+				<availability>IS:8,CS:2-,WOB:2-</availability>
 			</model>
 			<model name='BMB-12D'>
 				<roles>fire_support</roles>
-				<availability>CS:5,OA:4,FRR:4,CLAN:8,NIOPS:5,WOB:5,MERC.SI:8,BAN:8</availability>
+				<availability>CLAN:8,CS:5,WOB:5,DC:1,FRR:2+,MERC.SI:8,OA:8,NIOPS:5</availability>
 			</model>
 			<model name='BMB-14C'>
 				<roles>fire_support</roles>
-				<availability>CS:6,WOB:6</availability>
+				<availability>CS:6:3062,WOB:6:3062</availability>
 			</model>
 		</chassis>
 		<chassis name='Boomerang Spotter Plane' unitType='Conventional Fighter'>

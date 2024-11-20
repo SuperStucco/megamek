@@ -620,10 +620,10 @@
 			</model>
 		</chassis>
 		<chassis name='Bombardier' unitType='Mek'>
-			<availability>PP:6,CS:5,NIOPS:5,FWL:4,DC:4</availability>
+			<availability>PP:6,CLAN:5,CS:5,FWL:4,DC:4,NIOPS:5</availability>
 			<model name='BMB-12D'>
 				<roles>fire_support</roles>
-				<availability>PP:8,CS:8,NIOPS:8,FWL:8+,DC:8+</availability>
+				<availability>PP:8,CLAN:8,CS:8,FWL:8,DC:8,NIOPS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Buccaneer' unitType='Dropship'>

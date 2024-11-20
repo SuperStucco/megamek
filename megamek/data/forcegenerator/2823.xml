@@ -885,10 +885,10 @@
 			</model>
 		</chassis>
 		<chassis name='Bombardier' unitType='Mek'>
-			<availability>CS:5,CDS:6,CLAN:5,NIOPS:5,FWL:3,DC:3</availability>
+			<availability>CLAN:5,CS:5,FWL:3,DC:3,NIOPS:5</availability>
 			<model name='BMB-10D'>
 				<roles>fire_support</roles>
-				<availability>IS:6-,Periphery.Deep:6-,Periphery:6-</availability>
+				<availability>CLAN:8,CS:8,FWL:8,DC:8,NIOPS:8</availability>
 			</model>
 			<model name='BMB-12D'>
 				<roles>fire_support</roles>

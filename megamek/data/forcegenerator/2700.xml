@@ -591,10 +591,10 @@
 			</model>
 		</chassis>
 		<chassis name='Bombardier' unitType='Mek'>
-			<availability>SL:4,FWL:2,SL.R:2,RWR:3,DC:2</availability>
+			<availability>SL:4:2735,SL.R:2:2735,FWL:2:2735,DC:2:2735</availability>
 			<model name='BMB-12D'>
 				<roles>fire_support</roles>
-				<availability>FWL:8+,DC:8+</availability>
+				<availability>SL:8,FWL:8,DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bonaventure Corvette' unitType='Warship'>

@@ -1026,14 +1026,14 @@
 			</model>
 		</chassis>
 		<chassis name='Bombardier' unitType='Mek'>
-			<availability>CS:5,OA:2,CDS:6,CLAN:5,IS:2,NIOPS:5,FWL:2,DC:2,Periphery:2</availability>
+			<availability>CLAN:2-,CS:5,IS:2,Periphery:1,NIOPS:5,BAN:1</availability>
 			<model name='BMB-10D'>
 				<roles>fire_support</roles>
-				<availability>IS:8,Periphery.Deep:8,Periphery:8</availability>
+				<availability>IS:8,CS:4-,Periphery:8,NIOPS:0</availability>
 			</model>
 			<model name='BMB-12D'>
 				<roles>fire_support</roles>
-				<availability>CS:8,CLAN:8,NIOPS:8,FWL:2+,BAN:8,DC:2+</availability>
+				<availability>CLAN:8,CS:8,FWL:2+,DC:2+,NIOPS:8,BAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Boomerang Spotter Plane' unitType='Conventional Fighter'>
