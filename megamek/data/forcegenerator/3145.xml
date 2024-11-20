@@ -11553,9 +11553,9 @@
 			</model>
 		</chassis>
 		<chassis name='Light Thunderbolt Carrier' unitType='Tank'>
-			<availability>FVC:3,CDP:4,TC:4</availability>
+			<availability>FVC:3,CDP:4+,TC:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>FVC:8,CDP:8,TC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Lightning Attack Hovercraft' unitType='Tank'>

@@ -9382,9 +9382,9 @@
 			</model>
 		</chassis>
 		<chassis name='Light Thunderbolt Carrier' unitType='Tank'>
-			<availability>CDP:2,TC:2</availability>
+			<availability>CDP:2+:3072,TC:2:3072</availability>
 			<model name=''>
-				<availability>General:8</availability>
+				<availability>CDP:8,TC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Lightning Attack Hovercraft' unitType='Tank'>
