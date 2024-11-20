@@ -7283,11 +7283,7 @@
 		<chassis name='Gürteltier MBT' unitType='Tank'>
 			<availability>LA:5+,ROS:4,FS:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
-			</model>
-			<model name='(C3M)'>
-				<roles>spotter</roles>
-				<availability>General:4</availability>
+				<availability>LA:8,FS:8,ROS:8</availability>
 			</model>
 		</chassis>
         <chassis name='HMRV (Hazardous Materials Recovery Vehicle)' unitType='Tank'>
