@@ -19063,10 +19063,11 @@
 		<chassis name='Zephyros Infantry Support Vehicle' unitType='Tank'>
 			<availability>CHH:5,CW:2,CGB:2,CWIE:2</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>ew_support,inf_support</roles>
+				<availability>CHH:8,CW:8,CGB:8,CWIE:8</availability>
 			</model>
 			<model name='(Dual Turret)'>
-				<roles>apc</roles>
+                <roles>ew_support,inf_support</roles>
 				<availability>CHH:4</availability>
 			</model>
 		</chassis>

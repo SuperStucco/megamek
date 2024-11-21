@@ -20138,12 +20138,13 @@
 			</model>
 		</chassis>
 		<chassis name='Zephyros Infantry Support Vehicle' unitType='Tank'>
-			<availability>CHH:7,RD:3,CW:3,CGB:3,CWIE:3</availability>
+			<availability>CHH:7,CW:3,CGB:3,RD:3,CWIE:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>ew_support,inf_support</roles>
+				<availability>CHH:8,CW:8,CGB:8,RD:8,CWIE:8</availability>
 			</model>
 			<model name='(Dual Turret)'>
-				<roles>apc</roles>
+                <roles>ew_support,inf_support</roles>
 				<availability>CHH:4</availability>
 			</model>
 		</chassis>

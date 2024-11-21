@@ -17955,13 +17955,10 @@
 			</model>
 		</chassis>
 		<chassis name='Zephyros Infantry Support Vehicle' unitType='Tank'>
-			<availability>CHH:4,CW:1,CGB:1,CWIE:1</availability>
+			<availability>CHH:4:3084</availability>
 			<model name=''>
-				<availability>General:8</availability>
-			</model>
-			<model name='(Dual Turret)'>
-				<roles>apc</roles>
-				<availability>CHH:4</availability>
+                <roles>ew_support,inf_support</roles>
+				<availability>CHH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Zero' unitType='AeroSpaceFighter'>
