@@ -15979,15 +15979,13 @@
 			</model>
 		</chassis>
 		<chassis name='Ravager Assault Battle Armor' unitType='BattleArmor'>
-			<availability>Periphery.MW:6,Periphery.CM:6,Periphery.ME:6,FWL:4,MH:8,MERC:4,CP:4,TC:6,Periphery:4</availability>
-			<model name='(LRM)(Sqd4)' mechanized='false'>
-				<availability>General:4,MH:0</availability>
-			</model>
+			<availability>IS:2-,FWL:2,MERC:4,FVC:4,MH:8,MOC:3,TC:6,CDP:4,FR:2,PIR:3</availability>
 			<model name='(LRM)(Sqd5)' mechanized='false'>
-				<availability>General:4</availability>
+                <roles>fire_support</roles>
+				<availability>MH:4</availability>
 			</model>
 			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8,MH:0</availability>
+				<availability>IS:8,FVC:8,Periphery:8,MH:0,PIR:8</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='false'>
 				<availability>MH:8</availability>
