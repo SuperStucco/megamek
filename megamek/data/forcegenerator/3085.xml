@@ -4476,19 +4476,32 @@
 			</model>
 		</chassis>
 		<chassis name='Constable Pacification Suit' unitType='BattleArmor'>
-			<availability>CGB:2</availability>
+			<availability>CGB:2-:3092,DC:1:3092</availability>
+            <model name='[ECM] (Sqd4)' mechanized='true'>
+                <availability>DC:6</availability>
+            </model>
 			<model name='[ECM] (Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CGB:6</availability>
 			</model>
+            <model name='[LMG] (Sqd4)' mechanized='true'>
+                <availability>DC:6</availability>
+            </model>
 			<model name='[LMG] (Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CGB:6</availability>
 			</model>
-			<model name='[Sensor] (Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+            <model name='[Sensor] (Sqd4)' mechanized='true'>
+                <availability>DC:8</availability>
+            </model>
+			<model name='[Sensor] (Sqd5)' mechanized='true'>
+				<availability>CGB:8</availability>
 			</model>
+            <model name='[TAG] (Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>DC:6</availability>
+            </model>
 			<model name='[TAG] (Sqd5)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<availability>CGB:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Coolant Truck' unitType='Tank'>
