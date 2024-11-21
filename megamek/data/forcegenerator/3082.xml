@@ -9166,10 +9166,10 @@
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Gunship' unitType='VTOL'>
-			<availability>DTA:2-,FVC:3,LA:2-,FRR:3,FWL:2-,FS:2-</availability>
+			<availability>DTA:2-,RFS:2-,FVC:3</availability>
 			<model name=''>
 				<deployedWith>Karnov UR Transport</deployedWith>
-				<availability>General:8</availability>
+				<availability>DTA:8,RFS:8,FVC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Transport' unitType='VTOL'>

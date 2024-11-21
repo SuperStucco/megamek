@@ -5307,7 +5307,7 @@
 			<availability>LA:3,FRR:3,FWL:3,FC:2,FS:3</availability>
 			<model name=''>
 				<deployedWith>Karnov UR Transport</deployedWith>
-				<availability>General:8</availability>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Transport' unitType='VTOL'>

@@ -9593,7 +9593,10 @@
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Gunship' unitType='VTOL'>
-			<availability>DTA:2,RF:2</availability>
+			<availability>DTA:2-,RF:2-,FVC:3</availability>
+            <model name=''>
+                <availability>DTA:8,RF:8,FVC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Karnov UR Transport' unitType='VTOL'>
 			<availability>CC:4,HL:2,IS:5,MERC:5,Periphery:4,RA:4,LA:4,ROS:5,PIR:2,MH:3,SL3.CSJ:5,DA:3,DC:4</availability>

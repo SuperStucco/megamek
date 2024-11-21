@@ -10835,7 +10835,10 @@
             </model>
         </chassis>
         <chassis name='Karnov UR Gunship' unitType='VTOL'>
-            <availability>RF:2,FWL:2</availability>
+            <availability>FWL:2-,FVC:3</availability>
+            <model name=''>
+                <availability>FWL:8,FVC:8</availability>
+            </model>
         </chassis>
         <chassis name='Karnov UR Transport' unitType='VTOL'>
             <availability>CC:4,IS:5,MERC:5,Periphery:4,RA:4,SL3.CJF:5,LA:4,TamPact:4,ROS:5,MH:3,SL3:4,SL3.CSJ:5,DA:3,DC:4,VesMar:4
