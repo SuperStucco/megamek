@@ -5909,6 +5909,20 @@
 				<availability>CHH:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Dragau II Assault Interceptor' unitType='Dropship'>
+            <availability>SL3:2</availability>
+            <model name=''>
+                <roles>assault</roles>
+                <availability>SL3:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Dragau II' unitType='Dropship'>
+            <availability>SL3:2</availability>
+            <model name='(3097)'>
+                <roles>assault</roles>
+                <availability>SL3:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Dragon Fire' unitType='Mek'>
 			<availability>LA:6,MERC:6,DC:5</availability>
 			<model name='DGR-3F'>

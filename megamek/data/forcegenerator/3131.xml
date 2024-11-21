@@ -6187,14 +6187,15 @@
 		<chassis name='Dragau II Assault Interceptor' unitType='Dropship'>
 			<availability>ROS:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>assault</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Dragau II' unitType='Dropship'>
-			<availability>ROS:4</availability>
+			<availability>ROS:4+</availability>
 			<model name='(3097)'>
 				<roles>assault</roles>
-				<availability>General:8</availability>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Dragon Fire' unitType='Mek'>
