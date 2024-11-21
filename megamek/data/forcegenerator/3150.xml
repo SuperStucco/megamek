@@ -1463,7 +1463,8 @@
         <chassis name='Anat APC' unitType='Tank'>
             <availability>CC:3,CHH:7,LA:4,ROS:4,MERC:4,CWIE:6</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <roles>apc</roles>
+                <availability>IS:8,CLAN.IS:8</availability>
             </model>
         </chassis>
         <chassis name='Angerona Scout Suit' unitType='BattleArmor'>
