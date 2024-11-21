@@ -17351,7 +17351,7 @@
 		<chassis name='Thunder Fox' unitType='Mek'>
 			<availability>LA:3,ROS:4,DC:3</availability>
 			<model name='TFT-A9'>
-				<availability>General:4</availability>
+				<availability>LA:8,ROS:8,DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Thunder Hawk' unitType='Mek'>

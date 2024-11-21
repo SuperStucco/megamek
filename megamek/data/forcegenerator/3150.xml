@@ -19274,16 +19274,19 @@
             </model>
         </chassis>
         <chassis name='Thunder Fox' unitType='Mek'>
-            <availability>LA:5,ROS:6,DC:4</availability>
+            <availability>LA:5,ROS:6,DC:4,MERC:4</availability>
             <model name='TFT-A9'>
-                <availability>ROS:8,General:4</availability>
+                <availability>ROS:8,LA:4,DC:4-,MERC:8</availability>
             </model>
             <model name='TFT-C3'>
-                <roles>spotter</roles>
+                <roles>command,spotter</roles>
                 <availability>DC:8</availability>
             </model>
+            <model name='TFT-F11'>
+                <availability>LA:4+</availability>
+            </model>
             <model name='TFT-L8'>
-                <availability>LA:8</availability>
+                <availability>LA:8,MERC:4</availability>
             </model>
         </chassis>
         <chassis name='Thunder Hawk' unitType='Mek'>

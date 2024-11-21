@@ -16005,11 +16005,7 @@
 		<chassis name='Thunder Fox' unitType='Mek'>
 			<availability>LA:4,ROS:5,DC:4</availability>
 			<model name='TFT-A9'>
-				<availability>ROS:5,General:4</availability>
-			</model>
-			<model name='TFT-C3'>
-				<roles>spotter</roles>
-				<availability>DC:5</availability>
+				<availability>ROS:5,LA:4,DC:5</availability>
 			</model>
 			<model name='TFT-L8'>
 				<availability>LA:5</availability>

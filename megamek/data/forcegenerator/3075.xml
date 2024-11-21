@@ -16667,9 +16667,9 @@
 			</model>
 		</chassis>
 		<chassis name='Thunder Fox' unitType='Mek'>
-			<availability>LA:3,DC:3</availability>
+			<availability>LA:3:3077,DC:3:3077</availability>
 			<model name='TFT-A9'>
-				<availability>General:4</availability>
+				<availability>LA:8,DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Thunder Hawk' unitType='Mek'>
