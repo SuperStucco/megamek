@@ -1239,9 +1239,10 @@
 			</model>
 		</chassis>
 		<chassis name='Aesir Medium AA Vehicle' unitType='Tank'>
-			<availability>CWE:6,CHH:4,MERC:4</availability>
+			<availability>CWE:6,CHH:4,CP:4,SLE:4,MERC:4</availability>
 			<model name=''>
-				<availability>CHH:4,General:8</availability>
+                <roles>anti_aircraft</roles>
+				<availability>CHH:4,CWE:8,CP:8,SL3:8,MERC:8</availability>
 			</model>
 			<model name='(HAG)'>
 				<roles>anti_aircraft</roles>

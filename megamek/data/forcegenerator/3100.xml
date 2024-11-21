@@ -1257,11 +1257,8 @@
 		<chassis name='Aesir Medium AA Vehicle' unitType='Tank'>
 			<availability>CHH:4,CW:5,ROS:4,MERC:4,CWIE:4</availability>
 			<model name=''>
-				<availability>CHH:4,General:8</availability>
-			</model>
-			<model name='(HAG)'>
-				<roles>anti_aircraft</roles>
-				<availability>CHH:8,CW:4</availability>
+                <roles>anti_aircraft</roles>
+				<availability>CHH:8,CW:8,CWIE:8,ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Afreet Medium Battle Armor' unitType='BattleArmor'>

@@ -1200,9 +1200,10 @@
 			</model>
 		</chassis>
 		<chassis name='Aesir Medium AA Vehicle' unitType='Tank'>
-			<availability>CW:4</availability>
+			<availability>CW:4:3097</availability>
 			<model name=''>
-				<availability>CHH:4,General:8</availability>
+			    <roles>anti_aircraft</roles>
+				<availability>CW:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Afreet Medium Battle Armor' unitType='BattleArmor'>
