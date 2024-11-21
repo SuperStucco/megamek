@@ -15761,7 +15761,8 @@
 		<chassis name='Sokar Urban Combat Unit' unitType='Tank'>
 			<availability>CW:4-,CJF:6-</availability>
 			<model name=''>
-				<availability>General:8</availability>
+			    <roles>anti_infantry</roles>
+				<availability>CJF:8,CW:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Sokuryou' unitType='Mek'>

@@ -14938,9 +14938,10 @@
 			</model>
 		</chassis>
 		<chassis name='Sokar Urban Combat Unit' unitType='Tank'>
-			<availability>CJF:4-</availability>
+			<availability>CJF:4-:3084</availability>
 			<model name=''>
-				<availability>General:8</availability>
+			    <roles>anti_infantry</roles>
+				<availability>CJF:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Sokuryou' unitType='Mek'>
