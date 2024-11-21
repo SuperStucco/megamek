@@ -4989,13 +4989,13 @@
 			</model>
 		</chassis>
 		<chassis name='DI Multipurpose VTOL' unitType='VTOL'>
-			<availability>LA:4,CLAN:3,IS:3,MERC:3,Periphery:3</availability>
+			<availability>IS:3:3097,LA:4:3097,CLAN.IS:3:3097,Periphery:2:3097</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>recon,apc,spotter</roles>
+				<availability>IS:8,CLAN.IS:8,Periphery:4+</availability>
 			</model>
 			<model name='(Gunship)'>
-				<availability>General:4</availability>
+				<availability>IS:4,CLAN.IS:4,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Dagger' unitType='AeroSpaceFighter'>

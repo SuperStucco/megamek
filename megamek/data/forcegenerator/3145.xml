@@ -5512,13 +5512,13 @@
 			</model>
 		</chassis>
 		<chassis name='DI Multipurpose VTOL' unitType='VTOL'>
-			<availability>LA:8,CLAN:5,IS:6,MERC:6,Periphery:5</availability>
+			<availability>IS:6,LA:8,CLAN.IS:5,Periphery:5</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>recon,apc,spotter</roles>
+				<availability>IS:8,CLAN.IS:8,Periphery:4+</availability>
 			</model>
 			<model name='(Gunship)'>
-				<availability>General:4</availability>
+				<availability>IS:4,CLAN.IS:4,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='DI Schmitt Tank' unitType='Tank'>
