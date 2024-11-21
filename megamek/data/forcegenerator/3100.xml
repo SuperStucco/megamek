@@ -17411,17 +17411,18 @@
 				<availability>CHH:8,CLAN:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Svartalfa Ultra ProtoMech' unitType='ProtoMek'>
-			<availability>CHH:4+</availability>
-		</chassis>
 		<chassis name='Svartalfa' unitType='ProtoMek'>
 			<availability>CHH:4</availability>
 			<model name=''>
 				<availability>CHH:6</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support</roles>
 				<availability>CHH:4</availability>
 			</model>
+            <model name='3'>
+                <availability>CHH:4:3118</availability>
+            </model>
 		</chassis>
 		<chassis name='Swallow Attack WIGE' unitType='Tank'>
 			<availability>OP:3,FS:3,MERC:3,TC:1,DTA:3,RF:3,LA:4,ROS:4,FWL:3,MH:2,MSC:3,DA:3,RCM:3</availability>

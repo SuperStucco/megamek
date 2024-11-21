@@ -18676,15 +18676,16 @@
 				<availability>CHH:8,CLAN:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Svartalfa Ultra ProtoMech' unitType='ProtoMek'>
-			<availability>CHH:4+</availability>
-		</chassis>
 		<chassis name='Svartalfa' unitType='ProtoMek'>
 			<availability>CHH:4</availability>
 			<model name=''>
 				<availability>CHH:6</availability>
 			</model>
 			<model name='2'>
+                <roles>fire_support</roles>
+			    <availability>CHH:4</availability>
+		    </model>
+		    <model name='3'>
 				<availability>CHH:4</availability>
 			</model>
 		</chassis>
