@@ -7488,17 +7488,21 @@
 			</model>
 		</chassis>
 		<chassis name='Ghost' unitType='Mek'>
-			<availability>MOC:2,IS:2,MERC:2,CP:3,TC:2,FVC:2,LA:4,PIR:2,FWL:3,MH:2</availability>
+			<availability>IS:2,LA:4,FWL:3,CP:3,FVC:2,MOC:2,TC:2,MH:2,FR:1,PIR:2</availability>
 			<model name='GST-10'>
-				<availability>General:8</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:8,MOC:8</availability>
 			</model>
 			<model name='GST-11'>
-				<availability>General:4</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:4-,FVC:8,MH:8,TC:8,FR:8</availability>
 			</model>
 			<model name='GST-50'>
-				<availability>FWL:6,CP:6</availability>
+                <roles>raider</roles>
+				<availability>FWL:6,CP:6,PIR:4</availability>
 			</model>
 			<model name='GST-90'>
+                <roles>raider</roles>
 				<availability>PIR:8,MERC:6</availability>
 			</model>
 		</chassis>

@@ -6833,7 +6833,8 @@
 		<chassis name='Ghost' unitType='Mek'>
 			<availability>CC:1,CS:1,LA:2,FWL:2,MERC:1,FS:1,DC:1</availability>
 			<model name='GST-10'>
-				<availability>General:8</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Gladiator (Executioner)' unitType='Mek' omni='Clan'>

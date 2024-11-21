@@ -7273,14 +7273,17 @@
 			</model>
 		</chassis>
 		<chassis name='Ghost' unitType='Mek'>
-			<availability>MOC:2,OP:4,IS:2,MERC:2,TC:2,DTA:4,FVC:2,LA:4,PIR:2,MH:2,MSC:4</availability>
+			<availability>MOC:2,OP:4,IS:2,TC:2,DTA:4,FVC:2,LA:4,MH:2,MSC:4</availability>
 			<model name='GST-10'>
-				<availability>General:8</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:8,MOC:8</availability>
 			</model>
 			<model name='GST-11'>
-				<availability>General:4</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:4-,FVC:8,MH:8,TC:8</availability>
 			</model>
 			<model name='GST-50'>
+                <roles>raider</roles>
 				<availability>DTA:6,OP:6,MSC:6</availability>
 			</model>
 		</chassis>

@@ -6916,14 +6916,17 @@
 			</model>
 		</chassis>
 		<chassis name='Ghost' unitType='Mek'>
-			<availability>MOC:2,OP:3,DoO:3,IS:2,DO:3,MERC:2,TC:2,DTA:3,FVC:2,LA:3,PIR:2,MH:2,MSC:3,TP:3</availability>
+			<availability>MOC:2,OP:3,DoO:3,IS:2,DO:3,TC:2,DTA:3,FVC:2,LA:3,MH:2,MSC:3,TP:3</availability>
 			<model name='GST-10'>
-				<availability>General:8</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:8,FVC:4+,MOC:8</availability>
 			</model>
 			<model name='GST-11'>
-				<availability>General:4</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:4-,FVC:8,MH:8,TC:8</availability>
 			</model>
 			<model name='GST-50'>
+                <roles>raider</roles>
 				<availability>DTA:5,OP:5,DoO:5,DO:5,MSC:5,TP:5</availability>
 			</model>
 		</chassis>

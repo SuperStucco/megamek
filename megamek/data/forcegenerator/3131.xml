@@ -7753,18 +7753,22 @@
 			</model>
 		</chassis>
 		<chassis name='Ghost' unitType='Mek'>
-			<availability>MOC:2,OP:4,IS:2,MERC:2,CP:2,TC:2,DTA:4,FVC:2,LA:4,PIR:2,MH:2,MSC:4</availability>
+			<availability>IS:2,LA:4,MSC:4,DTA:4,OP:4,CJF:3-,CP:2,FVC:2,MOC:2,TC:2,MH:2,PIR:2</availability>
 			<model name='GST-10'>
-				<availability>General:8</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:8,MOC:8,CJF:8</availability>
 			</model>
 			<model name='GST-11'>
-				<availability>General:4</availability>
+                <roles>ew_support,recon,raider</roles>
+				<availability>IS:4-,FVC:8,MH:8,TC:8</availability>
 			</model>
 			<model name='GST-50'>
-				<availability>DTA:6,OP:6,FWL:6:3139,MSC:6,CP:6</availability>
+                <roles>raider</roles>
+				<availability>DTA:6,OP:6,FWL:6:3139,MSC:6,CP:6,PIR:4</availability>
 			</model>
 			<model name='GST-90'>
-				<availability>PIR:6,MERC:6</availability>
+                <roles>raider</roles>
+				<availability>PIR:8,MERC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Giggins APC' unitType='Tank'>
