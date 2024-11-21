@@ -11211,6 +11211,21 @@
 				<availability>CC:5,MOC:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Koshi (Standard)' unitType='Mek'>
+            <availability>IS:5+,CLAN.IS:4-,MOC:2+,TC:2+</availability>
+            <model name=''>
+                <roles>recon,spotter</roles>
+                <availability>IS:6-,MERC:8,CLAN.IS:6-,MOC:8,TC:8</availability>
+            </model>
+            <model name='2'>
+                <roles>spotter</roles>
+                <availability>IS:8,ROS:8,MERC:6,CLAN.IS:8</availability>
+            </model>
+            <model name=''>
+                <roles>ew_support,recon,spotter</roles>
+                <availability>IS:2,CLAN.IS:6</availability>
+            </model>
+        </chassis>
 		<chassis name='Koshi (Mist Lynx)' unitType='Mek' omni='Clan'>
 			<availability>CHH:5,CLAN:3,IS:4,CP:3,BAN:4,RA:3,Periphery:3,CWE:4,MERC.WD:3,CW:4,DC:4</availability>
 			<model name='A'>
@@ -11281,9 +11296,6 @@
 				<roles>recon</roles>
 				<availability>CLAN:4,IS:4</availability>
 			</model>
-		</chassis>
-		<chassis name='Koshi' unitType='Mek'>
-			<availability>CLAN:6,IS:5</availability>
 		</chassis>
 		<chassis name='Koto' unitType='Mek'>
 			<availability>MERC:4</availability>
