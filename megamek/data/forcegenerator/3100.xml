@@ -13835,18 +13835,18 @@
 			</model>
 		</chassis>
 		<chassis name='Parash' unitType='Mek'>
-			<availability>CHH:8</availability>
+			<availability>CHH:8,CW:5,RD:5</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>recon,spotter</roles>
+				<availability>CHH:8,CW:8,RD:8</availability>
 			</model>
 			<model name='2'>
 				<roles>recon,spotter</roles>
-				<availability>General:4</availability>
+				<availability>CHH:4,RD:4</availability>
 			</model>
 			<model name='3'>
-				<roles>recon,spotter</roles>
-				<availability>General:2</availability>
+				<roles>ew_support,recon,spotter</roles>
+				<availability>CHH:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Partisan AA Vehicle' unitType='Tank'>
