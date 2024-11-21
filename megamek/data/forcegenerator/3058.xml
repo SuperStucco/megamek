@@ -4805,9 +4805,10 @@
 			</model>
 		</chassis>
 		<chassis name='Heavy LRM Carrier' unitType='Tank'>
-			<availability>MOC:6,OA:5,HL:3,Periphery.CM:5,Periphery.HR:5,Periphery.ME:5,MH:5,MERC:3,TC:5,Periphery:4</availability>
+			<availability>MERC:3,Periphery:5,MOC:6,HL:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>MERC:8,Periphery:8,HL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Heavy Strike Fighter' unitType='Conventional Fighter'>

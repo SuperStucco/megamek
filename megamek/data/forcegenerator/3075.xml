@@ -7958,15 +7958,17 @@
 			</model>
 		</chassis>
 		<chassis name='Heavy LRM Carrier' unitType='Tank'>
-			<availability>CC:3,MOC:6,HL:4,MERC:3,Periphery.OS:4,FS:3,TC:6,Periphery:5,OA:6,Periphery.CM:7,Periphery.HR:7,Periphery.ME:7,FWL:3,MH:6</availability>
+			<availability>CC:3,MERC:3,Periphery:5,MOC:6,TC:6,OA:6,MH:6,HL:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>CC:8,MERC:8,Periphery:8,HL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Heavy MML Carrier' unitType='Tank'>
 			<availability>MOC:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support,sr_fire_support</roles>
+				<availability>MOC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Heavy Mountain Infantry' unitType='Infantry'>

@@ -9079,16 +9079,17 @@
             </model>
         </chassis>
         <chassis name='Heavy LRM Carrier' unitType='Tank'>
-            <availability>Periphery.OS:4,MERC:3,FS:3,CP:3,TC:2,Periphery:5,RA.OA:3,Periphery.CM:7,Periphery.HR:7,Periphery.ME:7,FWL:3,MH:1
-            </availability>
+            <availability>CC:2,MERC:3,FWL:3,DA:3,RA.OA:3,Periphery:3</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <roles>fire_support</roles>
+                <availability>IS:8,RA.OA:8,Periphery:8</availability>
             </model>
         </chassis>
         <chassis name='Heavy MML Carrier' unitType='Tank'>
-            <availability>MOC:4,CC:3,DA:3</availability>
+            <availability>MOC:4,CC:3,DA:3,FR:3</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <roles>fire_support,sr_fire_support</roles>
+                <availability>MOC:8,CC:8,DA:8,FR:8</availability>
             </model>
         </chassis>
         <chassis name='Heavy Mountain Infantry' unitType='Infantry'>
@@ -9099,10 +9100,10 @@
             </model>
         </chassis>
         <chassis name='Heavy NLRM Carrier' unitType='Tank'>
-            <availability>FVC:6,FS:6</availability>
+            <availability>FS:6,FVC:5+,MH:4+</availability>
             <model name=''>
                 <roles>fire_support</roles>
-                <availability>General:8</availability>
+                <availability>FS:8,FVC:8,MH:8</availability>
             </model>
         </chassis>
         <chassis name='Heavy Strike Fighter' unitType='Conventional Fighter'>
