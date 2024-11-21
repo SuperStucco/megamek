@@ -19071,8 +19071,8 @@
                 <availability>ROS:8,DC:8</availability>
             </model>
             <model name='TSN-C3M'>
-                <roles>recon,spotter</roles>
-                <availability>ROS:4,DC:4</availability>
+                <roles>command,recon,spotter</roles>
+                <availability>ROS:4,DC:4+</availability>
             </model>
         </chassis>
         <chassis name='Testudo Siege Tank' unitType='Tank'>
