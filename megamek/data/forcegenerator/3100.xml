@@ -3544,9 +3544,10 @@
 			</model>
 		</chassis>
 		<chassis name='Caerleon' unitType='Small Craft'>
-			<availability>DTA:3,LA:1,ROS:2,FWL:3,DA:3,MERC:2,FS:2</availability>
+			<availability>LA:1,ROS:2,FWL:3,DTA:3,DA:3,OP:3,MERC:2,FS:2</availability>
 			<model name=''>
-				<availability>General:8</availability>
+			    <roles>assault,ba_carrier</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Caesar' unitType='Mek'>

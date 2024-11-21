@@ -3882,9 +3882,10 @@
 			</model>
 		</chassis>
 		<chassis name='Caerleon' unitType='Small Craft'>
-			<availability>DTA:4,LA:2,ROS:3,FWL:4,DA:4,MERC:2,FS:2</availability>
+			<availability>LA:2,ROS:3,FWL:4,DTA:4,DA:4,MERC:2,FS:2</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>assault,ba_carrier</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Caesar' unitType='Mek'>

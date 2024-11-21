@@ -3777,7 +3777,8 @@
         <chassis name='Caerleon' unitType='Small Craft'>
             <availability>LA:2,TamPact:2,ROS:3,FWL:4,DA:4,MERC:2,FS:2</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <roles>assault,ba_carrier</roles>
+                <availability>IS:8,TamPact:8</availability>
             </model>
         </chassis>
         <chassis name='Caesar' unitType='Mek'>
