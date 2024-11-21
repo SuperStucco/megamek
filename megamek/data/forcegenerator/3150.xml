@@ -11538,22 +11538,42 @@
             </model>
         </chassis>
         <chassis name='Leonidas Battle Armor' unitType='BattleArmor'>
-            <availability>CC:4,MOC:4,FWL:6,MH:4,MERC:4,CP:6</availability>
+            <availability>CC:4,MOC:4,FWL:6,MH:4+,MERC:4,CP:4-</availability>
             <model name='(David)(Sqd4)' mechanized='true'>
-                <availability>General:6</availability>
+				<availability>CC:6,MOC:6,FWL:6,MERC:6</availability>
             </model>
-            <model name='(FireDrake)(Sqd4)' mechanized='false'>
-                <availability>General:6</availability>
+            <model name='(David)(Sqd5)' mechanized='true'>
+                <availability>CP:8,MH:4+</availability>
+            </model>
+			<model name='(FireDrake)(Sqd4)' mechanized='true'>
+                <roles>anti_infantry</roles>
+				<availability>CC:6,MOC:6,FWL:6,MERC:6</availability>
+            </model>
+            <model name='(FireDrake)(Sqd5)' mechanized='true'>
+                <roles>anti_infantry</roles>
+                <availability>CP:4,MH:6</availability>
             </model>
             <model name='(MG)(Sqd4)' mechanized='true'>
-                <availability>General:6</availability>
+				<availability>CC:6,MOC:6,FWL:6,MERC:6</availability>
+            </model>
+            <model name='(MG)(Sqd5)' mechanized='true'>
+                <availability>CP:5,MH:8</availability>
             </model>
             <model name='(Sensor)(Sqd4)' mechanized='true'>
-                <availability>General:6</availability>
+                <roles>recon</roles>
+				<availability>CC:6,MOC:6,FWL:6,MERC:6</availability>
+            </model>
+            <model name='(Sensor)(Sqd5)' mechanized='true'>
+                <roles>recon</roles>
+                <availability>CP:6,MH:6</availability>
             </model>
             <model name='(TAG)(Sqd4)' mechanized='true'>
                 <roles>spotter</roles>
-                <availability>General:5</availability>
+				<availability>CC:5,MOC:3+,FWL:5,MERC:3+</availability>
+            </model>
+            <model name='(TAG)(Sqd5)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>CP:5,MH:3+</availability>
             </model>
         </chassis>
         <chassis name='Leopard CV' unitType='Dropship'>

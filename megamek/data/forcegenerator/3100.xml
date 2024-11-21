@@ -10791,20 +10791,22 @@
 		<chassis name='Leonidas Battle Armor' unitType='BattleArmor'>
 			<availability>CC:3,MOC:3,OP:5,MERC:3</availability>
 			<model name='(David)(Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CC:6,MOC:6,OP:6,MERC:6</availability>
 			</model>
-			<model name='(FireDrake)(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='(FireDrake)(Sqd4)' mechanized='true'>
+                <roles>anti_infantry</roles>
+				<availability>CC:6,MOC:6,OP:6,MERC:6</availability>
 			</model>
 			<model name='(MG)(Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CC:6,MOC:6,OP:6,MERC:6</availability>
 			</model>
 			<model name='(Sensor)(Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+                <roles>recon</roles>
+				<availability>CC:6,MOC:6,OP:6,MERC:6</availability>
 			</model>
 			<model name='(TAG)(Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>CC:5,MOC:3+,OP:5,MERC:3+</availability>
 			</model>
 		</chassis>
 		<chassis name='Leopard CV' unitType='Dropship'>

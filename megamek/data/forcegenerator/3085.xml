@@ -10187,9 +10187,9 @@
 			</model>
 		</chassis>
 		<chassis name='Leonidas Battle Armor' unitType='BattleArmor'>
-			<availability>OP:4</availability>
+			<availability>OP:4:3096</availability>
 			<model name='(David)(Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>OP:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Leopard CV' unitType='Dropship'>
