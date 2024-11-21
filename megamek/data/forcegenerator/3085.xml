@@ -12212,6 +12212,9 @@
 		</chassis>
 		<chassis name='Nexus' unitType='Mek'>
 			<availability>CEI:2</availability>
+            <model name='NXS1-A'>
+                <availability>CEI:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>
 			<availability>CEI:3+,CJF:5</availability>

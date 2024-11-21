@@ -13713,9 +13713,9 @@
             </model>
 		</chassis>
 		<chassis name='Nexus' unitType='Mek'>
-			<availability>CEI:2,ROS:2,MERC:2</availability>
+			<availability>ROS:2,Blessed Order:2,MERC:2</availability>
 			<model name='NXS1-C'>
-				<availability>ROS:4,Blessed Order:1,MERC:2</availability>
+				<availability>ROS:8:3140,Blessed Order:8:3140,MERC:8:3140</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>

@@ -12070,17 +12070,17 @@
 		<chassis name='Nexus II' unitType='Mek'>
 			<availability>WOB:6</availability>
 			<model name='NXS2-A'>
-				<availability>General:8</availability>
+				<availability>WOB:8</availability>
 			</model>
 			<model name='NXS2-B'>
 				<roles>recon,spotter</roles>
-				<availability>General:6</availability>
+				<availability>WOB:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Nexus' unitType='Mek'>
 			<availability>CS:6,WOB:3</availability>
 			<model name='NXS1-A'>
-				<availability>General:8</availability>
+				<availability>CS:8,WOB:8</availability>
 			</model>
 			<model name='NXS1-B'>
 				<availability>WOB:4</availability>

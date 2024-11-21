@@ -6722,7 +6722,7 @@
 		<chassis name='Nexus' unitType='Mek'>
 			<availability>CS:6,WOB:6</availability>
 			<model name='NXS1-A'>
-				<availability>General:8</availability>
+				<availability>CS:8,WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>

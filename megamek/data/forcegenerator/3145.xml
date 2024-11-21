@@ -13730,9 +13730,9 @@
             </model>
 		</chassis>
 		<chassis name='Nexus' unitType='Mek'>
-			<availability>SE:2,ROS:2,MERC:2</availability>
+			<availability>ROS:2,MERC:2</availability>
 			<model name='NXS1-C'>
-				<availability>ROS:4,MERC:2</availability>
+				<availability>ROS:8,MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>
