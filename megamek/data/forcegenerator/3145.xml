@@ -1393,12 +1393,12 @@
 			</model>
 		</chassis>
 		<chassis name='Amazon Battle Armor' unitType='BattleArmor'>
-			<availability>MOC:8,CC:6,DA:6</availability>
-			<model name='[MRR](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<availability>MOC:8,CC:6,DA:6,FR:5</availability>
+			<model name='[MRR](Sqd4)' mechanized='true'>
+				<availability>MOC:8,CC:8,DA:8,FR:8</availability>
 			</model>
-			<model name='[Support PPC](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[Support PPC](Sqd4)' mechanized='true'>
+				<availability>MOC:6,CC:6,DA:6,FR:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Ammon' unitType='AeroSpaceFighter'>
