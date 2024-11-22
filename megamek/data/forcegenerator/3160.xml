@@ -5860,22 +5860,26 @@
 			</model>
 		</chassis>
 		<chassis name='Doloire' unitType='Mek' omni='IS'>
-			<availability>MERC:4</availability>
+			<availability>FS:5+,MERC:4+,SL3:4-</availability>
 			<model name='DLR-O'>
-				<availability>General:8</availability>
+                <roles>command</roles>
+				<availability>FS:8,MERC:8,SL3:8</availability>
 			</model>
 			<model name='DLR-OA'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>FS:7,MERC:7,SL3:7</availability>
 			</model>
 			<model name='DLR-OB'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>FS:7,MERC:7,SL3:7</availability>
 			</model>
 			<model name='DLR-OC'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>FS:4,MERC:4,SL3:3</availability>
 			</model>
 			<model name='DLR-OD'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>FS:7,MERC:7,SL3:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Donar Assault Helicopter' unitType='VTOL'>

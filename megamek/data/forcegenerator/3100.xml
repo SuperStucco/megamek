@@ -5715,22 +5715,26 @@
 			</model>
 		</chassis>
 		<chassis name='Doloire' unitType='Mek' omni='IS'>
-			<availability>ROS:5</availability>
+			<availability>ROS:5+:3121</availability>
 			<model name='DLR-O'>
-				<availability>General:8</availability>
+                <roles>command</roles>
+				<availability>ROS:8</availability>
 			</model>
 			<model name='DLR-OA'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='DLR-OB'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='DLR-OC'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>ROS:4</availability>
 			</model>
 			<model name='DLR-OD'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>ROS:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Donar Assault Helicopter' unitType='VTOL'>
