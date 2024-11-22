@@ -11579,9 +11579,10 @@
 			</model>
 		</chassis>
 		<chassis name='Mamono IFV' unitType='Tank'>
-			<availability>ROS:5,DC:6</availability>
+			<availability>ROS:4-,DC:6</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>apc,inf_support</roles>
+                <availability>ROS:8,DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Man O&apos; War (Gargoyle)' unitType='Mek' omni='Clan'>
