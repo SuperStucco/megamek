@@ -19228,9 +19228,10 @@
 			</model>
 		</chassis>
 		<chassis name='Viking IIC' unitType='Mek'>
-			<availability>RD:6,LA:4,ROS:3,CGB:6,CWIE:4</availability>
+			<availability>LA:4+,ROS:3,RD:6,CGB:6,CWIE:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>LA:8,ROS:8,RD:8,CGB:8,CWIE:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Viking' unitType='Mek'>
