@@ -18469,7 +18469,7 @@
 		<chassis name='Warg Assault Battle Armor' unitType='BattleArmor'>
 			<availability>CW:3</availability>
 			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>CW:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Warhammer IIC' unitType='Mek'>

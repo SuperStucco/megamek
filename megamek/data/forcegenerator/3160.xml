@@ -20249,12 +20249,12 @@
 			</model>
 		</chassis>
 		<chassis name='Warg Assault Battle Armor' unitType='BattleArmor'>
-			<availability>CWE:4</availability>
+			<availability>CWE:4,SL3:4,CHH:2</availability>
 			<model name='(Reactive)(Sqd5)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>CWE:6,SL3:6</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:5</availability>
+				<availability>CWE:5,SL3:5,CHH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Warhammer IIC' unitType='Mek'>
