@@ -10959,7 +10959,11 @@
 			</model>
 		</chassis>
 		<chassis name='Lightning' unitType='Mek'>
-			<availability>CC:2</availability>
+			<availability>CC:2+:3119</availability>
+            <model name='LHN-C5'>
+                <roles>cavalry,fire_support</roles>
+                <availability>CC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Linebacker' unitType='Mek' omni='Clan'>
 			<availability>CW:5,RA:3,CWIE:6</availability>
