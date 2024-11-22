@@ -12527,12 +12527,14 @@
 			</model>
 		</chassis>
 		<chassis name='Mantis Light Attack VTOL' unitType='VTOL'>
-			<availability>CC:3,LA:3,FWL:4,IS:3,FS:5,CP:4,DC:3</availability>
+			<availability>IS:3,FWL:4,FS:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>ew_support</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(ECCM)'>
-				<availability>ROS:4,FS:4</availability>
+                <roles>ew_support</roles>
+				<availability>ROS:4,FS:4,CC:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Marauder Battle Armor' unitType='BattleArmor'>

@@ -8061,9 +8061,10 @@
 			</model>
 		</chassis>
 		<chassis name='Mantis Light Attack VTOL' unitType='VTOL'>
-			<availability>CC:2,CS:1,LA:2,FRR:2,FWL:2,IS:2,WOB:1,FS:3,DC:2</availability>
+			<availability>IS:2,FWL:3,WOB:3,FS:3</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>ew_support</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Marauder IIC' unitType='Mek'>

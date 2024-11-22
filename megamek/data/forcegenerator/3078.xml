@@ -11371,12 +11371,14 @@
 			</model>
 		</chassis>
 		<chassis name='Mantis Light Attack VTOL' unitType='VTOL'>
-			<availability>CC:3,CS:2,LA:3,FRR:3,CGB.FRR:3,FWL:4,IS:3,WOB:2,FS:5,DC:3</availability>
+			<availability>IS:3,CS:2,FWL:4,WOB:4,FS:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>ew_support</roles>
+				<availability>IS:8</availability>
 			</model>
 			<model name='(ECCM)'>
-				<availability>WOB:4,FS:3</availability>
+                <roles>ew_support</roles>
+				<availability>WOB:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Marauder IIC' unitType='Mek'>
