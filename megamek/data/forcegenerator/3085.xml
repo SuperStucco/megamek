@@ -15902,12 +15902,10 @@
 			</model>
 		</chassis>
 		<chassis name='Spectre Stealth Battle Armor' unitType='BattleArmor'>
-			<availability>FVC:4,CDP:4,RA:2</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>IS:8,Periphery:8</availability>
-			</model>
-			<model name='(Sqd5)' mechanized='true'>
-				<availability>CLAN:8</availability>
+			<availability>FVC:4,CDP:4,FR:3</availability>
+			<model name='(Sqd4)' mechanized='true'>
+                <roles>mag_clamp,recon</roles>
+				<availability>FVC:8,CDP:8,FR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Sphinx' unitType='Mek'>
