@@ -3599,14 +3599,15 @@
 		<chassis name='Buraq Fast Battle Armor' unitType='BattleArmor'>
 			<availability>CHH:6</availability>
 			<model name='(Hunter-Killer)(Sqd5)' mechanized='false'>
-				<availability>General:5</availability>
+                <roles>recon</roles>
+				<availability>CHH:5</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='false'>
-				<availability>General:8</availability>
+				<availability>CHH:8</availability>
 			</model>
 			<model name='(Support)(Sqd5)' mechanized='false'>
 				<roles>spotter</roles>
-				<availability>General:5</availability>
+				<availability>CHH:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Burke Defense Tank' unitType='Tank'>
