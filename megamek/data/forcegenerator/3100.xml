@@ -11412,9 +11412,10 @@
             </model>
 		</chassis>
 		<chassis name='MHI Amphibious APC' unitType='Tank'>
-			<availability>CLAN:5,IS:5</availability>
+			<availability>CLAN.IS:5,IS:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>apc</roles>
+				<availability>IS:8,CLAN.IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='MHI Defense AA Tank' unitType='Tank'>
