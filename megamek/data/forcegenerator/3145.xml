@@ -18468,6 +18468,16 @@
 				<availability>LA:4,MERC:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Stormbird Heavy BA' unitType='BattleArmor'>
+            <availability>CJF:3,RA:3</availability>
+            <model name='(Jade Falcon)(Sqd5)' mechanized='true'>
+                <roles>mag_clamp</roles>
+                <availability>CJF:8</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>RA:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Stormwolf' unitType='Mek' omni='Clan'>
 			<availability>CWE:2,RD:1,CDS:3</availability>
 			<model name='A'>

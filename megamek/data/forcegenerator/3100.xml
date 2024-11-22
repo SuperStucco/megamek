@@ -17202,6 +17202,16 @@
 				<availability>LA:4,MERC:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Stormbird Heavy BA' unitType='BattleArmor'>
+            <availability>CJF:3,RA:3</availability>
+            <model name='(Jade Falcon)(Sqd5)' mechanized='true'>
+                <roles>mag_clamp</roles>
+                <availability>CJF:8</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>RA:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Strider' unitType='Mek' omni='IS'>
 			<availability>CC:4,DC:6,ROS:3,FWL:5,DA:4,MSC:5,MERC:4,MOC:5+</availability>
 			<model name='SR1-O'>
