@@ -7585,12 +7585,12 @@
 			</model>
 		</chassis>
 		<chassis name='Fusilier Battle Armor' unitType='BattleArmor'>
-			<availability>FS:4,MERC:3</availability>
+			<availability>FS:4,MERC:3+</availability>
 			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>FS:6,MERC:8</availability>
 			</model>
 			<model name='(Upgrade)(Sqd4)' mechanized='false'>
-				<availability>FS:6</availability>
+				<availability>FS:6:3135</availability>
 			</model>
 		</chassis>
 		<chassis name='Fwltur' unitType='Mek'>

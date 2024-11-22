@@ -7318,7 +7318,7 @@
 		<chassis name='Fusilier Battle Armor' unitType='BattleArmor'>
 			<availability>FS:5,MERC:3</availability>
 			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:5</availability>
+				<availability>FS:5,MERC:8</availability>
 			</model>
 			<model name='(Upgrade)(Sqd4)' mechanized='false'>
 				<availability>FS:7</availability>
