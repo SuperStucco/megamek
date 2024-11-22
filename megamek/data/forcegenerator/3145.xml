@@ -15566,18 +15566,22 @@
 			</model>
 		</chassis>
 		<chassis name='Prefect' unitType='Mek'>
-			<availability>ROS:4</availability>
+			<availability>ROS:4,FWL:3</availability>
 			<model name='PRF-1C'>
-				<availability>General:6</availability>
+                <roles>cavalry,raider</roles>
+				<availability>ROS:6</availability>
 			</model>
 			<model name='PRF-1R'>
-				<availability>General:8</availability>
+                <roles>cavalry,raider</roles>
+				<availability>ROS:8,FWL:8</availability>
 			</model>
 			<model name='PRF-2R'>
-				<availability>General:4</availability>
+                <roles>cavalry,raider</roles>
+				<availability>ROS:4,FWL:4</availability>
 			</model>
 			<model name='PRF-3R'>
-				<availability>General:5</availability>
+                <roles>cavalry,raider</roles>
+				<availability>FWL:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Pressurized Yard' unitType='Space Station'>

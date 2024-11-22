@@ -15162,6 +15162,25 @@
 				<availability>CDS:6,CP:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Prefect' unitType='Mek'>
+            <availability>SL3:5-,FWL:3,MERC:3+</availability>
+            <model name='PRF-1C'>
+                <roles>cavalry,raider</roles>
+                <availability>FWL:6</availability>
+            </model>
+            <model name='PRF-1R'>
+                <roles>cavalry,raider</roles>
+                <availability>SL3:8,FWL:8,MERC:8</availability>
+            </model>
+            <model name='PRF-2R'>
+                <roles>cavalry,raider</roles>
+                <availability>SL3:4,FWL:4,MERC:4</availability>
+            </model>
+            <model name='PRF-3R'>
+                <roles>cavalry,raider</roles>
+                <availability>FWL:5</availability>
+            </model>
+        </chassis>
 		<chassis name='Pressurized Yard' unitType='Space Station'>
 			<availability>SE:8,CLAN:8,IS:7,Periphery:7</availability>
 			<model name='Huge (2450)'>
