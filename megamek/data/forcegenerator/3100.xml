@@ -18489,13 +18489,14 @@
 			</model>
 		</chassis>
 		<chassis name='Trireme Infantry Transport' unitType='VTOL'>
-			<availability>ROS:4</availability>
+			<availability>ROS:4,FS:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>apc,support</roles>
+				<availability>ROS:8,FS:8</availability>
 			</model>
 			<model name='(CS)'>
 				<roles>apc</roles>
-				<availability>General:4</availability>
+				<availability>ROS:4,FS:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Triton' unitType='ProtoMek'>

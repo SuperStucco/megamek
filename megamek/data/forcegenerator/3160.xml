@@ -19199,6 +19199,17 @@
 				<availability>CC:8,MOC:6+</availability>
 			</model>
 		</chassis>
+        <chassis name='Trireme Infantry Transport' unitType='VTOL'>
+            <availability>FS:4,CC:2</availability>
+            <model name=''>
+                <roles>apc,support</roles>
+                <availability>FS:8,CC:8</availability>
+            </model>
+            <model name='(CS)'>
+                <roles>apc</roles>
+                <availability>FS:4,CC:4</availability>
+            </model>
+        </chassis>
 		<chassis name='Triumph' unitType='Dropship'>
 			<availability>CHH:5,CLAN:2,IS:9,Periphery.Deep:7,BAN:7,Periphery:9</availability>
 			<model name='(2593)'>
