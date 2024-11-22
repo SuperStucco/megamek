@@ -15537,9 +15537,10 @@
 			</model>
 		</chassis>
 		<chassis name='Shillelagh Missile Tank' unitType='Tank'>
-			<availability>DC.GHO:3,DC.pm:4,LA:3-,ROS:3-,MERC:3-</availability>
+			<availability>DC:4-,LA:3-,ROS:3-,MERC:3-</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support,inf_support</roles>
+				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Shilone' unitType='AeroSpaceFighter'>
