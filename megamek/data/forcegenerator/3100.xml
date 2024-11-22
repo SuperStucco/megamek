@@ -1962,9 +1962,10 @@
 			</model>
 		</chassis>
 		<chassis name='Atlas III' unitType='Mek'>
-			<availability>ROS:1:3110,FS:3:3110,MERC:1:3110</availability>
+			<availability>ROS:1:3110,FS:3+:3110,MERC:1+:3110</availability>
 			<model name='AS7-D2'>
-				<availability>General:8</availability>
+                <roles>command</roles>
+				<availability>ROS:8,FS:8,MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Atlas II' unitType='Mek'>
