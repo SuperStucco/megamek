@@ -17575,22 +17575,23 @@
 		<chassis name='Shen Long Battle Armor' unitType='BattleArmor'>
 			<availability>CC:6,MOC:6</availability>
 			<model name='[David Light Gauss](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+				<availability>CC:7,MOC:7</availability>
 			</model>
 			<model name='[Interdictor](Sqd4)' mechanized='false'>
-				<availability>General:4</availability>
+				<availability>CC:4,MOC:4</availability>
 			</model>
 			<model name='[MG](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+                <roles>anti_infantry</roles>
+				<availability>CC:8,MOC:8</availability>
 			</model>
 			<model name='[MRM](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>CC:6,MOC:6</availability>
 			</model>
 			<model name='[Pop-Up Mine](Sqd4)' mechanized='false'>
-				<availability>General:5</availability>
+				<availability>CC:5,MOC:5</availability>
 			</model>
 			<model name='[SRM](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>CC:6,MOC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Shen Yi' unitType='Mek'>
