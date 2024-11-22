@@ -14170,12 +14170,12 @@
 			</model>
 		</chassis>
 		<chassis name='Ogre Battle Armor' unitType='BattleArmor'>
-			<availability>RF:6,LA:4,DA:4</availability>
-			<model name='(Interdictor)(Sqd4)' mechanized='false'>
-				<availability>General:4</availability>
+			<availability>FWL:4,RF:6,LA:4,DA:4</availability>
+			<model name='(Interdictor)(Sqd4)' mechanized='true'>
+				<availability>FWL:4,RF:4,LA:4,DA:4</availability>
 			</model>
 			<model name='(Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>FWL:8,RF:8,LA:8,DA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Okinawa' unitType='Dropship'>
