@@ -14813,11 +14813,11 @@
 			<availability>DTA:4,ROS:5,RCM:4,DA:4,MERC:4</availability>
 			<model name='[David](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='[GL](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='R10 Mechanized ICV' unitType='Tank'>

@@ -15910,18 +15910,30 @@
             </model>
         </chassis>
         <chassis name='Quirinus Battle Armor' unitType='BattleArmor'>
-            <availability>ROS:6,FWL:4,MERC:4,CP:4</availability>
+            <availability>ROS:6,FWL:4,FS:3,MERC:4,CP:4-</availability>
             <model name='[David](Sqd4)' mechanized='true'>
                 <roles>spotter</roles>
-                <availability>General:6</availability>
+                <availability>IS:6</availability>
+            </model>
+            <model name='[David](Sqd5)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>CP:6</availability>
             </model>
             <model name='[GL](Sqd4)' mechanized='true'>
                 <roles>spotter</roles>
-                <availability>General:6</availability>
+                <availability>IS:6</availability>
             </model>
-            <model name='[MG](Sqd4)' mechanized='false'>
+            <model name='[GL](Sqd5)' mechanized='true'>
                 <roles>spotter</roles>
-                <availability>General:4</availability>
+                <availability>CP:6</availability>
+            </model>
+            <model name='[MG](Sqd4)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>IS:4</availability>
+            </model>
+            <model name='[MG](Sqd5)' mechanized='true'>
+                <roles>spotter</roles>
+                <availability>CP:4</availability>
             </model>
         </chassis>
         <chassis name='R10 Mechanized ICV' unitType='Tank'>

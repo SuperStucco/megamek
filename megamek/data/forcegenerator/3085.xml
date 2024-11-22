@@ -14073,14 +14073,14 @@
 			</model>
 		</chassis>
 		<chassis name='Quirinus Battle Armor' unitType='BattleArmor'>
-			<availability>DTA:3,ROS:4,RCM:3,DA:3,MERC:3</availability>
+			<availability>DTA:3:3093,ROS:4:3093,RCM:3:3093,DA:3:3093,MERC:3:3093</availability>
 			<model name='[David](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 			<model name='[GL](Sqd4)' mechanized='true'>
 				<roles>spotter</roles>
-				<availability>General:6</availability>
+				<availability>IS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='R10 Mechanized ICV' unitType='Tank'>
