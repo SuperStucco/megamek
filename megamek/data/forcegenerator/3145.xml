@@ -13693,9 +13693,9 @@
 			</model>
 		</chassis>
         <chassis name='Naja' unitType='Mek'>
-            <availability>EI:4,SE:4</availability>
+            <availability>CEI:4,SE:4</availability>
             <model name=''>
-                <availability>EI:8,SE:8</availability>
+                <availability>CEI:8,SE:8</availability>
             </model>
         </chassis>
 		<chassis name='Naga' unitType='Mek' omni='Clan'>
