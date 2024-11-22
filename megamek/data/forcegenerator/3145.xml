@@ -19333,33 +19333,51 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbird Battle Armor' unitType='BattleArmor'>
-			<availability>CP:8,DC:4</availability>
-			<model name='(Upgrade)[ER Laser](Sqd4)' mechanized='false'>
+			<availability>CJF:4,CDS:6,RD:4,CP:8,ROS:6,DC:4+</availability>
+			<model name='(Upgrade)[ER Laser](Sqd4)' mechanized='true'>
 				<availability>DC:4</availability>
 			</model>
-			<model name='(Upgrade)[LB-X](Sqd4)' mechanized='false'>
+            <model name='(Upgrade)[ER Laser](Sqd5)' mechanized='true'>
+                <availability>CP:6+</availability>
+            </model>
+			<model name='(Upgrade)[LB-X](Sqd4)' mechanized='true'>
 				<availability>DC:4</availability>
 			</model>
-			<model name='(Upgrade)[Pulse Laser](Sqd4)' mechanized='false'>
+            <model name='(Upgrade)[LB-X](Sqd5)' mechanized='true'>
+                <availability>CP:6+</availability>
+            </model>
+			<model name='(Upgrade)[Pulse Laser](Sqd4)' mechanized='true'>
 				<availability>DC:4</availability>
 			</model>
-			<model name='[AP Gauss](Sqd5)' mechanized='false'>
-				<availability>General:4</availability>
+            <model name='(Upgrade)[Pulse Laser](Sqd5)' mechanized='true'>
+                <availability>CP:6+</availability>
 			</model>
-			<model name='[ER Laser](Sqd4)' mechanized='false'>
-				<availability>DC:4</availability>
+            <model name='[AP Gauss](Sqd4)' mechanized='true'>
+                <availability>ROS:8,DC:6</availability>
+            </model>
+			<model name='[AP Gauss](Sqd5)' mechanized='true'>
+				<availability>CJF:8,CDS:8,RD:8,CP:8</availability>
+			</model>
+			<model name='[ER Laser](Sqd4)' mechanized='true'>
+				<availability>ROS:8,DC:6</availability>
 			</model>
 			<model name='[ER Laser](Sqd5)' mechanized='true'>
-				<availability>General:4</availability>
+				<availability>CJF:8,CDS:8,RD:8,CP:8</availability>
 			</model>
-			<model name='[Pulse Laser](Sqd5)' mechanized='false'>
-				<availability>General:4</availability>
+            <model name='[Pulse Laser](Sqd4)' mechanized='true'>
+                <availability>ROS:8,DC:6</availability>
+            </model>
+			<model name='[Pulse Laser](Sqd5)' mechanized='true'>
+				<availability>CJF:8,CDS:8,RD:8,CP:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Thunderbird II Battle Armor' unitType='BattleArmor'>
-			<availability>ROS:5,CP:4</availability>
+			<availability>ROS:5+,CP:4</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>ROS:8</availability>
+            </model>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>CP:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Thunderbird' unitType='AeroSpaceFighter'>

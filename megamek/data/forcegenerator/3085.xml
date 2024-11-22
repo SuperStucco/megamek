@@ -17031,15 +17031,24 @@
 			</model>
 		</chassis>
 		<chassis name='Thunderbird Battle Armor' unitType='BattleArmor'>
-			<availability>CNC:6</availability>
-			<model name='[AP Gauss](Sqd5)' mechanized='false'>
-				<availability>General:6</availability>
+			<availability>CNC:6:3086</availability>
+            <model name='(Upgrade)[ER Laser](Sqd5)' mechanized='true'>
+                <availability>CNC:4+:3089</availability>
+            </model>
+            <model name='(Upgrade)[LB-X](Sqd5)' mechanized='true'>
+                <availability>CNC:4+:3089</availability>
+            </model>
+            <model name='(Upgrade)[Pulse Laser](Sqd5)' mechanized='true'>
+                <availability>CNC:4+:3089</availability>
+            </model>
+			<model name='[AP Gauss](Sqd5)' mechanized='true'>
+				<availability>CNC:6</availability>
 			</model>
 			<model name='[ER Laser](Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CNC:6</availability>
 			</model>
-			<model name='[Pulse Laser](Sqd5)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[Pulse Laser](Sqd5)' mechanized='true'>
+				<availability>CNC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Thunderbird' unitType='AeroSpaceFighter'>
