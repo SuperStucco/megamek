@@ -15776,10 +15776,10 @@
             </model>
         </chassis>
 		<chassis name='Quaestor Mobile Tactical Command HQ' unitType='Tank'>
-			<availability>ROS:5,IS:4</availability>
+			<availability>ROS:5-,IS:4,RD:4-</availability>
 			<model name=''>
-				<roles>support</roles>
-				<availability>General:8</availability>
+				<roles>command,support</roles>
+				<availability>IS:8,RD:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Quasimodo' unitType='Mek'>

@@ -14003,10 +14003,10 @@
             </model>
         </chassis>
 		<chassis name='Quaestor Mobile Tactical Command HQ' unitType='Tank'>
-			<availability>ROS:4</availability>
+			<availability>ROS:4-:3095</availability>
 			<model name=''>
-				<roles>support</roles>
-				<availability>General:8</availability>
+				<roles>command,support</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Quasit MilitiaMech' unitType='Mek'>
