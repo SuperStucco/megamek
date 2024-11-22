@@ -11015,8 +11015,8 @@
 		</chassis>
 		<chassis name='Kishi Ceremonial Armor' unitType='BattleArmor'>
 			<availability>DC:8</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='(Sqd4)' mechanized='true'>
+				<availability>DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kiso' unitType='Mek'>
