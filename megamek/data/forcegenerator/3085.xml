@@ -12143,9 +12143,10 @@
 			</model>
 		</chassis>
 		<chassis name='NL-45 Gunboat' unitType='Small Craft'>
-			<availability>CHH:1,CDS:3,RA:4</availability>
+			<availability>CHH:1:3094,CDS:3:3094,CGB:4:3094,RA:4:3094</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>escort,assault</roles>
+				<availability>CHH:8,CDS:8,CGB:8,RA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Nacon Armored Scout' unitType='Tank'>
