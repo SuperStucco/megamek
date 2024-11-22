@@ -10847,25 +10847,26 @@
 			</model>
 		</chassis>
 		<chassis name='Mad Cat III' unitType='Mek'>
-			<availability>CDS:4,LA:4,ROS:4,CNC:3,IS:3,CWIE:3,DC:4</availability>
+			<availability>CDS:4,CNC:3,CWIE:3,IS:3+,LA:4,DC:4+,ROS:4</availability>
 			<model name=''>
-				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>CLAN.IS:8,IS:8</availability>
 			</model>
 			<model name='2'>
-				<availability>General:6</availability>
+                <roles>cavalry</roles>
+				<availability>CLAN.IS:6:3089,IS:6:3089</availability>
 			</model>
 			<model name='3'>
-				<roles>fire_support</roles>
-				<availability>General:4</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>CLAN.IS:4:3094,IS:4:3094</availability>
 			</model>
 			<model name='4'>
-				<roles>fire_support</roles>
-				<availability>General:5</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>CLAN.IS:5:3095,IS:5:3095</availability>
 			</model>
 			<model name='5'>
-				<roles>fire_support</roles>
-				<availability>General:5</availability>
+				<roles>cavalry,fire_support</roles>
+				<availability>CLAN:5:3097,IS:5:3097</availability>
 			</model>
 		</chassis>
 		<chassis name='Mad Cat Mk II' unitType='Mek'>
