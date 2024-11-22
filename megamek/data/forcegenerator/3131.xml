@@ -11035,10 +11035,10 @@
             </model>
 		</chassis>
 		<chassis name='Kite Reconnaissance Vehicle' unitType='Tank'>
-			<availability>CC:5,RD:5,CDS:6,LA:5,ROS:5,CNC:5,CP:5,CJF:4,DC:5,RA:4</availability>
+			<availability>RD:5,CDS:6,CJF:4-,CNC:5,RA:4,CP:5,LA:5+,ROS:5,CC:5+,DC:5+</availability>
 			<model name=''>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>ew_support,recon,spotter</roles>
+				<availability>CLAN.IS:8,IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kobold Battle Armor IIC' unitType='BattleArmor'>
