@@ -10715,9 +10715,10 @@
 			</model>
 		</chassis>
 		<chassis name='Lamprey Transport Helicopter' unitType='VTOL'>
-			<availability>MOC:4,RF:4,ROS:4,FWL:4,MH:4,DA:4,MERC:4,TC:5</availability>
+			<availability>MOC:4,RF:4,ROS:4,FWL:4,MH:4,DA:4,MERC:4,TC:5,FR:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>apc</roles>
+				<availability>IS:8,MOC:8,TC:8,MH:8,FR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Lancelot' unitType='Mek'>
