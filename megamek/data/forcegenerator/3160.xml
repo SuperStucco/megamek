@@ -14263,9 +14263,10 @@
 			</model>
 		</chassis>
 		<chassis name='PAB-28 Sniper Suit' unitType='BattleArmor'>
-			<availability>FS:6,MERC:4</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<availability>FS:4</availability>
+			<model name='(Sqd4)' mechanized='true'>
+                <roles>specops</roles>
+				<availability>FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Pack Hunter II' unitType='Mek'>
