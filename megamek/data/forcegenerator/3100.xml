@@ -12895,9 +12895,10 @@
 			</model>
 		</chassis>
 		<chassis name='Nagasawa' unitType='Dropship'>
-			<availability>CDS:4,CW:2,CLAN.IS:4,CWIE:2</availability>
+			<availability>CLAN.IS:4:3115,CW:2:3115,CWIE:2:3115</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>assault</roles>
+				<availability>CLAN.IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Naginata' unitType='Mek'>
