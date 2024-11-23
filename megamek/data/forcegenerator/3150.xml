@@ -19616,6 +19616,17 @@
                 <availability>MERC.WD:4</availability>
             </model>
         </chassis>
+        <chassis name='TinStar BattleArmor' unitType='BattleArmor'>
+            <availability>FR:7</availability>
+            <model name='(Original)(Sqd4)' mechanized='true'>
+                <roles>mag_clamp</roles>
+                <availability>FR:2</availability>
+            </model>
+            <model name='(Sqd4)' mechanized='true'>
+                <roles>mag_clamp</roles>
+                <availability>FR:8</availability>
+            </model>
+        </chassis>
         <chassis name='Ti Ts&apos;ang' unitType='Mek'>
             <availability>CC:6,MOC:3,TC:3</availability>
             <model name='TSG-10L'>
