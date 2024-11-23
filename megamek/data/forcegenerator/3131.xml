@@ -3423,21 +3423,21 @@
 			</model>
 		</chassis>
 		<chassis name='Black Wolf Battle Armor' unitType='BattleArmor'>
-			<availability>CWE:4,CW:4,CWIE:5</availability>
-			<model name='[ERSPL](Sqd5)' mechanized='false'>
-				<availability>General:6</availability>
+			<availability>CW:4:3138,CWIE:5:3138,CHH:3:3138</availability>
+			<model name='[ERSPL](Sqd5)' mechanized='true'>
+				<availability>CW:6,CWIE:6,CHH:6</availability>
 			</model>
 			<model name='[Heavy Flamer](Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CW:6,CWIE:6,CHH:6</availability>
 			</model>
 			<model name='[Heavy Mortar](Sqd5)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>CW:6,CWIE:6,CHH:6</availability>
 			</model>
-			<model name='[LBX](Sqd5)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[LBX](Sqd5)' mechanized='true'>
+				<availability>CW:6,CWIE:6,CHH:6</availability>
 			</model>
-			<model name='[Plasma](Sqd5)' mechanized='false'>
-				<availability>General:5</availability>
+			<model name='[Plasma](Sqd5)' mechanized='true'>
+				<availability>CW:5,CWIE:5,CHH:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Blackjack' unitType='Mek'>
