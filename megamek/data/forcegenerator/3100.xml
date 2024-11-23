@@ -16080,9 +16080,12 @@
 		</chassis>
 		<chassis name='Sea Fox Amphibious Armor' unitType='BattleArmor'>
 			<availability>CDS:3,FS:3</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='(Sqd4)' mechanized='true'>
+				<availability>FS:8</availability>
 			</model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>CDS:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Sea Skimmer Hydrofoil' unitType='Naval'>
 			<availability>LA:8,ROS:5,CJF:2:3131</availability>

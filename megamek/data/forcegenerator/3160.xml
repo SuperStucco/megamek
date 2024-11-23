@@ -16760,9 +16760,12 @@
 		</chassis>
 		<chassis name='Sea Fox Amphibious Armor' unitType='BattleArmor'>
 			<availability>CDS:4,FS:4,CP:4</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
-			</model>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>FS:8</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>CDS:8,CP:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Sea Skimmer Hydrofoil' unitType='Naval'>
 			<availability>LA:4</availability>
