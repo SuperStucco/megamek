@@ -15153,7 +15153,13 @@
 			</model>
 		</chassis>
 		<chassis name='Phoenix Hawk L' unitType='Mek'>
-			<availability>DTA:5,OP:5,CDS:5,ROS:5,CNC:5,FWL:5:3139,MSC:5,MERC:5,CP:5,CJF:4,DC:7</availability>
+			<availability>DTA:5,OP:5,CDS:5,ROS:5,CNC:5,FWL:5:3139,MSC:5,MERC:5,CJF:4-,DC:7</availability>
+            <model name='&apos;Fenikkusu Taka&apos; PXH-11K'>
+                <availability>IS:8,CNC:8,CDS:8,CJF:4</availability>
+            </model>
+            <model name='&apos;Fenikkusu Taka&apos; PXH-11K2'>
+                <availability>IS:4,CNC:4,CDS:4,CJF:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Phoenix Hawk' unitType='Mek'>
 			<availability>RD:4,IS:7,FWL:8,CP:8,Periphery:6</availability>
