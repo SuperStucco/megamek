@@ -10866,29 +10866,37 @@
             </model>
         </chassis>
         <chassis name='Karnov UR Transport' unitType='VTOL'>
-            <availability>CC:4,IS:5,MERC:5,Periphery:4,RA:4,SL3.CJF:5,LA:4,TamPact:4,ROS:5,MH:3,SL3:4,SL3.CSJ:5,DA:3,DC:4,VesMar:4
-            </availability>
+            <availability>IS:5,LA:4,ROS:5,DC:4,MERC:5,CLAN.IS:4-,RA.OA:4,TamPact:4,VesMar:4,Periphery:4,MH:3,PIR:2</availability>
             <model name=''>
                 <roles>apc,cargo</roles>
-                <availability>General:4</availability>
+				<availability>IS:4-,RA.OA:4,Periphery:4,PIR:6</availability>
             </model>
             <model name='(3055 Upgrade)'>
                 <roles>apc,cargo</roles>
-                <availability>IS:8,MERC:8,Periphery:6,RA:6-</availability>
+				<availability>IS:8,ROS:6-,MERC:8,RA:6-,RA.OA:6,Periphery:6</availability>
             </model>
             <model name='(AC)'>
-                <availability>MH:2,MERC:2</availability>
+                <roles>inf_support</roles>
+				<availability>MH:2</availability>
             </model>
             <model name='(Artillery)'>
-                <roles>artillery</roles>
-                <availability>General:2</availability>
+				<roles>mixed_artillery</roles>
+				<availability>IS:2</availability>
             </model>
             <model name='(BA)'>
                 <roles>apc</roles>
-                <availability>IS:6</availability>
+                <availability>IS:6,ROS:2</availability>
+            </model>
+            <model name='(BA Stealth)'>
+                <roles>apc,specops</roles>
+                <availability>IS:6+,ROS:8,MERC:4+,CLAN.IS:8</availability>
+            </model>
+            <model name='(Heavy Stealth)'>
+                <roles>ew_support,apc,specops</roles>
+                <availability>PIR:2</availability>
             </model>
             <model name='(Periphery)'>
-                <availability>CC:4,DA:4,Periphery:5</availability>
+				<availability>CC:4-,DA:4-,Periphery:5-,PIR:6</availability>
             </model>
         </chassis>
         <chassis name='Katana (Crockett)' unitType='Mek'>

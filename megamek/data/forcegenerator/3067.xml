@@ -8724,28 +8724,29 @@
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Transport' unitType='VTOL'>
-			<availability>MERC.KH:4,MERC.WD:4,HL:3,LA:4,PIR:2:3068,IS:5,MH:2:3068,MERC:5,Periphery:4,DC:4</availability>
+			<availability>MERC.KH:4,MERC.WD:4,IS:5,LA:4,DC:4,MERC:5,Periphery:4,MH:3,HL:3,PIR:3</availability>
 			<model name=''>
 				<roles>apc,cargo</roles>
-				<availability>General:6</availability>
+				<availability>IS:6,Periphery:7,HL:8,PIR:8</availability>
 			</model>
 			<model name='(3055 Upgrade)'>
 				<roles>apc,cargo</roles>
 				<availability>HL:2,IS:6,MERC:6,Periphery:4</availability>
 			</model>
 			<model name='(AC)'>
-				<availability>MH:2,MERC:2</availability>
+                <roles>inf_support</roles>
+				<availability>MERC:2,MH:2</availability>
 			</model>
 			<model name='(Artillery)'>
-				<roles>artillery</roles>
-				<availability>General:2</availability>
+				<roles>mixed_artillery</roles>
+				<availability>IS:2</availability>
 			</model>
 			<model name='(BA)'>
 				<roles>apc</roles>
-				<availability>IS:6</availability>
+				<availability>IS:6,MERC:4+</availability>
 			</model>
 			<model name='(Periphery)'>
-				<availability>CC:4,Periphery:5</availability>
+				<availability>Periphery:5-,MH:6,PIR:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Katana (Crockett)' unitType='Mek'>

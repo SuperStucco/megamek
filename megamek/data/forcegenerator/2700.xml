@@ -1905,7 +1905,7 @@
 			<availability>TH:6,SL:4,IS:4,MERC:4,Periphery:3</availability>
 			<model name=''>
 				<roles>apc,cargo</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,SL:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Kimagure Pursuit Cruiser' unitType='Warship'>

@@ -4756,14 +4756,18 @@
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Transport' unitType='VTOL'>
-			<availability>MERC.KH:2,MERC.WD:3,HL:2,LA:4,IS:5,MERC:5,FC:4,Periphery:4,DC:4</availability>
+			<availability>MERC.KH:2,MERC.WD:3,IS:5,FC:4,LA:4,DC:4,MERC:5,Periphery:4,MH:2,HL:2,PIR:2</availability>
 			<model name=''>
 				<roles>apc,cargo</roles>
-				<availability>General:8</availability>
+				<availability>IS:8,Periphery:8,HL:8</availability>
 			</model>
+            <model name='(AC)'>
+                <roles>inf_support</roles>
+                <availability>MERC:3</availability>
+            </model>
 			<model name='(Artillery)'>
-				<roles>artillery</roles>
-				<availability>General:2</availability>
+				<roles>mixed_artillery</roles>
+				<availability>IS:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Katana (Crockett)' unitType='Mek'>

@@ -9874,32 +9874,33 @@
 			</model>
 		</chassis>
 		<chassis name='Karnov UR Transport' unitType='VTOL'>
-			<availability>CC:3:3081,MERC.KH:3,HL:3,IS:5,MERC:5,Periphery:4,MERC.WD:3,LA:4,ROS:5,PIR:2,MH:3,SL3.CSJ:5,DA:3:3081,DC:4</availability>
+			<availability>MERC.KH:3,MERC.WD:3,IS:5,LA:4,ROS:5,DC:4,CC:3,DA:3,MERC:5,Periphery:4,HL:3,PIR:4</availability>
 			<model name=''>
 				<roles>apc,cargo</roles>
-				<availability>General:4</availability>
+				<availability>IS:4,Periphery:6,HL:8,PIR:7</availability>
 			</model>
 			<model name='(3055 Upgrade)'>
 				<roles>apc,cargo</roles>
 				<availability>HL:3,IS:8,MERC:8,Periphery:5</availability>
 			</model>
 			<model name='(AC)'>
-				<availability>MH:2,MERC:2</availability>
+                <roles>inf_support</roles>
+				<availability>MERC:2,MH:2</availability>
 			</model>
 			<model name='(Artillery)'>
-				<roles>artillery</roles>
-				<availability>General:2</availability>
+				<roles>mixed_artillery</roles>
+				<availability>IS:2</availability>
 			</model>
 			<model name='(BA)'>
 				<roles>apc</roles>
-				<availability>IS:6</availability>
+				<availability>IS:6,MERC:4+</availability>
 			</model>
 			<model name='(Heavy Stealth)'>
 				<roles>ew_support,apc,specops</roles>
-				<availability>PIR:2</availability>
+				<availability>PIR:2:3080</availability>
 			</model>
 			<model name='(Periphery)'>
-				<availability>CC:4,DA:4,Periphery:5</availability>
+				<availability>Periphery:5-,MH:5,PIR:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Katana (Crockett)' unitType='Mek'>
