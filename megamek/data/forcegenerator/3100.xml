@@ -13901,9 +13901,10 @@
 			</model>
 		</chassis>
 		<chassis name='Partisan AA Vehicle' unitType='Tank'>
-			<availability>MOC:4,FWL:4,IS:3,DA:4</availability>
+			<availability>MOC:4,FWL:4,IS:3,DA:4,FR:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>anti_aircraft</roles>
+				<availability>IS:8,MOC:8,FR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Partisan Air Defense Tank' unitType='Tank'>

@@ -14848,13 +14848,14 @@
 			</model>
 		</chassis>
 		<chassis name='Partisan AA Vehicle' unitType='Tank'>
-			<availability>MOC:7,FWL:6,IS:4,DA:6,CP:6</availability>
+			<availability>MOC:7,FWL:6,IS:4,DA:6,FR:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>anti_aircraft</roles>
+				<availability>IS:8,MOC:8,FR:8</availability>
 			</model>
 			<model name='(3134 Upgrade)'>
 				<roles>anti_aircraft</roles>
-				<availability>FWL:6,CP:6</availability>
+				<availability>FWL:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Partisan Air Defense Tank' unitType='Tank'>
