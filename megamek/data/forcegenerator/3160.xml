@@ -8328,8 +8328,19 @@
 				<availability>LA:8,MERC.KH:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Gun' unitType='Mek'>
-			<availability>CC:6-,MOC:5,DA:4</availability>
+		<chassis name='Gùn' unitType='Mek'>
+			<availability>CC:6-,MOC:5,DA:4,MH:3,TC:4</availability>
+            <model name='GN-2O'>
+                <roles>inf_support</roles>
+                <availability>CC:8,MOC:8,DA:8,MH:7,TC:7</availability>
+            </model>
+            <model name='GN-2OA'>
+                <availability>CC:6,MOC:6,DA:6,MH:8,TC:8</availability>
+            </model>
+            <model name='GN-2OB'>
+                <roles>ew_support,inf_support,spotter</roles>
+                <availability>CC:7,MOC:5+,DA:7,MH:5,TC:7</availability>
+            </model>
 		</chassis>
 		<chassis name='Gunslinger' unitType='Mek'>
 			<availability>IS:5,FVC:3+,LA:8,DC:7,MH:3+</availability>
