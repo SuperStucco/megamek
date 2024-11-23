@@ -5280,9 +5280,10 @@
 			</model>
 		</chassis>
 		<chassis name='Crane Heavy Transport' unitType='VTOL'>
-			<availability>CNC:5,IS:5,MERC:5,Periphery:4,CWIE:5</availability>
+			<availability>CNC:5,IS:5,Periphery:4,CWIE:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>apc</roles>
+				<availability>IS:8,CNC:8,CWIE:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Cricket' unitType='Mek'>
