@@ -16502,6 +16502,49 @@
 				<availability>LA:8,MERC:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Scapha Hovertank' unitType='Tank' omni='IS'>
+            <availability>SL3:5-</availability>
+            <model name='(A)'>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(B)'>
+                <roles>fire_support</roles>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(C)'>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(D)'>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(E)'>
+                <roles>fire_support</roles>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(F)'>
+                <roles>spotter</roles>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(G)'>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(H)'>
+                <roles>raider</roles>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(I)'>
+                <roles>command,spotter</roles>
+                <availability>SL3:3</availability>
+            </model>
+            <model name='(J)'>
+                <roles>ew_support,raider</roles>
+                <availability>SL3:7</availability>
+            </model>
+            <model name='(Primary)'>
+                <roles>ew_support,raider,recon</roles>
+                <availability>SL3:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Scarabus' unitType='Mek'>
 			<availability>RF:5,LA:3,FS:6,MERC:4,DA:5</availability>
 			<model name='SCB-9A'>

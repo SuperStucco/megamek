@@ -15820,42 +15820,46 @@
 			</model>
 		</chassis>
 		<chassis name='Scapha Hovertank' unitType='Tank' omni='IS'>
-			<availability>ROS:5+</availability>
+			<availability>ROS:5+:3123</availability>
 			<model name='(A)'>
-				<availability>General:7</availability>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(B)'>
-				<availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(C)'>
-				<availability>General:7</availability>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(D)'>
-				<availability>General:7</availability>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(E)'>
-				<roles>artillery</roles>
-				<availability>General:7</availability>
+				<roles>fire_support</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(F)'>
 				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(G)'>
-				<availability>General:7</availability>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(H)'>
-				<availability>General:7</availability>
+                <roles>raider</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(I)'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>ROS:4</availability>
 			</model>
 			<model name='(J)'>
-				<availability>General:7</availability>
+                <roles>ew_support,raider</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='(Primary)'>
-				<availability>General:8</availability>
+                <roles>ew_support,raider,recon</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Scarabus' unitType='Mek'>
