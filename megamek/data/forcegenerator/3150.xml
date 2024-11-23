@@ -21749,15 +21749,24 @@
             </model>
         </chassis>
         <chassis name='Xiphos Assault Battle Armor' unitType='BattleArmor'>
-            <availability>FWL:6,CP:6</availability>
+            <availability>FWL:6,CP:6,CWE:4-</availability>
             <model name='A(Sqd4)' mechanized='false'>
-                <availability>General:6</availability>
+                <availability>FWL:6</availability>
+            </model>
+            <model name='A(Sqd5)' mechanized='false'>
+                <availability>CP:6,CWE:6</availability>
             </model>
             <model name='B(Sqd4)' mechanized='false'>
-                <availability>General:6</availability>
+                <availability>FWL:6</availability>
+            </model>
+            <model name='B(Sqd5)' mechanized='false'>
+                <availability>CP:6,CWE:6</availability>
             </model>
             <model name='C(Sqd4)' mechanized='false'>
-                <availability>General:6</availability>
+                <availability>FWL:6</availability>
+            </model>
+            <model name='C(Sqd5)' mechanized='false'>
+                <availability>CP:6,CWE:6</availability>
             </model>
         </chassis>
         <chassis name='Yao Lien' unitType='Mek'>

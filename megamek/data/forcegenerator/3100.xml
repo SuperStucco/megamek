@@ -20093,13 +20093,13 @@
 		<chassis name='Xiphos Assault Battle Armor' unitType='BattleArmor'>
 			<availability>DTA:3,OP:3,MSC:4</availability>
 			<model name='A(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>DTA:6,OP:6,MSC:6</availability>
 			</model>
 			<model name='B(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>DTA:6,OP:6,MSC:6</availability>
 			</model>
 			<model name='C(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+				<availability>DTA:6,OP:6,MSC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Yao Lien' unitType='Mek'>
