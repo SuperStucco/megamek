@@ -9251,6 +9251,13 @@
 				<availability>IS:1,Periphery:1</availability>
 			</model>
 		</chassis>
+        <chassis name='Hexareme HQ Hovercraft' unitType='Tank'>
+            <availability>CC:3,FS:3</availability>
+            <model name=''>
+                <roles>specops</roles>
+                <availability>CC:8,FS:8</availability>
+            </model>
+        </chassis>
         <chassis name='Hi-Scout Drone' unitType='Tank'>
             <availability>IS:4+</availability>
             <model name='(NapFind)'>

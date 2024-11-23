@@ -8938,7 +8938,8 @@
 		<chassis name='Hexareme HQ Hovercraft' unitType='Tank'>
 			<availability>ROS:4</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>specops</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
         <chassis name='Hi-Scout Drone' unitType='Tank'>
