@@ -11190,15 +11190,19 @@
 		<chassis name='Loki Mk II (Hel)' unitType='Mek' omni='Clan'>
 			<availability>CHH:5,RD:4,CDS:4,CW:4,CJF:5,RA:4</availability>
 			<model name='(Prime)'>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:8</availability>
 			</model>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:7</availability>
 			</model>
 			<model name='B'>
-				<roles>artillery</roles>
-				<availability>General:5</availability>
+				<roles>fire_support</roles>
+				<availability>CLAN.IS:5-</availability>
 			</model>
+            <model name='C'>
+                <roles>fire_support,sr_fire_support</roles>
+                <availability>CLAN.IS:5:3130</availability>
+            </model>
 		</chassis>
 		<chassis name='Lola III Destroyer' unitType='Warship'>
 			<availability>CHH:3,MERC.WD:2,CDS:2,CW:1,ROS:1,CNC:3,RA:3</availability>

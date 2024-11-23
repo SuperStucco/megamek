@@ -11933,17 +11933,30 @@
 			</model>
 		</chassis>
 		<chassis name='Loki Mk II (Hel)' unitType='Mek' omni='Clan'>
-			<availability>CWE:5,CHH:6,RD:5,MERC.WD:3,MERC.KH:3,CDS:5,CW:5,CP:5,CJF:6,RA:5</availability>
+			<availability>CHH:6,RD:5,CDS:5,CW:5,CJF:6,RA:5,MERC:3+</availability>
 			<model name='(Prime)'>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:8</availability>
 			</model>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:7,MERC:8</availability>
 			</model>
 			<model name='B'>
-				<roles>artillery</roles>
-				<availability>General:5</availability>
+				<roles>fire_support</roles>
+				<availability>CLAN.IS:5-,MERC:5</availability>
 			</model>
+            <model name='C'>
+                <roles>fire_support,sr_fire_support</roles>
+                <availability>CLAN.IS:5</availability>
+            </model>
+            <model name='D'>
+                <availability>CLAN.IS:6</availability>
+            </model>
+            <model name='E'>
+                <availability>CLAN.IS:6:3136</availability>
+            </model>
+            <model name='T'>
+                <availability>CLAN.IS:6:3142,CW:0</availability>
+            </model>
 		</chassis>
 		<chassis name='Lola III Destroyer' unitType='Warship'>
 			<availability>CWE:1,CHH:3,MERC.WD:2,CDS:2,CW:1,ROS:1,CNC:3,CP:2,RA:3</availability>
