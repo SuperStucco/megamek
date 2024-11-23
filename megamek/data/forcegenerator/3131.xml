@@ -14284,18 +14284,18 @@
 			</model>
 		</chassis>
 		<chassis name='Oni Battle Armor' unitType='BattleArmor'>
-			<availability>DC.pm:5,DC:2-</availability>
-			<model name='[Bearhunter](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<availability>DC.pm:5:3134,DC:2-:3134</availability>
+			<model name='[Bearhunter](Sqd4)' mechanized='true'>
+				<availability>DC:6</availability>
 			</model>
-			<model name='[MRR](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<model name='[MRR](Sqd4)' mechanized='true'>
+				<availability>DC:8</availability>
 			</model>
-			<model name='[Narc](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[Narc](Sqd4)' mechanized='true'>
+				<availability>DC:6</availability>
 			</model>
 			<model name='[PPC](Sqd4)' mechanized='true'>
-				<availability>General:6</availability>
+				<availability>DC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Oni' unitType='AeroSpaceFighter'>
