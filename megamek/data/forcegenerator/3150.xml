@@ -8544,16 +8544,18 @@
             </model>
         </chassis>
         <chassis name='Gulltoppr OmniMonitor' unitType='Tank' omni='IS'>
-            <availability>MERC.KH:5,LA:4,CWIE:6</availability>
+            <availability>MERC.KH:5,LA:4+,CWIE:6</availability>
             <model name='(A)'>
-                <availability>General:7</availability>
+                <roles>fire_support</roles>
+				<availability>CWIE:7,LA:7,MERC.KH:7</availability>
             </model>
             <model name='(B)'>
-                <roles>artillery,spotter</roles>
-                <availability>General:7</availability>
+				<roles>command,fire_support,spotter</roles>
+				<availability>CWIE:4,LA:4,MERC.KH:4</availability>
             </model>
             <model name='(Prime)'>
-                <availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>CWIE:8,LA:8,MERC.KH:8</availability>
             </model>
         </chassis>
         <chassis name='Gun' unitType='Mek'>
