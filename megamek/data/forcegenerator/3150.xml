@@ -19664,13 +19664,16 @@
         <chassis name='Tian-Zong' unitType='Mek'>
             <availability>CC:6+,MOC:5+</availability>
             <model name='TNZ-N1'>
-                <availability>General:8</availability>
+                <roles>command</roles>
+                <availability>CC:8,MOC:8</availability>
             </model>
             <model name='TNZ-N2'>
-                <availability>General:4</availability>
+                <roles>command</roles>
+                <availability>CC:4,MOC:4</availability>
             </model>
             <model name='TNZ-N3'>
-                <availability>General:3</availability>
+                <roles>command</roles>
+                <availability>CC:3,MOC:3</availability>
             </model>
         </chassis>
         <chassis name='Tiburon' unitType='Mek'>

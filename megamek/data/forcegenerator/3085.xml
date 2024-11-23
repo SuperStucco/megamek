@@ -17197,12 +17197,14 @@
 			</model>
 		</chassis>
 		<chassis name='Tian-Zong' unitType='Mek'>
-			<availability>CC:4+</availability>
+			<availability>CC:4+:3090</availability>
 			<model name='TNZ-N1'>
-				<availability>General:8</availability>
+                <roles>command</roles>
+				<availability>CC:8</availability>
 			</model>
 			<model name='TNZ-N2'>
-				<availability>General:4</availability>
+                <roles>command</roles>
+				<availability>CC:4:3096</availability>
 			</model>
 		</chassis>
 		<chassis name='Tiburon' unitType='Mek'>
