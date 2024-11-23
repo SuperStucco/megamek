@@ -4091,9 +4091,9 @@
 		</chassis>
 		<chassis name='Centaur Battle Armor' unitType='BattleArmor'>
 			<availability>ROS:4</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<roles>artillery</roles>
-				<availability>General:8</availability>
+			<model name='(Sqd4)' mechanized='true'>
+				<roles>mag_clamp,mixed_artillery</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Centaur' unitType='ProtoMek'>

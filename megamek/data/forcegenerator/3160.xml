@@ -3998,6 +3998,13 @@
 				<availability>RA:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Centaur Battle Armor' unitType='BattleArmor'>
+            <availability>SL3:3-</availability>
+            <model name='(Sqd5)' mechanized='true'>
+                <roles>mag_clamp,mixed_artillery</roles>
+                <availability>SL3:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Centaur' unitType='ProtoMek'>
 			<availability>CHH:5</availability>
 			<model name=''>
