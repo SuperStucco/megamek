@@ -18352,6 +18352,15 @@
 				<availability>MOC:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Taranis Battle Armor' unitType='BattleArmor'>
+            <availability>SL3:5,MERC:3+</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>MERC:8</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>SL3:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Tarantula' unitType='Mek'>
 			<availability>MOC:3,CC:5,FWL:6,MERC:4,CP:6,DC:6</availability>
 			<model name='ZPH-1'>

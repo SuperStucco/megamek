@@ -17608,9 +17608,9 @@
 			</model>
 		</chassis>
 		<chassis name='Taranis Battle Armor' unitType='BattleArmor'>
-			<availability>ROS:5</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<availability>ROS:5:3123</availability>
+			<model name='(Sqd4)' mechanized='true'>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Tarantula' unitType='Mek'>
