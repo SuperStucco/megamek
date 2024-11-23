@@ -1209,6 +1209,12 @@
 				<availability>MERC.WD:8,CLAN:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Aegis Point Defense Suit' unitType='BattleArmor'>
+            <availability>MERC:2+</availability>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>MERC:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Aerie PA(L)' unitType='BattleArmor'>
 			<availability>RA:6</availability>
 			<model name='(Salvage)(Sqd5)' mechanized='false'>
