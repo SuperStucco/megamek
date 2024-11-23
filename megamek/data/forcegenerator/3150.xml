@@ -17813,13 +17813,16 @@
         <chassis name='Shrike' unitType='Mek'>
             <availability>CJF:8</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <roles>command</roles>
+                <availability>CJF:8</availability>
             </model>
             <model name='2'>
-                <availability>General:4</availability>
+                <roles>command</roles>
+                <availability>CJF:4</availability>
             </model>
             <model name='3'>
-                <availability>General:4</availability>
+                <roles>command,raider</roles>
+                <availability>CJF:4</availability>
             </model>
         </chassis>
         <chassis name='Shugenja' unitType='Mek'>
