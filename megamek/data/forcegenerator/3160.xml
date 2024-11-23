@@ -10694,6 +10694,12 @@
 				<availability>IS:3</availability>
 			</model>
 		</chassis>
+        <chassis name='Kheper' unitType='Mek'>
+            <availability>MERC:3</availability>
+            <model name='KHP-7R'>
+                <availability>MERC:8</availability>
+            </model>
+        </chassis>
 		<chassis name='King Crab' unitType='Mek'>
 			<availability>DC.GHO:6,RD:2,LA:7,CLAN:2,IS:4,MH:4,FS:6,MERC:5,CP:4</availability>
 			<model name='KGC-000'>

@@ -10958,6 +10958,9 @@
         </chassis>
         <chassis name='Kheper' unitType='Mek'>
             <availability>ROS:5</availability>
+            <model name='KHP-7R'>
+                <availability>ROS:8</availability>
+            </model>
         </chassis>
         <chassis name='King Crab' unitType='Mek'>
             <availability>CLAN:2,IS:4,FS:6,MERC:5,CP:4,DC.GHO:6,RD:2,LA:7,ROS:6,MH:4</availability>
