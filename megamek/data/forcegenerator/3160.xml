@@ -6125,6 +6125,13 @@
 			</model>
 			<model name='D9-G9'>
 				<availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Duat Military Transport' unitType='Dropship'>
+            <availability>SL3:2</availability>
+            <model name=''>
+				<roles>artillery,mek_carrier</roles>
+				<availability>SL3:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Eagle' unitType='AeroSpaceFighter'>

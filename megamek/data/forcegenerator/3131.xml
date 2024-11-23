@@ -6367,8 +6367,8 @@
 		<chassis name='Duat Military Transport' unitType='Dropship'>
 			<availability>ROS:3</availability>
 			<model name=''>
-				<roles>artillery</roles>
-				<availability>General:8</availability>
+				<roles>artillery,mek_carrier</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Eagle' unitType='AeroSpaceFighter'>
