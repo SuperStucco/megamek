@@ -10377,15 +10377,16 @@
             </model>
         </chassis>
         <chassis name='Jade Hawk' unitType='Mek'>
-            <availability>MERC:5,CJF:5</availability>
+			<availability>MERC:5,CJF:5,CDS:3,LA:3+</availability>
             <model name=''>
-                <availability>CJF:8</availability>
+				<availability>CJF:8,CDS:8,LA:8</availability>
             </model>
             <model name='2'>
+                <roles>cavalry</roles>
                 <availability>CJF:4</availability>
             </model>
             <model name='3'>
-                <availability>CJF:4</availability>
+				<availability>CJF:4,CDS:6</availability>
             </model>
             <model name='JHK-03'>
                 <availability>MERC:8</availability>
