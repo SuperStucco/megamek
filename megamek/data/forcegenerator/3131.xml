@@ -5513,12 +5513,12 @@
 			</model>
 		</chassis>
 		<chassis name='Cuchulainn Support Armor' unitType='BattleArmor'>
-			<availability>CWE:3:3140,MERC.KH:5,MERC.WD:4,CW:3:3140,LA:3,MERC:4,CWIE:5</availability>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>IS:8</availability>
+			<availability>MERC.KH:5,MERC.WD:4,CW:3:3140,LA:3+,MERC:4+,CWIE:5</availability>
+			<model name='(Sqd4)' mechanized='true'>
+				<availability>LA:8,MERC:8,MERC.WD:0</availability>
 			</model>
-			<model name='(Sqd5)' mechanized='false'>
-				<availability>CLAN:8</availability>
+			<model name='(Sqd5)' mechanized='true'>
+				<availability>CLAN.IS:8,MERC.WD:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Cuirass' unitType='Mek'>
