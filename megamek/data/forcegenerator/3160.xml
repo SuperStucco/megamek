@@ -21256,11 +21256,11 @@
 		</chassis>
 		<chassis name='Zou Heavy Battle Armor' unitType='BattleArmor'>
 			<availability>DC:6</availability>
-			<model name='(C3)(Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='(C3)(Sqd4)' mechanized='true'>
+				<availability>DC:6</availability>
 			</model>
-			<model name='(Sqd4)' mechanized='false'>
-				<availability>General:6-</availability>
+			<model name='(Sqd4)' mechanized='true'>
+				<availability>DC:6-</availability>
 			</model>
 		</chassis>
 		<chassis name='Zugvogel Omni Support Aircraft' unitType='Conventional Fighter'>
