@@ -1809,20 +1809,24 @@
 		<chassis name='Ares' unitType='Mek' omni='IS'>
 			<availability>ROS:2+</availability>
 			<model name='ARS-V1 Zeus'>
-				<availability>General:8</availability>
+                <roles>command</roles>
+				<availability>ROS:8</availability>
 			</model>
 			<model name='ARS-V1A Hera'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='ARS-V1B Hades'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='ARS-V1C Aphrodite'>
-				<roles>spotter</roles>
-				<availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>ROS:4</availability>
 			</model>
 			<model name='ARS-V1D Hephaestus'>
-				<availability>General:7</availability>
+                <roles>command</roles>
+				<availability>ROS:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Argus' unitType='Mek'>

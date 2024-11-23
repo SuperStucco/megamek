@@ -1813,6 +1813,29 @@
 				<availability>CWE:6,CJF:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Ares' unitType='Mek' omni='IS'>
+            <availability>CDS:1,FS:1+,FWL:1+,SL3:2</availability>
+            <model name='ARS-V1 Zeus'>
+                <roles>command</roles>
+				<availability>CDS:8,FS:8,FWL:8,SL3:8</availability>
+            </model>
+            <model name='ARS-V1A Hera'>
+                <roles>command</roles>
+				<availability>CDS:7,FS:7,FWL:7,SL3:7</availability>
+            </model>
+            <model name='ARS-V1B Hades'>
+                <roles>command</roles>
+				<availability>CDS:7,FS:7,FWL:7,SL3:7</availability>
+            </model>
+            <model name='ARS-V1C Aphrodite'>
+				<roles>command,spotter</roles>
+				<availability>CDS:2,FS:7,FWL:5,SL3:2</availability>
+            </model>
+            <model name='ARS-V1D Hephaestus'>
+                <roles>command</roles>
+				<availability>CDS:7,FS:7,FWL:7,SL3:7</availability>
+            </model>
+        </chassis>
 		<chassis name='Argus' unitType='Mek'>
 			<availability>FS:6</availability>
 			<model name='AGS-2D'>
