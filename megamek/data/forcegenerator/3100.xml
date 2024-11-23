@@ -19981,13 +19981,13 @@
 			</model>
 		</chassis>
 		<chassis name='Wraith Battle Armor' unitType='BattleArmor'>
-			<availability>RD:4,CW:2</availability>
-			<model name='(Anti-Infantry)(Sqd5)' mechanized='false'>
+			<availability>RD:4:3116,CW:2:3116</availability>
+			<model name='(Anti-Infantry)(Sqd5)' mechanized='true'>
 				<roles>anti_infantry</roles>
-				<availability>General:4</availability>
+				<availability>RD:4,CW:4</availability>
 			</model>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>RD:8,CW:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Wraith' unitType='Mek'>

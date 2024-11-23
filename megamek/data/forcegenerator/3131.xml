@@ -21285,13 +21285,20 @@
 			</model>
 		</chassis>
 		<chassis name='Wraith Battle Armor' unitType='BattleArmor'>
-			<availability>CWE:3,RD:5,CW:3</availability>
-			<model name='(Anti-Infantry)(Sqd5)' mechanized='false'>
+			<availability>RD:5,CW:3,MERC:3+</availability>
+            <model name='(Anti-Infantry)(Sqd4)' mechanized='true'>
+                <roles>anti_infantry</roles>
+                <availability>MERC:4</availability>
+            </model>
+			<model name='(Anti-Infantry)(Sqd5)' mechanized='true'>
 				<roles>anti_infantry</roles>
-				<availability>General:4</availability>
+				<availability>RD:4,CW:4</availability>
 			</model>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>MERC:8</availability>
+            </model>
 			<model name='(Sqd5)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>RD:8,CW:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Wraith' unitType='Mek'>
