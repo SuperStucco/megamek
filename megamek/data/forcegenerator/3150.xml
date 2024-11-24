@@ -16721,6 +16721,7 @@
         <chassis name='Ryoken III (Skinwalker)' unitType='Mek' omni='Clan'>
             <availability>CWE:1</availability>
             <model name='A'>
+                <roles>cavalry</roles>
                 <availability>CWE:4</availability>
             </model>
             <model name='B'>
@@ -16730,15 +16731,19 @@
                 <availability>CWE:3</availability>
             </model>
             <model name='D'>
+                <roles>cavalry</roles>
                 <availability>CWE:3</availability>
             </model>
             <model name='E'>
+                <roles>cavalry</roles>
                 <availability>CWE:2</availability>
             </model>
             <model name='F'>
+                <roles>cavalry</roles>
                 <availability>CWE:2</availability>
             </model>
             <model name='Prime'>
+                <roles>cavalry</roles>
                 <availability>CWE:6</availability>
             </model>
         </chassis>
