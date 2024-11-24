@@ -7590,12 +7590,12 @@
 			</model>
 		</chassis>
 		<chassis name='Gossamer VTOL' unitType='VTOL'>
-			<availability>MERC.WD:4,CDS:4-,LA:5,ROS:5,CNC:2-,FWL:5,FS:5,RA:5-</availability>
+			<availability>MERC:3+,CDS:4-,LA:5+,ROS:5,CNC:2-,FWL:5+,FS:5+,RA:5-</availability>
 			<model name=''>
-				<availability>General:8,DC:0</availability>
+				<availability>CDS:8,CNC:8,RA:8,IS:8</availability>
 			</model>
 			<model name='(XL)'>
-				<availability>General:4,DC:0</availability>
+				<availability>CNC:4:3124,CDS:4:3124,RA:4:3124</availability>
 			</model>
 		</chassis>
 		<chassis name='Gotha' unitType='AeroSpaceFighter'>

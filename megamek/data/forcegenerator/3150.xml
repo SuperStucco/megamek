@@ -8075,12 +8075,12 @@
             </model>
         </chassis>
         <chassis name='Gossamer VTOL' unitType='VTOL'>
-            <availability>MERC.WD:6,CDS:6-,LA:6,TamPact:6,ROS:6,FWL:6,FS:6,CP:5,RA:8-</availability>
+            <availability>MERC:5+,CDS:6-,LA:6+,TamPact:6,ROS:6,FWL:6+,FS:6+,CP:5,RA:8-</availability>
             <model name=''>
-                <availability>General:8,DC:0</availability>
+				<availability>CDS:8,RA:8,CP:8,IS:8</availability>
             </model>
             <model name='(XL)'>
-                <availability>General:4,DC:0</availability>
+				<availability>CDS:4,RA:4</availability>
             </model>
         </chassis>
         <chassis name='Gotha' unitType='AeroSpaceFighter'>

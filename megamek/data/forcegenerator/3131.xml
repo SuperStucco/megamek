@@ -8093,12 +8093,12 @@
 			</model>
 		</chassis>
 		<chassis name='Gossamer VTOL' unitType='VTOL'>
-			<availability>MERC.WD:5,CDS:5-,LA:6,ROS:6,CNC:3-,FWL:6,FS:6,CP:4,RA:7-</availability>
+			<availability>MERC:4+,CDS:5-,LA:6+,ROS:6,CNC:3-,FWL:6+,FS:6+,CP:4,RA:7-</availability>
 			<model name=''>
-				<availability>General:8,DC:0</availability>
+				<availability>CDS:8,CNC:8,RA:8,CP:8,IS:8</availability>
 			</model>
 			<model name='(XL)'>
-				<availability>General:4,DC:0</availability>
+				<availability>CNC:4,CDS:4,RA:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Gotha' unitType='AeroSpaceFighter'>
