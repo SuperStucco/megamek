@@ -21,15 +21,12 @@
 package megamek.common;
 
 import static java.util.stream.Collectors.toList;
-import static megamek.common.SpecialHexDisplay.Type.ARTILLERY_DRIFT;
-import static megamek.common.SpecialHexDisplay.Type.ARTILLERY_MISS;
-import static megamek.common.SpecialHexDisplay.Type.BOMB_DRIFT;
-import static megamek.common.SpecialHexDisplay.Type.BOMB_HIT;
-import static megamek.common.SpecialHexDisplay.Type.BOMB_MISS;
+import static megamek.common.SpecialHexDisplay.Type.*;
 
 import java.io.*;
 import java.util.*;
 
+import megamek.client.ui.swing.GUIPreferences;
 import megamek.common.annotations.Nullable;
 import megamek.common.enums.BasementType;
 import megamek.common.event.BoardEvent;
@@ -492,7 +489,7 @@ public class Board implements Serializable {
         }
 
         // Internally handled terrain (inclines, cliff-bottoms)
-        initializeAutomaticTerrain(x, y, /* useInclines: */ true);
+        initializeAutomaticTerrain(x, y);
 
         // Add woods/jungle elevation where none was saved
         initializeFoliageElev(x, y);
@@ -528,9 +525,8 @@ public class Board implements Serializable {
      *
      * @param x           The hex X-coord.
      * @param y           The hex Y-coord.
-     * @param useInclines Indicates whether or not to include inclines at hex exits.
      */
-    private void initializeAutomaticTerrain(int x, int y, boolean useInclines) {
+    private void initializeAutomaticTerrain(int x, int y) {
         Hex hex = getHex(x, y);
         int origCliffTopExits = 0;
         int correctedCliffTopExits = 0;
@@ -606,7 +602,7 @@ public class Board implements Serializable {
         }
         addOrRemoveAutoTerrain(hex, Terrains.CLIFF_TOP, correctedCliffTopExits);
         addOrRemoveAutoTerrain(hex, Terrains.CLIFF_BOTTOM, cliffBotExits);
-        if (useInclines) {
+        if (GUIPreferences.getInstance().getHexInclines()) {
             addOrRemoveAutoTerrain(hex, Terrains.INCLINE_TOP, inclineTopExits);
             addOrRemoveAutoTerrain(hex, Terrains.INCLINE_BOTTOM, inclineBotExits);
             addOrRemoveAutoTerrain(hex, Terrains.INCLINE_HIGH_TOP, highInclineTopExits);
@@ -632,14 +628,12 @@ public class Board implements Serializable {
     }
 
     /**
-     * Rebuilds automatic terrains for the whole board.
-     *
-     * @param useInclines Indicates whether to use inclines on hex exits.
+     * Rebuilds automatic terrains for the whole board, such as incline highlighting. Also fires a BOARD_CHANGED_ALL_HEXES event.
      */
-    public void initializeAllAutomaticTerrain(boolean useInclines) {
+    public void initializeAllAutomaticTerrain() {
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
-                initializeAutomaticTerrain(x, y, useInclines);
+                initializeAutomaticTerrain(x, y);
             }
         }
         processBoardEvent(new BoardEvent(this, null, BoardEvent.BOARD_CHANGED_ALL_HEXES));
@@ -1754,7 +1748,7 @@ public class Board implements Serializable {
     public void setSpecialHexDisplayTable(Hashtable<Coords, Collection<SpecialHexDisplay>> shd) {
         Hashtable<Coords, Collection<SpecialHexDisplay>> temp = new Hashtable<>();
 
-        // Grab all current ARTILLERY_MISS instances
+        // Grab all current ARTILLERY_MISS and ARTILLERY_DRIFT instances
         for (Map.Entry<Coords, Collection<SpecialHexDisplay>> e : specialHexes.entrySet()) {
             for (SpecialHexDisplay special : e.getValue()) {
                 if (Set.of(ARTILLERY_MISS, ARTILLERY_DRIFT).contains(special.getType())) {
@@ -2089,4 +2083,5 @@ public class Board implements Serializable {
     public static int encodeCustomDeploymentZoneID(int zoneID) {
         return zoneID + NUM_ZONES_X2;
     }
+
 }

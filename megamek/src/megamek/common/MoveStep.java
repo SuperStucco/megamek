@@ -3150,14 +3150,10 @@ public class MoveStep implements Serializable {
             if (destHex.containsTerrain(Terrains.BLACK_ICE)) {
                 mp++;
             }
-            if (destHex.containsTerrain(Terrains.BLACK_ICE)
-                    && !isCareful()
-                    && (nDestEl == destHex.getLevel())) {
+            if (destHex.containsTerrain(Terrains.BLACK_ICE) && !isCareful() && (nDestEl == destHex.getLevel())) {
                 mp--;
             }
-            if (isPavementStep
-                    && !destHex.containsTerrain(Terrains.BLACK_ICE)
-                    && isCareful()) {
+            if (isPavementStep && !destHex.containsTerrain(Terrains.BLACK_ICE) && isCareful()) {
                 mp++;
             }
 
@@ -3327,7 +3323,9 @@ public class MoveStep implements Serializable {
         final Coords dest = getPosition();
         final Hex destHex = game.getBoard().getHex(dest);
         final Entity entity = getEntity();
-
+        if (destHex == null) {
+            return false;
+        }
         if (null == dest) {
             var ex = new IllegalStateException("Step has no position");
             logger.error("", ex);
@@ -3806,7 +3804,7 @@ public class MoveStep implements Serializable {
                 // QuadVees can still convert to vehicle mode in prohibited terrain, but cannot
                 // leave
                 && (type != MoveStepType.CONVERT_MODE)
-                && entity.isLocationProhibited(src, getElevation()) && !isPavementStep()) {
+                && entity.isLocationProhibited(src, srcEl) && !isPavementStep()) {
             return false;
         }
         if (type == MoveStepType.UP) {

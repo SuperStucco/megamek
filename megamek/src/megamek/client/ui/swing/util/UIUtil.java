@@ -106,6 +106,16 @@ public final class UIUtil {
         return "<FONT FACE=Dialog " + sizeString(deltaScale) + ">";
     }
 
+    /**
+     * Returns an HTML - tag attribute text end tag
+     */
+    public static String tag(String tag, String attributes, String text) {
+        attributes = attributes.isEmpty() ? attributes : ' ' + attributes;
+        String format = "<%s%s>%s</%s>";
+        String result = String.format(format, tag, attributes, text, tag);
+        return result;
+    }
+
     /** Returns the yellow and gui-scaled warning sign. */
     public static String warningSign() {
         return fontHTML(uiYellow()) + WARNING_SIGN + "</FONT>";
@@ -634,6 +644,18 @@ public final class UIUtil {
             ((Graphics2D) graph).setRenderingHint(RenderingHints.KEY_STROKE_CONTROL, RenderingHints.VALUE_STROKE_PURE);
             ((Graphics2D) graph).setRenderingHint(RenderingHints.KEY_INTERPOLATION,
                     RenderingHints.VALUE_INTERPOLATION_BILINEAR);
+        }
+    }
+
+    /**
+     * Updates all existing windows and frames. Use after a gui scale change or look-and-feel change.
+     */
+    public static void updateAfterUiChange() {
+        for (Window window : Window.getWindows()) {
+            SwingUtilities.updateComponentTreeUI(window);
+            window.invalidate();
+            window.validate();
+            window.repaint();
         }
     }
 
@@ -1194,6 +1216,14 @@ public final class UIUtil {
      */
     public static String colorString(Color col) {
         return " COLOR=" + Integer.toHexString(col.getRGB() & 0xFFFFFF) + " ";
+    }
+
+    /**
+     * Returns Color Hex String, e.g. #FFFFFF according to the given
+     * color.
+     */
+    public static String toColorHexString(Color col) {
+        return Integer.toHexString(col.getRGB() & 0xFFFFFF);
     }
 
     private static int uiBgBrightness() {

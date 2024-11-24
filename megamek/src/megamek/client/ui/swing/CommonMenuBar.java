@@ -237,6 +237,8 @@ public class CommonMenuBar extends JMenuBar implements ActionListener, IPreferen
 
         initMenuItem(fileRefreshCache, menu, FILE_REFRESH_CACHE);
         initMenuItem(fileUnitsBrowse, menu, FILE_UNITS_BROWSE);
+        // The accelerator overlaps with that for changing label style but they are never active at the same time
+        fileUnitsBrowse.setAccelerator(KeyStroke.getKeyStroke(VK_B, CTRL_DOWN_MASK));
         menu.addSeparator();
 
         initMenuItem(fireSaveWeaponOrder, menu, FIRE_SAVE_WEAPON_ORDER);
@@ -353,11 +355,6 @@ public class CommonMenuBar extends JMenuBar implements ActionListener, IPreferen
         initMenuItem(toggleCFWarning, menu, VIEW_TOGGLE_CF_WARNING);
         toggleCFWarning.setToolTipText(Messages.getString("CommonMenuBar.viewToggleCFWarningToolTip"));
         toggleCFWarning.setSelected(GUIP.getShowCFWarnings());
-
-        /*
-         * TODO: moveTraitor = createMenuItem(menu,
-         * getString("CommonMenuBar.moveTraitor"), MovementDisplay.MOVE_TRAITOR);
-         */
 
         // Create the Help menu
         menu = new JMenu(Messages.getString("CommonMenuBar.HelpMenu"));

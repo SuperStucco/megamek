@@ -28,6 +28,7 @@ import java.util.stream.Stream;
 
 import megamek.MMConstants;
 import megamek.client.bot.princess.BehaviorSettings;
+import megamek.client.ui.Messages;
 import megamek.client.ui.swing.GUIPreferences;
 import megamek.client.ui.swing.tooltip.UnitToolTip;
 import megamek.common.*;
@@ -73,6 +74,7 @@ import megamek.common.weapons.infantry.InfantryWeapon;
 import megamek.logging.MMLogger;
 import megamek.server.*;
 import megamek.server.commands.*;
+import megamek.server.props.OrbitalBombardment;
 import megamek.server.victory.VictoryResult;
 
 /**
@@ -101,6 +103,7 @@ public class TWGameManager extends AbstractGameManager {
     private final List<DynamicTerrainProcessor> terrainProcessors = new ArrayList<>();
 
     private ArrayList<int[]> scheduledNukes = new ArrayList<>();
+    private ArrayList<OrbitalBombardment> scheduledOrbitalBombardment = new ArrayList<>();
 
     /**
      * Stores a set of <code>Coords</code> that have changed during this phase.
@@ -187,6 +190,17 @@ public class TWGameManager extends AbstractGameManager {
         commands.add(new CheckBVCommand(server));
         commands.add(new CheckBVTeamCommand(server));
         commands.add(new NukeCommand(server, this));
+        commands.add(new KillCommand(server, this));
+        commands.add(new OrbitalBombardmentCommand(server, this));
+        commands.add(new ChangeOwnershipCommand(server, this));
+        commands.add(new DisasterCommand(server, this));
+        commands.add(new FirestarterCommand(server, this));
+        commands.add(new NoFiresCommand(server, this));
+        commands.add(new FirefightCommand(server, this));
+        commands.add(new FirestormCommand(server, this));
+        commands.add(new RemoveSmokeCommand(server, this));
+        commands.add(new RescueCommand(server, this));
+        commands.add(new ChangeWeatherCommand(server, this));
         commands.add(new TraitorCommand(server, this));
         commands.add(new ListEntitiesCommand(server, this));
         commands.add(new AssignNovaNetServerCommand(server, this));
@@ -5280,7 +5294,7 @@ public class TWGameManager extends AbstractGameManager {
      *                   if it can't return)
      * @return Vector of turn reports.
      */
-    Vector<Report> processLeaveMap(MovePath movePath, boolean flewOff, int returnable) {
+    public Vector<Report> processLeaveMap(MovePath movePath, boolean flewOff, int returnable) {
         Entity entity = movePath.getEntity();
         Vector<Report> vReport = new Vector<>();
         Report r;
@@ -9666,10 +9680,8 @@ public class TWGameManager extends AbstractGameManager {
             WeaponHandler wh = (WeaponHandler) ah;
             WeaponAttackAction waa = wh.waa;
 
-            // for artillery attacks, the attacking entity
-            // might no longer be in the game.
-            // TODO : Yeah, I know there's an exploit here, but better able to shoot some
-            // ArrowIVs than none, right?
+            // for artillery attacks, the attacking entity might no longer be in the game.
+            // TODO : Yeah, I know there's an exploit here, but better able to shoot some ArrowIVs than none, right?
             if (game.getEntity(waa.getEntityId()) == null) {
                 logger.info("Can't Assign AMS: Artillery firer is null!");
                 continue;
@@ -9677,8 +9689,7 @@ public class TWGameManager extends AbstractGameManager {
 
             Mounted<?> weapon = game.getEntity(waa.getEntityId()).getEquipment(waa.getWeaponId());
 
-            // Only entities can have AMS. Arrow IV doesn't target an entity until later, so
-            // we have to ignore them
+            // Only entities can have AMS. Arrow IV doesn't target an entity until later, so we have to ignore them
             if (!(waa instanceof ArtilleryAttackAction) && (Targetable.TYPE_ENTITY != waa.getTargetType())) {
                 continue;
             }
@@ -9688,9 +9699,7 @@ public class TWGameManager extends AbstractGameManager {
                 continue;
             }
 
-            // Can only use AMS versus missiles. Artillery Bays might be firing Arrow IV
-            // homing missiles,
-            // but lack the flag
+            // Can only use AMS versus missiles. Artillery Bays might be firing Arrow IV homing missiles, but lack the flag
             boolean isHomingMissile = false;
             if (wh instanceof ArtilleryWeaponIndirectHomingHandler
                     || wh instanceof ArtilleryBayWeaponIndirectHomingHandler) {
@@ -9701,7 +9710,8 @@ public class TWGameManager extends AbstractGameManager {
                     isHomingMissile = true;
                 }
             }
-            if (!weapon.getType().hasFlag(WeaponType.F_MISSILE) && !isHomingMissile) {
+            if ((!weapon.getType().hasFlag(WeaponType.F_MISSILE) && !isHomingMissile)
+                || weapon.getType().hasFlag(WeaponType.F_MEK_MORTAR)) {
                 continue;
             }
 
@@ -9797,32 +9807,27 @@ public class TWGameManager extends AbstractGameManager {
         // Create a list of valid assignments for this APDS
         List<WeaponAttackAction> vAttacksInArc = new ArrayList<>(vAttacks.size());
         for (WeaponHandler wr : vAttacks) {
-            boolean isInArc = Compute.isInArc(e.getGame(), e.getId(),
-                    e.getEquipmentNum(apds),
-                    game.getEntity(wr.waa.getEntityId()));
-            boolean isInRange = e.getPosition().distance(
-                    wr.getWaa().getTarget(game).getPosition()) <= 3;
+            boolean isInArc = Compute.isInArc(e.getGame(), e.getId(), e.getEquipmentNum(apds), game.getEntity(wr.waa.getEntityId()));
+            boolean isInRange = e.getPosition().distance(wr.getWaa().getTarget(game).getPosition()) <= 3;
             if (isInArc && isInRange) {
                 vAttacksInArc.add(wr.waa);
             }
         }
 
         // If there are no valid attacks left, don't bother
-        if (vAttacksInArc.size() < 1) {
+        if (vAttacksInArc.isEmpty()) {
             return null;
         }
 
         WeaponAttackAction targetedWAA = null;
 
         if (apds.curMode().equals("Automatic")) {
-            targetedWAA = Compute.getHighestExpectedDamage(game,
-                    vAttacksInArc, true);
+            targetedWAA = Compute.getHighestExpectedDamage(game, vAttacksInArc, true);
         } else {
             // Send a client feedback request
             List<Integer> apdsDists = new ArrayList<>();
             for (WeaponAttackAction waa : vAttacksInArc) {
-                apdsDists.add(waa.getTarget(game).getPosition()
-                        .distance(e.getPosition()));
+                apdsDists.add(waa.getTarget(game).getPosition().distance(e.getPosition()));
             }
             sendAPDSAssignCFR(e, apdsDists, vAttacksInArc);
             synchronized (cfrPacketQueue) {
@@ -9865,9 +9870,7 @@ public class TWGameManager extends AbstractGameManager {
      * @param vAttacks
      *                 List of missile attacks directed at e
      */
-    private void manuallyAssignAMSTarget(Entity e,
-            Vector<WeaponHandler> vAttacks) {
-        // Fix for bug #1051 - don't send the targeting nag for a shutdown unit
+    private void manuallyAssignAMSTarget(Entity e, Vector<WeaponHandler> vAttacks) {
         if (e.isShutDown()) {
             return;
         }
@@ -9883,15 +9886,13 @@ public class TWGameManager extends AbstractGameManager {
             List<WeaponAttackAction> vAttacksInArc = new ArrayList<>(vAttacks.size());
             for (WeaponHandler wr : vAttacks) {
                 if (!amsTargets.contains(wr.waa)
-                        && Compute.isInArc(game, e.getId(),
-                                e.getEquipmentNum(ams),
-                                game.getEntity(wr.waa.getEntityId()))) {
+                        && Compute.isInArc(game, e.getId(), e.getEquipmentNum(ams), game.getEntity(wr.waa.getEntityId()))) {
                     vAttacksInArc.add(wr.waa);
                 }
             }
 
             // If there are no valid attacks left, don't bother
-            if (vAttacksInArc.size() < 1) {
+            if (vAttacksInArc.isEmpty()) {
                 continue;
             }
 
@@ -14948,6 +14949,16 @@ public class TWGameManager extends AbstractGameManager {
         return psr;
     }
 
+    void resolveWeather() {
+        PlanetaryConditions conditions = game.getPlanetaryConditions();
+        if (conditions.isBlowingSandActive()) {
+            addReport(resolveBlowingSandDamage());
+        }
+        if (conditions.getWeather().isLightningStorm()) {
+            addReport(resolveLightningStormDamage());
+        }
+    }
+
     /**
      * Each mek sinks the amount of heat appropriate to its current heat
      * capacity.
@@ -15456,28 +15467,36 @@ public class TWGameManager extends AbstractGameManager {
                         entity.setShutDown(true);
                     } else {
                         int shutdown = (4 + (((entity.heat - 14) / 4) * 2)) - hotDogMod;
+                        TargetRoll target;
                         if (mtHeat) {
                             shutdown -= 5;
+                            target = new TargetRoll(shutdown, "Base tacops shutdown TN");
                             switch (entity.getCrew().getPiloting()) {
                                 case 0:
                                 case 1:
-                                    shutdown -= 2;
+                                    target.addModifier(-2, "Piloting skill");
                                     break;
                                 case 2:
                                 case 3:
-                                    shutdown -= 1;
+                                    target.addModifier(-1, "Piloting skill");
                                     break;
                                 case 6:
                                 case 7:
-                                    shutdown += 1;
+                                    target.addModifier(+1, "Piloting skill");
                             }
+                        } else {
+                            target = new TargetRoll(shutdown, "Base shutdown TN");
+                        }
+                        Mek mek = (Mek) entity;
+                        if (mek.hasRiscHeatSinkOverrideKit()) {
+                            target.addModifier(-2, "RISC Heat Sink Override Kit");
                         }
                         Roll diceRoll = Compute.rollD6(2);
                         int rollValue = diceRoll.getIntValue();
                         r = new Report(5060);
                         r.subject = entity.getId();
                         r.addDesc(entity);
-                        r.add(shutdown);
+                        r.add(target);
 
                         if (entity.getCrew().hasActiveTechOfficer()) {
                             rollValue += 2;
@@ -15486,7 +15505,8 @@ public class TWGameManager extends AbstractGameManager {
                         } else {
                             r.add(diceRoll);
                         }
-                        if (rollValue >= shutdown) {
+
+                        if (rollValue >= target.getValue()) {
                             // avoided
                             r.choose(true);
                             addReport(r);
@@ -15501,6 +15521,44 @@ public class TWGameManager extends AbstractGameManager {
                             }
                             // okay, now mark shut down
                             entity.setShutDown(true);
+                        }
+
+                        if (diceRoll.getIntValue() == 2 && mek.hasRiscHeatSinkOverrideKit()) {
+                            r = new Report(5545);
+                            r.subject(entity.getId());
+                            addReport(r);
+
+                            int hits = 0;
+                            Roll diceRoll2 = Compute.rollD6(2);
+                            r = new Report(6310);
+                            r.subject = entity.getId();
+                            r.add(diceRoll2);
+                            r.newlines = 0;
+                            addReport(r);
+
+                            if ((diceRoll2.getIntValue() == 8) || (diceRoll2.getIntValue() == 9)) {
+                                hits = 1;
+                            } else if ((diceRoll2.getIntValue() == 10) || (diceRoll2.getIntValue() == 11)) {
+                                hits = 2;
+                            } else if (diceRoll2.getIntValue() == 12) {
+                                hits = 3;
+                            }
+
+                            r = new Report(6328);
+                            r.subject = entity.getId();
+                            r.add("%d+1=%d".formatted(hits, hits+1));
+                            addReport(r);
+
+                            hits++;
+
+                            for (int j = 0; (j < 12) && (hits > 0); j++) {
+                                var crit = mek.getCritical(Mek.LOC_CT, j);
+                                if ((crit != null) && (crit.getType() == CriticalSlot.TYPE_SYSTEM)
+                                    && (crit.getIndex() == Mek.SYSTEM_ENGINE) && crit.isHittable()) {
+                                    addReport(applyCriticalHit(entity, Mek.LOC_CT, crit, true, 0, false));
+                                    hits--;
+                                }
+                            }
                         }
                     }
                 }
@@ -19687,7 +19745,7 @@ public class TWGameManager extends AbstractGameManager {
             int[] damages = { (int) Math.floor(damage_orig / 10.0),
                     (int) Math.floor(damage_orig / 20.0) };
             doExplosion(damages, false, te.getPosition(), true, vDesc, null, 5,
-                    te.getId(), false);
+                    te.getId(), false, false);
             Report.addNewline(vDesc);
             r = new Report(5410, Report.PUBLIC);
             r.subject = te.getId();
@@ -19969,7 +20027,7 @@ public class TWGameManager extends AbstractGameManager {
             Vector<Integer> vUnits) {
         int[] myDamages = { engineRating, (engineRating / 10), (engineRating / 20),
                 (engineRating / 40) };
-        doExplosion(myDamages, true, position, false, vDesc, vUnits, 5, -1, true);
+        doExplosion(myDamages, true, position, false, vDesc, vUnits, 5, -1, true, false);
     }
 
     /**
@@ -19977,7 +20035,7 @@ public class TWGameManager extends AbstractGameManager {
      */
     public void doExplosion(int damage, int degradation, boolean autoDestroyInSameHex,
             Coords position, boolean allowShelter, Vector<Report> vDesc,
-            Vector<Integer> vUnits, int excludedUnitId) {
+            Vector<Integer> vUnits, int excludedUnitId, boolean canDamageVtol) {
         if (degradation < 1) {
             return;
         }
@@ -19993,15 +20051,16 @@ public class TWGameManager extends AbstractGameManager {
             myDamages[x] = myDamages[x - 1] - degradation;
         }
         doExplosion(myDamages, autoDestroyInSameHex, position, allowShelter, vDesc, vUnits,
-                5, excludedUnitId, false);
+                5, excludedUnitId, false, canDamageVtol);
     }
 
     /**
      * General function to cause explosions in areas.
+     * TODO Luana: Refactor this function so it is less of a mess
      */
     public void doExplosion(int[] damages, boolean autoDestroyInSameHex, Coords position,
             boolean allowShelter, Vector<Report> vDesc, Vector<Integer> vUnits,
-            int clusterAmt, int excludedUnitId, boolean engineExplosion) {
+            int clusterAmt, int excludedUnitId, boolean engineExplosion, boolean canDamageVtol) {
         if (vDesc == null) {
             vDesc = new Vector<>();
         }
@@ -20088,9 +20147,7 @@ public class TWGameManager extends AbstractGameManager {
 
         // Now we damage people near the explosion.
         List<Entity> loaded = new ArrayList<>();
-        for (Iterator<Entity> ents = game.getEntities(); ents.hasNext();) {
-            Entity entity = ents.next();
-
+        for (var entity : game.inGameTWEntities()) {
             if (entitiesHit.contains(entity)) {
                 continue;
             }
@@ -20105,12 +20162,6 @@ public class TWGameManager extends AbstractGameManager {
                 // This means, incidentally, that salvage is never affected by
                 // explosions
                 // as long as it was destroyed before the explosion.
-                continue;
-            }
-
-            // We are going to assume that explosions are on the ground here so
-            // flying entities should be unaffected
-            if (entity.isAirborne()) {
                 continue;
             }
 
@@ -20129,11 +20180,27 @@ public class TWGameManager extends AbstractGameManager {
                 }
                 continue;
             }
+
             int range = position.distance(entityPos);
 
             if (range >= damages.length) {
                 // Yeah, this is fine. It's outside the blast radius.
                 continue;
+            }
+
+            // We are going to assume that explosions are on the ground here so
+            // flying entities should be unaffected, except VTOL or WiGE
+            if (entity.isAirborne() && !canDamageVtol) {
+                continue;
+            } else if (entity.isAirborne() && canDamageVtol && entity.isAirborneVTOLorWIGE()) {
+                if (entity.getElevation() > damages.length) {
+                    continue;
+                }
+                if ((range + entity.getElevation()) > damages.length) {
+                    continue;
+                } else {
+                    range += entity.getElevation();
+                }
             }
 
             // We might need to nuke everyone in the explosion hex. If so...
@@ -20218,20 +20285,50 @@ public class TWGameManager extends AbstractGameManager {
                 r.addDesc(e);
                 r.add(damage);
                 vDesc.addElement(r);
-
-                while (damage > 0) {
-                    int cluster = Math.min(5, damage);
-                    int table = ToHitData.HIT_NORMAL;
-                    if (e instanceof ProtoMek) {
-                        table = ToHitData.HIT_SPECIAL_PROTO;
-                    }
-                    HitData hit = e.rollHitLocation(table, ToHitData.SIDE_FRONT);
-                    vDesc.addAll(damageEntity(e, hit, cluster, false,
-                            DamageType.IGNORE_PASSENGER, false, true));
-                    damage -= cluster;
+                if (canDamageVtol) {
+                    orbitalBombardmentDamage(position, vDesc, e, damage);
+                } else {
+                    explosionDamage(position, vDesc, e, damage);
                 }
                 Report.addNewline(vDesc);
             }
+        }
+    }
+
+    private void explosionDamage(Coords position, Vector<Report> vDesc, Entity e, int damage) {
+        while (damage > 0) {
+            int cluster = Math.min(5, damage);
+            int table = ToHitData.HIT_NORMAL;
+            if (e instanceof ProtoMek) {
+                table = ToHitData.HIT_SPECIAL_PROTO;
+            }
+            HitData hit = e.rollHitLocation(table, ToHitData.SIDE_FRONT);
+            vDesc.addAll(damageEntity(e, hit, cluster, false,
+                DamageType.IGNORE_PASSENGER, false, true));
+            damage -= cluster;
+        }
+    }
+
+    private void orbitalBombardmentDamage(Coords position, Vector<Report> vDesc, Entity e, int damage) {
+        var distanceFromGroundZero = e.getPosition().distance(position);
+        while (damage > 0) {
+            int cluster = Math.min(5, damage);
+            int table = ToHitData.HIT_NORMAL;
+            int hitSide = ToHitData.SIDE_RANDOM;
+
+            if (e instanceof ProtoMek) {
+                table = ToHitData.HIT_SPECIAL_PROTO;
+            } else if ((e instanceof Mek) || (e instanceof Tank)) {
+                if (distanceFromGroundZero == 0) {
+                    table = ToHitData.HIT_ABOVE;
+                }
+                hitSide = e.sideTable(position);
+            }
+
+            HitData hit = e.rollHitLocation(table, hitSide);
+            vDesc.addAll(damageEntity(e, hit, cluster, false,
+                DamageType.IGNORE_PASSENGER, false, true));
+            damage -= cluster;
         }
     }
 
@@ -20292,6 +20389,97 @@ public class TWGameManager extends AbstractGameManager {
      */
     public void addScheduledNuke(int[] nuke) {
         scheduledNukes.add(nuke);
+        drawNukeIncomingOnBoard(nuke);
+    }
+
+    /**
+     * add an orbital bombardment to hit the board in the next weapons attack phase
+     *
+     * @param orbitalBombardment this is an #OrbitalBombardment object, its immutable and must be constructed
+     *             through it's builder.
+     */
+    public void addScheduledOrbitalBombardment(OrbitalBombardment orbitalBombardment) {
+        Report r = new Report(1302);
+        r.indent()
+            .newLines(0)
+            .add(Messages.getString("OrbitalBombardment.source"))
+            .add(orbitalBombardment.getCoords().getBoardNum());
+        getvPhaseReport().addElement(r);
+        Report.addNewline(getvPhaseReport());
+
+        drawOrbitalBombardmentIncomingOnBoard(orbitalBombardment);
+        scheduledOrbitalBombardment.add(orbitalBombardment);
+        getGame().setOrbitalBombardmentVector(new Vector<>(scheduledOrbitalBombardment));
+    }
+
+    /**
+     * Draws one "orbital bombardment target" on each hex where it is going to hit.
+     * @param orbitalBombardment  The orbital bombardment to be drawn.
+     */
+    private void drawOrbitalBombardmentOnBoard(OrbitalBombardment orbitalBombardment) {
+        var allCoords = orbitalBombardment.getAllAffectedCoords();
+        var hexes = getGame().getBoard().getSpecialHexDisplayTable();
+        var message = Messages.getString("OrbitalBombardment.hitOnRound", getGame().getRoundCount());
+        for (var coord : allCoords) {
+            if (!getGame().getBoard().contains(coord)) {
+                continue;
+            }
+
+            var removeIncoming = hexes.get(coord).stream()
+                .filter(sdh -> sdh.getType() == SpecialHexDisplay.Type.ORBITAL_BOMBARDMENT_INCOMING)
+                .toList();
+
+            for (var shd : removeIncoming) {
+                getGame().getBoard().removeSpecialHexDisplay(coord, shd);
+            }
+
+            if (orbitalBombardment.getRadius() == SpecialHexDisplay.LARGE_EXPLOSION_IMAGE_RADIUS) {
+                String imageSignature = orbitalBombardment.getImageSignature(coord);
+                getGame().getBoard().addSpecialHexDisplay(
+                    coord,
+                    new SpecialHexDisplay(
+                        SpecialHexDisplay.Type.ORBITAL_BOMBARDMENT,
+                        getGame().getRoundCount(),
+                        getGame().getPlayersList().get(0), // The player should not matter, I just dont want to cause a nullpointererror
+                        message,
+                        SpecialHexDisplay.SHD_OBSCURED_ALL,
+                        imageSignature));
+            } else {
+                getGame().getBoard().addSpecialHexDisplay(
+                    coord,
+                    new SpecialHexDisplay(
+                        SpecialHexDisplay.Type.BOMB_HIT,
+                        getGame().getRoundCount(),
+                        getGame().getPlayersList().get(0), // The player should not matter, I just dont want to cause a nullpointererror
+                        message,
+                        SpecialHexDisplay.SHD_OBSCURED_ALL));
+            }
+            sendChangedHex(coord);
+        }
+    }
+
+
+    /**
+     * Draws one "orbital bombardment target" on each hex where it is going to hit.
+     * @param orbitalBombardment  The orbital bombardment to be drawn.
+     */
+    private void drawOrbitalBombardmentIncomingOnBoard(OrbitalBombardment orbitalBombardment) {
+        var allCoords = orbitalBombardment.getAllAffectedCoords();
+        // var allCoords = orbitalBombardment.getCoords().allAtDistanceOrLess(SpecialHexDisplay.LARGE_EXPLOSION_IMAGE_RADIUS);
+        for (var coord : allCoords) {
+            if (!getGame().getBoard().contains(coord)) {
+                continue;
+            }
+            getGame().getBoard().addSpecialHexDisplay(
+                coord,
+                new SpecialHexDisplay(
+                    SpecialHexDisplay.Type.ORBITAL_BOMBARDMENT_INCOMING,
+                    getGame().getRoundCount(),
+                    getGame().getPlayersList().get(0), // The player should not matter, I just dont want to cause a nullpointererror
+                    Messages.getString("OrbitalBombardment.hitOnRound", getGame().getRoundCount()),
+                    SpecialHexDisplay.SHD_OBSCURED_ALL));
+            sendChangedHex(coord);
+        }
     }
 
     /**
@@ -20299,6 +20487,7 @@ public class TWGameManager extends AbstractGameManager {
      */
     void resolveScheduledNukes() {
         for (int[] nuke : scheduledNukes) {
+            drawNukeHitOnBoard(nuke);
             if (nuke.length == 3) {
                 doNuclearExplosion(new Coords(nuke[0] - 1, nuke[1] - 1), nuke[2],
                         vPhaseReport);
@@ -20309,6 +20498,85 @@ public class TWGameManager extends AbstractGameManager {
             }
         }
         scheduledNukes.clear();
+    }
+
+    /**
+     * explode any scheduled orbital bombardments
+     */
+    void resolveScheduledOrbitalBombardments() {
+        if (scheduledOrbitalBombardment.isEmpty()) {
+            return;
+        }
+
+        var r = new Report(1303, Report.PUBLIC);
+        r.indent();
+        r.newlines = 2;
+        getvPhaseReport().add(r);
+
+        scheduledOrbitalBombardment
+            .forEach(ob ->  doOrbitalBombardment(new Coords(ob.getX(), ob.getY()), ob.getDamage(), ob.getRadius()));
+        scheduledOrbitalBombardment.forEach(this::drawOrbitalBombardmentOnBoard);
+        scheduledOrbitalBombardment.clear();
+        getGame().resetOrbitalBombardmentAttacks();
+
+        r = new Report(1301, Report.PUBLIC);
+        r.indent();
+        r.newlines = 2;
+        getvPhaseReport().add(r);
+    }
+
+    public void drawNukeHitOnBoard(int[] nukeArgs) {
+        // Turns out this object can be used here
+        var nuke = new OrbitalBombardment.Builder().x(nukeArgs[0] - 1).y(nukeArgs[1] -1).radius(4).damage(0).build();
+
+        var allCoords = nuke.getAllAffectedCoords();
+        var hexes = getGame().getBoard().getSpecialHexDisplayTable();
+
+        for (var coord : allCoords) {
+            if (!getGame().getBoard().contains(coord)) {
+                continue;
+            }
+
+            var removeIncoming = hexes.get(coord).stream()
+                .filter(sdh -> sdh.getType() == SpecialHexDisplay.Type.NUKE_INCOMING)
+                .toList();
+
+            for (var shd : removeIncoming) {
+                getGame().getBoard().removeSpecialHexDisplay(coord, shd);
+            }
+
+            String imageSignature = nuke.getImageSignature(coord);
+            getGame().getBoard().addSpecialHexDisplay(
+                coord,
+                new SpecialHexDisplay(
+                    SpecialHexDisplay.Type.NUKE_HIT,
+                    getGame().getRoundCount(),
+                    getGame().getPlayersList().get(0), // The player should not matter, I just dont want to cause a nullpointererror
+                    Messages.getString("Nuke.exploded"),
+                    SpecialHexDisplay.SHD_OBSCURED_ALL,
+                    imageSignature));
+            sendChangedHex(coord);
+        }
+    }
+
+    private void drawNukeIncomingOnBoard(int[] nukeArgs) {
+        var nuke = new OrbitalBombardment.Builder().x(nukeArgs[0] - 1).y(nukeArgs[1] -1).radius(4).damage(0).build();
+
+        var allCoords = nuke.getAllAffectedCoords();
+        for (var coord : allCoords) {
+            if (!getGame().getBoard().contains(coord)) {
+                continue;
+            }
+            getGame().getBoard().addSpecialHexDisplay(
+                coord,
+                new SpecialHexDisplay(
+                    SpecialHexDisplay.Type.NUKE_INCOMING,
+                    getGame().getRoundCount(),
+                    getGame().getPlayersList().get(0), // The player should not matter, I just dont want to cause a nullpointererror
+                    Messages.getString("Nuke.hitOnRound", getGame().getRoundCount()),
+                    SpecialHexDisplay.SHD_OBSCURED_ALL));
+            sendChangedHex(coord);
+        }
     }
 
     /**
@@ -20327,6 +20595,30 @@ public class TWGameManager extends AbstractGameManager {
 
         doNuclearExplosion(position, nukeStats.baseDamage, nukeStats.degradation, nukeStats.secondaryRadius,
                 nukeStats.craterDepth, vDesc);
+    }
+
+    /**
+     * do an orbital bombardment
+     * @param position  the position that will be hit by the orbital bombardment
+     * @param damage the damage of the bombardment at target hex
+     * @param radius the radius which the damage will hit
+     */
+    public void doOrbitalBombardment(Coords position, int damage, int radius) {
+        Report r = new Report(1300, Report.PUBLIC);
+        r.indent();
+        r.add(position.getBoardNum(), true);
+        getvPhaseReport().add(r);
+
+        // Then, do actual blast damage.
+        // Use the standard blast function for this.
+        Vector<Report> tmpV = new Vector<>();
+        Vector<Integer> blastedUnitsVec = new Vector<>();
+        int range = radius + 1;
+        var degradation = damage / range;
+        doExplosion(damage, degradation , false, position, true, tmpV,
+            blastedUnitsVec, -1, true);
+        Report.indentAll(tmpV, 2);
+        getvPhaseReport().addAll(tmpV);
     }
 
     /**
@@ -20423,8 +20715,9 @@ public class TWGameManager extends AbstractGameManager {
         // Use the standard blast function for this.
         Vector<Report> tmpV = new Vector<>();
         Vector<Integer> blastedUnitsVec = new Vector<>();
+
         doExplosion(baseDamage, degradation, true, position, true, tmpV,
-                blastedUnitsVec, -1);
+                blastedUnitsVec, -1, false);
         Report.indentAll(tmpV, 2);
         vDesc.addAll(tmpV);
 
@@ -21112,7 +21405,7 @@ public class TWGameManager extends AbstractGameManager {
             r = new Report(6225);
             r.subject = pm.getId();
             r.indent(3);
-            r.add(ProtoMek.systemNames[cs.getIndex()]);
+            r.add(ProtoMek.SYSTEM_NAMES[cs.getIndex()]);
             reports.addElement(r);
         }
         switch (cs.getIndex()) {
@@ -24337,7 +24630,7 @@ public class TWGameManager extends AbstractGameManager {
         // attached to
         if ((mounted.getType() instanceof MiscType) && mounted.getType().hasFlag(MiscType.F_RISC_LASER_PULSE_MODULE)) {
             hit.setEffect(HitData.EFFECT_NO_CRITICALS);
-            Mounted<?> laser = mounted.getLinkedBy();
+            Mounted<?> laser = mounted.getLinked();
             if (en instanceof Mek) {
                 for (int slot = 0; slot < en.getNumberOfCriticals(laser.getLocation()); slot++) {
                     CriticalSlot cs = en.getCritical(laser.getLocation(), slot);
@@ -26696,9 +26989,11 @@ public class TWGameManager extends AbstractGameManager {
                                         && (lastUnitNum == entity.getUnitNumber());
                             }
                         });
+                        if(lastUnit.next() != null){
                         Entity lastUnitMember = lastUnit.next();
                         lastUnitMember.setUnitNumber(deletedUnitNum);
                         entityUpdate(lastUnitMember.getId());
+                        }
                     } // End update-unit-number
                 } // End added-ProtoMek
 
@@ -28325,7 +28620,7 @@ public class TWGameManager extends AbstractGameManager {
                         Vector<Report> vRep = new Vector<>();
                         doExplosion(((FuelTank) bldg).getMagnitude(), 10,
                                 false, bldg.getCoords().nextElement(), true,
-                                vRep, null, -1);
+                                vRep, null, -1, false);
                         Report.indentAll(vRep, 2);
                         vPhaseReport.addAll(vRep);
                         return vPhaseReport;
@@ -28522,7 +28817,7 @@ public class TWGameManager extends AbstractGameManager {
                     Vector<Report> vRep = new Vector<>();
                     doExplosion(((FuelTank) bldg).getMagnitude(), 10, false,
                             bldg.getCoords().nextElement(), true, vRep, null,
-                            -1);
+                            -1, false);
                     Report.indentAll(vRep, 2);
                     vDesc.addAll(vRep);
                     return vPhaseReport;
@@ -29704,6 +29999,7 @@ public class TWGameManager extends AbstractGameManager {
         }
         Hex targetHex = game.getBoard().getHex(targetCoords);
         // Terrain modifiers should only apply if the unit is on the ground...
+        // TO:AR 6th ed p165
         if (!entity.isSpaceborne() && !entity.isAirborne()) {
             if (targetHex != null) {
                 if ((targetHex.terrainLevel(Terrains.WATER) > 0)
@@ -29741,6 +30037,7 @@ public class TWGameManager extends AbstractGameManager {
             // battle, but it shouldn't
             // That's a fix for another day, probably when I get around to space terrain and
             // 'weather'
+            // TO:AR 6th ed p165
             if (conditions.getGravity() == 0) {
                 rollTarget.addModifier(3, "Zero-G");
             } else if (conditions.getGravity() < 0.8) {
@@ -29752,6 +30049,7 @@ public class TWGameManager extends AbstractGameManager {
             // Vacuum shouldn't apply to ASF ejection since they're designed for it, but the
             // rules don't specify
             // High and low pressures make more sense to apply to all
+            // TO:AR 6th ed p165
             if (conditions.getAtmosphere().isVacuum()) {
                 rollTarget.addModifier(3, "Vacuum");
             } else if (conditions.getAtmosphere().isVeryHigh()) {
@@ -29761,11 +30059,13 @@ public class TWGameManager extends AbstractGameManager {
             }
         }
 
-        if (conditions.getWeather().isDownpourOrHeavySnowOrIceStorm()
+        // TO:AR 6th ed p165
+        if (conditions.getWeather().isDownpourOrHeavySnowOrIceStormOrLightningStorm()
                 || conditions.getWind().isStrongGale()) {
             rollTarget.addModifier(2, "Bad Weather");
         }
 
+        // TO:AR 6th ed p165
         if (conditions.getWind().isStrongerThan(Wind.STRONG_GALE)
                 || (conditions.getWeather().isHeavySnow() && conditions.getWind().isStrongGale())) {
             rollTarget.addModifier(3, "Really Bad Weather");
@@ -31251,6 +31551,102 @@ public class TWGameManager extends AbstractGameManager {
 
     public List<SmokeCloud> getSmokeCloudList() {
         return game.getSmokeCloudList();
+    }
+
+    /**
+     * Check to see if Lightning Storm caused damage
+     * TO:AR 6th ed. p. 57
+     * */
+    private Vector<Report> resolveLightningStormDamage() {
+        Vector<Report> vFullReport = new Vector<>();
+        Roll rollStrike = Compute.rollD6(1);
+
+        if (rollStrike.getIntValue() > 4) {
+            Report.addNewline(vFullReport);
+            vFullReport.add(new Report(5620, Report.PUBLIC));
+
+            Roll rollNumber = Compute.rollD6(1);
+            int numberOfStrikes = Math.max(1, rollNumber.getIntValue() / 2);
+
+            for (int i = 0; i < numberOfStrikes; i++) {
+                Roll rollType = Compute.rollD6(1);
+                int damage;
+                switch (rollType.getIntValue()) {
+                    case 1:
+                    case 2:
+                    case 3:
+                        damage = 5;
+                        break;
+                    case 4:
+                    case 5:
+                        damage = 10;
+                        break;
+                    default:
+                        damage = 15;
+                }
+
+                Coords coords;
+
+                if (game.getOptions().booleanOption(OptionsConstants.ADVANCED_LIGHTNING_STORM_TARGETS_UNITS)) {
+                    List<Entity> entities = game.getEntitiesVector().stream()
+                        .filter(e -> e.getPosition() != null)
+                        .toList();
+                    int index = Compute.randomInt(entities.size());
+                    coords = entities.get(index).getPosition();
+                } else {
+                    int x = Compute.randomInt(game.getBoard().getWidth());
+                    int y = Compute.randomInt(game.getBoard().getHeight());
+                    coords = new Coords(x, y);
+                }
+
+                Report r;
+                r = new Report(5621);
+                r.add(coords.getBoardNum());
+                vFullReport.add(r);
+
+                vFullReport.addAll(lightningStormDamage(coords, damage));
+
+                if (rollType.getIntValue() == 6) {
+                    for (Coords locationAdjacent : coords.allAdjacent()) {
+                        r = new Report(5622);
+                        r.add(locationAdjacent.getBoardNum());
+                        vFullReport.add(r);
+
+                        vFullReport.addAll(lightningStormDamage(locationAdjacent, 5));
+                    }
+                }
+            }
+        }
+
+        return vFullReport;
+    }
+
+    private Vector<Report> lightningStormDamage(Coords coords, int damage) {
+        Vector<Report> vFullReport = new Vector<>();
+        Vector<Report> newReports = tryClearHex(coords, damage, Entity.NONE);
+        vFullReport.addAll(newReports);
+
+        Building bldg = game.getBoard().getBuildingAt(coords);
+
+        if (bldg != null) {
+            Vector<Report> buildingReport = damageBuilding(bldg, damage, coords);
+            vFullReport.addAll(buildingReport);
+        }
+
+        List<Entity> hitEntities = game.getEntitiesVector().stream()
+                .filter(e -> coords.equals(e.getPosition())
+                    && !(e instanceof GunEmplacement))
+                .toList();
+
+        for (Entity entity : hitEntities) {
+            ToHitData toHit = new ToHitData();
+            toHit.setSideTable(ToHitData.SIDE_RANDOM);
+            HitData hit = entity.rollHitLocation(ToHitData.HIT_NORMAL, toHit.getSideTable());
+            Vector<Report> entityReport = damageEntity(entity, hit, damage);
+            vFullReport.addAll(entityReport);
+        }
+
+        return vFullReport;
     }
 
     /**

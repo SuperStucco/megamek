@@ -1736,10 +1736,10 @@ public class Compute {
      * @return if target si in range and entity is not affected
      */
     public static boolean bapInRange(Game game, Entity entity, Entity target) {
-        return (target != null)
-                && entity.hasBAP()
-                && (entity.getBAPRange() >= Compute.effectiveDistance(game, entity, target))
-                && !ComputeECM.isAffectedByECM(entity, entity.getPosition(), target.getPosition());
+        return entity.hasBAP()
+            && (target != null) && !target.isOffBoard() && (target.getPosition() != null)
+            && (entity.getBAPRange() >= Compute.effectiveDistance(game, entity, target))
+            && !ComputeECM.isAffectedByECM(entity, entity.getPosition(), target.getPosition());
     }
 
     /**
@@ -7248,6 +7248,7 @@ public class Compute {
             case TARGETING_COMPUTER:
                 if (!wtype.hasFlag(WeaponType.F_DIRECT_FIRE)
                         || wtype.hasFlag(WeaponType.F_PULSE)
+                        || weapon.curMode().getName().equals("Pulse")
                         || (wtype instanceof HAGWeapon)) {
                     return false;
                 }

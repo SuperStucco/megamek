@@ -44,7 +44,6 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.SwingUtilities;
 import javax.swing.ToolTipManager;
 import javax.swing.UIManager;
 import javax.swing.filechooser.FileFilter;
@@ -85,6 +84,7 @@ import megamek.client.ui.swing.widget.SkinnedJPanel;
 import megamek.codeUtilities.StringUtility;
 import megamek.common.*;
 import megamek.common.annotations.Nullable;
+import megamek.common.jacksonadapters.BotParser;
 import megamek.common.options.IBasicOption;
 import megamek.common.options.IOption;
 import megamek.common.preference.IPreferenceChangeListener;
@@ -92,13 +92,13 @@ import megamek.common.preference.PreferenceChangeEvent;
 import megamek.common.preference.PreferenceManager;
 import megamek.common.scenario.Scenario;
 import megamek.common.scenario.ScenarioLoader;
+import megamek.server.sbf.SBFGameManager;
 import megamek.common.util.EmailService;
 import megamek.common.util.ImageUtil;
 import megamek.common.util.fileUtils.MegaMekFile;
 import megamek.logging.MMLogger;
 import megamek.server.IGameManager;
 import megamek.server.Server;
-import megamek.server.sbf.SBFGameManager;
 import megamek.server.totalwarfare.TWGameManager;
 import megamek.utilities.xml.MMXMLUtility;
 
@@ -334,11 +334,13 @@ public class MegaMekGUI implements IPreferenceChangeListener {
         addBag(scenB, gridbag, c);
         c.gridy++;
         addBag(connectB, gridbag, c);
+//        Connecting to an SBF game is not useful (yet)
+//        c.gridy++;
+//        addBag(connectSBF, gridbag, c);
         c.gridy++;
-        addBag(connectSBF, gridbag, c);
-        c.gridy++;
-        // addBag(botB, gridbag, c);
-        // c.gridy++;
+//        Connecting as a bot was deemed not useful; leaving this for now to uncomment if necessary
+//        addBag(botB, gridbag, c);
+//        c.gridy++;
         addBag(editB, gridbag, c);
         c.gridy++;
         addBag(skinEditB, gridbag, c);
@@ -856,7 +858,11 @@ public class MegaMekGUI implements IPreferenceChangeListener {
             for (int x = 0; x < pa.length; x++) {
                 if (playerTypes[x] == ScenarioDialog.T_BOT) {
                     logger.info("Adding bot " + pa[x].getName() + " as Princess");
-                    BotClient c = new Princess(pa[x].getName(), MMConstants.LOCALHOST, port);
+                    Princess c = new Princess(pa[x].getName(), MMConstants.LOCALHOST, port);
+                    if (scenario.hasBotInfo(pa[x].getName())
+                            && scenario.getBotInfo(pa[x].getName()) instanceof BotParser.PrincessRecord princessRecord) {
+                        c.setBehaviorSettings(princessRecord.behaviorSettings());
+                    }
                     c.getGame().addGameListener(new BotGUI(frame, c));
                     c.connect();
                 }
@@ -1202,22 +1208,9 @@ public class MegaMekGUI implements IPreferenceChangeListener {
     private static void setLookAndFeel() {
         try {
             UIManager.setLookAndFeel(GUIPreferences.getInstance().getUITheme());
-            updateAfterUiChange();
+            UIUtil.updateAfterUiChange();
         } catch (Exception ex) {
             logger.error("setLookAndFeel() Exception", ex);
-        }
-    }
-
-    /**
-     * Updates all existing windows and frames. Use after a gui scale change or look-and-feel change.
-     */
-    public static void updateAfterUiChange() {
-        for (Window window : Window.getWindows()) {
-            SwingUtilities.updateComponentTreeUI(window);
-            window.invalidate();
-            window.validate();
-            window.pack();
-            window.repaint();
         }
     }
 }
