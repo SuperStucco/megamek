@@ -17034,9 +17034,9 @@
             </model>
         </chassis>
         <chassis name='Saracen Mk II HCV' unitType='Tank'>
-            <availability>FWL:5,MERC:5,CP:4,DC:7</availability>
+            <availability>FWL:5,MERC:5,DC:7</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <availability>FWL:8,MERC:8,DC:8</availability>
             </model>
             <model name='(BC3)'>
                 <roles>fire_support</roles>
