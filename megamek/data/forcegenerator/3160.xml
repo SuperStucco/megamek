@@ -20080,6 +20080,7 @@
 				<availability>IS:4,FS:8</availability>
 			</model>
 			<model name='(Danai Centrella)'>
+                <roles>assault,asf_carrier</roles>
 				<availability>MOC:4,CC:4</availability>
 			</model>
 		</chassis>

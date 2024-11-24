@@ -18150,6 +18150,7 @@
 				<availability>IS:3,FS:8</availability>
 			</model>
 			<model name='(Danai Centrella)'>
+                <roles>assault,asf_carrier</roles>
 				<availability>MOC:3,CC:3</availability>
 			</model>
 		</chassis>
