@@ -20636,22 +20636,26 @@
 			</model>
 		</chassis>
 		<chassis name='Warwolf' unitType='Mek' omni='Clan'>
-			<availability>CWE:3+</availability>
+			<availability>CWE:3+,SL3:3+</availability>
 			<model name='(Prime)'>
-				<roles>spotter</roles>
-				<availability>General:8</availability>
+				<roles>cavalry,spotter</roles>
+				<availability>CWE:8,SL3:8</availability>
 			</model>
 			<model name='A'>
-				<availability>General:7</availability>
+                <roles>cavalry</roles>
+				<availability>CWE:7,SL3:7</availability>
 			</model>
 			<model name='B'>
-				<availability>General:7</availability>
+                <roles>cavalry</roles>
+				<availability>CWE:7,SL3:7</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+                <roles>cavalry</roles>
+				<availability>CWE:7,SL3:7</availability>
 			</model>
 			<model name='H'>
-				<availability>General:6</availability>
+                <roles>cavalry</roles>
+				<availability>CWE:6,SL3:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Wasp' unitType='Mek'>
