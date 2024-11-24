@@ -17710,18 +17710,18 @@
 			</model>
 		</chassis>
 		<chassis name='Simian Battle Armor' unitType='BattleArmor'>
-			<availability>ROS:5</availability>
-			<model name='[Flamer](Sqd4)' mechanized='false'>
-				<availability>General:8</availability>
+			<availability>ROS:5:3135</availability>
+			<model name='[Flamer](Sqd4)' mechanized='true'>
+				<availability>ROS:8</availability>
 			</model>
-			<model name='[Heavy MG](Sqd4)' mechanized='false'>
-				<availability>General:7</availability>
+			<model name='[Heavy MG](Sqd4)' mechanized='true'>
+				<availability>ROS:7</availability>
 			</model>
 			<model name='[LRR](Sqd4)' mechanized='true'>
-				<availability>General:8</availability>
+				<availability>ROS:8</availability>
 			</model>
-			<model name='[SL](Sqd4)' mechanized='false'>
-				<availability>General:6</availability>
+			<model name='[SL](Sqd4)' mechanized='true'>
+				<availability>ROS:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Simurgh' unitType='AeroSpaceFighter' omni='IS'>

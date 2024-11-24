@@ -17359,6 +17359,21 @@
 				<availability>IS:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Simian Battle Armor' unitType='BattleArmor'>
+            <availability>MERC:6,SL3:3-,SL3.CJF:4-</availability>
+            <model name='[Flamer](Sqd4)' mechanized='true'>
+                <availability>MERC:8,SL3:8,SL3.CJF:8</availability>
+            </model>
+            <model name='[Heavy MG](Sqd4)' mechanized='true'>
+                <availability>MERC:7,SL3:7,SL3.CJF:7</availability>
+            </model>
+            <model name='[LRR](Sqd4)' mechanized='true'>
+                <availability>MERC:8,SL3:8,SL3.CJF:8</availability>
+            </model>
+            <model name='[SL](Sqd4)' mechanized='true'>
+                <availability>MERC:6,SL3:6,SL3.CJF:6</availability>
+            </model>
+        </chassis>
 		<chassis name='Sirocco' unitType='Mek'>
 			<availability>CC:3,FWL:4,MERC:3,CP:4</availability>
 			<model name='SRC-3C'>
