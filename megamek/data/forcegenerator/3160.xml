@@ -15201,6 +15201,13 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Poseidon' unitType='Mek'>
+            <availability>FS:1+</availability>
+            <model name='PSD-V2'>
+                <roles>command</roles>
+                <availability>FS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Potemkin Troop Cruiser' unitType='Warship'>
 			<availability>CHH:1,CDS:5,CP:5,RA:5</availability>
 			<model name='(2611)'>

@@ -15478,9 +15478,10 @@
 			</model>
 		</chassis>
 		<chassis name='Poseidon' unitType='Mek'>
-			<availability>ROS:2+</availability>
+			<availability>ROS:2+:3136</availability>
 			<model name='PSD-V2'>
-				<availability>General:8</availability>
+                <roles>command</roles>
+				<availability>ROS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Potemkin Troop Cruiser' unitType='Warship'>
