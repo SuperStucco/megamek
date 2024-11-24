@@ -7196,6 +7196,13 @@
 				<availability>General:2,FVC:2+</availability>
 			</model>
 		</chassis>
+        <chassis name='Firestorm' unitType='Mek'>
+            <availability>CW:2,CDS:4,FWL:2</availability>
+            <model name=''>
+                <roles>anti_infantry,inf_support</roles>
+                <availability>CW:8,CDS:8,FWL:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Flamberge' unitType='Mek'>
 			<availability>CJF:4</availability>
 			<model name='2'>

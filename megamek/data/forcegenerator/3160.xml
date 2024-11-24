@@ -7052,7 +7052,11 @@
 			</model>
 		</chassis>
 		<chassis name='Firestorm' unitType='Mek'>
-			<availability>CWE:2,CDS:4,FWL:2</availability>
+			<availability>SL3:2,CWE:2,CDS:4,CP:2,FWL:2</availability>
+            <model name=''>
+                <roles>anti_infantry,inf_support</roles>
+                <availability>SL3:2,CLAN.IS:8,FWL:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Flamberge' unitType='Mek'>
 			<availability>CJF:4</availability>
