@@ -20667,17 +20667,18 @@
             </model>
         </chassis>
         <chassis name='Vandal' unitType='Mek' omni='IS'>
-            <availability>CC:7,MOC:5</availability>
+            <availability>CC:7,MOC:5+</availability>
             <model name='LI-O'>
-                <availability>General:8</availability>
+                <roles>ew_support</roles>
+				<availability>CC:8,MOC:8</availability>
             </model>
             <model name='LI-OA'>
-                <roles>spotter</roles>
-                <availability>General:7</availability>
+				<roles>command,spotter</roles>
+				<availability>CC:7,MOC:7</availability>
             </model>
             <model name='LI-OB'>
-                <roles>spotter</roles>
-                <availability>General:7</availability>
+				<roles>spotter,urban</roles>
+				<availability>CC:7,MOC:7</availability>
             </model>
         </chassis>
         <chassis name='Vanir Assault Dropship' unitType='Dropship'>
