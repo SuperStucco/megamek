@@ -8150,10 +8150,10 @@
 			</model>
 		</chassis>
 		<chassis name='Hadur Fast Support Vehicle' unitType='Tank'>
-			<availability>CHH:4,LA:3,ROS:3,FS:3,MERC:2,CJF:3,CWIE:3</availability>
+			<availability>CHH:4,LA:3+,ROS:3,FS:3+,MERC:2+,CJF:3,CWIE:3</availability>
 			<model name=''>
-				<roles>missile_artillery</roles>
-				<availability>General:8</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CLAN.IS:8,IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Hamilcar' unitType='Dropship'>

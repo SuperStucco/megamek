@@ -8706,10 +8706,10 @@
 			</model>
 		</chassis>
 		<chassis name='Hadur Fast Support Vehicle' unitType='Tank'>
-			<availability>CHH:5,LA:4,ROS:4,FS:4,MERC:3,CJF:4,CWIE:4</availability>
+			<availability>CHH:5,LA:4+,ROS:4,FS:4+,MERC:3+,CJF:4+,CWIE:4</availability>
 			<model name=''>
-				<roles>missile_artillery</roles>
-				<availability>General:8</availability>
+				<roles>mixed_artillery</roles>
+				<availability>CLAN.IS:8,IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Hamilcar' unitType='Dropship'>
