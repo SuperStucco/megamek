@@ -18067,7 +18067,7 @@
 				<availability>LA:4,MERC:4</availability>
 			</model>
 		</chassis>
-        <chassis name='Stormbird Heavy BA' unitType='BattleArmor'>
+        <chassis name='Stormbird Battle Armor' unitType='BattleArmor'>
             <availability>CJF:3,RA:3</availability>
             <model name='(Jade Falcon)(Sqd5)' mechanized='true'>
                 <roles>mag_clamp</roles>
