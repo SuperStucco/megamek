@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 2765-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='BoS'>
 			<salvage pct='10'></salvage>
@@ -2292,7 +2295,7 @@
 		<chassis name='M-9 SDS Battle Station' unitType='Space Station'>
 			<availability>TH:1</availability>
 			<model name='&apos;Pavise&apos;'>
-				<availability>General:2</availability>
+				<availability>TH:8</availability>
 			</model>
 		</chassis>
 		<chassis name='MASH Truck' unitType='Tank'>
@@ -2305,9 +2308,6 @@
                 <roles>support</roles>
                 <availability>General:8</availability>
             </model>
-		</chassis>
-		<chassis name='M9 SDS Battle Station' unitType='Space Station'>
-			<availability>TH:3</availability>
 		</chassis>
 		<chassis name='Mackie' unitType='Mek'>
 			<availability>TH:2-,TH.HM:2-,Periphery:2</availability>

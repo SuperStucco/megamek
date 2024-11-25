@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 3055-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='BAN'>
 			<pctOmni>5,5</pctOmni>
@@ -7127,7 +7130,7 @@
 		<chassis name='Pegasus Scout Hover Tank' unitType='Tank'>
 			<availability>HL:3,IS:5,Periphery.Deep:8,WOB:5-,SIC:6,FS:7,Periphery:4,CWIE:4,CS:5-,LA:7,DC:7</availability>
 			<model name=''>
-				<roles>recon</roles>67
+				<roles>recon</roles>
 				<availability>General:8</availability>
 			</model>
 			<model name='(3058 Upgrade)'>

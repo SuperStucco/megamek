@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 3085-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='BAN'>
 			<pctOmni>10</pctOmni>
@@ -3286,7 +3289,8 @@
 		<chassis name='Bullet Suicide Drone' unitType='Conventional Fighter'>
 			<availability>CC:2-</availability>
 			<model name=''>
-				<availability>General:4</availability>
+                <roles>ground_support</roles>
+				<availability>CC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bulwark Assault Vehicle' unitType='Tank'>
@@ -9980,7 +9984,7 @@
                 <roles>spotter</roles>
                 <availability>CC:8:3095,DC:8:3095,FS:8:3095,ROS:8:3095,MERC:6:3095,CLAN.IS:8</availability>
             </model>
-            <model name=''>
+            <model name='3'>
                 <roles>ew_support,recon,spotter</roles>
                 <availability>CC:2:3095,DC:2:3095,FS:2:3095,ROS:2:3095,MERC:2:3095,CLAN.IS:6:3095</availability>
             </model>

@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 3160-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='AML'>
 			<techMargin>18</techMargin>
@@ -3540,6 +3543,10 @@
 		</chassis>
 		<chassis name='Bullet Suicide Drone' unitType='Conventional Fighter'>
 			<availability>CC:2</availability>
+            <model name=''>
+                <roles>ground_support</roles>
+                <availability>CC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Bulwark Assault Vehicle' unitType='Tank'>
 			<availability>RF:7,FWL:6,DA:6,MERC:5,CP:6</availability>
@@ -7870,9 +7877,18 @@
 				<availability>FWL:6,CP:6</availability>
 			</model>
 		</chassis>
-		<chassis name='Gotterdammerung' unitType='Mek'>
-			<availability>LA:5,MERC:4</availability>
-		</chassis>
+        <chassis name='Götterdämmerung' unitType='Mek'>
+            <availability>LA:5,MERC:4,CDS:4-</availability>
+            <model name='GTD-20C'>
+                <availability>LA:4+,MERC:3+,CDS:8</availability>
+            </model>
+            <model name='GTD-20S'>
+                <availability>LA:8,MERC:8</availability>
+            </model>
+            <model name='GTD-30S'>
+                <availability>LA:5,MERC:5</availability>
+            </model>
+        </chassis>
 		<chassis name='Grand Dragon' unitType='Mek'>
 			<availability>RD:4,MERC:4,CP:5,DC:4</availability>
 			<model name='DRG-10K'>
@@ -11021,7 +11037,7 @@
                 <roles>spotter</roles>
                 <availability>IS:8,ROS:8,MERC:6,CLAN.IS:8</availability>
             </model>
-            <model name=''>
+            <model name='3'>
                 <roles>ew_support,recon,spotter</roles>
                 <availability>IS:2,CLAN.IS:6</availability>
             </model>
@@ -11693,7 +11709,7 @@
             <model name='E'>
                 <availability>CLAN.IS:6,MERC:6</availability>
             </model>
-            <model name='E'>
+            <model name='F'>
                 <roles>fire_support</roles>
                 <availability>CLAN.IS:6,MERC:6</availability>
             </model>
@@ -12078,25 +12094,19 @@
 				<availability>CLAN.IS:6,CP:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Mad Cat Mk IV (Savage Wolf)' unitType='Mek'>
-			<availability>CDS:2,CP:2,CJF:2</availability>
-			<model name='PR'>
-				<availability>General:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Mad Cat Mk IV (Savage Wolf)' unitType='Mek' omni='Clan'>
-			<availability>CDS:6,IS:4+,CLAN.IS:5,CP:6</availability>
+            <availability>CLAN.IS:5,CDS:6,CP:6,IS:4+</availability>
 			<model name='(Prime)'>
-				<availability>General:8</availability>
+				<availability>CLAN.IS:8,IS:8</availability>
 			</model>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>CLAN.IS:7,IS:6</availability>
 			</model>
 			<model name='B'>
-				<availability>General:5</availability>
+				<availability>CLAN.IS:5,IS:5</availability>
 			</model>
 			<model name='C'>
-				<availability>General:6</availability>
+				<availability>CLAN.IS:6,IS:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Maelstrom' unitType='Mek'>
@@ -20429,22 +20439,22 @@
 		</chassis>
 		<chassis name='Vulture Mk III (Mad Dog Mk III)' unitType='Mek' omni='Clan'>
 			<availability>RD:8,RA:8</availability>
-			<model name='(Prime)'>
+			<model name='Prime'>
 				<roles>fire_support</roles>
-				<availability>General:8</availability>
+				<availability>RD:8,RA:8</availability>
 			</model>
 			<model name='A'>
-				<availability>General:7</availability>
+				<availability>RD:7,RA:7</availability>
 			</model>
 			<model name='B'>
 				<roles>fire_support</roles>
-				<availability>General:7</availability>
+				<availability>RD:7,RA:7</availability>
 			</model>
 			<model name='C'>
-				<availability>General:7</availability>
+				<availability>RD:7,RA:7</availability>
 			</model>
 			<model name='D'>
-				<availability>General:7</availability>
+				<availability>RD:7,RA:7</availability>
 			</model>
 		</chassis>
 		<chassis name='Vulture Mk IV (Mad Dog Mk IV)' unitType='Mek' omni='Clan'>

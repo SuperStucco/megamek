@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 3067-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='ARDC'>
 			<pctOmni>0,0,4,10,20</pctOmni>
@@ -13068,8 +13071,7 @@
 		<chassis name='Riever' unitType='AeroSpaceFighter'>
 			<availability>MOC:3,CC:5,FRR:5,WOB:6,MERC:2,FS:3,CIR:3,Periphery:2,TC:3,FVC:3,LA:4,Periphery.MW:3,Periphery.ME:3,FWL:8,DC:5</availability>
 			<model name='F-100'>
-				<availability>
-					CC:4-,FVC:5-,HL:3-,LA:2,FRR:2,FWL:5-,Periphery.Deep:8,MERC:5-,DC:2,Periphery:5-</availability>
+				<availability>CC:4-,FVC:5-,HL:3-,LA:2,FRR:2,FWL:5-,Periphery.Deep:8,MERC:5-,DC:2,Periphery:5-</availability>
 			</model>
 			<model name='F-100a'>
 				<availability>CC:4,FWL:5,MERC:5</availability>
@@ -16610,7 +16612,7 @@
 				<availability>CSV:8</availability>
 			</model>
 			<model name='5'>
-                <roles>CAVALRY</roles>
+                <roles>cavalry</roles>
 				<availability>CSR:8,CSV:8,CLAN.IS:4</availability>
 			</model>
 		</chassis>

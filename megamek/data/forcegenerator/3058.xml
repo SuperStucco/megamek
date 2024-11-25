@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 3058-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='ARDC'>
 			<pctOmni>0,0,2,5,10</pctOmni>
@@ -9295,7 +9298,7 @@
 			<model name='SR1-OB'>
 				<availability>IS:7</availability>
 			</model>
-			<model name='SR1-OC'>DC:8+,LA:7,FS:7,MERC:8
+			<model name='SR1-OC'>
 				<availability>DC:8+,LA:7,FS:7,MERC:8</availability>
 			</model>
 			<model name='SR1-OD'>

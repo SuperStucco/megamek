@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 2780-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='BoS'>
 			<salvage pct='10'></salvage>
@@ -1362,10 +1365,10 @@
 			<model name='FLC-4Nb'>
 				<availability>SL.R:8</availability>
 			</model>
-            <model name='FLC-4Nb'>
+            <model name='FLC-4Nb-PP'>
                 <availability>PP:2:2792</availability>
             </model>
-            <model name='FLC-4Nb-PP'>
+            <model name='FLC-4Nb-PP2'>
                 <availability>PP:2:2795</availability>
             </model>
 		</chassis>
@@ -3755,6 +3758,10 @@
 		</chassis>
 		<chassis name='Tigress Close Patrol Craft' unitType='Small Craft'>
 			<availability>TC:5</availability>
+            <model name=''>
+                <roles>escort</roles>
+                <availability>TC:8</availability>
+            </model>
 		</chassis>
 		<chassis name='Titan' unitType='Dropship'>
 			<availability>CC:3,LA:3,SL:4,FWL:3,NIOPS:3,FS:3,DC:3</availability>

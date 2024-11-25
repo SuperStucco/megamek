@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 3060-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='ARDC'>
 			<pctOmni>0,0,2,5,10</pctOmni>
@@ -5082,8 +5085,7 @@
 			</model>
 		</chassis>
 		<chassis name='Gladiator (Executioner)' unitType='Mek' omni='Clan'>
-			<availability>
-				CSR:3,CLAN:5,IS:1+,BAN:4,CWIE:4,CSA:6,MERC.WD:3,CDS:5,CW:2,CNC:5,CSJ:7,CJF:5,CGB:9</availability>
+			<availability>CSR:3,CLAN:5,IS:1+,BAN:4,CWIE:4,CSA:6,MERC.WD:3,CDS:5,CW:2,CNC:5,CSJ:7,CJF:5,CGB:9</availability>
 			<model name='A'>
                 <roles>raider</roles>
 				<availability>CDS:5,CW:8,CSV:4,CNC:5,General:6,CSJ:4,CJF:5,CWIE:8,CGB:7</availability>

@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 2865-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='BAN'>
 			<pctOmni>0,0</pctOmni>
@@ -1953,7 +1956,7 @@
 		<chassis name='Flashman' unitType='Mek'>
 			<availability>CHH:5,CSV:7,CLAN:6,CFM:7,CGS:5,CS:5,Periphery.R:2,CDS:5,LA:6,CBS:5,FWL:2,NIOPS:5,CJF:7,CGB:5</availability>
 			<model name='FLS-7K'>
-				<availability>LA:7,FWL:8, Periphery.R:8</availability>
+				<availability>LA:7,FWL:8,Periphery.R:8</availability>
 			</model>
 			<model name='FLS-8K'>
                 <roles>cavalry</roles>

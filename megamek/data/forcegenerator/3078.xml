@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Era 3078-->
-<ratgen>
+<ratgen
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="forceGeneratorSchema.xsd"
+>
 	<factions>
 		<faction key='AB'>
 			<omniMargin>2</omniMargin>
@@ -3502,7 +3505,8 @@
 		<chassis name='Bullet Suicide Drone' unitType='Conventional Fighter'>
 			<availability>CC:2-</availability>
 			<model name=''>
-				<availability>General:4</availability>
+                <roles>ground_support</roles>
+				<availability>CC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Bulwark Assault Vehicle' unitType='Tank'>
@@ -5606,7 +5610,7 @@
 			<model name='(Reflective) &apos;Terrorizer&apos; [Laser] (Sqd6)' mechanized='true'>
 				<availability>WOB:6:3079</availability>
 			</model>
-            <model name='(Reflective) &apos;Terrorizer&apos; [MG] (Sqd6)' mechanized='true'>
+            <model name='(Reflective) &apos;Terrorizer&apos; [MG] (Sqd4)' mechanized='true'>
                 <availability>PIR:6:3079</availability>
             </model>
 			<model name='(Reflective) &apos;Terrorizer&apos; [MG] (Sqd6)' mechanized='true'>
