@@ -509,13 +509,6 @@
 		<faction key='LA.YR' />
 	</factions>
 	<units>
-		<chassis name='AA Mechanized Infantry' unitType='Infantry'>
-			<availability>CHH:3,CLAN:2</availability>
-			<model name='Mechanized AA Infantry'>
-				<roles>anti_aircraft</roles>
-				<availability>CLAN:8</availability>
-			</model>
-		</chassis>
 		<chassis name='AC/2 Carrier' unitType='Tank'>
 			<availability>MOC:3,HL:2,IS:4,Periphery.Deep:4,FS:5,CIR:4,Periphery:4,CS:3,LA:5,NIOPS:3,DC:5</availability>
 			<model name=''>
@@ -873,12 +866,6 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Bandit Motorized Point' unitType='Infantry'>
-			<availability>BAN:8</availability>
-			<model name='(Rifle)'>
-				<availability>BAN:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Banshee' unitType='Mek'>
 			<availability>CC:4-,HL:8-,IS:7-,Periphery.Deep:9-,FS:5-,MERC:7-,Periphery:10-,CS:2-,LA:6-,FWL:5-,NIOPS:2-,DC:5-</availability>
 			<model name='BNC-3E'>
@@ -1217,12 +1204,6 @@
 				<availability>LA:2,IS:2,FS:4,MERC:4,Periphery:2</availability>
 			</model>
 		</chassis>
-		<chassis name='Ceremonial Guard' unitType='Infantry'>
-			<availability>MH:2</availability>
-			<model name='Caesar&apos;s Royal Guard; Marion Hegemony'>
-				<availability>MH:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Cestus' unitType='Mek'>
 			<availability>CS:4,CLAN:3,NIOPS:4,FS:1+</availability>
 			<model name='CTS-6Y'>
@@ -1341,19 +1322,6 @@
 				<availability>IS:4</availability>
 			</model>
 		</chassis>
-		<chassis name='Clan Anti-Infantry' unitType='Infantry'>
-			<availability>CLAN:2,CJF:3</availability>
-			<model name='Clan Jade Falcon Police'>
-				<roles>urban,anti_infantry</roles>
-				<availability>CLAN:8</availability>
-			</model>
-		</chassis>
-		<chassis name='Clan Foot Infantry' unitType='Infantry'>
-			<availability>CLAN:5-</availability>
-			<model name='Ad Hoc Point'>
-				<availability>CLAN:6</availability>
-			</model>
-		</chassis>
 		<chassis name='Clan Foot Point' unitType='Infantry'>
 			<availability>CIH:5,CLAN:10,BAN:10</availability>
 			<model name='(Flamer)'>
@@ -1370,12 +1338,6 @@
 			</model>
 			<model name='(SRM)'>
 				<availability>CLAN:2</availability>
-			</model>
-		</chassis>
-		<chassis name='Clan Heavy Foot Infantry' unitType='Infantry'>
-			<availability>CLAN.GC:10</availability>
-			<model name='Ebon Keshik Point'>
-				<availability>CLAN.GC:10</availability>
 			</model>
 		</chassis>
 		<chassis name='Clan Jump Point' unitType='Infantry'>
@@ -1418,12 +1380,6 @@
 			</model>
 			<model name='(SRM)'>
 				<availability>CLAN:5</availability>
-			</model>
-		</chassis>
-		<chassis name='Clan Mechanized Infantry' unitType='Infantry'>
-			<availability>CHH:3,CIH:4,CLAN:2</availability>
-			<model name='Mimir/Watch Counter Insurgency Point'>
-				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Clan Mechanized Tracked Point' unitType='Infantry'>
@@ -2107,13 +2063,6 @@
 				<availability>BAN:2</availability>
 			</model>
 		</chassis>
-		<chassis name='Fast Recon' unitType='Infantry'>
-			<availability>CHH:5,CIH:5,CLAN:3</availability>
-			<model name='Cavalry Point'>
-				<roles>recon</roles>
-				<availability>CLAN:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Fenris (Ice Ferret)' unitType='Mek' omni='Clan'>
 			<availability>CW:6</availability>
 			<model name='A'>
@@ -2167,12 +2116,6 @@
 			<model name='(AC5)'>
 				<roles>anti_aircraft,field_gun</roles>
 				<availability>General:8</availability>
-			</model>
-		</chassis>
-		<chassis name='Field Medic' unitType='Infantry'>
-			<availability>IS:4,Periphery:4</availability>
-			<model name='Magistracy Medical Corp'>
-				<availability>General:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Fire Scorpion' unitType='Mek'>
@@ -2262,12 +2205,6 @@
 			</model>
 			<model name='FLE-4'>
 				<availability>FWL:8</availability>
-			</model>
-		</chassis>
-		<chassis name='Foot Ballistic Rifle' unitType='Infantry'>
-			<availability>IS:3-,Periphery:3-</availability>
-			<model name='Hastati V'>
-				<availability>General:10-</availability>
 			</model>
 		</chassis>
 		<chassis name='Foot Platoon' unitType='Infantry'>
@@ -2632,12 +2569,6 @@
 			<model name='(SRM)'>
 				<roles>apc</roles>
 				<availability>PIR:6-,Periphery.Deep:6-,IS.pm:4,Periphery:6-</availability>
-			</model>
-		</chassis>
-		<chassis name='Heavy Jump Infantry' unitType='Infantry'>
-			<availability>DC:3+</availability>
-			<model name='DEST Heavy Response Platoon'>
-				<availability>DC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Heavy Strike Fighter' unitType='Conventional Fighter'>
@@ -3111,13 +3042,6 @@
 			<model name=''>
                 <roles>cargo,support</roles>
 				<availability>General:8</availability>
-			</model>
-		</chassis>
-		<chassis name='Jump Platoon (Anti-Mech)' unitType='Infantry'>
-			<availability>IS:2</availability>
-			<model name='(Laser)'>
-				<roles>anti_mek</roles>
-				<availability>IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Jump Platoon' unitType='Infantry'>
@@ -3774,13 +3698,6 @@
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Mechanized Field Artillery' unitType='Infantry'>
-			<availability>DC:3</availability>
-			<model name='71st Mechanized'>
-				<roles>artillery</roles>
-				<availability>General:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Mechanized Hover Platoon' unitType='Infantry'>
 			<availability>HL:3,IS:5,Periphery.Deep:5,Periphery:5</availability>
 			<model name='(Demolition)'>
@@ -4005,12 +3922,6 @@
 			</model>
 			<model name='(2839)'>
 				<availability>CLAN:2</availability>
-			</model>
-		</chassis>
-		<chassis name='Motorized Heavy Infantry' unitType='Infantry'>
-			<availability>DC.RR:3</availability>
-			<model name='Motstand/Mimir Troop'>
-				<availability>DC.RR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Motorized Platoon' unitType='Infantry'>
@@ -4442,13 +4353,6 @@
 				<availability>IS:8,CLAN:8,NIOPS:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Pirate' unitType='Infantry'>
-			<availability>PIR:4</availability>
-			<model name='Lady Death&apos;s &apos;Pacification&apos; Squads'>
-				<roles>incendiary</roles>
-				<availability>PIR:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Planetlifter Air Transport' unitType='Conventional Fighter'>
 			<availability>CS:7,IS:6,FS:5,MERC:4,Periphery:5</availability>
 			<model name=''>
@@ -4723,12 +4627,6 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='SRM Foot Infantry' unitType='Infantry'>
-			<availability>TC:4</availability>
-			<model name='Taurian Citizens&apos; Militia'>
-				<availability>TC:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Sabaku Kaze Heavy Scout Hover Tank' unitType='Tank'>
 			<availability>DC.AL:6,DC:5</availability>
 			<model name=''>
@@ -4977,13 +4875,6 @@
 				<availability>LA:6</availability>
 			</model>
 		</chassis>
-		<chassis name='Skaret Assassins' unitType='Infantry'>
-			<availability>PIR:1</availability>
-			<model name='JàrnFòlk'>
-				<roles>specops</roles>
-				<availability>General:4</availability>
-			</model>
-		</chassis>
 		<chassis name='Skulker Wheeled Scout Tank' unitType='Tank'>
 			<availability>IS:4,DC:7</availability>
 			<model name=''>
@@ -5044,13 +4935,6 @@
 				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Space Marine' unitType='Infantry'>
-			<availability>CS:5</availability>
-			<model name='Com Guards Warship Fleet Marine'>
-				<roles>marine</roles>
-				<availability>General:8</availability>
-			</model>
-		</chassis>
 		<chassis name='Spad' unitType='AeroSpaceFighter'>
 			<availability>CS:6,OA:3,CSR:2,CLAN:2,NIOPS:6</availability>
 			<model name='SPD-502'>
@@ -5080,13 +4964,6 @@
 			<model name='SPT-N2'>
 				<roles>cavalry,spotter</roles>
 				<availability>IS:8</availability>
-			</model>
-		</chassis>
-		<chassis name='SpecOps Paratrooper' unitType='Infantry'>
-			<availability>FS:3+</availability>
-			<model name='MI6 Extraction Team'>
-				<roles>specops,paratrooper</roles>
-				<availability>FS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Spector' unitType='Mek'>
@@ -5956,20 +5833,6 @@
 			<model name='WVE-6N'>
 				<roles>urban</roles>
 				<availability>IS:8,DC:8,Periphery:8</availability>
-			</model>
-		</chassis>
-		<chassis name='XCT Marine' unitType='Infantry'>
-			<availability>TC:2</availability>
-			<model name='Special Asteroid Support Forces'>
-				<roles>xct</roles>
-				<availability>TC:8</availability>
-			</model>
-		</chassis>
-		<chassis name='Xenoplanetary Infantry' unitType='Infantry'>
-			<availability>FWL:1</availability>
-			<model name='Eagle Corps Eyrie Defense Force'>
-				<roles>xct</roles>
-				<availability>FWL:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Xerxes' unitType='AeroSpaceFighter'>
