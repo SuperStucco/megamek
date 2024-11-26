@@ -5280,6 +5280,18 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Dragoon Battle Armor' unitType='BattleArmor'>
+            <availability>MERC.WD:5,MERC.KH:4,MERC:4+</availability>
+            <model name='(Advanced)(Sqd5)' mechanized='true'>
+                <availability>MERC.WD:6+</availability>
+            </model>
+            <model name='(Sqd4)' mechanized='true'>
+                <availability>MERC:8,MERC.WD:0</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>MERC.WD:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Drake Medium Strike Fighter' unitType='Conventional Fighter'>
 			<availability>FS:6</availability>
 			<model name=''>

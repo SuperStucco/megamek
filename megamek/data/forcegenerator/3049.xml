@@ -5938,7 +5938,7 @@
 		<chassis name='Nexus' unitType='Mek'>
 			<availability>CS:6:3054,WOB:6:3054</availability>
 			<model name='NXS1-A'>
-				<availability>CS:8,WOB</availability>
+				<availability>CS:8,WOB:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Night Gyr' unitType='Mek' omni='Clan'>

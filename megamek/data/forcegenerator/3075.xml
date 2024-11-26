@@ -5421,6 +5421,15 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
+        <chassis name='Dragoon Battle Armor' unitType='BattleArmor'>
+            <availability>MERC.WD:5</availability>
+            <model name='(Advanced)(Sqd5)' mechanized='true'>
+                <availability>MERC.WD:6+</availability>
+            </model>
+            <model name='(Sqd5)' mechanized='true'>
+                <availability>MERC.WD:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Drake SDS Control Station' unitType='Space Station'>
 			<availability>WOB:2+</availability>
 			<model name=''>
