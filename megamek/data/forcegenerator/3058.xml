@@ -2644,21 +2644,27 @@
 		<chassis name='Clan Mechanized Wheeled Point' unitType='Infantry'>
 			<availability>CIH:8,CLAN:7,BAN:5</availability>
 			<model name='(Flamer)'>
+                <roles>urban</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>urban</roles>
 				<availability>CLAN:5</availability>
 			</model>
 			<model name='(Laser)'>
+                <roles>urban</roles>
 				<availability>CLAN:6</availability>
 			</model>
 			<model name='(MG)'>
+                <roles>urban</roles>
 				<availability>CLAN:7</availability>
 			</model>
 			<model name='(Rifle)'>
+                <roles>urban</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(SRM)'>
+                <roles>urban</roles>
 				<availability>CLAN:5</availability>
 			</model>
 		</chassis>
@@ -6735,22 +6741,28 @@
 		<chassis name='Mechanized Wheeled Platoon' unitType='Infantry'>
 			<availability>HL:6,IS:7,Periphery.Deep:6,Periphery:7</availability>
 			<model name='(Flamer)'>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 			<model name='(LRM)'>
-				<availability>General:5</availability>
+                <roles>urban</roles>
+				<availability>IS:5,Periphery:5</availability>
 			</model>
 			<model name='(Laser)'>
-				<availability>HL:3,General:6,Periphery.Deep:5,Periphery:5</availability>
+                <roles>urban</roles>
+				<availability>HL:3,IS:6,Periphery.Deep:5,Periphery:5</availability>
 			</model>
 			<model name='(MG)'>
-				<availability>General:7</availability>
+                <roles>urban</roles>
+				<availability>IS:7,Periphery:7</availability>
 			</model>
 			<model name='(Rifle)'>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 			<model name='(SRM)'>
-				<availability>General:5</availability>
+                <roles>urban</roles>
+				<availability>IS:5,Periphery:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Mechbuster' unitType='Conventional Fighter'>

@@ -1114,21 +1114,27 @@
 		<chassis name='Clan Mechanized Wheeled Point' unitType='Infantry'>
 			<availability>CIH:8,CLAN:7</availability>
 			<model name='(Flamer)'>
+                <roles>urban</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>urban</roles>
 				<availability>CLAN:5</availability>
 			</model>
 			<model name='(Laser)'>
+                <roles>urban</roles>
 				<availability>CLAN:6</availability>
 			</model>
 			<model name='(MG)'>
+                <roles>urban</roles>
 				<availability>CLAN:7</availability>
 			</model>
 			<model name='(Rifle)'>
+                <roles>urban</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(SRM)'>
+                <roles>urban</roles>
 				<availability>CLAN:5</availability>
 			</model>
 		</chassis>
@@ -2986,24 +2992,30 @@
 			</model>
 		</chassis>
 		<chassis name='Mechanized Wheeled Platoon' unitType='Infantry'>
-			<availability>IS:7,Periphery.Deep:7,Periphery:7</availability>
+			<availability>PP:5,IS:7,Periphery.Deep:7,Periphery:7</availability>
 			<model name='(Flamer)'>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>PP:8,IS:8,Periphery:8</availability>
 			</model>
 			<model name='(LRM)'>
-				<availability>General:5</availability>
+                <roles>urban</roles>
+				<availability>PP:3+,IS:5,Periphery:5</availability>
 			</model>
 			<model name='(Laser)'>
-				<availability>General:6,Periphery.Deep:5,Periphery:5</availability>
+                <roles>urban</roles>
+				<availability>PP:5+,IS:6,Periphery.Deep:5,Periphery:5</availability>
 			</model>
 			<model name='(MG)'>
-				<availability>General:7</availability>
+                <roles>urban</roles>
+				<availability>PP:5,IS:7,Periphery:7</availability>
 			</model>
 			<model name='(Rifle)'>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>PP:8,IS:8,Periphery:8</availability>
 			</model>
 			<model name='(SRM)'>
-				<availability>General:5</availability>
+                <roles>urban</roles>
+				<availability>PP:3+,IS:5,Periphery:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Medium Strike Fighter' unitType='Conventional Fighter'>

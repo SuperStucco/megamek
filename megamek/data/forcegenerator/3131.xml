@@ -1585,7 +1585,7 @@
 			<availability>CC:3,CHH:7,LA:4,ROS:4,MERC:4,CWIE:6</availability>
 			<model name=''>
                 <roles>apc</roles>
-				<availability>IS:8,CLAN.IS</availability>
+				<availability>IS:8,CLAN.IS:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Angerona Scout Suit' unitType='BattleArmor'>
@@ -3232,10 +3232,10 @@
 				<availability>CLAN.IS:6,IS:8,ROS:6,Periphery:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CLAN:4.IS,IS:4+,ROS:4,MERC:3+</availability>
+				<availability>CLAN.IS:4,IS:4+,ROS:4,MERC:3+</availability>
 			</model>
 			<model name='3'>
-				<availability>CLAN:4.IS,CNC:8,IS:4,TC:4</availability>
+				<availability>CLAN.IS:4,CNC:8,IS:4,TC:4</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Hawk-KU' unitType='Mek' omni='IS'>
@@ -4706,21 +4706,27 @@
 		<chassis name='Clan Mechanized Wheeled Point' unitType='Infantry'>
 			<availability>CLAN:7,BAN:5</availability>
 			<model name='(Flamer)'>
+                <roles>urban</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(LRM)'>
+                <roles>urban</roles>
 				<availability>CLAN:5</availability>
 			</model>
 			<model name='(Laser)'>
+                <roles>urban</roles>
 				<availability>CLAN:6</availability>
 			</model>
 			<model name='(MG)'>
+                <roles>urban</roles>
 				<availability>CLAN:7</availability>
 			</model>
 			<model name='(Rifle)'>
+                <roles>urban</roles>
 				<availability>CLAN:8</availability>
 			</model>
 			<model name='(SRM)'>
+                <roles>urban</roles>
 				<availability>CLAN:5</availability>
 			</model>
 		</chassis>
@@ -12966,30 +12972,36 @@
 		<chassis name='Mechanized Wheeled Platoon' unitType='Infantry'>
 			<availability>IS:7,Periphery.Deep:5,Periphery:7</availability>
 			<model name='(Flamer)'>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 			<model name='(LRM)'>
-				<availability>General:5</availability>
+                <roles>urban</roles>
+				<availability>IS:5,Periphery:5</availability>
 			</model>
 			<model name='(Laser XCT)'>
-				<roles>xct</roles>
+				<roles>urban,xct</roles>
 				<availability>IS:2</availability>
 			</model>
 			<model name='(Laser)'>
-				<availability>General:6,Periphery:5</availability>
+                <roles>urban</roles>
+				<availability>IS:6,Periphery:5</availability>
 			</model>
 			<model name='(MG)'>
-				<availability>General:7</availability>
+                <roles>urban</roles>
+				<availability>IS:7,Periphery:7</availability>
 			</model>
 			<model name='(Rifle AA)'>
-				<roles>anti_aircraft</roles>
+				<roles>anti_aircraft,urban</roles>
 				<availability>IS:6</availability>
 			</model>
 			<model name='(Rifle)'>
-				<availability>General:8</availability>
+                <roles>urban</roles>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 			<model name='(SRM)'>
-				<availability>General:5</availability>
+                <roles>urban</roles>
+				<availability>IS:5,Periphery:5</availability>
 			</model>
 		</chassis>
 		<chassis name='Mechbuster' unitType='Conventional Fighter'>
@@ -15776,9 +15788,9 @@
 			</model>
 		</chassis>
 		<chassis name='Raijin' unitType='Mek'>
-			<availability>BLORD,ROS:2,MERC:2</availability>
+			<availability>BLORD:2,ROS:2,MERC:2</availability>
 			<model name='RJN-301-B'>
-				<availability>BLORD,ROS:2,MERC:2</availability>
+				<availability>BLORD:8,ROS:8,MERC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Rakshasa' unitType='Mek'>
