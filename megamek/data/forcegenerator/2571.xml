@@ -418,6 +418,13 @@
 				<availability>TH:3-,LA:3,FWL:3</availability>
 			</model>
 		</chassis>
+        <chassis name='Ballista Self-Propelled Artillery Tank' unitType='Tank'>
+            <availability>SL:7,SL.R:5,TH:6,IS:5+</availability>
+            <model name="">
+                <roles>artillery</roles>
+                <availability>IS:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Banshee' unitType='Mek'>
 			<availability>MOC:5-,OA:5-,TH:6,LA:7-,Periphery.Deep:4-,RWR:5-,FS:7-,MERC:7-,Periphery:4-,TC:5-,DC:7-</availability>
 			<model name='BNC-1E'>
@@ -1764,13 +1771,6 @@
 			</model>
 			<model name='(LRT)'>
 				<availability>SL:8,IS:8,Periphery:6</availability>
-			</model>
-		</chassis>
-		<chassis name='Mechanized Field Artillery' unitType='Infantry'>
-			<availability>DC:3</availability>
-			<model name='71st Mechanized'>
-				<roles>artillery</roles>
-				<availability>General:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Mechanized Hover Platoon' unitType='Infantry'>

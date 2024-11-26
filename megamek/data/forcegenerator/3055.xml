@@ -1447,6 +1447,13 @@
 				<availability>LA:4,FWL:4,WOB:6,FC:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Ballista Self-Propelled Artillery Tank' unitType='Tank'>
+            <availability>IS:2-,Periphery:3</availability>
+            <model name="">
+                <roles>artillery</roles>
+                <availability>IS:8,Periphery:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Bandersnatch' unitType='Mek'>
 			<availability>MOC:2,FWL:2,FS:2,MERC:5</availability>
 			<model name='BNDR-01A'>

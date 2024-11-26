@@ -2280,6 +2280,13 @@
 				<availability>CHH:3:3077</availability>
 			</model>
 		</chassis>
+        <chassis name='Ballista Self-Propelled Artillery Tank' unitType='Tank'>
+            <availability>IS:1-,Periphery:1</availability>
+            <model name="">
+                <roles>artillery</roles>
+                <availability>IS:8,Periphery:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Bandersnatch' unitType='Mek'>
 			<availability>MOC:3,FWL:3,WOB:3,FS:3,MERC:8</availability>
 			<model name='BNDR-01A'>

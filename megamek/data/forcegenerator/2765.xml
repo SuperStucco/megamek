@@ -510,6 +510,13 @@
 				<availability>TH:5-,LA:5,FWL:5</availability>
 			</model>
 		</chassis>
+        <chassis name='Ballista Self-Propelled Artillery Tank' unitType='Tank'>
+            <availability>SL:3-,IS:3,Periphery:8</availability>
+            <model name="">
+                <roles>artillery</roles>
+                <availability>IS:8,Periphery:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Banshee' unitType='Mek'>
 			<availability>TH:4,LA:7-,Periphery.Deep:10-,FS:6-,MERC:7-,Periphery:10-,DC:6-</availability>
 			<model name='BNC-3E'>

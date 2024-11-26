@@ -978,6 +978,13 @@
 				<availability>CS:4,LA:4,FWL:4</availability>
 			</model>
 		</chassis>
+        <chassis name='Ballista Self-Propelled Artillery Tank' unitType='Tank'>
+            <availability>IS:3-,Periphery:4</availability>
+            <model name="">
+                <roles>artillery</roles>
+                <availability>IS:8,Periphery:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Bandit (C) Hovercraft' unitType='Tank' omni='Clan'>
 			<availability>CHH:5,CLAN:3</availability>
 			<model name='A'>

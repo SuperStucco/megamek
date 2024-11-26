@@ -239,6 +239,13 @@
 				<availability>General:6</availability>
 			</model>
 		</chassis>
+        <chassis name='Ballista Self-Propelled Artillery Tank' unitType='Tank'>
+            <availability>TH:5+:2480</availability>
+            <model name="">
+                <roles>artillery</roles>
+                <availability>TH:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Banshee' unitType='Mek'>
 			<availability>TH:6-,LA:3,FS:3,MERC:3,DC:3</availability>
 			<model name='BNC-1E'>
