@@ -3316,7 +3316,7 @@
 			</model>
 		</chassis>
 		<chassis name='King Crab' unitType='Mek'>
-			<availability>CS:6,CLAN:5,IS:2+,FWL:1+,NIOPS:6,MERC:2+,CGS:6,CGB:6,</availability>
+			<availability>CS:6,CLAN:5,IS:2+,FWL:1+,NIOPS:6,MERC:2+,CGS:6,CGB:6</availability>
 			<model name='KGC-000'>
                 <roles>command</roles>
 				<availability>CS:8,CIH:5,CLAN:6,NIOPS:8,BAN:8,CB:5</availability>

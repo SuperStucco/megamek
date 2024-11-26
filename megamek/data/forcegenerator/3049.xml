@@ -1559,7 +1559,7 @@
 			</model>
 		</chassis>
 		<chassis name='Black Hawk (Nova)' unitType='Mek' omni='Clan'>
-			<availability>CHH:7,CLAN:4,CFM:6,CGS:6,CCO:6,BAN:5,CSA:6,MERC.WD:3,CDS:6,CW:6,CBS:3,CJF:6,CGB:5</availability>
+			<availability>CHH:7,CLAN:4,CFM:6,CGS:6,CCO:6,BAN:5,CSA:6,MERC.WD:3:3052,CDS:6,CW:6,CBS:3,CJF:6,CGB:5</availability>
 			<model name='A'>
 				<availability>CDS:8,CNC:8,General:7,CJF:9,CGB:8</availability>
 			</model>
@@ -2733,7 +2733,7 @@
 			</model>
 		</chassis>
 		<chassis name='Dasher (Fire Moth)' unitType='Mek' omni='Clan'>
-			<availability>CHH:8,CCC:6,CIH:6,CLAN:5,CLAN.IS:5,CCO:4,BAN:5,CSA:4,MERC.WD:3,CDS:6,CJF:4,CGB:9,CB:6</availability>
+			<availability>CHH:8,CCC:6,CIH:6,CLAN:5,CLAN.IS:5,CCO:4,BAN:5,CSA:4,MERC.WD:3:3052,CDS:6,CJF:4,CGB:9,CB:6</availability>
 			<model name='A'>
 				<roles>recon,spotter</roles>
 				<availability>CSA:2,CIH:4,CDS:5,CSV:2,General:3,CCO:2,CJF:4,CGB:2,CB:4</availability>
@@ -2859,7 +2859,7 @@
 			</model>
 		</chassis>
 		<chassis name='Dragonfly (Viper)' unitType='Mek' omni='Clan'>
-			<availability>CSA:6,MERC.WD:3,CHH:6,CIH:7,CDS:5,CSV:5,CLAN:6,CFM:5,CSJ:5,CJF:5,CGB:9,CB:7</availability>
+			<availability>CSA:6,MERC.WD:3:3052,CHH:6,CIH:7,CDS:5,CSV:5,CLAN:6,CFM:5,CSJ:5,CJF:5,CGB:9,CB:7</availability>
 			<model name='A'>
 				<availability>CDS:8,General:6,CJF:8,CGB:6</availability>
 			</model>
@@ -2942,7 +2942,7 @@
 			</model>
 		</chassis>
 		<chassis name='Elemental Battle Armor' unitType='BattleArmor'>
-			<availability>MERC.WD:8,CLAN:8</availability>
+			<availability>MERC.WD:8:3052,CLAN:8</availability>
 			<model name='(Headhunter)(Sqd5)' mechanized='true'>
 				<availability>CW:2:3050,CGB:2:3050</availability>
 			</model>
@@ -3130,7 +3130,7 @@
 			</model>
 		</chassis>
 		<chassis name='Fenris (Ice Ferret)' unitType='Mek' omni='Clan'>
-			<availability>MERC.WD:4,CHH:5,CIH:7,CDS:5,CW:8,CSV:5,CNC:4,CLAN:4,CSJ:4,CJF:6,CGB:5</availability>
+			<availability>MERC.WD:4:3052,CHH:5,CIH:7,CDS:5,CW:8,CSV:5,CNC:4,CLAN:4,CSJ:4,CJF:6,CGB:5</availability>
 			<model name='A'>
 				<availability>CDS:7,CSV:5,CNC:4,General:6,CSJ:5,CJF:7</availability>
 			</model>
@@ -3247,7 +3247,7 @@
 		<chassis name='Firefly' unitType='Mek'>
 			<availability>CS:5,MERC.WD:3,CIH:5,CLAN:3,WOB:5,BAN:2,CB:4</availability>
 			<model name='C'>
-				<availability>MERC.WD:4,CLAN:8,BAN:1</availability>
+				<availability>MERC.WD:4:3051,CLAN:8,BAN:1</availability>
 			</model>
 			<model name='FFL-4A'>
 				<availability>MERC.WD:3-</availability>
@@ -3473,7 +3473,7 @@
 			</model>
 		</chassis>
 		<chassis name='Gladiator (Executioner)' unitType='Mek' omni='Clan'>
-			<availability>MERC.WD:2,CSR:4,CW:2,CLAN:5,CSJ:7,CJF:6,BAN:3,CGB:8,CB:6</availability>
+			<availability>MERC.WD:2:3052,CSR:4,CW:2,CLAN:5,CSJ:7,CJF:6,BAN:3,CGB:8,CB:6</availability>
 			<model name='A'>
                 <roles>raider</roles>
 				<availability>CDS:5,CW:7,CSV:4,CNC:5,General:6,CSJ:4,CJF:5,CGB:6</availability>
@@ -4143,7 +4143,7 @@
 			</model>
 		</chassis>
 		<chassis name='Highlander IIC' unitType='Mek'>
-			<availability>MERC.WD:4,CW:6,CLAN:4,CNC:6,CJF:6,CGB:6</availability>
+			<availability>MERC.WD:4:3052,CW:6,CLAN:4,CNC:6,CJF:6,CGB:6</availability>
 			<model name=''>
                 <roles>command</roles>
 				<availability>CLAN:8,IS:8</availability>
@@ -4238,7 +4238,7 @@
 			</model>
 		</chassis>
 		<chassis name='Hunchback IIC' unitType='Mek'>
-			<availability>MERC.WD:4,CDS:7,CSR:7,CW:7,CSV:5,CLAN:3,CSJ:5,CJF:7,CGB:7</availability>
+			<availability>MERC.WD:4:3052,CDS:7,CSR:7,CW:7,CSV:5,CLAN:3,CSJ:5,CJF:7,CGB:7</availability>
 			<model name=''>
 				<availability>CSR:8,General:8</availability>
 			</model>
@@ -4368,7 +4368,7 @@
 			<availability>CSA:3,MERC.WD:2,CW:3,CLAN:1</availability>
 			<model name='C'>
                 <roles>command</roles>
-				<availability>MERC.WD:2,CLAN:8</availability>
+				<availability>MERC.WD:2:3052,CLAN:8</availability>
 			</model>
 			<model name='IMP-2E'>
                 <roles>command</roles>
@@ -4861,7 +4861,7 @@
 			</model>
 		</chassis>
 		<chassis name='Koshi (Mist Lynx)' unitType='Mek' omni='Clan'>
-			<availability>CHH:7,CIH:8,CSR:7,CSV:7,CLAN:6,CCO:5,CGS:7,BAN:7,CSA:5,MERC.WD:4,CDS:7,CBS:7,CSJ:9,CJF:5,CB:8</availability>
+			<availability>CHH:7,CIH:8,CSR:7,CSV:7,CLAN:6,CCO:5,CGS:7,BAN:7,CSA:5,MERC.WD:4:3052,CDS:7,CBS:7,CSJ:9,CJF:5,CB:8</availability>
 			<model name='A'>
 				<roles>recon,spotter</roles>
 				<availability>CIH:6,CDS:7,CW:6,CSV:6,General:5,CGB:7</availability>
@@ -5245,7 +5245,7 @@
             </model>
 		</chassis>
 		<chassis name='Mad Cat (Timber Wolf)' unitType='Mek' omni='Clan'>
-			<availability>CHH:5,CIH:4,CLAN:5,CCO:6,BAN:3,CSA:6,MERC.WD:6,CDS:6,CW:9,CBS:4,CSJ:6,CJF:6,CB:4</availability>
+			<availability>CHH:5,CIH:4,CLAN:5,CCO:6,BAN:3,CSA:6,MERC.WD:6:3052,CDS:6,CW:9,CBS:4,CSJ:6,CJF:6,CB:4</availability>
 			<model name='A'>
 				<availability>CDS:8,CW:6,General:7,CJF:8,CGB:8</availability>
 			</model>
@@ -5296,7 +5296,7 @@
 			</model>
 		</chassis>
 		<chassis name='Man O&apos; War (Gargoyle)' unitType='Mek' omni='Clan'>
-			<availability>CIH:9,CSV:8,CLAN:6,BAN:6,MERC.WD:6,CDS:9,CW:9,CNC:9,CSJ:7,CJF:9</availability>
+			<availability>CIH:9,CSV:8,CLAN:6,BAN:6,MERC.WD:6:3052,CDS:9,CW:9,CNC:9,CSJ:7,CJF:9</availability>
 			<model name='A'>
                 <roles>cavalry</roles>
 				<availability>CDS:4,CW:7,CSV:5,CNC:8,General:7,CJF:9,CGB:9</availability>
@@ -5338,7 +5338,7 @@
 			</model>
 		</chassis>
 		<chassis name='Marauder IIC' unitType='Mek'>
-			<availability>CSA:7,MERC.WD:4,CSR:6,CW:6,CLAN:6,CNC:6,CJF:7,CGB:7</availability>
+			<availability>CSA:7,MERC.WD:4:3052,CSR:6,CW:6,CLAN:6,CNC:6,CJF:7,CGB:7</availability>
 			<model name=''>
 				<availability>MERC.WD:8,CLAN:8,CJF:8,CGB:8</availability>
 			</model>
@@ -5433,7 +5433,7 @@
 			</model>
 		</chassis>
 		<chassis name='Masakari (Warhawk)' unitType='Mek' omni='Clan'>
-			<availability>CSV:3,CLAN:4,BAN:3,MERC.WD:2,CW:3,CSJ:8,CGB:5</availability>
+			<availability>CSV:3,CLAN:4,BAN:3,MERC.WD:2:3052,CW:3,CSJ:8,CGB:5</availability>
 			<model name='A'>
 				<availability>CDS:8,CSV:6,General:5,CSJ:6,CGB:7</availability>
 			</model>
@@ -6025,7 +6025,7 @@
 			<availability>CLAN:5,CJF:2</availability>
 			<model name=''>
                 <roles>recon</roles>
-				<availability>MERC.WD:8,CLAN:8</availability>
+				<availability>CLAN:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Odyssey Jumpship' unitType='Jumpship'>
@@ -6576,7 +6576,7 @@
 			</model>
 		</chassis>
 		<chassis name='Puma (Adder)' unitType='Mek' omni='Clan'>
-			<availability>CLAN:8,CCO:7,BAN:7,CSA:9,MERC.WD:2,CDS:9,CBS:7,CNC:9,CSJ:7,CJF:6,CGB:7</availability>
+			<availability>CLAN:8,CCO:7,BAN:7,CSA:9,MERC.WD:2:3052,CDS:9,CBS:7,CNC:9,CSJ:7,CJF:6,CGB:7</availability>
 			<model name='A'>
 				<roles>fire_support</roles>
 				<availability>CSA:8,CDS:8,CW:7,CSV:8,CNC:8,General:7,CSJ:8,CGB:6</availability>
@@ -6857,7 +6857,7 @@
 			</model>
 		</chassis>
 		<chassis name='Ryoken (Stormcrow)' unitType='Mek' omni='Clan'>
-			<availability>MERC.WD:6,CSR:9,CDS:9,CBS:9,CSV:7,CLAN:8,CSJ:9,CJF:9,BAN:8</availability>
+			<availability>MERC.WD:6:3052,CSR:9,CDS:9,CBS:9,CSV:7,CLAN:8,CSJ:9,CJF:9,BAN:8</availability>
 			<model name='A'>
                 <roles>cavalry</roles>
 				<availability>CDS:9,CW:5,CSV:8,General:6,CSJ:7,CJF:5,CGB:5</availability>
@@ -7692,7 +7692,7 @@
 			</model>
 		</chassis>
 		<chassis name='Thor (Summoner)' unitType='Mek' omni='Clan'>
-			<availability>CHH:7,CIH:4,CLAN:6,CCO:7,BAN:6,MERC.WD:3,CSJ:7,CJF:10,CB:5</availability>
+			<availability>CHH:7,CIH:4,CLAN:6,CCO:7,BAN:6,MERC.WD:3:3052,CSJ:7,CJF:10,CB:5</availability>
 			<model name='A'>
 				<availability>CHH:8,CDS:8,CW:7,CNC:6,General:7,CSJ:6,CJF:8,CGB:6</availability>
 			</model>
@@ -8375,7 +8375,7 @@
 			</model>
 		</chassis>
 		<chassis name='Vulture (Mad Dog)' unitType='Mek' omni='Clan'>
-			<availability>CHH:9,MERC.WD:3,CIH:7,CW:7,CSV:7,CLAN:8,CCO:7,CJF:7,BAN:7,CGB:9,CB:7</availability>
+			<availability>CHH:9,MERC.WD:3:3052,CIH:7,CW:7,CSV:7,CLAN:8,CCO:7,CJF:7,BAN:7,CGB:9,CB:7</availability>
 			<model name='A'>
 				<availability>CDS:7,CW:6,CNC:7,General:6,CSJ:7,CGB:6</availability>
 			</model>
@@ -8434,10 +8434,10 @@
 				<availability>LA:2+:3051,FS:2+:3051,DC:2+:3051</availability>
 			</model>
 			<model name='C 2'>
-				<availability>MERC.WD:3,MERC.KH:2+:3052,LA:2+:3052,CLAN.IS:3,FS:2+:3052,FC:2+:3052,MERC:2+:3052,DC:2+:3051</availability>
+				<availability>MERC.WD:3:3051,MERC.KH:2+:3052,LA:2+:3052,CLAN.IS:3,FS:2+:3052,FC:2+:3052,MERC:2+:3052,DC:2+:3051</availability>
 			</model>
 			<model name='C 3'>
-				<availability>MERC.WD:4</availability>
+				<availability>MERC.WD:4:3051</availability>
 			</model>
 			<model name='WHM-6D'>
 				<availability>FS:4</availability>

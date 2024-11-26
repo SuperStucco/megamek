@@ -9037,7 +9037,7 @@
 			</model>
 			<model name='[Salvage Arm](Sqd4)' mechanized='false'>
 				<roles>support</roles>
-				<availability>DC:6,</availability>
+				<availability>DC:6</availability>
 			</model>
 		</chassis>
 		<chassis name='Karhu' unitType='Mek' omni='Clan'>
