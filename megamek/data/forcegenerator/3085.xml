@@ -2784,8 +2784,8 @@
 		<chassis name='Bishop Transport VTOL' unitType='VTOL'>
 			<availability>DTA:3,OP:3,RF:3,LA:3,ROS:4,CNC:3,FWL:3,FS:5,MERC:4,RA:4,DC:3</availability>
 			<model name=''>
-				<roles>cargo</roles>
-				<availability>General:6</availability>
+				<roles>cargo,support</roles>
+				<availability>IS:8,CNC:8,RA:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Black Hawk (Nova)' unitType='Mek' omni='Clan'>
