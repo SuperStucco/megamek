@@ -1696,7 +1696,7 @@
 			</model>
 		</chassis>
 		<chassis name='Argus' unitType='Mek'>
-			<availability>FS:6,,MERC:4</availability>
+			<availability>FS:6,MERC:4</availability>
 			<model name='AGS-2D'>
                 <roles>cavalry,fire_support</roles>
 				<availability>FS:5</availability>
@@ -2436,7 +2436,7 @@
 		<chassis name='Barouche Military Transport' unitType='Tank'>
 			<availability>LA:5,ROS:5,CLAN.IS:4,FS:6,MERC:5,DC:4</availability>
 			<model name=''>
-				<roles>cargo</roles>
+				<roles>cargo,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
@@ -5164,10 +5164,10 @@
 				<availability>DA:2</availability>
 			</model>
 		</chassis>
-		<chassis name='Deep Lord MilitiaMech' unitType='Mek'>
+		<chassis name='Deep Lord' unitType='Mek'>
 			<availability>MOC.pm:3,MERC:2-,Periphery:3-</availability>
-			<model name='RCL-Z1M'>
-				<availability>General:8</availability>
+			<model name='RCL-Z1M MilitiaMech'>
+				<availability>MOC.pm:8,MERC:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Defiance' unitType='AeroSpaceFighter' omni='IS'>
@@ -11890,7 +11890,8 @@
 		<chassis name='Mortar Carrier' unitType='Tank'>
 			<availability>IS:4,Periphery:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Mosquito Radar Plane' unitType='Conventional Fighter'>

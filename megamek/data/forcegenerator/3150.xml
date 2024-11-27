@@ -2679,7 +2679,7 @@
         <chassis name='Barouche Military Transport' unitType='Tank'>
             <availability>LA:5,ROS:5,CLAN.IS:4,FS:6,MERC:5,DC:4</availability>
             <model name=''>
-                <roles>cargo</roles>
+                <roles>cargo,support</roles>
                 <availability>General:8</availability>
             </model>
         </chassis>
@@ -5771,10 +5771,13 @@
                 <availability>General:8</availability>
             </model>
         </chassis>
-        <chassis name='Deep Lord MilitiaMech' unitType='Mek'>
+        <chassis name='Deep Lord' unitType='Mek'>
             <availability>MOC.pm:5,MERC:3-,Periphery:4-</availability>
-            <model name='RCL-Z1M'>
-                <availability>General:8</availability>
+            <model name='RCL-Z1M MilitiaMech'>
+                <availability>MERC:6-,TC:6-,MOC:6-,RA.OA:6-,Periphery:8</availability>
+            </model>
+            <model name='RCL-Z1M-B MilitiaMech'>
+                <availability>MERC:6,TC:6,MOC:6,RA.OA:6,Periphery:4</availability>
             </model>
         </chassis>
         <chassis name='Defiance' unitType='AeroSpaceFighter' omni='IS'>
@@ -13529,7 +13532,8 @@
         <chassis name='Mortar Carrier' unitType='Tank'>
             <availability>IS:4,Periphery:5</availability>
             <model name=''>
-                <availability>General:8</availability>
+                <roles>fire_support</roles>
+                <availability>IS:8,Periphery:8</availability>
             </model>
         </chassis>
         <chassis name='Mortis' unitType='Mek'>

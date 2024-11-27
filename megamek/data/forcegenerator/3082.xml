@@ -2396,7 +2396,7 @@
 		<chassis name='Barouche Military Transport' unitType='Tank'>
 			<availability>LA:4,ROS:4,CLAN.IS:3,FS:5,MERC:4,DC:3</availability>
 			<model name=''>
-				<roles>cargo</roles>
+				<roles>cargo,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
@@ -9492,7 +9492,7 @@
 				<availability>CGB.FRR:8,CGB:8</availability>
 			</model>
 			<model name='2'>
-				<availability>CGB:FRR:4:3083,CGB:4:3083</availability>
+				<availability>CGB.FRR:4:3083,CGB:4:3083</availability>
 			</model>
 		</chassis>
 		<chassis name='Kyudo' unitType='Mek'>
@@ -11299,9 +11299,10 @@
 			</model>
 		</chassis>
 		<chassis name='Mortar Carrier' unitType='Tank'>
-			<availability>IS:4,Periphery:5</availability>
+			<availability>IS:4:3083,Periphery:5:3083</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+				<availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Mosquito Radar Plane' unitType='Conventional Fighter'>

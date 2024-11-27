@@ -1332,7 +1332,7 @@
 			</model>
 			<model name='C'>
                 <roles>command</roles>
-				<availability>LA:2,CLAN.IS:2,CFM:2-,FS:2,CGS:2-,CB:1,DC:2</availability>
+				<availability>LA:2+,CLAN.IS:2,CFM:2-,FS:2+,CGS:2-,CB:1,DC:2+</availability>
 			</model>
 			<model name='C 2'>
 				<availability>CLAN:2-</availability>
@@ -8734,7 +8734,7 @@
 		<chassis name='Shadow Hawk' unitType='Mek'>
 			<availability>CS:5-,HL:4,LA:5,CLAN:1,IS:6,NIOPS:5-,Periphery.Deep:5,WOB:5-,BAN:2,Periphery:5</availability>
 			<model name='C'>
-				<availability>CSA:8,CCC:8,LA:3,CSV:8,CFM:8,FS:3,CGS:8,DC:3</availability>
+				<availability>CSA:8,CCC:8,LA:3+,CSV:8,CFM:8,FS:3+,CGS:8,DC:3+</availability>
 			</model>
 			<model name='SHD-2D'>
 				<availability>FS:6</availability>

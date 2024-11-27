@@ -1148,7 +1148,7 @@
 			</model>
 			<model name='C'>
                 <roles>command</roles>
-				<availability>LA:2+:3051,CLAN.IS:2,CFM:2-,FS:2+:3051,FC:2:3051+,CGS:2-,CB:1-,DC:2+:3051</availability>
+				<availability>LA:2+:3051,CLAN.IS:2,CFM:2-,FS:2+:3051,FC:2+:3051,CGS:2-,CB:1-,DC:2+:3051</availability>
 			</model>
 			<model name='C 2'>
 				<availability>CLAN:2-</availability>

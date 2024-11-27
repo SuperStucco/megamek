@@ -1481,7 +1481,7 @@
 			</model>
 			<model name='C'>
                 <roles>command</roles>
-				<availability>CSA:1,LA:2,CLAN.IS:2,CFM:2-,FS:2,CGS:2-,DC:2</availability>
+				<availability>CSA:1,LA:2+,CLAN.IS:2,CFM:2-,FS:2+,CGS:2-,DC:2+</availability>
 			</model>
 			<model name='C 2'>
 				<availability>CLAN:2-,CLAN.IS:2-,CLAN.HW:2-</availability>
@@ -10872,7 +10872,7 @@
 		<chassis name='Shadow Hawk' unitType='Mek'>
 			<availability>CS:4-,HL:5,LA:4,CLAN:1,IS:5,NIOPS:4-,Periphery.Deep:5,WOB:4-,BAN:3,Periphery:6</availability>
 			<model name='C'>
-				<availability>CSA:8,CCC:8,LA:4,CSV:8,CFM:8,FS:4,CGS:8,DC:4</availability>
+				<availability>CSA:8,CCC:8,LA:4+,CSV:8,CFM:8,FS:4+,CGS:8,DC:4+</availability>
 			</model>
 			<model name='SHD-2D'>
 				<availability>FS:4</availability>
@@ -11974,7 +11974,7 @@
 		<chassis name='Thunderbolt' unitType='Mek'>
 			<availability>HL:3,MERC.ELH:8,CLAN:1-,CLAN.IS:2-,IS:7,Periphery.Deep:6,WOB:2-,FS:6,MERC:7,Periphery:4,CS:3-,MERC.WD:4,NIOPS:3-</availability>
 			<model name='C'>
-				<availability>CLAN:1,CLAN.IS:2,LA:2+,FS:1,DC:1+</availability>
+				<availability>CLAN:1,CLAN.IS:2,LA:2+,FS:1+,DC:1+</availability>
 			</model>
 			<model name='C 2'>
 				<availability>CJF:6</availability>

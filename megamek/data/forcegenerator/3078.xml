@@ -1799,7 +1799,7 @@
 			</model>
 			<model name='C'>
 				<roles>command,fire_support</roles>
-				<availability>CSA:6,CCC:6,CW:1,LA:2+,FS:2+,CGS:6,CWIE:1,DC:2+</availability>
+				<availability>CSA:6,CCC:6,CW:1,LA:2,FS:2,CGS:6,CWIE:1,DC:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Arctic Fox' unitType='Mek' omni='IS'>
@@ -2612,7 +2612,7 @@
 		<chassis name='Barouche Military Transport' unitType='Tank'>
 			<availability>LA:3,ROS:3,CLAN.IS:2,FS:4,MERC:3,DC:2</availability>
 			<model name=''>
-				<roles>cargo</roles>
+				<roles>cargo,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>

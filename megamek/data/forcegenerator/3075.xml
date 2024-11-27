@@ -1635,7 +1635,7 @@
 			</model>
 			<model name='C'>
 				<roles>command,fire_support</roles>
-				<availability>CSA:6,CCC:6,CW:2,LA:3+,CSV:6,FS:3+,CGS:6,CWIE:2,DC:3+</availability>
+				<availability>CSA:6,CCC:6,CW:2,LA:3,CSV:6,FS:3,CGS:6,CWIE:2,DC:3</availability>
 			</model>
 		</chassis>
 		<chassis name='Arctic Fox' unitType='Mek' omni='IS'>

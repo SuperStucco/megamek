@@ -1613,7 +1613,7 @@
 			</model>
 		</chassis>
 		<chassis name='Arcas' unitType='Mek'>
-			<availability>CHH:4RD:6,CDS:3,CW:3,RA:3</availability>
+			<availability>CHH:4,RD:6,CDS:3,CW:3,RA:3</availability>
 			<model name=''>
                 <roles>raider</roles>
 				<availability>CLAN.IS:8</availability>
@@ -2626,7 +2626,7 @@
 		<chassis name='Barouche Military Transport' unitType='Tank'>
 			<availability>LA:5,CLAN.IS:4,FS:6,MERC:5,DC:4</availability>
 			<model name=''>
-				<roles>cargo</roles>
+				<roles>cargo,support</roles>
 				<availability>General:8</availability>
 			</model>
 		</chassis>
@@ -5606,11 +5606,14 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Deep Lord MilitiaMech' unitType='Mek'>
+		<chassis name='Deep Lord' unitType='Mek'>
 			<availability>MOC.pm:5,MERC:3-,Periphery:4-</availability>
-			<model name='RCL-Z1M'>
-				<availability>General:8</availability>
-			</model>
+            <model name='RCL-Z1M MilitiaMech'>
+                <availability>MERC:6-,TC:6-,MOC:6-,RA.OA:6-,Periphery:8</availability>
+            </model>
+            <model name='RCL-Z1M-B MilitiaMech'>
+                <availability>MERC:6,TC:6,MOC:6,RA.OA:6,Periphery:4</availability>
+            </model>
 		</chassis>
 		<chassis name='Defiance' unitType='AeroSpaceFighter' omni='IS'>
 			<availability>CC:6,MOC:6,FWL:2,CP:2</availability>
@@ -11928,7 +11931,7 @@
 			</model>
 		</chassis>
 		<chassis name='Mad Cat III' unitType='Mek'>
-			<availability>CDS:6,CP:5.SL3:5,IS:4+,LA:5+,DC:5+</availability>
+			<availability>CDS:6,CP:5,SL3:5,IS:4+,LA:5+,DC:5+</availability>
 			<model name=''>
 				<roles>cavalry,fire_support</roles>
 				<availability>CLAN.IS:8,IS:8</availability>
@@ -13202,7 +13205,8 @@
 		<chassis name='Mortar Carrier' unitType='Tank'>
 			<availability>IS:4,Periphery:5</availability>
 			<model name=''>
-				<availability>General:8</availability>
+                <roles>fire_support</roles>
+                <availability>IS:8,Periphery:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Mortis' unitType='Mek'>
@@ -14548,9 +14552,9 @@
 				<availability>General:6</availability>
 			</model>
 		</chassis>
-		<chassis name='Patron LoaderMech' unitType='Mek'>
+		<chassis name='Patron' unitType='Mek'>
 			<availability>FWL:5,IS:4</availability>
-			<model name=''>
+			<model name='LoaderMech'>
 				<roles>support</roles>
 				<availability>FWL:8</availability>
 			</model>
