@@ -967,7 +967,7 @@
 			</model>
 			<model name='C'>
 				<roles>command,fire_support</roles>
-				<availability>CW:2</availability>
+				<availability>CW:2,DC:2+:3051,FS:2+:3051,LA:2+:3051</availability>
 			</model>
 		</chassis>
 		<chassis name='Ares Assault Craft' unitType='Small Craft'>
@@ -1148,7 +1148,7 @@
 			</model>
 			<model name='C'>
                 <roles>command</roles>
-				<availability>LA:2:3051,CLAN.IS:2,CFM:2-,FS:2:3051,FC:2:3051,CGS:2-,CB:1-,DC:2:3051</availability>
+				<availability>LA:2+:3051,CLAN.IS:2,CFM:2-,FS:2+:3051,FC:2:3051+,CGS:2-,CB:1-,DC:2+:3051</availability>
 			</model>
 			<model name='C 2'>
 				<availability>CLAN:2-</availability>
@@ -5065,7 +5065,7 @@
 		<chassis name='Locust' unitType='Mek'>
 			<availability>CS:6-,HL:4,CLAN:1-,IS:9,NIOPS:6-,Periphery.Deep:5,WOB:6-,Periphery:6</availability>
 			<model name='C'>
-				<availability>CCC:2,LA:1,CLAN:1,CFM:2,FS:1,CGS:1,DC:1,CB:1</availability>
+				<availability>CCC:2,LA:1+:3051,CLAN:1,CFM:2,FS:1+:3051,CGS:1,DC:1+:3051,CB:1</availability>
 			</model>
 			<model name='LCT-1E'>
 				<roles>recon</roles>
@@ -6431,13 +6431,6 @@
 			<model name=''>
                 <roles>anti_infantry</roles>
 				<availability>CLAN:8</availability>
-			</model>
-		</chassis>
-		<chassis name='Pirate' unitType='Infantry'>
-			<availability>PIR:4</availability>
-			<model name='Lady Death&apos;s &apos;Pacification&apos; Squads'>
-				<roles>incendiary</roles>
-				<availability>PIR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Plainsman Medium Hovertank' unitType='Tank'>
