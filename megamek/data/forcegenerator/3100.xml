@@ -13879,16 +13879,20 @@
 				<availability>General:6</availability>
 			</model>
 		</chassis>
-		<chassis name='Patron LoaderMech' unitType='Mek'>
-			<availability>FWL:5</availability>
-			<model name=''>
+		<chassis name='Patron' unitType='Mek'>
+			<availability>FWL:5,IS:4</availability>
+			<model name='LoaderMech'>
 				<roles>support</roles>
-				<availability>General:8</availability>
+				<availability>FWL:8</availability>
 			</model>
-			<model name='PTN-1'>
-				<roles>support</roles>
-				<availability>General:2</availability>
-			</model>
+            <model name='PTN-2 MilitiaMech'>
+                <roles>support</roles>
+                <availability>FWL:4-</availability>
+            </model>
+            <model name='PTN-2M MilitiaMech'>
+                <roles>support</roles>
+                <availability>IS:8,FWL:5</availability>
+            </model>
 		</chassis>
 		<chassis name='Patron MilitiaMech' unitType='Mek'>
 			<availability>FWL.pm:4,DA.pm:4,RF.pm:4,OP.pm:4,IS.pm:2,MSC.pm:4,DTA.pm:5,RCM.pm:4</availability>

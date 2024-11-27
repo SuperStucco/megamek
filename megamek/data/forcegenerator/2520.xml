@@ -1431,15 +1431,15 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Patron LoaderMech' unitType='Mek'>
-			<availability>FWL:8</availability>
-			<model name=''>
+		<chassis name='Patron' unitType='Mek'>
+			<availability>FWL:8:2550</availability>
+			<model name='LoaderMech'>
 				<roles>support</roles>
-				<availability>General:8</availability>
+				<availability>FWL:8:2550</availability>
 			</model>
-			<model name='PTN-1'>
+			<model name='PTN-1 LoaderMech'>
 				<roles>support</roles>
-				<availability>General:8</availability>
+				<availability>FWL:6-</availability>
 			</model>
 		</chassis>
 		<chassis name='Pentagon' unitType='Dropship'>

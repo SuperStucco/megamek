@@ -1220,11 +1220,11 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Patron LoaderMech' unitType='Mek'>
+		<chassis name='Patron' unitType='Mek'>
 			<availability>FWL:6</availability>
-			<model name='PTN-1'>
+			<model name='PTN-1 LoaderMech'>
 				<roles>support</roles>
-				<availability>General:8</availability>
+				<availability>FWL:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Phoenix' unitType='Mek'>

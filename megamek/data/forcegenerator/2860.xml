@@ -3800,15 +3800,11 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Patron LoaderMech' unitType='Mek'>
+		<chassis name='Patron' unitType='Mek'>
 			<availability>FWL:7</availability>
-			<model name=''>
+			<model name='LoaderMech'>
 				<roles>support</roles>
 				<availability>General:8</availability>
-			</model>
-			<model name='PTN-1'>
-				<roles>support</roles>
-				<availability>General:2</availability>
 			</model>
 		</chassis>
 		<chassis name='Pegasus Scout Hover Tank' unitType='Tank'>
