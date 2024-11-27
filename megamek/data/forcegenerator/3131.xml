@@ -19295,7 +19295,7 @@
 			<availability>SE:1,FR:3,TC:2</availability>
 			<model name='TIG-15'>
 				<roles>escort</roles>
-				<availability>General:8</availability>
+				<availability>TC:8,FR:8,SE:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Titan II' unitType='Mek'>

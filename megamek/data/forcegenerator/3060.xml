@@ -12024,7 +12024,7 @@
 			<availability>TC:6</availability>
 			<model name='TIG-15'>
 				<roles>escort</roles>
-				<availability>General:8</availability>
+				<availability>TC:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Titan' unitType='Dropship'>

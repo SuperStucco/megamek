@@ -3694,8 +3694,8 @@
 			</model>
 		</chassis>
 		<chassis name='Tigress Close Patrol Craft' unitType='Small Craft'>
-			<availability>TC:5</availability>
-            <model name=''>
+			<availability>TC:5:2790</availability>
+            <model name='TIG-15'>
                 <roles>escort</roles>
                 <availability>TC:8</availability>
             </model>
