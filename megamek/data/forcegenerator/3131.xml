@@ -15659,18 +15659,18 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Quasit MilitiaMech' unitType='Mek'>
-			<availability>Periphery:2-</availability>
-			<model name='QUA-51M'>
-				<availability>Periphery.Deep:4,Periphery:6</availability>
-			</model>
-			<model name='QUA-51P'>
-				<availability>Periphery.Deep:4,Periphery:6</availability>
-			</model>
-			<model name='QUA-51T'>
-				<availability>General:8</availability>
-			</model>
-		</chassis>
+        <chassis name='Quasit' unitType='Mek'>
+            <availability>Periphery:2-,HL:2-,PIR:3</availability>
+            <model name='QUA-51M MilitiaMech'>
+                <availability>HL:5,Periphery:5,PIR:4</availability>
+            </model>
+            <model name='QUA-51P MilitiaMech'>
+                <availability>Periphery:2,HL:2,PIR:3+</availability>
+            </model>
+            <model name='QUA-51T MilitiaMech'>
+                <availability>Periphery:5,HL:5,PIR:4-</availability>
+            </model>
+        </chassis>
 		<chassis name='Quetzalcoatl-Scout JumpShip' unitType='Jumpship'>
 			<availability>IS:1-</availability>
 			<model name=''>

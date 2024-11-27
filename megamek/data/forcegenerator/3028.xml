@@ -5150,12 +5150,12 @@
 				<availability>CLAN:8,BAN:2</availability>
 			</model>
 		</chassis>
-		<chassis name='Quasit MilitiaMech' unitType='Mek'>
-			<availability>Periphery:2-</availability>
-			<model name='QUA-51T'>
-				<availability>General:8</availability>
-			</model>
-		</chassis>
+        <chassis name='Quasit' unitType='Mek'>
+            <availability>Periphery:4-,PIR:3</availability>
+            <model name='QUA-51T MilitiaMech'>
+                <availability>Periphery:8,PIR:8</availability>
+            </model>
+        </chassis>
 		<chassis name='Quetzalcoatl-Scout JumpShip' unitType='Jumpship'>
 			<availability>IS:1</availability>
 			<model name=''>

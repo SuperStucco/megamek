@@ -1270,10 +1270,10 @@
 				<availability>General:8</availability>
 			</model>
 		</chassis>
-		<chassis name='Quasit MilitiaMech' unitType='Mek'>
-			<availability>Periphery.Deep:4,Periphery:4</availability>
-			<model name='QUA-51T'>
-				<availability>General:8</availability>
+		<chassis name='Quasit' unitType='Mek'>
+			<availability>RWR:3-:2517</availability>
+			<model name='QUA-51T MilitiaMech'>
+				<availability>RWR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Quixote Frigate' unitType='Warship'>

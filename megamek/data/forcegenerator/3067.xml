@@ -12601,16 +12601,16 @@
 				<availability>WOB:5</availability>
 			</model>
 		</chassis>
-		<chassis name='Quasit MilitiaMech' unitType='Mek'>
-			<availability>CM:2-,Periphery:2-</availability>
-			<model name='QUA-51M'>
-				<availability>HL:2,CM:6,Periphery:4</availability>
+		<chassis name='Quasit' unitType='Mek'>
+			<availability>Periphery:2-,HL:3-,PIR:3</availability>
+			<model name='QUA-51M MilitiaMech'>
+				<availability>HL:1:3073,Periphery:4:3073,PIR:3+:3073</availability>
 			</model>
-			<model name='QUA-51P'>
-				<availability>HL:2,CM:4,Periphery:4</availability>
+			<model name='QUA-51P MilitiaMech'>
+				<availability>Periphery:2:3074,HL:0,PIR:3+:3074</availability>
 			</model>
-			<model name='QUA-51T'>
-				<availability>General:8</availability>
+			<model name='QUA-51T MilitiaMech'>
+				<availability>Periphery:8,PIR:8</availability>
 			</model>
 		</chassis>
 		<chassis name='Quetzalcoatl-Scout JumpShip' unitType='Jumpship'>
