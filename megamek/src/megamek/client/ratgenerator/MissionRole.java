@@ -290,6 +290,51 @@ public enum MissionRole {
     }
 
     /**
+     * Shortcut to check for combat units, excluding all non-combat support, civilian, and artillery units
+     * @param desiredRoles  Roles the unit should meet. This may be through exact matches or complementary roles.
+     * @param checkedModel  Data summary of unit to check
+     * @return {@code true} if unit is suitable for requested roles
+     */
+    public static boolean checkCombatRoles(Collection<MissionRole> desiredRoles, ModelRecord checkedModel) {
+
+    }
+
+
+    /**
+     * Determine if a specific unit meets the needs for one or more roles. Includes option to reject unit if
+     * they have an unacceptable role.
+     * @param desiredRoles  Roles the unit should meet. This may be through exact matches or complementary roles.
+     * @param excludedRoles Roles the unit should not have.
+     * @param checkedModel  Data summary of unit to check
+     * @return {@code true} if unit is suitable for requested roles
+     */
+    public static boolean checkRoles(Collection<MissionRole> desiredRoles,
+          Collection<MissionRole> excludedRoles,
+          ModelRecord checkedModel) {
+
+    }
+
+
+    /**
+     * Modify the availability value based on the roles and stats, compared to the requested roles.
+     * @param avRating
+     * @param desiredRoles
+     * @param checkedModel
+     * @param year
+     * @param strictness
+     * @return  Modified availability value, higher if better suited for role, lower if less suited. Values less
+     * than or equal to zero indicates unit is not suited.
+     */
+    public static double adjustAvailability(double avRating,
+          Collection<MissionRole> desiredRoles,
+          ModelRecord checkedModel,
+          int year,
+          int strictness) {
+
+    }
+
+
+    /**
      * Adjusts the provided availability rating based on desired roles, the roles the provided unit has, and other
      * factors such as unit type, movement speed, and weapon types.
      *
