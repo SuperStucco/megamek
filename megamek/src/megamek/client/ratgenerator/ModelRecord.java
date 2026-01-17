@@ -262,11 +262,10 @@ public class ModelRecord extends AbstractUnitRecord {
      * fire indirectly in ground combat; or reach long/extreme range in air or space combat. Complementary to
      * getSRProportion() - where one is high and the other is low, the unit is specialized for that range bracket. If
      * both values are similar the unit is well balanced between long and short ranged capabilities.
-     * TODO: rename for consistency and clarity
      *
      * @return between zero (none) and 1.0 (all weapons)
      */
-    public double getLongRange() {
+    public double getLRProportion() {
         return lrBVProportion;
     }
 
